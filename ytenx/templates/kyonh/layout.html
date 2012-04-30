@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="nav-header">檢索</li>
+      <li class="active"><a href="{% url kyonh.views.index_page %}">廣韻</a></li>
+      <li><a href="{% url kyonh.views.intro_page %}">介紹</a></li>
+      <li><a href="#">小韻檢索</a></li>
+      <li class="nav-header">聲</li>
+      <li><a href="#">聲母</a></li>
+      <li><a href="#">聲母擬音</a></li>
+      <li class="nav-header">韻</li>
+      <li><a href="#">韻目</a></li>
+      <li><a href="#">韻母</a></li>
+      <li><a href="#">韻母擬音</a></li>
+      <li class="nav-header">錄</li>
+      <li><a href="#">反切上字</a></li>
+      <li><a href="#">反切下字</a></li>
+      <li><a href="#">等韻圖</a></li>
+      <li><a href="#">澤存堂本</a></li>
+    </ul>
+  </div><!--/.well -->
+</div><!--/span-->
+<div class="span10">
+  {% block content %}
+  {% endblock %}
+</div><!--/span-->
+{% endblock %}

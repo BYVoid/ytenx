@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block caption %}{% block title %}{% endblock %} - 韻典網{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="BYVoid">
+    <meta content="{% block keywords %}{% endblock %}廣韻, 漢語, 中文, 切韻, 韻書, 字典, 平水韻, 古音, 方言" name="keywords" />
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/static/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">韻典網</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="{% url views.index_page %}">首頁</a></li>
+              <li><a href="{% url kyonh.views.index_page %}">廣韻</a></li>
+              <li><a href="">關於</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div style="text-align:center">
+        <form class="form-horizontal">
+          <input type="text" class="input span6">
+          <button class="btn btn-success" href="#">搜索</button>
+        </form>
+      </div><!--/row-->
+    
+      <div class="row-fluid">
+        {% block body %}
+        {% endblock %}
+      </div><!--/row-->
+
+      <hr>
+
+      <footer class="footer">
+        <p class="pull-right"><a href="http://www.byvoid.com/">BYVoid</a> Copyright 2012</p>
+        <p>
+          <a href="http://www.byvoid.com" target="_blank">
+          	<img src="/static/ico/byvoid.png" alt="BYVoid" width="30" height="30" /> 
+          </a>
+          <a href="http://www.djangoproject.com/" target="_blank">
+          	<img src="/static/ico/django.png" alt="Django" width="30" height="30"/>
+          </a>
+          <a href="http://www.python.org/" target="_blank">
+          	<img src="/static/ico/python.png" alt="Python" width="30" height="30"/>
+          </a>
+          <a href="http://www.sqlite.org/" target="_blank">
+          	<img src="/static/ico/sqlite.jpg" alt="SQLite" width="30" height="30"/>
+          </a>
+          <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          	<img src="/static/ico/valid-xhtml10.png"
+          	alt="Valid XHTML 1.0 Transitional" />
+          </a>
+        </p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{% extends "kyonh/layout.html" %}
+
+{% block title %}廣韻{% endblock %}
+{% block content %}
+<h1>歡迎使用「廣韻査詢系統」</h1>
+<p>「廣韻査詢系統」是一個簡單明晰的《廣韻》査詢工具，可以通過字、反切、聲母、韻目等多種方式査詢廣韻辭條、釋義及書影圖片，並可瀏覽聲母、韻目、反切字、等韻圖表。</p>
+<p>本系統中資料以《廣韻》澤存堂本爲底本，聲母和等韻分類依據「<a href="http://code.google.com/p/rhymedict/" target="_blank">rhymedict</a>」，並參照了「<a href="http://www.pkucn.com/viewthread.php?tid=175767&page=2" target="_blank">廣韻全字表</a>」，書影來自<a href="http://www.wul.waseda.ac.jp/" target="_blank">早稻田大學圖書館</a>。各種分析、擬音來自各家研究成果，有衝突的地方保持分列，儘可能少得參雜編者個人見解，保持中立性和客觀性。</p>
+
+
+<h2>我為什麼要做這個東西</h2>
+<p>音韻學，或者嚴格地說，漢語音韻學，是一門非常有趣的學問。研究音韻學不得不用到的一部書就是《廣韻》，然而對我這種不是專門研究中文的人來說，翻書一直是一件費勁的事。直到<a href="http://zh.wikipedia.org/zh-hk/User:Polyhedron">Polyhedron</a>和<a href="http://zh.wikipedia.org/zh-hk/User:Blankego">有女同車</a>的「<a href="http://www.pkucn.com/viewthread.php?tid=175767&amp;extra=&amp;page=2">廣韻全字表</a>」在北大中文論壇現身，檢索才變得容易。此後又有<a href="http://zh.wikipedia.org/zh-hk/User:Blankego">有女同車</a>先生做的「<a href="http://code.google.com/p/rhymedict/">rhymedict</a>」驚現網絡，引用一段<a href="http://zh.wikipedia.org/zh-hk/User:Blankego">有女同車</a>的話：</p>
+<blockquote><p>《廣韻》，全稱《大宋重修廣韻》，乃是一部由陳彭年、丘雍等主持編纂的大型韻書。是書紹承隋陸法言《切韻》和唐孫愐《唐韻》的體制，規模齊楚、薪傳整備，不單是一部堪稱楷模的古代語詞工具書，更是研學漢語音韻不可或缺的繼往開來承前啟後的瑰瑋寶典。總之，該書意義之重大不是三言兩語就能說得周致的，況且如此論題也不是我這末學後進所當置喙的，但是爲了表達小可對先賢前輩的敬意，對這字表母本的緣由來歷還是不得不說上兩句。說到字書、韻書同計算機的結合&mdash;&mdash;我看來一好似乾柴烈火始亂終棄&mdash;&mdash;不對，始亂是情非得以了，終棄卻是萬萬不可！大家都知道computer這西洋舶來的奇技淫巧一直以來對中華文字十分抗拒，但是，那句話怎麼說來著&mdash;&mdash;「造次必於斯、顚沛必於斯」，「有志者事竟成」&mdash;&mdash;本字表雖然歷經了前跋後疐般痛苦的分娩過程，終於還是睜開眸子同大家照面了。本字表最初的骨架（小韻字頭）由Polyhedron構築，字頭所領同音字的GBK部分由Zgheng塡充，Unicode CJK Ext A/B部分由有女同車補足。沒想到這麼一個不起眼的小玩藝也要動用三箇臭皮匠的心智和願力纔能夠完成。「世上事有難易乎」&mdash;&mdash;你不去做又怎能體味到期中的甘苦呢！</p></blockquote>
+<p>仰慕之餘，我也思考，為什麼不把這些優秀的資源整合起來呢？於是從2011年4月初，我開始了構造一個全能的廣韻查詢系統的計劃。數日以後，大功告成，希望能夠給大家帶來方便。</p>
+
+{% endblock %}
