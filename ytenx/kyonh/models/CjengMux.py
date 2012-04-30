@@ -16,9 +16,9 @@ class CjengLyih(models.Model):
 #聲母
 class CjengMux(models.Model):
   #代表字
-  dzih = models.CharField(max_length = 1, primary_key = True)
+  dzih = models.CharField(max_length = 1, unique = True)
   #聲類
-  lyih = models.ForeignKey(CjengLyih)
+  lyih = models.ForeignKey(CjengLyih, db_index = True)
   #擬音
   ngix = models.OneToOneField('NgixQim')
   #拼音

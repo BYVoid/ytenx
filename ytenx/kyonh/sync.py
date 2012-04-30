@@ -249,6 +249,7 @@ def syncYonhMiuk():
       deuh = line[2],
       tshiih = kuangxYonhMiukTshiihMap[line[3]]
     )
+    yonh.save()
     
     yonh.yonh.clear()
     for key in yonhMuxMap.keys():

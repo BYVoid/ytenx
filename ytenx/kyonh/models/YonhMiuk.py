@@ -6,7 +6,7 @@ from SieuxYonh import SieuxYonh
 #廣韻目次
 class KuangxYonhMiukTshiih(models.Model):
   #代表字
-  dzih = models.CharField(max_length = 1, primary_key = True)
+  dzih = models.CharField(max_length = 1, unique = True)
   #卷 上平 下平 上 去 入
   kyenh = models.CharField(max_length = 2)
   #廣韻韻目序號
@@ -21,7 +21,7 @@ class KuangxYonhMiukTshiih(models.Model):
 #韻目
 class YonhMiuk(models.Model):
   #代表字
-  dzih = models.CharField(max_length = 1, primary_key = True)
+  dzih = models.CharField(max_length = 1, unique = True)
   #所屬韻系
   gheh = models.ForeignKey('YonhGheh', db_index=True)
   #調

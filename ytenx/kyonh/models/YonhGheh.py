@@ -15,9 +15,9 @@ class YonhCjep(models.Model):
 #韻系
 class YonhGheh(models.Model):
   #代表字
-  dzih = models.CharField(max_length = 1, primary_key = True)
+  dzih = models.CharField(max_length = 1, unique = True)
   #攝
-  cjep = models.ForeignKey(YonhCjep)
+  cjep = models.ForeignKey(YonhCjep, db_index = True)
   
   class Meta:
     app_label = 'kyonh'
