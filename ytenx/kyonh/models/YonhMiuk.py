@@ -16,7 +16,7 @@ class KuangxYonhMiukTshiih(models.Model):
     app_label = 'kyonh'
   
   def __unicode__(self):
-      return self.kyenh + self.tshiih + self.dzih;
+      return self.kyenh + unicode(self.tshiih) + self.dzih;
 
 #韻目
 class YonhMiuk(models.Model):
@@ -35,7 +35,7 @@ class YonhMiuk(models.Model):
     app_label = 'kyonh'
   
   def __unicode__(self):
-      return self.character
+      return self.dzih
   
   #小韻
   def sieuxYonh(self):

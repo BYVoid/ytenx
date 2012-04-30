@@ -26,6 +26,9 @@ class SieuxYonh(models.Model):
   class Meta:
     app_label = 'kyonh'
 
+  def __unicode__(self):
+    return self.taj
+
   #字
   def dzih(self):
     return Dzih.objects.filter(sieuxYonh = self)

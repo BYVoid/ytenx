@@ -1,0 +1,160 @@
+{% extends "kyonh/layout.html" %}
+
+{% block title %}{{sieux_yonh}} - 小韻{% endblock %}
+{% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, {% endblock %}
+
+{% block content %}
+
+<div class="row-fluid">
+  <div class="span4">
+  <h1>{{sieux_yonh}}</h1>
+    <table class="table table-bordered">
+    	<tr>
+    	  <th>小韻</th>
+    	  <th>
+    	  	{{sieux_yonh}}
+    	  </th>
+    	</tr>
+    	<tr>
+    	  <td>序號</td>
+    	  <td>
+    	  	<a href="?s={{sieux_yonh.ziox}}">
+    	  		{{sieux_yonh.ziox}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>反切</td>
+    	  <td>
+    	  	{% if sieux_yonh.pyanx %}
+    	  		<a href="">{{sieux_yonh.pyanx.dciangx}}</a><a href="">{{sieux_yonh.pyanx.ghrax}}</a>
+    	  	{% else %}
+    	  		無
+    	  	{% endif %}
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>聲母</td>
+    	  <td>
+    	  	<a href="">
+    	  		{{sieux_yonh.cjeng}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻母</td>
+    	  <td>
+    	  	<a href="">
+    	  		{{sieux_yonh.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻目</td>
+    	  <td>
+    	  	<a href="">
+    	  		{{sieux_yonh.yonhMiuk}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>調</td>
+    	  <td>{{sieux_yonh.yonhMiuk.deuh}}聲</td>
+    	</tr>
+    	<tr>
+    	  <td>等</td>
+    	  <td>{{sieux_yonh.yonh.tongx}}等</td>
+    	</tr>
+    	<tr>
+    	  <td>呼</td>
+    	  <td>{{sieux_yonh.yonh.ho}}口</td>
+    	</tr>
+    	<tr>
+    	  <td>韻系</td>
+    	  <td>{{sieux_yonh.yonh.gheh}}</td>
+    	</tr>
+    	<tr>
+    	  <td>韻攝</td>
+    	  <td>{{sieux_yonh.yonh.gheh.cjep}}</td>
+    	</tr>
+    	<tr>
+    	  <td>廣韻目次</td>
+    	  <td>{{sieux_yonh.yonhMiuk.tshiih}}</td>
+    	</tr>
+    </table>
+  </div>
+  <div class="span4">
+    <h2>擬音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, ngix in sieux_yonh.ngix.items %}
+      {% if ngix %}
+        <tr>
+          <th>{{mjeng}}</th>
+          <td>{{ngix}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+    <h2>拼音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, preng in sieux_yonh.preng.items %}
+      {% if preng %}
+        <tr>
+          <th>{{mjeng}}</th>
+          <td>{{preng}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <h2>書影</h2>
+    <ul class="thumbnails">
+      {% for cio in sieux_yonh.cio.all %}
+        <li class="span4">
+          <a href="#" class="thumbnail">
+            <img src="http://placehold.it/360x280" alt="">
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span8">
+  <h2>字</h2>
+  {% for dzih in sieux_yonh.dzih %}
+    <div>
+      <table class="table table-condensed table-bordered">
+      	<tr>
+      	  <th width="96">字</th>
+      	  <th>{{dzih}}</th>
+      	</tr>
+      	<tr>
+      	  <td>序號</td>
+      	  <td>
+      	  	<a href="?s={{sieux_yonh.ziox}}">
+      	  		{{dzih.ziox}}
+      	  	</a>
+      	  </td>
+      	</tr>
+      	<tr>
+      	  <td>小韻中次序</td>
+      	  <td>{{dzih.yih}}</td>
+      	</tr>
+      	<tr>
+      	  <td>字義</td>
+      	  <td>{{dzih.ngieh}}</td>
+      	</tr>
+      </table>
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+

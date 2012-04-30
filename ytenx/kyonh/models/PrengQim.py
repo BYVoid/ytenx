@@ -11,3 +11,16 @@ class PrengQim(models.Model):
   
   class Meta:
     app_label = 'kyonh'
+
+  def keys(self):
+    return (
+      'thuaiDauh',
+      'polyhedron', 
+      'hiovNivv',
+    )
+
+  def items(self): 
+    for key in self.keys():
+      name = self._meta.get_field_by_name(key)[0].verbose_name
+      value = self.__dict__[key]
+      yield name, value
