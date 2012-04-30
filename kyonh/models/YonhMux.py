@@ -5,7 +5,7 @@ from SieuxYonh import SieuxYonh
 #韻母
 class YonhMux(models.Model):
   #韻母名稱
-  mjeng = models.CharField(max_length=3, unique=True)
+  mjeng = models.CharField(max_length=3, primary_key=True)
   #所屬韻系
   gheh = models.ForeignKey('YonhGheh', db_index=True)
   #等
@@ -15,11 +15,11 @@ class YonhMux(models.Model):
   #促舒
   tshyuk = models.BooleanField(db_index=True)
   #同位對立入聲/舒聲
-  tuaih = models.ForeignKey('YonhMux')
+  tuaih = models.OneToOneField('YonhMux', null=True)
   #擬音
-  ngix = models.ForeignKey('NgixQim')
+  ngix = models.OneToOneField('NgixQim')
   #拼音
-  preng = models.ForeignKey('PrengQim')
+  preng = models.OneToOneField('PrengQim')
   
   class Meta:
     app_label = 'kyonh'

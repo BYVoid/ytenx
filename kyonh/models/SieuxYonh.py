@@ -6,6 +6,8 @@ from Dzih import Dzih
 class SieuxYonh(models.Model):
   #小韻序號
   ziox = models.IntegerField(primary_key = True)
+  #代表字
+  taj = models.CharField(max_length = 1, db_index=True)
   #聲母
   cjeng = models.ForeignKey('CjengMux', db_index = True)
   #韻母
@@ -13,11 +15,11 @@ class SieuxYonh(models.Model):
   #韻目
   yonhMiuk = models.ForeignKey('YonhMiuk', db_index = True)
   #反切
-  pyanx = models.ForeignKey('PyanxTshet', null = True, db_index = True)
+  pyanx = models.ForeignKey('PyanxTshet', db_index = True, null = True)
   #擬音
-  ngix = models.ForeignKey('NgixQim')
+  ngix = models.OneToOneField('NgixQim')
   #拼音
-  preng = models.ForeignKey('PrengQim')
+  preng = models.OneToOneField('PrengQim')
   #書
   cio = models.ManyToManyField('Cio')
   

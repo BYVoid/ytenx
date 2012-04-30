@@ -3,6 +3,8 @@ from django.db import models
 
 #單字條目
 class Dzih(models.Model):
+  #序號
+  ziox = models.IntegerField(primary_key = True)
   #字
   dzih = models.CharField(max_length = 1, db_index=True)
   #小韻

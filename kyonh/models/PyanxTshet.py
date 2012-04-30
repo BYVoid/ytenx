@@ -4,7 +4,7 @@ from SieuxYonh import SieuxYonh
 
 #反切上字
 class DciangxDzih(models.Model):
-  dzih = models.CharField(max_length = 1, unique = True)
+  dzih = models.CharField(max_length = 1, primary_key = True)
   cjeng = models.ManyToManyField('CjengMux')
   
   class Meta:
@@ -23,7 +23,7 @@ class DciangxDzih(models.Model):
 
 #反切下字
 class GhraxDzih(models.Model):
-  dzih = models.CharField(max_length = 1, unique = True)
+  dzih = models.CharField(max_length = 1, primary_key = True)
   yonh = models.ManyToManyField('YonhMux')
   
   class Meta:
@@ -42,6 +42,8 @@ class GhraxDzih(models.Model):
 
 #反切
 class PyanxTshet(models.Model):
+  #反切
+  tshet = models.CharField(max_length = 2, primary_key = True)
   #反切上字
   dciangx = models.ForeignKey(DciangxDzih, db_index = True)
   #反切下字
@@ -49,7 +51,6 @@ class PyanxTshet(models.Model):
   
   class Meta:
     app_label = 'kyonh'
-    unique_together = (("dciangx", "ghrax"),)
   
   def __unicode__(self):
     return self.dciangx.dzih + self.ghrax.dzih

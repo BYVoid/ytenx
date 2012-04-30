@@ -3,6 +3,8 @@ from django.db import models
 
 #澤存堂本
 class DrakDzuonDang(models.Model):
+  #標識
+  identifier = models.CharField(primary_key=True, max_length=4)
   #卷
   kyenh = models.SmallIntegerField(db_index=True)
   #頁碼
@@ -13,8 +15,10 @@ class DrakDzuonDang(models.Model):
 
 #書
 class Cio(models.Model):
+  #標識
+  identifier = models.CharField(primary_key=True, max_length=4)
   #澤存堂本
-  drakDzuonDang = models.ForeignKey(DrakDzuonDang)
+  drakDzuonDang = models.OneToOneField(DrakDzuonDang)
   
   class Meta:
     app_label = 'kyonh'
