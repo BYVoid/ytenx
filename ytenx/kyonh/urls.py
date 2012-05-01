@@ -11,5 +11,6 @@ urlpatterns = patterns('',
   (r'^yonhmiuk$', 'ytenx.kyonh.views.yonh_miuk_list_page'),
   (r'^cjengngix$', 'ytenx.kyonh.views.cjeng_ngix_list_page'),
   (r'^yonhngix$', 'ytenx.kyonh.views.yonh_ngix_list_page'),
+  (r'^yonhdo$', 'ytenx.kyonh.views.yonh_do_page'),
   (r'^$', 'ytenx.kyonh.views.index_page'),
 )

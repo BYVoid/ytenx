@@ -39,7 +39,9 @@
       <li class="{% block kyonh_ghrax_dzih_active %}{% endblock %}">
         <a href="{% url kyonh.views.yonh_mux_list_page %}">反切下字</a>
       </li>
-      <li><a href="#">等韻圖</a></li>
+      <li class="{% block kyonh_yonh_do_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_do_page %}">等韻圖</a>
+      </li>
       <li><a href="#">澤存堂本</a></li>
     </ul>
   </div><!--/.well -->

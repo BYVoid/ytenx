@@ -1,0 +1,64 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_yonh_do_active %}active{% endblock %}
+{% block title %}等韻圖{% endblock %}
+{% block keywords %}等韻圖, 韻圖{% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">
+    <h1>等韻圖</h1>
+    {% include "pagination.html" with list=dzip_list only %}
+    <table class="table table-bordered table-condensed table-striped">
+    <tr>
+      <td rowspan="2" colspan="3">廣韻韻圖第{{dzip_list.number|sryoh}}</td>
+      {% for cjeng_lyih in cjeng_lyih_list %}
+          <td colspan="{{cjeng_lyih.cjengmux_set.all|length}}">
+            {{cjeng_lyih}}
+          </td>
+      {% endfor %}
+    </tr>
+    <tr>
+      {% for cjeng_lyih in cjeng_lyih_list %}
+        {% for cjeng in cjeng_lyih.cjengmux_set.all %}
+            <td>{{cjeng}}</td>
+          {% endfor %}
+      {% endfor %}
+    </tr>
+    {% for deuh_ghang in yonh_do %}
+      {% for ho_ghang in deuh_ghang.ho_ghang %}
+        {% for tongx_ghang in ho_ghang %}
+          <tr>
+            {% if forloop.counter == 1 and forloop.parentloop.counter == 1 %}
+              <td rowspan="8">
+                {% if deuh_ghang.miuk %}
+                  {{deuh_ghang.miuk}}
+                {% endif %}
+              </td>
+            {% endif %}
+            {% ifequal forloop.counter 1  %}
+              <td rowspan="4">
+                {% ifequal forloop.parentloop.counter 1  %}
+                  開
+                {% else %}
+                  合
+                {% endifequal %}
+              </td>
+            {% endifequal %}
+            <td>{{forloop.counter|sryoh}}</td>
+            {% for sieux in tongx_ghang %}
+              <td>
+                {% if sieux %}
+                  <a href="" title="{{sieux.pyanx}}切">{{sieux}}</a>
+                {% endif %}
+              </td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

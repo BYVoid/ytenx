@@ -62,3 +62,11 @@ class YonhMiukDzip(models.Model):
     if self.dciangx: return self.dciangx.gheh
     if self.khioh: return self.khioh.gheh
     return self.njip.gheh
+
+  #根據聲調獲取韻目
+  def get_by_deuh(self, deuh):
+    assert(deuh >=1 and deuh <= 4)
+    if deuh == 1: return self.bieng
+    if deuh == 2: return self.dciangx
+    if deuh == 3: return self.khioh
+    return self.njip
