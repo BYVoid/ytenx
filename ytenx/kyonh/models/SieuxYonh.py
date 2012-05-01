@@ -53,7 +53,6 @@ class SieuxYonhManager(models.Manager):
             if not sieux:
               sieux = None
             else:
-              print sieux
               #assert(len(sieux) == 1)
               sieux = sieux[0]
             sieux_ghang.append(sieux)

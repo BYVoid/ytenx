@@ -38,7 +38,7 @@ class YonhMuxManager(models.Manager):
 #韻母
 class YonhMux(models.Model):
   #韻母名稱
-  mjeng = models.CharField(max_length=3, unique = True)
+  mjeng = models.CharField(max_length=3, primary_key = True)
   #所屬韻系
   gheh = models.ForeignKey('YonhGheh', db_index=True)
   #等
