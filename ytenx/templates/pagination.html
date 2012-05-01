@@ -1,0 +1,49 @@
+<div class="pagination">
+  <ul>
+    {% if list.has_previous %}
+      <li>
+        <a href="?page={{list.previous_page_number}}">«</a>
+      </li>
+      <li>
+        <a href="?page=1">1</a>
+      </li>
+    {% else %}
+      {# 第一 #}
+      <li class="disabled">
+        <a href="">«</a>
+      </li>
+      <li class="active">
+        <a href="?page=1">1</a>
+      </li>
+    {% endif %}
+    {% if list.number <= 2 %}
+      {% if list.number = 2 %}
+        <li class="active">
+          <a href="?page=2">2</a>
+        </li>
+      {% endif %}
+    {% else %}
+      <li class="disabled"><a href="">...</a></li>
+      <li class="active">
+        <a href="?page={{list.number}}">{{list.number}}</a>
+      </li>
+    {% endif %}
+    {% if list.number|add:1 < list.paginator.num_pages %}
+      <li class="disabled"><a href="">...</a></li>
+    {% endif %}
+    {% if list.has_next %}
+      <li>
+        <a href="?page={{list.paginator.num_pages}}">
+          {{list.paginator.num_pages}}
+        </a>
+      </li>
+      <li>
+        <a href="?page={{list.next_page_number}}">»</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a href="">»</a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

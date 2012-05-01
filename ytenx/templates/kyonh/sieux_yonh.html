@@ -1,19 +1,20 @@
 {% extends "kyonh/layout.html" %}
-
+{% load ytenx %}
+{% block kyonh_sieux_yonh_active %}active{% endblock %}
 {% block title %}{{sieux_yonh}} - 小韻{% endblock %}
 {% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, {% endblock %}
 
 {% block content %}
 
-<div class="row-fluid">
+<div class="row">
   <div class="span4">
   <h1>{{sieux_yonh}}</h1>
     <table class="table table-bordered">
     	<tr>
-    	  <th>小韻</th>
-    	  <th>
+    	  <td>小韻</td>
+    	  <td>
     	  	{{sieux_yonh}}
-    	  </th>
+    	  </td>
     	</tr>
     	<tr>
     	  <td>序號</td>
@@ -59,15 +60,15 @@
     	</tr>
     	<tr>
     	  <td>調</td>
-    	  <td>{{sieux_yonh.yonhMiuk.deuh}}聲</td>
+    	  <td>{{sieux_yonh.yonhMiuk.deuh|deuh}}聲</td>
     	</tr>
     	<tr>
     	  <td>等</td>
-    	  <td>{{sieux_yonh.yonh.tongx}}等</td>
+    	  <td>{{sieux_yonh.yonh.tongx|sryoh}}等</td>
     	</tr>
     	<tr>
     	  <td>呼</td>
-    	  <td>{{sieux_yonh.yonh.ho}}口</td>
+    	  <td>{{sieux_yonh.yonh.ho|ho}}口</td>
     	</tr>
     	<tr>
     	  <td>韻系</td>
@@ -89,7 +90,7 @@
     {% for mjeng, ngix in sieux_yonh.ngix.items %}
       {% if ngix %}
         <tr>
-          <th>{{mjeng}}</th>
+          <td>{{mjeng}}</td>
           <td>{{ngix}}</td>
         </tr>
       {% endif %}
@@ -100,7 +101,7 @@
     {% for mjeng, preng in sieux_yonh.preng.items %}
       {% if preng %}
         <tr>
-          <th>{{mjeng}}</th>
+          <td>{{mjeng}}</td>
           <td>{{preng}}</td>
         </tr>
       {% endif %}
@@ -109,22 +110,27 @@
   </div>
 </div>
 
-<div class="row-fluid">
-  <div class="span12">
+<div class="row">
+  <div class="span8">
     <h2>書影</h2>
     <ul class="thumbnails">
       {% for cio in sieux_yonh.cio.all %}
-        <li class="span4">
-          <a href="#" class="thumbnail">
-            <img src="http://placehold.it/360x280" alt="">
-          </a>
+        <li class="span4" >
+          <div class="thumbnail">
+            <a href="#">
+              <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
+            </a>
+            <p>
+              廣韻澤存堂本第{{cio.drakDzuonDang.kyenh}}卷第{{cio.drakDzuonDang.jep}}䈎
+            </p>
+          </div>
         </li>
       {% endfor %}
     </ul>
   </div>
 </div>
 
-<div class="row-fluid">
+<div class="row">
   <div class="span8">
   <h2>字</h2>
   {% for dzih in sieux_yonh.dzih %}

@@ -118,6 +118,7 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+  'ytenx.filters',
   'ytenx.kyonh',
   #'django.contrib.auth',
   #'django.contrib.contenttypes',

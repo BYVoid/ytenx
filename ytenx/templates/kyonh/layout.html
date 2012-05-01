@@ -1,13 +1,19 @@
 {% extends "layout.html" %}
-
+{% block kyonh_active %}active{% endblock %}
 {% block body %}
 <div class="span2">
   <div class="well sidebar-nav">
     <ul class="nav nav-list">
       <li class="nav-header">檢索</li>
-      <li class="active"><a href="{% url kyonh.views.index_page %}">廣韻</a></li>
-      <li><a href="{% url kyonh.views.intro_page %}">介紹</a></li>
-      <li><a href="#">小韻檢索</a></li>
+      <li class="{% block kyonh_index_active %}{% endblock %}">
+        <a href="{% url kyonh.views.index_page %}">廣韻</a>
+      </li>
+      <li class="{% block kyonh_intro_active %}{% endblock %}">
+        <a href="{% url kyonh.views.intro_page %}">介紹</a>
+      </li>
+      <li class="{% block kyonh_sieux_yonh_active %}{% endblock %}">
+        <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻檢索</a>
+      </li>
       <li class="nav-header">聲</li>
       <li><a href="#">聲母</a></li>
       <li><a href="#">聲母擬音</a></li>

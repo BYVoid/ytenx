@@ -12,6 +12,9 @@ class DrakDzuonDang(models.Model):
   
   class Meta:
     app_label = 'kyonh'
+  
+  def __unicode__(self):
+    return '%03d' % self.jep
 
 #書
 class Cio(models.Model):
