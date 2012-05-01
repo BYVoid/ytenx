@@ -1,0 +1,34 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_cjeng_ngix_active %}active{% endblock %}
+{% block title %}聲母擬音{% endblock %}
+{% block keywords %}聲母, 擬音, 聲母擬音, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">
+    <h1>聲母擬音</h1>
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>聲母</th>
+        {% for mjeng, qim in cjeng_mux_list.0.ngix.items %}
+          {% if qim %}
+            <th>{{mjeng}}</th>
+          {% endif %}
+        {% endfor %}
+      </tr>
+      {% for cjeng in cjeng_mux_list %}
+      <tr>
+        <td>{{cjeng}}</td>
+        {% for mjeng, qim in cjeng.ngix.items %}
+          {% if qim %}
+            <td><ipa>{{qim}}</ipa></td>
+          {% endif %}
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

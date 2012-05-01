@@ -1,0 +1,64 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_yonh_ngix_active %}active{% endblock %}
+{% block title %}韻母擬音{% endblock %}
+{% block keywords %}韻母, 擬音, 韻母擬音, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">
+    <h1>韻母擬音</h1>
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>韻系</th>
+        <th>韻母</th>
+        {% for mjeng, qim in yonh_mux_list.0.cio.ngix.items %}
+          {% if qim %}
+            <th>{{mjeng}}</th>
+          {% endif %}
+        {% endfor %}
+        <th>韻母</th>
+        {% for mjeng, qim in yonh_mux_list.0.cio.ngix.items %}
+          {% if qim %}
+            <th>{{mjeng}}</th>
+          {% endif %}
+        {% endfor %}
+      </tr>
+      {% for yonh in yonh_mux_list %}
+      <tr>
+        <td>{{yonh.gheh}}</td>
+        <td>{{yonh.cio}}</td>
+        {% if yonh.cio%}
+          {% for mjeng, qim in yonh.cio.ngix.items %}
+            {% if qim %}
+              <td><ipa>{{qim}}</ipa></td>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% for mjeng, qim in yonh_mux_list.0.cio.ngix.items %}
+            {% if qim %}
+              <td></td>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <td>{{yonh.tshyuk}}</td>
+        {% if yonh.tshyuk%}
+          {% for mjeng, qim in yonh.tshyuk.ngix.items %}
+            {% if qim %}
+              <td><ipa>{{qim}}</ipa></td>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% for mjeng, qim in yonh_mux_list.0.cio.ngix.items %}
+            {% if qim %}
+              <td></td>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

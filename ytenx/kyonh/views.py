@@ -47,3 +47,12 @@ def yonh_miuk_list_page(request):
     'yonh_miuk_list': YonhMiukDzip.objects.all(),
   })
 
+def cjeng_ngix_list_page(request):
+  return render_to_response('kyonh/cjeng_ngix_list.html', {
+    'cjeng_mux_list': CjengMux.objects.all(),
+  })
+
+def yonh_ngix_list_page(request):
+  return render_to_response('kyonh/yonh_ngix_list.html', {
+    'yonh_mux_list': YonhMux.objects.get_pairs(),
+  })
