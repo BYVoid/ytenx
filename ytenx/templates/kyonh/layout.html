@@ -15,7 +15,9 @@
         <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻檢索</a>
       </li>
       <li class="nav-header">聲</li>
-      <li><a href="#">聲母</a></li>
+      <li class="{% block kyonh_cjeng_mux_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cjeng_mux_list_page %}">聲母</a>
+      </li>
       <li><a href="#">聲母擬音</a></li>
       <li class="nav-header">韻</li>
       <li><a href="#">韻目</a></li>
@@ -24,7 +26,9 @@
       </li>
       <li><a href="#">韻母擬音</a></li>
       <li class="nav-header">錄</li>
-      <li><a href="#">反切上字</a></li>
+      <li class="{% block kyonh_dciangx_dzih_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cjeng_mux_list_page %}">反切上字</a>
+      </li>
       <li class="{% block kyonh_ghrax_dzih_active %}{% endblock %}">
         <a href="{% url kyonh.views.yonh_mux_list_page %}">反切下字</a>
       </li>

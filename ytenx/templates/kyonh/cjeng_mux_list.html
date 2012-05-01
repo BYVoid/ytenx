@@ -1,0 +1,32 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_cjeng_mux_active %}active{% endblock %}
+{% block kyonh_dciangx_dzih_active %}active{% endblock %}
+{% block title %}聲母及反切上字{% endblock %}
+{% block keywords %}聲母, 反切上字, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">      
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>類</th>
+        <th>聲母</th>
+        <th>反切上字</th>
+      </tr>
+      {% for cjeng in cjeng_mux_list %}
+      <tr>
+        <td>{{cjeng.lyih}}</td>
+        <td>{{cjeng.dzih}}</td>
+        <td>
+          {% for dciangx in cjeng.dciangxdzih_set.all %}
+            {{dciangx}}
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+
