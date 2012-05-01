@@ -16,7 +16,8 @@ class KuangxYonhMiukTshiih(models.Model):
     app_label = 'kyonh'
   
   def __unicode__(self):
-      return self.kyenh + unicode(self.tshiih) + self.dzih;
+    from ytenx.filters.templatetags.ytenx import sryoh
+    return self.kyenh + sryoh(unicode(self.tshiih)) + self.dzih;
 
 #韻目
 class YonhMiuk(models.Model):
@@ -39,4 +40,25 @@ class YonhMiuk(models.Model):
   
   #小韻
   def sieuxYonh(self):
-      return SieuxYonh.objects.filter(yonh=self)
+    return SieuxYonh.objects.filter(yonh=self)
+
+#韻目集合
+class YonhMiukDzip(models.Model):
+  #平
+  bieng = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  #上
+  dciangx = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  #去
+  khioh = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  #入
+  njip = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+
+  class Meta:
+    app_label = 'kyonh'
+
+  #韻系
+  def gheh(self):
+    if self.bieng: return self.bieng.gheh
+    if self.dciangx: return self.dciangx.gheh
+    if self.khioh: return self.khioh.gheh
+    return self.njip.gheh

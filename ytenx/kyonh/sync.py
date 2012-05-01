@@ -34,6 +34,7 @@ def sync(request):
   syncPyanxTshet()
   syncKuangxYonhMiukTshiih()
   syncYonhMiuk()
+  syncYonhMiukDzip()
   syncDrakDzuonDang()
   syncCio()
   syncSieuxYonh()
@@ -261,6 +262,20 @@ def syncYonhMiuk():
     yonhMiukMap[line[0]] = yonh
   
   traverse('YonhMiuk.txt', sync)
+  print 'Done'
+
+def syncYonhMiukDzip():
+  print 'YonhMiukDzip...'
+  
+  def sync(line, num):
+    dzip = YonhMiukDzip()
+    if line[0]: dzip.bieng = yonhMiukMap[line[0]]
+    if line[1]: dzip.dciangx = yonhMiukMap[line[1]]
+    if line[2]: dzip.khioh = yonhMiukMap[line[2]]
+    if line[3]: dzip.njip = yonhMiukMap[line[3]]
+    dzip.save()
+  
+  traverse('YonhMiukDzip.txt', sync)
   print 'Done'
 
 def syncDrakDzuonDang():

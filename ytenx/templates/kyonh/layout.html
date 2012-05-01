@@ -20,7 +20,9 @@
       </li>
       <li><a href="#">聲母擬音</a></li>
       <li class="nav-header">韻</li>
-      <li><a href="#">韻目</a></li>
+      <li class="{% block kyonh_yonh_miuk_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_miuk_list_page %}">韻目</a>
+      </li>
       <li class="{% block kyonh_yonh_mux_active %}{% endblock %}">
         <a href="{% url kyonh.views.yonh_mux_list_page %}">韻母</a>
       </li>
