@@ -19,11 +19,15 @@
       <li><a href="#">聲母擬音</a></li>
       <li class="nav-header">韻</li>
       <li><a href="#">韻目</a></li>
-      <li><a href="#">韻母</a></li>
+      <li class="{% block kyonh_yonh_mux_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_mux_list_page %}">韻母</a>
+      </li>
       <li><a href="#">韻母擬音</a></li>
       <li class="nav-header">錄</li>
       <li><a href="#">反切上字</a></li>
-      <li><a href="#">反切下字</a></li>
+      <li class="{% block kyonh_ghrax_dzih_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_mux_list_page %}">反切下字</a>
+      </li>
       <li><a href="#">等韻圖</a></li>
       <li><a href="#">澤存堂本</a></li>
     </ul>

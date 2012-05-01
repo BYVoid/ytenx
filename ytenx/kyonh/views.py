@@ -1,7 +1,7 @@
 # coding=utf-8
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh
+from models import SieuxYonh, YonhMux
 
 def index_page(request):
   return render_to_response('kyonh/index.html')
@@ -30,4 +30,9 @@ def sieux_yonh_list_page(request):
     raise Http404()
   return render_to_response('kyonh/sieux_yonh_list.html', {
     'sieux_yonh_list': sieux_yonh_list,
+  })
+
+def yonh_mux_list_page(request):
+  return render_to_response('kyonh/yonh_mux_list.html', {
+    'yonh_mux_list': YonhMux.objects.get_pairs(),
   })

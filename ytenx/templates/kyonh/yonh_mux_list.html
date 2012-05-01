@@ -1,0 +1,46 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_yonh_mux_active %}active{% endblock %}
+{% block kyonh_ghrax_dzih_active %}active{% endblock %}
+{% block title %}韻母及反切下字{% endblock %}
+{% block keywords %}韻母, 反切下字, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">      
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>攝</th>
+        <th>韻系</th>
+        <th>等</th>
+        <th>呼</th>
+        <th>韻母</th>
+        <th>反切下字</th>
+        <th>韻母</th>
+        <th>反切下字</th>
+      </tr>
+      {% for item in yonh_mux_list %}
+      <tr>
+        <td>{{item.gheh.cjep}}</td>
+        <td>{{item.gheh}}</td>
+        <td>{{item.tongx|sryoh}}</td>
+        <td>{{item.ho|ho}}</td>
+        <td>{{item.cio}}</td>
+        <td>
+          {% for yonh_miuk in item.cio.ghraxdzih_set.all %}
+            {{yonh_miuk}}
+          {% endfor %}
+        </td>
+        <td>{{item.tshyuk}}</td>
+        <td>
+          {% for yonh_miuk in item.tshyuk.ghraxdzih_set.all %}
+            {{yonh_miuk}}
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

@@ -2,6 +2,39 @@
 from django.db import models
 from SieuxYonh import SieuxYonh
 
+class YonhMuxManager(models.Manager):
+  #獲取舒入配合表
+  def get_pairs(self):
+    yonh_mux_list = []
+    traversed = {}
+    
+    for yonh in self.all():
+      if traversed.has_key(yonh.mjeng): continue
+      traversed[yonh.mjeng] = True
+      item = {
+        'gheh': yonh.gheh,
+        'tongx': yonh.tongx,
+        'ho': yonh.ho,
+        'cio': None,
+        'tshyuk': None,
+      }
+  
+      tuaih = ''
+      if yonh.tuaih:
+        tuaih = yonh.tuaih
+        traversed[yonh.tuaih.mjeng] = True
+      
+      if not yonh.tshyuk:
+        item['cio'] = yonh
+        item['tshyuk'] = tuaih
+      else:
+        item['tshyuk'] = yonh
+        item['cio'] = tuaih
+      
+      yonh_mux_list.append(item)
+    
+    return yonh_mux_list
+
 #韻母
 class YonhMux(models.Model):
   #韻母名稱
@@ -21,6 +54,8 @@ class YonhMux(models.Model):
   #拼音
   preng = models.OneToOneField('PrengQim')
   
+  objects = YonhMuxManager()
+  
   class Meta:
     app_label = 'kyonh'
   
@@ -29,4 +64,4 @@ class YonhMux(models.Model):
 
   #小韻
   def sieuxYonh(self):
-      return SieuxYonh.objects.filter(yonh=self)
+    return SieuxYonh.objects.filter(yonh=self)
