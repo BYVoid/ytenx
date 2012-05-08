@@ -87,6 +87,12 @@ def syncSieux():
     dzihDzip = line[11]
     koxDzip = line[12]
     jitDzip = line[13]
+    if len(dzihDzip) >= 1:
+      taj = dzihDzip[0]
+    elif len(jitDzip) >= 1:
+      taj = jitDzip[0]
+    else:
+      taj = koxDzip[0]
     
     if not miukMap.has_key(miuk):
       syncMiuk(miuk, buxnum, deuh)
@@ -96,7 +102,7 @@ def syncSieux():
     
     sieux = SieuxYonh(
       ziox = ziox,
-      taj = dzihDzip[0],
+      taj = taj,
       yonhMiuk = miuk,
       pyanx = pyanx,
     )
