@@ -2,7 +2,7 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh
+from models import SieuxYonh, YonhBux, YonhMiuk
 
 def index_page(request):
   return render_to_response('tcenghyonhtsen/index.html')
@@ -28,3 +28,17 @@ def sieux_yonh_list_page(request):
   return render_to_response('tcenghyonhtsen/sieux_yonh_list.html', {
     'sieux_yonh_list': sieux_yonh_list,
   })
+
+def yonh_miuk_list_page(request):
+  return render_to_response('tcenghyonhtsen/yonh_miuk_list.html', {
+    'yonh_bux_list': YonhBux.objects.all(),
+  })
+
+def yonh_miuk_page(request, mjeng):
+  yonh_miuk = YonhMiuk.objects.get(dzih = mjeng)
+
+  return render_to_response('tcenghyonhtsen/yonh_miuk.html', {
+    'yonh_miuk': yonh_miuk,
+  })
+
+

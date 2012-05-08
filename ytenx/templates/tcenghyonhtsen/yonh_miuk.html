@@ -1,0 +1,28 @@
+{% extends "tcenghyonhtsen/layout.html" %}
+{% load ytenx %}
+{% block tcenghyonhtsen_yonh_miuk_active %}active{% endblock %}
+{% block title %}{{yonh_miuk}} - 韻目{% endblock %}
+{% block keywords %}{{yonh_miuk}}, 韻目, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span6">
+    <h1>韻目 {{yonh_miuk}}</h1>
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>韻部</th>
+        <td>{{yonh_miuk.bux}}</td>
+      </tr>
+      <tr>
+        <th>聲調</th>
+        <td>{{yonh_miuk.deuh|deuh}}</td>
+      </tr>
+    </table>
+    <h2>小韻</h2>
+    {% for sieux in yonh_miuk.sieuxyonh_set.all %}
+      <a href="{% url tcenghyonhtsen.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+

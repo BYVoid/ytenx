@@ -1,0 +1,42 @@
+{% extends "tcenghyonhtsen/layout.html" %}
+{% load ytenx %}
+{% block tcenghyonhtsen_yonh_miuk_active %}active{% endblock %}
+{% block title %}韻目{% endblock %}
+{% block keywords %}韻目, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span6">
+    <h1>韻目</h1>
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>韻部</th>
+        <th>平</th>
+        <th>上</th>
+        <th>去</th>
+        <th>入</th>
+      </tr>
+      {% for bux in yonh_bux_list %}
+      <tr>
+        <td>{{bux}}部</td>
+        <td>
+          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.bieng.dzih %}">{{bux.miuk.bieng}}</a>
+        </td>
+        <td>
+          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.dciangx.dzih %}">{{bux.miuk.dciangx}}</a>
+        </td>
+        <td>
+          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.khioh.dzih %}">{{bux.miuk.khioh}}</a>
+        </td>
+        <td>
+          {% if bux.miuk.njip %}
+            <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.njip.dzih %}">{{bux.miuk.njip}}</a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

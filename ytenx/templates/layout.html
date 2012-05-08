@@ -52,7 +52,10 @@
                 <a href="{% url tcenghyonhtsen.views.index_page %}">洪武正韻牋</a>
               </li>
               <li class="{% block about_active %}{% endblock %}">
-                <a href="">關於</a>
+                <a href="{% url views.about_page %}">關於</a>
+              </li>
+              <li>
+                <a href="http://appendix.ytenx.org/" target="_blank">附錄</a>
               </li>
             </ul>
           </div><!--/.nav-collapse -->

@@ -12,9 +12,9 @@ class YonhBux(models.Model):
   def __unicode__(self):
     return self.dzih;
   
-  def dzip(self):
+  def miuk(self):
     dzip = {}
-    for yonh in self.bux_set:
+    for yonh in self.yonhmiuk_set.all():
       if yonh.deuh == 1:
         dzip['bieng'] = yonh
       elif yonh.deuh == 2:
