@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block tcenghyonhtsen_active %}active{% endblock %}
+{% block body %}
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="nav-header">檢索</li>
+      <li class="{% block tcenghyonhtsen_index_active %}{% endblock %}">
+        <a href="{% url tcenghyonhtsen.views.index_page %}">洪武正韻牋</a>
+      </li>
+      <li class="{% block kyonh_intro_active %}{% endblock %}">
+        <a href="{% url kyonh.views.intro_page %}">介紹</a>
+      </li>
+      <li class="{% block kyonh_sieux_yonh_active %}{% endblock %}">
+        <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻檢索</a>
+      </li>
+      <li class="nav-header">聲</li>
+      <li class="{% block kyonh_cjeng_mux_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cjeng_mux_list_page %}">聲母</a>
+      </li>
+      <li class="nav-header">韻</li>
+      <li class="{% block kyonh_yonh_miuk_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_miuk_list_page %}">韻目</a>
+      </li>
+      <li class="{% block kyonh_yonh_mux_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_mux_list_page %}">韻母</a>
+      </li>
+      <li class="nav-header">擬</li>
+      <li class="{% block kyonh_cjeng_ngix_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cjeng_ngix_list_page %}">聲母擬音</a>
+      </li>
+      <li class="{% block kyonh_yonh_ngix_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_ngix_list_page %}">韻母擬音</a>
+      </li>
+      <li class="nav-header">錄</li>
+      <li class="{% block kyonh_dciangx_dzih_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cjeng_mux_list_page %}">反切上字</a>
+      </li>
+      <li class="{% block kyonh_ghrax_dzih_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_mux_list_page %}">反切下字</a>
+      </li>
+      <li class="{% block kyonh_yonh_do_active %}{% endblock %}">
+        <a href="{% url kyonh.views.yonh_do_page %}" target="_blank">等韻圖</a>
+      </li>
+      <li><a href="#">澤存堂本</a></li>
+    </ul>
+  </div><!--/.well -->
+</div><!--/span-->
+<div class="span10">
+  {% block content %}
+  {% endblock %}
+</div><!--/span-->
+{% endblock %}
