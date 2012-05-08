@@ -3,8 +3,10 @@ from django.db import models
 
 #韻部
 class YonhBux(models.Model):
+  #序號
+  ziox = models.IntegerField(primary_key = True)
   #代表字
-  dzih = models.CharField(max_length = 2, primary_key = True)
+  dzih = models.CharField(max_length = 2, unique = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'

@@ -3,7 +3,6 @@ from django.http import HttpResponse
 from models import *
 
 basePath = './ytenx/tcenghyonhtsen/data/'
-buxMap = {}
 miukMap = {}
 deuhMap = {
   u'平':1,
@@ -16,8 +15,10 @@ ghraxMap = {}
 dzihZiox = 1
 koxZiox = 1
 jitZiox = 1
+njipZiox = 1
 
 def sync(request):
+  syncYonhMiuk()
   syncSieux()
   return HttpResponse('Done.\n')
 
@@ -31,23 +32,37 @@ def traverse(filename, callback):
     callback(line, num)
     num += 1
 
-def syncMiuk(miuk, buxnum, deuh):
-  #韻部
-  if buxMap.has_key(buxnum):
-    bux = buxMap[buxnum]
-  else:
-    bux = YonhBux(dzih = miuk)
+def syncYonhMiuk():
+  print 'YonhMiuk...'
+
+  def sync(line, num):
+    global njipZiox
+    ziox = num + 1
+    #韻部
+    bux = YonhBux(
+      ziox = ziox,
+      dzih = line[0][0],
+    )
     bux.save()
-    buxMap[buxnum] = bux
-  
-  #韻目
-  miuk = YonhMiuk(
-    dzih = miuk,
-    bux = bux,
-    deuh = deuh,
-  )
-  miuk.save()
-  miukMap[miuk.dzih] = miuk
+    #韻目
+    for i in range(1, 5):
+      miuk = line[i]
+      if not miuk: continue
+      miuk = YonhMiuk(
+        dzih = miuk,
+        bux = bux,
+        deuh = i,
+        ziox = ziox,
+      )
+      #入聲
+      if i == 4:
+        miuk.ziox = njipZiox
+        njipZiox += 1
+      miuk.save()
+      miukMap[miuk.dzih] = miuk
+
+  traverse('YonhMiuk.txt', sync)
+  print 'Done'
 
 def syncPyanx(dciangx, ghrax):
   if (not ghrax) or (not ghrax):
@@ -97,10 +112,7 @@ def syncSieux():
     else:
       taj = koxDzip[0]
     
-    if not miukMap.has_key(miuk):
-      syncMiuk(miuk, buxnum, deuh)
     miuk = miukMap[miuk]
-    
     pyanx = syncPyanx(dciangx, ghrax)
     
     sieux = SieuxYonh(

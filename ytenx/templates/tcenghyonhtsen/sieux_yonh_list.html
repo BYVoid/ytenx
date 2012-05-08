@@ -22,9 +22,7 @@
           <a href="{% url tcenghyonhtsen.views.sieux_yonh_page sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
         </td>
     	  <td>
-    	  	<a href="">
-    	  		{{sieux_yonh.yonhMiuk}}
-    	  	</a>
+    	  	<a href="{% url tcenghyonhtsen.views.yonh_miuk_page sieux_yonh.yonhMiuk.dzih %}">{{sieux_yonh.yonhMiuk}}</a>
     	  </td>
         <td>
     	  	{% if sieux_yonh.pyanx %}

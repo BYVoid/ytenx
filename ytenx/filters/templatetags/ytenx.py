@@ -3,20 +3,35 @@ from django import template
 
 register = template.Library()
 
+num_map = {
+  '1': u'一',
+  '2': u'二',
+  '3': u'三',
+  '4': u'四',
+  '5': u'五',
+  '6': u'六',
+  '7': u'七',
+  '8': u'八',
+  '9': u'九',
+  '0': u'零',
+  '10': u'十',
+}
+
 @register.filter
 def sryoh(value):
   value = str(value)
-  value = value.replace('1', u'一')
-  value = value.replace('2', u'二')
-  value = value.replace('3', u'三')
-  value = value.replace('4', u'四')
-  value = value.replace('5', u'五')
-  value = value.replace('6', u'六')
-  value = value.replace('7', u'七')
-  value = value.replace('8', u'八')
-  value = value.replace('9', u'九')
-  value = value.replace('0', u'零')
-  return value
+  res = ''
+  for i in range(0, len(value)):
+    pos = len(value) - i
+    c = value[i]
+    res += num_map[c]
+    if pos == 1 and c == '0' and len(value) > 1:
+      res = res[:-1]
+    if pos == 2:
+      if c == '1':
+        res = res[:-1]
+      res += num_map['10']
+  return res
 
 @register.filter
 def deuh(value):
