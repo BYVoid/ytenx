@@ -30,6 +30,7 @@ def traverse(filename, callback):
     line = line.split(' ')
     callback(line, num)
     num += 1
+    break
 
 def syncMiuk(miuk, buxnum, deuh):
   #韻部
@@ -84,9 +85,9 @@ def syncSieux():
     deuh = deuhMap[line[3]]
     dciangx = line[5]
     ghrax = line[6]
-    dzihDzip = line[10]
-    koxDzip = line[11]
-    jitDzip = line[12]
+    dzihDzip = line[11]
+    koxDzip = line[12]
+    jitDzip = line[13]
     
     if not miukMap.has_key(miuk):
       syncMiuk(miuk, buxnum, deuh)

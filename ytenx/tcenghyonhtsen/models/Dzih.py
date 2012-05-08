@@ -19,11 +19,31 @@ class Dzih(models.Model):
     return self.dzih
 
 #古音
-class KoxQim(Dzih):
+class KoxQim(models.Model):
+  #序號
+  ziox = models.IntegerField(primary_key = True)
+  #字
+  dzih = models.CharField(max_length = 1, db_index = True)
+  #小韻
+  sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  
   class Meta:
     app_label = 'tcenghyonhtsen'
+  
+  def __unicode__(self):
+    return self.dzih
 
 #逸字
-class JitDzih(Dzih):
+class JitDzih(models.Model):
+  #序號
+  ziox = models.IntegerField(primary_key = True)
+  #字
+  dzih = models.CharField(max_length = 1, db_index = True)
+  #小韻
+  sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  
   class Meta:
     app_label = 'tcenghyonhtsen'
+  
+  def __unicode__(self):
+    return self.dzih
