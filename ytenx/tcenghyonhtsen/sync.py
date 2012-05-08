@@ -50,6 +50,9 @@ def syncMiuk(miuk, buxnum, deuh):
   miukMap[miuk.dzih] = miuk
 
 def syncPyanx(dciangx, ghrax):
+  if (not ghrax) or (not ghrax):
+    return None
+
   #反切上字
   if dciangxMap.has_key(dciangx):
     dciangx = dciangxMap[dciangx]
