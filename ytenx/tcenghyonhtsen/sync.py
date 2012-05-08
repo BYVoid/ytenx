@@ -30,7 +30,6 @@ def traverse(filename, callback):
     line = line.split(' ')
     callback(line, num)
     num += 1
-    break
 
 def syncMiuk(miuk, buxnum, deuh):
   #韻部
