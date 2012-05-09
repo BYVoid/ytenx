@@ -11,6 +11,8 @@ class SieuxYonh(models.Model):
   yonhMiuk = models.ForeignKey('YonhMiuk', db_index = True)
   #反切
   pyanx = models.ForeignKey('PyanxTshet', db_index = True, null = True)
+  #書頁
+  cio = models.ManyToManyField('Cio');
   
   class Meta:
     app_label = 'tcenghyonhtsen'

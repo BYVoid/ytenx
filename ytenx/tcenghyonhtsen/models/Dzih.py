@@ -11,6 +11,8 @@ class Dzih(models.Model):
   yih = models.IntegerField(db_index = True, null = True)
   #小韻
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  #書頁
+  cio = models.ManyToManyField('Cio');
   
   class Meta:
     app_label = 'tcenghyonhtsen'
@@ -26,6 +28,8 @@ class KoxQim(models.Model):
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  #書頁
+  cio = models.ManyToManyField('Cio');
   
   class Meta:
     app_label = 'tcenghyonhtsen'
@@ -41,6 +45,8 @@ class JitDzih(models.Model):
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  #書頁
+  cio = models.ManyToManyField('Cio');
   
   class Meta:
     app_label = 'tcenghyonhtsen'
