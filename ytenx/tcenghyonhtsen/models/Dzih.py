@@ -7,8 +7,6 @@ class Dzih(models.Model):
   ziox = models.IntegerField(primary_key = True)
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
-  #小韻中位置
-  yih = models.IntegerField(db_index = True, null = True)
   #小韻
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
   #書頁

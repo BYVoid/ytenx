@@ -12,14 +12,16 @@ deuhMap = {
 }
 dciangxMap = {}
 ghraxMap = {}
-dzihZiox = 1
-koxZiox = 1
-jitZiox = 1
+sieuxMap = {}
 njipZiox = 1
 
 def sync(request):
   syncYonhMiuk()
   syncSieux()
+  syncDzih()
+  syncKoxQim()
+  syncJitDzih()
+  syncSieuxCio()
   return HttpResponse('Done.\n')
 
 def traverse(filename, callback):
@@ -97,20 +99,10 @@ def syncSieux():
   
   def sync(line, num):
     ziox = line[0]
-    miuk = line[1][-1]
-    buxnum = line[2]
-    deuh = deuhMap[line[3]]
-    dciangx = line[5]
-    ghrax = line[6]
-    dzihDzip = line[11]
-    koxDzip = line[12]
-    jitDzip = line[13]
-    if len(dzihDzip) >= 1:
-      taj = dzihDzip[0]
-    elif len(jitDzip) >= 1:
-      taj = jitDzip[0]
-    else:
-      taj = koxDzip[0]
+    taj = line[1]
+    miuk = line[2]
+    dciangx = line[3]
+    ghrax = line[4]
     
     miuk = miukMap[miuk]
     pyanx = syncPyanx(dciangx, ghrax)
@@ -122,40 +114,123 @@ def syncSieux():
       pyanx = pyanx,
     )
     sieux.save()
-    
-    yih = 1
-    global dzihZiox
-    for dzih in dzihDzip:
-      dzih = Dzih(
-        ziox = dzihZiox,
-        dzih = dzih,
-        yih = yih,
-        sieux = sieux,
-      )
-      dzih.save()
-      dzihZiox += 1
-      yih += 1
-    
-    global koxZiox
-    for dzih in koxDzip:
-      dzih = KoxQim(
-        ziox = koxZiox,
-        dzih = dzih,
-        sieux = sieux,
-      )
-      dzih.save()
-      koxZiox += 1
-    
-    global jitZiox
-    for dzih in jitDzip:
-      dzih = JitDzih(
-        ziox = jitZiox,
-        dzih = dzih,
-        sieux = sieux,
-      )
-      dzih.save()
-      jitZiox += 1
+    sieuxMap[ziox] = sieux
   
-  traverse('tcenghyonhtsen.txt', sync)
+  traverse('SieuxYonh.txt', sync)
   print 'Done'
 
+def syncDzih():
+  print 'Dzih...'
+  
+  def sync(line, num):
+    ziox = line[0]
+    dzih = line[1]
+    sieux = sieuxMap[line[2]]
+    jeps = line[3]
+
+    dzih = Dzih(
+      ziox = ziox,
+      dzih = dzih,
+      sieux = sieux,
+    )
+    
+    kyenh = unicode(sieux.deuh())
+    
+    for jep in jeps.split('/'):
+      cio = Cio(
+        identifier = kyenh + jep,
+        kyenh = kyenh,
+        jep = jep,
+      )
+      cio.save()
+      dzih.cio.add(cio)
+    dzih.save()
+
+  
+  traverse('Dzih.txt', sync)
+  print 'Done'
+
+def syncKoxQim():
+  print 'KoxQim...'
+  
+  def sync(line, num):
+    ziox = line[0]
+    dzih = line[1]
+    sieux = sieuxMap[line[2]]
+    jeps = line[3]
+
+    dzih = KoxQim(
+      ziox = ziox,
+      dzih = dzih,
+      sieux = sieux,
+    )
+    
+    kyenh = unicode(sieux.deuh())
+    
+    for jep in jeps.split('/'):
+      cio = Cio(
+        identifier = kyenh + jep,
+        kyenh = kyenh,
+        jep = jep,
+      )
+      cio.save()
+      dzih.cio.add(cio)
+    dzih.save()
+
+  
+  traverse('KoxQim.txt', sync)
+  print 'Done'
+
+def syncJitDzih():
+  print 'JitDzih...'
+  
+  def sync(line, num):
+    ziox = line[0]
+    dzih = line[1]
+    sieux = sieuxMap[line[2]]
+    jeps = line[3]
+
+    dzih = JitDzih(
+      ziox = ziox,
+      dzih = dzih,
+      sieux = sieux,
+    )
+    
+    kyenh = unicode(sieux.deuh())
+    
+    for jep in jeps.split('/'):
+      cio = Cio(
+        identifier = kyenh + jep,
+        kyenh = kyenh,
+        jep = jep,
+      )
+      cio.save()
+      dzih.cio.add(cio)
+    dzih.save()
+
+  traverse('JitDzih.txt', sync)
+  print 'Done'
+
+def syncSieuxCio():
+  print 'SieuxCio...'
+  for key in sieuxMap.keys():
+    sieux = sieuxMap[key]
+    
+    cioMap = {}
+    for dzih in sieux.dzih_set.all():
+      for cio in dzih.cio.all():
+        cioMap[cio.identifier] = cio
+    for dzih in sieux.koxqim_set.all():
+      for cio in dzih.cio.all():
+        cioMap[cio.identifier] = cio
+    for dzih in sieux.jitdzih_set.all():
+      for cio in dzih.cio.all():
+        cioMap[cio.identifier] = cio
+    
+    sieux.cio.clear()
+    for key in cioMap.keys():
+      cio = cioMap[key]
+      sieux.cio.add(cio)
+    sieux.save()
+
+  print 'Done'
