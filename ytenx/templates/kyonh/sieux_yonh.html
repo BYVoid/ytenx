@@ -3,9 +3,7 @@
 {% block kyonh_sieux_yonh_active %}active{% endblock %}
 {% block title %}{{sieux_yonh}} - 小韻{% endblock %}
 {% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, {% endblock %}
-
 {% block content %}
-
 <div class="row">
   <div class="span4">
   <h1>{{sieux_yonh}}</h1>
@@ -117,12 +115,10 @@
       {% for cio in sieux_yonh.cio.all %}
         <li class="span4" >
           <div class="thumbnail">
-            <a href="#">
+            <a href="{% url kyonh.views.cio_page cio.drakDzuonDang.kyenh cio.drakDzuonDang.jep %}">
               <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
             </a>
-            <p>
-              廣韻澤存堂本第{{cio.drakDzuonDang.kyenh}}卷第{{cio.drakDzuonDang.jep}}䈎
-            </p>
+            <p>《廣韻》澤存堂本第{{cio.drakDzuonDang.kyenh|sryoh}}卷第{{cio.drakDzuonDang.jep|sryoh}}䈎</p>
           </div>
         </li>
       {% endfor %}

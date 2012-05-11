@@ -1,0 +1,33 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_sieux_yonh_active %}active{% endblock %}
+{% block title %}廣韻第{{cio.kyenh|sryoh}}卷{{cio.jep|sryoh}}葉{% endblock %}
+{% block content %}
+<h1>《廣韻》第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎</h2>
+<div class="span10">
+  {% if cio.cio.sieuxyonh_set.all %}
+    <div class="row">
+      <h2>小韻</h2>
+      {% for sieux in cio.cio.sieuxyonh_set.all %}
+        <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if cio.cio.dzih_set.all %}
+    <div class="row">
+      <h2>字頭</h2>
+      {% for dzih in cio.cio.dzih_set.all %}
+        {{dzih}}
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="row">
+    <h2>圖片</h2>
+    <div class="thumbnail">
+      <a href="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg">
+        <img src="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg" alt="" >
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
