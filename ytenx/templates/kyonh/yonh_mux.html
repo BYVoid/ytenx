@@ -1,0 +1,84 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_yonh_mux_active %}active{% endblock %}
+{% block title %}{{yonh}} - 韻母{% endblock %}
+{% block keywords %}{{yonh}}, 韻母 {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span4">
+  <h1>{{yonh}}</h1>
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>韻系</td>
+    	  <td>{{yonh.gheh}}</td>
+    	</tr>
+    	<tr>
+    	  <td>韻攝</td>
+    	  <td>{{yonh.gheh.cjep}}</td>
+    	</tr>
+    	<tr>
+    	  <td>調</td>
+    	  <td>{{yonh.tshyuk|tshyuk}}聲</td>
+    	</tr>
+    	<tr>
+    	  <td>等</td>
+    	  <td>{{yonh.tongx|sryoh}}等</td>
+    	</tr>
+    	<tr>
+    	  <td>呼</td>
+    	  <td>{{yonh.ho|ho}}口</td>
+    	</tr>
+    	{% if yonh.tuaih %}
+      	<tr>
+      	  <td>對立韻母</td>
+      	  <td><a href="{% url ytenx.kyonh.views.yonh_mux_page yonh.tuaih %}">{{yonh.tuaih}}</a></td>
+      	</tr>
+    	{% endif %}
+    </table>
+  </div>
+  <div class="span3">
+    <h2>擬音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, ngix in yonh.ngix.items %}
+      {% if ngix %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{ngix}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+  <div class="span3">
+    <h2>拼音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, preng in yonh.preng.items %}
+      {% if preng %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{preng}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in yonh.sieuxyonh_set.all %}
+      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+  <div class="row">
+    <h2>反切下字</h2>
+    {% for ghrax in yonh.ghraxdzih_set.all %}
+      {{ghrax}}
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+

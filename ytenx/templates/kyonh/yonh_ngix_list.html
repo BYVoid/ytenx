@@ -26,7 +26,13 @@
       {% for yonh in yonh_mux_list %}
       <tr>
         <td>{{yonh.gheh}}</td>
-        <td>{{yonh.cio}}</td>
+        <td>
+          {% with yonh=yonh.cio %}
+            {% if yonh%}
+              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+            {% endif %}
+          {% endwith %}
+        </td>
         {% if yonh.cio%}
           {% for mjeng, qim in yonh.cio.ngix.items %}
             {% if qim %}
@@ -40,7 +46,13 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-        <td>{{yonh.tshyuk}}</td>
+        <td>
+          {% with yonh=yonh.tshyuk %}
+            {% if yonh%}
+              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+            {% endif %}
+          {% endwith %}
+        </td>
         {% if yonh.tshyuk%}
           {% for mjeng, qim in yonh.tshyuk.ngix.items %}
             {% if qim %}

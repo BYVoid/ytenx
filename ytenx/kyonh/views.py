@@ -84,3 +84,33 @@ def cio_page(request, kyenh, jep):
   return render_to_response('kyonh/cio.html', {
     'cio': cio,
   })
+
+def cjeng_mux_page(request, dzih):
+  try:
+    cjeng = CjengMux.objects.get(dzih = dzih)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/cjeng_mux.html', {
+    'cjeng': cjeng,
+  })
+
+def yonh_mux_page(request, mjeng):
+  try:
+    yonh = YonhMux.objects.get(mjeng = mjeng)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/yonh_mux.html', {
+    'yonh': yonh,
+  })
+
+def yonh_miuk_page(request, dzih):
+  try:
+    yonh_miuk = YonhMiuk.objects.get(dzih = dzih)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/yonh_miuk.html', {
+    'yonh_miuk': yonh_miuk,
+  })

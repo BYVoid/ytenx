@@ -25,13 +25,25 @@
         <td>{{item.gheh}}</td>
         <td>{{item.tongx|sryoh}}</td>
         <td>{{item.ho|ho}}</td>
-        <td>{{item.cio}}</td>
+        <td>
+          {% with yonh=item.cio %}
+            {% if yonh%}
+              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+            {% endif %}
+          {% endwith %}
+        </td>
         <td>
           {% for yonh_miuk in item.cio.ghraxdzih_set.all %}
             {{yonh_miuk}}
           {% endfor %}
         </td>
-        <td>{{item.tshyuk}}</td>
+        <td>
+          {% with yonh=item.tshyuk %}
+            {% if yonh%}
+              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+            {% endif %}
+          {% endwith %}
+        </td>
         <td>
           {% for yonh_miuk in item.tshyuk.ghraxdzih_set.all %}
             {{yonh_miuk}}
