@@ -74,17 +74,17 @@
 </div>
 
 <div class="row">
-  <div class="span8">
+  <div class="span9">
     <h2>書影</h2>
     <ul class="thumbnails">
-      {% for cio in sieux_yonh.cio.all %}
-        <li class="span4" >
+      {% for cio in sieux_yonh.ziox_cio %}
+        <li class="span3" >
           <div class="thumbnail">
-            <a href="#">
-              <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
+            <a href="">
+              <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>
-              洪武正韻牋第{{cio.drakDzuonDang.kyenh}}卷第{{cio.drakDzuonDang.jep}}䈎
+              《洪武正韻牋》第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎
             </p>
           </div>
         </li>

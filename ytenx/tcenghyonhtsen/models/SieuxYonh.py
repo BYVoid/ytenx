@@ -23,3 +23,6 @@ class SieuxYonh(models.Model):
   #聲調
   def deuh(self):
     return self.yonhMiuk.deuh
+
+  def ziox_cio(self):
+    return self.cio.order_by('kyenh').order_by('jep').all()

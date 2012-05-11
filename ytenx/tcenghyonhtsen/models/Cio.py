@@ -13,5 +13,5 @@ class Cio(models.Model):
   class Meta:
     app_label = 'tcenghyonhtsen'
   
-  def __unicode__(self):
-    return '%03d' % self.jep
+  def filename(self):
+    return '%03d' % self.jep + '.jpg'

@@ -18,3 +18,22 @@ class YonhMiuk(models.Model):
   
   def __unicode__(self):
     return sryoh(self.ziox) + self.dzih
+
+  def cio(self):
+    def cmp(x, y):
+      if x.kyenh < y.kyenh:
+        return -1
+      elif x.kyenh > y.kyenh:
+        return 1
+      if x.jep < y.jep:
+        return -1
+      else:
+        return 1
+  
+    cio_map = {}
+    for sieux in self.sieuxyonh_set.all():
+      for cio in sieux.cio.all():
+        cio_map[cio.identifier] = cio
+    cio = cio_map.values()
+    cio.sort(cmp)
+    return cio

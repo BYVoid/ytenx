@@ -15,22 +15,35 @@ num_map = {
   '9': u'九',
   '0': u'零',
   '10': u'十',
+  '100': u'百',
+  '1000': u'千',
 }
 
 @register.filter
 def sryoh(value):
   value = str(value)
   res = ''
-  for i in range(0, len(value)):
+  length = len(value)
+  for i in range(0, length):
     pos = len(value) - i
     c = value[i]
-    res += num_map[c]
-    if pos == 1 and c == '0' and len(value) > 1:
-      res = res[:-1]
-    if pos == 2:
-      if c == '1':
+    res += num_map[c] #當前數字位
+    if pos == 1:
+      pass
+    elif pos == 2:
+      if c == '1' and length == 2: #變「一十」爲「十」
         res = res[:-1]
-      res += num_map['10']
+      if c != '0':
+        res += num_map['10']
+    elif pos == 3:
+      if c != '0':
+        res += num_map['100']
+    elif pos == 4:
+      if c != '0':
+        res += num_map['1000']
+  if length > 1:
+    while res[-1] == num_map['0']:
+      res = res[:-1]
   return res
 
 @register.filter
