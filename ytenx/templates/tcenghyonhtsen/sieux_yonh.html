@@ -53,7 +53,7 @@
 <div class="row">
   <div class="span8">
     {% if sieux_yonh.dzih_set.all %}
-      <h2>字</h2>
+      <h2>字頭</h2>
       {% for dzih in sieux_yonh.dzih_set.all %}
         {{dzih}}
       {% endfor %}
@@ -80,7 +80,7 @@
       {% for cio in sieux_yonh.ziox_cio %}
         <li class="span3" >
           <div class="thumbnail">
-            <a href="">
+            <a href="{% url tcenghyonhtsen.views.cio_page cio.kyenh cio.jep %}">
               <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>

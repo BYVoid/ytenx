@@ -1,0 +1,45 @@
+{% extends "tcenghyonhtsen/layout.html" %}
+{% load ytenx %}
+{% block tcenghyonhtsen_sieux_yonh_active %}active{% endblock %}
+{% block title %}洪武正韻牋第{{cio.kyenh|sryoh}}卷{{cio.jep|sryoh}}葉{% endblock %}
+{% block content %}
+<h1>《洪武正韻牋》第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎</h2>
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in cio.sieuxyonh_set.all %}
+      <a href="{% url tcenghyonhtsen.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+  {% if cio.dzih_set.all %}
+    <div class="row">
+      <h2>字頭</h2>
+      {% for dzih in cio.dzih_set.all %}
+        {{dzih}}
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if cio.koxqim_set.all %}
+    <div class="row">
+      <h2>古音</h2>
+      {% for dzih in cio.koxqim_set.all %}
+        {{dzih}}
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if cio.jitdzih_set.all %}
+    <div class="row">
+      <h2>逸字</h2>
+      {% for dzih in cio.jitdzih_set.all %}
+        {{dzih}}
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="row">
+    <h2>圖片</h2>
+    <div class="thumbnail">
+        <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/{{cio.filename}}" alt="" >
+    </div>
+  </div>
+</div>
+{% endblock %}

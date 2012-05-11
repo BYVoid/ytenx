@@ -31,7 +31,7 @@
       {% for cio in yonh_miuk.cio %}
         <li class="span3" >
           <div class="thumbnail">
-            <a href="">
+            <a href="{% url tcenghyonhtsen.views.cio_page cio.kyenh cio.jep %}">
               <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>

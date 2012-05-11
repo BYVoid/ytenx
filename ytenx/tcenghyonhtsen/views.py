@@ -2,7 +2,7 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh, YonhBux, YonhMiuk
+from models import SieuxYonh, YonhBux, YonhMiuk, Cio
 
 def index_page(request):
   return render_to_response('tcenghyonhtsen/index.html')
@@ -41,4 +41,12 @@ def yonh_miuk_page(request, mjeng):
     'yonh_miuk': yonh_miuk,
   })
 
-
+def cio_page(request, kyenh, jep):
+  cio = Cio.objects.get(
+    kyenh = kyenh,
+    jep = jep,
+  )
+  
+  return render_to_response('tcenghyonhtsen/cio.html', {
+    'cio': cio,
+  })
