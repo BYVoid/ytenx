@@ -34,6 +34,16 @@
       	  <td><a href="{% url ytenx.kyonh.views.yonh_mux_page yonh.tuaih %}">{{yonh.tuaih}}</a></td>
       	</tr>
     	{% endif %}
+    	<tr>
+        <td>韻目</td>
+        <td>
+          {% for yonh_miuk in yonh.yonhmiuk_set.all %}
+      	  	<a href="{% url kyonh.views.yonh_miuk_page yonh_miuk.dzih %}">
+      	  		{{yonh_miuk}}
+      	  	</a>
+          {% endfor %}
+        </td>
+    	</tr>
     </table>
   </div>
   <div class="span3">

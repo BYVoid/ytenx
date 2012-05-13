@@ -1,0 +1,51 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_yonh_miuk_active %}active{% endblock %}
+{% block title %}{{yonh_miuk}} - 韻目{% endblock %}
+{% block keywords %}{{yonh_miuk}}, 韻目 {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span4">
+  <h1>{{yonh_miuk}}</h1>
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>韻系</td>
+    	  <td>{{yonh_miuk.gheh}}</td>
+    	</tr>
+    	<tr>
+    	  <td>韻攝</td>
+    	  <td>{{yonh_miuk.gheh.cjep}}</td>
+    	</tr>
+    	<tr>
+    	  <td>廣韻目次</td>
+    	  <td>{{yonh_miuk.tshiih}}</td>
+    	</tr>
+    </table>
+  </div>
+  <div class="span3">
+    <h2>韻母</h2>
+    <table class="table table-bordered">
+    {% for yonh in yonh_miuk.yonh.all %}
+      <tr>
+        <td>
+    	  	<a href="{% url kyonh.views.yonh_mux_page yonh.mjeng %}">
+    	  		{{yonh}}
+    	  	</a>
+    	 </td>
+      </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in yonh_miuk.sieuxyonh_set.all %}
+      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+

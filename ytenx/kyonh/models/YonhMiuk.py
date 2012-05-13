@@ -36,11 +36,7 @@ class YonhMiuk(models.Model):
     app_label = 'kyonh'
   
   def __unicode__(self):
-      return self.dzih
-  
-  #小韻
-  def sieuxYonh(self):
-    return SieuxYonh.objects.filter(yonh=self)
+    return self.dzih
 
 #韻目集合
 class YonhMiukDzip(models.Model):

@@ -2,7 +2,7 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang
+from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk
 
 def index_page(request):
   return render_to_response('kyonh/index.html')
