@@ -1,0 +1,29 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_ghrax_dzih_active %}active{% endblock %}
+{% block title %}{{ghrax}} - 反切下字{% endblock %}
+{% block keywords %}{{ghrax}}, 反切下字 {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span4">
+  <h1>{{ghrax}}</h1>
+  <h2>韻母</h2>
+  <p>
+    {% for yonh in ghrax.yonh.all %}
+      <a href="{% url kyonh.views.yonh_mux_page yonh.mjeng %}">{{yonh}}</a>
+    {% endfor %}
+  </p>
+  </div>
+</div>
+
+<div class="span8">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in ghrax.sieuxYonh %}
+      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
+

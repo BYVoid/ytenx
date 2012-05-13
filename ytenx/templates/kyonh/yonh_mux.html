@@ -85,7 +85,7 @@
   <div class="row">
     <h2>反切下字</h2>
     {% for ghrax in yonh.ghraxdzih_set.all %}
-      {{ghrax}}
+      <a href="{% url kyonh.views.pyanx_ghrax_page ghrax.dzih %}">{{ghrax}}</a>
     {% endfor %}
   </div>
 </div>

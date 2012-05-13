@@ -26,7 +26,7 @@
         </td>
         <td>
     	  	{% if sieux_yonh.pyanx %}
-    	  		<a href="">{{sieux_yonh.pyanx.dciangx}}</a><a href="">{{sieux_yonh.pyanx.ghrax}}</a>
+    	  		<a href="{% url kyonh.views.pyanx_dciangx_page sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
     	  	{% else %}
     	  		無
     	  	{% endif %}

@@ -33,8 +33,8 @@
           {% endwith %}
         </td>
         <td>
-          {% for yonh_miuk in item.cio.ghraxdzih_set.all %}
-            {{yonh_miuk}}
+          {% for ghrax in item.cio.ghraxdzih_set.all %}
+            <a href="{% url kyonh.views.pyanx_ghrax_page ghrax.dzih %}">{{ghrax}}</a>
           {% endfor %}
         </td>
         <td>
@@ -45,8 +45,8 @@
           {% endwith %}
         </td>
         <td>
-          {% for yonh_miuk in item.tshyuk.ghraxdzih_set.all %}
-            {{yonh_miuk}}
+          {% for ghrax in item.tshyuk.ghraxdzih_set.all %}
+            <a href="{% url kyonh.views.pyanx_ghrax_page ghrax.dzih %}">{{ghrax}}</a>
           {% endfor %}
         </td>
       </tr>

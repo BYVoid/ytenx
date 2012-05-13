@@ -20,7 +20,7 @@
         <td><a href="{% url kyonh.views.cjeng_mux_page cjeng.dzih %}">{{cjeng.dzih}}</a></td>
         <td>
           {% for dciangx in cjeng.dciangxdzih_set.all %}
-            {{dciangx}}
+            <a href="{% url kyonh.views.pyanx_dciangx_page dciangx.dzih %}">{{dciangx}}</a>
           {% endfor %}
         </td>
       </tr>

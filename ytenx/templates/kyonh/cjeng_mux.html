@@ -45,7 +45,7 @@
   <div class="row">
     <h2>反切上字</h2>
     {% for dciangx in cjeng.dciangxdzih_set.all %}
-      {{dciangx}}
+      <a href="{% url kyonh.views.pyanx_dciangx_page dciangx.dzih %}">{{dciangx}}</a>
     {% endfor %}
   </div>
 </div>

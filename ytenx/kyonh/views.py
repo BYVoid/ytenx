@@ -2,7 +2,7 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk
+from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih
 
 def index_page(request):
   return render_to_response('kyonh/index.html')
@@ -113,4 +113,24 @@ def yonh_miuk_page(request, dzih):
 
   return render_to_response('kyonh/yonh_miuk.html', {
     'yonh_miuk': yonh_miuk,
+  })
+
+def pyanx_dciangx_page(request, dzih):
+  try:
+    dciangx = DciangxDzih.objects.get(dzih = dzih)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/pyanx_dciangx.html', {
+    'dciangx': dciangx,
+  })
+
+def pyanx_ghrax_page(request, dzih):
+  try:
+    ghrax = GhraxDzih.objects.get(dzih = dzih)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/pyanx_ghrax.html', {
+    'ghrax': ghrax,
   })
