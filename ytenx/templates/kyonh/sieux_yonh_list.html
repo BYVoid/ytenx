@@ -32,7 +32,7 @@
     	  	{% endif %}
         </td>
     	  <td>
-    	  	<a href="">
+    	  	<a href="{% url kyonh.views.cjeng_mux_page sieux_yonh.cjeng.dzih %}">
     	  		{{sieux_yonh.cjeng}}
     	  	</a>
     	  </td>
@@ -45,7 +45,7 @@
     	  <td>{{sieux_yonh.yonh.tongx|sryoh}}</td>
     	  <td>{{sieux_yonh.yonh.ho|ho}}</td>
     	  <td>
-    	  	<a href="">
+    	  	<a href="{% url kyonh.views.yonh_mux_page sieux_yonh.yonh.mjeng %}">
     	  		{{sieux_yonh.yonh}}
     	  	</a>
     	  </td>
