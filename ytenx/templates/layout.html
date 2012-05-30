@@ -65,8 +65,8 @@
 
     <div class="container">
       <div style="text-align:center">
-        <form class="form-horizontal">
-          <input type="text" class="input span6">
+        <form class="form-horizontal" action="{% url views.zim %}" method="get">
+          <input type="text" class="input span6" name="dzih">
           <button class="btn btn-success" href="#">搜索</button>
         </form>
       </div><!--/row-->

@@ -7,6 +7,7 @@ urlpatterns = patterns('',
   (r'^tcyts/', include('ytenx.tcenghyonhtsen.urls')),
   (r'^$', 'ytenx.views.index_page'),
   (r'^about$', 'ytenx.views.about_page'),
+  (r'^zim$', 'ytenx.views.zim'),
 )
 
 urlpatterns += staticfiles_urlpatterns()
