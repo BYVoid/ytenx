@@ -7,7 +7,7 @@
   {% if dzih_list.kyonh %}
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
-      <h2>{{dzih.dzih}}</h2>
+      <h2><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a></h2>
       <h3>
         <a href="{% url kyonh.views.pyanx_dciangx_page dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         <a href="{% url kyonh.views.sieux_yonh_page dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻

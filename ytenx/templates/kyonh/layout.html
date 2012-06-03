@@ -4,12 +4,15 @@
 <div class="span2">
   <div class="well sidebar-nav">
     <ul class="nav nav-list">
-      <li class="nav-header">檢索</li>
+      <li class="nav-header">檢</li>
       <li class="{% block kyonh_index_active %}{% endblock %}">
         <a href="{% url kyonh.views.index_page %}">廣韻</a>
       </li>
       <li class="{% block kyonh_sieux_yonh_active %}{% endblock %}">
-        <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻檢索</a>
+        <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻表</a>
+      </li>
+      <li class="{% block kyonh_dzih_active %}{% endblock %}">
+        <a href="{% url kyonh.views.dzih_pieux %}">字表</a>
       </li>
       <li class="nav-header">聲</li>
       <li class="{% block kyonh_cjeng_mux_active %}{% endblock %}">

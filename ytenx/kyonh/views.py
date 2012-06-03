@@ -2,7 +2,7 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih
+from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih, Dzih
 
 def index_page(request):
   return render_to_response('kyonh/index.html')
@@ -30,6 +30,28 @@ def sieux_yonh_list_page(request):
     raise Http404()
   return render_to_response('kyonh/sieux_yonh_list.html', {
     'sieux_yonh_list': sieux_yonh_list,
+  })
+
+def dzih(request, ziox):
+  try:
+    dzih = Dzih.objects.get(ziox=ziox)
+  except:
+    raise Http404()
+
+  return render_to_response('kyonh/dzih.html', {
+    'dzih': dzih,
+  })
+
+def dzih_pieux(request):
+  dzih_pieux = Dzih.objects.all()
+  page = int(request.GET.get('page', '1'))
+  paginator = Paginator(dzih_pieux, 15)
+  try:
+    dzih_pieux = paginator.page(page)
+  except (EmptyPage, InvalidPage):
+    raise Http404()
+  return render_to_response('kyonh/dzih_pieux.html', {
+    'dzih_pieux': dzih_pieux,
   })
 
 def cjeng_mux_list_page(request):
