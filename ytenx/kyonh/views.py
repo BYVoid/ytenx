@@ -124,10 +124,9 @@ def yonh_ngix_list_page(request):
   })
 
 def yonh_do_page(request):
-  page = int(request.GET.get('page', '1'))
   paginator = Paginator(YonhMiukDzip.objects.all(), 1)
   try:
-    dzip_list = paginator.page(page)
+    dzip_list = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
 
