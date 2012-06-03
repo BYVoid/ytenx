@@ -4,6 +4,73 @@
 {% block body %}
 <div class="span12">
   <h1>歡迎訪問韻典網</h1>
-  <p>韻典網是一個集合了廣韻、洪武正韻牋的綜合韻書查詢工具。</p>
+    <p>韻典網是一個綜合的韻書查詢工具，包含《廣韻》和《洪武正韻牋》。<a href="{% url views.about_page %}">更多介紹…</a></p>
+  <h2>廣韻</h2>
+    <p>《大宋重修廣韻》是公元1008年，由陳彭年等人奉詔，根據《切韻》修訂成的一部韻書。《廣韻》共收字二萬六千一百九十四，列三千八百七十四小韻，分爲上平聲、下平聲、上聲、去聲、入聲五卷，共計二百零六韻。<a href="{% url kyonh.views.index_page %}">更多介紹…</a></p>
+    <ul class="thumbnails">
+      <li class="span4">
+        <div class="thumbnail">
+          <a href="/kyonh/cio/1/15/"><img src="/static/img/DrakDzuonDang/volume1/thumb/p015.jpg" alt=""></a>
+          <p>《廣韻》澤存堂本第一卷第十五䈎</p>
+        </div>
+      </li>
+      <li class="span4">
+        <div class="thumbnail">
+          <a href="/kyonh/cio/2/25/"><img src="/static/img/DrakDzuonDang/volume2/thumb/p025.jpg" alt=""></a>
+          <p>《廣韻》澤存堂本第二卷第二十五䈎</p>
+        </div>
+      <li class="span4">
+        <div class="thumbnail">
+          <a href="/kyonh/cio/3/34/"><img src="/static/img/DrakDzuonDang/volume3/thumb/p034.jpg" alt=""></a>
+          <p>《廣韻》澤存堂本第三卷第三十四䈎</p>
+        </div>
+      </li>
+    </ul>
+  <h2>洪武正韻牋</h2>
+    <p>《洪武正韻牋》是明代楊時偉編纂的一部韻書。該書以明洪武八年樂韶鳳、宋濂等人所著的《洪武正韻》爲基礎，增註補箋。同時取《韻補》、《古音考》等古書之音，附於各韻之後，謂之「古音」。又取《韻會舉要》、《丹鉛錄》諸書收字，增附於韻後，謂之「逸字」。<a href="{% url tcenghyonhtsen.views.index_page %}">更多介紹…</a></p>
+    <ul class="thumbnails">
+      <li class="span3">
+        <div class="thumbnail">
+          <a href="/tcyts/cio/1/98/">
+            <img src="/static/img/GhungMyoxTcenghYonhTsen/1/thumb/098.jpg" alt="">
+          </a>
+          <p>
+            《洪武正韻牋》第一卷第九十八䈎
+          </p>
+        </div>
+      </li>
+      <li class="span3">
+        <div class="thumbnail">
+          <a href="/tcyts/cio/2/34/">
+            <img src="/static/img/GhungMyoxTcenghYonhTsen/2/thumb/034.jpg" alt="">
+          </a>
+          <p>
+            《洪武正韻牋》第二卷第三十四䈎
+          </p>
+        </div>
+      </li>
+      <li class="span3">
+        <div class="thumbnail">
+          <a href="/tcyts/cio/3/131/">
+            <img src="/static/img/GhungMyoxTcenghYonhTsen/3/thumb/131.jpg" alt="">
+          </a>
+          <p>
+            《洪武正韻牋》第三卷第一百三十一䈎
+          </p>
+        </div>
+      </li>
+    
+      <li class="span3">
+        <div class="thumbnail">
+          <a href="/tcyts/cio/4/155/">
+            <img src="/static/img/GhungMyoxTcenghYonhTsen/4/thumb/155.jpg" alt="">
+          </a>
+          <p>
+            《洪武正韻牋》第四卷第一百五十五䈎
+          </p>
+        </div>
+      </li>
+    
+  </ul>
 </div>
 {% endblock %}

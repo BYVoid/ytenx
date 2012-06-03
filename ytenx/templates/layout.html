@@ -24,7 +24,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="shortcut icon" href="/static/ico/ytenx.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/ico/apple-touch-icon-114-precomposed.png">
@@ -59,26 +58,19 @@
                 <a href="http://appendix.ytenx.org/" target="_blank">附錄</a>
               </li>
             </ul>
-          </div><!--/.nav-collapse -->
+            <form class="navbar-search pull-left" action="{% url views.zim %}">
+              <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
+            </form>
+          </div>
         </div>
       </div>
     </div>
-
     <div class="container">
-      <div style="text-align:center">
-        <form class="form-horizontal" action="{% url views.zim %}" method="get">
-          <input type="text" class="input span6" name="dzih">
-          <button class="btn btn-success">搜索</button>
-        </form>
-      </div><!--/row-->
-    
       <div class="row">
         {% block body %}
         {% endblock %}
       </div><!--/row-->
-
       <hr>
-
       <footer class="footer">
         <p class="pull-right"><a href="http://www.byvoid.com/">BYVoid</a> Copyright 2012</p>
         <p>
@@ -99,7 +91,6 @@
           </a>
         </p>
       </footer>
-
     </div><!--/.fluid-container-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
