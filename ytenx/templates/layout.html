@@ -16,6 +16,9 @@
       .sidebar-nav {
         padding: 9px 0;
       }
+      #brand {
+        color: #FFFF00;
+      }
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -28,9 +31,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="/static/ico/apple-touch-icon-57-precomposed.png">
   </head>
-
   <body>
-
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -39,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="{% url views.index_page %}">韻典網</a>
+          <a id="brand" class="brand" href="{% url views.index_page %}">韻典網</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="{% block index_active %}{% endblock %}">
