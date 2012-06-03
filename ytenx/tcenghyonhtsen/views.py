@@ -1,7 +1,8 @@
 # coding=utf-8
 from django.http import Http404
 from django.shortcuts import render_to_response
-from django.core.paginator import Paginator, InvalidPage, EmptyPage
+from ytenx.helpers.paginator import Paginator
+from django.core.paginator import InvalidPage, EmptyPage
 from models import SieuxYonh, YonhBux, YonhMiuk, Cio
 
 def index_page(request):
@@ -19,10 +20,9 @@ def sieux_yonh_page(request, ziox):
 
 def sieux_yonh_list_page(request):
   sieux_yonh_list = SieuxYonh.objects.all()
-  page = int(request.GET.get('page', '1'))
   paginator = Paginator(sieux_yonh_list, 15)
   try:
-    sieux_yonh_list = paginator.page(page)
+    sieux_yonh_list = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
   return render_to_response('tcenghyonhtsen/sieux_yonh_list.html', {

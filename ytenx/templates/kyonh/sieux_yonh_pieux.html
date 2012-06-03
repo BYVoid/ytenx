@@ -1,0 +1,149 @@
+{% extends "kyonh/layout.html" %}
+{% load ytenx %}
+{% block kyonh_sieux_yonh_active %}active{% endblock %}
+{% block title %}小韻{% endblock %}
+{% block keywords %}小韻, {% endblock %}
+{% block content %}
+
+<style type="text/css">
+#search {
+  margin-bottom: 10px;
+}
+#search form, #search ul, #search select {
+  margin: 0;
+}
+#search li, #search label {
+  display: inline;
+}
+#search select {
+  width: 4em;
+}
+</style>
+
+<div class="row">
+  <div id="search" class="span8">
+  <form method="get" action="">
+    <ul>
+      <li>
+        <label class="control-label" for="cjeng">聲</label>
+        <select name="cjeng" id="cjeng">
+          <option></option>
+          {% for cjeng in cjeng_pieux %}
+            {% if cjeng.dzih %}
+              {% if cjeng.dzih == p_cjeng %}
+                <option selected="selected">{{cjeng}}</option>
+              {% else %}
+                <option>{{cjeng}}</option>
+              {% endif %}
+            {% else %}
+              <option disabled="disabled">{{cjeng}}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="yonh">韻</label>
+        <select name="yonh" id="yonh">
+          <option></option>
+          {% for yonh in yonh_pieux %}
+            {% if yonh.cjep %}
+              {% if yonh.dzih == p_yonh %}
+                <option selected="selected">{{yonh}}</option>
+              {% else %}
+                <option>{{yonh}}</option>
+              {% endif %}
+            {% else %}
+              <option disabled="disabled">{{yonh}}攝</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="deuh">調</label>
+        <select name="deuh" id="deuh">
+          <option></option>
+          <option value="1" {% if '1' == p_deuh %}selected="selected"{% endif %}>平</option>
+          <option value="2" {% if '2' == p_deuh %}selected="selected"{% endif %}>上</option>
+          <option value="3" {% if '3' == p_deuh %}selected="selected"{% endif %}>去</option>
+          <option value="4" {% if '4' == p_deuh %}selected="selected"{% endif %}>入</option>
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="tongx">等</label>
+        <select name="tongx" id="tongx">
+          <option></option>
+          <option value="1" {% if '1' == p_tongx %}selected="selected"{% endif %}>一</option>
+          <option value="2" {% if '2' == p_tongx %}selected="selected"{% endif %}>二</option>
+          <option value="3" {% if '3' == p_tongx %}selected="selected"{% endif %}>三</option>
+          <option value="4" {% if '4' == p_tongx %}selected="selected"{% endif %}>四</option>
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="ho">呼</label>
+        <select name="ho" id="ho">
+          <option></option>
+          <option value="1" {% if '1' == p_ho %}selected="selected"{% endif %}>開</option>
+          <option value="0" {% if '0' == p_ho %}selected="selected"{% endif %}>合</option>
+        </select>
+      </li>
+      <li>
+        <input type="submit" class="btn" value="查詢"/>
+      </li>
+    </ul>
+  </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span8">
+      <table class="table table-bordered table-condensed">
+    	<tr>
+    	  <th>次序</th>
+    	  <th>小韻</th>
+    	  <th>反切</th>
+    	  <th>聲母</th>
+    	  <th>韻目</th>
+    	  <th>調</th>
+    	  <th>等</th>
+    	  <th>呼</th>
+    	  <th>韻母</th>
+    	</tr>
+    	{% for sieux_yonh in sieux_yonh_pieux %}
+    	<tr>
+        <td>{{sieux_yonh.ziox}}</td>
+        <td>
+          <a href="{% url kyonh.views.sieux_yonh_page sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
+        </td>
+        <td>
+    	  	{% if sieux_yonh.pyanx %}
+    	  		<a href="{% url kyonh.views.pyanx_dciangx_page sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
+    	  	{% else %}
+    	  		無
+    	  	{% endif %}
+        </td>
+    	  <td>
+    	  	<a href="{% url kyonh.views.cjeng_mux_page sieux_yonh.cjeng.dzih %}">
+    	  		{{sieux_yonh.cjeng}}
+    	  	</a>
+    	  </td>
+    	  <td>
+    	  	<a href="{% url kyonh.views.yonh_miuk_page sieux_yonh.yonhMiuk.dzih %}">
+    	  		{{sieux_yonh.yonhMiuk}}
+    	  	</a>
+    	  </td>
+    	  <td>{{sieux_yonh.yonhMiuk.deuh|deuh}}</td>
+    	  <td>{{sieux_yonh.yonh.tongx|sryoh}}</td>
+    	  <td>{{sieux_yonh.yonh.ho|ho}}</td>
+    	  <td>
+    	  	<a href="{% url kyonh.views.yonh_mux_page sieux_yonh.yonh.mjeng %}">
+    	  		{{sieux_yonh.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	{% endfor %}
+    </table>
+    {% include "pagination.html" with list=sieux_yonh_pieux only %}
+  </div>
+</div>
+
+{% endblock %}

@@ -1,8 +1,10 @@
 # coding=utf-8
 from django.http import Http404
 from django.shortcuts import render_to_response
-from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih, Dzih
+from django.db.models import Q
+from ytenx.helpers.paginator import Paginator
+from django.core.paginator import InvalidPage, EmptyPage
+from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih, Dzih, YonhCjep, YonhGheh
 
 def index_page(request):
   return render_to_response('kyonh/index.html')
@@ -21,15 +23,58 @@ def sieux_yonh_page(request, ziox):
   })
 
 def sieux_yonh_list_page(request):
-  sieux_yonh_list = SieuxYonh.objects.all()
-  page = int(request.GET.get('page', '1'))
-  paginator = Paginator(sieux_yonh_list, 15)
+  cjeng = request.GET.get('cjeng')
+  yonh = request.GET.get('yonh')
+  deuh = request.GET.get('deuh')
+  tongx = request.GET.get('tongx')
+  ho = request.GET.get('ho')
+  
+  query = Q()
+  if cjeng:
+    query &= Q(cjeng = CjengMux.objects.get(dzih=cjeng))
+  if yonh:
+    query &= Q(yonhMiuk__in = YonhMiuk.objects.filter(
+      gheh = YonhGheh.objects.get(dzih=yonh)
+    ))
+  if deuh:
+    query &= Q(yonhMiuk__in = YonhMiuk.objects.filter(
+      deuh = deuh
+    ))
+  if tongx:
+    query &= Q(yonh__in = YonhMux.objects.filter(
+      tongx = tongx
+    ))
+  if ho:
+    query &= Q(yonh__in = YonhMux.objects.filter(
+      ho = ho
+    ))
+  
+  sieux_yonh_pieux = SieuxYonh.objects.filter(query).order_by('ziox')
+  paginator = Paginator(sieux_yonh_pieux, 15)
   try:
-    sieux_yonh_list = paginator.page(page)
+    sieux_yonh_pieux = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
-  return render_to_response('kyonh/sieux_yonh_list.html', {
-    'sieux_yonh_list': sieux_yonh_list,
+  
+  cjeng_pieux = []
+  for lyih in CjengLyih.objects.all():
+    cjeng_pieux.append(lyih)
+    cjeng_pieux += lyih.cjengmux_set.all()
+  
+  yonh_pieux = []
+  for cjep in YonhCjep.objects.all():
+    yonh_pieux.append(cjep)
+    yonh_pieux += cjep.yonhgheh_set.all()
+  
+  return render_to_response('kyonh/sieux_yonh_pieux.html', {
+    'sieux_yonh_pieux': sieux_yonh_pieux,
+    'cjeng_pieux': cjeng_pieux,
+    'yonh_pieux': yonh_pieux,
+    'p_cjeng': cjeng,
+    'p_yonh': yonh,
+    'p_deuh': deuh,
+    'p_tongx': tongx,
+    'p_ho': ho,
   })
 
 def dzih(request, ziox):
@@ -44,10 +89,9 @@ def dzih(request, ziox):
 
 def dzih_pieux(request):
   dzih_pieux = Dzih.objects.all()
-  page = int(request.GET.get('page', '1'))
   paginator = Paginator(dzih_pieux, 15)
   try:
-    dzih_pieux = paginator.page(page)
+    dzih_pieux = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
   return render_to_response('kyonh/dzih_pieux.html', {
