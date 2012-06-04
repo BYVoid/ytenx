@@ -12,6 +12,10 @@ def about_page(request):
 
 def zim(request):
   dzih_pieux = request.GET.get('dzih')
+  
+  if not dzih_pieux:
+    dzih_pieux = ''
+  
   if len(dzih_pieux) > 8:
     dzih_pieux = dzih_pieux[0:8]
   
@@ -19,10 +23,14 @@ def zim(request):
   for dzih in dzih_pieux:
     dzih_liet.append(dzih)
   
-  dzih_list = {
-    'kyonh': KyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox'),
-    'tcyts': TcytsDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox'),
-  }
+  dzih_list = {}
+  zim_kyonh = request.GET.get('kyonh')
+  zim_tcyts = request.GET.get('tcyts')
+  
+  if zim_kyonh:
+    dzih_list['kyonh'] = KyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
+  if zim_tcyts:
+    dzih_list['tcyts'] = TcytsDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   
   return render_to_response('zim.html', {
     'dzih_list': dzih_list,

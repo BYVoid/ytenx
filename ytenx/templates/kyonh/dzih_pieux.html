@@ -5,6 +5,15 @@
 {% block keywords %}字表, 廣韻, {% endblock %}
 {% block content %}
 <div class="row">
+  <div class="span10">
+    <form class="form-search" method="get" action="{% url views.zim %}">
+      <input type="text" name="dzih" class="search-query span3">
+      <input type="hidden" name="kyonh" value="1">
+      <button type="submit" class="btn">檢索</button>
+    </form>
+  </div>
+</div>
+<div class="row">
   <div class="span10">      
       <table class="table table-bordered table-condensed">
     	<tr>
