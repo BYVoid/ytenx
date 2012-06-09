@@ -121,6 +121,7 @@ INSTALLED_APPS = (
   'ytenx.filters',
   'ytenx.kyonh',
   'ytenx.tcenghyonhtsen',
+  'ytenx.pyonh',
   #'django.contrib.auth',
   #'django.contrib.contenttypes',
   #'django.contrib.sessions',
