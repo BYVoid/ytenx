@@ -16,11 +16,7 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>
-    	  	<a href="?s={{sieux_yonh.ziox}}">
-    	  		{{sieux_yonh.ziox}}
-    	  	</a>
-    	  </td>
+    	  <td>{{sieux_yonh.ziox}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -111,52 +107,22 @@
 <div class="row">
   <div class="span8">
     <h2>書影</h2>
-    <ul class="thumbnails">
-      {% for cio in sieux_yonh.cio.all %}
-        <li class="span4" >
-          <div class="thumbnail">
-            <a href="{% url kyonh.views.cio_page cio.drakDzuonDang.kyenh cio.drakDzuonDang.jep %}">
-              <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
-            </a>
-            <p>《廣韻》澤存堂本第{{cio.drakDzuonDang.kyenh|sryoh}}卷第{{cio.drakDzuonDang.jep|sryoh}}䈎</p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    {% include "kyonh/cio_do.html" with cio_do_pieux=sieux_yonh.cio.all only %}
   </div>
 </div>
 
 <div class="row">
   <div class="span8">
   <h2>字</h2>
-  {% for dzih in sieux_yonh.dzih %}
-    <div>
-      <table class="table table-condensed table-bordered">
-      	<tr>
-      	  <td width="96">字</td>
-      	  <td><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih}}</a></td>
-      	</tr>
-      	<tr>
-      	  <td>序號</td>
-      	  <td>
-      	  	<a href="?s={{sieux_yonh.ziox}}">
-      	  		{{dzih.ziox}}
-      	  	</a>
-      	  </td>
-      	</tr>
-      	<tr>
-      	  <td>小韻中次序</td>
-      	  <td>{{dzih.yih}}</td>
-      	</tr>
-      	<tr>
-      	  <td>字義</td>
-      	  <td>{{dzih.ngieh}}</td>
-      	</tr>
-      </table>
-    </div>
-  {% endfor %}
+  <table class="table table-condensed table-bordered">
+    {% for dzih in sieux_yonh.dzih_set.all %}
+    	<tr>
+    	  <td><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih}}</a></td>
+    	  <td>{{dzih.ngieh}}</td>
+    	</tr>
+    {% endfor %}
+  </table>
   </div>
 </div>
 
 {% endblock %}
-

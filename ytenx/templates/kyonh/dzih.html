@@ -16,9 +16,7 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>
-    	  	{{dzih.ziox}}
-    	  </td>
+    	  <td>{{dzih.ziox}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -39,18 +37,7 @@
 <div class="row">
   <div class="span8">
     <h2>書影</h2>
-    <ul class="thumbnails">
-      {% for cio in dzih.sieuxYonh.cio.all %}
-        <li class="span4" >
-          <div class="thumbnail">
-            <a href="{% url kyonh.views.cio_page cio.drakDzuonDang.kyenh cio.drakDzuonDang.jep %}">
-              <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
-            </a>
-            <p>《廣韻》澤存堂本第{{cio.drakDzuonDang.kyenh|sryoh}}卷第{{cio.drakDzuonDang.jep|sryoh}}䈎</p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    {% include "kyonh/cio_do.html" with cio_do_pieux=dzih.sieuxYonh.cio.all only %}
   </div>
 </div>
 

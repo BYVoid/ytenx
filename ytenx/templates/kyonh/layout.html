@@ -42,7 +42,9 @@
       <li class="{% block kyonh_yonh_do_active %}{% endblock %}">
         <a href="{% url kyonh.views.yonh_do_page %}" target="_blank">等韻圖</a>
       </li>
-      <li><a href="#">澤存堂本</a></li>
+      <li class="{% block kyonh_cio_active %}{% endblock %}">
+        <a href="{% url kyonh.views.cio_page 1 1 %}">書影</a>
+      </li>
     </ul>
   </div><!--/.well -->
 </div><!--/span-->

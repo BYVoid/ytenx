@@ -13,7 +13,7 @@ class NgixQim(models.Model):
   tungxDungGhua = models.CharField(verbose_name="董同龢", max_length=16, null=True)
   lixYeng = models.CharField(verbose_name="李榮", max_length=16, null=True)
   dcjeuhYengPhyon = models.CharField(verbose_name="邵榮芬", max_length=16, null=True)
-  drienghTriangDciangPyang = models.CharField(verbose_name="鄭張尚方", max_length=16, null=True)
+  drienghTriangDciangPyang = models.CharField(verbose_name="鄭張尚芳", max_length=16, null=True)
   phuanNgohYon = models.CharField(verbose_name="潘悟雲", max_length=16, null=True)
   boLipPuonx = models.CharField(verbose_name="蒲立本", max_length=16, null=True)
   
