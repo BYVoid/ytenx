@@ -24,12 +24,25 @@
   {% if dzih_list.tcyts %}
     <h1>洪武正韻牋</h1>
     {% for dzih in dzih_list.tcyts %}
-      <h2>{{dzih.dzih}}</h2>
+      <h2><a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.dzih}}</a></h2>
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
   	  	{{dzih.sieux.deuh|deuh}}聲<a href="{% url tcenghyonhtsen.views.yonh_miuk_page dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
         <a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
       </p>
+    {% endfor %}
+  {% endif %}
+  {% if dzih_list.pyonh %}
+    <h1>分韻撮要</h1>
+    {% for dzih in dzih_list.pyonh %}
+      <h2><a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a></h2>
+      <p>
+  	  	<a href="{% url pyonh.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
+  	  	<a href="{% url pyonh.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh}}</a>韻
+  	  	{{dzih.sieux_yonh.qim_jang|qim_jang}}{{dzih.sieux_yonh.deuh|deuh}}
+        <a href="{% url pyonh.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
+      </p>
+      <blockquote>{{dzih.ngieh}}</blockquote>
     {% endfor %}
   {% endif %}
 </div>

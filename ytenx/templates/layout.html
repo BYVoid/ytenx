@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="BYVoid">
-    <meta content="{% block keywords %}{% endblock %}廣韻, 漢語, 中文, 切韻, 韻書, 字典, 平水韻, 古音, 方言" name="keywords" />
+    <meta content="{% block keywords %}{% endblock %}廣韻, 切韻, 韻書, 分韻撮要, 平水韻, 古音, 方言" name="keywords" />
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -51,6 +51,9 @@
               <li class="{% block tcenghyonhtsen_active %}{% endblock %}">
                 <a href="{% url tcenghyonhtsen.views.index_page %}">洪武正韻牋</a>
               </li>
+              <li class="{% block pyonh_active %}{% endblock %}">
+                <a href="{% url pyonh.views.pyon_yonh %}">分韻撮要</a>
+              </li>
               <li class="{% block about_active %}{% endblock %}">
                 <a href="{% url views.about_page %}">關於</a>
               </li>
@@ -62,6 +65,7 @@
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
               <input type="hidden" name="kyonh" value="1">
               <input type="hidden" name="tcyts" value="1">
+              <input type="hidden" name="pyonh" value="1">
             </form>
           </div>
         </div>

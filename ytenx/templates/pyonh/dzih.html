@@ -1,0 +1,37 @@
+{% extends "pyonh/poh.html" %}
+{% load ytenx %}
+{% block pyonh_dzih_active %}active{% endblock %}
+{% block title %}{{dzih}} - 字 - 分韻撮要{% endblock %}
+{% block keywords %}{{dzih}}, 分韻撮要, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span4">
+  <h1>{{dzih}}</h1>
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>小韻</td>
+    	  <td>
+    	  	<a href="{% url pyonh.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>序號</td>
+    	  <td>
+    	  	{{dzih.ziox}}
+    	  </td>
+    	</tr>
+    </table>
+  </div>
+</div>
+
+<blockquote>{{dzih.ngieh}}</blockquote>
+
+<div class="row">
+  <div class="span8">
+    <h2>書影</h2>
+    {% include "pyonh/cio_do.html" with cio_do_pieux=dzih.cio.all only %}
+  </div>
+</div>
+
+{% endblock %}
+

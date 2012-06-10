@@ -5,6 +5,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = patterns('',
   (r'^kyonh/', include('ytenx.kyonh.urls')),
   (r'^tcyts/', include('ytenx.tcenghyonhtsen.urls')),
+  (r'^pyonh/', include('ytenx.pyonh.urls')),
   (r'^$', 'ytenx.views.index_page'),
   (r'^about$', 'ytenx.views.about_page'),
   (r'^zim$', 'ytenx.views.zim'),

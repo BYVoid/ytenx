@@ -1,0 +1,123 @@
+{% extends "pyonh/poh.html" %}
+{% load ytenx %}
+{% block pyonh_sieux_yonh_active %}active{% endblock %}
+{% block title %}小韻 - 分韻撮要{% endblock %}
+{% block keywords %}小韻, 分韻撮要, {% endblock %}
+{% block content %}
+
+<style type="text/css">
+#search {
+  margin-bottom: 10px;
+}
+#search form, #search ul, #search select {
+  margin: 0;
+}
+#search li, #search label {
+  display: inline;
+}
+#search select {
+  width: 6em;
+}
+</style>
+
+<div class="row">
+  <div id="search" class="span6">
+  <form method="get" action="">
+    <ul>
+      <li>
+        <label class="control-label" for="cjeng">聲</label>
+        <select name="cjeng" id="cjeng">
+          <option></option>
+          {% for cjeng in cjeng_pieux %}
+            {% if cjeng.dzih %}
+              {% if cjeng.dzih == sieux_yonh_pieux.cjeng %}
+                <option selected="selected">{{cjeng}}</option>
+              {% else %}
+                <option>{{cjeng}}</option>
+              {% endif %}
+            {% else %}
+              <option disabled="disabled">{{cjeng}}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="yonh">韻</label>
+        <select name="yonh" id="yonh">
+          <option></option>
+          {% for yonh_box in yonh_pieux %}
+            {% if yonh_box.mjeng == sieux_yonh_pieux.yonh %}
+              <option selected="selected">{{yonh_box}}</option>
+            {% else %}
+              <option>{{yonh_box}}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="qim_jang">陰陽</label>
+        <select name="qim_jang" id="qim_jang">
+          <option></option>
+          <option value="0" {% if '0' == sieux_yonh_pieux.qim_jang %}selected="selected"{% endif %}>陰</option>
+          <option value="1" {% if '1' == sieux_yonh_pieux.qim_jang %}selected="selected"{% endif %}>陽</option>
+        </select>
+      </li>
+      <li>
+        <label class="control-label" for="deuh">調</label>
+        <select name="deuh" id="deuh">
+          <option></option>
+          <option value="1" {% if '1' == sieux_yonh_pieux.deuh %}selected="selected"{% endif %}>平</option>
+          <option value="2" {% if '2' == sieux_yonh_pieux.deuh %}selected="selected"{% endif %}>上</option>
+          <option value="3" {% if '3' == sieux_yonh_pieux.deuh %}selected="selected"{% endif %}>去</option>
+          <option value="4" {% if '4' == sieux_yonh_pieux.deuh %}selected="selected"{% endif %}>入</option>
+        </select>
+      </li>
+      <li>
+        <input type="submit" class="btn" value="查詢"/>
+      </li>
+    </ul>
+  </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span7">
+      <table class="table table-bordered table-condensed">
+    	<tr>
+    	  <th>次序</th>
+    	  <th>小韻</th>
+    	  <th>聲紐</th>
+    	  <th>韻部</th>
+    	  <th>陰陽</th>
+    	  <th>調</th>
+    	  <th>韻母</th>
+    	</tr>
+    	{% for sieux_yonh in sieux_yonh_pieux %}
+    	<tr>
+        <td>{{sieux_yonh.ziox}}</td>
+        <td>
+          <a href="{% url pyonh.views.sieux_yonh sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
+        </td>
+    	  <td>
+    	  	<a href="{% url pyonh.views.cjeng_mux sieux_yonh.cjeng.dzih %}">
+    	  		{{sieux_yonh.cjeng}}
+    	  	</a>
+    	  </td>
+    	  <td>
+    	  		第{{sieux_yonh.yonh_box.ziox|sryoh}}{{sieux_yonh.yonh_box}}
+    	  </td>
+    	  <td>{{sieux_yonh.qim_jang|qim_jang}}</td>
+    	  <td>{{sieux_yonh.deuh|deuh}}</td>
+    	  <td>
+    	  	<a href="{% url pyonh.views.yonh_mux sieux_yonh.yonh.mjeng %}">
+    	  		{{sieux_yonh.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	{% endfor %}
+    </table>
+    {% include "pagination.html" with list=sieux_yonh_pieux only %}
+  </div>
+</div>
+
+{% endblock %}

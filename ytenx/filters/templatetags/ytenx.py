@@ -64,3 +64,8 @@ def ho(value):
 def tshyuk(value):
   if value: return u'入'
   return u'舒'
+
+@register.filter
+def qim_jang(value):
+  if value: return u'陽'
+  return u'陰'

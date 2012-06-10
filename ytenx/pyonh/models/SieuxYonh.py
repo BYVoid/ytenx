@@ -14,7 +14,7 @@ class SieuxYonh(models.Model):
   #韻母
   yonh = models.ForeignKey('YonhMux', db_index = True)
   #陰陽
-  qim_jang = models.IntegerField()
+  qim_jang = models.BooleanField()
   #聲調
   deuh = models.IntegerField()
   #書

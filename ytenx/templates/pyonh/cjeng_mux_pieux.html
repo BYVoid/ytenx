@@ -1,0 +1,30 @@
+{% extends "pyonh/poh.html" %}
+{% load ytenx %}
+{% block pyonh_cjeng_active %}active{% endblock %}
+{% block title %}聲母表 - 分韻撮要{% endblock %}
+{% block keywords %}聲母, 分韻撮要, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span3">
+    <h1>聲母表</h1>
+    <table class="table table-bordered table-condensed table-striped">
+      <tr>
+        <th>聲類</th>
+        <th>聲母</th>
+      </tr>
+      {% for cjeng_lyih in cjeng_lyih_pieux %}
+      <tr>
+        <td>{{cjeng_lyih}}</td>
+        <td>
+          {% for cjeng_mux in cjeng_lyih.cjengmux_set.all %}
+            <a href="{% url ytenx.pyonh.views.cjeng_mux cjeng_mux %}">{{cjeng_mux}}</a>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+{% endblock %}
+

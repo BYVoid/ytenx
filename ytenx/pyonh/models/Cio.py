@@ -12,3 +12,9 @@ class Cio(models.Model):
   
   class Meta:
     app_label = 'pyonh'
+
+  def sieux_yonh(self):
+    return self.sieuxyonh_set.all().order_by('ziox')
+    
+  def dzih(self):
+    return self.dzih_set.all().order_by('ziox')

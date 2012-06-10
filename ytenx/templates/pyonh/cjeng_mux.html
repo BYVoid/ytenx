@@ -1,0 +1,18 @@
+{% extends "pyonh/poh.html" %}
+{% load ytenx %}
+{% block pyonh_cjeng_active %}active{% endblock %}
+{% block title %}{{cjeng}} - 聲母 - 分韻撮要{% endblock %}
+{% block keywords %}{{cjeng}}, 聲母, 分韻撮要 {% endblock %}
+{% block content %}
+<h1>{{cjeng}}</h1>
+
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in cjeng.sieuxyonh_set.all %}
+      <a href="{% url pyonh.views.sieux_yonh sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

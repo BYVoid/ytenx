@@ -9,8 +9,6 @@ class Dzih(models.Model):
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
   sieux_yonh = models.ForeignKey('SieuxYonh', db_index = True)
-  #小韻中位置
-  yih = models.IntegerField(db_index = True)
   #字義
   ngieh = models.TextField()
   #書

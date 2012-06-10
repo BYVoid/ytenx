@@ -17,11 +17,13 @@ class YonhBox(models.Model):
 #韻母
 class YonhMux(models.Model):
   #字
-  dzih = models.CharField(max_length = 1, primary_key = True)
+  mjeng = models.CharField(max_length = 3, primary_key = True)
   #韻部
   yonh_box = models.ForeignKey('YonhBox', db_index = True)
   #促舒
   tshyuk = models.BooleanField()
+  #對立韻母
+  tuaih = models.ForeignKey('YonhMux', null = True)
   #擬音
   ngix = models.OneToOneField('NgixQim')
   
@@ -29,4 +31,4 @@ class YonhMux(models.Model):
     app_label = 'pyonh'
   
   def __unicode__(self):
-    return self.dzih
+    return self.mjeng

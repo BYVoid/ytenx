@@ -1,0 +1,41 @@
+{% extends "pyonh/poh.html" %}
+{% load ytenx %}
+{% block pyonh_dzih_active %}active{% endblock %}
+{% block title %}字表 - 分韻撮要{% endblock %}
+{% block keywords %}字表, 分韻撮要, {% endblock %}
+{% block content %}
+<div class="row">
+  <div class="span10">
+    <form class="form-search" method="get" action="{% url views.zim %}">
+      <input type="text" name="dzih" class="search-query span3">
+      <input type="hidden" name="pyonh" value="1">
+      <button type="submit" class="btn">檢索</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="span7">      
+      <table class="table table-bordered table-condensed">
+    	<tr>
+    	  <th width="32">次序</th>
+    	  <th width="32">字</th>
+    	  <th width="32">小韻</th>
+    	  <th>字義</th>
+    	</tr>
+    	{% for dzih in dzih_pieux %}
+    	<tr>
+        <td>{{dzih.ziox}}</td>
+        <td><a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih}}</a></td>
+        <td>
+          <a href="{% url pyonh.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh.taj}}</a>
+        </td>
+        <td>{{dzih.ngieh}}</td>
+    	</tr>
+    	{% endfor %}
+    </table>
+    {% include "pagination.html" with list=dzih_pieux only %}
+  </div>
+</div>
+
+{% endblock %}
+
