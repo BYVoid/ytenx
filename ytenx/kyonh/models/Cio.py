@@ -15,6 +15,31 @@ class DrakDzuonDang(models.Model):
   
   def __unicode__(self):
     return '%03d' % self.jep
+  
+  def urls(self):
+    base_path = '/kyonh/cio/%d/%d/'
+    max_jep = {
+      1: 72,
+      2: 56,
+      3: 58,
+      4: 60,
+      5: 59,
+    }
+    urls = {
+      'current': base_path % (self.kyenh, self.jep),
+      'first': base_path % (self.kyenh, 1),
+      'last': base_path % (self.kyenh, max_jep[self.kyenh]),
+    }
+    if self.jep > 1:
+      urls['previous'] = base_path % (self.kyenh, self.jep - 1)
+    elif self.kyenh > 1:
+      urls['previous'] = base_path % (self.kyenh - 1, max_jep[self.kyenh - 1])
+    if self.jep < max_jep[self.kyenh]:
+      urls['next'] = base_path % (self.kyenh, self.jep + 1)
+    elif self.kyenh < 5:
+      urls['next'] = base_path % (self.kyenh + 1, 1)
+    
+    return urls
 
 #書
 class Cio(models.Model):
