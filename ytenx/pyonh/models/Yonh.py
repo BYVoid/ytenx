@@ -18,6 +18,8 @@ class YonhBox(models.Model):
 class YonhMux(models.Model):
   #字
   dzih = models.CharField(max_length = 1, primary_key = True)
+  #韻部
+  yonh_box = models.ForeignKey('YonhBox', db_index = True)
   #促舒
   tshyuk = models.BooleanField()
   #擬音
