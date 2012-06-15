@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.conf.urls import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf import settings
 
 urlpatterns = patterns('',
   (r'^kyonh/', include('ytenx.kyonh.urls')),
@@ -12,3 +13,8 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += staticfiles_urlpatterns()
+
+if settings.DEBUG:
+  urlpatterns += patterns('',
+    (r'^sync/jitthex$', 'ytenx.sync.jihthex.sync'),
+  )

@@ -119,6 +119,7 @@ TEMPLATE_DIRS = (
 
 INSTALLED_APPS = (
   'ytenx.filters',
+  'ytenx.jihthex',
   'ytenx.kyonh',
   'ytenx.tcenghyonhtsen',
   'ytenx.pyonh',
