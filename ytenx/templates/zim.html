@@ -1,13 +1,38 @@
 {% extends "layout.html" %}
 {% load ytenx %}
-{% block index_active %}active{% endblock %}
-{% block caption %}韻典網{% endblock %}
+{% block kiemx_sriek_active %}active{% endblock %}
+{% block caption %}檢索 - 韻典網{% endblock %}
 {% block body %}
 <div class="span12">
+  <div class="page-header">
+    <h1>檢索結果</h1>
+  </div>
+  <ul>
+    <li>
+      關鍵字：
+      <span class="label label-important">{{chom_sryoh.dzih_pieux}}</span>
+    </li>
+    <li>
+      檢索範圍：
+      {% if chom_sryoh.zim_kyonh %}<span class="label label-success">廣韻</span>{% endif %}
+      {% if chom_sryoh.zim_tcyts %}<span class="label label-success">洪武正韻牋</span>{% endif %}
+      {% if chom_sryoh.zim_pyonh %}<span class="label label-success">分韻撮要</span>{% endif %}
+    </li>
+    <li>
+      異體字轉換：
+      {% if chom_sryoh.jih_thex_krenx_byan %}<span class="label label-warning">簡化字</span>{% endif %}
+      {% if chom_sryoh.jih_thex_dzyen_tongx %}<span class="label label-warning">全等異體字</span>{% endif %}
+      {% if chom_sryoh.jih_thex_krau_dep %}<span class="label label-warning">語義交疊異體字</span>{% endif %}
+    </li>
+  </ul>
+  
   {% if dzih_list.kyonh %}
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
-      <h2><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a></h2>
+      <h2>
+        <span class="badge badge-important">{{forloop.counter}}</span>
+        <a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
+      </h2>
       <h3>
         <a href="{% url kyonh.views.pyanx_dciangx_page dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         <a href="{% url kyonh.views.sieux_yonh_page dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
@@ -24,7 +49,10 @@
   {% if dzih_list.tcyts %}
     <h1>洪武正韻牋</h1>
     {% for dzih in dzih_list.tcyts %}
-      <h2><a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.dzih}}</a></h2>
+      <h2>
+        <span class="badge badge-important">{{forloop.counter}}</span>
+        <a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.dzih}}</a>
+      </h2>
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
   	  	{{dzih.sieux.deuh|deuh}}聲<a href="{% url tcenghyonhtsen.views.yonh_miuk_page dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
@@ -35,7 +63,10 @@
   {% if dzih_list.pyonh %}
     <h1>分韻撮要</h1>
     {% for dzih in dzih_list.pyonh %}
-      <h2><a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a></h2>
+      <h2>
+        <span class="badge badge-important">{{forloop.counter}}</span>
+        <a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
+      </h2>
       <p>
   	  	<a href="{% url pyonh.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
   	  	<a href="{% url pyonh.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh}}</a>韻

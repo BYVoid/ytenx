@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% load ytenx %}
+{% block kiemx_sriek_active %}active{% endblock %}
+{% block caption %}檢索 - 韻典網{% endblock %}
+{% block body %}
+<div class="span12">
+  <div class="page-header">
+    <h1>高級檢索</h1>
+  </div>
+  <form class="form-horizontal" action="{% url views.zim %}">
+    <fieldset>
+      <div class="control-group">
+        <label class="control-label" for="dzih">字</label>
+        <div class="controls">
+          <input type="text" class="input-xlarge" id="dzih" name="dzih">
+          <p class="help-block">在此輸入要查詢的漢字，每次可查詢不超過五個字。</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="rimebooks">檢索範圍</label>
+        <div class="controls">
+          <label class="checkbox inline">
+            <input type="checkbox" name="kyonh" value="1" checked="checked">
+            廣韻
+          </label>
+          <label class="checkbox inline">
+            <input type="checkbox" name="tcyts" value="1" checked="checked">
+            洪武正韻牋
+          </label>
+          <label class="checkbox inline">
+            <input type="checkbox" name="pyonh" value="1" checked="checked">
+            分韻撮要
+          </label>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="optionsCheckboxList">異體字轉換</label>
+        <div class="controls">
+          <label class="checkbox">
+            <input type="checkbox" name="jtkb" value="1" checked="checked">
+            轉換簡化字
+            <p class="help-block">如：「专」「專」、「干」「幹」「乾」</p>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="jtdt" value="1">
+            轉換全等異體字
+            <p class="help-block">如：「爲」「為」、「裏」「裡」</p>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="jtkd" value="1">
+            轉換語義交疊異體字
+            <p class="help-block">如：「娘」「孃」、「吊」「弔」</p>
+          </label>
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">檢索</button>
+      </div>
+    </fieldset>
+  </form>
+</div>
+{% endblock %}

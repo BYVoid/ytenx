@@ -60,12 +60,16 @@
               <li>
                 <a href="http://appendix.ytenx.org/" target="_blank">附錄</a>
               </li>
+              <li class="{% block kiemx_sriek_active %}{% endblock %}">
+                <a href="{% url views.kiemx_sriek %}">高級檢索</a>
+              </li>
             </ul>
             <form class="navbar-search pull-left" action="{% url views.zim %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
               <input type="hidden" name="kyonh" value="1">
               <input type="hidden" name="tcyts" value="1">
               <input type="hidden" name="pyonh" value="1">
+              <input type="hidden" name="jtkb" value="1">
             </form>
           </div>
         </div>
