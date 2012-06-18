@@ -7,7 +7,7 @@
   <div class="page-header">
     <h1>檢索結果</h1>
   </div>
-  <ul>
+  <ul class="unstyled">
     <li>
       關鍵字：
       <span class="label label-important">{{chom_sryoh.dzih_pieux}}</span>
@@ -30,7 +30,7 @@
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
       <h2>
-        <span class="badge badge-important">{{forloop.counter}}</span>
+        <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <h3>
@@ -50,7 +50,7 @@
     <h1>洪武正韻牋</h1>
     {% for dzih in dzih_list.tcyts %}
       <h2>
-        <span class="badge badge-important">{{forloop.counter}}</span>
+        <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -64,7 +64,7 @@
     <h1>分韻撮要</h1>
     {% for dzih in dzih_list.pyonh %}
       <h2>
-        <span class="badge badge-important">{{forloop.counter}}</span>
+        <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
