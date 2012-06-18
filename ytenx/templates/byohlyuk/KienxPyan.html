@@ -1,0 +1,38 @@
+{% extends "byohlyuk/poh.html" %}
+{% block byoh_lyuk_active %}active{% endblock %}
+{% block title %}現代漢語常用簡繁一對多字義辨析表 - 附錄{% endblock %}
+{% block content %}
+<ul class="breadcrumb">
+  <li>
+    <a href="{% url byohlyuk.views.byoh_lyuk '' %}">附錄</a>
+    <span class="divider">/</span>
+  </li>
+  <li class="active">現代漢語常用簡繁一對多字義辨析表</li>
+</ul>
+
+<div class="page-header">
+  <h1>現代漢語常用簡繁一對多字義辨析表 <small>BYVoid</small></h1>
+</div>
+
+<p>說明：此表僅僅收錄辯義的簡繁一對多字組，不包括嚴格異體字，原則是辯義字組能分則不合。基於此表製作了<a href="http://code.google.com/p/opencc/" target="_blank">OpenCC</a>（開放中文轉換）項目，用於高質量的簡繁自動轉換。</p>
+
+
+<table class="table table-bordered table-condensed">
+  <tr>
+    <th>簡化字</th>
+    <th>傳統漢字</th>
+    <th>字義辨析</th>
+    <th>例詞</th>
+  </tr>
+  {% for kienx_pyan in kienx_pyan_pieux%}
+    <tr>
+      <td>{{kienx_pyan.0}}</td>
+      <td>{{kienx_pyan.1}}</td>
+      <td>{{kienx_pyan.2}}</td>
+      <td>{{kienx_pyan.3}}</td>
+    </tr>
+  
+  
+  {% endfor %}
+</table>
+{% endblock %}

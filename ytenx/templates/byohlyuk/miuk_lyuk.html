@@ -1,0 +1,38 @@
+{% extends "byohlyuk/poh.html" %}
+{% block byoh_lyuk_active %}active{% endblock %}
+{% block title %}附錄{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>韻典附錄 <small>資源和工具</small></h1>
+</div>
+<table class="table">
+  <tr>
+    <td><a href="{% url byohlyuk.views.byoh_lyuk 'TriungKoxHanhNgioxNgioxQimKrauhDrieng' %}">中古漢語語音教程</a></td>
+    <td>作者：polyhedron</td>
+  </tr>
+  <tr>
+    <td><a href="{% url byohlyuk.views.byoh_lyuk 'YonhMyon' %}">中古漢語韻文朗讀</a></td>
+    <td>作者：polyhedron</td>
+  </tr>
+  <tr>
+    <td><a href="{% url byohlyuk.views.byoh_lyuk 'IPA_IME' %}">國際音標輸入法（網頁版）</a></td>
+    <td>作者：daujyungx</td>
+  </tr>
+  <tr>
+    <td><a href="{% url byohlyuk.views.byoh_lyuk 'IPA_Charts' %}">國際音標表</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="{% url byohlyuk.views.byoh_lyuk 'KienxPyan' %}">現代漢語常用簡繁一對多字義辨析表</a></td>
+    <td>作者：BYVoid</td>
+  </tr>
+</table>
+
+<h2>鏈接</h2>
+<ul>
+  <li><a href="http://www.zdic.net" target="_blank">漢典</a></li>
+  <li><a href="http://ctext.org/zh" target="_blank">中國哲學書電子化計劃</a></li>
+  <li><a href="http://sou-yun.com/?lang=t" target="_blank">搜韻</a></li>
+  <li><a href="http://xiaoxue.iis.sinica.edu.tw/ccr/" target="_blank">漢字古今音資料庫</a></li>
+</ul>
+{% endblock %}

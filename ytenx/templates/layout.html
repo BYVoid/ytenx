@@ -51,11 +51,11 @@
               <li class="{% block pyonh_active %}{% endblock %}">
                 <a href="{% url pyonh.views.pyon_yonh %}">分韻撮要</a>
               </li>
+              <li class="{% block byoh_lyuk_active %}{% endblock %}">
+                <a href="{% url byohlyuk.views.byoh_lyuk '' %}">附錄</a>
+              </li>
               <li class="{% block about_active %}{% endblock %}">
                 <a href="{% url views.about_page %}">關於</a>
-              </li>
-              <li>
-                <a href="http://appendix.ytenx.org/" target="_blank">附錄</a>
               </li>
               <li class="{% block kiemx_sriek_active %}{% endblock %}">
                 <a href="{% url views.kiemx_sriek %}">高級檢索</a>
