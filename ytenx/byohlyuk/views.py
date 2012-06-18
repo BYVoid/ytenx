@@ -19,11 +19,8 @@ def byoh_lyuk(request, name):
     raise Http404()
 
 def kienx_pyan():
-  import os
-  print os.getcwd()
-
   kienx_pyan_pieux = []
-  for line in open('st_multi.txt'):
+  for line in open('ytenx/byohlyuk/st_multi.txt'):
     line = line[:-1]
     line = line.decode('utf-8')
     line = line.split('\t')
