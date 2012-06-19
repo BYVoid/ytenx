@@ -1,26 +1,22 @@
 {% extends "tcenghyonhtsen/layout.html" %}
 {% load ytenx %}
 {% block tcenghyonhtsen_sieux_yonh_active %}active{% endblock %}
-{% block title %}{{sieux_yonh}} - 小韻{% endblock %}
-{% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, {% endblock %}
+{% block title %}{{sieux_yonh}} - 小韻 - 洪武正韻牋{% endblock %}
+{% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, 洪武正韻牋, {% endblock %}
 {% block content %}
-<h1>{{sieux_yonh}}</h1>
+<div class="page-header">
+  <h1>{{sieux_yonh}} <small>洪武正韻牋第{{sieux_yonh.ziox|sryoh}}小韻</small></h1>
+</div>
 <div class="row">
   <div class="span4">
     <table class="table table-bordered">
     	<tr>
     	  <td>小韻</td>
-    	  <td>
-    	  	{{sieux_yonh}}
-    	  </td>
+    	  <td>{{sieux_yonh}}</td>
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>
-    	  	<a href="?s={{sieux_yonh.ziox}}">
-    	  		{{sieux_yonh.ziox}}
-    	  	</a>
-    	  </td>
+    	  <td>{{sieux_yonh.ziox}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -49,7 +45,6 @@
     </table>
   </div>
 </div>
-
 <div class="row">
   <div class="span8">
     {% if sieux_yonh.dzih_set.all %}
@@ -72,7 +67,6 @@
     {% endif %}
   </div>
 </div>
-
 <div class="row">
   <div class="span9">
     <h2>書影</h2>
@@ -92,5 +86,4 @@
     </ul>
   </div>
 </div>
-
 {% endblock %}

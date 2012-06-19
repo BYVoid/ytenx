@@ -3,7 +3,9 @@
 {% block caption %}韻典網{% endblock %}
 {% block body %}
 <div class="span12">
-  <h1>歡迎訪問韻典網</h1>
+  <div class="page-header">
+    <h1>歡迎訪問韻典網</h1>
+  </div>
     <p>韻典網是一個綜合的韻書查詢工具，包含《廣韻》、《洪武正韻牋》和《分韻撮要》。<a href="{% url views.about_page %}">更多介紹…</a></p>
   <h2>廣韻</h2>
     <p>《大宋重修廣韻》是公元1008年，由陳彭年等人奉詔，根據《切韻》修訂成的一部韻書。《廣韻》共收字二萬六千一百九十四，列三千八百七十四小韻，分爲上平聲、下平聲、上聲、去聲、入聲五卷，共計二百零六韻。<a href="{% url kyonh.views.index_page %}">更多介紹…</a></p>
