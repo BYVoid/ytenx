@@ -1,12 +1,14 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_yonh_do_active %}active{% endblock %}
-{% block title %}等韻圖{% endblock %}
-{% block keywords %}等韻圖, 韻圖{% endblock %}
+{% block title %}等韻圖 - 廣韻{% endblock %}
+{% block keywords %}等韻圖, 韻圖, 廣韻{% endblock %}
 {% block body %}
+<div class="page-header">
+  <h1>等韻圖 <small>廣韻</small></h1>
+</div>
 <div class="row">
   <div class="span12">
-    <h1>等韻圖</h1>
     {% include "pagination.html" with list=dzip_list only %}
     <table class="table table-bordered table-condensed table-striped">
     <tr>
@@ -59,6 +61,4 @@
     </table>
   </div>
 </div>
-
 {% endblock %}
-

@@ -44,6 +44,13 @@
       </li>
       <li class="{% block kyonh_cio_active %}{% endblock %}">
         <a href="{% url kyonh.views.cio_page 1 1 %}">書影</a>
+        <ul class="nav nav-list">
+          <li><a href="{% url kyonh.views.cio_page 1 1 %}">上平聲</a></li>
+          <li><a href="{% url kyonh.views.cio_page 2 1 %}">下平聲</a></li>
+          <li><a href="{% url kyonh.views.cio_page 3 1 %}">上聲</a></li>
+          <li><a href="{% url kyonh.views.cio_page 4 1 %}">去聲</a></li>
+          <li><a href="{% url kyonh.views.cio_page 5 1 %}">入聲</a></li>
+        </ul>
       </li>
     </ul>
   </div><!--/.well -->

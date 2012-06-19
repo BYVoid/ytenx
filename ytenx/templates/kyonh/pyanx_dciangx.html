@@ -1,12 +1,14 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_dciangx_dzih_active %}active{% endblock %}
-{% block title %}{{dciangx}} - 反切上字{% endblock %}
-{% block keywords %}{{dciangx}}, 反切上字 {% endblock %}
+{% block title %}{{dciangx}} - 反切上字 - 廣韻{% endblock %}
+{% block keywords %}{{dciangx}}, 反切上字, 廣韻 {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{dciangx}} <small>廣韻反切上字</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{dciangx}}</h1>
   <h2>聲母</h2>
   <p>
     {% for cjeng in dciangx.cjeng.all %}
@@ -15,7 +17,6 @@
   </p>
   </div>
 </div>
-
 <div class="span8">
   <div class="row">
     <h2>小韻</h2>
@@ -24,6 +25,4 @@
     {% endfor %}
   </div>
 </div>
-
 {% endblock %}
-

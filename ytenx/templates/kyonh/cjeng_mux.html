@@ -1,10 +1,12 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_cjeng_mux_active %}active{% endblock %}
-{% block title %}{{cjeng}} - 聲母{% endblock %}
-{% block keywords %}{{cjeng}}, 聲母 {% endblock %}
+{% block title %}{{cjeng}} - 聲母 - 廣韻{% endblock %}
+{% block keywords %}{{cjeng}}, 聲母, 廣韻 {% endblock %}
 {% block content %}
-<h1>{{cjeng.lyih}} {{cjeng}}</h1>
+<div class="page-header">
+  <h1>{{cjeng}} <small>廣韻聲母{{cjeng.lyih}}</small></h1>
+</div>
 <div class="row">
   <div class="span3">
     <h2>擬音</h2>
@@ -33,8 +35,6 @@
     </table>
   </div>
 </div>
-
-
 <div class="span10">
   <div class="row">
     <h2>小韻</h2>
@@ -49,6 +49,4 @@
     {% endfor %}
   </div>
 </div>
-
 {% endblock %}
-

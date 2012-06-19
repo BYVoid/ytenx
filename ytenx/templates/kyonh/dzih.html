@@ -1,12 +1,14 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_dzih_active %}active{% endblock %}
-{% block title %}{{dzih}} - 字{% endblock %}
+{% block title %}{{dzih}} - 字 - 廣韻{% endblock %}
 {% block keywords %}{{dzih}}, 字, 反切, 廣韻, {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{dzih}} <small>廣韻{{dzih.sieuxYonh}}小韻</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{dzih}}</h1>
     <table class="table table-bordered">
     	<tr>
     	  <td>小韻</td>

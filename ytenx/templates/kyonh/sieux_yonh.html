@@ -1,18 +1,18 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_sieux_yonh_active %}active{% endblock %}
-{% block title %}{{sieux_yonh}} - 小韻{% endblock %}
-{% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, {% endblock %}
+{% block title %}{{sieux_yonh}} - 小韻 - 廣韻{% endblock %}
+{% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, 廣韻, {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{sieux_yonh}} <small>廣韻第{{sieux_yonh.ziox|sryoh}}小韻</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{sieux_yonh}}</h1>
     <table class="table table-bordered">
     	<tr>
     	  <td>小韻</td>
-    	  <td>
-    	  	{{sieux_yonh}}
-    	  </td>
+    	  <td>{{sieux_yonh}}</td>
     	</tr>
     	<tr>
     	  <td>序號</td>
@@ -78,8 +78,7 @@
     	</tr>
     </table>
   </div>
-  <div class="span4">
-    <h2>擬音</h2>
+  <div class="span3">
     <table class="table table-bordered">
     {% for mjeng, ngix in sieux_yonh.ngix.items %}
       {% if ngix %}
@@ -90,7 +89,6 @@
       {% endif %}
     {% endfor %}
     </table>
-    <h2>拼音</h2>
     <table class="table table-bordered">
     {% for mjeng, preng in sieux_yonh.preng.items %}
       {% if preng %}
@@ -103,14 +101,6 @@
     </table>
   </div>
 </div>
-
-<div class="row">
-  <div class="span8">
-    <h2>書影</h2>
-    {% include "kyonh/cio_do.html" with cio_do_pieux=sieux_yonh.cio.all only %}
-  </div>
-</div>
-
 <div class="row">
   <div class="span8">
   <h2>字</h2>
@@ -124,5 +114,10 @@
   </table>
   </div>
 </div>
-
+<div class="row">
+  <div class="span8">
+    <h2>書影</h2>
+    {% include "kyonh/cio_do.html" with cio_do_pieux=sieux_yonh.cio.all only %}
+  </div>
+</div>
 {% endblock %}

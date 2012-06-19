@@ -17,7 +17,7 @@ class KuangxYonhMiukTshiih(models.Model):
   
   def __unicode__(self):
     from ytenx.filters.templatetags.ytenx import sryoh
-    return self.kyenh + sryoh(unicode(self.tshiih)) + self.dzih;
+    return self.kyenh + u'聲' + sryoh(unicode(self.tshiih)) + self.dzih;
 
 #韻目
 class YonhMiuk(models.Model):

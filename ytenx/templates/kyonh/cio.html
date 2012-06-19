@@ -3,7 +3,9 @@
 {% block kyonh_cio_active %}active{% endblock %}
 {% block title %}第{{cio.kyenh|sryoh}}卷{{cio.jep|sryoh}}䈎 - 廣韻{% endblock %}
 {% block content %}
-<h1>《廣韻》第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎</h2>
+<div class="page-header">
+  <h1>第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎 <small>《廣韻澤存堂本》</small></h1>
+</div>
 {% include "pohpyon/navibar.html" with urls=cio.urls only %}
 <div class="span10">
   {% if cio.cio.sieuxyonh_set.all %}

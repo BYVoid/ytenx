@@ -1,19 +1,19 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_cjeng_ngix_active %}active{% endblock %}
-{% block title %}聲母擬音{% endblock %}
-{% block keywords %}聲母, 擬音, 聲母擬音, {% endblock %}
+{% block title %}聲母擬音 - 廣韻{% endblock %}
+{% block keywords %}聲母, 擬音, 聲母擬音, 廣韻, {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>聲母擬音 <small>廣韻</small></h1>
+</div>
 <div class="row">
   <div class="span10">
-    <h1>聲母擬音</h1>
     <table class="table table-bordered table-condensed table-striped">
       <tr>
         <th>聲母</th>
         {% for mjeng, qim in cjeng_mux_list.0.ngix.items %}
-          {% if qim %}
-            <th>{{mjeng}}</th>
-          {% endif %}
+          <th>{{mjeng}}</th>
         {% endfor %}
       </tr>
       {% for cjeng in cjeng_mux_list %}
@@ -22,6 +22,8 @@
         {% for mjeng, qim in cjeng.ngix.items %}
           {% if qim %}
             <td><ipa>{{qim}}</ipa></td>
+          {% else %}
+            <td></td>
           {% endif %}
         {% endfor %}
       </tr>
@@ -29,6 +31,4 @@
     </table>
   </div>
 </div>
-
 {% endblock %}
-

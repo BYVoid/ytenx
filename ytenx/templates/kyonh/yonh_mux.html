@@ -1,12 +1,14 @@
 {% extends "kyonh/layout.html" %}
 {% load ytenx %}
 {% block kyonh_yonh_mux_active %}active{% endblock %}
-{% block title %}{{yonh}} - 韻母{% endblock %}
-{% block keywords %}{{yonh}}, 韻母 {% endblock %}
+{% block title %}{{yonh}} - 韻母 - 廣韻{% endblock %}
+{% block keywords %}{{yonh}}, 韻母, 廣韻 {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{yonh}} <small>廣韻韻母</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{yonh}}</h1>
     <table class="table table-bordered">
     	<tr>
     	  <td>韻系</td>
@@ -47,7 +49,6 @@
     </table>
   </div>
   <div class="span3">
-    <h2>擬音</h2>
     <table class="table table-bordered">
     {% for mjeng, ngix in yonh.ngix.items %}
       {% if ngix %}
@@ -60,7 +61,6 @@
     </table>
   </div>
   <div class="span3">
-    <h2>拼音</h2>
     <table class="table table-bordered">
     {% for mjeng, preng in yonh.preng.items %}
       {% if preng %}
