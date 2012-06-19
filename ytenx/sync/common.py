@@ -1,7 +1,10 @@
 # coding=utf-8
 
-def traverse(filename, separator, callback):
+def traverse(filename, callback, **kwargs):
   num = 0
+  separator = ' '
+  if kwargs.has_key('separator'):
+    separator = kwargs['separator']
   for line in open(filename):
     if (line[0] == '#'):
       continue

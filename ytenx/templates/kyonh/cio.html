@@ -8,6 +8,13 @@
 </div>
 {% include "pohpyon/navibar.html" with urls=cio.urls only %}
 <div class="span10">
+  {% if cio.myon %}
+    <div class="row">
+      {% autoescape off %}
+        <blockquote>{{cio.myon|krak_cik}}</blockquote>
+      {% endautoescape %}
+    </div>
+  {% endif %}
   {% if cio.cio.sieuxyonh_set.all %}
     <div class="row">
       <h2>小韻</h2>

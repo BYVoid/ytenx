@@ -19,4 +19,5 @@ urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:
   urlpatterns += patterns('',
     (r'^sync/jitthex$', 'ytenx.sync.jihthex.sync'),
+    (r'^sync/kyonh$', 'ytenx.sync.kyonh.sync'),
   )

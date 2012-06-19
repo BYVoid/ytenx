@@ -69,3 +69,7 @@ def tshyuk(value):
 def qim_jang(value):
   if value: return u'陽'
   return u'陰'
+
+@register.filter
+def krak_cik(text):
+  return text.replace(r'\n', "<br>")

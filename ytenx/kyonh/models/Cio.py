@@ -9,6 +9,8 @@ class DrakDzuonDang(models.Model):
   kyenh = models.SmallIntegerField(db_index=True)
   #頁碼
   jep = models.SmallIntegerField(db_index=True)
+  #文本
+  myon = models.TextField()
   
   class Meta:
     app_label = 'kyonh'
@@ -32,12 +34,8 @@ class DrakDzuonDang(models.Model):
     }
     if self.jep > 1:
       urls['previous'] = base_path % (self.kyenh, self.jep - 1)
-    elif self.kyenh > 1:
-      urls['previous'] = base_path % (self.kyenh - 1, max_jep[self.kyenh - 1])
     if self.jep < max_jep[self.kyenh]:
       urls['next'] = base_path % (self.kyenh, self.jep + 1)
-    elif self.kyenh < 5:
-      urls['next'] = base_path % (self.kyenh + 1, 1)
     
     return urls
 
