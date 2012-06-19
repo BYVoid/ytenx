@@ -22,12 +22,19 @@
       </li>
       <li class="{% block pyonh_cio_active %}{% endblock %}">
         <a href="{% url pyonh.views.cio 1 1 %}">書影</a>
+        <ul class="nav nav-list">
+          <li class="{% block pyonh_cio_1_active %}{% endblock %}">
+            <a href="{% url pyonh.views.cio 1 1 %}">第一卷</a>
+          </li>
+          <li class="">
+            <a href="{% url pyonh.views.cio 2 1 %}">第二卷</a>
+          </li>
+        </ul>
       </li>
     </ul>
-  </div><!--/.well -->
-</div><!--/span-->
+  </div>
+</div>
 <div class="span10">
-  {% block content %}
-  {% endblock %}
-</div><!--/span-->
+{% block content %}{% endblock %}
+</div>
 {% endblock %}

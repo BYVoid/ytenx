@@ -4,28 +4,29 @@
 {% block title %}{{yonh}} - 韻母{% endblock %}
 {% block keywords %}{{yonh}}, 韻母 {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{yonh}} <small>分韻撮要韻母</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{yonh}}</h1>
     <table class="table table-bordered">
     	<tr>
     	  <td>韻部</td>
     	  <td>第{{yonh.yonh_box.ziox|sryoh}}{{yonh.yonh_box}}</td>
     	</tr>
     	<tr>
-    	  <td>調</td>
+    	  <td>調類</td>
     	  <td>{{yonh.tshyuk|tshyuk}}聲</td>
     	</tr>
     	{% if yonh.tuaih %}
       	<tr>
-      	  <td>對立韻母</td>
+      	  <td>同韻部對立韻母</td>
       	  <td><a href="{% url ytenx.pyonh.views.yonh_mux yonh.tuaih %}">{{yonh.tuaih}}</a></td>
       	</tr>
     	{% endif %}
     </table>
   </div>
 </div>
-
 <div class="span10">
   <div class="row">
     <h2>小韻</h2>
@@ -34,5 +35,4 @@
     {% endfor %}
   </div>
 </div>
-
 {% endblock %}

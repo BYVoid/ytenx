@@ -32,11 +32,6 @@ class Cio(models.Model):
     }
     if self.jep > 1:
       urls['previous'] = base_path % (self.kyenh, self.jep - 1)
-    elif self.kyenh > 1:
-      urls['previous'] = base_path % (self.kyenh - 1, max_jep[self.kyenh - 1])
     if self.jep < max_jep[self.kyenh]:
       urls['next'] = base_path % (self.kyenh, self.jep + 1)
-    elif self.kyenh < 5:
-      urls['next'] = base_path % (self.kyenh + 1, 1)
-    
     return urls

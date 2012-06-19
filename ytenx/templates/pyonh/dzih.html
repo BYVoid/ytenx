@@ -4,9 +4,11 @@
 {% block title %}{{dzih}} - 字 - 分韻撮要{% endblock %}
 {% block keywords %}{{dzih}}, 分韻撮要, {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>{{dzih}} <small>分韻撮要{{dzih.sieux_yonh}}小韻</small></h1>
+</div>
 <div class="row">
   <div class="span4">
-  <h1>{{dzih}}</h1>
     <table class="table table-bordered">
     	<tr>
     	  <td>小韻</td>
@@ -16,22 +18,40 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
+    	  <td>{{dzih.ziox}}</td>
+    	</tr>
+    	<tr>
+    	  <td>聲母</td>
     	  <td>
-    	  	{{dzih.ziox}}
+    	  	<a href="{% url pyonh.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">
+    	  		{{dzih.sieux_yonh.cjeng}}
+    	  	</a>
     	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻母</td>
+    	  <td>
+    	  	<a href="{% url pyonh.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">
+    	  		{{dzih.sieux_yonh.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻部</td>
+    	  <td>第{{dzih.sieux_yonh.yonh_box.ziox|sryoh}}{{dzih.sieux_yonh.yonh_box}}</td>
+    	</tr>
+    	<tr>
+    	  <td>聲調</td>
+    	  <td>{{dzih.sieux_yonh.qim_jang|qim_jang}}{{dzih.sieux_yonh.deuh|deuh}}</td>
     	</tr>
     </table>
   </div>
 </div>
-
 <blockquote>{{dzih.ngieh}}</blockquote>
-
 <div class="row">
   <div class="span8">
     <h2>書影</h2>
-    {% include "pyonh/cio_do.html" with cio_do_pieux=dzih.cio.all only %}
+    {% include "pyonh/pohpyon/cio_do.html" with cio_do_pieux=dzih.cio.all only %}
   </div>
 </div>
-
 {% endblock %}
-

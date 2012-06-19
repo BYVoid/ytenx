@@ -7,7 +7,10 @@ from django.core.paginator import InvalidPage, EmptyPage
 from models import *
 
 def pyon_yonh(request):
-  return render_to_response('pyonh/pyon_yonh.html')
+  return render_to_response('pyonh/pyon_yonh.html', {
+    'cjeng_mux_pieux': CjengLyih.objects.all(),
+    'yonh_mux_pieux': YonhBox.objects.all(),
+  })
 
 def sieux_yonh(request, ziox):
   try:
@@ -83,7 +86,7 @@ def dzih_pieux(request):
 
 def cjeng_mux_pieux(request):
   return render_to_response('pyonh/cjeng_mux_pieux.html', {
-    'cjeng_lyih_pieux': CjengLyih.objects.all(),
+    'cjeng_mux_pieux': CjengLyih.objects.all(),
   })
 
 def cjeng_mux(request, dzih):
@@ -98,7 +101,7 @@ def cjeng_mux(request, dzih):
 
 def yonh_mux_pieux(request):
   return render_to_response('pyonh/yonh_mux_pieux.html', {
-    'yonh_box_pieux': YonhBox.objects.all(),
+    'yonh_mux_pieux': YonhBox.objects.all(),
   })
 
 def yonh_mux(request, mjeng):

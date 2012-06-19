@@ -1,32 +1,15 @@
 {% extends "pyonh/poh.html" %}
 {% load ytenx %}
 {% block pyonh_yonh_active %}active{% endblock %}
-{% block title %}韻母表{% endblock %}
-{% block keywords %}韻母, {% endblock %}
+{% block title %}韻母表 - 分韻撮要{% endblock %}
+{% block keywords %}韻母, 分韻撮要, {% endblock %}
 {% block content %}
+<div class="page-header">
+  <h1>韻母表 <small>分韻撮要</small></h1>
+</div>
 <div class="row">
   <div class="span5">
-    <h1>韻母表</h1>
-    <table class="table table-bordered table-condensed table-striped">
-      <tr>
-        <th>韻部</th>
-        <th>舒聲</th>
-        <th>入聲</th>
-      </tr>
-      {% for yonh_box in yonh_box_pieux %}
-      <tr>
-        <td>第{{yonh_box.ziox|sryoh}}{{yonh_box}}</td>
-        {% for yonh_mux in yonh_box.yonhmux_set.all %}
-          <td><a href="{% url ytenx.pyonh.views.yonh_mux yonh_mux %}">{{yonh_mux}}</a></td>
-        {% endfor %}
-        {% if yonh_box.yonhmux_set.all|length == 1 %}
-          <td></td>
-        {% endif %}
-      </tr>
-      {% endfor %}
-    </table>
+    {% include "pyonh/pohpyon/yonh_mux_pieux.html" with yonh_mux_pieux=yonh_mux_pieux only %}
   </div>
 </div>
-
 {% endblock %}
-
