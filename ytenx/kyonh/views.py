@@ -31,22 +31,22 @@ def sieux_yonh_list_page(request):
   
   query = Q()
   if cjeng:
-    query &= Q(cjeng = CjengMux.objects.get(dzih=cjeng))
+    query &= Q(cjeng__in = CjengMux.objects.filter(dzih=cjeng))
   if yonh:
     query &= Q(yonhMiuk__in = YonhMiuk.objects.filter(
-      gheh = YonhGheh.objects.get(dzih=yonh)
+      gheh__in = YonhGheh.objects.filter(dzih=yonh)
     ))
   if deuh:
     query &= Q(yonhMiuk__in = YonhMiuk.objects.filter(
-      deuh = deuh
+      deuh = int(deuh)
     ))
   if tongx:
     query &= Q(yonh__in = YonhMux.objects.filter(
-      tongx = tongx
+      tongx = int(tongx)
     ))
   if ho:
     query &= Q(yonh__in = YonhMux.objects.filter(
-      ho = ho
+      ho = int(ho)
     ))
   
   sieux_yonh_pieux = SieuxYonh.objects.filter(query).order_by('ziox')
