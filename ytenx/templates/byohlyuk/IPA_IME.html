@@ -2,7 +2,7 @@
 {% block byoh_lyuk_active %}active{% endblock %}
 {% block title %}國際音標輸入法 - 附錄{% endblock %}
 {% block content %}
-<script>
+<script type="text/javascript">
 /*
 daujyungx
 */
@@ -45,7 +45,8 @@ function insert(field, v) {
 	field.focus();
 }
 </script>
-<style>
+<noscript>
+<style type="text/css">
 #textipa, .ipa {
 	font-size: 40px;
 	font-family: 'Charis SIL', 'Doulos SIL', Gentium, GentiumAlt, 'Gentium Plus', IpaPanNew, 'Lucida Sans Unicode', 'Segoe UI', 'DejaVu Sans', 'Lingoes Unicode', 'Lucida Grande', 'Times New Roman', Arial, sans-serif;
@@ -104,6 +105,7 @@ function insert(field, v) {
   margin-top: 100px;
 }
 </style>
+</noscript>
 <div id="subnav-fixed">
   <div id="edit">
     <form name="formipa" onSubmit="return(false);" action="#">
