@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.http import Http404
 from django.shortcuts import render_to_response
+from django.views.decorators.cache import cache_page
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
 from models import SieuxYonh, YonhBux, YonhMiuk, Cio
@@ -29,6 +30,7 @@ def sieux_yonh_list_page(request):
     'sieux_yonh_list': sieux_yonh_list,
   })
 
+@cache_page
 def yonh_miuk_list_page(request):
   return render_to_response('tcenghyonhtsen/yonh_miuk_list.html', {
     'yonh_bux_list': YonhBux.objects.all(),

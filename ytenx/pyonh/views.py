@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.http import Http404
 from django.shortcuts import render_to_response
+from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
@@ -84,11 +85,13 @@ def dzih_pieux(request):
     'dzih_pieux': dzih_pieux,
   })
 
+@cache_page
 def cjeng_mux_pieux(request):
   return render_to_response('pyonh/cjeng_mux_pieux.html', {
     'cjeng_mux_pieux': CjengLyih.objects.all(),
   })
 
+@cache_page
 def cjeng_mux(request, dzih):
   try:
     cjeng = CjengMux.objects.get(dzih = dzih)
@@ -99,11 +102,13 @@ def cjeng_mux(request, dzih):
     'cjeng': cjeng,
   })
 
+@cache_page
 def yonh_mux_pieux(request):
   return render_to_response('pyonh/yonh_mux_pieux.html', {
     'yonh_mux_pieux': YonhBox.objects.all(),
   })
 
+@cache_page
 def yonh_mux(request, mjeng):
   try:
     yonh = YonhMux.objects.get(mjeng = mjeng)
