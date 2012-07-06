@@ -1,0 +1,57 @@
+{% extends "trngyan/poh.html" %}
+{% load ytenx %}
+{% block trngyan_dzih_active %}active{% endblock %}
+{% block title %}{{dzih}} - 字 - 中原音韻{% endblock %}
+{% block keywords %}{{dzih}}, 中原音韻, {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{{dzih}} <small>中原音韻{{dzih.sieux_yonh}}小韻</small></h1>
+</div>
+<div class="row">
+  <div class="span4">
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>小韻</td>
+    	  <td>
+    	  	<a href="{% url trngyan.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>序號</td>
+    	  <td>{{dzih.ziox}}</td>
+    	</tr>
+    	<tr>
+    	  <td>聲母</td>
+    	  <td>
+    	  	<a href="{% url trngyan.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">
+    	  		{{dzih.sieux_yonh.cjeng}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻母</td>
+    	  <td>
+    	  	<a href="{% url trngyan.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">
+    	  		{{dzih.sieux_yonh.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻部</td>
+    	  <td>{{dzih.sieux_yonh.yonh_box}}</td>
+    	</tr>
+    	<tr>
+    	  <td>聲調</td>
+    	  <td>{{dzih.sieux_yonh.deuh|deuh_trngyan}}</td>
+    	</tr>
+    </table>
+  </div>
+</div>
+<blockquote>{{dzih.tryoh}}</blockquote>
+<div class="row">
+  <div class="span8">
+    <h2>書影</h2>
+    {% include "trngyan/pohpyon/cio_do.html" with cio_do_pieux=dzih.cio.all only %}
+  </div>
+</div>
+{% endblock %}

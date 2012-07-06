@@ -1,0 +1,24 @@
+{% load ytenx %}
+<table class="table table-bordered table-condensed table-striped">
+  <tr>
+    <th>韻部</th>
+    <th width="64">開口呼</th>
+    <th width="64">合口呼</th>
+    <th width="64">齊齒呼</th>
+    <th width="64">撮口呼</th>
+  </tr>
+  {% for yonh_box in yonh_mux_pieux %}
+  <tr>
+    <td>{{yonh_box}}</td>
+    {% for yonh_mux_dzip in yonh_box.yonh_mux %}
+      <td>
+        {% if yonh_mux_dzip %}
+          {% for yonh_mux in yonh_mux_dzip %}
+            <a href="{% url ytenx.trngyan.views.yonh_mux yonh_mux %}">{{yonh_mux}}</a>
+          {% endfor %}
+        {% endif %}
+      </td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>

@@ -32,8 +32,8 @@ def syncDzih():
     dzih.save()
   
   print 'Dzih...'
-  traverse(basePath + 'JihThex.csv', ',', sync_dzih)
+  traverse(basePath + 'JihThex.csv', sync_dzih, separator=',')
   print 'Done'
   print 'DzihKruan...'
-  traverse(basePath + 'JihThex.csv', ',', sync_kruan)
+  traverse(basePath + 'JihThex.csv', sync_kruan, separator=',')
   print 'Done'

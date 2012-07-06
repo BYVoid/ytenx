@@ -1,0 +1,45 @@
+{% extends "trngyan/poh.html" %}
+{% load ytenx %}
+{% block trngyan_yonh_active %}active{% endblock %}
+{% block title %}{{yonh}} - 韻母 - 中原音韻{% endblock %}
+{% block keywords %}{{yonh}}, 韻母, 中原音韻 {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{{yonh}} <small>中原音韻韻母</small></h1>
+</div>
+<div class="row">
+  <div class="span4">
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>韻部</td>
+    	  <td>{{yonh.yonh_box}}</td>
+    	</tr>
+    	<tr>
+    	  <td>四呼</td>
+    	  <td>{{yonh.ho|siih_ho}}</td>
+    	</tr>
+    </table>
+  </div>
+  <div class="span3">
+    <h2>擬音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, ngix in yonh.ngix.items %}
+      {% if ngix %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{ngix}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+</div>
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in yonh.sieuxyonh_set.all %}
+      <a href="{% url trngyan.views.sieux_yonh sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

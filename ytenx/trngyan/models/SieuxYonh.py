@@ -25,3 +25,10 @@ class SieuxYonh(models.Model):
 
   def __unicode__(self):
     return self.taj
+
+  def ngix(self):
+    ngix = {}
+    for name,value in self.cjeng.ngix.items():
+      ngix[name] = value
+    for name,value in self.yonh.ngix.items():
+      yield name, ngix[name] + value

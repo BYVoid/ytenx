@@ -56,6 +56,18 @@ def deuh(value):
   return value
 
 @register.filter
+def deuh_trngyan(value):
+  value = int(value)
+  if value == 1: return u'陰平'
+  if value == 2: return u'陽平'
+  if value == 3: return u'上聲'
+  if value == 4: return u'去聲'
+  if value == 5: return u'入聲作平聲'
+  if value == 6: return u'入聲作上聲'
+  if value == 7: return u'入聲作去聲'
+  return value
+
+@register.filter
 def ho(value):
   if value: return u'開'
   return u'合'
@@ -69,6 +81,21 @@ def tshyuk(value):
 def qim_jang(value):
   if value: return u'陽'
   return u'陰'
+
+@register.filter
+def dciangx_ghrax(value):
+  value = int(value)
+  if value == 1: return u'上'
+  return u'下'
+
+@register.filter
+def siih_ho(value):
+  value = int(value)
+  if value == 1: return u'開口呼'
+  if value == 2: return u'合口呼'
+  if value == 3: return u'齊齒呼'
+  if value == 4: return u'撮口呼'
+  return value
 
 @register.filter
 def krak_cik(text):

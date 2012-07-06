@@ -1,0 +1,15 @@
+{% extends "trngyan/poh.html" %}
+{% load ytenx %}
+{% block trngyan_yonh_active %}active{% endblock %}
+{% block title %}韻母表 - 中原音韻{% endblock %}
+{% block keywords %}韻母, 中原音韻, {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>韻母表 <small>中原音韻</small></h1>
+</div>
+<div class="row">
+  <div class="span4">
+    {% include "trngyan/pohpyon/yonh_mux_pieux.html" with yonh_mux_pieux=yonh_mux_pieux only %}
+  </div>
+</div>
+{% endblock %}

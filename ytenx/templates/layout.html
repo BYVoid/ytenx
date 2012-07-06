@@ -45,6 +45,9 @@
               <li class="{% block kyonh_active %}{% endblock %}">
                 <a href="{% url kyonh.views.index_page %}">廣韻</a>
               </li>
+              <li class="{% block trngyan_active %}{% endblock %}">
+                <a href="{% url trngyan.views.triung_ngyan_qim_yonh %}">中原音韻</a>
+              </li>
               <li class="{% block tcenghyonhtsen_active %}{% endblock %}">
                 <a href="{% url tcenghyonhtsen.views.index_page %}">洪武正韻牋</a>
               </li>
@@ -63,9 +66,7 @@
             </ul>
             <form class="navbar-search pull-left" action="{% url views.zim %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
-              <input type="hidden" name="kyonh" value="1">
-              <input type="hidden" name="tcyts" value="1">
-              <input type="hidden" name="pyonh" value="1">
+              <input type="hidden" name="dzyen" value="1">
               <input type="hidden" name="jtkb" value="1">
               <input type="hidden" name="jtdt" value="1">
             </form>

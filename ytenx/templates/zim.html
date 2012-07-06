@@ -15,6 +15,7 @@
     <li>
       檢索範圍：
       {% if chom_sryoh.zim_kyonh %}<span class="label label-success">廣韻</span>{% endif %}
+      {% if chom_sryoh.zim_trngyan %}<span class="label label-success">中原音韻</span>{% endif %}
       {% if chom_sryoh.zim_tcyts %}<span class="label label-success">洪武正韻牋</span>{% endif %}
       {% if chom_sryoh.zim_pyonh %}<span class="label label-success">分韻撮要</span>{% endif %}
     </li>
@@ -44,6 +45,22 @@
   	  	{{dzih.sieuxYonh.yonh.ho|ho}}口
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
+    {% endfor %}
+  {% endif %}
+  {% if dzih_list.trngyan %}
+    <h1>中原音韻</h1>
+    {% for dzih in dzih_list.trngyan %}
+      <h2>
+        <span class="badge badge-info">{{forloop.counter}}</span>
+        <a href="{% url trngyan.views.dzih dzih.id %}">{{dzih.dzih}}</a>
+      </h2>
+      <p>
+  	  	<a href="{% url trngyan.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
+  	  	<a href="{% url trngyan.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh_box}}</a>韻
+  	  	{{dzih.sieux_yonh.deuh|deuh_trngyan}}
+        <a href="{% url trngyan.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
+      </p>
+      <blockquote>{{dzih.tryoh}}</blockquote>
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcyts %}

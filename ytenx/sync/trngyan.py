@@ -193,7 +193,7 @@ def syncDzih():
       id = dzih + str(i)
     
     dzih = Dzih(
-      ziox = num,
+      ziox = num + 1,
       id = id,
       sieux_yonh = sieux_yonh[sieux_ziox],
       dzih = dzih,

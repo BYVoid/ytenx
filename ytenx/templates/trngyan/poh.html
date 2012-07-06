@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block trngyan_active %}active{% endblock %}
+{% block body %}
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="nav-header">檢索</li>
+      <li class="{% block trngyan_qim_yonh_active %}{% endblock %}">
+        <a href="{% url trngyan.views.triung_ngyan_qim_yonh %}">中原音韻</a>
+      </li>
+      <li class="{% block trngyan_sieux_yonh_active %}{% endblock %}">
+        <a href="{% url trngyan.views.sieux_yonh_pieux %}">小韻</a>
+      </li>
+      <li class="{% block trngyan_dzih_active %}{% endblock %}">
+        <a href="{% url trngyan.views.dzih_pieux %}">字表</a>
+      </li>
+      <li class="{% block trngyan_cjeng_active %}{% endblock %}">
+        <a href="{% url trngyan.views.cjeng_mux_pieux %}">聲母</a>
+      </li>
+      <li class="{% block trngyan_yonh_active %}{% endblock %}">
+        <a href="{% url trngyan.views.yonh_mux_pieux %}">韻母</a>
+      </li>
+      <li class="{% block trngyan_cio_active %}{% endblock %}">
+        <a href="{% url trngyan.views.cio 1 1 %}">書影</a>
+        <ul class="nav nav-list">
+          <li class="{% block trngyan_cio_1_active %}{% endblock %}">
+            <a href="{% url trngyan.views.cio 1 1 %}">上卷</a>
+          </li>
+          <li class="">
+            <a href="{% url trngyan.views.cio 2 1 %}">下卷</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="span10">
+{% block content %}{% endblock %}
+</div>
+{% endblock %}

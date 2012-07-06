@@ -1,0 +1,33 @@
+{% extends "trngyan/poh.html" %}
+{% block trngyan_qim_yonh_active %}active{% endblock %}
+{% block title %}中原音韻{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>中原音韻 <small>元曲的韻律標準</small></h1>
+</div>
+<div class="row">
+  <div class="span10">
+    <p>《分韻撮要》是記載清初粵語語音的韻書，現存最早的版本是1782年的《江湖尺牘分韻撮要合集》。《分韻撮要》分三十三韻部，每個韻部內小韻按照陰平、陽平、陰上、陽上、陰去、陽去、陰入、陽入排列，小韻有字義但無反切。《分韻撮要》的作者和具體成書年代均不詳，但可以確定的是此書記錄的語音系統不早於明末清初。</p>
+    <p>1856年美國人Williams, S. Wells根據《江湖尺牘分韻撮要合集》刻本出版了《英華分韵撮要》，它是一部按韻部編排的漢英字典，每個漢字除了有英文釋義外，還分別記錄的粵語和官話的拼寫。現存的版本由<a href="http://archive.org/details/cyingcwcfanwan00williala" target="_blank">洛杉磯大學圖書館</a>收藏。</p>
+    <p>韻典網《分韻撮要》正文依據<a href="http://www.nla.gov.au/apps/cdview?pi=nla.gen-vn1883034" target="_blank">澳大利亞國家圖書館</a>館藏的《江湖尺牘分韻撮要合集》道光十八年重鐫本，由<a href="http://www.zhihu.com/people/poem" target="_blank">poem</a>逐字錄入，BYVoid加以整理。</p>
+  </div>
+</div>
+<div class="row">
+  <div class="span10">
+    <h2>聲母系統</h2>
+    <p>《分韻撮要》原書按韻部排列，韻部內分小韻，絕大多數小韻無反切，故其聲母系統只能從韻部內小韻音位對立來考證。韻典網《分韻撮要》聲母系統由poem整理，主要方法爲從廣韻正向推演和現代粵語反向溯源，並參考了論文「清初的粵語音系——《分韻撮要》的聲韻系統」，共擬二十四聲母，分六類。其中「見」「古」、「溪」「困」爲開口與合口的對立，由於粵語除牙音以外無介音，故將牙音開合口擬爲兩個聲母。「亞」、「以」、「云」同爲零聲母，「以」「云」用於區分細音和合口。</p>
+    <div class="span3">
+      {% include "pyonh/pohpyon/cjeng_mux_pieux.html" with cjeng_mux_pieux=cjeng_mux_pieux only %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span10">
+    <h2>韻母系統</h2>
+    <p>由於粵語介音普遍消失，韻部即大體等同於韻目，從三十三韻部內分出舒聲韻母和入聲韻母以後，即得五十韻母。</p>
+    <div class="span3">
+      {% include "pyonh/pohpyon/yonh_mux_pieux.html" with yonh_mux_pieux=yonh_mux_pieux only %}
+    </div>
+  </div>
+</div>
+{% endblock %}

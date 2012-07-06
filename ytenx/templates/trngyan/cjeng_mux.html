@@ -1,0 +1,33 @@
+{% extends "trngyan/poh.html" %}
+{% load ytenx %}
+{% block trngyan_cjeng_active %}active{% endblock %}
+{% block title %}{{cjeng}} - 聲母 - 中原音韻{% endblock %}
+{% block keywords %}{{cjeng}}, 聲母, 中原音韻 {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{{cjeng}} <small>中原音韻聲母</small></h1>
+</div>
+<div class="row">
+  <div class="span3">
+    <h2>擬音</h2>
+    <table class="table table-bordered">
+    {% for mjeng, ngix in cjeng.ngix.items %}
+      {% if ngix %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{ngix}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  </div>
+</div>
+<div class="span10">
+  <div class="row">
+    <h2>小韻</h2>
+    {% for sieux in cjeng.sieuxyonh_set.all %}
+      <a href="{% url trngyan.views.sieux_yonh sieux.ziox %}">{{sieux}}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
