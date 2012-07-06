@@ -8,7 +8,10 @@ from django.core.paginator import InvalidPage, EmptyPage
 from models import *
 
 def triung_ngyan_qim_yonh(request):
-  return render_to_response('trngyan/triung_ngyan_qim_yonh.html')
+  return render_to_response('trngyan/triung_ngyan_qim_yonh.html', {
+    'cjeng_mux_pieux': CjengLyih.objects.all(),
+    'yonh_mux_pieux': YonhBox.objects.all(),
+  })
 
 def sieux_yonh(request, ziox):
   try:
