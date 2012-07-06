@@ -7,6 +7,7 @@ urlpatterns = patterns('',
   (r'^kyonh/', include('ytenx.kyonh.urls')),
   (r'^tcyts/', include('ytenx.tcenghyonhtsen.urls')),
   (r'^pyonh/', include('ytenx.pyonh.urls')),
+  (r'^trngyan/', include('ytenx.trngyan.urls')),
   (r'^byohlyuk/', include('ytenx.byohlyuk.urls')),
   (r'^$', 'ytenx.views.index_page'),
   (r'^about$', 'ytenx.views.about_page'),
@@ -20,4 +21,5 @@ if settings.DEBUG:
   urlpatterns += patterns('',
     (r'^sync/jitthex$', 'ytenx.sync.jihthex.sync'),
     (r'^sync/kyonh$', 'ytenx.sync.kyonh.sync'),
+    (r'^sync/trngyan$', 'ytenx.sync.trngyan.sync'),
   )
