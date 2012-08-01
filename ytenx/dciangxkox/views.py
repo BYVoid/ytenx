@@ -45,7 +45,7 @@ def dzih_pieux(request):
     'yonh_pieux': yonh_pieux,
   })
 
-#@cache_page
+@cache_page
 def cjeng_byo_pieux(request):
   cjeng_pieux = CjengByo.objects.all()
   paginator = Paginator(cjeng_pieux, 15)
@@ -58,7 +58,7 @@ def cjeng_byo_pieux(request):
     'cjeng_pieux': cjeng_pieux,
   })
 
-#@cache_page
+@cache_page
 def cjeng_byo(request, mjeng):
   try:
     cjeng = CjengByo.objects.get(mjeng = mjeng)
@@ -69,13 +69,13 @@ def cjeng_byo(request, mjeng):
     'cjeng': cjeng,
   })
 
-#@cache_page
+@cache_page
 def yonh_box_pieux(request):
   return render_to_response('dciangxkox/yonh_box_pieux.html', {
     'yonh_pieux': YonhBox.objects.all(),
   })
 
-#@cache_page
+@cache_page
 def yonh_box(request, mjeng):
   try:
     yonh = YonhBox.objects.get(mjeng = mjeng)
