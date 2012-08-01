@@ -18,6 +18,7 @@
       {% if chom_sryoh.zim_trngyan %}<span class="label label-success">中原音韻</span>{% endif %}
       {% if chom_sryoh.zim_tcyts %}<span class="label label-success">洪武正韻牋</span>{% endif %}
       {% if chom_sryoh.zim_pyonh %}<span class="label label-success">分韻撮要</span>{% endif %}
+      {% if chom_sryoh.zim_dciangx %}<span class="label label-success">上古音系</span>{% endif %}
     </li>
     <li>
       異體字轉換：
@@ -91,6 +92,38 @@
         <a href="{% url pyonh.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
+    {% endfor %}
+  {% endif %}
+  {% if dzih_list.dciangx %}
+    <h1>上古音系</h1>
+    {% for dzih in dzih_list.dciangx %}
+      <h2>
+        <span class="badge badge-info">{{forloop.counter}}</span>
+        <a href="{% url dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+      </h2>
+  	  <p>
+  	   聲符
+  	  	<a href="{% url dciangxkox.views.cjeng_byo dzih.cjeng.mjeng %}">
+  	  		{{dzih.cjeng}}
+  	  	</a>
+  	  </p>
+  	  <p>
+  	   韻部
+  	  	<a href="{% url dciangxkox.views.yonh_box dzih.yonh.mjeng %}">
+  	  		{{dzih.yonh}}
+  	  	</a>
+  	  </p>
+  	  <p>韻部細分 {{dzih.yonh_seh}}</p>
+      <p>
+  	    {% if dzih.sieux_yonh %}
+  	      對應廣韻小韻
+    	  	<a href="{% url kyonh.views.sieux_yonh_page dzih.sieux_yonh.ziox %}">
+    	  	  {{dzih.sieux_yonh}}
+    	  	</a>
+  	  	{% endif %}
+      </p>
+      <p>擬音 {{dzih.ngix_1}}</p>
+      <blockquote>{{dzih.tryoh}}</blockquote>
     {% endfor %}
   {% endif %}
 </div>

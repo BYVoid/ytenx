@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block dciangxkox_active %}active{% endblock %}
+{% block body %}
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li class="nav-header">檢索</li>
+      <li class="{% block dciangx_kox_active %}{% endblock %}">
+        <a href="{% url dciangxkox.views.dciangx_kox %}">上古音系</a>
+      </li>
+      <li class="{% block dciangxkox_dzih_active %}{% endblock %}">
+        <a href="{% url dciangxkox.views.dzih_pieux %}">字表</a>
+      </li>
+      <li class="{% block dciangxkox_cjeng_active %}{% endblock %}">
+        <a href="{% url dciangxkox.views.cjeng_byo_pieux %}">聲符</a>
+      </li>
+      <li class="{% block dciangxkox_yonh_active %}{% endblock %}">
+        <a href="{% url dciangxkox.views.yonh_box_pieux %}">韻部</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="span10">
+{% block content %}{% endblock %}
+</div>
+{% endblock %}

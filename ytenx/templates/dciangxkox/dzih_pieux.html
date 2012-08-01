@@ -1,0 +1,104 @@
+{% extends "dciangxkox/poh.html" %}
+{% load ytenx %}
+{% block dciangxkox_dzih_active %}active{% endblock %}
+{% block title %}字表 - 上古音系{% endblock %}
+{% block keywords %}字表, 上古音系, {% endblock %}
+{% block content %}
+<style type="text/css">
+#search {
+  margin-bottom: 10px;
+}
+#search form, #search ul, #search select {
+  margin: 0;
+}
+#search li, #search label {
+  display: inline;
+}
+#search select {
+  width: 6em;
+}
+</style>
+<div class="page-header">
+  <h1>字表 <small>上古音系</small></h1>
+</div>
+<div class="row">
+  <div id="search" class="span3">
+  <form method="get" action="">
+    <ul>
+      <li>
+        <label class="control-label" for="yonh">韻部</label>
+        <select name="yonh" id="yonh">
+          <option></option>
+          {% for yonh_box in yonh_pieux %}
+            {% if yonh_box.mjeng == dzih_pieux.yonh %}
+              <option selected="selected">{{yonh_box}}</option>
+            {% else %}
+              <option>{{yonh_box}}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </li>
+      <li>
+        <input type="submit" class="btn" value="查詢"/>
+      </li>
+    </ul>
+  </form>
+  </div>
+  <div class="span7">
+    <form class="form-search" method="get" action="{% url views.zim %}">
+      <input type="text" name="dzih" class="search-query span3">
+      <input type="hidden" name="dciangx" value="1">
+      <input type="hidden" name="jtkb" value="1">
+      <input type="hidden" name="jtdt" value="1">
+      <button type="submit" class="btn btn-primary">檢索</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="span10">
+      <table class="table table-bordered table-condensed">
+    	<tr>
+    	  <th>次序</th>
+    	  <th>字</th>
+    	  <th>聲符</th>
+    	  <th>韻部</th>
+    	  <th>韻部細分</th>
+    	  <th>對應廣韻小韻</th>
+    	  <th>擬音</th>
+    	  <th>註解</th>
+    	</tr>
+    	{% for dzih in dzih_pieux %}
+    	<tr>
+        <td>{{dzih.ziox}}</td>
+        <td>
+          <a href="{% url dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+        </td>
+    	  <td>
+    	  	<a href="{% url dciangxkox.views.cjeng_byo dzih.cjeng.mjeng %}">
+    	  		{{dzih.cjeng}}
+    	  	</a>
+    	  </td>
+    	  <td>
+    	  	<a href="{% url dciangxkox.views.yonh_box dzih.yonh.mjeng %}">
+    	  		{{dzih.yonh}}
+    	  	</a>
+    	  </td>
+    	  <td>{{dzih.yonh_seh}}</td>
+    	  <td>
+    	    {% if dzih.sieux_yonh %}
+      	  	<a href="{% url kyonh.views.sieux_yonh_page dzih.sieux_yonh.ziox %}">
+      	  	  {{dzih.sieux_yonh}}
+      	  	</a>
+    	  	{% else %}
+    	  	  無
+    	  	{% endif %}
+    	  </td>
+    	  <td>{{dzih.ngix_1}}</td>
+    	  <td>{{dzih.tryoh}}</td>
+    	</tr>
+    	{% endfor %}
+    </table>
+    {% include "pagination.html" with list=dzih_pieux only %}
+  </div>
+</div>
+{% endblock %}

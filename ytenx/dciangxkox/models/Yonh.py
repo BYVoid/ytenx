@@ -11,3 +11,15 @@ class YonhBox(models.Model):
   
   def __unicode__(self):
     return self.mjeng
+
+  def ngix(self):
+    ngix = {}
+    for dzih in self.dzih_set.all():
+      ngix[dzih.ngix_1] = True
+    return ngix.keys()
+
+  def cjeng_byo(self):
+    cjeng_byo = {}
+    for dzih in self.dzih_set.all():
+      cjeng_byo[dzih.cjeng] = True
+    return cjeng_byo.keys()

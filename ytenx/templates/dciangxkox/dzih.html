@@ -1,0 +1,87 @@
+{% extends "dciangxkox/poh.html" %}
+{% load ytenx %}
+{% block dciangxkox_dzih_active %}active{% endblock %}
+{% block title %}{{dzih}} - 字 - 上古音系{% endblock %}
+{% block keywords %}{{dzih}}, 字, 上古音系, {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{{dzih}} <small>上古音系第{{dzih.ziox|sryoh}}字</small></h1>
+</div>
+<div class="row">
+  <div class="span3">
+    <h2>資料</h2>
+    <table class="table table-bordered">
+    	<tr>
+    	  <td>字</td>
+    	  <td>{{dzih}}</td>
+    	</tr>
+    	<tr>
+    	  <td>序號</td>
+    	  <td>{{dzih.ziox}}</td>
+    	</tr>
+    	<tr>
+    	  <td>聲母</td>
+    	  <td>
+    	  	<a href="{% url dciangxkox.views.cjeng_byo dzih.cjeng.mjeng %}">
+    	  		{{dzih.cjeng}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    	<tr>
+    	  <td>韻母</td>
+    	  <td>
+    	  	<a href="{% url dciangxkox.views.yonh_box dzih.yonh.mjeng %}">
+    	  		{{dzih.yonh}}
+    	  	</a>
+    	  </td>
+    	</tr>
+    </table>
+  </div>
+  <div class="span3">
+    <h2>擬音</h2>
+    <table class="table table-bordered">
+      <tr>
+        <td>{{dzih.ngix_1}}</td>
+      </tr>
+      {% if dzih.ngix_2 %}
+      <tr>
+        <td>{{dzih.ngix_2}} （上古後期）</td>
+      </tr>
+      {% endif %}
+      {% if dzih.ngix_3 %}
+      <tr>
+        <td>{{dzih.ngix_3}} （上古晚期）</td>
+      </tr>
+      {% endif %}
+    </table>
+  </div>
+  <div class="span3">
+    <h2>對應廣韻</h2>
+    {% if dzih.sieux_yonh %}
+    <p>
+      小韻
+      <a href="{% url kyonh.views.sieux_yonh_page dzih.sieux_yonh.ziox %}">
+        {{dzih.sieux_yonh}}
+      </a>
+    </p>
+    <table class="table table-bordered">
+    {% for mjeng, ngix in dzih.sieux_yonh.ngix.items %}
+      {% if ngix %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{ngix}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
+  	{% else %}
+  	  無
+  	{% endif %}
+  </div>
+</div>
+<div class="row">
+  <div class="span3">
+    <blockquote>{{dzih.tryoh}}</blockquote>
+  </div>
+</div>
+{% endblock %}

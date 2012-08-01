@@ -6,6 +6,7 @@ from kyonh.models import Dzih as KyonhDzih
 from tcenghyonhtsen.models import Dzih as TcytsDzih
 from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
+from dciangxkox.models import Dzih as DciangxKoxDzih
 
 def index_page(request):
   return render_to_response('index.html')
@@ -23,6 +24,7 @@ def zim(request):
     'zim_trngyan': request.GET.get('trngyan'),
     'zim_tcyts': request.GET.get('tcyts'),
     'zim_pyonh': request.GET.get('pyonh'),
+    'zim_dciangx': request.GET.get('dciangx'),
     'jih_thex_dzyen_tongx': request.GET.get('jtdt'),
     'jih_thex_krau_dep': request.GET.get('jtkd'),
     'jih_thex_krenx_byan': request.GET.get('jtkb'),
@@ -33,6 +35,7 @@ def zim(request):
     chom_sryoh['zim_trngyan'] = True
     chom_sryoh['zim_tcyts'] = True
     chom_sryoh['zim_pyonh'] = True
+    chom_sryoh['zim_dciangx'] = True
   
   if len(chom_sryoh['dzih_pieux']) > 5:
     chom_sryoh['dzih_pieux'] = chom_sryoh['dzih_pieux'][0:5]
@@ -69,6 +72,8 @@ def zim(request):
     dzih_list['pyonh'] = PyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_trngyan']:
     dzih_list['trngyan'] = TrngyanDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
+  if chom_sryoh['zim_dciangx']:
+    dzih_list['dciangx'] = DciangxKoxDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   
   return render_to_response('zim.html', {
     'dzih_list': dzih_list,

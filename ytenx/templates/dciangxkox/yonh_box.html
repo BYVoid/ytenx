@@ -1,0 +1,36 @@
+{% extends "dciangxkox/poh.html" %}
+{% load ytenx %}
+{% block dciangxkox_yonh_active %}active{% endblock %}
+{% block title %}{{yonh}} - 韻部 - 上古音系{% endblock %}
+{% block keywords %}{{yonh}}, 韻部, 上古音系 {% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>{{yonh}} <small>上古音系韻部</small></h1>
+</div>
+<div class="span10">
+  <div class="row">
+    <h2>字</h2>
+    {% for dzih in yonh.dzih_set.all %}
+      <a href="{% url dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+    {% endfor %}
+  </div>
+</div>
+<div class="span10">
+  <div class="row">
+    <h2>聲符</h2>
+    {% for cjeng in yonh.cjeng_byo %}
+      <a href="{% url dciangxkox.views.cjeng_byo cjeng.mjeng %}">{{cjeng}}</a>
+    {% endfor %}
+  </div>
+</div>
+<div class="span10">
+  <div class="row">
+    <h2>擬音</h2>
+    <ul>
+    {% for ngix in yonh.ngix %}
+      <li>{{ngix}}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
