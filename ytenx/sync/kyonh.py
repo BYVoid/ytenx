@@ -382,14 +382,17 @@ def syncDzih():
   print 'Dzih...'
   
   def sync(line, num):
-    dzih = Dzih(
-      ziox = num + 1,
-      dzih = line[0],
-      sieuxYonh = sieuxYonhMap[line[1]],
-      yih = line[2],
-      ngieh = line[3],
-    )
-    dzih.save()
+    try:
+      dzih = Dzih(
+        ziox = num + 1,
+        dzih = line[0],
+        sieuxYonh = sieuxYonhMap[line[1]],
+        yih = line[2],
+        ngieh = line[3],
+      )
+      dzih.save()
+    except:
+      print line
   
   traverse(base_path + 'Dzih.txt', sync)
   print 'Done'
