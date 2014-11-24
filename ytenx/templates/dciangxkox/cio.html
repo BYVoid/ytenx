@@ -12,7 +12,7 @@
     <div class="row">
       <h2>小韻</h2>
       {% for sieux in cio.sieux_yonh %}
-        <a href="{% url trngyan.views.sieux_yonh sieux.ziox %}">{{sieux}}</a>
+        <a href="{% url 'trngyan.views.sieux_yonh' sieux.ziox %}">{{sieux}}</a>
       {% endfor %}
     </div>
   {% endif %}
@@ -20,7 +20,7 @@
     <div class="row">
       <h2>字頭</h2>
       {% for dzih in cio.dzih %}
-        <a href="{% url trngyan.views.dzih dzih.id %}">{{dzih}}</a>
+        <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a>
       {% endfor %}
     </div>
   {% endif %}

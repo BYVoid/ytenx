@@ -3,7 +3,7 @@
   {% for cio in cio_do_pieux %}
     <li class="span4" >
       <div class="thumbnail">
-        <a href="{% url pyonh.views.cio cio.kyenh cio.jep %}">
+        <a href="{% url 'pyonh.views.cio' cio.kyenh cio.jep %}">
           <img src="/static/img/KrungGhoTchiekDukPyonYonhTsuatQjeuhGhopDzip/volume{{cio.kyenh}}/{{cio.jep}}.jpg" alt="" >
         </a>
         <p>《江湖尺牘分韻撮要合集》第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎</p>

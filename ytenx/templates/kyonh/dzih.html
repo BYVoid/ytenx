@@ -13,7 +13,7 @@
     	<tr>
     	  <td>小韻</td>
     	  <td>
-    	  	<a href="{% url kyonh.views.sieux_yonh_page dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>
+    	  	<a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>
     	  </td>
     	</tr>
     	<tr>
@@ -24,7 +24,7 @@
     	  <td>反切</td>
     	  <td>
     	  	{% if dzih.sieuxYonh.pyanx %}
-    	  		<a href="{% url kyonh.views.pyanx_dciangx_page dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>
+    	  		<a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>
     	  	{% else %}
     	  		無
     	  	{% endif %}

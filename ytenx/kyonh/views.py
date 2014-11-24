@@ -99,37 +99,37 @@ def dzih_pieux(request):
     'dzih_pieux': dzih_pieux,
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def cjeng_mux_list_page(request):
   return render_to_response('kyonh/cjeng_mux_list.html', {
     'cjeng_mux_list': CjengMux.objects.all(),
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def yonh_mux_list_page(request):
   return render_to_response('kyonh/yonh_mux_list.html', {
     'yonh_mux_list': YonhMux.objects.get_pairs(),
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):
   return render_to_response('kyonh/yonh_miuk_list.html', {
     'yonh_miuk_list': YonhMiukDzip.objects.all(),
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def cjeng_ngix_list_page(request):
   return render_to_response('kyonh/cjeng_ngix_list.html', {
     'cjeng_mux_list': CjengMux.objects.all(),
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def yonh_ngix_list_page(request):
   return render_to_response('kyonh/yonh_ngix_list.html', {
     'yonh_mux_list': YonhMux.objects.get_pairs(),
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def yonh_do_page(request):
   paginator = Paginator(YonhMiukDzip.objects.all(), 1)
   try:

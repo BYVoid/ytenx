@@ -45,7 +45,7 @@
   </form>
   </div>
   <div class="span7">
-    <form class="form-search" method="get" action="{% url views.zim %}">
+    <form class="form-search" method="get" action="{% url 'views.zim' %}">
       <input type="text" name="dzih" class="search-query span3">
       <input type="hidden" name="dciangx" value="1">
       <input type="hidden" name="jtkb" value="1">
@@ -71,22 +71,22 @@
     	<tr>
         <td>{{dzih.ziox}}</td>
         <td>
-          <a href="{% url dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+          <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
         </td>
     	  <td>
-    	  	<a href="{% url dciangxkox.views.cjeng_byo dzih.cjeng.mjeng %}">
+    	  	<a href="{% url 'dciangxkox.views.cjeng_byo' dzih.cjeng.mjeng %}">
     	  		{{dzih.cjeng}}
     	  	</a>
     	  </td>
     	  <td>
-    	  	<a href="{% url dciangxkox.views.yonh_box dzih.yonh.mjeng %}">
+    	  	<a href="{% url 'dciangxkox.views.yonh_box' dzih.yonh.mjeng %}">
     	  		{{dzih.yonh}}
     	  	</a>
     	  </td>
     	  <td>{{dzih.yonh_seh}}</td>
     	  <td>
     	    {% if dzih.sieux_yonh %}
-      	  	<a href="{% url kyonh.views.sieux_yonh_page dzih.sieux_yonh.ziox %}">
+      	  	<a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
       	  	  {{dzih.sieux_yonh}}
       	  	</a>
     	  	{% else %}

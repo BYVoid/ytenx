@@ -18,7 +18,7 @@
       </tr>
       {% for cjeng in cjeng_mux_list %}
       <tr>
-        <td><a href="{% url kyonh.views.cjeng_mux_page cjeng.dzih %}">{{cjeng.dzih}}</a></td>
+        <td><a href="{% url 'kyonh.views.cjeng_mux_page' cjeng.dzih %}">{{cjeng.dzih}}</a></td>
         {% for mjeng, qim in cjeng.ngix.items %}
           {% if qim %}
             <td><ipa>{{qim}}</ipa></td>

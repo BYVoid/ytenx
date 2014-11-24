@@ -22,7 +22,7 @@
     	  <td>反切</td>
     	  <td>
     	  	{% if sieux_yonh.pyanx %}
-    	  		<a href="{% url kyonh.views.pyanx_dciangx_page sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
+    	  		<a href="{% url 'kyonh.views.pyanx_dciangx_page' sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
     	  	{% else %}
     	  		無
     	  	{% endif %}
@@ -31,7 +31,7 @@
     	<tr>
     	  <td>聲母</td>
     	  <td>
-    	  	<a href="{% url kyonh.views.cjeng_mux_page sieux_yonh.cjeng.dzih %}">
+    	  	<a href="{% url 'kyonh.views.cjeng_mux_page' sieux_yonh.cjeng.dzih %}">
     	  		{{sieux_yonh.cjeng}}
     	  	</a>
     	  </td>
@@ -39,7 +39,7 @@
     	<tr>
     	  <td>韻母</td>
     	  <td>
-    	  	<a href="{% url kyonh.views.yonh_mux_page sieux_yonh.yonh.mjeng %}">
+    	  	<a href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
     	  		{{sieux_yonh.yonh}}
     	  	</a>
     	  </td>
@@ -47,7 +47,7 @@
     	<tr>
     	  <td>韻目</td>
     	  <td>
-    	  	<a href="{% url kyonh.views.yonh_miuk_page sieux_yonh.yonhMiuk.dzih %}">
+    	  	<a href="{% url 'kyonh.views.yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">
     	  		{{sieux_yonh.yonhMiuk}}
     	  	</a>
     	  </td>
@@ -107,7 +107,7 @@
   <table class="table table-condensed table-bordered">
     {% for dzih in sieux_yonh.dzih_set.all %}
     	<tr>
-    	  <td><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih}}</a></td>
+    	  <td><a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a></td>
     	  <td>{{dzih.ngieh}}</td>
     	</tr>
     {% endfor %}

@@ -1,5 +1,5 @@
 # coding=utf-8
-from django.conf.urls.defaults import patterns
+from django.conf.urls import patterns
 
 urlpatterns = patterns('',
   (r'^$', 'ytenx.trngyan.views.triung_ngyan_qim_yonh'),

@@ -9,7 +9,7 @@
 </div>
 <div class="row">
   <div class="span10">
-    <form class="form-search" method="get" action="{% url views.zim %}">
+    <form class="form-search" method="get" action="{% url 'views.zim' %}">
       <input type="text" name="dzih" class="search-query span3">
       <input type="hidden" name="kyonh" value="1">
       <input type="hidden" name="jtkb" value="1">
@@ -31,16 +31,16 @@
     	{% for dzih in dzih_pieux %}
     	<tr>
         <td>{{dzih.ziox}}</td>
-        <td><a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih}}</a></td>
+        <td><a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a></td>
         <td>
     	  	{% if dzih.sieuxYonh.pyanx %}
-    	  		<a href="{% url kyonh.views.pyanx_dciangx_page dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>
+    	  		<a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>
     	  	{% else %}
     	  		無
     	  	{% endif %}
         </td>
         <td>
-          <a href="{% url kyonh.views.sieux_yonh_page dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh.taj}}</a>
+          <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh.taj}}</a>
         </td>
         <td>{{dzih.ngieh}}</td>
     	</tr>

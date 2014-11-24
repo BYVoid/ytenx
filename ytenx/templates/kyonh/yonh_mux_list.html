@@ -30,25 +30,25 @@
         <td>
           {% with yonh=item.cio %}
             {% if yonh%}
-              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+              <a href="{% url 'tenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>
         <td>
           {% for ghrax in item.cio.ghraxdzih_set.all %}
-            <a href="{% url kyonh.views.pyanx_ghrax_page ghrax.dzih %}">{{ghrax}}</a>
+            <a href="{% url 'kyonh.views.pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a>
           {% endfor %}
         </td>
         <td>
           {% with yonh=item.tshyuk %}
             {% if yonh%}
-              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+              <a href="{% url 'tenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>
         <td>
           {% for ghrax in item.tshyuk.ghraxdzih_set.all %}
-            <a href="{% url kyonh.views.pyanx_ghrax_page ghrax.dzih %}">{{ghrax}}</a>
+            <a href="{% url 'kyonh.views.pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a>
           {% endfor %}
         </td>
       </tr>

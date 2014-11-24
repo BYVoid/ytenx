@@ -22,25 +22,25 @@
         <td>{{miuk.gheh.cjep}}</td>
         <td>
           {% if miuk.bieng %}
-            <a href="{% url kyonh.views.yonh_miuk_page miuk.bieng.dzih %}">{{miuk.bieng}}</a>
+            <a href="{% url 'kyonh.views.yonh_miuk_page' miuk.bieng.dzih %}">{{miuk.bieng}}</a>
             【{{miuk.bieng.tshiih}}】
           {% endif %}
         </td>
         <td>
           {% if miuk.dciangx %}
-            <a href="{% url kyonh.views.yonh_miuk_page miuk.dciangx.dzih %}">{{miuk.dciangx}}</a>
+            <a href="{% url 'kyonh.views.yonh_miuk_page' miuk.dciangx.dzih %}">{{miuk.dciangx}}</a>
             【{{miuk.dciangx.tshiih}}】
           {% endif %}
         </td>
         <td>
           {% if miuk.khioh %}
-            <a href="{% url kyonh.views.yonh_miuk_page miuk.khioh.dzih %}">{{miuk.khioh}}</a>
+            <a href="{% url 'kyonh.views.yonh_miuk_page' miuk.khioh.dzih %}">{{miuk.khioh}}</a>
             【{{miuk.khioh.tshiih}}】
           {% endif %}
         </td>
         <td>
           {% if miuk.njip %}
-            <a href="{% url kyonh.views.yonh_miuk_page miuk.njip.dzih %}">{{miuk.njip}}</a>
+            <a href="{% url 'kyonh.views.yonh_miuk_page' miuk.njip.dzih %}">{{miuk.njip}}</a>
             【{{miuk.njip.tshiih}}】
           {% endif %}
         </td>

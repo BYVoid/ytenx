@@ -4,16 +4,16 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf import settings
 
 urlpatterns = patterns('',
-  (r'^kyonh/', include('ytenx.kyonh.urls')),
-  (r'^tcyts/', include('ytenx.tcenghyonhtsen.urls')),
-  (r'^pyonh/', include('ytenx.pyonh.urls')),
-  (r'^trngyan/', include('ytenx.trngyan.urls')),
-  (r'^dciangx/', include('ytenx.dciangxkox.urls')),
-  (r'^byohlyuk/', include('ytenx.byohlyuk.urls')),
-  (r'^$', 'ytenx.views.index_page'),
-  (r'^about$', 'ytenx.views.about_page'),
-  (r'^zim$', 'ytenx.views.zim'),
-  (r'^sriek$', 'ytenx.views.kiemx_sriek'),
+  url(r'^kyonh/', include('ytenx.kyonh.urls')),
+  url(r'^tcyts/', include('ytenx.tcenghyonhtsen.urls')),
+  url(r'^pyonh/', include('ytenx.pyonh.urls')),
+  url(r'^trngyan/', include('ytenx.trngyan.urls')),
+  url(r'^dciangx/', include('ytenx.dciangxkox.urls')),
+  url(r'^byohlyuk/', include('ytenx.byohlyuk.urls')),
+  url(r'^$', 'ytenx.views.index_page'),
+  url(r'^about$', 'ytenx.views.about_page'),
+  url(r'^zim$', 'ytenx.views.zim'),
+  url(r'^sriek$', 'ytenx.views.kiemx_sriek'),
 )
 
 urlpatterns += staticfiles_urlpatterns()

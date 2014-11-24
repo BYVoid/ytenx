@@ -17,13 +17,13 @@
       {% for cjeng in cjeng_pieux %}
       <tr>
         <td>
-    	  	<a href="{% url dciangxkox.views.cjeng_byo cjeng.mjeng %}">
+    	  	<a href="{% url 'dciangxkox.views.cjeng_byo' cjeng.mjeng %}">
     	  		{{cjeng}}
     	  	</a>
         </td>
         <td>
           {% for dzih in cjeng.dzih_set.all %}
-            <a href="{% url ytenx.dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+            <a href="{% url 'tenx.dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
           {% endfor %}
         </td>
       </tr>

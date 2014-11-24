@@ -30,7 +30,7 @@
     {% for yonh in yonh_miuk.yonh.all %}
       <tr>
         <td>
-    	  	<a href="{% url kyonh.views.yonh_mux_page yonh.mjeng %}">
+    	  	<a href="{% url 'kyonh.views.yonh_mux_page' yonh.mjeng %}">
     	  		{{yonh}}
     	  	</a>
     	 </td>
@@ -44,7 +44,7 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in yonh_miuk.sieuxyonh_set.all %}
-      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
 </div>

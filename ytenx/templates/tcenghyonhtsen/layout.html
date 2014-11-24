@@ -6,13 +6,13 @@
     <ul class="nav nav-list">
       <li class="nav-header">檢索</li>
       <li class="{% block tcenghyonhtsen_index_active %}{% endblock %}">
-        <a href="{% url tcenghyonhtsen.views.index_page %}">洪武正韻牋</a>
+        <a href="{% url 'tcenghyonhtsen.views.index_page' %}">洪武正韻牋</a>
       </li>
       <li class="{% block tcenghyonhtsen_sieux_yonh_active %}{% endblock %}">
-        <a href="{% url tcenghyonhtsen.views.sieux_yonh_list_page %}">小韻表</a>
+        <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_list_page' %}">小韻表</a>
       </li>
       <li class="{% block tcenghyonhtsen_yonh_miuk_active %}{% endblock %}">
-        <a href="{% url tcenghyonhtsen.views.yonh_miuk_list_page %}">韻目</a>
+        <a href="{% url 'tcenghyonhtsen.views.yonh_miuk_list_page' %}">韻目</a>
       </li>
     </ul>
   </div><!--/.well -->

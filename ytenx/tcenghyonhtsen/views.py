@@ -30,7 +30,7 @@ def sieux_yonh_list_page(request):
     'sieux_yonh_list': sieux_yonh_list,
   })
 
-@cache_page
+@cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):
   return render_to_response('tcenghyonhtsen/yonh_miuk_list.html', {
     'yonh_bux_list': YonhBux.objects.all(),
