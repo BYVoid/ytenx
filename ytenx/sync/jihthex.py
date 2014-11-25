@@ -1,6 +1,5 @@
 # coding=utf-8
 from common import traverse
-from django.http import HttpResponse
 from ytenx.jihthex.models import *
 
 basePath = './ytenx/sync/jihthex/'

@@ -1,8 +1,7 @@
 # coding=utf-8
-from django.http import HttpResponse
-from models import *
+from ytenx.tcenghyonhtsen.models import *
 
-basePath = './ytenx/tcenghyonhtsen/data/'
+basePath = './ytenx/sync/tcenghyonhtsen/'
 miukMap = {}
 deuhMap = {
   u'平':1,
@@ -15,14 +14,14 @@ ghraxMap = {}
 sieuxMap = {}
 njipZiox = 1
 
-def sync(request):
+def sync():
   syncYonhMiuk()
   syncSieux()
   syncDzih()
   syncKoxQim()
   syncJitDzih()
   syncSieuxCio()
-  return HttpResponse('Done.\n')
+  print 'Tcengh Yonh Tsen Done'
 
 def traverse(filename, callback):
   num = 0

@@ -1,6 +1,5 @@
 # coding=utf-8
 from common import traverse
-from django.http import HttpResponse
 from ytenx.kyonh.models import *
 
 base_path = './ytenx/sync/kyonh/'

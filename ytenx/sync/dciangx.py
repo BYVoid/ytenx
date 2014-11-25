@@ -1,6 +1,5 @@
 # coding=utf-8
 from common import traverse
-from django.http import HttpResponse
 from ytenx.dciangxkox.models import *
 from ytenx.kyonh.models import SieuxYonh, PyanxTshet
 
