@@ -12,7 +12,7 @@ cio_map = {}
 sieux_yonh = {}
 dzih_map = {}
 
-def sync(request):
+def sync():
   syncCjengMuxNgixQim()
   syncCjengMux()
   syncYonhMuxNgixQim()
@@ -21,7 +21,7 @@ def sync(request):
   syncCio()
   syncDzih()
   syncSieuxCio()
-  return HttpResponse('Done.\n')
+  print 'Trngyan Done'
 
 def syncCjengMuxNgixQim():
   print 'CjengMuxNgixQim...'

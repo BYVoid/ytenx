@@ -12,9 +12,9 @@ last_dzih = None
 myo = (u'魚孟', u'楚嫁', u'阻買')
 mt = ''
 
-def sync(request):
+def sync():
   syncDzih()
-  return HttpResponse('Done.\n')
+  print 'Dciangx Done'
 
 def syncDzih():
   print 'Dzih...'
@@ -22,7 +22,6 @@ def syncDzih():
   def sync(line, num):
     global last_dzih, mt
     dzih = line[0]
-    print num, dzih
     pyanx = line[7] + line[8]
     cjeng = line[9]
     yonh = line[10]
@@ -72,7 +71,6 @@ def syncDzih():
         else:
           mt += unicode(num+2) + ' ' + dzih + ' ' + pyanx + ' ' + str(sieuxs).decode('utf-8') + '\n'
     else:
-      print pyanx
       if last_dzih.ngix_1 == ngix_1 and last_dzih.ngix_2 == ngix_2 and last_dzih.ngix_3 == ngix_3:
         sieux_yonh = last_dzih.sieux_yonh
       elif pyanx in myo:

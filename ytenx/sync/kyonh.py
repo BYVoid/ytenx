@@ -22,7 +22,7 @@ prengQimMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
 
-def sync(request):
+def sync():
   syncCjengMuxPrengQim()
   syncCjengMuxNgixQim()
   syncCjengMux()
@@ -42,7 +42,7 @@ def sync(request):
   syncDzih()
   syncDciangxDzihCjeng()
   syncGhraxDzihYonh()
-  return HttpResponse('Done.\n')
+  print 'Kyonh Done'
 
 def traverse1(filename, callback):
   num = 0
