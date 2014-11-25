@@ -9,7 +9,7 @@
   <tr>
     <td>第{{yonh_box.ziox|sryoh}}{{yonh_box}}</td>
     {% for yonh_mux in yonh_box.yonhmux_set.all %}
-      <td><a href="{% url 'tenx.pyonh.views.yonh_mux' yonh_mux %}">{{yonh_mux}}</a></td>
+      <td><a href="{% url 'ytenx.pyonh.views.yonh_mux' yonh_mux %}">{{yonh_mux}}</a></td>
     {% endfor %}
     {% if yonh_box.yonhmux_set.all|length == 1 %}
       <td></td>

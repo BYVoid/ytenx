@@ -21,7 +21,7 @@ class YonhMux(models.Model):
   #韻部
   yonh_box = models.ForeignKey('YonhBox', db_index = True)
   #促舒
-  tshyuk = models.BooleanField()
+  tshyuk = models.BooleanField(default=False)
   #對立韻母
   tuaih = models.ForeignKey('YonhMux', null = True)
   #擬音

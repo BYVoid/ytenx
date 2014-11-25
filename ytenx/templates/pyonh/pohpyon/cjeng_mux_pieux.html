@@ -9,7 +9,7 @@
     <td>{{cjeng_lyih}}</td>
     <td>
       {% for cjeng_mux in cjeng_lyih.cjengmux_set.all %}
-        <a href="{% url 'tenx.pyonh.views.cjeng_mux' cjeng_mux %}">{{cjeng_mux}}</a>
+        <a href="{% url 'ytenx.pyonh.views.cjeng_mux' cjeng_mux %}">{{cjeng_mux}}</a>
       {% endfor %}
     </td>
   </tr>
