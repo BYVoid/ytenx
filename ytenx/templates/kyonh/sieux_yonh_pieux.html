@@ -113,22 +113,22 @@
     	<tr>
         <td>{{sieux_yonh.ziox}}</td>
         <td>
-          <a href="{% url kyonh.views.sieux_yonh_page sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
+          <a href="{% url 'kyonh.views.sieux_yonh_page' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
         </td>
         <td>
     	  	{% if sieux_yonh.pyanx %}
-    	  		<a href="{% url kyonh.views.pyanx_dciangx_page sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
+    	  		<a href="{% url 'kyonh.views.pyanx_dciangx_page' sieux_yonh.pyanx.dciangx.dzih %}">{{sieux_yonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' sieux_yonh.pyanx.ghrax.dzih %}">{{sieux_yonh.pyanx.ghrax}}</a>
     	  	{% else %}
     	  		無
     	  	{% endif %}
         </td>
     	  <td>
-    	  	<a href="{% url kyonh.views.cjeng_mux_page sieux_yonh.cjeng.dzih %}">
+    	  	<a href="{% url 'kyonh.views.cjeng_mux_page' sieux_yonh.cjeng.dzih %}">
     	  		{{sieux_yonh.cjeng}}
     	  	</a>
     	  </td>
     	  <td>
-    	  	<a href="{% url kyonh.views.yonh_miuk_page sieux_yonh.yonhMiuk.dzih %}">
+    	  	<a href="{% url 'kyonh.views.yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">
     	  		{{sieux_yonh.yonhMiuk}}
     	  	</a>
     	  </td>
@@ -136,7 +136,7 @@
     	  <td>{{sieux_yonh.yonh.tongx|sryoh}}</td>
     	  <td>{{sieux_yonh.yonh.ho|ho}}</td>
     	  <td>
-    	  	<a href="{% url kyonh.views.yonh_mux_page sieux_yonh.yonh.mjeng %}">
+    	  	<a href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
     	  		{{sieux_yonh.yonh}}
     	  	</a>
     	  </td>

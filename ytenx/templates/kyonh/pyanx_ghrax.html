@@ -12,7 +12,7 @@
   <h2>韻母</h2>
   <p>
     {% for yonh in ghrax.yonh.all %}
-      <a href="{% url kyonh.views.yonh_mux_page yonh.mjeng %}">{{yonh}}</a>
+      <a href="{% url 'kyonh.views.yonh_mux_page' yonh.mjeng %}">{{yonh}}</a>
     {% endfor %}
   </p>
   </div>
@@ -21,7 +21,7 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in ghrax.sieuxYonh %}
-      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
 </div>

@@ -1,6 +1,5 @@
 # coding=utf-8
 from common import traverse
-from django.http import HttpResponse
 from ytenx.trngyan.models import *
 
 base_path = './ytenx/sync/trngyan/'
@@ -12,7 +11,7 @@ cio_map = {}
 sieux_yonh = {}
 dzih_map = {}
 
-def sync(request):
+def sync():
   syncCjengMuxNgixQim()
   syncCjengMux()
   syncYonhMuxNgixQim()
@@ -21,7 +20,7 @@ def sync(request):
   syncCio()
   syncDzih()
   syncSieuxCio()
-  return HttpResponse('Done.\n')
+  print 'Trngyan Done'
 
 def syncCjengMuxNgixQim():
   print 'CjengMuxNgixQim...'

@@ -12,7 +12,7 @@
   <h2>聲母</h2>
   <p>
     {% for cjeng in dciangx.cjeng.all %}
-      <a href="{% url kyonh.views.cjeng_mux_page cjeng.dzih %}">{{cjeng}}</a>
+      <a href="{% url 'kyonh.views.cjeng_mux_page' cjeng.dzih %}">{{cjeng}}</a>
     {% endfor %}
   </p>
   </div>
@@ -21,7 +21,7 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in dciangx.sieuxYonh %}
-      <a href="{% url kyonh.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
 </div>

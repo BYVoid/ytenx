@@ -21,17 +21,17 @@
       <tr>
         <td>{{bux}}部</td>
         <td>
-          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.bieng.dzih %}">{{bux.miuk.bieng}}</a>
+          <a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' bux.miuk.bieng.dzih %}">{{bux.miuk.bieng}}</a>
         </td>
         <td>
-          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.dciangx.dzih %}">{{bux.miuk.dciangx}}</a>
+          <a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' bux.miuk.dciangx.dzih %}">{{bux.miuk.dciangx}}</a>
         </td>
         <td>
-          <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.khioh.dzih %}">{{bux.miuk.khioh}}</a>
+          <a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' bux.miuk.khioh.dzih %}">{{bux.miuk.khioh}}</a>
         </td>
         <td>
           {% if bux.miuk.njip %}
-            <a href="{% url tcenghyonhtsen.views.yonh_miuk_page bux.miuk.njip.dzih %}">{{bux.miuk.njip}}</a>
+            <a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' bux.miuk.njip.dzih %}">{{bux.miuk.njip}}</a>
           {% endif %}
         </td>
       </tr>

@@ -33,17 +33,17 @@
     {% for dzih in dzih_list.kyonh %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
-        <a href="{% url kyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
+        <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <h3>
         {% if dzih.sieuxYonh.pyanx %}
-          <a href="{% url kyonh.views.pyanx_dciangx_page dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url kyonh.views.pyanx_ghrax_page dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
+          <a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         {% endif %}
-        <a href="{% url kyonh.views.sieux_yonh_page dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
+        <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
       </h3>
       <p>
-        <a href="{% url kyonh.views.cjeng_mux_page dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>母
-  	  	<a href="{% url kyonh.views.yonh_miuk_page dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a>韻
+        <a href="{% url 'kyonh.views.cjeng_mux_page' dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>母
+  	  	<a href="{% url 'kyonh.views.yonh_miuk_page' dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a>韻
   	  	{{dzih.sieuxYonh.yonh.tongx|sryoh}}等
   	  	{{dzih.sieuxYonh.yonh.ho|ho}}口
       </p>
@@ -55,13 +55,13 @@
     {% for dzih in dzih_list.trngyan %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
-        <a href="{% url trngyan.views.dzih dzih.id %}">{{dzih.dzih}}</a>
+        <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
       </h2>
       <p>
-  	  	<a href="{% url trngyan.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
-  	  	<a href="{% url trngyan.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh_box}}</a>韻
+  	  	<a href="{% url 'trngyan.views.cjeng_mux' dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
+  	  	<a href="{% url 'trngyan.views.yonh_mux' dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh_box}}</a>韻
   	  	{{dzih.sieux_yonh.deuh|deuh_trngyan}}
-        <a href="{% url trngyan.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
+        <a href="{% url 'trngyan.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.tryoh}}</blockquote>
     {% endfor %}
@@ -71,12 +71,12 @@
     {% for dzih in dzih_list.tcyts %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
-        <a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.dzih}}</a>
+        <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
-  	  	{{dzih.sieux.deuh|deuh}}聲<a href="{% url tcenghyonhtsen.views.yonh_miuk_page dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
-        <a href="{% url tcenghyonhtsen.views.sieux_yonh_page dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
+  	  	{{dzih.sieux.deuh|deuh}}聲<a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
+        <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
       </p>
     {% endfor %}
   {% endif %}
@@ -85,13 +85,13 @@
     {% for dzih in dzih_list.pyonh %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
-        <a href="{% url pyonh.views.dzih dzih.ziox %}">{{dzih.dzih}}</a>
+        <a href="{% url 'pyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
-  	  	<a href="{% url pyonh.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
-  	  	<a href="{% url pyonh.views.yonh_mux dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh}}</a>韻
+  	  	<a href="{% url 'pyonh.views.cjeng_mux' dzih.sieux_yonh.cjeng.dzih %}">{{dzih.sieux_yonh.cjeng}}</a>母
+  	  	<a href="{% url 'pyonh.views.yonh_mux' dzih.sieux_yonh.yonh.mjeng %}">{{dzih.sieux_yonh.yonh}}</a>韻
   	  	{{dzih.sieux_yonh.qim_jang|qim_jang}}{{dzih.sieux_yonh.deuh|deuh}}
-        <a href="{% url pyonh.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
+        <a href="{% url 'pyonh.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
     {% endfor %}
@@ -101,17 +101,17 @@
     {% for dzih in dzih_list.dciangx %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
-        <a href="{% url dciangxkox.views.dzih dzih.id %}">{{dzih}}</a>
+        <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
       </h2>
   	  <p>
   	   聲符
-  	  	<a href="{% url dciangxkox.views.cjeng_byo dzih.cjeng.mjeng %}">
+  	  	<a href="{% url 'dciangxkox.views.cjeng_byo' dzih.cjeng.mjeng %}">
   	  		{{dzih.cjeng}}
   	  	</a>
   	  </p>
   	  <p>
   	   韻部
-  	  	<a href="{% url dciangxkox.views.yonh_box dzih.yonh.mjeng %}">
+  	  	<a href="{% url 'dciangxkox.views.yonh_box' dzih.yonh.mjeng %}">
   	  		{{dzih.yonh}}
   	  	</a>
   	  </p>
@@ -119,7 +119,7 @@
       <p>
   	    {% if dzih.sieux_yonh %}
   	      對應廣韻小韻
-    	  	<a href="{% url kyonh.views.sieux_yonh_page dzih.sieux_yonh.ziox %}">
+    	  	<a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
     	  	  {{dzih.sieux_yonh}}
     	  	</a>
   	  	{% endif %}

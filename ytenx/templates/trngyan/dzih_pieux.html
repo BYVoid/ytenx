@@ -9,7 +9,7 @@
 </div>
 <div class="row">
   <div class="span10">
-    <form class="form-search" method="get" action="{% url views.zim %}">
+    <form class="form-search" method="get" action="{% url 'views.zim' %}">
       <input type="text" name="dzih" class="search-query span3">
       <input type="hidden" name="trngyan" value="1">
       <input type="hidden" name="jtkb" value="1">
@@ -33,12 +33,12 @@
     	{% for dzih in dzih_pieux %}
     	<tr>
         <td>{{dzih.ziox}}</td>
-        <td><a href="{% url trngyan.views.dzih dzih.id %}">{{dzih}}</a></td>
+        <td><a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a></td>
         <td>
-          <a href="{% url trngyan.views.sieux_yonh dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh.taj}}</a>
+          <a href="{% url 'trngyan.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh.taj}}</a>
         </td>
     	  <td>
-    	  	<a href="{% url trngyan.views.cjeng_mux dzih.sieux_yonh.cjeng.dzih %}">
+    	  	<a href="{% url 'trngyan.views.cjeng_mux' dzih.sieux_yonh.cjeng.dzih %}">
     	  		{{dzih.sieux_yonh.cjeng}}
     	  	</a>
     	  </td>

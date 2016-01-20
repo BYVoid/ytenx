@@ -1,21 +1,20 @@
 # coding=utf-8
-from django.http import HttpResponse
-from models import *
+from ytenx.pyonh.models import *
 
-basePath = './ytenx/pyonh/data/'
+basePath = './ytenx/sync/pyonh/'
 cjengMuxMap = {}
 yonhMuxMap = {}
 cioMap = {}
 sieuxYonhMap = {}
 
-def sync(request):
+def sync():
   syncCjengMux()
   syncYonhMux()
   syncSieuxYonh()
   syncCio()
   syncDzih()
   syncSieuxCio()
-  return HttpResponse('Done.\n')
+  print 'Pyonh Done'
 
 def traverse(filename, callback):
   num = 0

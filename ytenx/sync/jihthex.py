@@ -1,14 +1,13 @@
 # coding=utf-8
 from common import traverse
-from django.http import HttpResponse
 from ytenx.jihthex.models import *
 
 basePath = './ytenx/sync/jihthex/'
 dzih_map = {}
 
-def sync(request):
+def sync():
   syncDzih()
-  return HttpResponse('Done.\n')
+  print 'Jihthex Done'
 
 def syncDzih():
   

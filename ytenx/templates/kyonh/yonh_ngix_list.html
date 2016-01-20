@@ -31,7 +31,7 @@
         <td>
           {% with yonh=yonh.cio %}
             {% if yonh%}
-              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+              <a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>
@@ -51,7 +51,7 @@
         <td>
           {% with yonh=yonh.tshyuk %}
             {% if yonh%}
-              <a href="{% url ytenx.kyonh.views.yonh_mux_page yonh %}">{{yonh}}</a>
+              <a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>

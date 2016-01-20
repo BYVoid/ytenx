@@ -22,7 +22,7 @@
     <tr>
       {% for cjeng_lyih in cjeng_lyih_list %}
         {% for cjeng in cjeng_lyih.cjengmux_set.all %}
-            <td><a href="{% url kyonh.views.cjeng_mux_page cjeng.dzih %}">{{cjeng}}</a></td>
+            <td><a href="{% url 'kyonh.views.cjeng_mux_page' cjeng.dzih %}">{{cjeng}}</a></td>
           {% endfor %}
       {% endfor %}
     </tr>
@@ -33,7 +33,7 @@
             {% if forloop.counter == 1 and forloop.parentloop.counter == 1 %}
               <td rowspan="8">
                 {% if deuh_ghang.miuk %}
-                  <a href="{% url kyonh.views.yonh_miuk_page deuh_ghang.miuk.dzih %}">{{deuh_ghang.miuk}}</a>
+                  <a href="{% url 'kyonh.views.yonh_miuk_page' deuh_ghang.miuk.dzih %}">{{deuh_ghang.miuk}}</a>
                 {% endif %}
               </td>
             {% endif %}

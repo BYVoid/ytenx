@@ -8,7 +8,7 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in cio.sieuxyonh_set.all %}
-      <a href="{% url tcenghyonhtsen.views.sieux_yonh_page sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
   {% if cio.dzih_set.all %}

@@ -44,9 +44,9 @@ class YonhMux(models.Model):
   #等
   tongx = models.SmallIntegerField(db_index=True)
   #開合口呼
-  ho = models.BooleanField(db_index=True)
+  ho = models.BooleanField(db_index=True, default=False)
   #促舒
-  tshyuk = models.BooleanField(db_index=True)
+  tshyuk = models.BooleanField(db_index=True, default=False)
   #同位對立入聲/舒聲
   tuaih = models.OneToOneField('YonhMux', null=True)
   #擬音

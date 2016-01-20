@@ -1,4 +1,6 @@
 *.pyc
 *.sqlite
-venv
-
+ENV
+res
+ytenx/static/files
+ytenx/static/img

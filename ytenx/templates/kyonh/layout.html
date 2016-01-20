@@ -6,50 +6,50 @@
     <ul class="nav nav-list">
       <li class="nav-header">檢</li>
       <li class="{% block kyonh_index_active %}{% endblock %}">
-        <a href="{% url kyonh.views.index_page %}">廣韻</a>
+        <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
       </li>
       <li class="{% block kyonh_sieux_yonh_active %}{% endblock %}">
-        <a href="{% url kyonh.views.sieux_yonh_list_page %}">小韻表</a>
+        <a href="{% url 'kyonh.views.sieux_yonh_list_page' %}">小韻表</a>
       </li>
       <li class="{% block kyonh_dzih_active %}{% endblock %}">
-        <a href="{% url kyonh.views.dzih_pieux %}">字表</a>
+        <a href="{% url 'kyonh.views.dzih_pieux' %}">字表</a>
       </li>
       <li class="nav-header">聲</li>
       <li class="{% block kyonh_cjeng_mux_active %}{% endblock %}">
-        <a href="{% url kyonh.views.cjeng_mux_list_page %}">聲母</a>
+        <a href="{% url 'kyonh.views.cjeng_mux_list_page' %}">聲母</a>
       </li>
       <li class="nav-header">韻</li>
       <li class="{% block kyonh_yonh_miuk_active %}{% endblock %}">
-        <a href="{% url kyonh.views.yonh_miuk_list_page %}">韻目</a>
+        <a href="{% url 'kyonh.views.yonh_miuk_list_page' %}">韻目</a>
       </li>
       <li class="{% block kyonh_yonh_mux_active %}{% endblock %}">
-        <a href="{% url kyonh.views.yonh_mux_list_page %}">韻母</a>
+        <a href="{% url 'kyonh.views.yonh_mux_list_page' %}">韻母</a>
       </li>
       <li class="nav-header">擬</li>
       <li class="{% block kyonh_cjeng_ngix_active %}{% endblock %}">
-        <a href="{% url kyonh.views.cjeng_ngix_list_page %}">聲母擬音</a>
+        <a href="{% url 'kyonh.views.cjeng_ngix_list_page' %}">聲母擬音</a>
       </li>
       <li class="{% block kyonh_yonh_ngix_active %}{% endblock %}">
-        <a href="{% url kyonh.views.yonh_ngix_list_page %}">韻母擬音</a>
+        <a href="{% url 'kyonh.views.yonh_ngix_list_page' %}">韻母擬音</a>
       </li>
       <li class="nav-header">錄</li>
       <li class="{% block kyonh_dciangx_dzih_active %}{% endblock %}">
-        <a href="{% url kyonh.views.cjeng_mux_list_page %}">反切上字</a>
+        <a href="{% url 'kyonh.views.cjeng_mux_list_page' %}">反切上字</a>
       </li>
       <li class="{% block kyonh_ghrax_dzih_active %}{% endblock %}">
-        <a href="{% url kyonh.views.yonh_mux_list_page %}">反切下字</a>
+        <a href="{% url 'kyonh.views.yonh_mux_list_page' %}">反切下字</a>
       </li>
       <li class="{% block kyonh_yonh_do_active %}{% endblock %}">
-        <a href="{% url kyonh.views.yonh_do_page %}" target="_blank">等韻圖</a>
+        <a href="{% url 'kyonh.views.yonh_do_page' %}" target="_blank">等韻圖</a>
       </li>
       <li class="{% block kyonh_cio_active %}{% endblock %}">
-        <a href="{% url kyonh.views.cio_page 1 1 %}">書影</a>
+        <a href="{% url 'kyonh.views.cio_page' 1 1 %}">書影</a>
         <ul class="nav nav-list">
-          <li><a href="{% url kyonh.views.cio_page 1 1 %}">上平聲</a></li>
-          <li><a href="{% url kyonh.views.cio_page 2 1 %}">下平聲</a></li>
-          <li><a href="{% url kyonh.views.cio_page 3 1 %}">上聲</a></li>
-          <li><a href="{% url kyonh.views.cio_page 4 1 %}">去聲</a></li>
-          <li><a href="{% url kyonh.views.cio_page 5 1 %}">入聲</a></li>
+          <li><a href="{% url 'kyonh.views.cio_page' 1 1 %}">上平聲</a></li>
+          <li><a href="{% url 'kyonh.views.cio_page' 2 1 %}">下平聲</a></li>
+          <li><a href="{% url 'kyonh.views.cio_page' 3 1 %}">上聲</a></li>
+          <li><a href="{% url 'kyonh.views.cio_page' 4 1 %}">去聲</a></li>
+          <li><a href="{% url 'kyonh.views.cio_page' 5 1 %}">入聲</a></li>
         </ul>
       </li>
     </ul>
