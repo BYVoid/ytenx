@@ -14,8 +14,3 @@ urlpatterns = patterns('',
   (r'^yonh/(.+)/$', 'ytenx.pyonh.views.yonh_mux'),
   (r'^cio/(\d{1,1})/(\d{1,3})/$', 'ytenx.pyonh.views.cio'),
 )
-
-if settings.DEBUG:
-  urlpatterns += patterns('',
-    (r'^sync$', 'ytenx.pyonh.sync.sync'),
-  )
