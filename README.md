@@ -11,9 +11,10 @@
     source ENV/bin/activate
     pip install -r requirements.txt
 
-## Set database
+## Create database
 
     ./manage.py syncdb
+    ./manage.py shell < ytenx/sync/import.py
 
 ## Run
 
