@@ -1962,6 +1962,7 @@
 1959 拂 質 敷 勿 f wjot   
 1960 佛 質 符 勿 bf wjot   
 1961 欻 質 許 勿 h wjot   
+2278 䬑 質 王 勿 gh wjot   
 1962 屈 質 曲 勿 kh wjot   12
 1963 屈 質 九 勿 k wjot   
 1964 倔 質 渠 勿 g wjot   
