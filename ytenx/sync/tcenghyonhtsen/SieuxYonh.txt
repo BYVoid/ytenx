@@ -1762,7 +1762,8 @@
 1761 淨 敬 疾 正 dz eing h  4
 1762 聖 敬 式 正 c jeing h  
 1763 盛 敬 時 正 zc jeing h  
-1764 稱 敬 丑 正 tch jeing h  
+1764 稱 敬 丑 正 tch jeing h 
+2276 鄭 敬 直 正 dzr jeing h 
 1765 正 敬 之 盛 tc jeing h  
 1766 令 敬 力 正 l eing h  
 1767 瑩 敬 縈 定 q weing h  
