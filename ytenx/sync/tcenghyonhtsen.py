@@ -102,7 +102,7 @@ def syncSieux():
     miuk = line[2]
     dciangx = line[3]
     ghrax = line[4]
-    ipa = line[5]
+    ipa = line[10]
     
     miuk = miukMap[miuk]
     pyanx = syncPyanx(dciangx, ghrax)
