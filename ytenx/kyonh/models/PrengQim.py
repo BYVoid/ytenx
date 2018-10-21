@@ -18,6 +18,7 @@ class PrengQim(models.Model):
       'thuaiDauh',
       'polyhedron', 
       'hiovNivv',
+      'baxter',
     )
 
   def items(self): 
