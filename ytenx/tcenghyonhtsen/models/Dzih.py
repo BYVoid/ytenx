@@ -10,7 +10,9 @@ class Dzih(models.Model):
   #小韻
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
   #書頁
-  cio = models.ManyToManyField('Cio');
+  cio = models.ManyToManyField('Cio')
+  #字義
+  ngieh = models.TextField();
   
   class Meta:
     app_label = 'tcenghyonhtsen'
