@@ -39,6 +39,7 @@
         {% if dzih.sieuxYonh.pyanx %}
           <a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         {% endif %}
+        
         <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
       </h3>
       <p>
