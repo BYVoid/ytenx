@@ -274,7 +274,8 @@
 273 蠻 刪 謨 還 m an   
 274 潺 刪 鉏 山 dzr an   
 275 餐 刪 千 山 tsh an   
-276 斕 刪 離 閑 l an   4
+276 斕 刪 離 閑 l an   
+2276 闌 刪 郎 干 l on   4
 277 閑 刪 何 艱 gh an   
 278 瓣 刪 蒲 閑 b an   
 279 慳 刪 丘 閑 kh an   
@@ -366,6 +367,7 @@
 365 胞 爻 披 交 ph au   
 366 庖 爻 蒲 交 b au   
 367 茅 爻 謨 交 m au   
+2277 毛 爻 莫 襃 m au   
 368 梢 爻 所 交 sr au   
 369 䜈 爻 楚 交 tshr au   
 370 巢 爻 鋤 交 dzr au   
@@ -512,6 +514,7 @@
 511 明 庚 眉 兵 m eing   4
 512 生 庚 師 庚 sr aing   
 513 京 庚 居 卿 k eing   
+2278 經 庚 堅 丁 k ing   
 514 卿 庚 丘 京 kh eing   
 515 勍 庚 渠 京 g eing   
 516 英 庚 於 京 q eing   5
@@ -705,8 +708,8 @@
 704 耳 紙 忍 止 ny je q  7
 705 彼 紙 補 委 p e q  8
 706 庀 紙 普 弭 ph e q  
-707 陛 紙 部 比 b e q  9
-708 被 紙 部 靡 b ei q  
+707 陛 紙  比 b e q  9
+708 被 紙  靡 b ei q  
 709 技 紙 巨 綺 g e q  
 710 似 紙 詳 子 z e q  
 711 死 紙 想 姊 s e q  
@@ -729,7 +732,8 @@
 728 啟 薺 祛 禮 kh eoi q  
 729 米 薺 莫 禮 m eoi q 5 5
 730 語 語 偶 許 ng ju q  
-731 與 語 於 語 q ju q  
+731 與 語 弋 渚 j ju q  
+2279 傴 語 於 語 q ju q  
 732 許 語 虛 呂 h ju q  1
 733 舉 語 居 許 k ju q  2
 734 去 語 丘 舉 kh ju q  
@@ -799,7 +803,7 @@
 798 賄 賄 乎 罪 gh woi q  
 799 猥 賄 烏 賄 q woi q  2
 800 隗 賄 五 罪 ng woi q  
-801 琲 賄 部 浼 b woi q  
+801 琲 賄  浼 b woi q  
 802 美 賄 莫 賄 m woi q  3
 803 漼 賄 取 猥 tsh woi q  
 804 辠 賄 徂 賄 dz woi q  
@@ -816,8 +820,10 @@
 815 趡 賄 千 水 tsh wjoi q  
 816 跬 賄 犬 蘂 kh wjoi q  
 817 水 賄 式 軌 c wjoi q  
-818 毀 賄 虎 委 h wjoi q  1
-819 詭 賄 古 委 k wjoi q  6
+818 毀 賄 虎 委 h wjoi q  
+2280 虫 賄 許 偉 h wjoi q  1
+819 詭 賄 古 委 k wjoi q  
+2281 跪 賄 渠 委 g wjoi q  6
 820 軫 軫 止 忍 tc jeon q  1
 821 蜃 軫 時 軫 zc jeon q  
 822 忍 軫 爾 軫 ny jeon q  2
@@ -853,6 +859,7 @@
 852 袞 軫 古 本 k won q  14
 853 穩 軫 烏 本 q won q  
 854 本 軫 布 袞 p won q  
+2282 𣄏 軫 部 本 b won q  
 855 懣 軫 母 本 m won q  
 856 損 軫 蘇 本 s won q  
 857 忖 軫 趨 本 tsh won q  
@@ -897,6 +904,7 @@
 896 瓚 產 在 簡 dz an q  
 897 儹 產 積 產 ts an q  
 898 亶 產 多 簡 t an q  
+2283 坦 產 他 但 th an q  
 899 但 產 徒 亶 d an q  
 900 嬾 產 魯 簡 l an q  
 901 散 產 蘇 簡 s an q  
@@ -1026,7 +1034,8 @@
 1025 賈 馬 舉 下 k a q  
 1026 姹 馬 抽 下 tshr a q  
 1027 閜 馬 許 下 h a q  
-1028 啞 馬 倚 下 q a q  5
+1028 啞 馬 倚 下 q a q  
+2284 雅 馬 語 下 ng a q  5
 1029 踝 馬 戶 瓦 gh wa q  
 1030 跨 馬 苦 瓦 kh wa q  
 1031 寡 馬 古 瓦 k wa q  6
@@ -1054,6 +1063,7 @@
 1053 㼽 養 楚 兩 tshr joong q  
 1054 敞 養 昌 兩 tch joong q  
 1055 掌 養 止 兩 tc joong q  2
+2285 長 養 展 兩 tr joong q  
 1056 爽 養 所 兩 sr joong q  3
 1057 響 養 許 兩 h joong q  
 1058 襁 養 居 仰 k joong q  
@@ -1099,6 +1109,7 @@
 1098 冷 梗 魯 杏 l aing q  
 1099 瑒 梗 杖 梗 dzr aing q  
 1100 丙 梗 補 永 p eing q  1
+2286 鞞 梗 補 鼎 p ing q  
 1101 竝 梗 部 迥 b eing q  2
 1102 頃 梗 丘 穎 kh weing q  
 1103 迥 梗 戶 頂 gh weing q  6
@@ -1113,6 +1124,7 @@
 1112 景 梗 居 影 k eing q  3
 1113 永 梗 於 憬 q weing q  
 1114 憬 梗 居 永 k weing q  
+2287 炅 梗 古 迥 k wjeing q  
 1115 耿 梗 古 幸 k eong q  
 1116 幸 梗 下 耿 gh eong q  
 1117 黽 梗 母 耿 m eong q  
@@ -1312,7 +1324,8 @@
 1311 寐 霽 彌 計 m eoi h  6
 1312 滯 霽 直 例 dzr eoi h  
 1313 御 御 魚 據 ng ju h  
-1314 飫 御 依 據 q ju h  1
+1314 飫 御 依 據 q ju h  
+2288 豫 御 羊 茹 j ju h  1
 1315 孺 御 而 遇 ny ju h  
 1316 去 御 區 遇 kh ju h  2
 1317 據 御 居 御 k ju h  3
@@ -1763,6 +1776,7 @@
 1762 聖 敬 式 正 c jeing h  
 1763 盛 敬 時 正 zc jeing h  
 1764 稱 敬 丑 正 tch jeing h  
+2289 鄭 敬 直 正 dr jeing h  
 1765 正 敬 之 盛 tc jeing h  
 1766 令 敬 力 正 l eing h  
 1767 瑩 敬 縈 定 q weing h  
@@ -1787,6 +1801,7 @@
 1786 𤃶 敬 台 鄧 th eong h  
 1787 宥 宥 爰 救 y jeou h  
 1788 齅 宥 許 救 h jeou h  
+2290 糗 宥 丘 救 kh jeou h  
 1789 救 宥 居 又 k jeou h  
 1790 舊 宥 巨 又 g jeou h  2
 1791 副 宥 敷 救 f jeou h  3
@@ -1845,6 +1860,7 @@
 1844 勘 勘 苦 紺 kh oom h  
 1845 紺 勘 古 暗 k oom h  1
 1846 憾 勘 胡 紺 gh oom h  
+2291 暗 勘 烏 紺 q oom h  
 1847 參 勘 七 紺 tsh oom h  
 1848 探 勘 他 紺 th oom h  
 1849 闞 勘 苦 濫 kh am h  
@@ -1960,6 +1976,7 @@
 1959 拂 質 敷 勿 f wjot   
 1960 佛 質 符 勿 bf wjot   
 1961 欻 質 許 勿 h wjot   
+2292 䬑 質 王 勿 j wjot   
 1962 屈 質 曲 勿 kh wjot   12
 1963 屈 質 九 勿 k wjot   
 1964 倔 質 渠 勿 g wjot   
@@ -2127,6 +2144,7 @@
 2126 娖 藥 測 角 tshr oouk   
 2127 捉 藥 竹 角 tsr oouk   9
 2128 濁 藥 直 角 dzr oouk   
+2293 㪬 藥 敕 角 thr oouk   
 2129 陌 陌 莫 白 m aik   1
 2130 拍 陌 普 伯 ph aik   
 2131 百 陌 博 陌 p aik   
