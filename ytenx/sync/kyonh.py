@@ -344,6 +344,7 @@ def syncPrengQim():
       thuaiDauh = line[1],
       polyhedron = line[2],
       hiovNivv = line[3],
+      baxter = line[4],
     )
     preng.save()
     prengQimMap[id] = preng
