@@ -11,6 +11,8 @@ class Dzih(models.Model):
   sieux = models.ForeignKey('SieuxYonh', db_index = True)
   #書頁
   cio = models.ManyToManyField('Cio');
+  #字義
+  ngieh = models.CharField(max_length = 16, db_index = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
