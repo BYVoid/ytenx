@@ -8,6 +8,7 @@ class PrengQim(models.Model):
   polyhedron = models.CharField(verbose_name="古韻羅馬字", max_length=12, null=True)
   hiovNivv = models.CharField(verbose_name="有女羅馬字", max_length=12, null=True)
   thuaiDauh = models.CharField(verbose_name="推導現代漢語", max_length=12, null=True)
+  baxter = models.CharField(verbose_name="Baxter transcription", max_length=12, null=True)
   
   class Meta:
     app_label = 'kyonh'
