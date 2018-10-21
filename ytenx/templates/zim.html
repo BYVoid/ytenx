@@ -73,9 +73,9 @@
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
       </h2>
-      <h3>
-        {{dzih.sieux.ipa}}
-      </h3>  
+      <p>
+        【譯訓】{{dzih.sieux.ipa}}
+      <p>  
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
   	  	{{dzih.sieux.deuh|deuh}}聲<a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
