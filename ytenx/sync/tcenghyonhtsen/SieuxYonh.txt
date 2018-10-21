@@ -708,8 +708,8 @@
 704 耳 紙 忍 止 ny je q  7
 705 彼 紙 補 委 p e q  8
 706 庀 紙 普 弭 ph e q  
-707 陛 紙  比 b e q  9
-708 被 紙  靡 b ei q  
+707 陛 紙 部 比 b e q  9
+708 被 紙 部 靡 b ei q  
 709 技 紙 巨 綺 g e q  
 710 似 紙 詳 子 z e q  
 711 死 紙 想 姊 s e q  
@@ -803,7 +803,7 @@
 798 賄 賄 乎 罪 gh woi q  
 799 猥 賄 烏 賄 q woi q  2
 800 隗 賄 五 罪 ng woi q  
-801 琲 賄  浼 b woi q  
+801 琲 賄 部 浼 b woi q  
 802 美 賄 莫 賄 m woi q  3
 803 漼 賄 取 猥 tsh woi q  
 804 辠 賄 徂 賄 dz woi q  
