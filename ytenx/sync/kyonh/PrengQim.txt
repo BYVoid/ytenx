@@ -147,7 +147,7 @@
 146 shi1 srii shy srij
 147 pi2 bjii bi bjij
 148 zi1 cii zi tsij
-149 ji1 kjii ki kjij
+149 ji1 kjii ki kij
 150 chi1 chjii tci tsyhij
 151 chi1 thrii thy trhij
 152 ci1 chii ci tshij
@@ -182,7 +182,7 @@
 181 pi1 phjii phi phjij
 182 zui1 cyi zvi tswij
 183 kui1 khyi qwy khwij
-184 yi2 ngjii ngi ngjij
+184 yi2 ngjii ngi ngij
 185 xi1 hjii xi xjij
 186 zhi1 cji tjio tsyi
 187 yi2 ji jio yi
