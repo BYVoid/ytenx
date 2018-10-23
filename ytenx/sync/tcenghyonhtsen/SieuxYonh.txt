@@ -158,9 +158,9 @@
 157 杯 灰 晡 回 p woi   7 pui
 158 丕 灰 鋪 杯 ph woi    phui
 159 枚 灰 謨 杯 m woi   8 mȕi
-160 垂 灰 直 追 dc wjoi    tʃɦȕi
+160 垂 灰 直 追 dc wjoi    ʈʂɦȕi
 161 隨 灰 旬 威 z wjoi    szȕi
-162 隹 灰 朱 惟 tc wjoi  4 9 tʃui
+162 隹 灰 朱 惟 tc wjoi  4 9 ʈʂui
 163 甤 灰 如 隹 ny wjoi   10 ʒȕi
 164 雖 灰 蘇 回 s woi   11 sui
 165 爲 灰 于 嬀 gh wjoi    ȕi
@@ -170,9 +170,9 @@
 169 衰 灰 所 追 sr wjoi    ʂui
 170 痿 灰 儒 隹 ny wjoi    ʒȕi
 171 厜 灰 津 垂 ts wjoi    tsui
-172 誰 灰 視 隹 zc wjoi    ʃʒȕi
+172 誰 灰 視 隹 zc wjoi    ʂʐȕi
 173 睢 灰 翾 圭 h wjoi    hui
-174 吹 灰 昌 垂 tch wjoi    tʃhui
+174 吹 灰 昌 垂 tch wjoi    ʈʂhui
 175 摧 灰 徂 回 dz woi    tsɦȕi
 176 真 真 之 人 tc jeon  1  tʃin
 177 申 真 升 人 c jeon    ʃin
@@ -811,15 +811,15 @@
 806 壘 賄 魯 猥 l woi q  4 lûi
 807 魁 賄 苦 猥 kh woi q   khûi
 808 餧 賄 弩 罪 n woi q  5 nûi
-809 揣 賄 楚 委 tshr wjoi q   ʈʂhûi
-810 捶 賄 主 蘂 tc wjoi q   tʃûi
+809 揣 賄 楚 委 tshr wjoi q   ʈʂhwûi
+810 捶 賄 主 蘂 tc wjoi q   ʈʂûi
 811 繠 賄 如 累 ny wjoi q   ʒûi
 812 髓 賄 息 委 s wjoi q   sûi
 813 岯 賄 部 癸 b wjoi q   bǔi'
 814 觜 賄 即 委 ts wjoi q   tsûi
 815 趡 賄 千 水 tsh wjoi q   tshûi
 816 跬 賄 犬 蘂 kh wjoi q   khûi
-817 水 賄 式 軌 c wjoi q   ʃûi
+817 水 賄 式 軌 c wjoi q   ʂûi
 818 毀 賄 虎 委 h wjoi q   hûi
 2280 虫 賄 許 偉 h wjoi q  1 hûi
 819 詭 賄 古 委 k wjoi q   kûi
@@ -1424,16 +1424,16 @@
 1410 儈 隊 古 外 k woi h   kǔi
 1411 貴 隊 居 胃 k wjoi h  6 kǔi
 1412 匱 隊 具 位 g wjoi h   gǔi
-1413 墜 隊 直 類 dc wjoi h   dʒǔi
+1413 墜 隊 直 類 dc wjoi h   ɖʐǔi
 1414 穢 隊 烏 胃 q woi h   ʔǔi
 1415 尉 隊 紆 胃 q wjoi h   ʔǔi
 1416 胃 隊 于 位 gh wjoi h  7 ǔi
 1417 魏 隊 魚 胃 ng wjoi h   ŋǔi
-1418 惴 隊 之 瑞 tc wjoi h   tʃǔi
-1419 吹 隊 蚩 瑞 tch wjoi h   tʃhǔi
-1420 瑞 隊 殊 僞 zc wjoi h   ʃʒǔi
+1418 惴 隊 之 瑞 tc wjoi h   ʈʂǔi
+1419 吹 隊 蚩 瑞 tch wjoi h   ʈʂhǔi
+1420 瑞 隊 殊 僞 zc wjoi h   ʂʐǔi
 1421 稅 隊 輸 芮 c wjoi h   ʃǔi
-1422 帥 隊 所 類 sr wjoi h   ʂǔi
+1422 帥 隊 所 類 sr wjoi h   ʂwǔi
 1423 諉 隊 女 恚 nr wjoi h   nǔi
 1424 内 隊 奴 對 n woi h   nǔi
 1425 觖 隊 窺 睡 kh woi h   khǔi
@@ -1570,7 +1570,7 @@
 1556 宴 霰 伊 甸 q en h   ʔiɛ̌n
 1557 絢 霰 翾 眩 h wen h   hyuɛ̌n
 1558 徧 霰 卑 見 p en h   piɛ̌n
-1559 怨 霰 迂 絹 y wjen h   jyuɛ̌n
+1559 怨 霰 迂 絹 y wjen h   ʔyuɛ̌n
 1560 片 霰 匹 見 ph en h   phiɛ̌n
 1561 麫 霰 莫 見 m en h   miɛ̌n
 1562 選 霰 須 絹 s wen h   syuɛ̌n
@@ -2107,8 +2107,8 @@
 2089 作 藥 即 各 ts ook    tsɔk
 2090 昨 藥 疾 各 dz ook    dzɔ̏k
 2091 鑠 藥 式 灼 c jook    ʃiɔk
-2092 浞 藥 食 角 dzr oouk    ɖʐɔ̏k
-2093 朔 藥 色 角 sr oouk    ʂɔk
+2092 浞 藥 食 角 dzr oouk    ɖʐwɔ̏k
+2093 朔 藥 色 角 sr oouk    ʂwɔk
 2094 灼 藥 職 略 tc jook  1  tʃiɔk
 2095 箸 藥 直 略 dc jook    dʒiɔ̏k
 2096 綽 藥 尺 約 tch jook    tʃhiɔk
@@ -2141,10 +2141,10 @@
 2123 郭 藥 古 博 k wook    kwɔk
 2124 惡 藥 遏 各 q ook    ʔɔk
 2125 諤 藥 逆 各 ng ook    ŋɔ̏k
-2126 娖 藥 測 角 tshr oouk    ʈʂhɔk
-2127 捉 藥 竹 角 tsr oouk   9 ʈʂɔk
-2128 濁 藥 直 角 dzr oouk    ɖʐɔ̏k
-2293 㪬 藥 敕 角 thr oouk    tʃhɔk
+2126 娖 藥 測 角 tshr oouk    ʈʂhwɔk
+2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɔk
+2128 濁 藥 直 角 dzr oouk    ɖʐwɔ̏k
+2293 㪬 藥 敕 角 thr oouk    ʈʂhɔk
 2129 陌 陌 莫 白 m aik   1 mə̏k
 2130 拍 陌 普 伯 ph aik    phək
 2131 百 陌 博 陌 p aik    pək
