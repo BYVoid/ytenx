@@ -1570,7 +1570,7 @@
 1556 宴 霰 伊 甸 q en h   ʔiɛ̌n
 1557 絢 霰 翾 眩 h wen h   hyuɛ̌n
 1558 徧 霰 卑 見 p en h   piɛ̌n
-1559 怨 霰 迂 絹 y wjen h   jyuɛ̌n
+1559 怨 霰 迂 絹 y wjen h   ʔyuɛ̌n
 1560 片 霰 匹 見 ph en h   phiɛ̌n
 1561 麫 霰 莫 見 m en h   miɛ̌n
 1562 選 霰 須 絹 s wen h   syuɛ̌n
@@ -2107,8 +2107,8 @@
 2089 作 藥 即 各 ts ook    tsɔk
 2090 昨 藥 疾 各 dz ook    dzɔ̏k
 2091 鑠 藥 式 灼 c jook    ʃiɔk
-2092 浞 藥 食 角 dzr oouk    ɖʐɔ̏k
-2093 朔 藥 色 角 sr oouk    ʂɔk
+2092 浞 藥 食 角 dzr oouk    ɖʐwɔ̏k
+2093 朔 藥 色 角 sr oouk    ʂwɔk
 2094 灼 藥 職 略 tc jook  1  tʃiɔk
 2095 箸 藥 直 略 dc jook    dʒiɔ̏k
 2096 綽 藥 尺 約 tch jook    tʃhiɔk
@@ -2141,10 +2141,10 @@
 2123 郭 藥 古 博 k wook    kwɔk
 2124 惡 藥 遏 各 q ook    ʔɔk
 2125 諤 藥 逆 各 ng ook    ŋɔ̏k
-2126 娖 藥 測 角 tshr oouk    ʈʂhɔk
-2127 捉 藥 竹 角 tsr oouk   9 ʈʂɔk
-2128 濁 藥 直 角 dzr oouk    ɖʐɔ̏k
-2293 㪬 藥 敕 角 thr oouk    tʃhɔk
+2126 娖 藥 測 角 tshr oouk    ʈʂhwɔk
+2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɔk
+2128 濁 藥 直 角 dzr oouk    ɖʐwɔ̏k
+2293 㪬 藥 敕 角 thr oouk    ʈʂhɔk
 2129 陌 陌 莫 白 m aik   1 mə̏k
 2130 拍 陌 普 伯 ph aik    phək
 2131 百 陌 博 陌 p aik    pək
