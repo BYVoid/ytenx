@@ -393,10 +393,10 @@ def syncDzih():
       current_ngieh = sub(fallback_pattern, r'\1(「' + last_dzih + '」' + last_ngieh + ')' , line[3])
       dzih = Dzih(
         ziox = num + 1,
-        current_dzih,
+        dzih = current_dzih,
         sieuxYonh = sieuxYonhMap[line[1]],
         yih = line[2],
-        current_ngieh,
+        ngieh = current_ngieh,
       )
       dzih.save()
     except:
