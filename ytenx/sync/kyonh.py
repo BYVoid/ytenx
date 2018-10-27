@@ -398,6 +398,7 @@ def syncDzih():
       sieuxYonh = sieuxYonhMap[line[1]],
       yih = line[2],
       ngieh = current_ngieh,
+    )
     dzih.save()
     last_dzih = current_dzih
     last_ngieh = current_ngieh
