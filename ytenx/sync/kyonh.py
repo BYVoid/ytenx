@@ -390,19 +390,15 @@ def syncDzih():
   def sync(line, num):
     current_dzih = ''
     current_ngieh = ''
-    try:
-      current_dzih = line[0]
-      current_ngieh = sub(gloss_fallback_pattern, r'\1(「' + last_dzih + '」' + last_ngieh + ')' , line[3])
-      dzih = Dzih(
-        ziox = num + 1,
-        dzih = current_dzih,
-        sieuxYonh = sieuxYonhMap[line[1]],
-        yih = line[2],
-        ngieh = current_ngieh,
-      )
-      dzih.save()
-    except:
-      print line
+    current_dzih = line[0]
+    current_ngieh = sub(gloss_fallback_pattern, r'\1(「' + last_dzih + '」' + last_ngieh + ')' , line[3], 1)
+    dzih = Dzih(
+      ziox = num + 1,
+      dzih = current_dzih,
+      sieuxYonh = sieuxYonhMap[line[1]],
+      yih = line[2],
+      ngieh = current_ngieh,
+    dzih.save()
     last_dzih = current_dzih
     last_ngieh = current_ngieh
   
