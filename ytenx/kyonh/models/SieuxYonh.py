@@ -77,6 +77,8 @@ class SieuxYonh(models.Model):
   ngix = models.OneToOneField('NgixQim')
   #拼音
   preng = models.OneToOneField('PrengQim')
+  #推導音
+  dauh = models.OneToOneField('PrengQim')
   #書
   cio = models.ManyToManyField('Cio')
   
