@@ -21,7 +21,7 @@ pyanxTshetMap = {}
 prengQimMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
-gloss_fallback_pattern = '(^古文|^俗|上同|^亦同|同上)'
+gloss_fallback_pattern = u'(^古文|^俗|上同|^亦同|同上)'
 last_dzih = ''
 last_ngieh = ''
 
@@ -384,9 +384,6 @@ def syncSieuxYonh():
 
 def syncDzih():
   print 'Dzih...'
-  last_dzih = ''
-  last_ngieh = ''
-  
   def sync(line, num):
     current_dzih = ''
     current_ngieh = ''
