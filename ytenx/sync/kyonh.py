@@ -34,6 +34,7 @@ def sync():
   syncYonhMuxNgixQim()
   syncYonhMux()
   syncPrengQim()
+  syncDauh()
   syncNgixQim()
   syncPyanxTshet()
   syncKuangxYonhMiukTshiih()
@@ -64,7 +65,7 @@ def syncCjengMuxPrengQim():
     preng = PrengQim(
       identifier = 'cjeng' + line[0],
       polyhedron = line[1],
-      thuaiDauh = line[2],
+      putonghua = line[2],
     )
     preng.save()
     cjengMuxPrengQimMap[line[0]] = preng
@@ -142,7 +143,7 @@ def syncYonhMuxPrengQim():
     preng = PrengQim(
       identifier = 'yonh' + line[0],
       polyhedron = line[1],
-      thuaiDauh = line[2],
+      putonghua = line[2],
     )
     preng.save()
     yonhMuxPrengQimMap[line[0]] = preng
@@ -345,17 +346,32 @@ def syncPrengQim():
     id = line[0]
     preng = PrengQim(
       identifier = id,
-      thuaiDauh = line[1],
-      polyhedron = line[2],
-      hiovNivv = line[3],
-      baxter = line[4],
+      polyhedron = line[1],
+      hiovNivv = line[2],
+      baxter = line[3],
     )
     preng.save()
-    prengQimMap[id] = preng
+    fMap[id] = preng
   
   traverse(base_path + 'PrengQim.txt', sync)
   print 'Done'
 
+def syncDauh():
+  print 'Dauh...'
+  
+  def sync(line, num):
+    id = line[0]
+    dauh = Dauh(
+      identifier = id,
+      putonghua = line[1],
+      tcengh = line[2],
+    )
+    dauh.save()
+    fMap[id] = dauh
+  
+  traverse(base_path + 'Dauh.txt', sync)
+  print 'Done'
+  
 def syncSieuxYonh():
   print 'SieuxYonh...'
   def sync(line, num):
