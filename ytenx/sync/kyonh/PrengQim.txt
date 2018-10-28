@@ -1,3875 +1,3875 @@
-#序號 推導 古韻 有女 Baxter
-1 dong1 tung tung tuwng
-2 tong2 dung dung duwng
-3 zhong1 triung tiung trjuwng
-4 chong2 driung diung drjuwng
-5 zhong1 cjung tjung tsyuwng
-6 chong1 thriung thiung trhjuwng
-7 chong2 zriung drung dzrjuwng
-8 song1 siung siung sjuwng
-9 rong2 njung rung nyuwng
-10 jiong1 kiung kiung kjuwng
-11 yong2 jung jung yuwng
-12 yong2 iung hiung hjuwng
-13 meng2 miung miung mjuwng
-14 qiong1 khiung qiung khjuwng
-15 qiong2 giung giung gjuwng
-16 feng2 biung biung bjuwng
-17 feng1 piung piung pjuwng
-18 feng1 phiung phiung phjuwng
-19 chong1 chjung tcung tsyhuwng
-20 long2 liung liung ljuwng
-21 kong1 khung qung khuwng
-22 gong1 kung kung kuwng
-23 meng2 mung mung muwng
-24 long2 lung lung luwng
-25 hong2 ghung hung huwng
-26 cong2 zung dzung dzuwng
-27 weng1 qung ung 'uwng
-28 cong1 chung cung tshuwng
-29 tong1 thung thung thuwng
-30 zong1 cung zung tsuwng
-31 peng2 bung bung buwng
-32 hong1 hung xung xuwng
-33 weng2 ngung ngung nguwng
-34 song1 sung sung suwng
-35 dong1 tuung tvng towng
-36 tong2 duung dvng downg
-37 cong2 zuung dzvng dzowng
-38 nong2 nuung nvng nowng
-39 gong1 kuung kvng kowng
-40 hong2 ghuung hvng howng
-41 long2 luung lvng lowng
-42 zong1 cuung zvng tsowng
-43 song1 suung svng sowng
-44 tong1 thuung thvng thowng
-45 zhong1 cjyung tjvng tsyowng
-46 long2 lyung livng ljowng
-47 shong1 sjyung sjvng syowng
-48 song2 zsyung szivng zjowng
-49 chong1 chjyung tcvng tsyhowng
-50 yong2 jyung jvng yowng
-51 feng1 pyung pivng pjowng
-52 xiong1 hyung xivng xjowng
-53 yong2 ngyung ngivng ngjowng
-54 yong1 qyung ivng 'jowng
-55 nong2 nryung nivng nrjowng
-56 chong2 dryung divng drjowng
-57 cong2 zyung dzivng dzjowng
-58 chong1 thryung thivng trhjowng
-59 feng2 byung bivng bjowng
-60 feng1 phyung phivng phjowng
-61 zong1 cyung zivng tsjowng
-62 rong2 njyung rvng nyowng
-63 qiong2 gyung givng gjowng
-64 chong2 zjyung zjvng dzyowng
-65 jiong1 kyung kivng kjowng
-66 song1 syung sivng sjowng
-67 cong1 chyung civng tshjowng
-68 qiong1 khyung qivng khjowng
-69 jiang1 krung keong kaewng
-70 mang2 mrung meong maewng
-71 nang2 nrung neong nraewng
-72 chuang1 chrung cheong tsrhaewng
-73 bang1 prung peong paewng
-74 xiang2 ghrung heong haewng
-75 pang1 phrung pheong phaewng
-76 lang2 lrong leong laewng
-77 shuang1 srung sheong sraewng
-78 pang2 brung beong baewng
-79 xiang1 hrung xeong xaewng
-80 yang1 qrung eong 'aewng
-81 qiang1 khrung qeong khaewng
-82 chuang2 drung deong draewng
-83 chuang1 thrung theong trhaewng
-84 zhuang1 trung teong traewng
-85 yang2 ngrung ngeong ngaewng
-86 chuang2 zrung dreong dzraewng
-87 zhi1 cje tje tsye
-88 yi2 je je ye
-89 wei2 ye hwe hjwe
-90 gui1 kye kwe kjwe
-91 hui1 hye xwe xjwe
-92 wei1 qye we 'jwe
-93 mi2 mie mye mje
-94 hui1 hjye xve xjwie
-95 chui2 drye dwe drjwe
-96 chui2 zjye zjve dzywe
-97 lei2 lye lve ljwe
-98 chui1 chjye tcve tsyhwe
-99 pi1 phie phye phje
-100 bi1 pie pye pje
-101 sui2 zsye szve zjwe
-102 kui1 khye qwe khjwe
-103 kui1 khjye qve khjwie
-104 qi2 gie gye gje
-105 qi2 gje gie gjie
-106 xi1 hie xye xje
-107 qi1 khie qye khje
-108 yi2 ngie ngye ngje
-109 pi2 bie bye bje
-110 chi2 zje zje dzye
-111 er2 nje re nye
-112 li2 lie lie lje
-113 ci2 zie dzie dzje
-114 zi1 cie zie tsje
-115 ji1 kie kye kje
-116 bi1 pje pie pjie
-117 pi2 bje bie bjie
-118 shi1 sje sje sye
-119 si1 sie sie sje
-120 chi1 chrie chye tsrhje
-121 chi1 thrie thye trhje
-122 mi2 mje mie mjie
-123 ci1 chie cie tshje
-124 zhi1 trie tye trje
-125 yi1 qie ye 'je
-126 chi2 drie dye drje
-127 sui1 sye sve sjwe
-128 wei2 ngye ngwe ngjwe
-129 xi1 hje xie xjie
-130 shi1 srie shye srje
-131 shuai1 srye shwe srjwe
-132 rui2 njye rve nywe
-133 zi1 cie zie tsje
-134 gui1 kjye kve kjwie
-135 zui1 cye zve tsjwe
-136 chuai1 chrye chwe tsrhjwe
-137 zhui1 trye twe trjwe
-138 zui1 cye zve tsjwe
-139 chi1 chje tce tsyhe
-140 zhi1 crie trye tsrje
-141 pi1 phje phie phjie
-142 wei2 jye jve ywe
-143 chi2 zrie drye dzrje
-144 zhi1 cjii tji tsyij
-145 yi2 jii ji yij
-146 shi1 srii shy srij
-147 pi2 bjii bi bjij
-148 zi1 cii zi tsij
-149 ji1 kjii ki kij
-150 chi1 chjii tci tsyhij
-151 chi1 thrii thy trhij
-152 ci1 chii ci tshij
-153 ci2 zii dzi dzij
-154 ni2 nrii ny nrij
-155 chi2 drii dy drij
-156 si1 sii si sij
-157 shi1 sjii sji syij
-158 qi2 gjii gi gij
-159 yi1 qjii i 'jij
-160 li2 lii li lij
-161 kui2 gjyi gvi gjwij
-162 zhui1 tryi twy trwij
-163 gui1 kyi kwy kwij
-164 rui2 njyi rvi nywij
-165 shuai1 sryi shwy srwij
-166 wei2 jyi jvi ywij
-167 lei2 lyi lvi lwij
-168 sui1 syi svi swij
-169 kui2 gyi gwy gwij
-170 mi2 mii my mij
-171 bi1 pii py pij
-172 zhui1 cjyi tjvi tsywij
-173 chui2 zjyi zjvi dzywij
-174 wei2 yi hwy hwij
-175 pi2 bii by bij
-176 pi1 phii phy phij
-177 hui1 hjyi xvi xjwij
-178 chui2 dryi dwy drwij
-179  -  tsyhwij
-180 zhi1 trii ty trij
-181 pi1 phjii phi phjij
-182 zui1 cyi zvi tswij
-183 kui1 khyi qwy khwij
-184 yi2 ngjii ngi ngij
-185 xi1 hjii xi xjij
-186 zhi1 cji tjio tsyi
-187 yi2 ji jio yi
-188 chi2 zji zjio dzyi
-189 yi2 ngi ngio ngi
-190 si1 si sio si
-191 chi1 chri chio tsrhi
-192 qi2 gi gio gi
-193 shi1 sji sjio syi
-194 er2 nji rio nyi
-195 qi1 khi qio khi
-196 ji1 ki kio ki
-197 si2 zsi szio zi
-198 li2 li lio li
-199 zhi1 cri trio tsri
-200 xi1 hi xio xi
-201 yi1 qi io 'i
-202 chi1 thri thio trhi
-203 chi2 dri dio dri
-204 chi1 chji tcio tsyhi
-205 ci2 zi dzio dzi
-206 zi1 ci zio tsi
-207 chi2 zri drio dzri
-208 chi2 zsri zhio zri
-209 qi1 khi qio khi
-210 shi1 sji sjio syi
-211 wei2 myoi mvoi mj+j
-212 hui1 hyoi xvoi xjw+j
-213 wei2 yoi hvoi hjw+j
-214 fei1 phyoi phvoi phj+j
-215 fei1 pyoi pvoi pj+j
-216 fei2 byoi bvoi bj+j
-217 wei1 qyoi voi 'jw+j
-218 qi2 gioi gioi gj+j
-219 ji1 kioi kioi kj+j
-220 xi1 hioi xioi xj+j
-221 yi1 qioi ioi 'j+j
-222 yi2 ngioi ngioi ngj+j
-223 wei2 ngyoi ngvoi ngjw+j
-224 gui1 kyoi kvoi kjw+j
-225 kui1 khyoi qvoi khjw+j
-226 yu2 ngio ngiv ngjo
-227 chu1 chrio chv tsrhjo
-228 shu1 sjo sjv syo
-229 ju1 kio kiv kjo
-230 qu2 gio giv gjo
-231 yu2 jo jv yo
-232 xu1 sio siv sjo
-233 qu1 chio civ tshjo
-234 chu2 zrio drv dzrjo
-235 chu1 thrio thiv trhjo
-236 shu1 srio shv srjo
-237 xu1 hio xiv xjo
-238 xu2 zsio sziv zjo
-239 yu1 qio iv 'jo
-240 zhu1 trio tiv trjo
-241 lv2 lio liv ljo
-242 zhu1 cjo tjv tsyo
-243 chu2 drio div drjo
-244 ru2 njo rv nyo
-245 ju1 cio ziv tsjo
-246 qu1 khio qiv khjo
-247 zhu1 crio trv tsrjo
-248 chu2 zjo zjv dzyo
-249 nv2 nrio niv nrjo
-250 yu2 ngyo ngiu ngju
-251 chu1 chryo chu tsrhju
-252 wu2 myo miu mju
-253 yu2 yo hiu hju
-254 xu1 hyo xiu xju
-255 qu2 gyo giu gju
-256 ru2 njyo ru nyu
-257 xu1 syo siu sju
-258 zhu1 tryo tiu trju
-259 chu1 thryo thiu trhju
-260 chu2 zjyo zju dzyu
-261 yu2 jyo ju yu
-262 qu1 khyo qiu khju
-263 zhu1 cjyo tju tsyu
-264 qu1 chyo ciu tshju
-265 lv2 lyo liu lju
-266 fu2 byo biu bju
-267 chu2 zryo dru dzrju
-268 zhu1 cryo tru tsrju
-269 fu1 phyo phiu phju
-270 ju1 cyo ziu tsju
-271 fu1 pyo piu pju
-272 yu1 qyo iu 'ju
-273 shu1 sjyo sju syu
-274 chu1 chjyo tcu tsyhu
-275 chu2 dryo diu drju
-276 ju1 kyo kiu kju
-277 shu1 sryo shu srju
-278 mu2 mo mu mu
-279 pu2 bo bu bu
-280 hu2 gho hu hu
-281 gu1 ko ku ku
-282 tu2 do du du
-283 nu2 no nu nu
-284 hu1 ho xu xu
-285 wu2 ngo ngu ngu
-286 zu1 co zu tsu
-287 lu2 lo lu lu
-288 su1 so su su
-289 cu2 zo dzu dzu
-290 wu1 qo u 'u
-291 bu1 po pu pu
-292 ku1 kho qu khu
-293 cu1 cho cu tshu
-294 tu1 tho thu thu
-295 du1 to tu tu
-296 pu1 pho phu phu
-297 qi2 ze dzei dzej
-298 li2 le lei lej
-299 qi1 che cei tshej
-300 di1 te tei tej
-301 ti2 de dei dej
-302 bi1 pe pei pej
-303 ji1 ke kei kej
-304 xi2 ghe hei hej
-305 yi1 qe ei 'ej
-306 yi2 nge ngei ngej
-307 xi1 he xei xej
-308 xi1 se sei sej
-309 ti1 the thei thej
-310 pi2 be bei bej
-311 pi1 phe phei phej
-312 ji1 ce zei tsej
-313 mi2 me mei mej
-314 ni2 ne nei nej
-315 qi1 khe qei khej
-316 gui1 kue kuei kwej
-317 kui1 khue quei khwej
-318 hui2 ghue huei hwej
-319  - nj'e nyej
-320  - zj'e dzyej
-321 wei1 que uei 'wej
-322 hui1 hue xuei xwej
-323 jia1 kre kae kea
-324 xia2 ghre hae hea
-325 pai2 bre bae bea
-326 gua1 krue koe kwea
-327 wa1 qrue oe 'wea
-328 kua1 khrue qoe khwea
-329 chai2 zre drae dzrea
-330 chai1 chre chae tsrhea
-331 hua1 hrue xoe xwea
-332 nai2 nre nae nrea
-333 ya2 ngre ngae ngea
-334 ya1 qre ae 'ea
-335 shai1 sre shae srea
-336 xia1 hre xae xea
-337 chai1 thre thae trhea
-338 mai2 mre mae mea
-339 hua2 ghrue hoe hwea
-340 jie1 krai kaei keaj
-341 ye1 qrai aei 'eaj
-342 xie2 ghrai haei heaj
-343 pai2 brai baei beaj
-344 guai1 kruai koei kweaj
-345 huai2 ghruai hoei hweaj
-346 kuai1 khruai qoei khweaj
-347 chai2 zrai draei dzreaj
-348 chai1 chrai chaei tsrheaj
-349 huai1 hruai xoei xweaj
-350 chuai2 druai doei drweaj
-351 mai2 mrai maei meaj
-352 zhai1 crai traei tsreaj
-353 wai1 ruvi oei 'weaj
-354 zhai1 trai taei treaj
-355 lai2 lrai laei leaj
-356 qie1 khrai qaei kheaj
-357 nai2 nrai naei nreaj
-358 shai1 srai shaei sreaj
-359 ye2 ngrai ngaei ngeaj
-360 chai1 thrai thaei trheaj
-361 xie1 hrai xaei xeaj
-362 lai2 lruai loei lweaj
-363 chuai2 zruai droei dzrweaj
-364 hui1 huai xuoi xwoj
-365 kui1 khuai quoi khwoj
-366 wei1 quai uoi 'woj
-367 hui2 ghuai huoi hwoj
-368 mei2 muai muoi mwoj
-369 gui1 kuai kuoi kwoj
-370 lei2 luai luoi lwoj
-371 tui2 duai duoi dwoj
-372 cui1 chuai cuoi tshwoj
-373 dui1 tuai tuoi twoj
-374 sui1 suai suoi swoj
-375 cui2 zuai dzuoi dzwoj
-376 pei2 buai buoi bwoj
-377 bei1 puai puoi pwoj
-378 pei1 phuai phuoi phwoj
-379 wei2 nguai nguoi ngwoj
-380 tui1 thuai thuoi thwoj
-381 nei2 nuai nuoi nwoj
-382 zui1 cuai zuoi tswoj
-383 hai1 hai xoi xoj
-384 kai1 khai qoi khoj
-385 ai1 qai oi 'oj
-386 tai2 dai doi doj
-387 gai1 kai koi koj
-388 cai2 zai dzoi dzoj
-389 lai2 lai loi loj
-390 zai1 cai zoi tsoj
-391 cai1 chai coi tshoj
-392 pei2 bai boi boj
-393 tai1 thai thoi thoj
-394 hai2 ghai hoi hoj
-395 sai1 sai soi soj
-396 ai2 ngai ngoi ngoj
-397 nai2 nai noi noj
-398 dai1 tai toi toj
-399  - chj'ai tsyhoj
-400 pei1 phai phoi phoj
-401 zhen1 cjin tjin tsyin
-402 chen1 thrin thyn trhin
-403 yin1 qjin in 'jin
-404 xin1 sin sin sin
-405 chen2 zjin zjin dzyin
-406 ren2 njin rin nyin
-407 chen2 zsjin djin zyin
-408 qin1 chin cin tshin
-409 yin2 in hyn hin
-410 shen1 sjin sjin syin
-411 bin1 pjin pin pjin
-412 lin2 lin lin lin
-413 qin2 gin gyn gin
-414 zhen1 trin tyn trin
-415 chen2 drin dyn drin
-416 jin1 cin zin tsin
-417 chen1 chjin tcin tsyhin
-418 qin2 zin dzin dzin
-419 yin2 jin jin yin
-420 nin2 nrin nyn nrin
-421 pin1 phjin phin phjin
-422 pin2 bjin bin bjin
-423 yin2 ngin ngyn ngin
-424 jin1 kin kyn kin
-425 43252 kyn kwyn kwin
-426 yun2 yn hwyn hwin
-427 qun1 khyn qwyn khwin
-428 min2 min myn min
-429 pin2 bin byn bin
-430 yin1 qin yn 'in
-431 yun1 qyn wyn 'win
-432 bin1 pin pyn pin
-433 min2 mjin min mjin
-434 zhun1 cjyn tjvin tsywin
-435 chun1 thryn thvin trhwin
-436 chun2 dryn dvin drwin
-437 xun1 syn svin swin
-438 chun2 zjyn zjvin dzywin
-439 run2 njyn rvin nywin
-440 chun2 zsjyn djvin zywin
-441 lun2 lyn lvin lwin
-442 zhun1 tryn tvin trwin
-443 qun1 chyn cvin tshwin
-444 43252 cyn zvin tswin
-445 chun1 chjyn tcvin tsyhwin
-446 qun2 zyn dzvin dzwin
-447 yun2 jyn jvin ywin
-448 xun2 zsyn szvin zwin
-449 43252 kjyn kvin kjwin
-450  -  gjin
-451 pin1 phin phyn phin
-452 zhen1 crin tryin tsrin
-453 shen1 srin shyin srin
-454 chen2 zrin dryin dzrin
-455 wen2 myon miun mjun
-456 yun2 yon hiun hjun
-457 yun1 qyon iun 'jun
-458 fen2 byon biun bjun
-459 fen1 pyon piun pjun
-460 qun2 gyon giun gjun
-461 xun1 hyon xiun xjun
-462 43252 kyon kiun kjun
-463 fen1 phyon phiun phjun
-464 xin1 hion xion xj+n
-465 yin1 qion ion 'j+n
-466 qin2 gion gion gj+n
-467 jin1 kion kion kj+n
-468 yin2 ngion ngion ngj+n
-469 yuan2 ngyan ngvan ngjwon
-470 yuan2 yan hvan hjwon
-471 fan2 byan bvan bjon
-472 fan1 phyan phvan phjon
-473 xuan1 hyan xvan xjwon
-474 yuan1 qyan van 'jwon
-475 yan2 ngian ngian ngjon
-476 qian1 khian qian khjon
-477 xian1 hian xian xjon
-478 jian1 kian kian kjon
-479 yan1 qian ian 'jon
-480 fan1 pyan pvan pjon
-481 qian2 gian gian gjon
-482 wan2 myan mvan mjon
-483 hun2 ghuon huon hwon
-484 gun1 kuon kuon kwon
-485 wen1 quon uon 'won
-486 men2 muon muon mwon
-487 sun1 suon suon swon
-488 zun1 cuon zuon tswon
-489 cun2 zuon dzuon dzwon
-490 dun1 tuon tuon twon
-491 tun1 thuon thuon thwon
-492 tun2 duon duon dwon
-493 cun1 chuon cuon tshwon
-494 wen2 nguon nguon ngwon
-495 pen2 buon buon bwon
-496 ben1 puon puon pwon
-497 lun2 luon luon lwon
-498 kun1 khuon quon khwon
-499 hun1 huon xuon xwon
-500 pen1 phuon phuon phwon
-501 nun2 nuon nuon nwon
-502 hen2 ghon hon hon
-503 gen1 kon kon kon
-504 en1 qon on 'on
-505 tun1 thon thon thon
-506 en2 ngon ngon ngon
-507 han2 ghan han han
-508 an2 ngan ngan ngan
-509 dan1 tan tan tan
-510 an1 qan an 'an
-511 nan2 nan nan nan
-512 can1 chan can tshan
-513 tan1 than than than
-514 san1 san san san
-515 tan2 dan dan dan
-516 can2 zan dzan dzan
-517 gan1 kan kan kan
-518 lan2 lan lan lan
-519 kan1 khan qan khan
-520 han1 han xan xan
-521 nuan2 nuan nuan nwan
-522 huan2 ghuan huan hwan
-523 wan2 nguan nguan ngwan
-524 duan1 tuan tuan twan
-525 wan1 quan uan 'wan
-526 tuan1 thuan thuan thwan
-527 suan1 suan suan swan
-528 tuan2 duan duan dwan
-529 cuan2 zuan dzuan dzwan
-530 guan1 kuan kuan kwan
-531 luan2 luan luan lwan
-532 huan1 huan xuan xwan
-533 kuan1 khuan quan khwan
-534 zuan1 cuan zuan tswan
-535 pan2 buan buan ban
-536 man2 muan muan man
-537 pan1 phuan phuan phan
-538 ban1 puan puan pan
-539 shan1 sran shan sraen
-540 guan1 kruan koan kwaen
-541 wan1 qruan oan 'waen
-542 shuan1 sruan shoan srwaen
-543 huan2 ghruan hoan hwaen
-544 ban1 pran pean paen
-545 man2 mran mean maen
-546 yan2 ngran ngean ngaen
-547 jian1 kran kean kaen
-548 pan1 phran phean phaen
-549 nuan2 nruan noan nrwaen
-550 wan2 ngruan ngoan ngwaen
-551 qian1 khran qean khaen
-552 qian1 khran qean khaen
-553 zhuan1 cruan troan tsrwaen
-554 shan1 sren shaen srean
-555 guan1 kruen koen kwean
-556 jian1 kren kaen kean
-557 xian2 ghren haen hean
-558 qian1 khren qaen khean
-559 chan2 zren draen dzrean
-560 xian1 hren xaen xean
-561 yan2 ngren ngaen ngean
-562 yan1 qren aen 'ean
-563 ban1 pren paen pean
-564 lan2 lren laen lean
-565 nan2 nren naen nrean
-566  - chj'ren tsyhean
-567  - i'ruen 'wean
-568  - d'ruen dwean
-569 luan2 lruen loen lwean
-570  - gruen gwean
-571 zhan1 tren taen trean
-572 chan2 dren daen drean
-573 huan2 ghruen hoen hwean
-574  - z'ren dzean
-575 xian1 sen sen sen
-576 qian2 zen dzen dzen
-577 qian1 chen cen tshen
-578 jian1 cen zen tsen
-579 tian1 then then then
-580 jian1 ken ken ken
-581 xian2 ghen hen hen
-582 yan1 qen en 'en
-583 lian2 len len len
-584 tian2 den den den
-585 nian2 nen nen nen
-586 dian1 ten ten ten
-587 qian1 khen qen khen
-588 yan2 ngen ngen ngen
-589 mian2 men men men
-590 pian2 ben ben ben
-591 yuan1 quen uen 'wen
-592 juan1 kuen kuen kwen
-593 xuan1 huen xuen xwen
-594 bian1 pen pen pen
-595 xuan2 ghuen huen hwen
-596 xian1 hen xen xen
-597  - zr'en dzrwen
-598 xian1 sien sien sjen
-599 qian2 zien dzien dzjen
-600 qian1 chien cien tshjen
-601 jian1 cien zien tsjen
-602 ran2 njen ren nyen
-603 yan2 jen jen yen
-604 zhan1 cjen tjen tsyen
-605 jian1 kjen kien kjien
-606 zhan1 trien tyen trjen
-607 chan2 zrien dren dzrjen
-608 shan1 sjen sjen syen
-609 chan1 thrien thyen trhjen
-610 chan2 zjen zjen dzyen
-611 chan2 drien dyen drjen
-612 xian1 hjen xien xjien
-613 lian2 lien lien ljen
-614 pian1 phjen phien phjien
-615 pian2 bjen bien bjien
-616 mian2 mjen mien mjien
-617 quan2 zyen dzven dzjwen
-618 xuan1 syen sven sjwen
-619 juan1 cyen zven tsjwen
-620 xuan1 hjyen xven xjwien
-621 ruan2 njyen rven nywen
-622 chuan1 chjyen tcven tsyhwen
-623 yuan2 jyen jven ywen
-624 xuan2 zsyen szven zjwen
-625 yuan1 qjyen ven 'jwien
-626 chuan2 zsjyen djven zywen
-627 bian1 pjen pien pjien
-628 xian2 zsien szien zjen
-629 quan1 chyen cven tshjwen
-630 zhuan1 cjyen tjven tsywen
-631 chuan2 zjyen zjven dzywen
-632 yuan2 yen hwen hjwen
-633 zhuan1 cryen trwen tsrjwen
-634 shuan1 sryen shwen srjwen
-635 chuan1 thryen thwen trhjwen
-636 qian2 gien gyen gjen
-637 qian1 khien qyen khjen
-638 quan2 gyen gwen gjwen
-639 chuan2 dryen dwen drjwen
-640 luan2 lyen lven ljwen
-641 quan1 khyen qwen khjwen
-642 yan1 qien yen 'jen
-643 yan2 ien hyen hjen
-644 yuan1 qyen wen 'jwen
-645 chan2 chjen tcen tsyhen
-646 zhuan1 tryen twen trjwen
-647 juan1 kyen kwen kjwen
-648 xiao1 seu seu sew
-649 tiao1 theu theu thew
-650 diao1 teu teu tew
-651 tiao2 deu deu dew
-652 jiao1 keu keu kew
-653 liao2 leu leu lew
-654 yao2 ngeu ngeu ngew
-655 xiao1 heu xeu xew
-656 yao1 qeu eu 'ew
-657 qiao1 kheu qeu khew
-658 xiao1 sieu sieu sjew
-659 chao1 thrieu thyeu trhjew
-660 zhao1 trieu tyeu trjew
-661 chao2 drieu dyeu drjew
-662 xiao1 hieu xyeu xjew
-663 qiao2 zieu dzieu dzjew
-664 jiao1 kieu kyeu kjew
-665 jiao1 cieu zieu tsjew
-666 rao2 njeu reu nyew
-667 shao1 sjeu sjeu syew
-668 yao2 jeu jeu yew
-669 chao2 zjeu zjeu dzyew
-670 zhao1 cjeu tjeu tsyew
-671 biao1 pjeu pieu pjiew
-672 biao1 pieu pyeu pjew
-673 piao2 bjeu bieu bjiew
-674 miao2 mjeu mieu mjiew
-675 miao2 mieu myeu mjew
-676 yao1 qjeu ieu 'jiew
-677 yao2 ieu hyeu hjew
-678 qiao2 gieu gyeu gjew
-679 qiao1 chieu cieu tshjew
-680 yao1 qieu yeu 'jew
-681 qiao1 khjeu qieu khjiew
-682 chao1 chjeu tceu tsyhew
-683 piao1 phjeu phieu phjiew
-684 qiao2 gjeu gieu gjiew
-685 liao2 lieu lieu ljew
-686 qiao1 khieu qyeu khjew
-687 xiao2 ghrau heau haew
-688 jiao1 krau keau kaew
-689 chao2 zrau drau dzraew
-690 nao2 nrau neau nraew
-691 shao1 srau shau sraew
-692 mao2 mrau meau maew
-693 xiao1 hrau xeau xaew
-694 bao1 prau peau paew
-695 pao1 phrau pheau phaew
-696 qiao1 khrau qeau khaew
-697 yao2 ngrau ngeau ngaew
-698 zhao1 crau trau tsraew
-699 zhao1 trau teau traew
-700 chao1 chrau chau tsrhaew
-701 pao2 brau beau baew
-702 yao1 qrau eau 'aew
-703 chao1 thrau theau trhaew
-704 lao2 lrau leau laew
-705 chao2 drau deau draew
-706 hao2 ghau hau haw
-707 gao1 kau kau kaw
-708 lao2 lau lau law
-709 hao1 hau xau xaw
-710 mao2 mau mau maw
-711 tao1 thau thau thaw
-712 dao1 tau tau taw
-713 sao1 sau sau saw
-714 pao2 bau bau baw
-715 bao1 pau pau paw
-716 tao2 dau dau daw
-717 zao1 cau zau tsaw
-718 ao2 ngau ngau ngaw
-719 cao2 zau dzau dzaw
-720 ao1 qau au 'aw
-721 nao2 nau nau naw
-722 kao1 khau qau khaw
-723 cao1 chau cau tshaw
-724 pao1 phau phau phaw
-725 ge1 ka ka ka
-726 cuo1 cha ca tsha
-727 duo1 ta ta ta
-728 suo1 sa sa sa
-729 tuo2 da da da
-730 cuo2 za dza dza
-731 e2 nga nga nga
-732 tuo1 tha tha tha
-733 luo2 la la la
-734 nuo2 na na na
-735 he2 gha ha ha
-736 he1 ha xa xa
-737 ke1 kha qa kha
-738 e1 qa a 'a
-739 guo1 kua kua kwa
-740 cuo1 chua cua tshwa
-741 duo1 tua tua twa
-742 suo1 sua sua swa
-743 po2 bua bua ba
-744 tuo2 dua dua dwa
-745 mo2 mua mua ma
-746 cuo2 zua dzua dzwa
-747 wo2 ngua ngua ngwa
-748 tuo1 thua thua thwa
-749 luo2 lua lua lwa
-750 nuo2 nua nua nwa
-751 bo1 pua pua pa
-752 po1 phua phua pha
-753 huo2 ghua hua hwa
-754 kuo1 khua qua khwa
-755 wo1 qua ua 'wa
-756 xue1 hya xva xjwa
-757 yue1 qya va 'jwa
-758 que1 khya qva khjwa
-759 qie2 gia gia gja
-760 qie1 khia qia khja
-761 jie1 kia kia kja
-762 que1 chya cva tshjwa
-763 jue1 cya zva tsjwa
-764 que2 gya gva gjwa
-765 lve2 lya lva ljwa
-766 ma2 mra mea mae
-767 che1 chja tca tsyhae
-768 she1 sja sja syae
-769 ye2 ja ja yae
-770 zhe1 cja tja tsyae
-771 jie1 cia zya tsjae
-772 che2 zsja dja zyae
-773 hua2 ghrua hoa hwae
-774 gua1 krua koa kwae
-775 hua1 hrua xoa xwae
-776 kua1 khrua qoa khwae
-777 na2 nra nea nrae
-778 jia1 kra kea kae
-779 xia2 ghra hea hae
-780 pa1 phra phea phae
-781 ya1 qra ea 'ae
-782 ba1 pra pea pae
-783 cha1 chra cha tsrhae
-784 sha1 sra sha srae
-785 ya2 ngra ngea ngae
-786 zha1 cra tra tsrae
-787 cha2 dra dea drae
-788 xie2 zsia szya zjae
-789 che2 zja zja dzyae
-790 wa1 qrua oa 'wae
-791 zhua1 crua troa tsrwae
-792 zhua1 trua toa trwae
-793 pa2 bra bea bae
-794 cha2 zra dra dzrae
-795 cha1 thra thea trhae
-796 zha1 tra tea trae
-797 xia1 hra xea xae
-798 qia1 khra qea khae
-799 qie2 zia dzya dzjae
-800 re2 nja ra nyae
-801 xie1 sia sya sjae
-802 zhe1 tria tya trjae
-803 wa2 ngrua ngoa ngwae
-804 qia1 khra qea khae
-805 yang2 jang jang yang
-806 xiang2 zsiang sziang zjang
-807 liang2 liang liang ljang
-808 xiang1 hiang xiang xjang
-809 shang1 sjang sjang syang
-810 fang2 byang bvang bjang
-811 zhang1 cjang tjang tsyang
-812 chang1 chjang tcang tsyhang
-813 qiang1 khiang qiang khjang
-814 jiang1 kiang kiang kjang
-815 chang2 driang diang drjang
-816 zhang1 triang tiang trjang
-817 rang2 njang rang nyang
-818 fang1 pyang pvang pjang
-819 xiang1 siang siang sjang
-820 jiang1 ciang ziang tsjang
-821 chuang1 chriang chiang tsrhjang
-822 wang2 myang mvang mjang
-823 niang2 nriang niang nrjang
-824 chuang2 zriang driang dzrjang
-825 zhuang1 criang triang tsrjang
-826 chang2 zjang zjang dzyang
-827 shuang1 sriang shiang srjang
-828 qiang2 ziang dziang dzjang
-829 qiang1 chiang ciang tshjang
-830 kuang1 khyang qvang khjwang
-831 wang2 yang hvang hjwang
-832 yang1 qiang iang 'jang
-833 qiang2 giang giang gjang
-834 chang1 thriang thiang trhjang
-835 fang1 phyang phvang phjang
-836 kuang2 gyang gvang gjwang
-837 tang2 dang dang dang
-838 lang2 lang lang lang
-839 dang1 tang tang tang
-840 cang1 chang cang tshang
-841 gang1 kang kang kang
-842 sang1 sang sang sang
-843 kang1 khang qang khang
-844 huang1 huang xuang xwang
-845 huang2 ghuang huang hwang
-846 guang1 kuang kuang kwang
-847 tang1 thang thang thang
-848 pang1 phang phang phang
-849 wang1 quang uang 'wang
-850 ang1 qang ang 'ang
-851 hang1 hang xang xang
-852 hang2 ghang hang hang
-853 mang2 mang mang mang
-854 zang1 cang zang tsang
-855 nang2 nang nang nang
-856 pang2 bang bang bang
-857 ang2 ngang ngang ngang
-858 cang2 zang dzang dzang
-859 kuang1 khuang quang khwang
-860 bang1 pang pang pang
-861 geng1 krang keang kaeng
-862 keng1 khrang qeang khaeng
-863 meng2 mrang meang maeng
-864 hong2 ghruang hoang hwaeng
-865 beng1 prang peang paeng
-866 hong1 hruang xoang xwaeng
-867 gong1 kruang koang kwaeng
-868 peng2 brang beang baeng
-869 heng1 hrang xeang xaeng
-870 cheng1 thrang theang trhaeng
-871 cheng1 chrang chang tsrhaeng
-872 cheng2 zrang drang dzraeng
-873 ying1 qieng yang 'jaeng
-874 ping1 phivng phyang phjaeng
-875 ping2 bieng byang bjaeng
-876 jing1 kieng kyang kjaeng
-877 ming2 mieng myang mjaeng
-878 cheng2 drang deang draeng
-879 zheng1 trang teang traeng
-880 yong2 yeng hwang hjwaeng
-881 bing1 pieng pyang pjaeng
-882 xiong1 hyeng xwang xjwaeng
-883 qing1 khieng qyang khjaeng
-884 sheng1 srvng shang sraeng
-885 qing2 gieng gyang gjaeng
-886 ying2 ngieng ngyang ngjaeng
-887 heng2 ghrang heang haeng
-888 neng2 nrang neang nraeng
-889 geng1 kreng kaeng keang
-890 keng1 khreng qaeng kheang
-891 meng2 mreng maeng meang
-892 beng1 preng paeng peang
-893 hong2 ghrueng hoeng hweang
-894 heng2 ghreng haeng heang
-895 zheng1 treng taeng treang
-896 eng1 qreng aeng 'eang
-897 cheng2 zrang draeng dzreang
-898 cheng1 chreng chaeng tsrheang
-899 neng2 nreng naeng nreang
-900 peng1 phreng phaeng pheang
-901 hong1 hrueng xoeng xweang
-902 beng1 preng paeng peang
-903 cheng2 dreng daeng dreang
-904 weng1 qrueng oeng 'weang
-905 peng2 breng baeng beang
-906 eng2 ngreng ngaeng ngeang
-907 zheng1 creng traeng tsreang
-908 qing1 chieng cieng tshjeng
-909 qing2 zieng dzieng dzjeng
-910 jing1 cieng zieng tsjeng
-911 ying2 jeng jeng yeng
-912 yong2 jyeng jveng yweng
-913 ying1 qjeng ieng 'jieng
-914 zheng1 trieng tieng trjeng
-915 cheng1 thrieng thieng trhjeng
-916 cheng2 zjeng zjeng dzyeng
-917 cheng2 drieng dieng drjeng
-918 sheng1 sjeng sjeng syeng
-919 zheng1 cjeng tjeng tsyeng
-920 qing1 khjeng qieng khjieng
-921 ming2 mjeng mieng mjieng
-922 ling2 lieng lieng ljeng
-923 bing1 pjeng pieng pjieng
-924 qiong1 khjyeng qveng khjwieng
-925 xing2 zsieng szieng zjeng
-926 yong1 qyeng veng 'jwieng
-927 qiong2 gjyeng gveng gjwieng
-928 xing1 syeng sveng sjweng
-929 qing2 gjeng gieng gjieng
-930 xiong1 hjyeng xveng xjweng
-931 qing1 cheng ceng tsheng
-932 jing1 keng keng keng
-933 xing2 gheng heng heng
-934 ting2 deng deng deng
-935 ding1 teng teng teng
-936 xing1 heng xeng xeng
-937 xing1 seng seng seng
-938 ping1 pheng pheng pheng
-939 ling2 leng leng leng
-940 ning2 neng neng neng
-941 ting1 theng theng theng
-942 ming2 meng meng meng
-943 ping2 beng beng beng
-944 xiong2 ghueng hueng hweng
-945 jiong1 kueng kueng kweng
-946 zheng1 cjing tjong tsying
-947 cheng2 zjing zjong dzying
-948 cheng2 dring diong dring
-949 ling2 ling liong ling
-950 ying1 qing iong 'ing
-951 ping2 bing biong bing
-952 bing1 ping piong ping
-953 ying2 jing jong ying
-954 cheng2 zsjing djong zying
-955 sheng1 sjing sjong sying
-956 reng2 njing rong nying
-957 jing1 king kiong king
-958 zheng1 tring tiong tring
-959 qing2 zing dziong dzing
-960 ying2 nging ngiong nging
-961 xing1 hing xiong xing
-962 cheng1 chjing tcong tsyhing
-963 qing2 ging giong ging
-964 sheng1 sring shong sring
-965 qing1 khing qiong khing
-966 cheng1 thring thiong trhing
-967 cheng2 zring drong dzring
-968 ping1 phing phiong phing
-969 deng1 tong tong tong
-970 leng2 long long long
-971 seng1 song song song
-972 beng1 pong pong pong
-973 zeng1 cong zong tsong
-974 meng2 mong mong mong
-975 ceng2 zong dzong dzong
-976 peng2 bong bong bong
-977 hong2 ghuong huong hwong
-978 gong1 kuong kuong kwong
-979 hong1 huong xuong xwong
-980 neng2 nong nong nong
-981 teng2 dong dong dong
-982 heng2 ghong hong hong
-983 geng1 kong kong kong
-984 teng1 thong thong thong
-985 peng1 phong phong phong
-986 you2 iu hiou hjuw
-987 you1 qiu iou 'juw
-988 liu2 liu liou ljuw
-989 qiu1 chiu ciou tshjuw
-990 you2 ju jou yuw
-991 you2 ngiu ngiou ngjuw
-992 jiu1 ciu ziou tsjuw
-993 qiu2 ziu dziou dzjuw
-994 xiu1 siu siou sjuw
-995 chou1 thriu thiou trhjuw
-996 qiu1 khiu qiou khjuw
-997 chou1 chju tcou tsyhuw
-998 zhou1 cju tjou tsyuw
-999 chou2 zju zjou dzyuw
-1000 rou2 nju rou nyuw
-1001 shou1 sju sjou syuw
-1002 qiu1 khiu qiou khjuw
-1003 fou1 phiu phiou phjuw
-1004 jiu1 kiu kiou kjuw
-1005 fou1 piu piou pjuw
-1006 shou1 sriu shou srjuw
-1007 chou1 chriu chou tsrhjuw
-1008 zhou1 criu trou tsrjuw
-1009 chou2 zriu drou dzrjuw
-1010 xiu1 hiu xiou xjuw
-1011 xiu2 zsiu sziou zjuw
-1012 chou2 driu diou drjuw
-1013 zhou1 triu tiou trjuw
-1014 qiu2 giu giou gjuw
-1015 fou2 biu biou bjuw
-1016 miu2 miu miou mjuw
-1017 hou2 ghu hou huw
-1018 ou1 qu ou 'uw
-1019 nou2 nu nou nuw
-1020 lou2 lu lou luw
-1021 sou1 su sou suw
-1022 kou1 khu qou khuw
-1023 hou1 hu xou xuw
-1024 zou1 cu zou tsuw
-1025 tou1 thu thou thuw
-1026 tou2 du dou duw
-1027 ou2 ngu ngou nguw
-1028 gou1 ku kou kuw
-1029 dou1 tu tou tuw
-1030 cou2 zu dzou dzuw
-1031 pou2 bu bou buw
-1032 cou1 chu cou tshuw
-1033 mou2 mu mou muw
-1034 you1 qy yu 'jiw
-1035 qiu2 gy gyu gjiw
-1036 biao1 py pyu pjiw
-1037 liu2 ly lyu ljiw
-1038 jiu1 ky kyu kjiw
-1039 piao2 by byu bjiw
-1040 jiu1 cy zyu tsjiw
-1041 shou1 sry shyu srjiw
-1042 you2 ngy ngyu ngjiw
-1043 xiu1 hy xyu xjiw
-1044 miao2 my myu mjiw
-1045 qin1 chim cim tshim
-1046 xin2 zsim szim zim
-1047 lin2 lim lim lim
-1048 chen1 thrim thym trhim
-1049 zhen1 cjim tjim tsyim
-1050 chen2 drim dym drim
-1051 zhen1 trim tym trim
-1052 chen2 zjim zjim dzyim
-1053 ren2 njim rim nyim
-1054 shen1 sjim sjim syim
-1055 yin2 jim jim yim
-1056 xin1 sim sim sim
-1057 yin1 qjim im 'jim
-1058 jin1 cim zim tsim
-1059 qin2 zim dzim dzim
-1060 nin2 nrim nym nrim
-1061 qin2 gim gym gim
-1062 qin1 khim qym khim
-1063 yin2 ngim ngym ngim
-1064 xin1 him xym xim
-1065 jin1 kim kym kim
-1066 yin1 qim ym 'im
-1067 shen1 srim shym srim
-1068 chen2 zrim drym dzrim
-1069 zhen1 crim trym tsrim
-1070 chen1 chrim chym tsrhim
-1071 chen1 chjim tcim tsyhim
-1072 tan2 dom dom dom
-1073 can1 chom com tshom
-1074 nan2 nom nom nom
-1075 an1 qom om 'om
-1076 han2 ghom hom hom
-1077 lan2 lom lom lom
-1078 can2 zom dzom dzom
-1079 zan1 com zom tsom
-1080 tan1 thom thom thom
-1081 dan1 tom tom tom
-1082 kan1 khom qom khom
-1083 han1 hom xom xom
-1084 san1 som som som
-1085 gan1 kom kom kom
-1086 an2 ngom ngom ngom
-1087 tan2 dam dam dam
-1088 gan1 kam kam kam
-1089 dan1 tam tam tam
-1090 san1 sam sam sam
-1091 lan2 lam lam lam
-1092 kan1 kham qam kham
-1093 tan1 tham tham tham
-1094 can2 zam dzam dzam
-1095 han2 gham ham ham
-1096 man2 mam mam mam
-1097 can2 zam dzam dzam
-1098 han1 ham xam xam
-1099 yan2 jem jem yem
-1100 lian2 liem liem ljem
-1101 bian1 piem pyem pjem
-1102 xian1 siem siem sjem
-1103 qian1 chiem ciem tshjem
-1104 zhan1 cjem tjem tsyem
-1105 chan2 zjem zjem dzyem
-1106 shan1 sjem sjem syem
-1107 chan1 chjem tcem tsyhem
-1108 ran2 njem rem nyem
-1109 nian2 nriem nyem nrjem
-1110 yan2 iem hyem hjem
-1111 zhan1 triem tyem trjem
-1112 chan1 thriem thyem trhjem
-1113 yan1 qiem yem 'jem
-1114 qian1 khiem qyem khjem
-1115 yan2 ngiem ngyem ngjem
-1116 jian1 ciem ziem tsjem
-1117 qian2 ziem dziem dzjem
-1118 qian2 giem gyem gjem
-1119 yan1 qjem iem 'jiem
-1120 xian2 zsiem sziem zjem
-1121 shan1 sriem shem srjem
-1122 chan2 driem dyem drjem
-1123 qian2 gjem giem gjiem
-1124 tian1 them them them
-1125 dian1 tem tem tem
-1126 tian2 dem dem dem
-1127 lian2 lem lem lem
-1128 qian1 khem qem khem
-1129 jian1 kem kem kem
-1130 xian2 ghem hem hem
-1131 nian2 nem nem nem
-1132 xian1 hem xem xem
-1133 xian2 ghrem haem heam
-1134 jian1 krem kaem keam
-1135 shan1 srem shaem sream
-1136 yan1 qrem aem 'eam
-1137 yan2 ngrem ngaem ngeam
-1138 xian1 hrem xaem xeam
-1139 zhan1 trem taem tream
-1140 nan2 nrem naem nream
-1141 chan2 zrem draem dzream
-1142 qian1 khrem qaem kheam
-1143 xian2 ghram heam haem
-1144 chan2 zram dram dzraem
-1145 yan2 ngram ngeam ngaem
-1146 chan1 chram cham tsrhaem
-1147 shan1 sram sham sraem
-1148 jian1 kram keam kaem
-1149 pan2 bram beam baem
-1150 qian1 khram qeam khaem
-1151 yan2 ngiam ngiam ngjaem
-1152 xian1 hiam xiam xjaem
-1153 yan1 qiam iam 'jaem
-1154 qian1 khiam qiam khjaem
-1155 fan2 byam bvam bjom
-1156 fan1 phyam phvam phjom
-1157 dong3 tungx tunk tuwngX
-1158 meng3 mungx munk muwngX
-1159 kong3 khungx qunk khuwngX
-1160 song3 sungx sunk suwngX
-1161 tong3 thungx thunk thuwngX
-1162 zong3 cungx zunk tsuwngX
-1163 hong4 ghungx hunk huwngX
-1164 weng3 qungx unk 'uwngX
-1165 nong3 nungx nunk nuwngX
-1166 beng3 pungx punk puwngX
-1167 long3 lungx lunk luwngX
-1168 hong3 hungx xunk xuwngX
-1169 dong4 dungx dunk duwngX
-1170 beng4 bungx bunk buwngX
-1171 zhong3 cjyungx tjvnk tsyowngX
-1172 chong3 thryungx thivnk trhjowngX
-1173 long3 lyungx livnk ljowngX
-1174 yong3 qyungx ivnk 'jowngX
-1175 rong3 njyungx rvnk nyowngX
-1176 zhong4 dryungx divnk drjowngX
-1177 zhong3 tryungx tivnk trjowngX
-1178 feng4 byungx bivnk bjowngX
-1179 feng3 phyungx phivnk phjowngX
-1180 yong3 jyungx jvnk yowngX
-1181 qiong3 khyungx qivnk khjowngX
-1182 shung4 zjyungx zjvnk dzyowngX
-1183 jiong3 kyungx kivnk kjowngX
-1184 song3 syungx sivnk sjowngX
-1185 xiong3 hyungx xivnk xjowngX
-1186 feng3 pyungx pivnk pjowngX
-1187 dong3 tongx tvnk towngX
-1188 meng3 muungx mvnk mowngX
-1189 jiong4 gyungx givnk gjowngX
-1190 chong3 chjyungx tcvnk tsyhowngX
-1191 zhong3 cjyungx tjvnk tsyowngX
-1192 zong3 cyungx zivnk tsjowngX
-1193 jiang3 krungx keonk kaewngX
-1194 bang4 brungx beonk baewngX
-1195 yang3 qrungx eonk 'aewngX
-1196 mang3 mrungx meonk maewngX
-1197 xiang4 ghrungx heonk haewngX
-1198 bang3 prungx peonk paewngX
-1199 xiang3 hrungx xeonk xaewngX
-1200 zhi3 cjex tjee tsyeX
-1201 shi4 zjex zjee dzyeX
-1202 mi3 miex myee mjeX
-1203 bi3 piex pyee pjeX
-1204 pi4 biex byee bjeX
-1205 hui3 hyex xwee xjweX
-1206 wei3 qyex wee 'jweX
-1207 kui3 khyex qwee khjweX
-1208 gui3 kyex kwee kjweX
-1209 sui3 syex svee sjweX
-1210 lei3 lyex lvee ljweX
-1211 ji4 giex gyee gjeX
-1212 yi3 qiex yee 'jeX
-1213 ji3 kiex kyee kjeX
-1214 qi3 khiex qyee khjeX
-1215 yi3 ngiex ngyee ngjeX
-1216 wei3 yex hwee hjweX
-1217 zui3 cyex zvee tsjweX
-1218 rui3 njyex rvee nyweX
-1219 ci3 chiex ciee tshjeX
-1220 zhi4 driex dyee drjeX
-1221 si3 siex siee sjeX
-1222 yi3 jex jee yeX
-1223 li3 liex liee ljeX
-1224 shi3 sriex shyee srjeX
-1225 bi3 piex pyee pjieX
-1226 er3 njex ree nyeX
-1227 mi3 mjex miee mjieX
-1228 pi4 bjex biee bjieX
-1229 chi3 chjex tcee tsyheX
-1230 shi3 sjex sjee syeX
-1231 zi3 ciex ziee tsjeX
-1232 zhui3 cjyex tjvee tsyweX
-1233 chuai3 chryex chwee tsrhjweX
-1234 sui4 zsyex szvee zjweX
-1235 shi4 zsjex djee zyeX
-1236 zhi3 criex tryee tsrjeX
-1237 pi3 phiex phyee phjeX
-1238 pi3 phjex phiee phjieX
-1239 wei3 jyex jvee yweX
-1240 zui4 zyex dzvee dzjweX
-1241 kui3 khyex qwee khjwieX
-1242 ni3 nriex nyee nrjeX
-1243 wei3 ngyex ngwee ngjweX
-1244 gui4 gyex gwee gjweX
-1245 chi3 thriex thyee trhjeX
-1246 zhi3 triex tyee trjeX
-1247 xi3 hiex xyee xjeX
-1248 kui3 khyex qwee khjieX
-1249 shui4 zjyex zjvee dzyweX
-1250 ji3 kjex kiee kjieX
-1251 zhi3 cjiix tjyy tsyijX
-1252 shi4 zjiix zjii dzyijX
-1253 mi3 miix myy mijX
-1254 bi3 piix pyy pijX
-1255 si4 zsiix szyy zijX
-1256 ji3 kjiix kii kijX
-1257 zi3 ciix zii tsijX
-1258 bi3 pjiix pii pjijX
-1259 gui3 kyix kwyy kwijX
-1260 wei3 yix hwyy hwijX
-1261 shi3 sjiix sjyy syijX
-1262 zhi4 driix dyy drijX
-1263 si3 siix syy sijX
-1264 bi4 bjiix bii bjijX
-1265 li3 liix lii lijX
-1266 shui3 sjyix sjwyy sywijX
-1267 lei3 lyix lvii lwijX
-1268 gui4 gjyix gvii gjwijX
-1269 cui3 chyix cvii tshwijX
-1270 ni3 nriix nyy nrijX
-1271 gui3 kjyix kvii kjwijX
-1272 bi4 biix byy bijX
-1273 zui4 zyix dzvii dzwijX
-1274 pi3 phiix phyy phijX
-1275 rui3 njyix rvii nywijX
-1276 wei3 jyix jvii ywijX
-1277 yi3 qjiix ii 'ijX
-1278 zui3 cyix zvii tswijX
-1279 zhi3 triix tyy trijX
-1280 chi3 thriix thyy trhijX
-1281 zhi3 cjiix tjyy tsyijX
-1282 hui3 hjyix xvii xjwijX
-1283 gui3 gyix gwyy gwijX
-1284 ji4 gjiix gii gijX
-1285 kui3 khyix qwyy khwijX
-1286 zhi3 cjix tjiio tsyiX
-1287 shi4 zjix zjiio dzyiX
-1288 zhi3 trix tiio triX
-1289 xi3 hix xiio xiX
-1290 ji3 kix kiio kiX
-1291 yi3 jix jiio yiX
-1292 si4 zsix sziio ziX
-1293 shi3 srix shiio sriX
-1294 er3 njix riio nyiX
-1295 li3 lix liio liX
-1296 si3 six siio siX
-1297 shi3 sjix sjiio syiX
-1298 zhi4 drix diio driX
-1299 qi3 khix qiio khiX
-1300 shi4 zrix driio dzriX
-1301 shi4 zsrix zhiio zriX
-1302 zi3 cix ziio tsiX
-1303 yi3 ix hiio hiX
-1304 yi3 ngix ngiio ngiX
-1305 chi3 chjix tciio tsyhiX
-1306 chi3 thrix thiio trhiX
-1307 chi3 chrix chiio tsrhiX
-1308 zhi3 crix triio tsriX
-1309 yi3 qix iio 'iX
-1310 ni3 nrix niio nriX
-1311 wei3 myoix mvoj mj+jX
-1312 yi3 qioix ioj 'j+jX
-1313 qi3 khioix qioj khj+jX
-1314 ji3 kioix kioj kj+jX
-1315 fei3 phyoix phvoj phj+jX
-1316 fei3 pyoix pvoj pj+jX
-1317 wei3 yoix hvoj hjw+jX
-1318 gui3 kyoix kvoj kjw+jX
-1319 hui3 hyoix xvoj xjw+jX
-1320 yi3 ngioix ngioj ngj+jX
-1321 xi3 hioix xioj xj+jX
-1322 wei3 qyoix voj 'jw+jX
-1323 fei4 byoix bvoj bj+jX
-1324 yu3 ngiox ngivv ngjoX
-1325 lv3 liox livv ljoX
-1326 zhu4 driox divv drjoX
-1327 yu3 jox jvv yoX
-1328 zhu3 cjox tjvv tsyoX
-1329 ru3 njox rvv nyoX
-1330 shu3 sjox sjvv syoX
-1331 chu3 chjox tcvv tsyhoX
-1332 zhu3 triox tivv trjoX
-1333 xu3 siox sivv sjoX
-1334 chu3 thriox thivv trhjoX
-1335 nv3 nriox nivv nrjoX
-1336 xu3 hiox xivv xjoX
-1337 ju4 giox givv gjoX
-1338 shu3 sriox shvv srjoX
-1339 chu3 chriox chvv tsrhjoX
-1340 zhu3 criox trvv tsrjoX
-1341 shu4 zriox drvv dzrjoX
-1342 ju4 ziox dzivv dzjoX
-1343 yu3 qiox ivv 'joX
-1344 ju3 kiox kivv kjoX
-1345 xu4 zsiox szivv zjoX
-1346 qu3 khiox qivv khjoX
-1347 shu4 zsjox djvv zyoX
-1348 shu4 zjox zjvv dzyoX
-1349 qu3 chiox civv tshjoX
-1350 ju3 ciox zivv tsjoX
-1351 yu3 ngyox ngiuu ngjuX
-1352 yu3 yox hiuu hjuX
-1353 ju4 zyox dziuu dzjuX
-1354 fu3 pyox piuu pjuX
-1355 wu3 myox miuu mjuX
-1356 fu4 byox biuu bjuX
-1357 fu3 phyox phiuu phjuX
-1358 zhu4 dryox diuu drjuX
-1359 xu3 hyox xiuu xjuX
-1360 shu4 zjyox zjuu dzyuX
-1361 yu3 jyox juu yuX
-1362 zhu3 cjyox tjuu tsyuX
-1363 yu3 qyox iuu 'juX
-1364 qu3 khyox qiuu khjuX
-1365 zhu3 tryox tiuu trjuX
-1366 ru3 njyox ruu nyuX
-1367 ju4 gyox giuu gjuX
-1368 shu3 sryox shuu srjuX
-1369 ju3 kyox kiuu kjuX
-1370 qu3 chyox ciuu tshjuX
-1371 lv3 lyox liuu ljuX
-1372 xu3 syox siuu sjuX
-1373 shu4 zryox druu dzrjuX
-1374 mu3 mox muu muX
-1375 tu3 thox thuu thuX
-1376 du4 dox duu duX
-1377 lu3 lox luu luX
-1378 cu3 chox cuu tshuX
-1379 du3 tox tuu tuX
-1380 gu3 kox kuu kuX
-1381 wu3 ngox nguu nguX
-1382 bu4 box buu buX
-1383 zu4 zox dzuu dzuX
-1384 zu3 cox zuu tsuX
-1385 hu3 hox xuu xuX
-1386 wu3 qox uu 'uX
-1387 ku3 khox quu khuX
-1388 nu3 nox nuu nuX
-1389 hu4 ghox huu huX
-1390 pu3 phox phuu phuX
-1391 bu3 pox puu puX
-1392 ji4 zex dzej dzejX
-1393 li3 lex lej lejX
-1394 ti3 thex thej thejX
-1395 pi3 phex phej phejX
-1396 ji3 cex zej tsejX
-1397 di3 tex tej tejX
-1398 di4 dex dej dejX
-1399 ni3 nex nej nejX
-1400 xi3 sex sej sejX
-1401 qi3 chex cej tshejX
-1402 qi3 khex qej khejX
-1403 xi3 hex xej xejX
-1404 mi3 mex mej mejX
-1405 bi4 bex bej bejX
-1406 yi3 qex ej 'ejX
-1407 yi3 ngex ngej ngejX
-1408 bi3 pex pej pejX
-1409 xia4 ghrex haae heaX
-1410 mai3 mrex maae meaX
-1411 qia3 khrex qaae kheaX
-1412 zhai4 drex daae dreaX
-1413 nai3 nrex naae nreaX
-1414 bai3 brex baae beaX
-1415 ya3 qrex aae 'eaX
-1416 bai3 prex paae peaX
-1417 jia3 krex kaae keaX
-1418 shai3 srex shaae sreaX
-1419 gua3 kruex kooe kweaX
-1420 zhuai4 druex dooe drweaX
-1421 hua4 ghruaix hooe hweaX
-1422 hua3 hruex xooe xweaX
-1423  - grex geaX
-1424 xie4 ghraix haej heajX
-1425 qie3 khraix qaej kheajX
-1426 ye3 ngraix ngaej ngeajX
-1427 ye3 qraix aej 'eajX
-1428 hui3 huaix xuoj xwojX
-1429 wei3 quaix uoj 'wojX
-1430 lei3 luaix luoj lwojX
-1431 dui4 duaix duoj dwojX
-1432 zui4 zuaix dzuoj dzwojX
-1433 mei3 muaix muoj mwojX
-1434 tui3 thuaix thuoj thwojX
-1435 hui4 ghuaix huoj hwojX
-1436 kui3 khuaix quoj khwojX
-1437 dui3 tuaix tuoj twojX
-1438 nei3 nuaix nuoj nwojX
-1439  - tr'uaix trwojX
-1440 wei3 nguaix nguoj ngwojX
-1441 cui3 chuaix cuoj tshwojX
-1442 bei4 buaix buoj bwojX
-1443 zui3 cuaix zuoj tswojX
-1444  - i'uaix hwojX
-1445 hai3 haix xoj xojX
-1446 kai3 khaix qoj khojX
-1447 zai3 caix zoj tsojX
-1448 dai4 daix doj dojX
-1449 nai3 naix noj nojX
-1450 gai3 kaix koj kojX
-1451 hai4 ghaix hoj hojX
-1452 pei3 phaix phoj phojX
-1453 cai3 chaix coj tshojX
-1454  - chj'aix tsyhojX
-1455 dai3 taix toj tojX
-1456 mei3 maix moj mojX
-1457 zai4 zaix dzoj dzojX
-1458 pei3 phaix phoj phojX
-1459 ai3 qaix oj 'ojX
-1460  - j'aix yojX
-1461 tai3 thaix thoj thojX
-1462  - nj'aix nyojX
-1463 lai3 laix loj lojX
-1464  - j'aix yojX
-1465 bei4 baix boj bojX
-1466 zhen3 cjinx tjiin tsyinX
-1467 chen3 thrinx thyyn trhinX
-1468 shen4 zjinx zjiin dzyinX
-1469 ren3 njinx riin nyinX
-1470 shen3 sjinx sjiin syinX
-1471 lin3 linx liin linX
-1472 zhen4 drinx dyyn drinX
-1473 jin3 kjinx kiin kjinX
-1474 jin4 zinx dziin dzinX
-1475 jin3 cinx ziin tsinX
-1476 bin4 bjinx biin bjinX
-1477 yin3 ngjinx ngiin nginX
-1478 qin3 chinx ciin tshinX
-1479 43255 gynx gwyyn gwinX
-1480 yin3 jinx jiin yinX
-1481 min3 minx myyn minX
-1482 min3 mjinx miin mjinX
-1483 yun3 ynx hwyyn hwinX
-1484 zhun3 cjynx tjviin tsywinX
-1485 yun3 jynx jviin ywinX
-1486 xun3 synx sviin swinX
-1487 run3 njynx rviin nywinX
-1488 chun3 chjynx tcviin tsyhwinX
-1489 shun4 zsjynx djviin zywinX
-1490 chun3 thrynx thviin trhwinX
-1491 lun3 lynx lviin lwinX
-1492 run3 njynx rviin nywinX
-1493 qun3 khjynx qviin khjwinX
-1494 qin3 khjinx qiin khjinX
-1495 shun3 sjynx sjviin sywinX
-1496 xin3 hjinx xiin xjinX
-1497 shen4 zrinx dryyn dzrinX
-1498 zhen3 cjinx tjiin trinX
-1499 wen3 myonx miuun mjunX
-1500 fen3 pyonx piuun pjunX
-1501 fen4 byonx biuun bjunX
-1502 fen3 phyonx phiuun phjunX
-1503 yun3 qyonx iuun 'junX
-1504 yun3 ngyonx ngiuun ngjunX
-1505 yun3 yonx hiuun hjunX
-1506 qun3 khyonx qiuun khjunX
-1507 yin3 qionx ioon 'j+nX
-1508 jin3 kionx kioon kj+nX
-1509 zhen3 crinx tryiin tsrinX
-1510 qin3 khionx qioon khj+nX
-1511 jin4 gionx gioon gj+nX
-1512 chen3 chrinx chyiin tsrhinX
-1513 yin3 ngionx ngioon ngj+nX
-1514 xin3 hionx xioon xj+nX
-1515 yuan3 ngyanx ngvaan ngjwonX
-1516 yuan3 yanx hvaan hjwonX
-1517 yan3 qianx iaan 'jonX
-1518 jian3 kianx kiaan kjonX
-1519 jian4 gianx giaan gjonX
-1520 qian3 khianx qiaan khjonX
-1521 yan3 ngianx ngiaan ngjonX
-1522 xian3 hianx xiaan xjonX
-1523 wan3 myanx mvaan mjonX
-1524 fan3 pyanx pvaan pjonX
-1525 juan4 gyanx gvaan gjwonX
-1526 yuan3 qyanx vaan 'jwonX
-1527 quan3 khyanx qvaan khjwonX
-1528 xuan3 hyanx xvaan xjwonX
-1529 fan4 byanx bvaan bjonX
-1530 hun4 ghuonx huoon hwonX
-1531 pen3 phuonx phuoon phwonX
-1532 cun3 chuonx cuoon tshwonX
-1533 ben3 puonx puoon pwonX
-1534 sun3 suonx suoon swonX
-1535 zun3 cuonx zuoon tswonX
-1536 wen3 quonx uoon 'wonX
-1537 dun4 duonx duoon dwonX
-1538 zun4 zuonx dzuoon dzwonX
-1539 gun3 kuonx kuoon kwonX
-1540 tun3 thuonx thuoon thwonX
-1541 kun3 khuonx quoon khwonX
-1542 lun3 luonx luoon lwonX
-1543 ben4 buonx buoon bwonX
-1544 men3 muonx muoon mwonX
-1545 nun3 nuonx nuoon nwonX
-1546 hun3 huonx xuoon xwonX
-1547 hen4 ghonx hoon honX
-1548 ken3 khonx qoon khonX
-1549 gen3 konx koon konX
-1550 han4 ghanx haan hanX
-1551 dan3 tanx taan tanX
-1552  -  thanX
-1553 san3 sanx saan sanX
-1554 dan4 danx daan danX
-1555 zan4 zanx dzaan dzanX
-1556 gan3 kanx kaan kanX
-1557 lan3 lanx laan lanX
-1558 kan3 khanx qaan khanX
-1559 han3 hanx xaan xanX
-1560 zan3 canx zaan tsanX
-1561 huan4 ghuanx huaan hwanX
-1562 duan3 tuanx tuaan twanX
-1563 wan3 quanx uaan 'wanX
-1564 tuan3 thuanx thuaan thwanX
-1565 suan3 suanx suaan swanX
-1566 guan3 kuanx kuaan kwanX
-1567 luan3 luanx luaan lwanX
-1568 kuan3 khuanx quaan khwanX
-1569 nuan3 nuanx nuaan nwanX
-1570 zuan3 cuanx zuaan tswanX
-1571 ban4 buanx buaan banX
-1572 man3 muanx muaan manX
-1573 ban3 puanx puaan panX
-1574  - zsuanx zwanX
-1575 duan4 duanx duaan dwanX
-1576 nan3 nanx naan nanX
-1577 pan3 phuanx phuaan phanX
-1578 shan3 sranx shaan sraenX
-1579 wan3 qruanx oaan 'waenX
-1580 ban3 pranx peaan paenX
-1581 zhan3 cranx traan tsraenX
-1582 nan3 nranx neaan nraenX
-1583 xian4 ghranx heaan haenX
-1584 huan4 ghruanx hoaan hwaenX
-1585 ban4 branx beaan baenX
-1586 man3 mranx meaan maenX
-1587 shan4 zranx draan dzraenX
-1588 yan3 ngranx ngeaan ngaenX
-1589 chan3 chranx chaan tsrhaenX
-1590 pan3 phranx pheaan phaenX
-1591 shuan4 zruanx droaan dzrwaenX
-1592 shan3 srenx shaaen sreanX
-1593 xian4 ghrenx haaen heanX
-1594  -  meanX
-1595 jian3 krenx kaaen keanX
-1596 chan3 chrenx chaaen tsrheanX
-1597 shan4 zrenx draaen dzreanX
-1598 yan3 ngrenx ngaaen ngeanX
-1599 zhan3 crenx traaen tsreanX
-1600 chuan3 chruenx chooen tsrhweanX
-1601 qian3 khrenx qaaen kheanX
-1602 xian3 senx seen senX
-1603 tian3 thenx theen thenX
-1604 dian3 tenx teen tenX
-1605 yan3 qenx een 'enX
-1606 dian4 denx deen denX
-1607 jian3 kenx keen kenX
-1608 xian4 ghenx heen henX
-1609 xian3 henx xeen xenX
-1610 mian3 menx meen menX
-1611 nian3 nenx neen nenX
-1612 bian3 penx peen penX
-1613 xuan4 ghuenx hueen hwenX
-1614 juan3 kuenx kueen kwenX
-1615 bian4 benx been benX
-1616 quan3 khuenx queen khwenX
-1617 qian3 khenx qeen khenX
-1618 yan3 ngenx ngeen ngenX
-1619 xian3 sienx sieen sjenX
-1620 yan3 jenx jeen yenX
-1621 juan4 zienx dzieen dzjenX
-1622 zhan3 trienx tyeen trjenX
-1623 zhan3 cjenx tjeen tsyenX
-1624 nian3 nrienx nyeen nrjenX
-1625 qian3 chienx cieen tshjenX
-1626 chan3 chjenx tceen tsyhenX
-1627 qian3 khjenx qieen khjienX
-1628 jian3 kienx kyeen kjenX
-1629 shan4 zjenx zjeen dzyenX
-1630 jian3 cienx zieen tsjenX
-1631 ran3 njenx reen nyenX
-1632 xian4 zsienx szieen zjenX
-1633 lian3 lienx lieen ljenX
-1634 yan3 ngienx ngyeen ngjenX
-1635 jian4 gienx gyeen gjenX
-1636 bian4 bienx byeen bjenX
-1637 mian3 mjenx mieen mjienX
-1638 bian3 pjenx pieen pjienX
-1639 juan3 cyenx zveen tsjwenX
-1640 juan4 zyenx dzveen dzjwenX
-1641 bian3 pienx pyeen pjenX
-1642 yuan3 jyenx jveen ywenX
-1643 luan3 lyenx lveen ljwenX
-1644 zhuan3 tryenx tween trjwenX
-1645 juan3 kyenx kween kjwenX
-1646 juan4 gyenx gween gjwenX
-1647 ruan3 njyenx rveen nywenX
-1648 chuan3 chjyenx tcveen tsyhwenX
-1649 shuan4 zjyenx zjveen dzywenX
-1650 zhuan4 dryenx dween drjwenX
-1651 zhuan3 cjyenx tjveen tsywenX
-1652 xuan3 syenx sveen sjwenX
-1653 shuan4 zryenx drween dzrjwenX
-1654 juan4 gjyenx gveen gjwienX
-1655 xuan3 hjyenx xveen xjwienX
-1656 bian4 bjenx bieen bjienX
-1657 mian3 mienx myeen mjenX
-1658 chan3 thrienx thyeen trhjenX
-1659 pian3 phienx phyeen phjenX
-1660 shan3 sjenx sjeen syenX
-1661 yan3 qienx yeen 'jenX
-1662 zhan4 drienx dyeen drjenX
-1663 shuan4 zryenx drween dzrjenX
-1664 xiao3 seux sev sewX
-1665 jiao3 keux kev kewX
-1666 diao3 teux tev tewX
-1667 liao3 leux lev lewX
-1668 tiao3 theux thev thewX
-1669 xiao3 heux xev xewX
-1670 yao3 qeux ev 'ewX
-1671 niao3 neux nev newX
-1672 xiao4 gheux hev hewX
-1673 diao4 deux dev dewX
-1674 qiao3 kheux qev khewX
-1675 jiao3 ceux zev tsewX
-1676 xiao3 sieux siev sjewX
-1677 zhao4 drieux dyev drjewX
-1678 zhao3 cjeux tjev tsyewX
-1679 yao3 qieux yev 'jewX
-1680 chao3 thrieux thyev trhjewX
-1681 shao3 sjeux sjev syewX
-1682 rao3 njeux rev nyewX
-1683 biao4 bjeux biev bjiewX
-1684 chao3 chjeux tcev tsyhewX
-1685 piao3 phjeux phiev phjiewX
-1686 miao3 mjeux miev mjiewX
-1687 shao4 zjeux zjev dzyewX
-1688 jiao3 kieux kyev kjewX
-1689 biao3 pieux pyev pjewX
-1690 biao3 pjeux piev pjiewX
-1691 biao4 bieux byev bjewX
-1692 yao3 jeux jev yewX
-1693 qiao3 chieux ciev tshjewX
-1694 jiao3 cieux ziev tsjewX
-1695 jiao4 gieux gyev gjewX
-1696 liao3 lieux liev ljewX
-1697 piao3 phieux phyev phjewX
-1698 yao3 qjeux iev 'jiewX
-1699 qiao3 khraux qeav khaewX
-1700 xiao4 ghraux heav haewX
-1701 bao3 praux peav paewX
-1702 nao3 nraux neav nraewX
-1703 mao3 mraux meav maewX
-1704 jiao3 kraux keav kaewX
-1705 zhao3 craux trav tsraewX
-1706 yao3 qraux eav 'aewX
-1707 bao4 braux beav baewX
-1708 yao3 ngraux ngeav ngaewX
-1709 shao4 zraux drav dzraewX
-1710 chao3 chraux chav tsrhaewX
-1711 zhao3 traux teav traewX
-1712 shao3 sraux shav sraewX
-1713 hao4 ghaux hav hawX
-1714 bao4 baux bav bawX
-1715 lao3 laux lav lawX
-1716 tao3 thaux thav thawX
-1717 dao4 daux dav dawX
-1718 nao3 naux nav nawX
-1719 sao3 saux sav sawX
-1720 dao3 taux tav tawX
-1721 cao3 chaux cav tshawX
-1722 zao3 caux zav tsawX
-1723 zao4 zaux dzav dzawX
-1724 gao3 kaux kav kawX
-1725 hao3 haux xav xawX
-1726 mao3 maux mav mawX
-1727 bao3 paux pav pawX
-1728 ao3 qaux av 'awX
-1729 kao3 khaux qav khawX
-1730 ao3 ngaux ngav ngawX
-1731 ge3 kax kaa kaX
-1732 cuo3 chax caa tshaX
-1733 duo3 tax taa taX
-1734 suo3 sax saa saX
-1735 duo4 dax daa daX
-1736 e3 ngax ngaa ngaX
-1737 tuo3 thax thaa thaX
-1738 luo3 lax laa laX
-1739 nuo3 nax naa naX
-1740 he4 ghax haa haX
-1741 he3 hax xaa xaX
-1742 ke3 khax qaa khaX
-1743 e3 qax aa 'aX
-1744 zuo3 cax zaa tsaX
-1745 guo3 kuax kuaa kwaX
-1746 duo3 tuax tuaa twaX
-1747 suo3 suax suaa swaX
-1748 duo4 duax duaa dwaX
-1749 tuo3 thuax thuaa thwaX
-1750 mo3 muax muaa maX
-1751 zuo4 zuax dzuaa dzwaX
-1752 wo3 nguax nguaa ngwaX
-1753 luo3 luax luaa lwaX
-1754 wo3 quax uaa 'waX
-1755 nuo3 nuax nuaa nwaX
-1756 bo3 puax puaa paX
-1757 po3 phuax phuaa phaX
-1758 huo4 ghuax huaa hwaX
-1759 huo3 huax xuaa xwaX
-1760 kuo3 khuax quaa khwaX
-1761 bo4 buax buaa baX
-1762 cuo3 chuax cuaa tshwaX
-1763 zuo3 cuax zuaa tswaX
-1764 ma3 mrax meaa maeX
-1765 zhe3 cjax tjaa tsyaeX
-1766 ye3 jax jaa yaeX
-1767 ya3 ngrax ngeaa ngaeX
-1768 jia3 krax keaa kaeX
-1769 sha3 srax shaa sraeX
-1770 ya3 qrax eaa 'aeX
-1771 xie4 zsiax szyaa zjaeX
-1772 xia4 ghrax heaa haeX
-1773 xie3 siax syaa sjaeX
-1774 jue3 cyax zvaa tsjwaX
-1775 mie3 miax myaa mjaeX
-1776 qie3 chiax cyaa tshjaeX
-1777 xia3 hrax xeaa xaeX
-1778 she4 zjax zjaa dzyaeX
-1779 qia3 khrax qeaa khaeX
-1780 ba4 brax beaa baeX
-1781 she3 sjax sjaa syaeX
-1782 jie3 ciax zyaa tsjaeX
-1783 ba3 prax peaa paeX
-1784 hua4 ghruax hoaa hwaeX
-1785 gua3 kruax koaa kwaeX
-1786 wa3 ngruax ngoaa ngwaeX
-1787 re3 njax raa nyaeX
-1788 zha3 crax traa tsraeX
-1789 zha3 trax teaa traeX
-1790 sha4 zrax draa dzraeX
-1791 che3 chjax tcaa tsyhaeX
-1792 zha3 trax teaa traeX
-1793 na3 nrax neaa nraeX
-1794 kua3 khruax qoaa khwaeX
-1795 chua3 chruax choaa tsrhwaeX
-1796 chua3 thruax thoaa trhwaeX
-1797 shua3 sruax shoaa srwaeX
-1798 cha3 thrax theaa trhaeX
-1799 la3 lrax leaa laeX
-1800 yang3 jangx jank yangX
-1801 xiang4 zsiangx sziank zjangX
-1802 jiang3 ciangx ziank tsjangX
-1803 liang3 liangx liank ljangX
-1804 yang3 qiangx iank 'jangX
-1805 jiang4 giangx giank gjangX
-1806 yang3 ngiangx ngiank ngjangX
-1807 chuang3 chriangx chiank tsrhjangX
-1808 xiang3 siangx siank sjangX
-1809 zhang3 cjangx tjank tsyangX
-1810 shuang3 sriangx shiank srjangX
-1811 xiang3 hiangx xiank xjangX
-1812 chang3 chjangx tcank tsyhangX
-1813 jiang3 kiangx kiank kjangX
-1814 zhang4 driangx diank drjangX
-1815 chang3 thriangx thiank trhjangX
-1816 guang3 kyangx kvank kjwangX
-1817 rang3 njangx rank nyangX
-1818 shang3 sjangx sjank syangX
-1819 fang3 phyangx phvank phjangX
-1820 wang3 myangx mvank mjangX
-1821 fang3 pyangx pvank pjangX
-1822 wang3 qyangx vank 'jwangX
-1823 wang3 yangx hvank hjwangX
-1824 huang3 hyangx xvank xjwangX
-1825 qiang3 chiangx ciank tshjangX
-1826 zhang3 triangx tiank trjangX
-1827 shang4 zjangx zjank dzyangX
-1828 guang4 gyangx gvank gjwangX
-1829 guang3 kyangx kvank kjwangX
-1830 fang4 byangx bvank bjangX
-1831 chuang3 chriangx chiank tsrhjangX
-1832 dang4 dangx dank dangX
-1833 sang3 sangx sank sangX
-1834 guang3 kuangx kuank kwangX
-1835 bang3 pangx pank pangX
-1836 zang3 cangx zank tsangX
-1837 nang3 nangx nank nangX
-1838 hang4 ghangx hank hangX
-1839 tang3 thangx thank thangX
-1840 mang3 mangx mank mangX
-1841 dang3 tangx tank tangX
-1842 lang3 langx lank langX
-1843 ang3 qangx ank 'angX
-1844 kang3 khangx qank khangX
-1845 wang3 quangx uank 'wangX
-1846 huang4 ghuangx huank hwangX
-1847 pang3 phangx phank phangX
-1848 huang3 huangx xuank xwangX
-1849 gang3 kangx kank kangX
-1850 ang3 ngangx ngank ngangX
-1851 zang4 zangx dzank dzangX
-1852 cang3 changx cank tshangX
-1853 hang3 hangx xank xangX
-1854 kuang3 khuangx quank khwangX
-1855 geng3 krangx keank kaengX
-1856 bing3 piengx pyank pjaengX
-1857 jing3 kiengx kyank kjaengX
-1858 ying3 qiengx yank 'jaengX
-1859 sheng3 sriengx shyank srjaengX
-1860 yong3 yengx hwank hjwaengX
-1861 xiong3 hyengx xwank xjwaengX
-1862 ming3 miengx myank mjaengX
-1863 jiong3 kyengx kwank kjwaengX
-1864 heng4 ghrangx heank haengX
-1865 meng3 mrvngx meank maengX
-1866 gong3 kruangx koank kwaengX
-1867 beng3 prangx peank paengX
-1868 zheng3 trangx teank traengX
-1869 zheng4 drangx deank draengX
-1870 weng3 qruangx oank 'waengX
-1871  - t'rangx taengX
-1872 leng3 lrangx leank laengX
-1873 hong4 ghruvngx hoank hwaengX
-1874 beng4 brangx beank baengX
-1875 kong3 khruangx qoank khwaengX
-1876 neng3 nrangx neank nraengX
-1877 geng3 krengx kaenk keangX
-1878 meng3 mrengx maenk meangX
-1879 heng4 ghrengx haenk heangX
-1880 beng4 brengx baenk beangX
-1881 peng3 phrengx phaenk pheangX
-1882 jing4 ziengx dzienk dzjengX
-1883 zheng3 cjengx tjenk tsyengX
-1884 cheng3 thriengx thienk trhjengX
-1885 ying3 jengx jenk yengX
-1886 jing4 gjengx gienk gjiengX
-1887 yong3 jyengx jvenk ywengX
-1888 ling3 liengx lienk ljengX
-1889 jing3 kjengx kienk kjiengX
-1890 bing3 pjengx pienk pjiengX
-1891 qiong3 khjyengx qvenk khjwiengX
-1892 jing3 ciengx zienk tsjengX
-1893 ying3 qjengx ienk 'jiengX
-1894 qing3 chiengx cienk tshjengX
-1895 xing3 siengx sienk sjengX
-1896 ming3 mjengx mienk mjiengX
-1897 zheng3 triengx dienk drjengX
-1898 xiong4 ghuengx huenk hwengX
-1899 jiong3 kuengx kuenk kwengX
-1900 ming3 mengx menk mengX
-1901 ding3 tengx tenk tengX
-1902 ding4 dengx denk dengX
-1903 ting3 thengx thenk thengX
-1904 jing4 zengx dzenk dzengX
-1905 yong3 quengx uenk 'wengX
-1906 qing3 khengx qenk khengX
-1907 ning3 nengx nenk nengX
-1908 xing4 ghengx henk hengX
-1909 xing3 sengx senk sengX
-1910 bing3 pengx penk pengX
-1911 qiong3 khuengx quenk khwengX
-1912 jing3 kengx kenk kengX
-1913 ping3 phengx phenk phengX
-1914 ying3 qengx enk 'engX
-1915 ling3 lengx lenk lengX
-1916 bing4 bengx benk bengX
-1917 xiong3 huengx xuenk xwengX
-1918 ying3 ngengx ngenk ngengX
-1919 zheng3 cjingx tjonk tsyingX
-1920 cheng3 thringx thionk trhingX
-1921 jing4 gingx gionk gingX
-1922 sheng3 sringx shonk sringX
-1923 deng3 tongx tonk tongX
-1924 peng3 phongx phonk phongX
-1925 keng3 khongx qonk khongX
-1926 neng3 nongx nonk nongX
-1927 you3 iux hiov hjuwX
-1928 liu3 liux liov ljuwX
-1929 niu3 nriux niov nrjuwX
-1930 chou3 thriux thiov trhjuwX
-1931 zhou3 triux tiov trjuwX
-1932 xiu3 hiux xiov xjuwX
-1933 jiu3 kiux kiov kjuwX
-1934 shou3 sjux sjov syuwX
-1935 chou3 chjux tcov tsyhuwX
-1936 jiu4 ziux dziov dzjuwX
-1937 fou4 biux biov bjuwX
-1938 fou3 piux piov pjuwX
-1939 qiu3 khiux qiov khjuwX
-1940 rou3 njux rov nyuwX
-1941 jiu4 giux giov gjuwX
-1942 zhou4 driux diov drjuwX
-1943 you3 jux jov yuwX
-1944 shou4 zjux zjov dzyuwX
-1945 xiu3 siux siov sjuwX
-1946 you3 qiux iov 'juwX
-1947 jiu3 ciux ziov tsjuwX
-1948 shou3 sriux shov srjuwX
-1949 zhou3 cjux tjov tsyuwX
-1950 fou3 phiux phiov phjuwX
-1951 zhou3 criux trov tsrjuwX
-1952 shou4 zriux drov dzrjuwX
-1953 chou3 chriux chov tsrhjuwX
-1954 fou3 phiux phiov phjuwX
-1955 hou4 ghux hov huwX
-1956 mou3 mux mov muwX
-1957 bou4 bux bov buwX
-1958 dou3 tux tov tuwX
-1959 tou3 thux thov thuwX
-1960 gou3 kux kov kuwX
-1961 ou3 ngux ngov nguwX
-1962 bou3 pux pov puwX
-1963 nou3 nux nov nuwX
-1964 sou3 sux sov suwX
-1965 hou3 hux xov xuwX
-1966 pou3 phux phov phuwX
-1967 ou3 qux ov 'uwX
-1968 lou3 lux lov luwX
-1969 zou3 cux zov tsuwX
-1970 kou3 khux qov khuwX
-1971 dou4 dux dov duwX
-1972  - zr'ux dzruwX
-1973 cou3 chux cov tshuwX
-1974 you3 qyx yv 'jiwX
-1975 jiu3 kyx kyv kjiwX
-1976 jiu4 gyx gyv gjiwX
-1977 qin3 chimx ciim tshimX
-1978 zhen4 drimx dyym drimX
-1979 qin3 khjimx qiim khjimX
-1980 lin3 limx liim limX
-1981 xin3 simx siim simX
-1982 chen3 thrimx thyym trhimX
-1983 jin3 cimx ziim tsimX
-1984 ren3 njimx riim nyimX
-1985 zhen3 cjimx tjiim tsyimX
-1986 shen3 sjimx sjiim syimX
-1987 shen4 zsjimx djiim zyimX
-1988 shen4 zjimx zjiim dzyimX
-1989 chen3 chjimx tciim tsyhimX
-1990 chen3 chrimx chyym tsrhimX
-1991 nin3 nrimx nyym nrimX
-1992 jin4 gimx gyym gimX
-1993 jin3 kimx kyym kimX
-1994 jin4 zimx dziim dzimX
-1995 yin3 ngimx ngyym ngimX
-1996 shen3 srimx shyym srimX
-1997 bin3 pimx pyym pimX
-1998 yin3 qimx yym 'imX
-1999 pin3 phimx phyym phimX
-2000 qin3 khimx qyym khimX
-2001 xin3 himx xyym ximX
-2002 zhen3 trimx tyym trimX
-2003 yin3 jimx jiim yimX
-2004 shen4 zrimx dryym dzrimX
-2005 gan3 komx koom komX
-2006 dan4 domx doom domX
-2007 an3 qomx oom 'omX
-2008 nan3 nomx noom nomX
-2009 tan3 thomx thoom thomX
-2010 zan4 zomx dzoom dzomX
-2011 can3 chomx coom tshomX
-2012 an3 ngomx ngoom ngomX
-2013 zan3 comx zoom tsomX
-2014 san3 somx soom somX
-2015 kan3 khomx qoom khomX
-2016 han4 ghomx hoom homX
-2017 lan3 lomx loom lomX
-2018 tan3 tomx toom tomX
-2019 han3 homx xoom xomX
-2020 gan3 kamx kaam kamX
-2021  - sj'amx syamX
-2022 lan3 lamx laam lamX
-2023 tan3 thamx thaam thamX
-2024 dan3 tamx taam tamX
-2025 dan4 damx daam damX
-2026 can3 chamx caam tshamX
-2027 man3 mamx maam mamX
-2028 zan3 camx zaam tsamX
-2029 zan4 zamx dzaam dzamX
-2030 han3 hamx xaam xamX
-2031 an3 qamx aam 'amX
-2032 kan3 khamx qaam khamX
-2033 yan3 jemx jeem yemX
-2034 lian3 liemx lieem ljemX
-2035 xian3 hiemx xyeem xjemX
-2036 bian3 piemx pyeem pjemX
-2037 zhan3 cjemx tjeem tsyemX
-2038 qian3 khiemx qyeem khjemX
-2039 yan3 ngiemx ngyeem ngjemX
-2040 jian4 giemx gyeem gjemX
-2041 jian3 kiemx kyeem kjemX
-2042 yan3 qjemx ieem 'jiemX
-2043 ran3 njemx reem nyemX
-2044 shan3 sjemx sjeem syemX
-2045 chan3 thriemx thyeem trhjemX
-2046 yan3 qiemx yeem 'jemX
-2047 jian4 ziemx dzieem dzjemX
-2048 qian3 chiemx cieem tshjemX
-2049 jian3 ciemx zieem tsjemX
-2050 qian3 khjemx qieem khjiemX
-2051 shan4 zjemx zjeem dzyemX
-2052 tian3 themx theem themX
-2053 nian3 nemx neem nemX
-2054 dian3 temx teem temX
-2055 dian4 demx deem demX
-2056 qian3 khemx qeem khemX
-2057 lian3 lemx leem lemX
-2058 xian4 ghemx heem hemX
-2059 qian3 chemx ceem tshemX
-2060 jian3 kemx keem kemX
-2061 mian3 memx meem memX
-2062 yan3 ngiamx ngiaam ngjaemX
-2063 qian3 khiamx qiaam khjaemX
-2064 yan3 qiamx iaam 'jaemX
-2065 xian4 ghremx haaem heamX
-2066 zhan4 dremx daaem dreamX
-2067 qian3 khremx qaaem kheamX
-2068 jian3 kremx kaaem keamX
-2069 shan4 zremx draaem dzreamX
-2070 lan3 lremx laaem leamX
-2071 zhan3 cremx traaem tsreamX
-2072 chan3 chremx chaaem tsrheamX
-2073 xian3 hremx xaaem xeamX
-2074 shan3 sremx shaaem sreamX
-2075 yan3 qremx aaem 'eamX
-2076 xian3 hremx xaaem xeamX
-2077 nian3 nremx naaem nreamX
-2078 chan3 thremx thaaem trheamX
-2079 xian4 ghramx heaam haemX
-2080 qian3 khramx qeaam khaemX
-2081 shan3 sramx shaam sraemX
-2082 yan3 qramx eaam 'aemX
-2083 chan3 chramx chaam tsrhaemX
-2084 xian3 hramx xeaam xaemX
-2085 shan4 zramx draam dzraemX
-2086 fan4 byamx bvaam bjomX
-2087 man3 myamx mvaam mjomX
-2088 fan3 pyamx pvaam pjomX
-2089 quan3 khyamx qvaam khjomX
-2090 fan3 phyamx phvaam phjomX
-2091 chuan3 thryamx thvaam trhjomX
-2092 song4 sungh sunq suwngH
-2093 feng4 biungh biunq bjuwngH
-2094 gong4 kungh kunq kuwngH
-2095 long4 lungh lunq luwngH
-2096 dong4 tungh tunq tuwngH
-2097 kong4 khungh qunq khuwngH
-2098 zong4 cungh zunq tsuwngH
-2099 weng4 qungh unq 'uwngH
-2100 cong4 chungh cunq tshuwngH
-2101 dong4 dungh dunq duwngH
-2102 tong4 thungh thunq thuwngH
-2103 zhong4 driungh diunq drjuwngH
-2104 feng4 piungh piunq pjuwngH
-2105 qiong4 khiungh qiunq khjuwngH
-2106 meng4 miungh miunq mjuwngH
-2107 xiong4 hiungh xiunq xjuwngH
-2108 meng4 mungh munq muwngH
-2109 cong4 chiungh ciunq tshjuwngH
-2110 feng4 phiungh phiunq phjuwngH
-2111 zong4 zungh dzunq dzuwngH
-2112 zhong4 triungh tiunq trjuwngH
-2113 hong4 ghungh hunq huwngH
-2114 nong4 nungh nunq nuwngH
-2115 zhong4 cjungh tjunq tsyuwngH
-2116 chong4 chjungh tcunq tsyhuwngH
-2117 shong4 zriungh drunq dzrjuwngH
-2118 hong4 hungh xunq xuwngH
-2119 song4 suungh svnq sowngH
-2120 zong4 cuungh zvnq tsowngH
-2121 tong4 thuungh thvnq thowngH
-2122 meng4 muungh mvnq mowngH
-2123 hong4 ghuungh hvnq howngH
-2124 yong4 jyungh jvnq yowngH
-2125 song4 zsyungh szivnq zjowngH
-2126 feng4 byungh bivnq bjowngH
-2127 jiong4 gyungh givnq gjowngH
-2128 feng4 pyungh pivnq pjowngH
-2129 jiong4 kyungh kivnq kjowngH
-2130 yong4 qyungh ivnq 'jowngH
-2131 zhong4 tryungh tivnq trjowngH
-2132 zong4 cyungh zivnq tsjowngH
-2133 chong4 thryungh thivnq trhjowngH
-2134 rong4 njyungh rvnq nyowngH
-2135 zhong4 cjyungh tjvnq tsyowngH
-2136 zhong4 dryungh divnq drjowngH
-2137 long4 lyungh livnq ljowngH
-2138 qiong4 khyungh qivnq khjowngH
-2139 zong4 zyungh dzivnq dzjowngH
-2140 nong4 nryungh nivnq nrjowngH
-2141 jiang4 krungh keonq kaewngH
-2142 xiang4 ghrungh heonq haewngH
-2143 zhuang4 trungh teonq traewngH
-2144 zhuang4 drungh deonq draewngH
-2145 chuang4 thrungh theonq trhaewngH
-2146 shuang4 zrungh dreonq dzraewngH
-2147 pang4 phrungh pheonq phaewngH
-2148 chuang4 chrungh cheonq tsrhaewngH
-2149 shuang4 srungh sheonq sraewngH
-2150 zhi4 cjeh tjeh tsyeH
-2151 bi4 bjeh bieh bjieH
-2152 zhui4 cjyeh tjveh tsyweH
-2153 li4 lieh lieh ljeH
-2154 shi4 zjeh zjeh dzyeH
-2155 zi4 cieh zieh tsjeH
-2156 si4 sieh sieh sjeH
-2157 wei4 yeh hweh hjweH
-2158 gui4 kyeh kweh kjweH
-2159 pi4 phieh phyeh phjeH
-2160 bi4 pieh pyeh pjeH
-2161 bi4 bieh byeh bjeH
-2162 lei4 lyeh lveh ljweH
-2163 ji4 kieh kyeh kjeH
-2164 bi4 pjeh pieh pjieH
-2165 ji4 gieh gyeh gjeH
-2166 ci4 chieh cieh tshjeH
-2167 yi4 jeh jeh yeH
-2168 yi4 ngieh ngyeh ngjeH
-2169 pi4 phjeh phieh phjieH
-2170 zi4 zieh dzieh dzjeH
-2171 zhi4 trieh tyeh trjeH
-2172 yi4 qieh yeh 'jeH
-2173 zhui4 dryeh dweh drjweH
-2174 chui4 chjyeh tcveh tsyhweH
-2175 xi4 hieh xyeh xjeH
-2176 qi4 khjeh qieh khjieH
-2177 yi4 qjeh ieh 'jieH
-2178 shi4 sjeh sjeh syeH
-2179 shi4 srieh shyeh srjeH
-2180 kui4 khjyeh qveh khjwieH
-2181 wei4 qyeh weh 'jweH
-2182 wei4 ngyeh ngweh ngjweH
-2183 hui4 hyeh xweh xjweH
-2184 wei4 qjyeh veh 'jwieH
-2185 shui4 zjyeh zjveh dzyweH
-2186 ji4 kjeh kieh kjieH
-2187 rui4 njyeh rveh nyweH
-2188 chi4 chjeh tceh tsyheH
-2189 sui4 syeh sveh sjweH
-2190 zhui4 tryeh tweh trjweH
-2191 wei4 jyeh jveh yweH
-2192 nei4 nryeh nweh nrjweH
-2193 gui4 kjyeh kveh kjwieH
-2194 zhi4 crieh tryeh tsrjeH
-2195 hui4 hjyeh xveh xjwieH
-2196 qi4 khieh qyeh khjeH
-2197 zhi4 cjiih tjih tsyijH
-2198 wei4 yih hwyh hwijH
-2199 mi4 miih myh mijH
-2200 sui4 zsyih szvih zwijH
-2201 zui4 cyih zvih tswijH
-2202 sui4 syih svih swijH
-2203 lei4 lyih lvih lwijH
-2204 bi4 piih pyh pijH
-2205 gui4 gyih gwyh gwijH
-2206 pi4 phiih phyh phijH
-2207 bi4 biih byh bijH
-2208 gui4 kyih kwyh kwijH
-2209 shuai4 sryih shwyh srwijH
-2210 kui4 khyih qwyh khwijH
-2211 hui4 hyih xwyh xwijH
-2212 shi4 zjiih zjih dzyijH
-2213 li4 liih lih lijH
-2214 ni4 nriih nyh nrijH
-2215 pi4 phjiih phih phjijH
-2216 yi4 ngiih ngyh ngijH
-2217 zhi4 triih tyh trijH
-2218 qi4 khjiih qih khjijH
-2219 zhi4 driih dyh drijH
-2220 mi4 mjiih mih mjijH
-2221 chi4 thriih thyh trhijH
-2222 ji4 kiih kyh kijH
-2223 ji4 giih gyh gijH
-2224 gui4 gjyih gvih gjwijH
-2225 cui4 chyih cvih tshwijH
-2226 er4 njiih rih nyijH
-2227 zi4 ciih zih tsijH
-2228 ci4 chiih cih tshijH
-2229 yi4 qiih yh 'ijH
-2230 si4 siih sih sijH
-2231 qi4 khiih qyh khijH
-2232 gui4 kjyih kvih kjwijH
-2233 bi4 bjiih bih bjijH
-2234 hui4 hjyih xvih xjwijH
-2235 bi4 pjiih pih pjijH
-2236 cui4 zyih dzvih dzwijH
-2237  - diih dijH
-2238 xi4 hiih xyh xijH
-2239 yi4 jiih jih yijH
-2240 shi4 zsjiih djih zyijH
-2241 zi4 ziih dzih dzijH
-2242 zhui4 dryih dwyh drwijH
-2243 chui4 chjyih tcvih tsyhwijH
-2244 wei4 jyih jvih ywijH
-2245 hui4 hjyih xvih xjwijH
-2246 zhui4 tryih twyh trwijH
-2247 chi4 chjiih tcih tsyhijH
-2248 shi4 sjiih sjih syijH
-2249 chuai4 chryih chwyh tsrhwijH
-2250 shui4 sjyih sjvih sywijH
-2251 zhi4 cjih tjioh tsyiH
-2252 zhi4 drih dioh driH
-2253 si4 zsih szioh ziH
-2254 ci4 chih cioh tshiH
-2255 si4 sih sioh siH
-2256 shi4 sjih sjioh syiH
-2257 zhi4 crih trioh tsriH
-2258 li4 lih lioh liH
-2259 zi4 zih dzioh dziH
-2260 chi4 thrih thioh trhiH
-2261 er4 njih rioh nyiH
-2262 shi4 srih shioh sriH
-2263 chi4 chrih chioh tsrhiH
-2264 yi4 jih jioh yiH
-2265 zhi4 trih tioh triH
-2266 shi4 zjih zjioh dzyiH
-2267 shi4 zrih drioh dzriH
-2268 ji4 gih gioh giH
-2269 chi4 chjih tcioh tsyhiH
-2270 yi4 qih ioh 'iH
-2271 ji4 kih kioh kiH
-2272 xi4 hih xioh xiH
-2273 yi4 ngih ngioh ngiH
-2274 qi4 khih qioh khiH
-2275 wei4 myoih mvoy mj+jH
-2276 gui4 kyoih kvoy kjw+jH
-2277 wei4 yoih hvoy hjw+jH
-2278 wei4 ngyoih ngvoy ngjw+jH
-2279 fei4 pyoih pvoy pj+jH
-2280 fei4 phyoih phvoy phj+jH
-2281 kui4 khyoih qvoy khjw+jH
-2282 wei4 qyoih voy 'jw+jH
-2283 hui4 hyoih xvoy xjw+jH
-2284 fei4 byoih bvoy bj+jH
-2285 ji4 kioih kioy kj+jH
-2286 yi4 ngioih ngioy ngj+jH
-2287 qi4 khioih qioy khj+jH
-2288 xi4 hioih xioy xj+jH
-2289 ji4 gioih gioy gj+jH
-2290 yi4 qioih ioy 'j+jH
-2291 yu4 ngioh ngivh ngjoH
-2292 lv4 lioh livh ljoH
-2293 ju4 kioh kivh kjoH
-2294 qu4 chioh civh tshjoH
-2295 qu4 khioh qivh khjoH
-2296 shu4 zjoh zjvh dzyoH
-2297 shu4 sjoh sjvh syoH
-2298 zhu4 trioh tivh trjoH
-2299 zhu4 cjoh tjvh tsyoH
-2300 shu4 srioh shvh srjoH
-2301 yu4 qioh ivh 'joH
-2302 zhu4 drioh divh drjoH
-2303 ju4 gioh givh gjoH
-2304 xu4 sioh sivh sjoH
-2305 zhu4 zrioh drvh dzrjoH
-2306 ju4 cioh zivh tsjoH
-2307 zhu4 crioh trvh tsrjoH
-2308 ru4 njoh rvh nyoH
-2309 yu4 joh jvh yoH
-2310 xu4 hioh xivh xjoH
-2311 nv4 nrioh nivh nrjoH
-2312 chu4 chrioh chvh tsrhjoH
-2313 chu4 chjoh tcvh tsyhoH
-2314 chu4 thrioh thivh trhjoH
-2315 xu4 zsioh szivh zjoH
-2316 yu4 ngyoh ngiuh ngjuH
-2317 yu4 qyoh iuh 'juH
-2318 shu4 zjyoh zjuh dzyuH
-2319 zhu4 dryoh diuh drjuH
-2320 fu4 byoh biuh bjuH
-2321 zhu4 cjyoh tjuh tsyuH
-2322 ju4 kyoh kiuh kjuH
-2323 xu4 hyoh xiuh xjuH
-2324 shu4 sjyoh sjuh syuH
-2325 yu4 jyoh juh yuH
-2326 ru4 njyoh ruh nyuH
-2327 fu4 phyoh phiuh phjuH
-2328 wu4 myoh miuh mjuH
-2329 ju4 cyoh ziuh tsjuH
-2330 ju4 gyoh giuh gjuH
-2331 yu4 yoh hiuh hjuH
-2332 ju4 zyoh dziuh dzjuH
-2333 shu4 sryoh shuh srjuH
-2334 fu4 pyoh piuh pjuH
-2335 qu4 chyoh ciuh tshjuH
-2336 zhu4 tryoh tiuh trjuH
-2337 qu4 khyoh qiuh khjuH
-2338 chu4 chryoh chuh tsrhjuH
-2339 chu4 thryoh thiuh trhjuH
-2340 xu4 syoh siuh sjuH
-2341 lv4 lyoh liuh ljuH
-2342 mu4 moh muh muH
-2343 du4 doh duh duH
-2344 lu4 loh luh luH
-2345 du4 toh tuh tuH
-2346 tu4 thoh thuh thuH
-2347 gu4 koh kuh kuH
-2348 wu4 ngoh nguh nguH
-2349 hu4 ghoh huh huH
-2350 su4 soh suh suH
-2351 zu4 zoh dzuh dzuH
-2352 nu4 noh nuh nuH
-2353 bu4 poh puh puH
-2354 wu4 qoh uh 'uH
-2355 pu4 phoh phuh phuH
-2356 cu4 choh cuh tshuH
-2357 ku4 khoh quh khuH
-2358 bu4 boh buh buH
-2359 hu4 hoh xuh xuH
-2360 zu4 coh zuh tsuH
-2361 ji4 ceh zey tsejH
-2362 di4 teh tey tejH
-2363 ji4 zeh dzey dzejH
-2364 ti4 theh they thejH
-2365 di4 deh dey dejH
-2366 qi4 cheh cey tshejH
-2367 xi4 seh sey sejH
-2368 yi4 ngeh ngey ngejH
-2369 ji4 keh key kejH
-2370 xi4 gheh hey hejH
-2371 qi4 kheh qey khejH
-2372 yi4 qeh ey 'ejH
-2373 mi4 meh mey mejH
-2374 bi4 peh pey pejH
-2375 hui4 ghueh huey hwejH
-2376 gui4 kueh kuey kwejH
-2377 hui4 hueh xuey xwejH
-2378 pi4 pheh phey phejH
-2379 bi4 beh bey bejH
-2380 li4 leh ley lejH
-2381  -  trhejH
-2382 ni4 neh ney nejH
-2383 xi4 heh xey xejH
-2384 ji4 cied ziey tsjejH
-2385 sui4 syed svey sjwejH
-2386 wei4 yed hwey hjwejH
-2387 rui4 njyed rvey nywejH
-2388 zhui4 cjyed tjvey tsywejH
-2389 shuai4 sryed shwey srjwejH
-2390 cui4 chyed cvey tshjwejH
-2391 wei4 jyed jvey ywejH
-2392 zhui4 tryed twey trjwejH
-2393 shui4 sjyed sjvey sywejH
-2394 bi4 bjed biey bjiejH
-2395 chuai4 chryed chwey tsrhjwejH
-2396 sui4 zsyed szvey zjwejH
-2397 bi4 pjed piey pjiejH
-2398 gui4 kyed kwey kjwejH
-2399 mi4 mjed miey mjiejH
-2400 shi4 sried shey srjejH
-2401 chi4 chjed tcey tsyhejH
-2402 zhi4 cjed tjey tsyejH
-2403 shi4 zjed zjey dzyejH
-2404 yi4 jed jey yejH
-2405 yi4 qied yey 'jejH
-2406 yi4 ngjed ngiey ngjiejH
-2407 zhi4 dried dyey drjejH
-2408 li4 lied liey ljejH
-2409 qi4 khied qyey khjejH
-2410 shi4 sjed sjey syejH
-2411 ji4 kied kyey kjejH
-2412 zhi4 tried tyey trjejH
-2413 ji4 gied gyey gjejH
-2414 shui4 zjyed zjvey dzywejH
-2415 chi4 thried thyey trhjejH
-2416 zhui4 dryed dwey drjwejH
-2417 yi4 ngied ngyey ngjejH
-2418 zui4 cyed zvey tsjwejH
-2419 pi4 phjed phiey phjiejH
-2420 kui4 khyad qvay khjwojH
-2421 hui4 hyvd xvay xjwojH
-2422 tai4 thad thay thajH
-2423 gai4 kad kay kajH
-2424 ai4 ngad ngay ngajH
-2425 ai4 qad ay 'ajH
-2426 nai4 nad nay najH
-2427 dai4 dad day dajH
-2428 hai4 ghad hay hajH
-2429 dai4 tad tay tajH
-2430 bei4 pad pay pajH
-2431 pei4 phad phay phajH
-2432 hui4 ghuad huay hwajH
-2433 dui4 duad duay dwajH
-2434 kui4 kuad kuay kwajH
-2435 zui4 cuad zuay tswajH
-2436 hui4 huad xuay xwajH
-2437 kui4 khuad quay khwajH
-2438 lei4 luad luay lwajH
-2439 wei4 nguad nguay ngwajH
-2440 dui4 tuad tuay twajH
-2441 wei4 quad uay 'wajH
-2442 zui4 zuad dzuay dzwajH
-2443 sui4 suad suay swajH
-2444 cui4 chuad cuay tshwajH
-2445 bei4 bad bay bajH
-2446 kai4 khad qay khajH
-2447 cai4 chad cay tshajH
-2448 lai4 lad lay lajH
-2449 hai4 had xay xajH
-2450 tai4 thuad thuay thwajH
-2451 mei4 mad may majH
-2452 cui4 chuad cuay tshwajH
-2453 gua4 krueh koeh kweaH
-2454 jia4 kreh kaeh keaH
-2455  - qreh 'eaH
-2456 xia4 ghreh haeh heaH
-2457 mai4 mreh maeh meaH
-2458 hua4 ghrueh hoeh hweaH
-2459 chai4 chreh chaeh tsrheaH
-2460 ya4 ngreh ngaeh ngeaH
-2461 xia4 hreh xaeh xeaH
-2462 bai4 preh paeh peaH
-2463 bai4 breh baeh beaH
-2464 zhai4 zreh draeh dzreaH
-2465 pai4 phreh phaeh pheaH
-2466 zhai4 creh traeh tsreaH
-2467 qia4 khreh qaeh kheaH
-2468 shai4 sreh shaeh sreaH
-2469 hua4 hrueh xoeh xweaH
-2470 bai4 preh paeh peaH
-2471 zhuai4 trueh toeh trweaH
-2472 kuai4 kruaih koey kweajH
-2473 ye4 qraih aey 'eajH
-2474 zhai4 craih traey tsreajH
-2475 jie4 kraih kaey keajH
-2476 nai4 nraih naey nreajH
-2477 xie4 hraih xaey xeajH
-2478 xie4 ghraih haey heajH
-2479 ye4 ngraih ngaey ngeajH
-2480 kuai4 khruaih qoey khweajH
-2481 bai4 praih paey peajH
-2482 pai4 phraih phaey pheajH
-2483 huai4 ghruaih hoey hweajH
-2484 wai4 ngruaih ngoey ngweajH
-2485 bai4 braih baey beajH
-2486 mai4 mraih maey meajH
-2487 huai4 hruaih xoey xweajH
-2488 shai4 sraih shaey sreajH
-2489 qie4 khraih qaey kheajH
-2490 chuai4 thruvih thoey trhweajH
-2491 gua4 krueh koeh kwaejH
-2492 kuai4 khruad qoay khwaejH
-2493 mai4 mrad meay maejH
-2494 huai4 ghruad hoay hwaejH
-2495 bai4 brad beay baejH
-2496 wai4 qruad oay 'waejH
-2497 chuai4 chruad choay tsrhwaejH
-2498 jie4 krad keay kaejH
-2499 chai4 thrad theay trhaejH
-2500 ye4 qrad eay 'aejH
-2501 shai4 srad shay sraejH
-2502 zhai4 drad deay draejH
-2503 xie4 hrad xeay xaejH
-2504 huai4 hruad xoay xwaejH
-2505 bai4 prad peay paejH
-2506 cuai4 ch'ruad coay tshwaejH
-2507 zhai4 zrad dray dzraejH
-2508 xie4 ghrad heay haejH
-2509 dui4 duaih duoy dwojH
-2510 bei4 buaih buoy bwojH
-2511 mei4 muaih muoy mwojH
-2512 pei4 phuaih phuoy phwojH
-2513 hui4 huaih xuoy xwojH
-2514 dui4 tuaih tuoy twojH
-2515 cui4 chuaih cuoy tshwojH
-2516 zui4 cuaih zuoy tswojH
-2517 wei4 quaih uoy 'wojH
-2518 tui4 thuaih thuoy thwojH
-2519 gui4 kuaih kuoy kwojH
-2520 hui4 ghuaih huoy hwojH
-2521 kui4 khuaih quoy khwojH
-2522 sui4 suaih suoy swojH
-2523 nei4 nuaih nuoy nwojH
-2524 lei4 luaih luoy lwojH
-2525 bei4 puaih puoy pwojH
-2526 wei4 nguaih nguoy ngwojH
-2527 hui4 ghuaih huoy hwojH
-2528 dai4 daih doy dojH
-2529 zai4 caih zoy tsojH
-2530 mei4 maih moy mojH
-2531 sai4 saih soy sojH
-2532 tai4 thaih thoy thojH
-2533 gai4 kaih koy kojH
-2534 kai4 khad qay khojH
-2535 ai4 ngaih ngoy ngojH
-2536 ai4 qaih oy 'ojH
-2537 hai4 ghaih hoy hojH
-2538 nai4 naih noy nojH
-2539 dai4 taih toy tojH
-2540 lai4 laih loy lojH
-2541 cai4 chaih coy tshojH
-2542 zai4 zaih dzoy dzojH
-2543 hai4 haih xoy xojH
-2544 fei4 pyad pvay pjojH
-2545 fei4 phyvd phvay phjojH
-2546 wei4 qyad vay 'jwojH
-2547 fei4 byad bvay bjojH
-2548 hui4 hyad xvay xjwojH
-2549 gui4 gyad gvay gjwojH
-2550 yi4 ngiad ngiay ngjojH
-2551 zhen4 cjinh tjinn tsyinH
-2552 xin4 sinh sinn sinH
-2553 ren4 njinh rinn nyinH
-2554 yin4 jinh jinn yinH
-2555 lin4 linh linn linH
-2556 bin4 pjinh pinn pjinH
-2557 zhen4 drinh dynn drinH
-2558 shen4 zjinh zjinn dzyinH
-2559 shen4 sjinh sjinn syinH
-2560 qin4 khinh qynn khinH
-2561 xin4 zsinh szinn zinH
-2562 yin4 nginh ngynn nginH
-2563 jin4 cinh zinn tsinH
-2564 xin4 hinh xynn xinH
-2565 zhen4 trinh tynn trinH
-2566 jin4 ginh gynn ginH
-2567 chen4 chrinh chyinn tsrhinH
-2568 yin4 qjinh inn 'jinH
-2569 chen4 thrinh thynn trhinH
-2570 pin4 phjinh phinn phjinH
-2571 qin4 chinh cinn tshinH
-2572 qin4 khjinh qinn khjinH
-2573 43255 kjynh kvinn kjwinH
-2574 zhun4 cjynh tjvinn tsywinH
-2575 xun4 synh svinn swinH
-2576 xun4 zsynh szvinn zwinH
-2577 43255 cynh zvinn tswinH
-2578 shun4 sjynh sjvinn sywinH
-2579 run4 njynh rvinn nywinH
-2580 shun4 zsjynh djvinn zywinH
-2581 wen4 myonh miunn mjunH
-2582 yun4 yonh hiunn hjunH
-2583 xun4 hyonh xiunn xjunH
-2584 fen4 phyonh phiunn phjunH
-2585 fen4 pyonh piunn pjunH
-2586 yun4 qyonh iunn 'junH
-2587 43255 kyonh kiunn kjunH
-2588 Jun4 gyonh giunn gjunH
-2589 fen4 byonh biunn bjunH
-2590 xin4 hionh xionn xj+nH
-2591 jin4 kionh kionn kj+nH
-2592 jin4 gionh gionn gj+nH
-2593 yin4 qionh ionn 'j+nH
-2594 yin4 ngionh ngionn ngj+nH
-2595 yuan4 ngyanh ngvann ngjwonH
-2596 yuan4 qyanh vann 'jwonH
-2597 fan4 pyanh pvann pjonH
-2598 quan4 khyanh qvann khjwonH
-2599 wan4 myanh mvann mjonH
-2600 fan4 byanh bvann bjonH
-2601 fan4 phyanh phvann phjonH
-2602 jian4 kianh kiann kjonH
-2603 yan4 qianh iann 'jonH
-2604 xian4 hianh xiann xjonH
-2605 xuan4 hyanh xvann xjwonH
-2606 jian4 gianh giann gjonH
-2607 fan4 phyanh phvann phjonH
-2608 yuan4 yanh hvann hjwonH
-2609 yan3 ngianx ngiaan ngjonH
-2610 juan4 gyanh gvann gjwonH
-2611 juan4 kyanh kvann kjwonH
-2612 hun4 ghuonh huonn hwonH
-2613 dun4 tuonh tuonn twonH
-2614 sun4 suonh suonn swonH
-2615 kun4 khuonh quonn khwonH
-2616 nun4 nuonh nuonn nwonH
-2617 wen4 quonh uonn 'wonH
-2618 men4 muonh muonn mwonH
-2619 zun4 zuonh dzuonn dzwonH
-2620 gun4 kuonh kuonn kwonH
-2621 pen4 phuonh phuonn phwonH
-2622 dun4 duonh duonn dwonH
-2623 cun4 chuonh cuonn tshwonH
-2624 ben4 buonh buonn bwonH
-2625 wen4 nguonh nguonn ngwonH
-2626 lun4 luonh luonn lwonH
-2627 ben4 puonh puonn pwonH
-2628 hun4 huonh xuonn xwonH
-2629 zun4 cuonh zuonn tswonH
-2630 hen4 ghonh honn honH
-2631 gen4 konh konn konH
-2632 en4 ngonh ngonn ngonH
-2633 en4 qonh onn 'onH
-2634 han4 ghanh hann hanH
-2635 tan3 thanx thaan thanH
-2636 an4 qanh ann 'anH
-2637 dan4 tanh tann tanH
-2638 dan4 danh dann danH
-2639 gan4 kanh kann kanH
-2640 an4 nganh ngann nganH
-2641 kan4 khanh qann khanH
-2642 han4 hanh xann xanH
-2643 lan4 lanh lann lanH
-2644 nan4 nanh nann nanH
-2645 can4 chanh cann tshanH
-2646 san4 sanh sann sanH
-2647 zan4 canh zann tsanH
-2648 san4 zanh dzann dzanH
-2649 huan4 ghuanh huann hwanH
-2650 zuan4 cuanh zuann tswanH
-2651 wan4 quanh uann 'wanH
-2652 guan4 kuanh kuann kwanH
-2653 cuan4 chuanh cuann tshwanH
-2654 wan4 nguanh nguann ngwanH
-2655 duan4 duanh duann dwanH
-2656 luan4 luanh luann lwanH
-2657 duan4 tuanh tuann twanH
-2658 tuan4 thuanh thuann thwanH
-2659 huan4 huanh xuann xwanH
-2660 suan4 suanh suann swanH
-2661 man4 muanh muann manH
-2662 ban4 puanh puann panH
-2663 pan4 phuanh phuann phanH
-2664 ban4 buanh buann banH
-2665 nuan4 nuanh nuann nwanH
-2666 zuan4 zuanh dzuann dzwanH
-2667 kuan4 khuanh quann khwanH
-2668 jian4 kranh keann kaenH
-2669 yan4 ngranh ngeann ngaenH
-2670 yan4 qranh eann 'aenH
-2671 shan4 sranh shann sraenH
-2672 xian4 ghranh heann haenH
-2673 man4 mranh meann maenH
-2674 wan4 qruanh oann 'waenH
-2675 huan4 ghruanh hoann hwaenH
-2676 guan4 kruanh koann kwaenH
-2677 shuan4 sruanh shoann srwaenH
-2678 chuan4 chruanh choann tsrhwaenH
-2679 wan4 ngruanh ngoann ngwaenH
-2680 zhan4 zranh drann dzraenH
-2681 pan4 phranh pheann phaenH
-2682 nuan4 nruanh noann nrwaenH
-2683 chan4 chranh chann tsrhaenH
-2684 chan4 thranh theann trhaenH
-2685 jian4 krenh kaenn keanH
-2686 xian4 ghranh haenn heanH
-2687 ban4 brenh baenn beanH
-2688 pan4 phrenh phaenn pheanH
-2689 huan4 ghruenh hoenn hweanH
-2690 man4 mrenh maenn meanH
-2691 zhan4 drenh daenn dreanH
-2692 ban4 prenh paenn peanH
-2693 guan4 kruenh koenn kweanH
-2694 xian4 senh senn senH
-2695 qian4 chenh cenn tshenH
-2696 xuan4 huenh xuenn xwenH
-2697 xuan4 ghuenh huenn hwenH
-2698 juan4 kuenh kuenn kwenH
-2699 dian4 denh denn denH
-2700 tian4 thenh thenn thenH
-2701 lian4 lenh lenn lenH
-2702 jian4 kenh kenn kenH
-2703 nian4 nenh nenn nenH
-2704 qian4 khenh qenn khenH
-2705 xian4 ghenh henn henH
-2706 yan4 ngenh ngenn ngenH
-2707 yan4 qenh enn 'enH
-2708 jian4 cenh zenn tsenH
-2709 mian4 menh menn menH
-2710 pian4 phenh phenn phenH
-2711 jian4 zenh dzenn dzenH
-2712 yuan4 quenh uenn 'wenH
-2713 dian4 tenh tenn tenH
-2714 xian4 henh xenn xenH
-2715 xian4 sienh sienn sjenH
-2716 zhan4 cjenh tjenn tsyenH
-2717 shan4 zjenh zjenn dzyenH
-2718 yan4 ngienh ngyenn ngjenH
-2719 qian4 khjenh qienn khjienH
-2720 juan4 kjyenh kvenn kjwienH
-2721 yuan4 yenh hwenn hjwenH
-2722 mian4 mjenh mienn mjienH
-2723 chuan4 chjyenh tcvenn tsyhwenH
-2724 yuan4 jyenh jvenn ywenH
-2725 zhan4 trienh tyenn trjenH
-2726 ruan4 njyenh rvenn nywenH
-2727 jian4 cienh zienn tsjenH
-2728 chan4 chjenh tcenn tsyhenH
-2729 shan4 sjenh sjenn syenH
-2730 yan4 qjenh ienn 'jienH
-2731 juan4 kyenh kwenn kjwenH
-2732 juan4 gyenh gwenn gjwenH
-2733 luan4 lyenh lvenn ljwenH
-2734 chuan4 thryenh thwenn trhjwenH
-2735 bian4 pienh pyenn pjenH
-2736 shuan4 sryenh shwenn srjwenH
-2737 quan4 chyenh cvenn tshjwenH
-2738 bian4 bienh byenn bjenH
-2739 xuan4 zsyenh szvenn zjwenH
-2740 xuan4 syenh svenn sjwenH
-2741 shuan4 zryenh drwenn dzrjwenH
-2742 zhuan4 cryenh trwenn tsrjwenH
-2743 zhuan4 dryenh dwenn drjwenH
-2744 jian4 zienh dzienn dzjenH
-2745 xian4 zsienh szienn zjenH
-2746 pian4 phjenh phienn phjienH
-2747 shuan4 zjyenh zjvenn dzywenH
-2748 nian4 nrienh nyenn nrjenH
-2749 zhuan4 tryenh twenn trjwenH
-2750 yan4 djenh jenn yenH
-2751 bian4 bjenh bienn bjienH
-2752 zhan4 drienh dyenn drjenH
-2753 lian4 lienh lienn ljenH
-2754 quan4 khyenh qwenn khjwenH
-2755 zhuan4 cjyenh tjvenn tsywenH
-2756 bian4 penh penn penH
-2757 xiao4 seuh sew sewH
-2758 tiao4 theuh thew thewH
-2759 diao4 teuh tew tewH
-2760 jiao4 keuh kew kewH
-2761 niao4 neuh new newH
-2762 diao4 deuh dew dewH
-2763 qiao4 kheuh qew khewH
-2764 liao4 leuh lew lewH
-2765 yao4 ngeuh ngew ngewH
-2766 yao4 qeuh ew 'ewH
-2767 xiao4 heuh xew xewH
-2768 xiao4 sieuh siew sjewH
-2769 zhao3 cjeux tjev tsyewH
-2770 yao4 jeuh jew yewH
-2771 yao4 qjeuh iew 'jiewH
-2772 zhao4 drieuh dyew drjewH
-2773 shao4 zjeuh zjew dzyewH
-2774 jiao4 gieuh gyew gjewH
-2775 piao4 phjeuh phiew phjiewH
-2776 jiao4 zieuh dziew dzjewH
-2777 miao4 mjeuh miew mjiewH
-2778 qiao4 chieuh ciew tshjewH
-2779 liao4 lieuh liew ljewH
-2780 qiao4 khieuh qyew khjewH
-2781 yao4 ngieuh ngyew ngjewH
-2782 jiao4 cieuh ziew tsjewH
-2783 miao4 mieuh myew mjewH
-2784 biao4 bjeuh biew bjiewH
-2785 shao4 sjeuh sjew syewH
-2786 chao4 thrieuh thyew trhjewH
-2787 biao4 pieuh pyew pjewH
-2788 jiao4 gjeuh giew gjiewH
-2789 rao4 njeuh rew nyewH
-2790 xiao4 ghrauh heaw haewH
-2791 jiao4 krauh keaw kaewH
-2792 xiao4 hrauh xeaw xaewH
-2793 zhao4 trauh teaw traewH
-2794 bao4 prauh peaw paewH
-2795 qiao4 khrauh qeaw khaewH
-2796 mao4 mrauh meaw maewH
-2797 pao4 phrauh pheaw phaewH
-2798 chao4 thrauh theaw trhaewH
-2799 shao4 srauh shaw sraewH
-2800 zhao4 drauh deaw draewH
-2801 nao4 nrauh neaw nraewH
-2802 zhao4 crauh traw tsraewH
-2803 bao4 brauh beaw baewH
-2804 chao4 chrauh chaw tsrhaewH
-2805 yao4 qrauh eaw 'aewH
-2806 yao4 ngrauh ngeaw ngaewH
-2807 zhao4 zrauh draw dzraewH
-2808 hao4 ghauh haw hawH
-2809 dao4 dauh daw dawH
-2810 dao4 tauh taw tawH
-2811 gao4 kauh kaw kawH
-2812 ao4 ngauh ngaw ngawH
-2813 mao4 mauh maw mawH
-2814 lao4 lauh law lawH
-2815 cao4 chauh caw tshawH
-2816 bao4 bauh baw bawH
-2817 bao4 pauh paw pawH
-2818 zao4 zauh dzaw dzawH
-2819 ao4 qauh aw 'awH
-2820 sao4 sauh saw sawH
-2821 kao4 khauh qaw khawH
-2822 zao4 cauh zaw tsawH
-2823 hao4 hauh xaw xawH
-2824 nao4 nauh naw nawH
-2825 ge4 kah kah kaH
-2826 he4 ghah hah haH
-2827 zuo4 cah zah tsaH
-2828 duo4 tah tah taH
-2829 luo4 lah lah laH
-2830 ke4 khah qah khaH
-2831 e4 ngah ngah ngaH
-2832 duo4 dah dah daH
-2833 nuo4 nah nah naH
-2834 suo4 sah sah saH
-2835 he4 hah xah xaH
-2836 tuo4 thah thah thaH
-2837 guo4 kuah kuah kwaH
-2838 huo4 ghuah huah hwaH
-2839 zuo4 cuah zuah tswaH
-2840 kuo4 khuah quah khwaH
-2841 tuo4 thuah thuah thwaH
-2842 bo4 puah puah paH
-2843 cuo4 chuah cuah tshwaH
-2844 mo4 muah muah maH
-2845 nuo4 nuah nuah nwaH
-2846 po4 phuah phuah phaH
-2847 zuo4 zuah dzuah dzwaH
-2848 wo4 nguah nguah ngwaH
-2849 cuo4 chuah cuah tshwaH
-2850 huo4 huah xuah xwaH
-2851 duo4 duah duah dwaH
-2852 bo4 buah buah baH
-2853 luo4 luah luah lwaH
-2854 duo4 tuah tuah twaH
-2855 cuo4 chuah cuah tshwaH
-2856 suo4 suah suah swaH
-2857 e4 qah ah 'aH
-2858 wo4 quah uah 'waH
-2859 ma4 mrah meah maeH
-2860 jia4 krah keah kaeH
-2861 ya4 qrah eah 'aeH
-2862 xia4 hrah xeah xaeH
-2863 ya4 ngrah ngeah ngaeH
-2864 cha4 thrah theah trhaeH
-2865 zha4 trah teah traeH
-2866 zha4 crah trah tsraeH
-2867 zha4 zrah drah dzraeH
-2868 xie4 zsiah szyah zjaeH
-2869 qia4 khrah qeah khaeH
-2870 xia4 ghrah heah haeH
-2871 jie4 ziah dzyah dzjaeH
-2872 ye4 jah jah yaeH
-2873 che4 chjah tcah tsyhaeH
-2874 xie4 siah syah sjaeH
-2875 zhe4 cjah tjah tsyaeH
-2876 jie4 ciah zyah tsjaeH
-2877 she4 sjah sjah syaeH
-2878 she4 zsjah djah zyaeH
-2879 ba4 prah peah paeH
-2880 pa4 phrah pheah phaeH
-2881 hua4 ghruah hoah hwaeH
-2882 hua4 hruah xoah xwaeH
-2883 kua4 khruah qoah khwaeH
-2884 shua4 sruah shoah srwaeH
-2885 ba4 brah beah baeH
-2886 na4 nrah neah naeH
-2887 qie4 chiah cyah tshjaeH
-2888 sha4 srah shah sraeH
-2889 gua4 kruah koah kwaeH
-2890 zha4 drah deah draeH
-2891 wa4 ngruah ngoah ngwaeH
-2892 wa4 ruah oah 'waeH
-2893 yang4 jangh janq yangH
-2894 liang4 liangh lianq ljangH
-2895 zhuang4 zriangh drianq dzrjangH
-2896 rang4 njangh ranq nyangH
-2897 shang4 sjangh sjanq syangH
-2898 zhang4 triangh tianq trjangH
-2899 chang4 thriangh thianq trhjangH
-2900 xiang4 hiangh xianq xjangH
-2901 zhang4 driangh dianq drjangH
-2902 niang4 nriangh nianq nrjangH
-2903 jiang4 ziangh dzianq dzjangH
-2904 zhang4 cjangh tjanq tsyangH
-2905 shang4 zjangh zjanq dzyangH
-2906 zhuang4 criangh trianq tsrjangH
-2907 yang4 qiangh ianq 'jangH
-2908 jiang4 giangh gianq gjangH
-2909 chang4 chjangh tcanq tsyhangH
-2910 chuang4 chriangh chianq tsrhjangH
-2911 jiang4 ciangh zianq tsjangH
-2912 yang4 ngiangh ngianq ngjangH
-2913 fang4 phyangh phvanq phjangH
-2914 wang4 myangh mvanq mjangH
-2915 huang4 hyangh xvanq xjwangH
-2916 guang4 kyangh kvanq kjwangH
-2917 wang4 yangh hvanq hjwangH
-2918 fang4 pyangh pvanq pjangH
-2919 xiang4 siangh sianq sjangH
-2920 jiang4 kiangh kianq kjangH
-2921 qiang4 khiangh qianq khjangH
-2922 qiang4 chiangh cianq tshjangH
-2923 guang4 gyangh gvanq gjwangH
-2924 fang4 byangh bvanq bjangH
-2925 dang4 dangh danq dangH
-2926 lang4 langh lanq langH
-2927 hang4 ghangh hanq hangH
-2928 ang4 qangh anq 'angH
-2929 ang4 ngangh nganq ngangH
-2930 zang4 cangh zanq tsangH
-2931 bang4 bangh banq bangH
-2932 zang4 zangh dzanq dzangH
-2933 dang4 tangh tanq tangH
-2934 kang4 khangh qanq khangH
-2935 bang4 pangh panq pangH
-2936 tang4 thangh thanq thangH
-2937 kuang4 khuangh quanq khwangH
-2938 nang4 nangh nanq nangH
-2939 sang4 sangh sanq sangH
-2940 huang4 ghuangh huanq hwangH
-2941 guang4 kuangh kuanq kwangH
-2942 kang4 kangh kanq kangH
-2943 huang4 huangh xuanq xwangH
-2944 mang4 mangh manq mangH
-2945 ang4 qangh anq 'wangH
-2946 ying4 qiengh yanq 'jaengH
-2947 jing4 kiengh kyanq kjaengH
-2948 jing4 giengh gyanq gjaengH
-2949 qing4 khiengh qyanq khjaengH
-2950 geng4 krangh keanq kaengH
-2951 ming4 miengh myanq mjaengH
-2952 bing4 biengh byanq bjaengH
-2953 meng4 mrangh meanq maengH
-2954 hong4 ghruangh hoanq hwaengH
-2955 bing4 piengh pyanq pjaengH
-2956 yong4 yengh hwanq hjwaengH
-2957 heng4 ghrangh heanq haengH
-2958 eng4 qrangh eanq 'aengH
-2959 cheng4 chrvngh chanq tsrhaengH
-2960 zheng4 trangh teanq traengH
-2961 cheng4 thrangh theanq trhaengH
-2962 beng4 prangh peanq paengH
-2963 zheng4 drangh deanq draengH
-2964 sheng4 srvngh shanq sraengH
-2965 ying4 ngiengh ngyanq ngjaengH
-2966 beng4 brangh beanq baengH
-2967 heng4 hrangh xeanq xaengH
-2968 weng4 qruangh oanq 'waengH
-2969 zheng4 crengh traenq tsreangH
-2970 beng4 prengh paenq peangH
-2971 beng4 brengh baenq beangH
-2972 eng4 qrengh aenq 'eangH
-2973 eng4 ngrangh ngaenq ngeangH
-2974 hung4 hruengh xoenq xweangH
-2975 jing4 kjengh kienq kjiengH
-2976 qing4 chiengh cienq tshjengH
-2977 zheng4 cjengh tjenq tsyengH
-2978 sheng4 sjengh sjenq syengH
-2979 zheng4 driengh dienq drjengH
-2980 cheng4 thriengh thienq trhjengH
-2981 xing4 siengh sienq sjengH
-2982 ling4 liengh lienq ljengH
-2983 ping4 phjengh phienq phjiengH
-2984 xiong4 hjyengh xvenq xjwengH
-2985 bing4 pjengh pienq pjiengH
-2986 bing4 bjengh bienq bjiengH
-2987 jing4 ziengh dzienq dzjengH
-2988 sheng4 zjengh zjenq dzyengH
-2989 ming4 mjengh mienq mjiengH
-2990 qing4 khjengh qienq khjiengH
-2991 xing4 hjengh xienq xjengH
-2992 jing4 ciengh zienq tsjengH
-2993 jing4 kengh kenq kengH
-2994 ning4 nengh nenq nengH
-2995 xing4 sengh senq sengH
-2996 xing4 ghengh henq hengH
-2997 ding4 dengh denq dengH
-2998 ding4 tengh tenq tengH
-2999 qing4 khengh qenq khengH
-3000 ting4 thengh thenq thengH
-3001 qing4 chengh cenq tshengH
-3002 ming4 mengh menq mengH
-3003 yong4 uengh enq 'engH
-3004 ling4 lengh lenq lengH
-3005 zheng4 cjingh tjonq tsyingH
-3006 ying4 jingh jonq yingH
-3007 sheng4 zsjingh djonq zyingH
-3008 reng4 njingh ronq nyingH
-3009 ying4 qingh ionq 'ingH
-3010 jing4 cingh zionq tsingH
-3011 xing4 hingh xionq xingH
-3012 sheng4 sjingh sjonq syingH
-3013 zheng4 dringh dionq dringH
-3014 xing4 hingh xionq lingH
-3015 bing4 bingh bionq bingH
-3016 cheng4 chjingh tconq tsyhingH
-3017 ying4 ngingh ngionq ngingH
-3018 sheng4 zjingh zjonq dzyingH
-3019 cheng4 thringh thionq trhingH
-3020 jing4 gingh gionq gingH
-3021 deng4 tongh tonq tongH
-3022 zeng4 zongh dzonq dzongH
-3023 geng4 kongh konq kongH
-3024 ceng4 chongh conq tshongH
-3025 deng4 dongh donq dongH
-3026 meng4 mongh monq mongH
-3027 beng4 pongh ponq pongH
-3028 beng4 bongh bonq bongH
-3029 leng4 longh lonq longH
-3030 zeng4 congh zonq tsongH
-3031 seng4 songh sonq songH
-3032 teng4 thongh thonq thongH
-3033 you4 iuh hiow hjuwH
-3034 jiu4 kiuh kiow kjuwH
-3035 zhou4 driuh diow drjuwH
-3036 zhou4 triuh tiow trjuwH
-3037 shou4 sjuh sjow syuwH
-3038 chou4 chjuh tcow tsyhuwH
-3039 xiu4 zsiuh sziow zjuwH
-3040 xiu4 hiuh xiow xjuwH
-3041 zhou4 cjuh tjow tsyuwH
-3042 jiu4 giuh giow gjuwH
-3043 shou4 sriuh show srjuwH
-3044 zhou4 criuh trow tsrjuwH
-3045 fou4 phiuh phiow phjuwH
-3046 chou4 chriuh chow tsrhjuwH
-3047 fou4 piuh piow pjuwH
-3048 chou4 thriuh thiow trhjuwH
-3049 liu4 liuh liow ljuwH
-3050 xiu4 siuh siow sjuwH
-3051 jiu4 ciuh ziow tsjuwH
-3052 zhou4 zriuh drow dzrjuwH
-3053 jiu4 ziuh dziow dzjuwH
-3054 niu4 nriuh niow nrjuwH
-3055 fou4 biuh biow bjuwH
-3056 you4 juh jow yuwH
-3057 shou4 zjuh zjow dzyuwH
-3058 rou4 njuh row nyuwH
-3059 miu4 miuh miow mjuwH
-3060 you4 ngiuh ngiow ngjuwH
-3061 qiu4 khiuh qiow khjuwH
-3062 qiu4 chiuh ciow tshjuwH
-3063 hou4 ghuh how huwH
-3064 kou4 khuh qow khuwH
-3065 mou4 muh mow muwH
-3066 pou4 phuh phow phuwH
-3067 dou4 duh dow duwH
-3068 dou4 tuh tow tuwH
-3069 nou4 nuh now nuwH
-3070 sou4 suh sow suwH
-3071 zou4 cuh zow tsuwH
-3072 tou4 thuh thow thuwH
-3073 ou4 quh ow 'uwH
-3074 gou4 kuh kow kuwH
-3075 cou4 chuh cow tshuwH
-3076 lou4 luh low luwH
-3077 hou4 huh xow xuwH
-3078 bou4 buh bow buwH
-3079 ou4 nguh ngow nguwH
-3080 zou4 zuh dzow dzuwH
-3081 you4 qyh yw 'jiwH
-3082 miao4 myh myw mjiwH
-3083 qiu4 khyh qyw khjiwH
-3084 jiu4 gyh gyw gjiwH
-3085 qin4 chimh cimm tshimH
-3086 jin4 cimh zimm tsimH
-3087 ren4 njimh rimm nyimH
-3088 zhen4 drimh dymm drimH
-3089 zhen4 cjimh tjimm tsyimH
-3090 jin4 gimh gymm gimH
-3091 jin4 kimh kymm kimH
-3092 nin4 nrimh nymm nrimH
-3093 yin4 qimh ymm 'imH
-3094 shen4 srimh shymm srimH
-3095 chen4 thrimh thymm trhimH
-3096 zhen4 crimh trymm tsrimH
-3097 chen4 chrimh chymm tsrhimH
-3098 yin4 ngimh ngymm ngimH
-3099 zhen4 trimh tymm trimH
-3100 lin4 limh limm limH
-3101 shen4 zjimh zjimm dzyimH
-3102 yin4 imh hymm himH
-3103 shen4 sjimh sjimm syimH
-3104 kan4 khomh qomm khomH
-3105 gan4 komh komm komH
-3106 han4 ghomh homm homH
-3107 an4 qomh omm 'omH
-3108 tan4 thomh thomm thomH
-3109 san4 somh somm somH
-3110 can4 chomh comm tshomH
-3111 dan4 domh domm domH
-3112 an4 ngomh ngomm ngomH
-3113 dan4 tomh tomm tomH
-3114 nan4 nomh nomm nomH
-3115 lan4 lomh lomm lomH
-3116 han4 homh xomm xomH
-3117 zan4 comh zomm tsomH
-3118 kan4 khamh qamm khamH
-3119 lan4 lamh lamm lamH
-3120 tan4 thamh thamm thamH
-3121 gan4 kamh kamm kamH
-3122 han4 hamh xamm xamH
-3123 han4 ghamh hamm hamH
-3124 dan4 damh damm damH
-3125 zan4 zamh dzamm dzamH
-3126 dan4 tamh tamm tamH
-3127 san4 samh samm samH
-3128 yan4 jemh jemm yemH
-3129 shan4 zjemh zjemm dzyemH
-3130 ran4 njemh remm nyemH
-3131 yan4 qjemh iemm 'jiemH
-3132 bian4 piemh pyemm pjemH
-3133 yan4 ngiemh ngyemm ngjemH
-3134 shan4 sjemh sjemm syemH
-3135 jian4 ciemh ziemm tsjemH
-3136 qian4 chiemh ciemm tshjemH
-3137 lian4 liemh liemm ljemH
-3138 chan4 thriemh thyemm trhjemH
-3139 chan4 chjemh tcemm tsyhemH
-3140 yan4 qiemh yemm 'jemH
-3141 jian4 ziemh dziemm dzjemH
-3142 zhan4 cjemh tjemm tsyemH
-3143 tian4 themh themm themH
-3144 nian4 nemh nemm nemH
-3145 dian4 temh temm temH
-3146 xian4 semh semm semH
-3147 dian4 demh demm demH
-3148 jian4 kemh kemm kemH
-3149 yan4 qemh emm 'emH
-3150 jian4 cemh zemm tsemH
-3151 jian4 zemh dzemm dzemH
-3152 jian4 kemh kemm kemH
-3153 qian4 khemh qemm khemH
-3154 lian4 lemh lemm lemH
-3155 yan4 ngiamh ngiamm ngjaemH
-3156 xian4 hiamh xiamm xjaemH
-3157 qian4 khiamh qiamm khjaemH
-3158 wan4 myamh mvamm mjomH
-3159 xian4 ghremh haemm heamH
-3160 yan4 qremh aemm 'eamH
-3161 zhan4 cremh traemm tsreamH
-3162 zhan4 tremh taemm treamH
-3163 qian4 khremh qaemm kheamH
-3164 zhan4 dremh daemm dreamH
-3165 zhan4 zremh draemm dzreamH
-3166 jian4 kremh kaemm keamH
-3167 nan4 nremh naemm nreamH
-3168 yan4 ngremh ngaemm ngeamH
-3169 jian4 kramh keamm kaemH
-3170 chan4 chramh chamm tsrhaemH
-3171 zhan4 cramh tramm tsraemH
-3172 shan4 sramh shamm sraemH
-3173 xian4 hramh xeamm xaemH
-3174 ban4 bramh beamm baemH
-3175 xian4 ghramh heamm haemH
-3176 zhan4 zramh dramm dzraemH
-3177 zheng3 cjingx tjonk 'aemH
-3178 fan4 byamh bvamm bjomH
-3179 fan4 phyamh phvamm phjomH
-3180 jian4 kiamh kiamm kjaemH
-3181 qian4 khiamh qiamm khjaemH
-3182 yan4 qiamh iamm 'jaemH
-3183 wu quk uk 'uwk
-3184 du2 duk duk duwk
-3185 gu kuk kuk kuwk
-3186 hu2 ghuk huk huwk
-3187 ku khuk quk khuwk
-3188 tu thuk thuk thuwk
-3189 du tuk tuk tuwk
-3190 su suk suk suwk
-3191 lu4 luk luk luwk
-3192 hu huk xuk xuwk
-3193 zu2 zuk dzuk dzuwk
-3194 cu chuk cuk tshuwk
-3195 zu cuk zuk tsuwk
-3196 bu2 buk buk buwk
-3197 pu phuk phuk phuwk
-3198 bu puk puk puwk
-3199 mu4 muk muk muwk
-3200 fu piuk piuk pjuwk
-3201 fu2 biuk biuk bjuwk
-3202 shu sriuk shuk srjuwk
-3203 lv4 liuk liuk ljuwk
-3204 zhu2 driuk diuk drjuwk
-3205 ju kiuk kiuk kjuwk
-3206 qu khiuk qiuk khjuwk
-3207 shu2 zjuk zjuk dzyuwk
-3208 chu chjuk tcuk tsyhuwk
-3209 yu4 juk juk yuwk
-3210 ju2 giuk giuk gjuwk
-3211 cu chiuk ciuk tshjuwk
-3212 ru4 njuk ruk nyuwk
-3213 zhu cjuk tjuk tsyuwk
-3214 shu sjuk sjuk syuwk
-3215 xu hiuk xiuk xjuwk
-3216 zhu triuk tiuk trjuwk
-3217 zu ciuk ziuk tsjuwk
-3218 chu chriuk chuk tsrhjuwk
-3219 nv4 nriuk niuk nrjuwk
-3220 zhu criuk truk tsrjuwk
-3221 fu phiuk phiuk phjuwk
-3222 yu qiuk iuk 'juwk
-3223 su siuk siuk sjuwk
-3224 mu4 miuk miuk mjuwk
-3225 yu4 iuk hiuk hjuwk
-3226 chu thriuk thiuk trhjuwk
-3227 yu4 ngiuk ngiuk ngjuwk
-3228 zu2 ziuk dziuk dzjuwk
-3229 wu quuk vk 'owk
-3230 du2 duuk dvk dowk
-3231 du tuuk tvk towk
-3232 ku khuuk qvk khowk
-3233 hu2 ghuuk hvk howk
-3234 bu2 buuk bvk bowk
-3235 su suuk svk sowk
-3236 ku kuuk kvk kowk
-3237 mu4 muuk mvk mowk
-3238 hu huuk xvk xowk
-3239 nu4 nuuk nvk nowk
-3240 zu cuuk zvk tsowk
-3241 bu puuk pvk powk
-3242 lu4 luuk lvk lowk
-3243 wu4 nguuk ngvk ngowk
-3244 zhu cjyuk tjvk tsyowk
-3245 yu4 ngyuk ngivk ngjowk
-3246 xu hyuk xivk xjowk
-3247 ju kyuk kivk kjowk
-3248 ju2 gyuk givk gjowk
-3249 shu2 zjyuk zjvk dzyowk
-3250 chu chjyuk tcvk tsyhowk
-3251 ru4 njyuk rvk nyowk
-3252 shu sjyuk sjvk syowk
-3253 yu4 jyuk jvk yowk
-3254 zhu2 dryuk divk drjowk
-3255 lv4 lyuk livk ljowk
-3256 qu khyuk qivk khjowk
-3257 zhu tryuk tivk trjowk
-3258 zu cyuk zivk tsjowk
-3259 shu2 zsjyuk djvk zyowk
-3260 fu2 byuk bivk bjowk
-3261 cu chyuk civk tshjowk
-3262 su2 zsyuk szivk zjowk
-3263 su syuk sivk sjowk
-3264 fu pyuk pivk pjowk
-3265 chu thryuk thivk trhjowk
-3266 jue kruk keok kaewk
-3267 yue4 ngruk ngeok ngaewk
-3268 zhuo2 zruk dreok dzraewk
-3269 zhuo cruk treok tsraewk
-3270 shuo sruk sheok sraewk
-3271 zhuo truk teok traewk
-3272 bo pruk peok paewk
-3273 mo4 mruk meok maewk
-3274 bo2 bruk beok baewk
-3275 po phruk pheok phaewk
-3276 que khruk qeok khaewk
-3277 zhuo2 druk deok draewk
-3278 yue qruk eok 'aewk
-3279 nuo4 nruk neok nraewk
-3280 chuo thruk theok trhaewk
-3281 luo4 lrok leok laewk
-3282 xue2 ghruk heok haewk
-3283 xue hruk xeok xaewk
-3284 chuo chruk cheok tsrhaewk
-3285 zhi cjit tjit tsyit
-3286 ri4 njit rit nyit
-3287 shi2 zsjit djit zyit
-3288 zhi2 drit dyt drit
-3289 xi sit sit sit
-3290 yi qjit it 'jit
-3291 qi chit cit tshit
-3292 pi phjit phit phjit
-3293 ji kjit kit kjit
-3294 ni4 nrit nyt nrit
-3295 yi4 jit jit yit
-3296 qi khjit qit khjit
-3297 xi hjit xit xjit
-3298 chi thrit thyt trhit
-3299 li4 lit lit lit
-3300 zhi trit tyt trit
-3301 ji2 zit dzit dzit
-3302 che chrit chyit tsrhit
-3303 shi sjit sjit syit
-3304 ji cit zit tsit
-3305 mi4 mjit mit mjit
-3306 bi pjit pit pjit
-3307 ji2 git gyt git
-3308 bi2 bjit bit bjit
-3309 yu4 yt hwyt hwit
-3310 shuai sryt shvit srwit
-3311 chi chjit tcit tsyhit
-3312 zhe2 zrit dryit dzrit
-3313 mi4 mit myt mit
-3314 bi2 bit byt bit
-3315 yi qit yt 'it
-3316 yi4 ngit ngyt ngit
-3317 bi pit pyt pit
-3318 zhu tryt tvit trwit
-3319 xi hit xyt xit
-3320 ji kit kyt kit
-3321 zhi trit tyt trit
-3322 xu hjyt xvit xwit
-3323 shu2 zsjyt djvit zywit
-3324 ju kjyt kvit kjwit
-3325 ju2 zyt dzvit dzwit
-3326 yu4 jyt jvit ywit
-3327 ju cyt zvit tswit
-3328 xu syt svit swit
-3329 lv4 lyt lvit lwit
-3330 chu thryt thvit trhwit
-3331 zhu tryt tvit trwit
-3332 zhu2 dryt dvit drwit
-3333 chu chjyt tcvit tsyhwit
-3334 qu chyt cvit tshwit
-3335 zhuai cryt trvit tsrwit
-3336 xu hjyt xvit xwit
-3337 zhe crit tryit tsrit
-3338 she srit shyit srit
-3339 zhe2 zrit dryit dzrit
-3340 wu4 myot miut mjut
-3341 fu pyot piut pjut
-3342 yu qyot iut 'jut
-3343 ju kyot kiut kjut
-3344 qu khyot qiut khjut
-3345 ju2 gyot giut gjut
-3346 fu2 byot biut bjut
-3347 xu hyot xiut xjut
-3348 yu4 yot hiut hjut
-3349 fu phyot phiut phjut
-3350 yu4 ngyot ngiut ngjut
-3351 xi hiot xiot xj+t
-3352 ji kit kyt kj+t
-3353 yi4 ngiot ngiot ngj+t
-3354 ji2 giot giot gj+t
-3355 qi khiot qiot khj+t
-3356 yue4 ngyat ngvat ngjwot
-3357 fa2 byat bvat bjot
-3358 yue4 yat hvat hjwot
-3359 jue kyat kvat kjwot
-3360 yue qyat vat 'jwot
-3361 jue2 gyat gvat gjwot
-3362 que khyat qvat khjwot
-3363 fa pyat pvat pjot
-3364 wa4 myat mvat mjot
-3365 xue hyat xvat xjwot
-3366 ye qiat iat 'jot
-3367 xie hiat xiat xjot
-3368 jie kiat kiat kjot
-3369 jie2 giat giat gjot
-3370 fa phyat phvat phjot
-3371 ye4 ngiat ngiat ngjot
-3372 mo4 muot muot mwot
-3373 tu thuot thuot thwot
-3374 gu kuot kuot kwot
-3375 bo2 buot buot bwot
-3376 du tuot tuot twot
-3377 tu thuot thuot thwot
-3378 du2 duot duot dwot
-3379 wu uot uot 'wot
-3380 hu huot xuot xwot
-3381 wu4 nguot nguot ngwot
-3382 pu phuot phuot phwot
-3383 lu4 luot luot lwot
-3384 ku khuot quot khwot
-3385 nu4 nuot nuot nwot
-3386 su suot suot swot
-3387 cu chuot cuot tshwot
-3388 zu2 zuot dzuot dzwot
-3389 he2 ghvt hot hot
-3390 hu2 ghuot huot hwot
-3391 zu cuot zuot tswot
-3392 he2 ghat hat hat
-3393 he hat xat xat
-3394 da tat tat tat
-3395 ta that that that
-3396 e qat at 'at
-3397 la4 lat lat lat
-3398 ke khat qat khat
-3399 da2 dat dat dat
-3400 za2 zat dzat dzat
-3401 e4 ngat ngat ngat
-3402 ge kat kat kat
-3403 sa sat sat sat
-3404 ca chat cat tshat
-3405 na4 nat nat nat
-3406 mo4 muat muat mat
-3407 mo4 muat muat mat
-3408 wo4 nguat nguat ngwat
-3409 zuo2 zuat dzuat dzwat
-3410 bo puat puat pat
-3411 zuo cuat zuat tsat
-3412 guo kuat kuat kwat
-3413 kuo khuat quat khwat
-3414 huo2 ghuat huat hwat
-3415 duo2 duat duat dwat
-3416 huo huat xuat xwat
-3417 wo quat uat 'wat
-3418 zuo cuat zuat tswat
-3419 po phuat phuat phat
-3420 tuo thuat thuat thwat
-3421 luo4 luat luat lwat
-3422 duo tuat tuat twat
-3423 cuo chuat cuat tshwat
-3424 bo2 buat buat bat
-3425 xia2 ghret haet heat
-3426 zha cret traet tsreat
-3427 ba2 bret baet beat
-3428 qia khret qaet kheat
-3429 hua2 ghruet hoet hweat
-3430 ba pret paet peat
-3431 zhua truet toet trweat
-3432 wa qruet oet 'weat
-3433 na4 nruet noet nrweat
-3434 chua chret chaet tsrheat
-3435 gua kruet koet kweat
-3436 jia kret kaet keat
-3437 ya qret aet 'eat
-3438 sha sret shaet sreat
-3439 ma mret maet meat
-3440 xia hrat xaet xweat
-3441 na4 nret naet nreat
-3442 wa4 ngruet ngoet ngweat
-3443 kua khruet qoet khweat
-3444 pa phret phaet pheat
-3445 zhua cruet troet tsrweat
-3446 xia2 ghrat heat haet
-3447 ya qrat eat 'aet
-3448 ya4 ngrat ngeat ngaet
-3449 cha chrat chat tsrhaet
-3450 qia khrat qeat khaet
-3451 xia hrat xeat xaet
-3452 cha thrat theat trhaet
-3453 gua kruot koat kwaet
-3454 hua2 ghruat hoat hwaet
-3455 chua thruat thoat trhwaet
-3456 zhua truat toat trwaet
-3457 shua sruat shoat srwaet
-3458 wa4 ngruat ngoat ngwaet
-3459 chua chruat choat tsrhwaet
-3460 ma4 mrat meat maet
-3461 na4 nruat noat nrwaet
-3462 ba prat peat paet
-3463 jia krat keat kaet
-3464 zha2 zrat drat dzraet
-3465 zha trat teat traet
-3466  - nj'rat nyaet
-3467 xie set set set
-3468 qie chet cet tshet
-3469 jie ket ket ket
-3470 jie cet zet tset
-3471 xue huet xuet xwet
-3472 que khuet quet khwet
-3473 jue kuet kuet kwet
-3474 xue2 ghuet huet hwet
-3475 yue quet uet 'wet
-3476 die2 det det det
-3477 tie thet thet thet
-3478 xie2 ghet het het
-3479 nie4 net net net
-3480 jie2 zet dzet dzet
-3481 ye4 nget nget nget
-3482 mie4 met met met
-3483 bie pet pet pet
-3484 ye qet et 'et
-3485 qie khet qet khet
-3486 xie het xet xet
-3487 pie phet phet phet
-3488 bie2 bet bet bet
-3489 die tet tet tet
-3490 lie4 let let let
-3491 xie siet siet sjet
-3492 lie4 liet liet ljet
-3493 zhe triet tyet trjet
-3494 jie2 giet gyet gjet
-3495 re4 njet ret nyet
-3496 zhe cjet tjet tsyet
-3497 she2 zsjet djet zyet
-3498 she2 zjet zjet dzyet
-3499 ye4 ngiet ngyet ngjet
-3500 mie4 mjet miet mjiet
-3501 qie khiet qyet khjet
-3502 bie pjet piet pjiet
-3503 jue2 zyet dzvet dzjwet
-3504 jue cyet zvet tsjwet
-3505 xue syet svet sjwet
-3506 chuo thryet thwet trhjwet
-3507 yue4 jyet jvet ywet
-3508 que khjyet qvet khjwiet
-3509 yue qyet wet 'jwet
-3510 ruo4 njyet rvet nywet
-3511 shuo sjyet sjvet sywet
-3512 zhuo cjyet tjvet tsywet
-3513 chuo chjyet tcvet tsyhwet
-3514 zhuo tryet twet trjwet
-3515 lve4 lyet lvet ljwet
-3516 pie phjet phiet phjiet
-3517 bie2 biet byet bjet
-3518 zhe2 driet dyet drjet
-3519 bie piet pyet pjet
-3520 shuo sryet shwet srjwet
-3521 jue kiet kyet kjet
-3522 she sjet sjet syet
-3523 nve4 nryet nwet nrjwet
-3524 xue hyet xwet xjwet
-3525 yue qjyet vet 'jwiet
-3526 jue kyet kwet kjwet
-3527 zhuo cryet trwet tsrjwet
-3528 que chyet cvet tshjwet
-3529 jue cyet zvet tsjet
-3530 she sriet shet srjet
-3531 ye qiet yet 'jet
-3532 che thriet thyet trhjet
-3533 xue hiet xyet xjet
-3534 chuo chjyet tcvet tsyhwet
-3535 che chriet chet tsrhjet
-3536 xue2 zsyet szvet zjwet
-3537 che chjet tcet tsyhet
-3538 ye4 jet jet yet
-3539 zhe2 zriet dret dzrjet
-3540 yue4 jak jak yak
-3541 lve4 liak liak ljak
-3542 jue kiak kiak kjak
-3543 zhuo cjak tjak tsyak
-3544 shuo sjak sjak syak
-3545 ruo4 njak rak nyak
-3546 chuo chjak tcak tsyhak
-3547 yue qiak iak 'jak
-3548 que khiak qiak khjak
-3549 yue4 ngiak ngiak ngjak
-3550 shuo2 zjak zjak dzyak
-3551 chuo thriak thiak trhjak
-3552 xue siak siak sjak
-3553 zhuo criak triak tsrjak
-3554 jue ciak ziak tsjak
-3555 jue2 ziak dziak dzjak
-3556 que chiak ciak tshjak
-3557 jue2 giak giak gjak
-3558 yue qyak vak 'jwak
-3559 fo2 byak bvak bjak
-3560 xue hyak xvak xjwak
-3561 yue4 yak hvak hjwak
-3562 jue kyak kvak kjwak
-3563 zhuo triak tiak trjak
-3564 zhuo2 driak diak drjak
-3565 que khyak qvak khjwak
-3566 jue2 gyak gvak gjwak
-3567 nve4 nriak niak nrjak
-3568 fo phyak phvak phjak
-3569 xue hiak xiak xjak
-3570 duo2 dak dak dak
-3571 mo4 mak mak mak
-3572 luo4 lak lak lak
-3573 tuo thak thak thak
-3574 zuo cak zak tsak
-3575 cuo chak cak tshak
-3576 ge kak kak kak
-3577 ke khak qak khak
-3578 e4 ngak ngak ngak
-3579 po phuak phuak phak
-3580 e qak ak 'ak
-3581 bo2 buak buak bak
-3582 he hak xak xak
-3583 suo sak sak sak
-3584 he2 ghak hak hak
-3585 zuo2 zak dzak dzak
-3586 bo puak puak pak
-3587 nuo4 nak nak nak
-3588 huo huak xuak xwak
-3589 guo kuak kuak kwak
-3590 wo quak uak 'wak
-3591 huo2 ghuak huak hwak
-3592 kuo khuak quak khwak
-3593 wo4 nguak nguak ngwak
-3594 luo4 luak luak lwak
-3595 zuo cuak zuak tswak
-3596 mo4 mrak meak maek
-3597 zhe trak teak traek
-3598 bo2 brak beak baek
-3599 bo prak peak paek
-3600 ji2 giek gyak gjaek
-3601 ji kiek kyak kjaek
-3602 shi sriek shyak srjaek
-3603 chi chriek chyak tsrhjaek
-3604 huo2 ghruak hoak hwaek
-3605 zha crak trak tsraek
-3606 zhe2 zrak drak dzraek
-3607 qi khiek qyak khjaek
-3608 e4 ngrak ngeak ngaek
-3609 yi4 ngiek ngyak ngjaek
-3610 ke khrak qeak khaek
-3611 e qrak eak 'aek
-3612 xi hiek xyak xjaek
-3613 che thrak theak trhaek
-3614 wo qruak oak 'waek
-3615 po phrak pheak phaek
-3616 he hrak xeak xaek
-3617 he2 ghrak heak haek
-3618 ge krak keak kaek
-3619 huo hruak xoak xwaek
-3620 zhe2 drak deak draek
-3621 ge krak keak kwaek
-3622 yu qyek wak 'jwaek
-3623 nuo4 nruak noak nraek
-3624 kuo khruak qoak khwaek
-3625 bi2 biek byak bjaek
-3626 mo4 mrek maek meak
-3627 huo2 ghruek hoek hweak
-3628 guo kruek koek kweak
-3629 bo prek paek peak
-3630 bo2 brek baek beak
-3631 zhe2 zrek draek dzreak
-3632 zhe crek traek tsreak
-3633 zhuo2 zruek droek dzrweak
-3634 che chrek chaek tsrheak
-3635 ke khrek qaek kheak
-3636 huo hruek xoek xweak
-3637 he2 ghrek haek heak
-3638 ge krek kaek keak
-3639 zhe trek taek treak
-3640 e qrek aek 'eak
-3641 she srek shaek sreak
-3642 po phrek phaek pheak
-3643 e4 ngrek ngaek ngeak
-3644 le4 lrek laek leak
-3645 zhuo cruek troek tsrweak
-3646 shuo sruek shoek srweak
-3647  - gruek gweak
-3648 ne4 nrek naek nreak
-3649 xi siek siek sjek
-3650 ji ciek ziek tsjek
-3651 yi qjek iek 'jiek
-3652 yi4 jek jek yek
-3653 shi sjek sjek syek
-3654 chi chjek tcek tsyhek
-3655 shi2 zjek zjek dzyek
-3656 zhi cjek tjek tsyek
-3657 zhi2 driek diek drjek
-3658 qi chiek ciek tshjek
-3659 xi2 zsiek sziek zjek
-3660 ji2 ziek dziek dzjek
-3661 bi2 bjek biek bjiek
-3662 yu4 jyek jvek ywek
-3663 xu hjyek xvek xjwek
-3664 bi pjek piek pjiek
-3665 pi phjek phiek phjiek
-3666 shi2 zsjek djek zyek
-3667 bi pyek pvek pjaek
-3668 zhi triek tiek trjek
-3669 chi thriek thiek trhjek
-3670 zhu cjyek tjvek tsywek
-3671 qu chyek cvek tshjwek
-3672 xi sek sek sek
-3673 ji kek kek kek
-3674 pi phek phek phek
-3675 li4 lek lek lek
-3676 di tek tek tek
-3677 xi2 ghek hek hek
-3678 yi4 ngek ngek ngek
-3679 di2 dek dek dek
-3680 ti thek thek thek
-3681 ji cek zek tsek
-3682 qi khek qek khek
-3683 ni4 nek nek nek
-3684 ji2 zek dzek dzek
-3685 mi4 mek mek mek
-3686 bi2 bek bek bek
-3687 bi pek pek pek
-3688 qu khuek quek khwek
-3689 ju kuek kuek kwek
-3690 qi chek cek tshek
-3691 xi hek xek xek
-3692 xu huek xuek xwek
-3693  - thr'ek trhek
-3694 zhi cjik tjok tsyik
-3695 zhi2 drik diok drik
-3696 li4 lik liok lik
-3697 chi thrik thiok trhik
-3698 zhi trik tiok trik
-3699 shi2 zsjik djok zyik
-3700 xi sik siok sik
-3701 shi2 zjik zjok dzyik
-3702 shi sjik sjok syik
-3703 xi hik xiok xik
-3704 zhe2 zrik drok dzrik
-3705 ji2 gik giok gik
-3706 ni4 nrik niok nrik
-3707 che chrik chok tsrhik
-3708 yi qik iok 'ik
-3709 she srik shok srik
-3710 qi khik qiok khik
-3711 ji kik kiok kik
-3712 yi4 jik jok yik
-3713 ji cik ziok tsik
-3714 bi pik piok pik
-3715 yu4 yk hvok hwik
-3716 xu hyk xvok xwik
-3717 pi phik phiok phik
-3718 zhe crik trok tsrik
-3719 bi2 bik biok bik
-3720 yi4 ngik ngiok ngik
-3721 ji2 zik dziok dzik
-3722 zhi trik tiok trik
-3723 mi4 mik miok mik
-3724 chi chjik tcok tsyhik
-3725 de tok tok tok
-3726 ze cok zok tsok
-3727 le4 lok lok lok
-3728  - thok thok
-3729 ke khok qok khok
-3730 de2 dok dok dok
-3731 he hok xok xok
-3732 mo4 mok mok mok
-3733 ze2 zok dzok dzok
-3734 se sok sok sok
-3735 bo pok pok pok
-3736 bo2 bok bok bok
-3737 huo2 ghuok huok hwok
-3738 guo kuok kuok kwok
-3739 e qok ok 'ok
-3740 he2 ghok hok hok
-3741 ne4 nok nok nok
-3742 ge kok kok kok
-3743 ce chok cok tshok
-3744 po phok phok phok
-3745 huo huok xuok xwok
-3746 qi chip cip tship
-3747 shi2 zjip zjip dzyip
-3748 zhi cjip tjip tsyip
-3749 xi2 zsip szip zip
-3750 ji2 zip dzip dzip
-3751 ri4 njip rip nyip
-3752 yi qjip ip 'jip
-3753 shi sjip sjip syip
-3754 ji cip zip tsip
-3755 ji2 gip gyp gip
-3756 zhi2 drip dyp drip
-3757 zhi trip typ trip
-3758 li4 lip lip lip
-3759 ji kip kyp kip
-3760 yi4 ngip ngyp ngip
-3761 qi khip qyp khip
-3762 xi sip sip sip
-3763 she srip shyp srip
-3764 xi hip xyp xip
-3765  -  tsrip
-3766 yi qip yp 'ip
-3767 chi thrip thyp trhip
-3768 yi4 ip hyp hip
-3769 yi4 jip jip yip
-3770 ni4 nrip nyp nrip
-3771 zhe2 zrip dryp dzrip
-3772 bi2 bip byp bip
-3773 bi pip pyp pip
-3774 che chrip chyp tsrhip
-3775 chi chjip tcip tsyhip
-3776 he2 ghop hop hop
-3777 ge kop kop kop
-3778 da top top top
-3779 sa sop sop sop
-3780 da2 dop dop dop
-3781 ta thop thop thop
-3782 za2 zop dzop dzop
-3783 za cop zop tsop
-3784  - lop lop
-3785 na4 nop nop nop
-3786 ke khop qop khop
-3787 e qop op 'op
-3788 he hop xop xop
-3789 e4 ngop ngop ngop
-3790 ca chop cop tshop
-3791  - zj'op dzyop
-3792 e qop op 'op
-3793 he2 ghap hap hap
-3794 la4 lap lap lap
-3795 da tap tap tap
-3796 ta thap thap thap
-3797 he hap xap xap
-3798 na4 nap nap nap
-3799 da2 dap dap dap
-3800 sa sap sap sap
-3801 e4 ngap ngap ngap
-3802 za2 zap dzap dzap
-3803 ge kap kap kap
-3804 ke khap qap khap
-3805 e qap ap 'ap
-3806 ca chap cap tshap
-3807 ge kap kap kap
-3808  - cj'ap tsyap
-3809 ye4 jep jep yep
-3810 jie ciep ziep tsjep
-3811 she sjep sjep syep
-3812 she2 zjep zjep dzyep
-3813 lie4 liep liep ljep
-3814 jie2 ziep dziep dzjep
-3815 zhe2 driep dyep drjep
-3816 ye qiep yep 'jep
-3817 nie4 nriep nyep nrjep
-3818 che chjep tcep tsyhep
-3819 re4 njep rep nyep
-3820 zhe cjep tjep tsyep
-3821 qie chiep ciep tshjep
-3822 che thriep thyep trhjep
-3823 jie2 giep gyep gjep
-3824 zhe triep tyep trjep
-3825 ye4 iep hyep hjep
-3826 qie khjep qiep khjiep
-3827 she sriep shep srjep
-3828 jie kiep kyep kjep
-3829 ye qjep iep 'jiep
-3830 tie thep thep thep
-3831 xie2 ghep hep hep
-3832 jie kep kep kep
-3833 qie khep qep khep
-3834 die2 dep dep dep
-3835 nie4 nep nep nep
-3836 xie sep sep sep
-3837 lie4 lep lep lep
-3838 die tep tep tep
-3839 jie2 zep dzep dzep
-3840 jie cep zep tsep
-3841 xie hep xep xep
-3842 xie sep sep sep
-3843 xia2 ghrep haep heap
-3844 qia khrep qaep kheap
-3845 zha2 zrep draep dzreap
-3846 jia krep kaep keap
-3847 zha crep traep tsreap
-3848 cha chrep chaep tsrheap
-3849 na4 nrep naep nreap
-3850 xia hrep xaep xeap
-3851 sha srep shaep sreap
-3852 zha trep taep treap
-3853 ya qrep aep 'eap
-3854 ya4 ngrep ngaep ngeap
-3855 cha thrap thaep trheap
-3856 xia2 ghrap heap haep
-3857 zha trvp deap draep
-3858 ya qrap eap 'aep
-3859 jia krap keap kaep
-3860 sha srap shap sraep
-3861 xia hrap xeap xaep
-3862 ye4 ngiap ngiap ngjaep
-3863 xie hiap xiap xjaep
-3864 qie khiap qiap khjaep
-3865 jie kiap kiap kjaep
-3866 ye qiap iap 'jaep
-3867  - jap yaep
-3868 jie2 giap giap gjaep
-3869 fa2 byap bvap bjop
-3870 fa pyap pvap pjop
-3871 fa phyap phvap phjop
-3872  - khyap khjop
-3873  - nryap nrjop
-3874  - thryap trhjop
+#序號 古韻 有女 Baxter
+1 tung tung tuwng
+2 dung dung duwng
+3 triung tiung trjuwng
+4 driung diung drjuwng
+5 cjung tjung tsyuwng
+6 thriung thiung trhjuwng
+7 zriung drung dzrjuwng
+8 siung siung sjuwng
+9 njung rung nyuwng
+10 kiung kiung kjuwng
+11 jung jung yuwng
+12 iung hiung hjuwng
+13 miung miung mjuwng
+14 khiung qiung khjuwng
+15 giung giung gjuwng
+16 biung biung bjuwng
+17 piung piung pjuwng
+18 phiung phiung phjuwng
+19 chjung tcung tsyhuwng
+20 liung liung ljuwng
+21 khung qung khuwng
+22 kung kung kuwng
+23 mung mung muwng
+24 lung lung luwng
+25 ghung hung huwng
+26 zung dzung dzuwng
+27 qung ung uwng
+28 chung cung tshuwng
+29 thung thung thuwng
+30 cung zung tsuwng
+31 bung bung buwng
+32 hung xung xuwng
+33 ngung ngung nguwng
+34 sung sung suwng
+35 tuung tvng towng
+36 duung dvng downg
+37 zuung dzvng dzowng
+38 nuung nvng nowng
+39 kuung kvng kowng
+40 ghuung hvng howng
+41 luung lvng lowng
+42 cuung zvng tsowng
+43 suung svng sowng
+44 thuung thvng thowng
+45 cjyung tjvng tsyowng
+46 lyung livng ljowng
+47 sjyung sjvng syowng
+48 zsyung szivng zjowng
+49 chjyung tcvng tsyhowng
+50 jyung jvng yowng
+51 pyung pivng pjowng
+52 hyung xivng xjowng
+53 ngyung ngivng ngjowng
+54 qyung ivng jowng
+55 nryung nivng nrjowng
+56 dryung divng drjowng
+57 zyung dzivng dzjowng
+58 thryung thivng trhjowng
+59 byung bivng bjowng
+60 phyung phivng phjowng
+61 cyung zivng tsjowng
+62 njyung rvng nyowng
+63 gyung givng gjowng
+64 zjyung zjvng dzyowng
+65 kyung kivng kjowng
+66 syung sivng sjowng
+67 chyung civng tshjowng
+68 khyung qivng khjowng
+69 krung keong kaewng
+70 mrung meong maewng
+71 nrung neong nraewng
+72 chrung cheong tsrhaewng
+73 prung peong paewng
+74 ghrung heong haewng
+75 phrung pheong phaewng
+76 lrong leong laewng
+77 srung sheong sraewng
+78 brung beong baewng
+79 hrung xeong xaewng
+80 qrung eong aewng
+81 khrung qeong khaewng
+82 drung deong draewng
+83 thrung theong trhaewng
+84 trung teong traewng
+85 ngrung ngeong ngaewng
+86 zrung dreong dzraewng
+87 cje tje tsye
+88 je je ye
+89 ye hwe hjwe
+90 kye kwe kjwe
+91 hye xwe xjwe
+92 qye we jwe
+93 mie mye mje
+94 hjye xve xjwie
+95 drye dwe drjwe
+96 zjye zjve dzywe
+97 lye lve ljwe
+98 chjye tcve tsyhwe
+99 phie phye phje
+100 pie pye pje
+101 zsye szve zjwe
+102 khye qwe khjwe
+103 khjye qve khjwie
+104 gie gye gje
+105 gje gie gjie
+106 hie xye xje
+107 khie qye khje
+108 ngie ngye ngje
+109 bie bye bje
+110 zje zje dzye
+111 nje re nye
+112 lie lie lje
+113 zie dzie dzje
+114 cie zie tsje
+115 kie kye kje
+116 pje pie pjie
+117 bje bie bjie
+118 sje sje sye
+119 sie sie sje
+120 chrie chye tsrhje
+121 thrie thye trhje
+122 mje mie mjie
+123 chie cie tshje
+124 trie tye trje
+125 qie ye je
+126 drie dye drje
+127 sye sve sjwe
+128 ngye ngwe ngjwe
+129 hje xie xjie
+130 srie shye srje
+131 srye shwe srjwe
+132 njye rve nywe
+133 cie zie tsje
+134 kjye kve kjwie
+135 cye zve tsjwe
+136 chrye chwe tsrhjwe
+137 trye twe trjwe
+138 cye zve tsjwe
+139 chje tce tsyhe
+140 crie trye tsrje
+141 phje phie phjie
+142 jye jve ywe
+143 zrie drye dzrje
+144 cjii tji tsyij
+145 jii ji yij
+146 srii shy srij
+147 bjii bi bjij
+148 cii zi tsij
+149 kjii ki kij
+150 chjii tci tsyhij
+151 thrii thy trhij
+152 chii ci tshij
+153 zii dzi dzij
+154 nrii ny nrij
+155 drii dy drij
+156 sii si sij
+157 sjii sji syij
+158 gjii gi gij
+159 qjii i jij
+160 lii li lij
+161 gjyi gvi gjwij
+162 tryi twy trwij
+163 kyi kwy kwij
+164 njyi rvi nywij
+165 sryi shwy srwij
+166 jyi jvi ywij
+167 lyi lvi lwij
+168 syi svi swij
+169 gyi gwy gwij
+170 mii my mij
+171 pii py pij
+172 cjyi tjvi tsywij
+173 zjyi zjvi dzywij
+174 yi hwy hwij
+175 bii by bij
+176 phii phy phij
+177 hjyi xvi xjwij
+178 dryi dwy drwij
+179 -  tsyhwij
+180 trii ty trij
+181 phjii phi phjij
+182 cyi zvi tswij
+183 khyi qwy khwij
+184 ngjii ngi ngij
+185 hjii xi xjij
+186 cji tjio tsyi
+187 ji jio yi
+188 zji zjio dzyi
+189 ngi ngio ngi
+190 si sio si
+191 chri chio tsrhi
+192 gi gio gi
+193 sji sjio syi
+194 nji rio nyi
+195 khi qio khi
+196 ki kio ki
+197 zsi szio zi
+198 li lio li
+199 cri trio tsri
+200 hi xio xi
+201 qi io i
+202 thri thio trhi
+203 dri dio dri
+204 chji tcio tsyhi
+205 zi dzio dzi
+206 ci zio tsi
+207 zri drio dzri
+208 zsri zhio zri
+209 khi qio khi
+210 sji sjio syi
+211 myoi mvoi mj+j
+212 hyoi xvoi xjw+j
+213 yoi hvoi hjw+j
+214 phyoi phvoi phj+j
+215 pyoi pvoi pj+j
+216 byoi bvoi bj+j
+217 qyoi voi jw+j
+218 gioi gioi gj+j
+219 kioi kioi kj+j
+220 hioi xioi xj+j
+221 qioi ioi j+j
+222 ngioi ngioi ngj+j
+223 ngyoi ngvoi ngjw+j
+224 kyoi kvoi kjw+j
+225 khyoi qvoi khjw+j
+226 ngio ngiv ngjo
+227 chrio chv tsrhjo
+228 sjo sjv syo
+229 kio kiv kjo
+230 gio giv gjo
+231 jo jv yo
+232 sio siv sjo
+233 chio civ tshjo
+234 zrio drv dzrjo
+235 thrio thiv trhjo
+236 srio shv srjo
+237 hio xiv xjo
+238 zsio sziv zjo
+239 qio iv jo
+240 trio tiv trjo
+241 lio liv ljo
+242 cjo tjv tsyo
+243 drio div drjo
+244 njo rv nyo
+245 cio ziv tsjo
+246 khio qiv khjo
+247 crio trv tsrjo
+248 zjo zjv dzyo
+249 nrio niv nrjo
+250 ngyo ngiu ngju
+251 chryo chu tsrhju
+252 myo miu mju
+253 yo hiu hju
+254 hyo xiu xju
+255 gyo giu gju
+256 njyo ru nyu
+257 syo siu sju
+258 tryo tiu trju
+259 thryo thiu trhju
+260 zjyo zju dzyu
+261 jyo ju yu
+262 khyo qiu khju
+263 cjyo tju tsyu
+264 chyo ciu tshju
+265 lyo liu lju
+266 byo biu bju
+267 zryo dru dzrju
+268 cryo tru tsrju
+269 phyo phiu phju
+270 cyo ziu tsju
+271 pyo piu pju
+272 qyo iu ju
+273 sjyo sju syu
+274 chjyo tcu tsyhu
+275 dryo diu drju
+276 kyo kiu kju
+277 sryo shu srju
+278 mo mu mu
+279 bo bu bu
+280 gho hu hu
+281 ko ku ku
+282 do du du
+283 no nu nu
+284 ho xu xu
+285 ngo ngu ngu
+286 co zu tsu
+287 lo lu lu
+288 so su su
+289 zo dzu dzu
+290 qo u u
+291 po pu pu
+292 kho qu khu
+293 cho cu tshu
+294 tho thu thu
+295 to tu tu
+296 pho phu phu
+297 ze dzei dzej
+298 le lei lej
+299 che cei tshej
+300 te tei tej
+301 de dei dej
+302 pe pei pej
+303 ke kei kej
+304 ghe hei hej
+305 qe ei ej
+306 nge ngei ngej
+307 he xei xej
+308 se sei sej
+309 the thei thej
+310 be bei bej
+311 phe phei phej
+312 ce zei tsej
+313 me mei mej
+314 ne nei nej
+315 khe qei khej
+316 kue kuei kwej
+317 khue quei khwej
+318 ghue huei hwej
+319 - nj'e nyej
+320 - zj'e dzyej
+321 que uei wej
+322 hue xuei xwej
+323 kre kae kea
+324 ghre hae hea
+325 bre bae bea
+326 krue koe kwea
+327 qrue oe wea
+328 khrue qoe khwea
+329 zre drae dzrea
+330 chre chae tsrhea
+331 hrue xoe xwea
+332 nre nae nrea
+333 ngre ngae ngea
+334 qre ae ea
+335 sre shae srea
+336 hre xae xea
+337 thre thae trhea
+338 mre mae mea
+339 ghrue hoe hwea
+340 krai kaei keaj
+341 qrai aei eaj
+342 ghrai haei heaj
+343 brai baei beaj
+344 kruai koei kweaj
+345 ghruai hoei hweaj
+346 khruai qoei khweaj
+347 zrai draei dzreaj
+348 chrai chaei tsrheaj
+349 hruai xoei xweaj
+350 druai doei drweaj
+351 mrai maei meaj
+352 crai traei tsreaj
+353 ruvi oei weaj
+354 trai taei treaj
+355 lrai laei leaj
+356 khrai qaei kheaj
+357 nrai naei nreaj
+358 srai shaei sreaj
+359 ngrai ngaei ngeaj
+360 thrai thaei trheaj
+361 hrai xaei xeaj
+362 lruai loei lweaj
+363 zruai droei dzrweaj
+364 huai xuoi xwoj
+365 khuai quoi khwoj
+366 quai uoi woj
+367 ghuai huoi hwoj
+368 muai muoi mwoj
+369 kuai kuoi kwoj
+370 luai luoi lwoj
+371 duai duoi dwoj
+372 chuai cuoi tshwoj
+373 tuai tuoi twoj
+374 suai suoi swoj
+375 zuai dzuoi dzwoj
+376 buai buoi bwoj
+377 puai puoi pwoj
+378 phuai phuoi phwoj
+379 nguai nguoi ngwoj
+380 thuai thuoi thwoj
+381 nuai nuoi nwoj
+382 cuai zuoi tswoj
+383 hai xoi xoj
+384 khai qoi khoj
+385 qai oi oj
+386 dai doi doj
+387 kai koi koj
+388 zai dzoi dzoj
+389 lai loi loj
+390 cai zoi tsoj
+391 chai coi tshoj
+392 bai boi boj
+393 thai thoi thoj
+394 ghai hoi hoj
+395 sai soi soj
+396 ngai ngoi ngoj
+397 nai noi noj
+398 tai toi toj
+399 - chj'ai tsyhoj
+400 phai phoi phoj
+401 cjin tjin tsyin
+402 thrin thyn trhin
+403 qjin in jin
+404 sin sin sin
+405 zjin zjin dzyin
+406 njin rin nyin
+407 zsjin djin zyin
+408 chin cin tshin
+409 in hyn hin
+410 sjin sjin syin
+411 pjin pin pjin
+412 lin lin lin
+413 gin gyn gin
+414 trin tyn trin
+415 drin dyn drin
+416 cin zin tsin
+417 chjin tcin tsyhin
+418 zin dzin dzin
+419 jin jin yin
+420 nrin nyn nrin
+421 phjin phin phjin
+422 bjin bin bjin
+423 ngin ngyn ngin
+424 kin kyn kin
+425 kyn kwyn kwin
+426 yn hwyn hwin
+427 khyn qwyn khwin
+428 min myn min
+429 bin byn bin
+430 qin yn in
+431 qyn wyn win
+432 pin pyn pin
+433 mjin min mjin
+434 cjyn tjvin tsywin
+435 thryn thvin trhwin
+436 dryn dvin drwin
+437 syn svin swin
+438 zjyn zjvin dzywin
+439 njyn rvin nywin
+440 zsjyn djvin zywin
+441 lyn lvin lwin
+442 tryn tvin trwin
+443 chyn cvin tshwin
+444 cyn zvin tswin
+445 chjyn tcvin tsyhwin
+446 zyn dzvin dzwin
+447 jyn jvin ywin
+448 zsyn szvin zwin
+449 kjyn kvin kjwin
+450 -  gjin
+451 phin phyn phin
+452 crin tryin tsrin
+453 srin shyin srin
+454 zrin dryin dzrin
+455 myon miun mjun
+456 yon hiun hjun
+457 qyon iun jun
+458 byon biun bjun
+459 pyon piun pjun
+460 gyon giun gjun
+461 hyon xiun xjun
+462 kyon kiun kjun
+463 phyon phiun phjun
+464 hion xion xj+n
+465 qion ion j+n
+466 gion gion gj+n
+467 kion kion kj+n
+468 ngion ngion ngj+n
+469 ngyan ngvan ngjwon
+470 yan hvan hjwon
+471 byan bvan bjon
+472 phyan phvan phjon
+473 hyan xvan xjwon
+474 qyan van jwon
+475 ngian ngian ngjon
+476 khian qian khjon
+477 hian xian xjon
+478 kian kian kjon
+479 qian ian jon
+480 pyan pvan pjon
+481 gian gian gjon
+482 myan mvan mjon
+483 ghuon huon hwon
+484 kuon kuon kwon
+485 quon uon won
+486 muon muon mwon
+487 suon suon swon
+488 cuon zuon tswon
+489 zuon dzuon dzwon
+490 tuon tuon twon
+491 thuon thuon thwon
+492 duon duon dwon
+493 chuon cuon tshwon
+494 nguon nguon ngwon
+495 buon buon bwon
+496 puon puon pwon
+497 luon luon lwon
+498 khuon quon khwon
+499 huon xuon xwon
+500 phuon phuon phwon
+501 nuon nuon nwon
+502 ghon hon hon
+503 kon kon kon
+504 qon on on
+505 thon thon thon
+506 ngon ngon ngon
+507 ghan han han
+508 ngan ngan ngan
+509 tan tan tan
+510 qan an an
+511 nan nan nan
+512 chan can tshan
+513 than than than
+514 san san san
+515 dan dan dan
+516 zan dzan dzan
+517 kan kan kan
+518 lan lan lan
+519 khan qan khan
+520 han xan xan
+521 nuan nuan nwan
+522 ghuan huan hwan
+523 nguan nguan ngwan
+524 tuan tuan twan
+525 quan uan wan
+526 thuan thuan thwan
+527 suan suan swan
+528 duan duan dwan
+529 zuan dzuan dzwan
+530 kuan kuan kwan
+531 luan luan lwan
+532 huan xuan xwan
+533 khuan quan khwan
+534 cuan zuan tswan
+535 buan buan ban
+536 muan muan man
+537 phuan phuan phan
+538 puan puan pan
+539 sran shan sraen
+540 kruan koan kwaen
+541 qruan oan waen
+542 sruan shoan srwaen
+543 ghruan hoan hwaen
+544 pran pean paen
+545 mran mean maen
+546 ngran ngean ngaen
+547 kran kean kaen
+548 phran phean phaen
+549 nruan noan nrwaen
+550 ngruan ngoan ngwaen
+551 khran qean khaen
+552 khran qean khaen
+553 cruan troan tsrwaen
+554 sren shaen srean
+555 kruen koen kwean
+556 kren kaen kean
+557 ghren haen hean
+558 khren qaen khean
+559 zren draen dzrean
+560 hren xaen xean
+561 ngren ngaen ngean
+562 qren aen ean
+563 pren paen pean
+564 lren laen lean
+565 nren naen nrean
+566 - chj'ren tsyhean
+567 - i'ruen wean
+568 - d'ruen dwean
+569 lruen loen lwean
+570 - gruen gwean
+571 tren taen trean
+572 dren daen drean
+573 ghruen hoen hwean
+574 - z'ren dzean
+575 sen sen sen
+576 zen dzen dzen
+577 chen cen tshen
+578 cen zen tsen
+579 then then then
+580 ken ken ken
+581 ghen hen hen
+582 qen en en
+583 len len len
+584 den den den
+585 nen nen nen
+586 ten ten ten
+587 khen qen khen
+588 ngen ngen ngen
+589 men men men
+590 ben ben ben
+591 quen uen wen
+592 kuen kuen kwen
+593 huen xuen xwen
+594 pen pen pen
+595 ghuen huen hwen
+596 hen xen xen
+597 - zr'en dzrwen
+598 sien sien sjen
+599 zien dzien dzjen
+600 chien cien tshjen
+601 cien zien tsjen
+602 njen ren nyen
+603 jen jen yen
+604 cjen tjen tsyen
+605 kjen kien kjien
+606 trien tyen trjen
+607 zrien dren dzrjen
+608 sjen sjen syen
+609 thrien thyen trhjen
+610 zjen zjen dzyen
+611 drien dyen drjen
+612 hjen xien xjien
+613 lien lien ljen
+614 phjen phien phjien
+615 bjen bien bjien
+616 mjen mien mjien
+617 zyen dzven dzjwen
+618 syen sven sjwen
+619 cyen zven tsjwen
+620 hjyen xven xjwien
+621 njyen rven nywen
+622 chjyen tcven tsyhwen
+623 jyen jven ywen
+624 zsyen szven zjwen
+625 qjyen ven jwien
+626 zsjyen djven zywen
+627 pjen pien pjien
+628 zsien szien zjen
+629 chyen cven tshjwen
+630 cjyen tjven tsywen
+631 zjyen zjven dzywen
+632 yen hwen hjwen
+633 cryen trwen tsrjwen
+634 sryen shwen srjwen
+635 thryen thwen trhjwen
+636 gien gyen gjen
+637 khien qyen khjen
+638 gyen gwen gjwen
+639 dryen dwen drjwen
+640 lyen lven ljwen
+641 khyen qwen khjwen
+642 qien yen jen
+643 ien hyen hjen
+644 qyen wen jwen
+645 chjen tcen tsyhen
+646 tryen twen trjwen
+647 kyen kwen kjwen
+648 seu seu sew
+649 theu theu thew
+650 teu teu tew
+651 deu deu dew
+652 keu keu kew
+653 leu leu lew
+654 ngeu ngeu ngew
+655 heu xeu xew
+656 qeu eu ew
+657 kheu qeu khew
+658 sieu sieu sjew
+659 thrieu thyeu trhjew
+660 trieu tyeu trjew
+661 drieu dyeu drjew
+662 hieu xyeu xjew
+663 zieu dzieu dzjew
+664 kieu kyeu kjew
+665 cieu zieu tsjew
+666 njeu reu nyew
+667 sjeu sjeu syew
+668 jeu jeu yew
+669 zjeu zjeu dzyew
+670 cjeu tjeu tsyew
+671 pjeu pieu pjiew
+672 pieu pyeu pjew
+673 bjeu bieu bjiew
+674 mjeu mieu mjiew
+675 mieu myeu mjew
+676 qjeu ieu jiew
+677 ieu hyeu hjew
+678 gieu gyeu gjew
+679 chieu cieu tshjew
+680 qieu yeu jew
+681 khjeu qieu khjiew
+682 chjeu tceu tsyhew
+683 phjeu phieu phjiew
+684 gjeu gieu gjiew
+685 lieu lieu ljew
+686 khieu qyeu khjew
+687 ghrau heau haew
+688 krau keau kaew
+689 zrau drau dzraew
+690 nrau neau nraew
+691 srau shau sraew
+692 mrau meau maew
+693 hrau xeau xaew
+694 prau peau paew
+695 phrau pheau phaew
+696 khrau qeau khaew
+697 ngrau ngeau ngaew
+698 crau trau tsraew
+699 trau teau traew
+700 chrau chau tsrhaew
+701 brau beau baew
+702 qrau eau aew
+703 thrau theau trhaew
+704 lrau leau laew
+705 drau deau draew
+706 ghau hau haw
+707 kau kau kaw
+708 lau lau law
+709 hau xau xaw
+710 mau mau maw
+711 thau thau thaw
+712 tau tau taw
+713 sau sau saw
+714 bau bau baw
+715 pau pau paw
+716 dau dau daw
+717 cau zau tsaw
+718 ngau ngau ngaw
+719 zau dzau dzaw
+720 qau au aw
+721 nau nau naw
+722 khau qau khaw
+723 chau cau tshaw
+724 phau phau phaw
+725 ka ka ka
+726 cha ca tsha
+727 ta ta ta
+728 sa sa sa
+729 da da da
+730 za dza dza
+731 nga nga nga
+732 tha tha tha
+733 la la la
+734 na na na
+735 gha ha ha
+736 ha xa xa
+737 kha qa kha
+738 qa a a
+739 kua kua kwa
+740 chua cua tshwa
+741 tua tua twa
+742 sua sua swa
+743 bua bua ba
+744 dua dua dwa
+745 mua mua ma
+746 zua dzua dzwa
+747 ngua ngua ngwa
+748 thua thua thwa
+749 lua lua lwa
+750 nua nua nwa
+751 pua pua pa
+752 phua phua pha
+753 ghua hua hwa
+754 khua qua khwa
+755 qua ua wa
+756 hya xva xjwa
+757 qya va jwa
+758 khya qva khjwa
+759 gia gia gja
+760 khia qia khja
+761 kia kia kja
+762 chya cva tshjwa
+763 cya zva tsjwa
+764 gya gva gjwa
+765 lya lva ljwa
+766 mra mea mae
+767 chja tca tsyhae
+768 sja sja syae
+769 ja ja yae
+770 cja tja tsyae
+771 cia zya tsjae
+772 zsja dja zyae
+773 ghrua hoa hwae
+774 krua koa kwae
+775 hrua xoa xwae
+776 khrua qoa khwae
+777 nra nea nrae
+778 kra kea kae
+779 ghra hea hae
+780 phra phea phae
+781 qra ea ae
+782 pra pea pae
+783 chra cha tsrhae
+784 sra sha srae
+785 ngra ngea ngae
+786 cra tra tsrae
+787 dra dea drae
+788 zsia szya zjae
+789 zja zja dzyae
+790 qrua oa wae
+791 crua troa tsrwae
+792 trua toa trwae
+793 bra bea bae
+794 zra dra dzrae
+795 thra thea trhae
+796 tra tea trae
+797 hra xea xae
+798 khra qea khae
+799 zia dzya dzjae
+800 nja ra nyae
+801 sia sya sjae
+802 tria tya trjae
+803 ngrua ngoa ngwae
+804 khra qea khae
+805 jang jang yang
+806 zsiang sziang zjang
+807 liang liang ljang
+808 hiang xiang xjang
+809 sjang sjang syang
+810 byang bvang bjang
+811 cjang tjang tsyang
+812 chjang tcang tsyhang
+813 khiang qiang khjang
+814 kiang kiang kjang
+815 driang diang drjang
+816 triang tiang trjang
+817 njang rang nyang
+818 pyang pvang pjang
+819 siang siang sjang
+820 ciang ziang tsjang
+821 chriang chiang tsrhjang
+822 myang mvang mjang
+823 nriang niang nrjang
+824 zriang driang dzrjang
+825 criang triang tsrjang
+826 zjang zjang dzyang
+827 sriang shiang srjang
+828 ziang dziang dzjang
+829 chiang ciang tshjang
+830 khyang qvang khjwang
+831 yang hvang hjwang
+832 qiang iang jang
+833 giang giang gjang
+834 thriang thiang trhjang
+835 phyang phvang phjang
+836 gyang gvang gjwang
+837 dang dang dang
+838 lang lang lang
+839 tang tang tang
+840 chang cang tshang
+841 kang kang kang
+842 sang sang sang
+843 khang qang khang
+844 huang xuang xwang
+845 ghuang huang hwang
+846 kuang kuang kwang
+847 thang thang thang
+848 phang phang phang
+849 quang uang wang
+850 qang ang ang
+851 hang xang xang
+852 ghang hang hang
+853 mang mang mang
+854 cang zang tsang
+855 nang nang nang
+856 bang bang bang
+857 ngang ngang ngang
+858 zang dzang dzang
+859 khuang quang khwang
+860 pang pang pang
+861 krang keang kaeng
+862 khrang qeang khaeng
+863 mrang meang maeng
+864 ghruang hoang hwaeng
+865 prang peang paeng
+866 hruang xoang xwaeng
+867 kruang koang kwaeng
+868 brang beang baeng
+869 hrang xeang xaeng
+870 thrang theang trhaeng
+871 chrang chang tsrhaeng
+872 zrang drang dzraeng
+873 qieng yang jaeng
+874 phivng phyang phjaeng
+875 bieng byang bjaeng
+876 kieng kyang kjaeng
+877 mieng myang mjaeng
+878 drang deang draeng
+879 trang teang traeng
+880 yeng hwang hjwaeng
+881 pieng pyang pjaeng
+882 hyeng xwang xjwaeng
+883 khieng qyang khjaeng
+884 srvng shang sraeng
+885 gieng gyang gjaeng
+886 ngieng ngyang ngjaeng
+887 ghrang heang haeng
+888 nrang neang nraeng
+889 kreng kaeng keang
+890 khreng qaeng kheang
+891 mreng maeng meang
+892 preng paeng peang
+893 ghrueng hoeng hweang
+894 ghreng haeng heang
+895 treng taeng treang
+896 qreng aeng eang
+897 zrang draeng dzreang
+898 chreng chaeng tsrheang
+899 nreng naeng nreang
+900 phreng phaeng pheang
+901 hrueng xoeng xweang
+902 preng paeng peang
+903 dreng daeng dreang
+904 qrueng oeng weang
+905 breng baeng beang
+906 ngreng ngaeng ngeang
+907 creng traeng tsreang
+908 chieng cieng tshjeng
+909 zieng dzieng dzjeng
+910 cieng zieng tsjeng
+911 jeng jeng yeng
+912 jyeng jveng yweng
+913 qjeng ieng jieng
+914 trieng tieng trjeng
+915 thrieng thieng trhjeng
+916 zjeng zjeng dzyeng
+917 drieng dieng drjeng
+918 sjeng sjeng syeng
+919 cjeng tjeng tsyeng
+920 khjeng qieng khjieng
+921 mjeng mieng mjieng
+922 lieng lieng ljeng
+923 pjeng pieng pjieng
+924 khjyeng qveng khjwieng
+925 zsieng szieng zjeng
+926 qyeng veng jwieng
+927 gjyeng gveng gjwieng
+928 syeng sveng sjweng
+929 gjeng gieng gjieng
+930 hjyeng xveng xjweng
+931 cheng ceng tsheng
+932 keng keng keng
+933 gheng heng heng
+934 deng deng deng
+935 teng teng teng
+936 heng xeng xeng
+937 seng seng seng
+938 pheng pheng pheng
+939 leng leng leng
+940 neng neng neng
+941 theng theng theng
+942 meng meng meng
+943 beng beng beng
+944 ghueng hueng hweng
+945 kueng kueng kweng
+946 cjing tjong tsying
+947 zjing zjong dzying
+948 dring diong dring
+949 ling liong ling
+950 qing iong ing
+951 bing biong bing
+952 ping piong ping
+953 jing jong ying
+954 zsjing djong zying
+955 sjing sjong sying
+956 njing rong nying
+957 king kiong king
+958 tring tiong tring
+959 zing dziong dzing
+960 nging ngiong nging
+961 hing xiong xing
+962 chjing tcong tsyhing
+963 ging giong ging
+964 sring shong sring
+965 khing qiong khing
+966 thring thiong trhing
+967 zring drong dzring
+968 phing phiong phing
+969 tong tong tong
+970 long long long
+971 song song song
+972 pong pong pong
+973 cong zong tsong
+974 mong mong mong
+975 zong dzong dzong
+976 bong bong bong
+977 ghuong huong hwong
+978 kuong kuong kwong
+979 huong xuong xwong
+980 nong nong nong
+981 dong dong dong
+982 ghong hong hong
+983 kong kong kong
+984 thong thong thong
+985 phong phong phong
+986 iu hiou hjuw
+987 qiu iou juw
+988 liu liou ljuw
+989 chiu ciou tshjuw
+990 ju jou yuw
+991 ngiu ngiou ngjuw
+992 ciu ziou tsjuw
+993 ziu dziou dzjuw
+994 siu siou sjuw
+995 thriu thiou trhjuw
+996 khiu qiou khjuw
+997 chju tcou tsyhuw
+998 cju tjou tsyuw
+999 zju zjou dzyuw
+1000 nju rou nyuw
+1001 sju sjou syuw
+1002 khiu qiou khjuw
+1003 phiu phiou phjuw
+1004 kiu kiou kjuw
+1005 piu piou pjuw
+1006 sriu shou srjuw
+1007 chriu chou tsrhjuw
+1008 criu trou tsrjuw
+1009 zriu drou dzrjuw
+1010 hiu xiou xjuw
+1011 zsiu sziou zjuw
+1012 driu diou drjuw
+1013 triu tiou trjuw
+1014 giu giou gjuw
+1015 biu biou bjuw
+1016 miu miou mjuw
+1017 ghu hou huw
+1018 qu ou uw
+1019 nu nou nuw
+1020 lu lou luw
+1021 su sou suw
+1022 khu qou khuw
+1023 hu xou xuw
+1024 cu zou tsuw
+1025 thu thou thuw
+1026 du dou duw
+1027 ngu ngou nguw
+1028 ku kou kuw
+1029 tu tou tuw
+1030 zu dzou dzuw
+1031 bu bou buw
+1032 chu cou tshuw
+1033 mu mou muw
+1034 qy yu jiw
+1035 gy gyu gjiw
+1036 py pyu pjiw
+1037 ly lyu ljiw
+1038 ky kyu kjiw
+1039 by byu bjiw
+1040 cy zyu tsjiw
+1041 sry shyu srjiw
+1042 ngy ngyu ngjiw
+1043 hy xyu xjiw
+1044 my myu mjiw
+1045 chim cim tshim
+1046 zsim szim zim
+1047 lim lim lim
+1048 thrim thym trhim
+1049 cjim tjim tsyim
+1050 drim dym drim
+1051 trim tym trim
+1052 zjim zjim dzyim
+1053 njim rim nyim
+1054 sjim sjim syim
+1055 jim jim yim
+1056 sim sim sim
+1057 qjim im jim
+1058 cim zim tsim
+1059 zim dzim dzim
+1060 nrim nym nrim
+1061 gim gym gim
+1062 khim qym khim
+1063 ngim ngym ngim
+1064 him xym xim
+1065 kim kym kim
+1066 qim ym im
+1067 srim shym srim
+1068 zrim drym dzrim
+1069 crim trym tsrim
+1070 chrim chym tsrhim
+1071 chjim tcim tsyhim
+1072 dom dom dom
+1073 chom com tshom
+1074 nom nom nom
+1075 qom om om
+1076 ghom hom hom
+1077 lom lom lom
+1078 zom dzom dzom
+1079 com zom tsom
+1080 thom thom thom
+1081 tom tom tom
+1082 khom qom khom
+1083 hom xom xom
+1084 som som som
+1085 kom kom kom
+1086 ngom ngom ngom
+1087 dam dam dam
+1088 kam kam kam
+1089 tam tam tam
+1090 sam sam sam
+1091 lam lam lam
+1092 kham qam kham
+1093 tham tham tham
+1094 zam dzam dzam
+1095 gham ham ham
+1096 mam mam mam
+1097 zam dzam dzam
+1098 ham xam xam
+1099 jem jem yem
+1100 liem liem ljem
+1101 piem pyem pjem
+1102 siem siem sjem
+1103 chiem ciem tshjem
+1104 cjem tjem tsyem
+1105 zjem zjem dzyem
+1106 sjem sjem syem
+1107 chjem tcem tsyhem
+1108 njem rem nyem
+1109 nriem nyem nrjem
+1110 iem hyem hjem
+1111 triem tyem trjem
+1112 thriem thyem trhjem
+1113 qiem yem jem
+1114 khiem qyem khjem
+1115 ngiem ngyem ngjem
+1116 ciem ziem tsjem
+1117 ziem dziem dzjem
+1118 giem gyem gjem
+1119 qjem iem jiem
+1120 zsiem sziem zjem
+1121 sriem shem srjem
+1122 driem dyem drjem
+1123 gjem giem gjiem
+1124 them them them
+1125 tem tem tem
+1126 dem dem dem
+1127 lem lem lem
+1128 khem qem khem
+1129 kem kem kem
+1130 ghem hem hem
+1131 nem nem nem
+1132 hem xem xem
+1133 ghrem haem heam
+1134 krem kaem keam
+1135 srem shaem sream
+1136 qrem aem eam
+1137 ngrem ngaem ngeam
+1138 hrem xaem xeam
+1139 trem taem tream
+1140 nrem naem nream
+1141 zrem draem dzream
+1142 khrem qaem kheam
+1143 ghram heam haem
+1144 zram dram dzraem
+1145 ngram ngeam ngaem
+1146 chram cham tsrhaem
+1147 sram sham sraem
+1148 kram keam kaem
+1149 bram beam baem
+1150 khram qeam khaem
+1151 ngiam ngiam ngjaem
+1152 hiam xiam xjaem
+1153 qiam iam jaem
+1154 khiam qiam khjaem
+1155 byam bvam bjom
+1156 phyam phvam phjom
+1157 tungx tunk tuwngX
+1158 mungx munk muwngX
+1159 khungx qunk khuwngX
+1160 sungx sunk suwngX
+1161 thungx thunk thuwngX
+1162 cungx zunk tsuwngX
+1163 ghungx hunk huwngX
+1164 qungx unk uwngX
+1165 nungx nunk nuwngX
+1166 pungx punk puwngX
+1167 lungx lunk luwngX
+1168 hungx xunk xuwngX
+1169 dungx dunk duwngX
+1170 bungx bunk buwngX
+1171 cjyungx tjvnk tsyowngX
+1172 thryungx thivnk trhjowngX
+1173 lyungx livnk ljowngX
+1174 qyungx ivnk jowngX
+1175 njyungx rvnk nyowngX
+1176 dryungx divnk drjowngX
+1177 tryungx tivnk trjowngX
+1178 byungx bivnk bjowngX
+1179 phyungx phivnk phjowngX
+1180 jyungx jvnk yowngX
+1181 khyungx qivnk khjowngX
+1182 zjyungx zjvnk dzyowngX
+1183 kyungx kivnk kjowngX
+1184 syungx sivnk sjowngX
+1185 hyungx xivnk xjowngX
+1186 pyungx pivnk pjowngX
+1187 tongx tvnk towngX
+1188 muungx mvnk mowngX
+1189 gyungx givnk gjowngX
+1190 chjyungx tcvnk tsyhowngX
+1191 cjyungx tjvnk tsyowngX
+1192 cyungx zivnk tsjowngX
+1193 krungx keonk kaewngX
+1194 brungx beonk baewngX
+1195 qrungx eonk aewngX
+1196 mrungx meonk maewngX
+1197 ghrungx heonk haewngX
+1198 prungx peonk paewngX
+1199 hrungx xeonk xaewngX
+1200 cjex tjee tsyeX
+1201 zjex zjee dzyeX
+1202 miex myee mjeX
+1203 piex pyee pjeX
+1204 biex byee bjeX
+1205 hyex xwee xjweX
+1206 qyex wee jweX
+1207 khyex qwee khjweX
+1208 kyex kwee kjweX
+1209 syex svee sjweX
+1210 lyex lvee ljweX
+1211 giex gyee gjeX
+1212 qiex yee jeX
+1213 kiex kyee kjeX
+1214 khiex qyee khjeX
+1215 ngiex ngyee ngjeX
+1216 yex hwee hjweX
+1217 cyex zvee tsjweX
+1218 njyex rvee nyweX
+1219 chiex ciee tshjeX
+1220 driex dyee drjeX
+1221 siex siee sjeX
+1222 jex jee yeX
+1223 liex liee ljeX
+1224 sriex shyee srjeX
+1225 piex pyee pjieX
+1226 njex ree nyeX
+1227 mjex miee mjieX
+1228 bjex biee bjieX
+1229 chjex tcee tsyheX
+1230 sjex sjee syeX
+1231 ciex ziee tsjeX
+1232 cjyex tjvee tsyweX
+1233 chryex chwee tsrhjweX
+1234 zsyex szvee zjweX
+1235 zsjex djee zyeX
+1236 criex tryee tsrjeX
+1237 phiex phyee phjeX
+1238 phjex phiee phjieX
+1239 jyex jvee yweX
+1240 zyex dzvee dzjweX
+1241 khyex qwee khjwieX
+1242 nriex nyee nrjeX
+1243 ngyex ngwee ngjweX
+1244 gyex gwee gjweX
+1245 thriex thyee trhjeX
+1246 triex tyee trjeX
+1247 hiex xyee xjeX
+1248 khyex qwee khjieX
+1249 zjyex zjvee dzyweX
+1250 kjex kiee kjieX
+1251 cjiix tjyy tsyijX
+1252 zjiix zjii dzyijX
+1253 miix myy mijX
+1254 piix pyy pijX
+1255 zsiix szyy zijX
+1256 kjiix kii kijX
+1257 ciix zii tsijX
+1258 pjiix pii pjijX
+1259 kyix kwyy kwijX
+1260 yix hwyy hwijX
+1261 sjiix sjyy syijX
+1262 driix dyy drijX
+1263 siix syy sijX
+1264 bjiix bii bjijX
+1265 liix lii lijX
+1266 sjyix sjwyy sywijX
+1267 lyix lvii lwijX
+1268 gjyix gvii gjwijX
+1269 chyix cvii tshwijX
+1270 nriix nyy nrijX
+1271 kjyix kvii kjwijX
+1272 biix byy bijX
+1273 zyix dzvii dzwijX
+1274 phiix phyy phijX
+1275 njyix rvii nywijX
+1276 jyix jvii ywijX
+1277 qjiix ii ijX
+1278 cyix zvii tswijX
+1279 triix tyy trijX
+1280 thriix thyy trhijX
+1281 cjiix tjyy tsyijX
+1282 hjyix xvii xjwijX
+1283 gyix gwyy gwijX
+1284 gjiix gii gijX
+1285 khyix qwyy khwijX
+1286 cjix tjiio tsyiX
+1287 zjix zjiio dzyiX
+1288 trix tiio triX
+1289 hix xiio xiX
+1290 kix kiio kiX
+1291 jix jiio yiX
+1292 zsix sziio ziX
+1293 srix shiio sriX
+1294 njix riio nyiX
+1295 lix liio liX
+1296 six siio siX
+1297 sjix sjiio syiX
+1298 drix diio driX
+1299 khix qiio khiX
+1300 zrix driio dzriX
+1301 zsrix zhiio zriX
+1302 cix ziio tsiX
+1303 ix hiio hiX
+1304 ngix ngiio ngiX
+1305 chjix tciio tsyhiX
+1306 thrix thiio trhiX
+1307 chrix chiio tsrhiX
+1308 crix triio tsriX
+1309 qix iio iX
+1310 nrix niio nriX
+1311 myoix mvoj mj+jX
+1312 qioix ioj j+jX
+1313 khioix qioj khj+jX
+1314 kioix kioj kj+jX
+1315 phyoix phvoj phj+jX
+1316 pyoix pvoj pj+jX
+1317 yoix hvoj hjw+jX
+1318 kyoix kvoj kjw+jX
+1319 hyoix xvoj xjw+jX
+1320 ngioix ngioj ngj+jX
+1321 hioix xioj xj+jX
+1322 qyoix voj jw+jX
+1323 byoix bvoj bj+jX
+1324 ngiox ngivv ngjoX
+1325 liox livv ljoX
+1326 driox divv drjoX
+1327 jox jvv yoX
+1328 cjox tjvv tsyoX
+1329 njox rvv nyoX
+1330 sjox sjvv syoX
+1331 chjox tcvv tsyhoX
+1332 triox tivv trjoX
+1333 siox sivv sjoX
+1334 thriox thivv trhjoX
+1335 nriox nivv nrjoX
+1336 hiox xivv xjoX
+1337 giox givv gjoX
+1338 sriox shvv srjoX
+1339 chriox chvv tsrhjoX
+1340 criox trvv tsrjoX
+1341 zriox drvv dzrjoX
+1342 ziox dzivv dzjoX
+1343 qiox ivv joX
+1344 kiox kivv kjoX
+1345 zsiox szivv zjoX
+1346 khiox qivv khjoX
+1347 zsjox djvv zyoX
+1348 zjox zjvv dzyoX
+1349 chiox civv tshjoX
+1350 ciox zivv tsjoX
+1351 ngyox ngiuu ngjuX
+1352 yox hiuu hjuX
+1353 zyox dziuu dzjuX
+1354 pyox piuu pjuX
+1355 myox miuu mjuX
+1356 byox biuu bjuX
+1357 phyox phiuu phjuX
+1358 dryox diuu drjuX
+1359 hyox xiuu xjuX
+1360 zjyox zjuu dzyuX
+1361 jyox juu yuX
+1362 cjyox tjuu tsyuX
+1363 qyox iuu juX
+1364 khyox qiuu khjuX
+1365 tryox tiuu trjuX
+1366 njyox ruu nyuX
+1367 gyox giuu gjuX
+1368 sryox shuu srjuX
+1369 kyox kiuu kjuX
+1370 chyox ciuu tshjuX
+1371 lyox liuu ljuX
+1372 syox siuu sjuX
+1373 zryox druu dzrjuX
+1374 mox muu muX
+1375 thox thuu thuX
+1376 dox duu duX
+1377 lox luu luX
+1378 chox cuu tshuX
+1379 tox tuu tuX
+1380 kox kuu kuX
+1381 ngox nguu nguX
+1382 box buu buX
+1383 zox dzuu dzuX
+1384 cox zuu tsuX
+1385 hox xuu xuX
+1386 qox uu uX
+1387 khox quu khuX
+1388 nox nuu nuX
+1389 ghox huu huX
+1390 phox phuu phuX
+1391 pox puu puX
+1392 zex dzej dzejX
+1393 lex lej lejX
+1394 thex thej thejX
+1395 phex phej phejX
+1396 cex zej tsejX
+1397 tex tej tejX
+1398 dex dej dejX
+1399 nex nej nejX
+1400 sex sej sejX
+1401 chex cej tshejX
+1402 khex qej khejX
+1403 hex xej xejX
+1404 mex mej mejX
+1405 bex bej bejX
+1406 qex ej ejX
+1407 ngex ngej ngejX
+1408 pex pej pejX
+1409 ghrex haae heaX
+1410 mrex maae meaX
+1411 khrex qaae kheaX
+1412 drex daae dreaX
+1413 nrex naae nreaX
+1414 brex baae beaX
+1415 qrex aae eaX
+1416 prex paae peaX
+1417 krex kaae keaX
+1418 srex shaae sreaX
+1419 kruex kooe kweaX
+1420 druex dooe drweaX
+1421 ghruaix hooe hweaX
+1422 hruex xooe xweaX
+1423 - grex geaX
+1424 ghraix haej heajX
+1425 khraix qaej kheajX
+1426 ngraix ngaej ngeajX
+1427 qraix aej eajX
+1428 huaix xuoj xwojX
+1429 quaix uoj wojX
+1430 luaix luoj lwojX
+1431 duaix duoj dwojX
+1432 zuaix dzuoj dzwojX
+1433 muaix muoj mwojX
+1434 thuaix thuoj thwojX
+1435 ghuaix huoj hwojX
+1436 khuaix quoj khwojX
+1437 tuaix tuoj twojX
+1438 nuaix nuoj nwojX
+1439 - tr'uaix trwojX
+1440 nguaix nguoj ngwojX
+1441 chuaix cuoj tshwojX
+1442 buaix buoj bwojX
+1443 cuaix zuoj tswojX
+1444 - i'uaix hwojX
+1445 haix xoj xojX
+1446 khaix qoj khojX
+1447 caix zoj tsojX
+1448 daix doj dojX
+1449 naix noj nojX
+1450 kaix koj kojX
+1451 ghaix hoj hojX
+1452 phaix phoj phojX
+1453 chaix coj tshojX
+1454 - chj'aix tsyhojX
+1455 taix toj tojX
+1456 maix moj mojX
+1457 zaix dzoj dzojX
+1458 phaix phoj phojX
+1459 qaix oj ojX
+1460 - j'aix yojX
+1461 thaix thoj thojX
+1462 - nj'aix nyojX
+1463 laix loj lojX
+1464 - j'aix yojX
+1465 baix boj bojX
+1466 cjinx tjiin tsyinX
+1467 thrinx thyyn trhinX
+1468 zjinx zjiin dzyinX
+1469 njinx riin nyinX
+1470 sjinx sjiin syinX
+1471 linx liin linX
+1472 drinx dyyn drinX
+1473 kjinx kiin kjinX
+1474 zinx dziin dzinX
+1475 cinx ziin tsinX
+1476 bjinx biin bjinX
+1477 ngjinx ngiin nginX
+1478 chinx ciin tshinX
+1479 gynx gwyyn gwinX
+1480 jinx jiin yinX
+1481 minx myyn minX
+1482 mjinx miin mjinX
+1483 ynx hwyyn hwinX
+1484 cjynx tjviin tsywinX
+1485 jynx jviin ywinX
+1486 synx sviin swinX
+1487 njynx rviin nywinX
+1488 chjynx tcviin tsyhwinX
+1489 zsjynx djviin zywinX
+1490 thrynx thviin trhwinX
+1491 lynx lviin lwinX
+1492 njynx rviin nywinX
+1493 khjynx qviin khjwinX
+1494 khjinx qiin khjinX
+1495 sjynx sjviin sywinX
+1496 hjinx xiin xjinX
+1497 zrinx dryyn dzrinX
+1498 cjinx tjiin trinX
+1499 myonx miuun mjunX
+1500 pyonx piuun pjunX
+1501 byonx biuun bjunX
+1502 phyonx phiuun phjunX
+1503 qyonx iuun junX
+1504 ngyonx ngiuun ngjunX
+1505 yonx hiuun hjunX
+1506 khyonx qiuun khjunX
+1507 qionx ioon j+nX
+1508 kionx kioon kj+nX
+1509 crinx tryiin tsrinX
+1510 khionx qioon khj+nX
+1511 gionx gioon gj+nX
+1512 chrinx chyiin tsrhinX
+1513 ngionx ngioon ngj+nX
+1514 hionx xioon xj+nX
+1515 ngyanx ngvaan ngjwonX
+1516 yanx hvaan hjwonX
+1517 qianx iaan jonX
+1518 kianx kiaan kjonX
+1519 gianx giaan gjonX
+1520 khianx qiaan khjonX
+1521 ngianx ngiaan ngjonX
+1522 hianx xiaan xjonX
+1523 myanx mvaan mjonX
+1524 pyanx pvaan pjonX
+1525 gyanx gvaan gjwonX
+1526 qyanx vaan jwonX
+1527 khyanx qvaan khjwonX
+1528 hyanx xvaan xjwonX
+1529 byanx bvaan bjonX
+1530 ghuonx huoon hwonX
+1531 phuonx phuoon phwonX
+1532 chuonx cuoon tshwonX
+1533 puonx puoon pwonX
+1534 suonx suoon swonX
+1535 cuonx zuoon tswonX
+1536 quonx uoon wonX
+1537 duonx duoon dwonX
+1538 zuonx dzuoon dzwonX
+1539 kuonx kuoon kwonX
+1540 thuonx thuoon thwonX
+1541 khuonx quoon khwonX
+1542 luonx luoon lwonX
+1543 buonx buoon bwonX
+1544 muonx muoon mwonX
+1545 nuonx nuoon nwonX
+1546 huonx xuoon xwonX
+1547 ghonx hoon honX
+1548 khonx qoon khonX
+1549 konx koon konX
+1550 ghanx haan hanX
+1551 tanx taan tanX
+1552 -  thanX
+1553 sanx saan sanX
+1554 danx daan danX
+1555 zanx dzaan dzanX
+1556 kanx kaan kanX
+1557 lanx laan lanX
+1558 khanx qaan khanX
+1559 hanx xaan xanX
+1560 canx zaan tsanX
+1561 ghuanx huaan hwanX
+1562 tuanx tuaan twanX
+1563 quanx uaan wanX
+1564 thuanx thuaan thwanX
+1565 suanx suaan swanX
+1566 kuanx kuaan kwanX
+1567 luanx luaan lwanX
+1568 khuanx quaan khwanX
+1569 nuanx nuaan nwanX
+1570 cuanx zuaan tswanX
+1571 buanx buaan banX
+1572 muanx muaan manX
+1573 puanx puaan panX
+1574 - zsuanx zwanX
+1575 duanx duaan dwanX
+1576 nanx naan nanX
+1577 phuanx phuaan phanX
+1578 sranx shaan sraenX
+1579 qruanx oaan waenX
+1580 pranx peaan paenX
+1581 cranx traan tsraenX
+1582 nranx neaan nraenX
+1583 ghranx heaan haenX
+1584 ghruanx hoaan hwaenX
+1585 branx beaan baenX
+1586 mranx meaan maenX
+1587 zranx draan dzraenX
+1588 ngranx ngeaan ngaenX
+1589 chranx chaan tsrhaenX
+1590 phranx pheaan phaenX
+1591 zruanx droaan dzrwaenX
+1592 srenx shaaen sreanX
+1593 ghrenx haaen heanX
+1594 -  meanX
+1595 krenx kaaen keanX
+1596 chrenx chaaen tsrheanX
+1597 zrenx draaen dzreanX
+1598 ngrenx ngaaen ngeanX
+1599 crenx traaen tsreanX
+1600 chruenx chooen tsrhweanX
+1601 khrenx qaaen kheanX
+1602 senx seen senX
+1603 thenx theen thenX
+1604 tenx teen tenX
+1605 qenx een enX
+1606 denx deen denX
+1607 kenx keen kenX
+1608 ghenx heen henX
+1609 henx xeen xenX
+1610 menx meen menX
+1611 nenx neen nenX
+1612 penx peen penX
+1613 ghuenx hueen hwenX
+1614 kuenx kueen kwenX
+1615 benx been benX
+1616 khuenx queen khwenX
+1617 khenx qeen khenX
+1618 ngenx ngeen ngenX
+1619 sienx sieen sjenX
+1620 jenx jeen yenX
+1621 zienx dzieen dzjenX
+1622 trienx tyeen trjenX
+1623 cjenx tjeen tsyenX
+1624 nrienx nyeen nrjenX
+1625 chienx cieen tshjenX
+1626 chjenx tceen tsyhenX
+1627 khjenx qieen khjienX
+1628 kienx kyeen kjenX
+1629 zjenx zjeen dzyenX
+1630 cienx zieen tsjenX
+1631 njenx reen nyenX
+1632 zsienx szieen zjenX
+1633 lienx lieen ljenX
+1634 ngienx ngyeen ngjenX
+1635 gienx gyeen gjenX
+1636 bienx byeen bjenX
+1637 mjenx mieen mjienX
+1638 pjenx pieen pjienX
+1639 cyenx zveen tsjwenX
+1640 zyenx dzveen dzjwenX
+1641 pienx pyeen pjenX
+1642 jyenx jveen ywenX
+1643 lyenx lveen ljwenX
+1644 tryenx tween trjwenX
+1645 kyenx kween kjwenX
+1646 gyenx gween gjwenX
+1647 njyenx rveen nywenX
+1648 chjyenx tcveen tsyhwenX
+1649 zjyenx zjveen dzywenX
+1650 dryenx dween drjwenX
+1651 cjyenx tjveen tsywenX
+1652 syenx sveen sjwenX
+1653 zryenx drween dzrjwenX
+1654 gjyenx gveen gjwienX
+1655 hjyenx xveen xjwienX
+1656 bjenx bieen bjienX
+1657 mienx myeen mjenX
+1658 thrienx thyeen trhjenX
+1659 phienx phyeen phjenX
+1660 sjenx sjeen syenX
+1661 qienx yeen jenX
+1662 drienx dyeen drjenX
+1663 zryenx drween dzrjenX
+1664 seux sev sewX
+1665 keux kev kewX
+1666 teux tev tewX
+1667 leux lev lewX
+1668 theux thev thewX
+1669 heux xev xewX
+1670 qeux ev ewX
+1671 neux nev newX
+1672 gheux hev hewX
+1673 deux dev dewX
+1674 kheux qev khewX
+1675 ceux zev tsewX
+1676 sieux siev sjewX
+1677 drieux dyev drjewX
+1678 cjeux tjev tsyewX
+1679 qieux yev jewX
+1680 thrieux thyev trhjewX
+1681 sjeux sjev syewX
+1682 njeux rev nyewX
+1683 bjeux biev bjiewX
+1684 chjeux tcev tsyhewX
+1685 phjeux phiev phjiewX
+1686 mjeux miev mjiewX
+1687 zjeux zjev dzyewX
+1688 kieux kyev kjewX
+1689 pieux pyev pjewX
+1690 pjeux piev pjiewX
+1691 bieux byev bjewX
+1692 jeux jev yewX
+1693 chieux ciev tshjewX
+1694 cieux ziev tsjewX
+1695 gieux gyev gjewX
+1696 lieux liev ljewX
+1697 phieux phyev phjewX
+1698 qjeux iev jiewX
+1699 khraux qeav khaewX
+1700 ghraux heav haewX
+1701 praux peav paewX
+1702 nraux neav nraewX
+1703 mraux meav maewX
+1704 kraux keav kaewX
+1705 craux trav tsraewX
+1706 qraux eav aewX
+1707 braux beav baewX
+1708 ngraux ngeav ngaewX
+1709 zraux drav dzraewX
+1710 chraux chav tsrhaewX
+1711 traux teav traewX
+1712 sraux shav sraewX
+1713 ghaux hav hawX
+1714 baux bav bawX
+1715 laux lav lawX
+1716 thaux thav thawX
+1717 daux dav dawX
+1718 naux nav nawX
+1719 saux sav sawX
+1720 taux tav tawX
+1721 chaux cav tshawX
+1722 caux zav tsawX
+1723 zaux dzav dzawX
+1724 kaux kav kawX
+1725 haux xav xawX
+1726 maux mav mawX
+1727 paux pav pawX
+1728 qaux av awX
+1729 khaux qav khawX
+1730 ngaux ngav ngawX
+1731 kax kaa kaX
+1732 chax caa tshaX
+1733 tax taa taX
+1734 sax saa saX
+1735 dax daa daX
+1736 ngax ngaa ngaX
+1737 thax thaa thaX
+1738 lax laa laX
+1739 nax naa naX
+1740 ghax haa haX
+1741 hax xaa xaX
+1742 khax qaa khaX
+1743 qax aa aX
+1744 cax zaa tsaX
+1745 kuax kuaa kwaX
+1746 tuax tuaa twaX
+1747 suax suaa swaX
+1748 duax duaa dwaX
+1749 thuax thuaa thwaX
+1750 muax muaa maX
+1751 zuax dzuaa dzwaX
+1752 nguax nguaa ngwaX
+1753 luax luaa lwaX
+1754 quax uaa waX
+1755 nuax nuaa nwaX
+1756 puax puaa paX
+1757 phuax phuaa phaX
+1758 ghuax huaa hwaX
+1759 huax xuaa xwaX
+1760 khuax quaa khwaX
+1761 buax buaa baX
+1762 chuax cuaa tshwaX
+1763 cuax zuaa tswaX
+1764 mrax meaa maeX
+1765 cjax tjaa tsyaeX
+1766 jax jaa yaeX
+1767 ngrax ngeaa ngaeX
+1768 krax keaa kaeX
+1769 srax shaa sraeX
+1770 qrax eaa aeX
+1771 zsiax szyaa zjaeX
+1772 ghrax heaa haeX
+1773 siax syaa sjaeX
+1774 cyax zvaa tsjwaX
+1775 miax myaa mjaeX
+1776 chiax cyaa tshjaeX
+1777 hrax xeaa xaeX
+1778 zjax zjaa dzyaeX
+1779 khrax qeaa khaeX
+1780 brax beaa baeX
+1781 sjax sjaa syaeX
+1782 ciax zyaa tsjaeX
+1783 prax peaa paeX
+1784 ghruax hoaa hwaeX
+1785 kruax koaa kwaeX
+1786 ngruax ngoaa ngwaeX
+1787 njax raa nyaeX
+1788 crax traa tsraeX
+1789 trax teaa traeX
+1790 zrax draa dzraeX
+1791 chjax tcaa tsyhaeX
+1792 trax teaa traeX
+1793 nrax neaa nraeX
+1794 khruax qoaa khwaeX
+1795 chruax choaa tsrhwaeX
+1796 thruax thoaa trhwaeX
+1797 sruax shoaa srwaeX
+1798 thrax theaa trhaeX
+1799 lrax leaa laeX
+1800 jangx jank yangX
+1801 zsiangx sziank zjangX
+1802 ciangx ziank tsjangX
+1803 liangx liank ljangX
+1804 qiangx iank jangX
+1805 giangx giank gjangX
+1806 ngiangx ngiank ngjangX
+1807 chriangx chiank tsrhjangX
+1808 siangx siank sjangX
+1809 cjangx tjank tsyangX
+1810 sriangx shiank srjangX
+1811 hiangx xiank xjangX
+1812 chjangx tcank tsyhangX
+1813 kiangx kiank kjangX
+1814 driangx diank drjangX
+1815 thriangx thiank trhjangX
+1816 kyangx kvank kjwangX
+1817 njangx rank nyangX
+1818 sjangx sjank syangX
+1819 phyangx phvank phjangX
+1820 myangx mvank mjangX
+1821 pyangx pvank pjangX
+1822 qyangx vank jwangX
+1823 yangx hvank hjwangX
+1824 hyangx xvank xjwangX
+1825 chiangx ciank tshjangX
+1826 triangx tiank trjangX
+1827 zjangx zjank dzyangX
+1828 gyangx gvank gjwangX
+1829 kyangx kvank kjwangX
+1830 byangx bvank bjangX
+1831 chriangx chiank tsrhjangX
+1832 dangx dank dangX
+1833 sangx sank sangX
+1834 kuangx kuank kwangX
+1835 pangx pank pangX
+1836 cangx zank tsangX
+1837 nangx nank nangX
+1838 ghangx hank hangX
+1839 thangx thank thangX
+1840 mangx mank mangX
+1841 tangx tank tangX
+1842 langx lank langX
+1843 qangx ank angX
+1844 khangx qank khangX
+1845 quangx uank wangX
+1846 ghuangx huank hwangX
+1847 phangx phank phangX
+1848 huangx xuank xwangX
+1849 kangx kank kangX
+1850 ngangx ngank ngangX
+1851 zangx dzank dzangX
+1852 changx cank tshangX
+1853 hangx xank xangX
+1854 khuangx quank khwangX
+1855 krangx keank kaengX
+1856 piengx pyank pjaengX
+1857 kiengx kyank kjaengX
+1858 qiengx yank jaengX
+1859 sriengx shyank srjaengX
+1860 yengx hwank hjwaengX
+1861 hyengx xwank xjwaengX
+1862 miengx myank mjaengX
+1863 kyengx kwank kjwaengX
+1864 ghrangx heank haengX
+1865 mrvngx meank maengX
+1866 kruangx koank kwaengX
+1867 prangx peank paengX
+1868 trangx teank traengX
+1869 drangx deank draengX
+1870 qruangx oank waengX
+1871 - t'rangx taengX
+1872 lrangx leank laengX
+1873 ghruvngx hoank hwaengX
+1874 brangx beank baengX
+1875 khruangx qoank khwaengX
+1876 nrangx neank nraengX
+1877 krengx kaenk keangX
+1878 mrengx maenk meangX
+1879 ghrengx haenk heangX
+1880 brengx baenk beangX
+1881 phrengx phaenk pheangX
+1882 ziengx dzienk dzjengX
+1883 cjengx tjenk tsyengX
+1884 thriengx thienk trhjengX
+1885 jengx jenk yengX
+1886 gjengx gienk gjiengX
+1887 jyengx jvenk ywengX
+1888 liengx lienk ljengX
+1889 kjengx kienk kjiengX
+1890 pjengx pienk pjiengX
+1891 khjyengx qvenk khjwiengX
+1892 ciengx zienk tsjengX
+1893 qjengx ienk jiengX
+1894 chiengx cienk tshjengX
+1895 siengx sienk sjengX
+1896 mjengx mienk mjiengX
+1897 triengx dienk drjengX
+1898 ghuengx huenk hwengX
+1899 kuengx kuenk kwengX
+1900 mengx menk mengX
+1901 tengx tenk tengX
+1902 dengx denk dengX
+1903 thengx thenk thengX
+1904 zengx dzenk dzengX
+1905 quengx uenk wengX
+1906 khengx qenk khengX
+1907 nengx nenk nengX
+1908 ghengx henk hengX
+1909 sengx senk sengX
+1910 pengx penk pengX
+1911 khuengx quenk khwengX
+1912 kengx kenk kengX
+1913 phengx phenk phengX
+1914 qengx enk engX
+1915 lengx lenk lengX
+1916 bengx benk bengX
+1917 huengx xuenk xwengX
+1918 ngengx ngenk ngengX
+1919 cjingx tjonk tsyingX
+1920 thringx thionk trhingX
+1921 gingx gionk gingX
+1922 sringx shonk sringX
+1923 tongx tonk tongX
+1924 phongx phonk phongX
+1925 khongx qonk khongX
+1926 nongx nonk nongX
+1927 iux hiov hjuwX
+1928 liux liov ljuwX
+1929 nriux niov nrjuwX
+1930 thriux thiov trhjuwX
+1931 triux tiov trjuwX
+1932 hiux xiov xjuwX
+1933 kiux kiov kjuwX
+1934 sjux sjov syuwX
+1935 chjux tcov tsyhuwX
+1936 ziux dziov dzjuwX
+1937 biux biov bjuwX
+1938 piux piov pjuwX
+1939 khiux qiov khjuwX
+1940 njux rov nyuwX
+1941 giux giov gjuwX
+1942 driux diov drjuwX
+1943 jux jov yuwX
+1944 zjux zjov dzyuwX
+1945 siux siov sjuwX
+1946 qiux iov juwX
+1947 ciux ziov tsjuwX
+1948 sriux shov srjuwX
+1949 cjux tjov tsyuwX
+1950 phiux phiov phjuwX
+1951 criux trov tsrjuwX
+1952 zriux drov dzrjuwX
+1953 chriux chov tsrhjuwX
+1954 phiux phiov phjuwX
+1955 ghux hov huwX
+1956 mux mov muwX
+1957 bux bov buwX
+1958 tux tov tuwX
+1959 thux thov thuwX
+1960 kux kov kuwX
+1961 ngux ngov nguwX
+1962 pux pov puwX
+1963 nux nov nuwX
+1964 sux sov suwX
+1965 hux xov xuwX
+1966 phux phov phuwX
+1967 qux ov uwX
+1968 lux lov luwX
+1969 cux zov tsuwX
+1970 khux qov khuwX
+1971 dux dov duwX
+1972 - zr'ux dzruwX
+1973 chux cov tshuwX
+1974 qyx yv jiwX
+1975 kyx kyv kjiwX
+1976 gyx gyv gjiwX
+1977 chimx ciim tshimX
+1978 drimx dyym drimX
+1979 khjimx qiim khjimX
+1980 limx liim limX
+1981 simx siim simX
+1982 thrimx thyym trhimX
+1983 cimx ziim tsimX
+1984 njimx riim nyimX
+1985 cjimx tjiim tsyimX
+1986 sjimx sjiim syimX
+1987 zsjimx djiim zyimX
+1988 zjimx zjiim dzyimX
+1989 chjimx tciim tsyhimX
+1990 chrimx chyym tsrhimX
+1991 nrimx nyym nrimX
+1992 gimx gyym gimX
+1993 kimx kyym kimX
+1994 zimx dziim dzimX
+1995 ngimx ngyym ngimX
+1996 srimx shyym srimX
+1997 pimx pyym pimX
+1998 qimx yym imX
+1999 phimx phyym phimX
+2000 khimx qyym khimX
+2001 himx xyym ximX
+2002 trimx tyym trimX
+2003 jimx jiim yimX
+2004 zrimx dryym dzrimX
+2005 komx koom komX
+2006 domx doom domX
+2007 qomx oom omX
+2008 nomx noom nomX
+2009 thomx thoom thomX
+2010 zomx dzoom dzomX
+2011 chomx coom tshomX
+2012 ngomx ngoom ngomX
+2013 comx zoom tsomX
+2014 somx soom somX
+2015 khomx qoom khomX
+2016 ghomx hoom homX
+2017 lomx loom lomX
+2018 tomx toom tomX
+2019 homx xoom xomX
+2020 kamx kaam kamX
+2021 - sj'amx syamX
+2022 lamx laam lamX
+2023 thamx thaam thamX
+2024 tamx taam tamX
+2025 damx daam damX
+2026 chamx caam tshamX
+2027 mamx maam mamX
+2028 camx zaam tsamX
+2029 zamx dzaam dzamX
+2030 hamx xaam xamX
+2031 qamx aam amX
+2032 khamx qaam khamX
+2033 jemx jeem yemX
+2034 liemx lieem ljemX
+2035 hiemx xyeem xjemX
+2036 piemx pyeem pjemX
+2037 cjemx tjeem tsyemX
+2038 khiemx qyeem khjemX
+2039 ngiemx ngyeem ngjemX
+2040 giemx gyeem gjemX
+2041 kiemx kyeem kjemX
+2042 qjemx ieem jiemX
+2043 njemx reem nyemX
+2044 sjemx sjeem syemX
+2045 thriemx thyeem trhjemX
+2046 qiemx yeem jemX
+2047 ziemx dzieem dzjemX
+2048 chiemx cieem tshjemX
+2049 ciemx zieem tsjemX
+2050 khjemx qieem khjiemX
+2051 zjemx zjeem dzyemX
+2052 themx theem themX
+2053 nemx neem nemX
+2054 temx teem temX
+2055 demx deem demX
+2056 khemx qeem khemX
+2057 lemx leem lemX
+2058 ghemx heem hemX
+2059 chemx ceem tshemX
+2060 kemx keem kemX
+2061 memx meem memX
+2062 ngiamx ngiaam ngjaemX
+2063 khiamx qiaam khjaemX
+2064 qiamx iaam jaemX
+2065 ghremx haaem heamX
+2066 dremx daaem dreamX
+2067 khremx qaaem kheamX
+2068 kremx kaaem keamX
+2069 zremx draaem dzreamX
+2070 lremx laaem leamX
+2071 cremx traaem tsreamX
+2072 chremx chaaem tsrheamX
+2073 hremx xaaem xeamX
+2074 sremx shaaem sreamX
+2075 qremx aaem eamX
+2076 hremx xaaem xeamX
+2077 nremx naaem nreamX
+2078 thremx thaaem trheamX
+2079 ghramx heaam haemX
+2080 khramx qeaam khaemX
+2081 sramx shaam sraemX
+2082 qramx eaam aemX
+2083 chramx chaam tsrhaemX
+2084 hramx xeaam xaemX
+2085 zramx draam dzraemX
+2086 byamx bvaam bjomX
+2087 myamx mvaam mjomX
+2088 pyamx pvaam pjomX
+2089 khyamx qvaam khjomX
+2090 phyamx phvaam phjomX
+2091 thryamx thvaam trhjomX
+2092 sungh sunq suwngH
+2093 biungh biunq bjuwngH
+2094 kungh kunq kuwngH
+2095 lungh lunq luwngH
+2096 tungh tunq tuwngH
+2097 khungh qunq khuwngH
+2098 cungh zunq tsuwngH
+2099 qungh unq uwngH
+2100 chungh cunq tshuwngH
+2101 dungh dunq duwngH
+2102 thungh thunq thuwngH
+2103 driungh diunq drjuwngH
+2104 piungh piunq pjuwngH
+2105 khiungh qiunq khjuwngH
+2106 miungh miunq mjuwngH
+2107 hiungh xiunq xjuwngH
+2108 mungh munq muwngH
+2109 chiungh ciunq tshjuwngH
+2110 phiungh phiunq phjuwngH
+2111 zungh dzunq dzuwngH
+2112 triungh tiunq trjuwngH
+2113 ghungh hunq huwngH
+2114 nungh nunq nuwngH
+2115 cjungh tjunq tsyuwngH
+2116 chjungh tcunq tsyhuwngH
+2117 zriungh drunq dzrjuwngH
+2118 hungh xunq xuwngH
+2119 suungh svnq sowngH
+2120 cuungh zvnq tsowngH
+2121 thuungh thvnq thowngH
+2122 muungh mvnq mowngH
+2123 ghuungh hvnq howngH
+2124 jyungh jvnq yowngH
+2125 zsyungh szivnq zjowngH
+2126 byungh bivnq bjowngH
+2127 gyungh givnq gjowngH
+2128 pyungh pivnq pjowngH
+2129 kyungh kivnq kjowngH
+2130 qyungh ivnq jowngH
+2131 tryungh tivnq trjowngH
+2132 cyungh zivnq tsjowngH
+2133 thryungh thivnq trhjowngH
+2134 njyungh rvnq nyowngH
+2135 cjyungh tjvnq tsyowngH
+2136 dryungh divnq drjowngH
+2137 lyungh livnq ljowngH
+2138 khyungh qivnq khjowngH
+2139 zyungh dzivnq dzjowngH
+2140 nryungh nivnq nrjowngH
+2141 krungh keonq kaewngH
+2142 ghrungh heonq haewngH
+2143 trungh teonq traewngH
+2144 drungh deonq draewngH
+2145 thrungh theonq trhaewngH
+2146 zrungh dreonq dzraewngH
+2147 phrungh pheonq phaewngH
+2148 chrungh cheonq tsrhaewngH
+2149 srungh sheonq sraewngH
+2150 cjeh tjeh tsyeH
+2151 bjeh bieh bjieH
+2152 cjyeh tjveh tsyweH
+2153 lieh lieh ljeH
+2154 zjeh zjeh dzyeH
+2155 cieh zieh tsjeH
+2156 sieh sieh sjeH
+2157 yeh hweh hjweH
+2158 kyeh kweh kjweH
+2159 phieh phyeh phjeH
+2160 pieh pyeh pjeH
+2161 bieh byeh bjeH
+2162 lyeh lveh ljweH
+2163 kieh kyeh kjeH
+2164 pjeh pieh pjieH
+2165 gieh gyeh gjeH
+2166 chieh cieh tshjeH
+2167 jeh jeh yeH
+2168 ngieh ngyeh ngjeH
+2169 phjeh phieh phjieH
+2170 zieh dzieh dzjeH
+2171 trieh tyeh trjeH
+2172 qieh yeh jeH
+2173 dryeh dweh drjweH
+2174 chjyeh tcveh tsyhweH
+2175 hieh xyeh xjeH
+2176 khjeh qieh khjieH
+2177 qjeh ieh jieH
+2178 sjeh sjeh syeH
+2179 srieh shyeh srjeH
+2180 khjyeh qveh khjwieH
+2181 qyeh weh jweH
+2182 ngyeh ngweh ngjweH
+2183 hyeh xweh xjweH
+2184 qjyeh veh jwieH
+2185 zjyeh zjveh dzyweH
+2186 kjeh kieh kjieH
+2187 njyeh rveh nyweH
+2188 chjeh tceh tsyheH
+2189 syeh sveh sjweH
+2190 tryeh tweh trjweH
+2191 jyeh jveh yweH
+2192 nryeh nweh nrjweH
+2193 kjyeh kveh kjwieH
+2194 crieh tryeh tsrjeH
+2195 hjyeh xveh xjwieH
+2196 khieh qyeh khjeH
+2197 cjiih tjih tsyijH
+2198 yih hwyh hwijH
+2199 miih myh mijH
+2200 zsyih szvih zwijH
+2201 cyih zvih tswijH
+2202 syih svih swijH
+2203 lyih lvih lwijH
+2204 piih pyh pijH
+2205 gyih gwyh gwijH
+2206 phiih phyh phijH
+2207 biih byh bijH
+2208 kyih kwyh kwijH
+2209 sryih shwyh srwijH
+2210 khyih qwyh khwijH
+2211 hyih xwyh xwijH
+2212 zjiih zjih dzyijH
+2213 liih lih lijH
+2214 nriih nyh nrijH
+2215 phjiih phih phjijH
+2216 ngiih ngyh ngijH
+2217 triih tyh trijH
+2218 khjiih qih khjijH
+2219 driih dyh drijH
+2220 mjiih mih mjijH
+2221 thriih thyh trhijH
+2222 kiih kyh kijH
+2223 giih gyh gijH
+2224 gjyih gvih gjwijH
+2225 chyih cvih tshwijH
+2226 njiih rih nyijH
+2227 ciih zih tsijH
+2228 chiih cih tshijH
+2229 qiih yh ijH
+2230 siih sih sijH
+2231 khiih qyh khijH
+2232 kjyih kvih kjwijH
+2233 bjiih bih bjijH
+2234 hjyih xvih xjwijH
+2235 pjiih pih pjijH
+2236 zyih dzvih dzwijH
+2237 - diih dijH
+2238 hiih xyh xijH
+2239 jiih jih yijH
+2240 zsjiih djih zyijH
+2241 ziih dzih dzijH
+2242 dryih dwyh drwijH
+2243 chjyih tcvih tsyhwijH
+2244 jyih jvih ywijH
+2245 hjyih xvih xjwijH
+2246 tryih twyh trwijH
+2247 chjiih tcih tsyhijH
+2248 sjiih sjih syijH
+2249 chryih chwyh tsrhwijH
+2250 sjyih sjvih sywijH
+2251 cjih tjioh tsyiH
+2252 drih dioh driH
+2253 zsih szioh ziH
+2254 chih cioh tshiH
+2255 sih sioh siH
+2256 sjih sjioh syiH
+2257 crih trioh tsriH
+2258 lih lioh liH
+2259 zih dzioh dziH
+2260 thrih thioh trhiH
+2261 njih rioh nyiH
+2262 srih shioh sriH
+2263 chrih chioh tsrhiH
+2264 jih jioh yiH
+2265 trih tioh triH
+2266 zjih zjioh dzyiH
+2267 zrih drioh dzriH
+2268 gih gioh giH
+2269 chjih tcioh tsyhiH
+2270 qih ioh iH
+2271 kih kioh kiH
+2272 hih xioh xiH
+2273 ngih ngioh ngiH
+2274 khih qioh khiH
+2275 myoih mvoy mj+jH
+2276 kyoih kvoy kjw+jH
+2277 yoih hvoy hjw+jH
+2278 ngyoih ngvoy ngjw+jH
+2279 pyoih pvoy pj+jH
+2280 phyoih phvoy phj+jH
+2281 khyoih qvoy khjw+jH
+2282 qyoih voy jw+jH
+2283 hyoih xvoy xjw+jH
+2284 byoih bvoy bj+jH
+2285 kioih kioy kj+jH
+2286 ngioih ngioy ngj+jH
+2287 khioih qioy khj+jH
+2288 hioih xioy xj+jH
+2289 gioih gioy gj+jH
+2290 qioih ioy j+jH
+2291 ngioh ngivh ngjoH
+2292 lioh livh ljoH
+2293 kioh kivh kjoH
+2294 chioh civh tshjoH
+2295 khioh qivh khjoH
+2296 zjoh zjvh dzyoH
+2297 sjoh sjvh syoH
+2298 trioh tivh trjoH
+2299 cjoh tjvh tsyoH
+2300 srioh shvh srjoH
+2301 qioh ivh joH
+2302 drioh divh drjoH
+2303 gioh givh gjoH
+2304 sioh sivh sjoH
+2305 zrioh drvh dzrjoH
+2306 cioh zivh tsjoH
+2307 crioh trvh tsrjoH
+2308 njoh rvh nyoH
+2309 joh jvh yoH
+2310 hioh xivh xjoH
+2311 nrioh nivh nrjoH
+2312 chrioh chvh tsrhjoH
+2313 chjoh tcvh tsyhoH
+2314 thrioh thivh trhjoH
+2315 zsioh szivh zjoH
+2316 ngyoh ngiuh ngjuH
+2317 qyoh iuh juH
+2318 zjyoh zjuh dzyuH
+2319 dryoh diuh drjuH
+2320 byoh biuh bjuH
+2321 cjyoh tjuh tsyuH
+2322 kyoh kiuh kjuH
+2323 hyoh xiuh xjuH
+2324 sjyoh sjuh syuH
+2325 jyoh juh yuH
+2326 njyoh ruh nyuH
+2327 phyoh phiuh phjuH
+2328 myoh miuh mjuH
+2329 cyoh ziuh tsjuH
+2330 gyoh giuh gjuH
+2331 yoh hiuh hjuH
+2332 zyoh dziuh dzjuH
+2333 sryoh shuh srjuH
+2334 pyoh piuh pjuH
+2335 chyoh ciuh tshjuH
+2336 tryoh tiuh trjuH
+2337 khyoh qiuh khjuH
+2338 chryoh chuh tsrhjuH
+2339 thryoh thiuh trhjuH
+2340 syoh siuh sjuH
+2341 lyoh liuh ljuH
+2342 moh muh muH
+2343 doh duh duH
+2344 loh luh luH
+2345 toh tuh tuH
+2346 thoh thuh thuH
+2347 koh kuh kuH
+2348 ngoh nguh nguH
+2349 ghoh huh huH
+2350 soh suh suH
+2351 zoh dzuh dzuH
+2352 noh nuh nuH
+2353 poh puh puH
+2354 qoh uh uH
+2355 phoh phuh phuH
+2356 choh cuh tshuH
+2357 khoh quh khuH
+2358 boh buh buH
+2359 hoh xuh xuH
+2360 coh zuh tsuH
+2361 ceh zey tsejH
+2362 teh tey tejH
+2363 zeh dzey dzejH
+2364 theh they thejH
+2365 deh dey dejH
+2366 cheh cey tshejH
+2367 seh sey sejH
+2368 ngeh ngey ngejH
+2369 keh key kejH
+2370 gheh hey hejH
+2371 kheh qey khejH
+2372 qeh ey ejH
+2373 meh mey mejH
+2374 peh pey pejH
+2375 ghueh huey hwejH
+2376 kueh kuey kwejH
+2377 hueh xuey xwejH
+2378 pheh phey phejH
+2379 beh bey bejH
+2380 leh ley lejH
+2381 -  trhejH
+2382 neh ney nejH
+2383 heh xey xejH
+2384 cied ziey tsjejH
+2385 syed svey sjwejH
+2386 yed hwey hjwejH
+2387 njyed rvey nywejH
+2388 cjyed tjvey tsywejH
+2389 sryed shwey srjwejH
+2390 chyed cvey tshjwejH
+2391 jyed jvey ywejH
+2392 tryed twey trjwejH
+2393 sjyed sjvey sywejH
+2394 bjed biey bjiejH
+2395 chryed chwey tsrhjwejH
+2396 zsyed szvey zjwejH
+2397 pjed piey pjiejH
+2398 kyed kwey kjwejH
+2399 mjed miey mjiejH
+2400 sried shey srjejH
+2401 chjed tcey tsyhejH
+2402 cjed tjey tsyejH
+2403 zjed zjey dzyejH
+2404 jed jey yejH
+2405 qied yey jejH
+2406 ngjed ngiey ngjiejH
+2407 dried dyey drjejH
+2408 lied liey ljejH
+2409 khied qyey khjejH
+2410 sjed sjey syejH
+2411 kied kyey kjejH
+2412 tried tyey trjejH
+2413 gied gyey gjejH
+2414 zjyed zjvey dzywejH
+2415 thried thyey trhjejH
+2416 dryed dwey drjwejH
+2417 ngied ngyey ngjejH
+2418 cyed zvey tsjwejH
+2419 phjed phiey phjiejH
+2420 khyad qvay khjwojH
+2421 hyvd xvay xjwojH
+2422 thad thay thajH
+2423 kad kay kajH
+2424 ngad ngay ngajH
+2425 qad ay ajH
+2426 nad nay najH
+2427 dad day dajH
+2428 ghad hay hajH
+2429 tad tay tajH
+2430 pad pay pajH
+2431 phad phay phajH
+2432 ghuad huay hwajH
+2433 duad duay dwajH
+2434 kuad kuay kwajH
+2435 cuad zuay tswajH
+2436 huad xuay xwajH
+2437 khuad quay khwajH
+2438 luad luay lwajH
+2439 nguad nguay ngwajH
+2440 tuad tuay twajH
+2441 quad uay wajH
+2442 zuad dzuay dzwajH
+2443 suad suay swajH
+2444 chuad cuay tshwajH
+2445 bad bay bajH
+2446 khad qay khajH
+2447 chad cay tshajH
+2448 lad lay lajH
+2449 had xay xajH
+2450 thuad thuay thwajH
+2451 mad may majH
+2452 chuad cuay tshwajH
+2453 krueh koeh kweaH
+2454 kreh kaeh keaH
+2455 - qreh eaH
+2456 ghreh haeh heaH
+2457 mreh maeh meaH
+2458 ghrueh hoeh hweaH
+2459 chreh chaeh tsrheaH
+2460 ngreh ngaeh ngeaH
+2461 hreh xaeh xeaH
+2462 preh paeh peaH
+2463 breh baeh beaH
+2464 zreh draeh dzreaH
+2465 phreh phaeh pheaH
+2466 creh traeh tsreaH
+2467 khreh qaeh kheaH
+2468 sreh shaeh sreaH
+2469 hrueh xoeh xweaH
+2470 preh paeh peaH
+2471 trueh toeh trweaH
+2472 kruaih koey kweajH
+2473 qraih aey eajH
+2474 craih traey tsreajH
+2475 kraih kaey keajH
+2476 nraih naey nreajH
+2477 hraih xaey xeajH
+2478 ghraih haey heajH
+2479 ngraih ngaey ngeajH
+2480 khruaih qoey khweajH
+2481 praih paey peajH
+2482 phraih phaey pheajH
+2483 ghruaih hoey hweajH
+2484 ngruaih ngoey ngweajH
+2485 braih baey beajH
+2486 mraih maey meajH
+2487 hruaih xoey xweajH
+2488 sraih shaey sreajH
+2489 khraih qaey kheajH
+2490 thruvih thoey trhweajH
+2491 krueh koeh kwaejH
+2492 khruad qoay khwaejH
+2493 mrad meay maejH
+2494 ghruad hoay hwaejH
+2495 brad beay baejH
+2496 qruad oay waejH
+2497 chruad choay tsrhwaejH
+2498 krad keay kaejH
+2499 thrad theay trhaejH
+2500 qrad eay aejH
+2501 srad shay sraejH
+2502 drad deay draejH
+2503 hrad xeay xaejH
+2504 hruad xoay xwaejH
+2505 prad peay paejH
+2506 ch'ruad coay tshwaejH
+2507 zrad dray dzraejH
+2508 ghrad heay haejH
+2509 duaih duoy dwojH
+2510 buaih buoy bwojH
+2511 muaih muoy mwojH
+2512 phuaih phuoy phwojH
+2513 huaih xuoy xwojH
+2514 tuaih tuoy twojH
+2515 chuaih cuoy tshwojH
+2516 cuaih zuoy tswojH
+2517 quaih uoy wojH
+2518 thuaih thuoy thwojH
+2519 kuaih kuoy kwojH
+2520 ghuaih huoy hwojH
+2521 khuaih quoy khwojH
+2522 suaih suoy swojH
+2523 nuaih nuoy nwojH
+2524 luaih luoy lwojH
+2525 puaih puoy pwojH
+2526 nguaih nguoy ngwojH
+2527 ghuaih huoy hwojH
+2528 daih doy dojH
+2529 caih zoy tsojH
+2530 maih moy mojH
+2531 saih soy sojH
+2532 thaih thoy thojH
+2533 kaih koy kojH
+2534 khad qay khojH
+2535 ngaih ngoy ngojH
+2536 qaih oy ojH
+2537 ghaih hoy hojH
+2538 naih noy nojH
+2539 taih toy tojH
+2540 laih loy lojH
+2541 chaih coy tshojH
+2542 zaih dzoy dzojH
+2543 haih xoy xojH
+2544 pyad pvay pjojH
+2545 phyvd phvay phjojH
+2546 qyad vay jwojH
+2547 byad bvay bjojH
+2548 hyad xvay xjwojH
+2549 gyad gvay gjwojH
+2550 ngiad ngiay ngjojH
+2551 cjinh tjinn tsyinH
+2552 sinh sinn sinH
+2553 njinh rinn nyinH
+2554 jinh jinn yinH
+2555 linh linn linH
+2556 pjinh pinn pjinH
+2557 drinh dynn drinH
+2558 zjinh zjinn dzyinH
+2559 sjinh sjinn syinH
+2560 khinh qynn khinH
+2561 zsinh szinn zinH
+2562 nginh ngynn nginH
+2563 cinh zinn tsinH
+2564 hinh xynn xinH
+2565 trinh tynn trinH
+2566 ginh gynn ginH
+2567 chrinh chyinn tsrhinH
+2568 qjinh inn jinH
+2569 thrinh thynn trhinH
+2570 phjinh phinn phjinH
+2571 chinh cinn tshinH
+2572 khjinh qinn khjinH
+2573 kjynh kvinn kjwinH
+2574 cjynh tjvinn tsywinH
+2575 synh svinn swinH
+2576 zsynh szvinn zwinH
+2577 cynh zvinn tswinH
+2578 sjynh sjvinn sywinH
+2579 njynh rvinn nywinH
+2580 zsjynh djvinn zywinH
+2581 myonh miunn mjunH
+2582 yonh hiunn hjunH
+2583 hyonh xiunn xjunH
+2584 phyonh phiunn phjunH
+2585 pyonh piunn pjunH
+2586 qyonh iunn junH
+2587 kyonh kiunn kjunH
+2588 gyonh giunn gjunH
+2589 byonh biunn bjunH
+2590 hionh xionn xj+nH
+2591 kionh kionn kj+nH
+2592 gionh gionn gj+nH
+2593 qionh ionn j+nH
+2594 ngionh ngionn ngj+nH
+2595 ngyanh ngvann ngjwonH
+2596 qyanh vann jwonH
+2597 pyanh pvann pjonH
+2598 khyanh qvann khjwonH
+2599 myanh mvann mjonH
+2600 byanh bvann bjonH
+2601 phyanh phvann phjonH
+2602 kianh kiann kjonH
+2603 qianh iann jonH
+2604 hianh xiann xjonH
+2605 hyanh xvann xjwonH
+2606 gianh giann gjonH
+2607 phyanh phvann phjonH
+2608 yanh hvann hjwonH
+2609 ngianx ngiaan ngjonH
+2610 gyanh gvann gjwonH
+2611 kyanh kvann kjwonH
+2612 ghuonh huonn hwonH
+2613 tuonh tuonn twonH
+2614 suonh suonn swonH
+2615 khuonh quonn khwonH
+2616 nuonh nuonn nwonH
+2617 quonh uonn wonH
+2618 muonh muonn mwonH
+2619 zuonh dzuonn dzwonH
+2620 kuonh kuonn kwonH
+2621 phuonh phuonn phwonH
+2622 duonh duonn dwonH
+2623 chuonh cuonn tshwonH
+2624 buonh buonn bwonH
+2625 nguonh nguonn ngwonH
+2626 luonh luonn lwonH
+2627 puonh puonn pwonH
+2628 huonh xuonn xwonH
+2629 cuonh zuonn tswonH
+2630 ghonh honn honH
+2631 konh konn konH
+2632 ngonh ngonn ngonH
+2633 qonh onn onH
+2634 ghanh hann hanH
+2635 thanx thaan thanH
+2636 qanh ann anH
+2637 tanh tann tanH
+2638 danh dann danH
+2639 kanh kann kanH
+2640 nganh ngann nganH
+2641 khanh qann khanH
+2642 hanh xann xanH
+2643 lanh lann lanH
+2644 nanh nann nanH
+2645 chanh cann tshanH
+2646 sanh sann sanH
+2647 canh zann tsanH
+2648 zanh dzann dzanH
+2649 ghuanh huann hwanH
+2650 cuanh zuann tswanH
+2651 quanh uann wanH
+2652 kuanh kuann kwanH
+2653 chuanh cuann tshwanH
+2654 nguanh nguann ngwanH
+2655 duanh duann dwanH
+2656 luanh luann lwanH
+2657 tuanh tuann twanH
+2658 thuanh thuann thwanH
+2659 huanh xuann xwanH
+2660 suanh suann swanH
+2661 muanh muann manH
+2662 puanh puann panH
+2663 phuanh phuann phanH
+2664 buanh buann banH
+2665 nuanh nuann nwanH
+2666 zuanh dzuann dzwanH
+2667 khuanh quann khwanH
+2668 kranh keann kaenH
+2669 ngranh ngeann ngaenH
+2670 qranh eann aenH
+2671 sranh shann sraenH
+2672 ghranh heann haenH
+2673 mranh meann maenH
+2674 qruanh oann waenH
+2675 ghruanh hoann hwaenH
+2676 kruanh koann kwaenH
+2677 sruanh shoann srwaenH
+2678 chruanh choann tsrhwaenH
+2679 ngruanh ngoann ngwaenH
+2680 zranh drann dzraenH
+2681 phranh pheann phaenH
+2682 nruanh noann nrwaenH
+2683 chranh chann tsrhaenH
+2684 thranh theann trhaenH
+2685 krenh kaenn keanH
+2686 ghranh haenn heanH
+2687 brenh baenn beanH
+2688 phrenh phaenn pheanH
+2689 ghruenh hoenn hweanH
+2690 mrenh maenn meanH
+2691 drenh daenn dreanH
+2692 prenh paenn peanH
+2693 kruenh koenn kweanH
+2694 senh senn senH
+2695 chenh cenn tshenH
+2696 huenh xuenn xwenH
+2697 ghuenh huenn hwenH
+2698 kuenh kuenn kwenH
+2699 denh denn denH
+2700 thenh thenn thenH
+2701 lenh lenn lenH
+2702 kenh kenn kenH
+2703 nenh nenn nenH
+2704 khenh qenn khenH
+2705 ghenh henn henH
+2706 ngenh ngenn ngenH
+2707 qenh enn enH
+2708 cenh zenn tsenH
+2709 menh menn menH
+2710 phenh phenn phenH
+2711 zenh dzenn dzenH
+2712 quenh uenn wenH
+2713 tenh tenn tenH
+2714 henh xenn xenH
+2715 sienh sienn sjenH
+2716 cjenh tjenn tsyenH
+2717 zjenh zjenn dzyenH
+2718 ngienh ngyenn ngjenH
+2719 khjenh qienn khjienH
+2720 kjyenh kvenn kjwienH
+2721 yenh hwenn hjwenH
+2722 mjenh mienn mjienH
+2723 chjyenh tcvenn tsyhwenH
+2724 jyenh jvenn ywenH
+2725 trienh tyenn trjenH
+2726 njyenh rvenn nywenH
+2727 cienh zienn tsjenH
+2728 chjenh tcenn tsyhenH
+2729 sjenh sjenn syenH
+2730 qjenh ienn jienH
+2731 kyenh kwenn kjwenH
+2732 gyenh gwenn gjwenH
+2733 lyenh lvenn ljwenH
+2734 thryenh thwenn trhjwenH
+2735 pienh pyenn pjenH
+2736 sryenh shwenn srjwenH
+2737 chyenh cvenn tshjwenH
+2738 bienh byenn bjenH
+2739 zsyenh szvenn zjwenH
+2740 syenh svenn sjwenH
+2741 zryenh drwenn dzrjwenH
+2742 cryenh trwenn tsrjwenH
+2743 dryenh dwenn drjwenH
+2744 zienh dzienn dzjenH
+2745 zsienh szienn zjenH
+2746 phjenh phienn phjienH
+2747 zjyenh zjvenn dzywenH
+2748 nrienh nyenn nrjenH
+2749 tryenh twenn trjwenH
+2750 djenh jenn yenH
+2751 bjenh bienn bjienH
+2752 drienh dyenn drjenH
+2753 lienh lienn ljenH
+2754 khyenh qwenn khjwenH
+2755 cjyenh tjvenn tsywenH
+2756 penh penn penH
+2757 seuh sew sewH
+2758 theuh thew thewH
+2759 teuh tew tewH
+2760 keuh kew kewH
+2761 neuh new newH
+2762 deuh dew dewH
+2763 kheuh qew khewH
+2764 leuh lew lewH
+2765 ngeuh ngew ngewH
+2766 qeuh ew ewH
+2767 heuh xew xewH
+2768 sieuh siew sjewH
+2769 cjeux tjev tsyewH
+2770 jeuh jew yewH
+2771 qjeuh iew jiewH
+2772 drieuh dyew drjewH
+2773 zjeuh zjew dzyewH
+2774 gieuh gyew gjewH
+2775 phjeuh phiew phjiewH
+2776 zieuh dziew dzjewH
+2777 mjeuh miew mjiewH
+2778 chieuh ciew tshjewH
+2779 lieuh liew ljewH
+2780 khieuh qyew khjewH
+2781 ngieuh ngyew ngjewH
+2782 cieuh ziew tsjewH
+2783 mieuh myew mjewH
+2784 bjeuh biew bjiewH
+2785 sjeuh sjew syewH
+2786 thrieuh thyew trhjewH
+2787 pieuh pyew pjewH
+2788 gjeuh giew gjiewH
+2789 njeuh rew nyewH
+2790 ghrauh heaw haewH
+2791 krauh keaw kaewH
+2792 hrauh xeaw xaewH
+2793 trauh teaw traewH
+2794 prauh peaw paewH
+2795 khrauh qeaw khaewH
+2796 mrauh meaw maewH
+2797 phrauh pheaw phaewH
+2798 thrauh theaw trhaewH
+2799 srauh shaw sraewH
+2800 drauh deaw draewH
+2801 nrauh neaw nraewH
+2802 crauh traw tsraewH
+2803 brauh beaw baewH
+2804 chrauh chaw tsrhaewH
+2805 qrauh eaw aewH
+2806 ngrauh ngeaw ngaewH
+2807 zrauh draw dzraewH
+2808 ghauh haw hawH
+2809 dauh daw dawH
+2810 tauh taw tawH
+2811 kauh kaw kawH
+2812 ngauh ngaw ngawH
+2813 mauh maw mawH
+2814 lauh law lawH
+2815 chauh caw tshawH
+2816 bauh baw bawH
+2817 pauh paw pawH
+2818 zauh dzaw dzawH
+2819 qauh aw awH
+2820 sauh saw sawH
+2821 khauh qaw khawH
+2822 cauh zaw tsawH
+2823 hauh xaw xawH
+2824 nauh naw nawH
+2825 kah kah kaH
+2826 ghah hah haH
+2827 cah zah tsaH
+2828 tah tah taH
+2829 lah lah laH
+2830 khah qah khaH
+2831 ngah ngah ngaH
+2832 dah dah daH
+2833 nah nah naH
+2834 sah sah saH
+2835 hah xah xaH
+2836 thah thah thaH
+2837 kuah kuah kwaH
+2838 ghuah huah hwaH
+2839 cuah zuah tswaH
+2840 khuah quah khwaH
+2841 thuah thuah thwaH
+2842 puah puah paH
+2843 chuah cuah tshwaH
+2844 muah muah maH
+2845 nuah nuah nwaH
+2846 phuah phuah phaH
+2847 zuah dzuah dzwaH
+2848 nguah nguah ngwaH
+2849 chuah cuah tshwaH
+2850 huah xuah xwaH
+2851 duah duah dwaH
+2852 buah buah baH
+2853 luah luah lwaH
+2854 tuah tuah twaH
+2855 chuah cuah tshwaH
+2856 suah suah swaH
+2857 qah ah aH
+2858 quah uah waH
+2859 mrah meah maeH
+2860 krah keah kaeH
+2861 qrah eah aeH
+2862 hrah xeah xaeH
+2863 ngrah ngeah ngaeH
+2864 thrah theah trhaeH
+2865 trah teah traeH
+2866 crah trah tsraeH
+2867 zrah drah dzraeH
+2868 zsiah szyah zjaeH
+2869 khrah qeah khaeH
+2870 ghrah heah haeH
+2871 ziah dzyah dzjaeH
+2872 jah jah yaeH
+2873 chjah tcah tsyhaeH
+2874 siah syah sjaeH
+2875 cjah tjah tsyaeH
+2876 ciah zyah tsjaeH
+2877 sjah sjah syaeH
+2878 zsjah djah zyaeH
+2879 prah peah paeH
+2880 phrah pheah phaeH
+2881 ghruah hoah hwaeH
+2882 hruah xoah xwaeH
+2883 khruah qoah khwaeH
+2884 sruah shoah srwaeH
+2885 brah beah baeH
+2886 nrah neah naeH
+2887 chiah cyah tshjaeH
+2888 srah shah sraeH
+2889 kruah koah kwaeH
+2890 drah deah draeH
+2891 ngruah ngoah ngwaeH
+2892 ruah oah waeH
+2893 jangh janq yangH
+2894 liangh lianq ljangH
+2895 zriangh drianq dzrjangH
+2896 njangh ranq nyangH
+2897 sjangh sjanq syangH
+2898 triangh tianq trjangH
+2899 thriangh thianq trhjangH
+2900 hiangh xianq xjangH
+2901 driangh dianq drjangH
+2902 nriangh nianq nrjangH
+2903 ziangh dzianq dzjangH
+2904 cjangh tjanq tsyangH
+2905 zjangh zjanq dzyangH
+2906 criangh trianq tsrjangH
+2907 qiangh ianq jangH
+2908 giangh gianq gjangH
+2909 chjangh tcanq tsyhangH
+2910 chriangh chianq tsrhjangH
+2911 ciangh zianq tsjangH
+2912 ngiangh ngianq ngjangH
+2913 phyangh phvanq phjangH
+2914 myangh mvanq mjangH
+2915 hyangh xvanq xjwangH
+2916 kyangh kvanq kjwangH
+2917 yangh hvanq hjwangH
+2918 pyangh pvanq pjangH
+2919 siangh sianq sjangH
+2920 kiangh kianq kjangH
+2921 khiangh qianq khjangH
+2922 chiangh cianq tshjangH
+2923 gyangh gvanq gjwangH
+2924 byangh bvanq bjangH
+2925 dangh danq dangH
+2926 langh lanq langH
+2927 ghangh hanq hangH
+2928 qangh anq angH
+2929 ngangh nganq ngangH
+2930 cangh zanq tsangH
+2931 bangh banq bangH
+2932 zangh dzanq dzangH
+2933 tangh tanq tangH
+2934 khangh qanq khangH
+2935 pangh panq pangH
+2936 thangh thanq thangH
+2937 khuangh quanq khwangH
+2938 nangh nanq nangH
+2939 sangh sanq sangH
+2940 ghuangh huanq hwangH
+2941 kuangh kuanq kwangH
+2942 kangh kanq kangH
+2943 huangh xuanq xwangH
+2944 mangh manq mangH
+2945 qangh anq wangH
+2946 qiengh yanq jaengH
+2947 kiengh kyanq kjaengH
+2948 giengh gyanq gjaengH
+2949 khiengh qyanq khjaengH
+2950 krangh keanq kaengH
+2951 miengh myanq mjaengH
+2952 biengh byanq bjaengH
+2953 mrangh meanq maengH
+2954 ghruangh hoanq hwaengH
+2955 piengh pyanq pjaengH
+2956 yengh hwanq hjwaengH
+2957 ghrangh heanq haengH
+2958 qrangh eanq aengH
+2959 chrvngh chanq tsrhaengH
+2960 trangh teanq traengH
+2961 thrangh theanq trhaengH
+2962 prangh peanq paengH
+2963 drangh deanq draengH
+2964 srvngh shanq sraengH
+2965 ngiengh ngyanq ngjaengH
+2966 brangh beanq baengH
+2967 hrangh xeanq xaengH
+2968 qruangh oanq waengH
+2969 crengh traenq tsreangH
+2970 prengh paenq peangH
+2971 brengh baenq beangH
+2972 qrengh aenq eangH
+2973 ngrangh ngaenq ngeangH
+2974 hruengh xoenq xweangH
+2975 kjengh kienq kjiengH
+2976 chiengh cienq tshjengH
+2977 cjengh tjenq tsyengH
+2978 sjengh sjenq syengH
+2979 driengh dienq drjengH
+2980 thriengh thienq trhjengH
+2981 siengh sienq sjengH
+2982 liengh lienq ljengH
+2983 phjengh phienq phjiengH
+2984 hjyengh xvenq xjwengH
+2985 pjengh pienq pjiengH
+2986 bjengh bienq bjiengH
+2987 ziengh dzienq dzjengH
+2988 zjengh zjenq dzyengH
+2989 mjengh mienq mjiengH
+2990 khjengh qienq khjiengH
+2991 hjengh xienq xjengH
+2992 ciengh zienq tsjengH
+2993 kengh kenq kengH
+2994 nengh nenq nengH
+2995 sengh senq sengH
+2996 ghengh henq hengH
+2997 dengh denq dengH
+2998 tengh tenq tengH
+2999 khengh qenq khengH
+3000 thengh thenq thengH
+3001 chengh cenq tshengH
+3002 mengh menq mengH
+3003 uengh enq engH
+3004 lengh lenq lengH
+3005 cjingh tjonq tsyingH
+3006 jingh jonq yingH
+3007 zsjingh djonq zyingH
+3008 njingh ronq nyingH
+3009 qingh ionq ingH
+3010 cingh zionq tsingH
+3011 hingh xionq xingH
+3012 sjingh sjonq syingH
+3013 dringh dionq dringH
+3014 hingh xionq lingH
+3015 bingh bionq bingH
+3016 chjingh tconq tsyhingH
+3017 ngingh ngionq ngingH
+3018 zjingh zjonq dzyingH
+3019 thringh thionq trhingH
+3020 gingh gionq gingH
+3021 tongh tonq tongH
+3022 zongh dzonq dzongH
+3023 kongh konq kongH
+3024 chongh conq tshongH
+3025 dongh donq dongH
+3026 mongh monq mongH
+3027 pongh ponq pongH
+3028 bongh bonq bongH
+3029 longh lonq longH
+3030 congh zonq tsongH
+3031 songh sonq songH
+3032 thongh thonq thongH
+3033 iuh hiow hjuwH
+3034 kiuh kiow kjuwH
+3035 driuh diow drjuwH
+3036 triuh tiow trjuwH
+3037 sjuh sjow syuwH
+3038 chjuh tcow tsyhuwH
+3039 zsiuh sziow zjuwH
+3040 hiuh xiow xjuwH
+3041 cjuh tjow tsyuwH
+3042 giuh giow gjuwH
+3043 sriuh show srjuwH
+3044 criuh trow tsrjuwH
+3045 phiuh phiow phjuwH
+3046 chriuh chow tsrhjuwH
+3047 piuh piow pjuwH
+3048 thriuh thiow trhjuwH
+3049 liuh liow ljuwH
+3050 siuh siow sjuwH
+3051 ciuh ziow tsjuwH
+3052 zriuh drow dzrjuwH
+3053 ziuh dziow dzjuwH
+3054 nriuh niow nrjuwH
+3055 biuh biow bjuwH
+3056 juh jow yuwH
+3057 zjuh zjow dzyuwH
+3058 njuh row nyuwH
+3059 miuh miow mjuwH
+3060 ngiuh ngiow ngjuwH
+3061 khiuh qiow khjuwH
+3062 chiuh ciow tshjuwH
+3063 ghuh how huwH
+3064 khuh qow khuwH
+3065 muh mow muwH
+3066 phuh phow phuwH
+3067 duh dow duwH
+3068 tuh tow tuwH
+3069 nuh now nuwH
+3070 suh sow suwH
+3071 cuh zow tsuwH
+3072 thuh thow thuwH
+3073 quh ow uwH
+3074 kuh kow kuwH
+3075 chuh cow tshuwH
+3076 luh low luwH
+3077 huh xow xuwH
+3078 buh bow buwH
+3079 nguh ngow nguwH
+3080 zuh dzow dzuwH
+3081 qyh yw jiwH
+3082 myh myw mjiwH
+3083 khyh qyw khjiwH
+3084 gyh gyw gjiwH
+3085 chimh cimm tshimH
+3086 cimh zimm tsimH
+3087 njimh rimm nyimH
+3088 drimh dymm drimH
+3089 cjimh tjimm tsyimH
+3090 gimh gymm gimH
+3091 kimh kymm kimH
+3092 nrimh nymm nrimH
+3093 qimh ymm imH
+3094 srimh shymm srimH
+3095 thrimh thymm trhimH
+3096 crimh trymm tsrimH
+3097 chrimh chymm tsrhimH
+3098 ngimh ngymm ngimH
+3099 trimh tymm trimH
+3100 limh limm limH
+3101 zjimh zjimm dzyimH
+3102 imh hymm himH
+3103 sjimh sjimm syimH
+3104 khomh qomm khomH
+3105 komh komm komH
+3106 ghomh homm homH
+3107 qomh omm omH
+3108 thomh thomm thomH
+3109 somh somm somH
+3110 chomh comm tshomH
+3111 domh domm domH
+3112 ngomh ngomm ngomH
+3113 tomh tomm tomH
+3114 nomh nomm nomH
+3115 lomh lomm lomH
+3116 homh xomm xomH
+3117 comh zomm tsomH
+3118 khamh qamm khamH
+3119 lamh lamm lamH
+3120 thamh thamm thamH
+3121 kamh kamm kamH
+3122 hamh xamm xamH
+3123 ghamh hamm hamH
+3124 damh damm damH
+3125 zamh dzamm dzamH
+3126 tamh tamm tamH
+3127 samh samm samH
+3128 jemh jemm yemH
+3129 zjemh zjemm dzyemH
+3130 njemh remm nyemH
+3131 qjemh iemm jiemH
+3132 piemh pyemm pjemH
+3133 ngiemh ngyemm ngjemH
+3134 sjemh sjemm syemH
+3135 ciemh ziemm tsjemH
+3136 chiemh ciemm tshjemH
+3137 liemh liemm ljemH
+3138 thriemh thyemm trhjemH
+3139 chjemh tcemm tsyhemH
+3140 qiemh yemm jemH
+3141 ziemh dziemm dzjemH
+3142 cjemh tjemm tsyemH
+3143 themh themm themH
+3144 nemh nemm nemH
+3145 temh temm temH
+3146 semh semm semH
+3147 demh demm demH
+3148 kemh kemm kemH
+3149 qemh emm emH
+3150 cemh zemm tsemH
+3151 zemh dzemm dzemH
+3152 kemh kemm kemH
+3153 khemh qemm khemH
+3154 lemh lemm lemH
+3155 ngiamh ngiamm ngjaemH
+3156 hiamh xiamm xjaemH
+3157 khiamh qiamm khjaemH
+3158 myamh mvamm mjomH
+3159 ghremh haemm heamH
+3160 qremh aemm eamH
+3161 cremh traemm tsreamH
+3162 tremh taemm treamH
+3163 khremh qaemm kheamH
+3164 dremh daemm dreamH
+3165 zremh draemm dzreamH
+3166 kremh kaemm keamH
+3167 nremh naemm nreamH
+3168 ngremh ngaemm ngeamH
+3169 kramh keamm kaemH
+3170 chramh chamm tsrhaemH
+3171 cramh tramm tsraemH
+3172 sramh shamm sraemH
+3173 hramh xeamm xaemH
+3174 bramh beamm baemH
+3175 ghramh heamm haemH
+3176 zramh dramm dzraemH
+3177 cjingx tjonk aemH
+3178 byamh bvamm bjomH
+3179 phyamh phvamm phjomH
+3180 kiamh kiamm kjaemH
+3181 khiamh qiamm khjaemH
+3182 qiamh iamm jaemH
+3183 quk uk uwk
+3184 duk duk duwk
+3185 kuk kuk kuwk
+3186 ghuk huk huwk
+3187 khuk quk khuwk
+3188 thuk thuk thuwk
+3189 tuk tuk tuwk
+3190 suk suk suwk
+3191 luk luk luwk
+3192 huk xuk xuwk
+3193 zuk dzuk dzuwk
+3194 chuk cuk tshuwk
+3195 cuk zuk tsuwk
+3196 buk buk buwk
+3197 phuk phuk phuwk
+3198 puk puk puwk
+3199 muk muk muwk
+3200 piuk piuk pjuwk
+3201 biuk biuk bjuwk
+3202 sriuk shuk srjuwk
+3203 liuk liuk ljuwk
+3204 driuk diuk drjuwk
+3205 kiuk kiuk kjuwk
+3206 khiuk qiuk khjuwk
+3207 zjuk zjuk dzyuwk
+3208 chjuk tcuk tsyhuwk
+3209 juk juk yuwk
+3210 giuk giuk gjuwk
+3211 chiuk ciuk tshjuwk
+3212 njuk ruk nyuwk
+3213 cjuk tjuk tsyuwk
+3214 sjuk sjuk syuwk
+3215 hiuk xiuk xjuwk
+3216 triuk tiuk trjuwk
+3217 ciuk ziuk tsjuwk
+3218 chriuk chuk tsrhjuwk
+3219 nriuk niuk nrjuwk
+3220 criuk truk tsrjuwk
+3221 phiuk phiuk phjuwk
+3222 qiuk iuk juwk
+3223 siuk siuk sjuwk
+3224 miuk miuk mjuwk
+3225 iuk hiuk hjuwk
+3226 thriuk thiuk trhjuwk
+3227 ngiuk ngiuk ngjuwk
+3228 ziuk dziuk dzjuwk
+3229 quuk vk owk
+3230 duuk dvk dowk
+3231 tuuk tvk towk
+3232 khuuk qvk khowk
+3233 ghuuk hvk howk
+3234 buuk bvk bowk
+3235 suuk svk sowk
+3236 kuuk kvk kowk
+3237 muuk mvk mowk
+3238 huuk xvk xowk
+3239 nuuk nvk nowk
+3240 cuuk zvk tsowk
+3241 puuk pvk powk
+3242 luuk lvk lowk
+3243 nguuk ngvk ngowk
+3244 cjyuk tjvk tsyowk
+3245 ngyuk ngivk ngjowk
+3246 hyuk xivk xjowk
+3247 kyuk kivk kjowk
+3248 gyuk givk gjowk
+3249 zjyuk zjvk dzyowk
+3250 chjyuk tcvk tsyhowk
+3251 njyuk rvk nyowk
+3252 sjyuk sjvk syowk
+3253 jyuk jvk yowk
+3254 dryuk divk drjowk
+3255 lyuk livk ljowk
+3256 khyuk qivk khjowk
+3257 tryuk tivk trjowk
+3258 cyuk zivk tsjowk
+3259 zsjyuk djvk zyowk
+3260 byuk bivk bjowk
+3261 chyuk civk tshjowk
+3262 zsyuk szivk zjowk
+3263 syuk sivk sjowk
+3264 pyuk pivk pjowk
+3265 thryuk thivk trhjowk
+3266 kruk keok kaewk
+3267 ngruk ngeok ngaewk
+3268 zruk dreok dzraewk
+3269 cruk treok tsraewk
+3270 sruk sheok sraewk
+3271 truk teok traewk
+3272 pruk peok paewk
+3273 mruk meok maewk
+3274 bruk beok baewk
+3275 phruk pheok phaewk
+3276 khruk qeok khaewk
+3277 druk deok draewk
+3278 qruk eok aewk
+3279 nruk neok nraewk
+3280 thruk theok trhaewk
+3281 lrok leok laewk
+3282 ghruk heok haewk
+3283 hruk xeok xaewk
+3284 chruk cheok tsrhaewk
+3285 cjit tjit tsyit
+3286 njit rit nyit
+3287 zsjit djit zyit
+3288 drit dyt drit
+3289 sit sit sit
+3290 qjit it jit
+3291 chit cit tshit
+3292 phjit phit phjit
+3293 kjit kit kjit
+3294 nrit nyt nrit
+3295 jit jit yit
+3296 khjit qit khjit
+3297 hjit xit xjit
+3298 thrit thyt trhit
+3299 lit lit lit
+3300 trit tyt trit
+3301 zit dzit dzit
+3302 chrit chyit tsrhit
+3303 sjit sjit syit
+3304 cit zit tsit
+3305 mjit mit mjit
+3306 pjit pit pjit
+3307 git gyt git
+3308 bjit bit bjit
+3309 yt hwyt hwit
+3310 sryt shvit srwit
+3311 chjit tcit tsyhit
+3312 zrit dryit dzrit
+3313 mit myt mit
+3314 bit byt bit
+3315 qit yt it
+3316 ngit ngyt ngit
+3317 pit pyt pit
+3318 tryt tvit trwit
+3319 hit xyt xit
+3320 kit kyt kit
+3321 trit tyt trit
+3322 hjyt xvit xwit
+3323 zsjyt djvit zywit
+3324 kjyt kvit kjwit
+3325 zyt dzvit dzwit
+3326 jyt jvit ywit
+3327 cyt zvit tswit
+3328 syt svit swit
+3329 lyt lvit lwit
+3330 thryt thvit trhwit
+3331 tryt tvit trwit
+3332 dryt dvit drwit
+3333 chjyt tcvit tsyhwit
+3334 chyt cvit tshwit
+3335 cryt trvit tsrwit
+3336 hjyt xvit xwit
+3337 crit tryit tsrit
+3338 srit shyit srit
+3339 zrit dryit dzrit
+3340 myot miut mjut
+3341 pyot piut pjut
+3342 qyot iut jut
+3343 kyot kiut kjut
+3344 khyot qiut khjut
+3345 gyot giut gjut
+3346 byot biut bjut
+3347 hyot xiut xjut
+3348 yot hiut hjut
+3349 phyot phiut phjut
+3350 ngyot ngiut ngjut
+3351 hiot xiot xj+t
+3352 kit kyt kj+t
+3353 ngiot ngiot ngj+t
+3354 giot giot gj+t
+3355 khiot qiot khj+t
+3356 ngyat ngvat ngjwot
+3357 byat bvat bjot
+3358 yat hvat hjwot
+3359 kyat kvat kjwot
+3360 qyat vat jwot
+3361 gyat gvat gjwot
+3362 khyat qvat khjwot
+3363 pyat pvat pjot
+3364 myat mvat mjot
+3365 hyat xvat xjwot
+3366 qiat iat jot
+3367 hiat xiat xjot
+3368 kiat kiat kjot
+3369 giat giat gjot
+3370 phyat phvat phjot
+3371 ngiat ngiat ngjot
+3372 muot muot mwot
+3373 thuot thuot thwot
+3374 kuot kuot kwot
+3375 buot buot bwot
+3376 tuot tuot twot
+3377 thuot thuot thwot
+3378 duot duot dwot
+3379 uot uot wot
+3380 huot xuot xwot
+3381 nguot nguot ngwot
+3382 phuot phuot phwot
+3383 luot luot lwot
+3384 khuot quot khwot
+3385 nuot nuot nwot
+3386 suot suot swot
+3387 chuot cuot tshwot
+3388 zuot dzuot dzwot
+3389 ghvt hot hot
+3390 ghuot huot hwot
+3391 cuot zuot tswot
+3392 ghat hat hat
+3393 hat xat xat
+3394 tat tat tat
+3395 that that that
+3396 qat at at
+3397 lat lat lat
+3398 khat qat khat
+3399 dat dat dat
+3400 zat dzat dzat
+3401 ngat ngat ngat
+3402 kat kat kat
+3403 sat sat sat
+3404 chat cat tshat
+3405 nat nat nat
+3406 muat muat mat
+3407 muat muat mat
+3408 nguat nguat ngwat
+3409 zuat dzuat dzwat
+3410 puat puat pat
+3411 cuat zuat tsat
+3412 kuat kuat kwat
+3413 khuat quat khwat
+3414 ghuat huat hwat
+3415 duat duat dwat
+3416 huat xuat xwat
+3417 quat uat wat
+3418 cuat zuat tswat
+3419 phuat phuat phat
+3420 thuat thuat thwat
+3421 luat luat lwat
+3422 tuat tuat twat
+3423 chuat cuat tshwat
+3424 buat buat bat
+3425 ghret haet heat
+3426 cret traet tsreat
+3427 bret baet beat
+3428 khret qaet kheat
+3429 ghruet hoet hweat
+3430 pret paet peat
+3431 truet toet trweat
+3432 qruet oet weat
+3433 nruet noet nrweat
+3434 chret chaet tsrheat
+3435 kruet koet kweat
+3436 kret kaet keat
+3437 qret aet eat
+3438 sret shaet sreat
+3439 mret maet meat
+3440 hrat xaet xweat
+3441 nret naet nreat
+3442 ngruet ngoet ngweat
+3443 khruet qoet khweat
+3444 phret phaet pheat
+3445 cruet troet tsrweat
+3446 ghrat heat haet
+3447 qrat eat aet
+3448 ngrat ngeat ngaet
+3449 chrat chat tsrhaet
+3450 khrat qeat khaet
+3451 hrat xeat xaet
+3452 thrat theat trhaet
+3453 kruot koat kwaet
+3454 ghruat hoat hwaet
+3455 thruat thoat trhwaet
+3456 truat toat trwaet
+3457 sruat shoat srwaet
+3458 ngruat ngoat ngwaet
+3459 chruat choat tsrhwaet
+3460 mrat meat maet
+3461 nruat noat nrwaet
+3462 prat peat paet
+3463 krat keat kaet
+3464 zrat drat dzraet
+3465 trat teat traet
+3466 - nj'rat nyaet
+3467 set set set
+3468 chet cet tshet
+3469 ket ket ket
+3470 cet zet tset
+3471 huet xuet xwet
+3472 khuet quet khwet
+3473 kuet kuet kwet
+3474 ghuet huet hwet
+3475 quet uet wet
+3476 det det det
+3477 thet thet thet
+3478 ghet het het
+3479 net net net
+3480 zet dzet dzet
+3481 nget nget nget
+3482 met met met
+3483 pet pet pet
+3484 qet et et
+3485 khet qet khet
+3486 het xet xet
+3487 phet phet phet
+3488 bet bet bet
+3489 tet tet tet
+3490 let let let
+3491 siet siet sjet
+3492 liet liet ljet
+3493 triet tyet trjet
+3494 giet gyet gjet
+3495 njet ret nyet
+3496 cjet tjet tsyet
+3497 zsjet djet zyet
+3498 zjet zjet dzyet
+3499 ngiet ngyet ngjet
+3500 mjet miet mjiet
+3501 khiet qyet khjet
+3502 pjet piet pjiet
+3503 zyet dzvet dzjwet
+3504 cyet zvet tsjwet
+3505 syet svet sjwet
+3506 thryet thwet trhjwet
+3507 jyet jvet ywet
+3508 khjyet qvet khjwiet
+3509 qyet wet jwet
+3510 njyet rvet nywet
+3511 sjyet sjvet sywet
+3512 cjyet tjvet tsywet
+3513 chjyet tcvet tsyhwet
+3514 tryet twet trjwet
+3515 lyet lvet ljwet
+3516 phjet phiet phjiet
+3517 biet byet bjet
+3518 driet dyet drjet
+3519 piet pyet pjet
+3520 sryet shwet srjwet
+3521 kiet kyet kjet
+3522 sjet sjet syet
+3523 nryet nwet nrjwet
+3524 hyet xwet xjwet
+3525 qjyet vet jwiet
+3526 kyet kwet kjwet
+3527 cryet trwet tsrjwet
+3528 chyet cvet tshjwet
+3529 cyet zvet tsjet
+3530 sriet shet srjet
+3531 qiet yet jet
+3532 thriet thyet trhjet
+3533 hiet xyet xjet
+3534 chjyet tcvet tsyhwet
+3535 chriet chet tsrhjet
+3536 zsyet szvet zjwet
+3537 chjet tcet tsyhet
+3538 jet jet yet
+3539 zriet dret dzrjet
+3540 jak jak yak
+3541 liak liak ljak
+3542 kiak kiak kjak
+3543 cjak tjak tsyak
+3544 sjak sjak syak
+3545 njak rak nyak
+3546 chjak tcak tsyhak
+3547 qiak iak jak
+3548 khiak qiak khjak
+3549 ngiak ngiak ngjak
+3550 zjak zjak dzyak
+3551 thriak thiak trhjak
+3552 siak siak sjak
+3553 criak triak tsrjak
+3554 ciak ziak tsjak
+3555 ziak dziak dzjak
+3556 chiak ciak tshjak
+3557 giak giak gjak
+3558 qyak vak jwak
+3559 byak bvak bjak
+3560 hyak xvak xjwak
+3561 yak hvak hjwak
+3562 kyak kvak kjwak
+3563 triak tiak trjak
+3564 driak diak drjak
+3565 khyak qvak khjwak
+3566 gyak gvak gjwak
+3567 nriak niak nrjak
+3568 phyak phvak phjak
+3569 hiak xiak xjak
+3570 dak dak dak
+3571 mak mak mak
+3572 lak lak lak
+3573 thak thak thak
+3574 cak zak tsak
+3575 chak cak tshak
+3576 kak kak kak
+3577 khak qak khak
+3578 ngak ngak ngak
+3579 phuak phuak phak
+3580 qak ak ak
+3581 buak buak bak
+3582 hak xak xak
+3583 sak sak sak
+3584 ghak hak hak
+3585 zak dzak dzak
+3586 puak puak pak
+3587 nak nak nak
+3588 huak xuak xwak
+3589 kuak kuak kwak
+3590 quak uak wak
+3591 ghuak huak hwak
+3592 khuak quak khwak
+3593 nguak nguak ngwak
+3594 luak luak lwak
+3595 cuak zuak tswak
+3596 mrak meak maek
+3597 trak teak traek
+3598 brak beak baek
+3599 prak peak paek
+3600 giek gyak gjaek
+3601 kiek kyak kjaek
+3602 sriek shyak srjaek
+3603 chriek chyak tsrhjaek
+3604 ghruak hoak hwaek
+3605 crak trak tsraek
+3606 zrak drak dzraek
+3607 khiek qyak khjaek
+3608 ngrak ngeak ngaek
+3609 ngiek ngyak ngjaek
+3610 khrak qeak khaek
+3611 qrak eak aek
+3612 hiek xyak xjaek
+3613 thrak theak trhaek
+3614 qruak oak waek
+3615 phrak pheak phaek
+3616 hrak xeak xaek
+3617 ghrak heak haek
+3618 krak keak kaek
+3619 hruak xoak xwaek
+3620 drak deak draek
+3621 krak keak kwaek
+3622 qyek wak jwaek
+3623 nruak noak nraek
+3624 khruak qoak khwaek
+3625 biek byak bjaek
+3626 mrek maek meak
+3627 ghruek hoek hweak
+3628 kruek koek kweak
+3629 prek paek peak
+3630 brek baek beak
+3631 zrek draek dzreak
+3632 crek traek tsreak
+3633 zruek droek dzrweak
+3634 chrek chaek tsrheak
+3635 khrek qaek kheak
+3636 hruek xoek xweak
+3637 ghrek haek heak
+3638 krek kaek keak
+3639 trek taek treak
+3640 qrek aek eak
+3641 srek shaek sreak
+3642 phrek phaek pheak
+3643 ngrek ngaek ngeak
+3644 lrek laek leak
+3645 cruek troek tsrweak
+3646 sruek shoek srweak
+3647 - gruek gweak
+3648 nrek naek nreak
+3649 siek siek sjek
+3650 ciek ziek tsjek
+3651 qjek iek jiek
+3652 jek jek yek
+3653 sjek sjek syek
+3654 chjek tcek tsyhek
+3655 zjek zjek dzyek
+3656 cjek tjek tsyek
+3657 driek diek drjek
+3658 chiek ciek tshjek
+3659 zsiek sziek zjek
+3660 ziek dziek dzjek
+3661 bjek biek bjiek
+3662 jyek jvek ywek
+3663 hjyek xvek xjwek
+3664 pjek piek pjiek
+3665 phjek phiek phjiek
+3666 zsjek djek zyek
+3667 pyek pvek pjaek
+3668 triek tiek trjek
+3669 thriek thiek trhjek
+3670 cjyek tjvek tsywek
+3671 chyek cvek tshjwek
+3672 sek sek sek
+3673 kek kek kek
+3674 phek phek phek
+3675 lek lek lek
+3676 tek tek tek
+3677 ghek hek hek
+3678 ngek ngek ngek
+3679 dek dek dek
+3680 thek thek thek
+3681 cek zek tsek
+3682 khek qek khek
+3683 nek nek nek
+3684 zek dzek dzek
+3685 mek mek mek
+3686 bek bek bek
+3687 pek pek pek
+3688 khuek quek khwek
+3689 kuek kuek kwek
+3690 chek cek tshek
+3691 hek xek xek
+3692 huek xuek xwek
+3693 - thr'ek trhek
+3694 cjik tjok tsyik
+3695 drik diok drik
+3696 lik liok lik
+3697 thrik thiok trhik
+3698 trik tiok trik
+3699 zsjik djok zyik
+3700 sik siok sik
+3701 zjik zjok dzyik
+3702 sjik sjok syik
+3703 hik xiok xik
+3704 zrik drok dzrik
+3705 gik giok gik
+3706 nrik niok nrik
+3707 chrik chok tsrhik
+3708 qik iok ik
+3709 srik shok srik
+3710 khik qiok khik
+3711 kik kiok kik
+3712 jik jok yik
+3713 cik ziok tsik
+3714 pik piok pik
+3715 yk hvok hwik
+3716 hyk xvok xwik
+3717 phik phiok phik
+3718 crik trok tsrik
+3719 bik biok bik
+3720 ngik ngiok ngik
+3721 zik dziok dzik
+3722 trik tiok trik
+3723 mik miok mik
+3724 chjik tcok tsyhik
+3725 tok tok tok
+3726 cok zok tsok
+3727 lok lok lok
+3728 - thok thok
+3729 khok qok khok
+3730 dok dok dok
+3731 hok xok xok
+3732 mok mok mok
+3733 zok dzok dzok
+3734 sok sok sok
+3735 pok pok pok
+3736 bok bok bok
+3737 ghuok huok hwok
+3738 kuok kuok kwok
+3739 qok ok ok
+3740 ghok hok hok
+3741 nok nok nok
+3742 kok kok kok
+3743 chok cok tshok
+3744 phok phok phok
+3745 huok xuok xwok
+3746 chip cip tship
+3747 zjip zjip dzyip
+3748 cjip tjip tsyip
+3749 zsip szip zip
+3750 zip dzip dzip
+3751 njip rip nyip
+3752 qjip ip jip
+3753 sjip sjip syip
+3754 cip zip tsip
+3755 gip gyp gip
+3756 drip dyp drip
+3757 trip typ trip
+3758 lip lip lip
+3759 kip kyp kip
+3760 ngip ngyp ngip
+3761 khip qyp khip
+3762 sip sip sip
+3763 srip shyp srip
+3764 hip xyp xip
+3765 -  tsrip
+3766 qip yp ip
+3767 thrip thyp trhip
+3768 ip hyp hip
+3769 jip jip yip
+3770 nrip nyp nrip
+3771 zrip dryp dzrip
+3772 bip byp bip
+3773 pip pyp pip
+3774 chrip chyp tsrhip
+3775 chjip tcip tsyhip
+3776 ghop hop hop
+3777 kop kop kop
+3778 top top top
+3779 sop sop sop
+3780 dop dop dop
+3781 thop thop thop
+3782 zop dzop dzop
+3783 cop zop tsop
+3784 - lop lop
+3785 nop nop nop
+3786 khop qop khop
+3787 qop op op
+3788 hop xop xop
+3789 ngop ngop ngop
+3790 chop cop tshop
+3791 - zj'op dzyop
+3792 qop op op
+3793 ghap hap hap
+3794 lap lap lap
+3795 tap tap tap
+3796 thap thap thap
+3797 hap xap xap
+3798 nap nap nap
+3799 dap dap dap
+3800 sap sap sap
+3801 ngap ngap ngap
+3802 zap dzap dzap
+3803 kap kap kap
+3804 khap qap khap
+3805 qap ap ap
+3806 chap cap tshap
+3807 kap kap kap
+3808 - cj'ap tsyap
+3809 jep jep yep
+3810 ciep ziep tsjep
+3811 sjep sjep syep
+3812 zjep zjep dzyep
+3813 liep liep ljep
+3814 ziep dziep dzjep
+3815 driep dyep drjep
+3816 qiep yep jep
+3817 nriep nyep nrjep
+3818 chjep tcep tsyhep
+3819 njep rep nyep
+3820 cjep tjep tsyep
+3821 chiep ciep tshjep
+3822 thriep thyep trhjep
+3823 giep gyep gjep
+3824 triep tyep trjep
+3825 iep hyep hjep
+3826 khjep qiep khjiep
+3827 sriep shep srjep
+3828 kiep kyep kjep
+3829 qjep iep jiep
+3830 thep thep thep
+3831 ghep hep hep
+3832 kep kep kep
+3833 khep qep khep
+3834 dep dep dep
+3835 nep nep nep
+3836 sep sep sep
+3837 lep lep lep
+3838 tep tep tep
+3839 zep dzep dzep
+3840 cep zep tsep
+3841 hep xep xep
+3842 sep sep sep
+3843 ghrep haep heap
+3844 khrep qaep kheap
+3845 zrep draep dzreap
+3846 krep kaep keap
+3847 crep traep tsreap
+3848 chrep chaep tsrheap
+3849 nrep naep nreap
+3850 hrep xaep xeap
+3851 srep shaep sreap
+3852 trep taep treap
+3853 qrep aep eap
+3854 ngrep ngaep ngeap
+3855 thrap thaep trheap
+3856 ghrap heap haep
+3857 trvp deap draep
+3858 qrap eap aep
+3859 krap keap kaep
+3860 srap shap sraep
+3861 hrap xeap xaep
+3862 ngiap ngiap ngjaep
+3863 hiap xiap xjaep
+3864 khiap qiap khjaep
+3865 kiap kiap kjaep
+3866 qiap iap jaep
+3867 - jap yaep
+3868 giap giap gjaep
+3869 byap bvap bjop
+3870 pyap pvap pjop
+3871 phyap phvap phjop
+3872 - khyap khjop
+3873 - nryap nrjop
+3874 - thryap trhjop
