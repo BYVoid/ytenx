@@ -19,6 +19,7 @@ pyanxTshetDciangxDzihMap = {}
 pyanxTshetGhraxDzihMap = {}
 pyanxTshetMap = {}
 prengQimMap = {}
+dauhQimMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
 gloss_fallback_pattern = u'(^古文|^俗|上同|^亦同|同上)'
@@ -361,7 +362,7 @@ def syncDauh():
   
   def sync(line, num):
     id = line[0]
-    dauh = Dauh(
+    dauh = PrengQim(
       identifier = id,
       putonghua = line[1],
       tcengh = line[2],
@@ -388,6 +389,7 @@ def syncSieuxYonh():
       pyanx = pyanx,
       ngix = ngixQimMap[line[0]],
       preng = prengQimMap[line[0]],
+      dauh = dauhMap[line[0]],
     )
     sieux.cio.clear()
     for cio in line[6].split('/'):
