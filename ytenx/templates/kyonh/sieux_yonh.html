@@ -99,6 +99,16 @@
       {% endif %}
     {% endfor %}
     </table>
+    <table class="table table-bordered">
+    {% for mjeng, preng in sieux_yonh.dauh.items %}
+      {% if preng %}
+        <tr>
+          <td>{{mjeng}}</td>
+          <td>{{preng}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </table>
   </div>
 </div>
 <div class="row">
