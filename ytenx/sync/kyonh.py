@@ -385,6 +385,8 @@ def syncSieuxYonh():
 def syncDzih():
   print 'Dzih...'
   def sync(line, num):
+    global last_dzih
+    global last_ngieh
     current_dzih = ''
     current_ngieh = ''
     current_dzih = line[0]
