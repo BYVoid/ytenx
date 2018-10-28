@@ -22,8 +22,8 @@ prengQimMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
 gloss_fallback_pattern = u'(^古文|^俗|上同|^亦同|同上)'
-last_dzih = ur''
-last_ngieh = ur''
+last_dzih = u''
+last_ngieh = u''
 
 def sync():
   syncCjengMuxPrengQim()
@@ -387,10 +387,10 @@ def syncDzih():
   def sync(line, num):
     global last_dzih
     global last_ngieh
-    current_dzih = ur''
-    current_ngieh = ur''
+    current_dzih = u''
+    current_ngieh = u''
     current_dzih = line[0]
-    current_ngieh = sub(gloss_fallback_pattern, ur'\1(「' + last_dzih + ur'」' + last_ngieh + ur')' , line[3], 1)
+    current_ngieh = sub(gloss_fallback_pattern, ur'\1(「' + last_dzih + u'」' + last_ngieh + u')' , line[3], 1)
     dzih = Dzih(
       ziox = num + 1,
       dzih = current_dzih,
