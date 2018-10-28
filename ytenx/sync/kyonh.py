@@ -352,7 +352,7 @@ def syncPrengQim():
       baxter = line[3],
     )
     preng.save()
-    fMap[id] = preng
+    prengQimMap[id] = preng
   
   traverse(base_path + 'PrengQim.txt', sync)
   print 'Done'
@@ -368,7 +368,7 @@ def syncDauh():
       tcengh = line[2],
     )
     dauh.save()
-    fMap[id] = dauh
+    dauhMap[id] = dauh
   
   traverse(base_path + 'Dauh.txt', sync)
   print 'Done'
