@@ -389,16 +389,19 @@ def syncDzih():
     global last_ngieh
     current_dzih = u''
     current_ngieh = u''
-    current_dzih = line[0]
-    current_ngieh = sub(gloss_fallback_pattern, ur'\1(「' + last_dzih + u'」' + last_ngieh + u')' , line[3], 1)
-    dzih = Dzih(
-      ziox = num + 1,
-      dzih = current_dzih,
-      sieuxYonh = sieuxYonhMap[line[1]],
-      yih = line[2],
-      ngieh = current_ngieh,
-    )
-    dzih.save()
+    try:
+      current_dzih = line[0]
+      current_ngieh = sub(gloss_fallback_pattern, ur'\1(「' + last_dzih + u'」' + last_ngieh + u')' , line[3], 1)
+      dzih = Dzih(
+        ziox = num + 1,
+        dzih = current_dzih,
+        sieuxYonh = sieuxYonhMap[line[1]],
+        yih = line[2],
+        ngieh = current_ngieh,
+      )
+      dzih.save()
+    except:
+      print line
     last_dzih = current_dzih
     last_ngieh = current_ngieh
   
