@@ -1,5 +1,6 @@
 # coding=utf-8
 from common import traverse
+from re import sub
 from ytenx.kyonh.models import *
 
 base_path = './ytenx/sync/kyonh/'
@@ -20,6 +21,9 @@ pyanxTshetMap = {}
 prengQimMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
+gloss_fallback_pattern = u'(^古文|^俗|上同|^亦同|同上)'
+last_dzih = u''
+last_ngieh = u''
 
 def sync():
   syncCjengMuxPrengQim()
@@ -380,19 +384,26 @@ def syncSieuxYonh():
 
 def syncDzih():
   print 'Dzih...'
-  
   def sync(line, num):
+    global last_dzih
+    global last_ngieh
+    current_dzih = u''
+    current_ngieh = u''
     try:
+      current_dzih = line[0]
+      current_ngieh = sub(gloss_fallback_pattern, ur'\1「' + last_dzih + u'」(' + last_ngieh + u')' , line[3], 1)
       dzih = Dzih(
         ziox = num + 1,
-        dzih = line[0],
+        dzih = current_dzih,
         sieuxYonh = sieuxYonhMap[line[1]],
         yih = line[2],
-        ngieh = line[3],
+        ngieh = current_ngieh,
       )
       dzih.save()
     except:
       print line
+    last_dzih = current_dzih
+    last_ngieh = current_ngieh
   
   traverse(base_path + 'Dzih.txt', sync)
   print 'Done'
