@@ -364,8 +364,8 @@ def syncDauh():
     id = line[0]
     dauh = PrengQim(
       identifier = id,
-      putonghua = line[1],
-      tcengh = line[2],
+      tcengh = line[1],
+      putonghua = line[2],
     )
     dauh.save()
     dauhMap[id] = dauh
