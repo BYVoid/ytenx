@@ -134,6 +134,7 @@ def syncDzih():
     if line[5] != '':
       try:
         kwangx = ytenx.kyonh.models.SieuxYonh.objects.get(ziox = line[5])
+      except:
 
     dzih = Dzih(
       ziox = ziox,
