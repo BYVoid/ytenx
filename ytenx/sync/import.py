@@ -7,7 +7,7 @@ import ytenx.sync.pyonh as pyonh
 import ytenx.sync.tcenghyonhtsen as tcenghyonhtsen
 
 kyonh.sync()
-#jihthex.sync()
+jihthex.sync()
 #trngyan.sync()
 #dciangx.sync()
 #pyonh.sync()
