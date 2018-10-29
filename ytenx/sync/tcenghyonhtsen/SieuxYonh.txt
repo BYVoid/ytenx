@@ -1,4 +1,4 @@
-# 代表字 韻目 反切上字 反切下字 聲母 韻母 聲調 古音序 逸字序 IPA
+# 代表字 韻目 反切上字 反切下字 聲母 韻母 聲調 古音序 逸字序 譯訓
 1 東 東 德 紅 t ong   1 tuŋ
 2 通 東 他 紅 th ong   2 thuŋ
 3 同 東 徒 紅 d ong   3 tɦȕŋ
@@ -561,45 +561,45 @@
 557 𢫮 庚 胡 登 gh eong    ɦə̏ŋ
 558 鞃 庚 丘 肱 kh weong    khwəŋ
 559 泓 庚 烏 宏 q weong    ʔwəŋ
-560 尤 尤 于 求 y jeou  1 1 jiȍw
-561 抽 尤 丑 鳩 tch jeou   6 tʃhiow
-562 搊 尤 楚 蒐 tshr jeou    ʈʂhow
-563 休 尤 虛 尤 h jeou  2  hiow
-564 丘 尤 驅 尤 kh jeou    khiow
-565 鳩 尤 居 尤 k jeou   2 kiow
-566 求 尤 渠 尤 g jeou  3 3 kɦiȍw
-567 憂 尤 於 尤 q jeou   4 ʔiow
-568 周 尤 職 流 tc jeou   5 tʃiow
-569 儔 尤 除 留 dc jeou    tʃɦiȍw
-570 留 尤 力 求 l jeou  4  liȍw
-571 脩 尤 思 留 s jeou   7 siow
-572 秋 尤 此 由 tsh jeou   8 tshiow
-573 啾 尤 即 由 ts jeou    tsiow
-574 酋 尤 慈 秋 dz jeou  5  tsɦiȍw
-575 收 尤 尸 周 c jeou    ʃiow
-576 柔 尤 而 由 ny jeou  6 9 ʒiȍw
-577 搜 尤 疏 鳩 sr jeou   10 ʂow
-578 鄒 尤 側 鳩 tsr jeou   11 ʈʂow
-579 浮 尤 房 鳩 bf jeou  7 12 fvȍw
-580 彪 尤 補 尤 p jeou    piow
-581 滮 尤 皮 休 b jeou    pɦiȍw
-582 愁 尤 鋤 尤 dzr jeou    ʈʂɦȍw
-583 繆 尤 莫 彪 m jeou    miȍw
-584 秠 尤 匹 尤 ph jeou    phiow
-585 侯 尤 胡 鉤 gh eou    ɦȍw
-586 謳 尤 烏 侯 q eou    ʔow
-587 彄 尤 驅 侯 kh eou   13 khow
-588 腢 尤 魚 侯 ng eou   16 ŋȍw
-589 鉤 尤 居 侯 k eou   14 kow
-590 裒 尤 蒲 侯 b eou    pɦȍw
-591 謀 尤 莫 侯 m eou  9 15 mȍw
-592 漱 尤 先 侯 s eou    sow
-593 鯫 尤 將 侯 ts eou    tsow
-594 兜 尤 當 侯 t eou    tow
-595 偷 尤 他 侯 th eou    thow
-596 頭 尤 徒 侯 d eou   17 tɦȍw
-597 樓 尤 盧 侯 l eou   19 lȍw
-598 䨲 尤 奴 侯 n eou  10 18 nȍw
+560 尤 尤 于 求 y jeou  1 1 jȉw
+561 抽 尤 丑 鳩 tch jeou   6 tʃhiw
+562 搊 尤 楚 蒐 tshr jeou    ʈʂhəw
+563 休 尤 虛 尤 h jeou  2  hiw
+564 丘 尤 驅 尤 kh jeou    khiw
+565 鳩 尤 居 尤 k jeou   2 kiw
+566 求 尤 渠 尤 g jeou  3 3 kɦȉw
+567 憂 尤 於 尤 q jeou   4 ʔiw
+568 周 尤 職 流 tc jeou   5 tʃiw
+569 儔 尤 除 留 dc jeou    tʃɦȉw
+570 留 尤 力 求 l jeou  4  lȉw
+571 脩 尤 思 留 s jeou   7 siw
+572 秋 尤 此 由 tsh jeou   8 tshiw
+573 啾 尤 即 由 ts jeou    tsiw
+574 酋 尤 慈 秋 dz jeou  5  tsɦȉw
+575 收 尤 尸 周 c jeou    ʃiw
+576 柔 尤 而 由 ny jeou  6 9 ʒȉw
+577 搜 尤 疏 鳩 sr jeou   10 ʂəw
+578 鄒 尤 側 鳩 tsr jeou   11 ʈʂəw
+579 浮 尤 房 鳩 bf jeou  7 12 fvə̏w
+580 彪 尤 補 尤 p jeou    piw
+581 滮 尤 皮 休 b jeou    pɦȉw
+582 愁 尤 鋤 尤 dzr jeou    ʈʂɦə̏w
+583 繆 尤 莫 彪 m jeou    mȉw
+584 秠 尤 匹 尤 ph jeou    phiw
+585 侯 尤 胡 鉤 gh eou    ɦə̏w
+586 謳 尤 烏 侯 q eou    ʔəw
+587 彄 尤 驅 侯 kh eou   13 khəw
+588 腢 尤 魚 侯 ng eou   16 ŋə̏w
+589 鉤 尤 居 侯 k eou   14 kəw
+590 裒 尤 蒲 侯 b eou    pɦə̏w
+591 謀 尤 莫 侯 m eou  9 15 mə̏w
+592 漱 尤 先 侯 s eou    səw
+593 鯫 尤 將 侯 ts eou    tsəw
+594 兜 尤 當 侯 t eou    təw
+595 偷 尤 他 侯 th eou    thəw
+596 頭 尤 徒 侯 d eou   17 tɦə̏w
+597 樓 尤 盧 侯 l eou   19 lə̏w
+598 䨲 尤 奴 侯 n eou  10 18 nə̏w
 599 侵 侵 七 林 tsh jeom  1  tshim
 600 尋 侵 徐 心 z jeom   2 szȉm
 601 深 侵 式 針 c jeom    ʃim
@@ -1142,42 +1142,42 @@
 1129 拯 梗 之 庱 tc jeing q   tʃîŋ
 1130 㱡 梗 色 拯 sr eing q   ʂə̂ŋ
 1131 等 梗 多 肯 t eong q   tə̂ŋ
-1132 有 有 云 九 y jeou q   jiôw
-1133 滫 有 息 有 s jeou q   siôw
-1134 酒 有 子 酉 ts jeou q   tsiôw
-1135 首 有 始 九 c jeou q   ʃiôw
-1136 帚 有 止 酉 tc jeou q  1 tʃiôw
-1137 醜 有 齒 九 tch jeou q   tʃhiôw
-1138 受 有 是 酉 zc jeou q   ʃʒiǒw'
-1139 蹂 有 忍 九 ny jeou q   ʒiôw
-1140 紂 有 丈 九 dc jeou q   dʒiǒw'
-1141 柳 有 力 九 l jeou q 1  liôw
-1142 紐 有 女 九 nr jeou q  2 niôw
-1143 黝 有 於 糾 q jeou q   ʔiôw
-1144 朽 有 許 久 h jeou q 2 3 hiôw
-1145 糗 有 去 九 kh jeou q   khiôw
-1146 九 有 舉 有 k jeou q 3  kiôw
-1147 臼 有 巨 九 g jeou q  4 giǒw'
-1148 黈 有 他 口 th eou q  5 thôw
-1149 鋀 有 徒 口 d eou q 4  dǒw'
-1150 塿 有 郎 斗 l eou q   lôw
-1151 㝅 有 乃 后 n eou q   nôw
-1152 缶 有 俯 久 f jeou q   fôw
-1153 阜 有 房 缶 bf jeou q  6 fvǒw'
-1154 溲 有 所 九 sr jeou q   ʂôw
-1155 掫 有 側 久 tsr jeou q   ʈʂôw
-1156 厚 有 胡 口 gh eou q  7 ɦǒw'
-1157 吼 有 許 厚 h eou q 5  hôw
-1158 口 有 苦 厚 kh eou q   khôw
-1159 耇 有 舉 后 k eou q   kôw
-1160 歐 有 於 口 q eou q  9 ʔôw
-1161 偶 有 語 口 ng eou q   ŋôw
-1162 剖 有 普 厚 ph eou q 6  phôw
-1163 母 有 莫 厚 m eou q   môw
-1164 叟 有 蘇 后 s eou q 7 8 sôw
-1165 趣 有 此 苟 tsh eou q 8 10 tshôw
-1166 走 有 子 口 ts eou q   tsôw
-1167 斗 有 當 口 t eou q 9  tôw
+1132 有 有 云 九 y jeou q   jîw
+1133 滫 有 息 有 s jeou q   sîw
+1134 酒 有 子 酉 ts jeou q   tsîw
+1135 首 有 始 九 c jeou q   ʃîw
+1136 帚 有 止 酉 tc jeou q  1 tʃîw
+1137 醜 有 齒 九 tch jeou q   tʃhîw
+1138 受 有 是 酉 zc jeou q   ʃʒǐw'
+1139 蹂 有 忍 九 ny jeou q   ʒîw
+1140 紂 有 丈 九 dc jeou q   dʒǐw'
+1141 柳 有 力 九 l jeou q 1  lîw
+1142 紐 有 女 九 nr jeou q  2 nîw
+1143 黝 有 於 糾 q jeou q   ʔîw
+1144 朽 有 許 久 h jeou q 2 3 hîw
+1145 糗 有 去 九 kh jeou q   khîw
+1146 九 有 舉 有 k jeou q 3  kîw
+1147 臼 有 巨 九 g jeou q  4 gǐw'
+1148 黈 有 他 口 th eou q  5 thə̂w
+1149 鋀 有 徒 口 d eou q 4  də̌w'
+1150 塿 有 郎 斗 l eou q   lə̂w
+1151 㝅 有 乃 后 n eou q   nə̂w
+1152 缶 有 俯 久 f jeou q   fə̂w
+1153 阜 有 房 缶 bf jeou q  6 fvə̌w'
+1154 溲 有 所 九 sr jeou q   ʂə̂w
+1155 掫 有 側 久 tsr jeou q   ʈʂə̂w
+1156 厚 有 胡 口 gh eou q  7 ɦə̌w'
+1157 吼 有 許 厚 h eou q 5  hə̂w
+1158 口 有 苦 厚 kh eou q   khə̂w
+1159 耇 有 舉 后 k eou q   kə̂w
+1160 歐 有 於 口 q eou q  9 ʔə̂w
+1161 偶 有 語 口 ng eou q   ŋə̂w
+1162 剖 有 普 厚 ph eou q 6  phə̂w
+1163 母 有 莫 厚 m eou q   mə̂w
+1164 叟 有 蘇 后 s eou q 7 8 sə̂w
+1165 趣 有 此 苟 tsh eou q 8 10 tshə̂w
+1166 走 有 子 口 ts eou q   tsə̂w
+1167 斗 有 當 口 t eou q 9  tə̂w
 1168 寢 寢 七 稔 tsh jeom q  1 tshîm
 1169 𥧲 寢 子 衽 ts jeom q   tsîm
 1170 審 寢 式 荏 c jeom q   ʃîm
@@ -1799,47 +1799,47 @@
 1784 蹭 敬 七 鄧 tsh eong h   tshə̌ŋ
 1785 認 敬 而 證 ny eing h   ʒǐŋ
 1786 𤃶 敬 台 鄧 th eong h   thə̌ŋ
-1787 宥 宥 爰 救 y jeou h   jiǒw
-1788 齅 宥 許 救 h jeou h   hiǒw
-2290 糗 宥 丘 救 kh jeou h   khiǒw
-1789 救 宥 居 又 k jeou h   kiǒw
-1790 舊 宥 巨 又 g jeou h  2 giǒw
-1791 副 宥 敷 救 f jeou h  3 fǒw
-1792 復 宥 扶 富 bf jeou h   fvǒw
-1793 秀 宥 息 救 s jeou h   siǒw
-1794 僦 宥 即 就 ts jeou h   tsiǒw
-1795 岫 宥 似 救 z jeou h   sziǒw
-1796 就 宥 疾 僦 dz jeou h   dziǒw
-1797 狩 宥 舒 救 c jeou h   ʃiǒw
-1798 臭 宥 尺 救 tch jeou h  1 tʃhiǒw
-1799 祝 宥 職 救 tc jeou h   tʃiǒw
-1800 授 宥 承 呪 zc jeou h  4 ʃʒiǒw
-1801 輮 宥 如 又 ny jeou h 1 5 ʒiǒw
-1802 不 宥 俯 救 f jeou h   fǒw
-1803 瘦 宥 所 救 sr jeou h   ʂǒw
-1804 簉 宥 初 救 tshr jeou h   ʈʂhǒw
-1805 縐 宥 側 救 tsr jeou h   ʈʂǒw
-1806 驟 宥 鉏 救 dzr jeou h   ɖʐǒw
-1807 胄 宥 直 又 dc jeou h   dʒiǒw
-1808 溜 宥 力 救 l jeou h 2 6 liǒw
-1809 狃 宥 女 救 nr jeou h   niǒw
-1810 候 宥 胡 茂 gh eou h  7 ɦǒw
-1811 吼 宥 許 候 h eou h   hǒw
-1812 寇 宥 丘 候 kh eou h  8 khǒw
-1813 漚 宥 於 候 q eou h   ʔǒw
-1814 戊 宥 莫 候 m eou h  12 mǒw
-1815 漱 宥 先 奏 s eou h   sǒw
-1816 湊 宥 千 候 tsh eou h   tshǒw
-1817 奏 宥 則 候 ts eou h   tsǒw
-1818 鬭 宥 丁 候 t eou h   tǒw
-1819 透 宥 他 候 th eou h   thǒw
-1820 豆 宥 大 透 d eou h   dǒw
-1821 漏 宥 郎 豆 l eou h  10 lǒw
-1822 耨 宥 乃 豆 n eou h  9 nǒw
-1823 偶 宥 五 豆 ng eou h   ŋǒw
-1824 冓 宥 居 候 k eou h  11 kǒw
-1825 幼 宥 伊 謬 q jeou h  12 ʔiǒw
-1826 謬 宥 靡 幼 m jeou h   miǒw
+1787 宥 宥 爰 救 y jeou h   jǐw
+1788 齅 宥 許 救 h jeou h   hǐw
+2290 糗 宥 丘 救 kh jeou h   khǐw
+1789 救 宥 居 又 k jeou h   kǐw
+1790 舊 宥 巨 又 g jeou h  2 gǐw
+1791 副 宥 敷 救 f jeou h  3 fə̌w
+1792 復 宥 扶 富 bf jeou h   fvə̌w
+1793 秀 宥 息 救 s jeou h   sǐw
+1794 僦 宥 即 就 ts jeou h   tsǐw
+1795 岫 宥 似 救 z jeou h   szǐw
+1796 就 宥 疾 僦 dz jeou h   dzǐw
+1797 狩 宥 舒 救 c jeou h   ʃǐw
+1798 臭 宥 尺 救 tch jeou h  1 tʃhǐw
+1799 祝 宥 職 救 tc jeou h   tʃǐw
+1800 授 宥 承 呪 zc jeou h  4 ʃʒǐw
+1801 輮 宥 如 又 ny jeou h 1 5 ʒǐw
+1802 不 宥 俯 救 f jeou h   fə̌w
+1803 瘦 宥 所 救 sr jeou h   ʂə̌w
+1804 簉 宥 初 救 tshr jeou h   ʈʂhə̌w
+1805 縐 宥 側 救 tsr jeou h   ʈʂə̌w
+1806 驟 宥 鉏 救 dzr jeou h   ɖʐə̌w
+1807 胄 宥 直 又 dc jeou h   dʒǐw
+1808 溜 宥 力 救 l jeou h 2 6 lǐw
+1809 狃 宥 女 救 nr jeou h   nǐw
+1810 候 宥 胡 茂 gh eou h  7 ɦə̌w
+1811 吼 宥 許 候 h eou h   hə̌w
+1812 寇 宥 丘 候 kh eou h  8 khə̌w
+1813 漚 宥 於 候 q eou h   ʔə̌w
+1814 戊 宥 莫 候 m eou h  12 mə̌w
+1815 漱 宥 先 奏 s eou h   sə̌w
+1816 湊 宥 千 候 tsh eou h   tshə̌w
+1817 奏 宥 則 候 ts eou h   tsə̌w
+1818 鬭 宥 丁 候 t eou h   tə̌w
+1819 透 宥 他 候 th eou h   thə̌w
+1820 豆 宥 大 透 d eou h   də̌w
+1821 漏 宥 郎 豆 l eou h  10 lə̌w
+1822 耨 宥 乃 豆 n eou h  9 nə̌w
+1823 偶 宥 五 豆 ng eou h   ŋə̌w
+1824 冓 宥 居 候 k eou h  11 kə̌w
+1825 幼 宥 伊 謬 q jeou h  12 ʔǐw
+1826 謬 宥 靡 幼 m jeou h   mǐw
 1827 沁 沁 七 鴆 tsh jeom h   tshǐm
 1828 浸 沁 子 鴆 ts jeom h   tsǐm
 1829 枕 沁 職 任 tc jeom h   tʃǐm
@@ -2092,59 +2092,59 @@
 2074 歇 屑 許 竭 h et    hiɛt
 2075 切 屑 千 結 tsh et    tshiɛt
 2076 刷 屑 所 劣 sr wet    ʂwat
-2077 藥 藥 弋 灼 y jook   1 jiɔ̏k
-2078 嶽 藥 逆 角 ng oouk   2 (ŋ)jiɔ̏k
-2079 渥 藥 乙 角 q oouk    ʔiɔk
-2080 約 藥 乙 却 q jook    ʔiɔk
-2081 謔 藥 迄 却 h jook    hiɔk
-2082 縛 藥 符 約 bf wjook    fvɔ̏k
-2083 削 藥 息 約 s jook    siɔk
-2084 索 藥 昔 各 s ook   3 sɔk
-2085 錯 藥 七 各 tsh ook  3  tshɔk
-2086 鵲 藥 七 雀 tsh jook   4 tshiɔk
-2087 皭 藥 疾 雀 dz jook    dziɔ̏k
-2088 爵 藥 即 約 ts jook    tsiɔk
-2089 作 藥 即 各 ts ook    tsɔk
-2090 昨 藥 疾 各 dz ook    dzɔ̏k
-2091 鑠 藥 式 灼 c jook    ʃiɔk
-2092 浞 藥 食 角 dzr oouk    ɖʐwɔ̏k
-2093 朔 藥 色 角 sr oouk    ʂwɔk
-2094 灼 藥 職 略 tc jook  1  tʃiɔk
-2095 箸 藥 直 略 dc jook    dʒiɔ̏k
-2096 綽 藥 尺 約 tch jook    tʃhiɔk
-2097 杓 藥 裳 灼 zc jook    ʃʒiɔ̏k
-2098 若 藥 如 灼 ny jook    ʒiɔ̏k
-2099 略 藥 力 灼 l jook    liɔ̏k
-2100 却 藥 乞 約 kh jook   5 khiɔk
-2101 躩 藥 丘 縛 kh wjook    khyuɔk
-2102 恪 藥 克 各 kh ook  2  khɔk
-2103 覺 藥 訖 岳 k oouk    kiɔk
-2104 噱 藥 極 虐 g jook    giɔ̏k
-2105 矍 藥 厥 縛 k wjook   10 kyuɔk
-2106 各 藥 葛 鶴 k ook    kɔk
-2107 雘 藥 烏 郭 q wook    ʔwɔk
-2108 霍 藥 忽 郭 h wook    hwɔk
-2109 穫 藥 胡 郭 gh wook    ɦwɔ̏k
-2110 戄 藥 許 縛 h wjook    hyuɔk
-2111 託 藥 他 各 th ook   6 thɔk
-2112 洛 藥 歷 各 l ook   7 lɔ̏k
-2113 諾 藥 奴 各 n ook    nɔ̏k
-2114 博 藥 伯 各 p ook    pɔk
-2115 雹 藥 弼 角 b oouk   8 bɔ̏k
-2116 鐸 藥 達 各 d ook  4  dɔ̏k
-2117 朴 藥 匹 各 ph ook    phɔk
-2118 莫 藥 末 各 m ook   11 mɔ̏k
-2119 鶴 藥 曷 各 gh ook    ɦɔ̏k
-2120 臛 藥 黑 各 h ook    hɔk
-2121 學 藥 轄 覺 gh oouk    ɦiɔ̏k
-2122 廓 藥 苦 郭 kh wook    khwɔk
-2123 郭 藥 古 博 k wook    kwɔk
-2124 惡 藥 遏 各 q ook    ʔɔk
-2125 諤 藥 逆 各 ng ook    ŋɔ̏k
-2126 娖 藥 測 角 tshr oouk    ʈʂhwɔk
-2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɔk
-2128 濁 藥 直 角 dzr oouk    ɖʐwɔ̏k
-2293 㪬 藥 敕 角 thr oouk    ʈʂhɔk
+2077 藥 藥 弋 灼 y jook   1 jiɒ̏k
+2078 嶽 藥 逆 角 ng oouk   2 (ŋ)jiɒ̏k
+2079 渥 藥 乙 角 q oouk    ʔiɒk
+2080 約 藥 乙 却 q jook    ʔiɒk
+2081 謔 藥 迄 却 h jook    hiɒk
+2082 縛 藥 符 約 bf wjook    fvɒ̏k
+2083 削 藥 息 約 s jook    siɒk
+2084 索 藥 昔 各 s ook   3 sɒk
+2085 錯 藥 七 各 tsh ook  3  tshɒk
+2086 鵲 藥 七 雀 tsh jook   4 tshiɒk
+2087 皭 藥 疾 雀 dz jook    dziɒ̏k
+2088 爵 藥 即 約 ts jook    tsiɒk
+2089 作 藥 即 各 ts ook    tsɒk
+2090 昨 藥 疾 各 dz ook    dzɒ̏k
+2091 鑠 藥 式 灼 c jook    ʃiɒk
+2092 浞 藥 食 角 dzr oouk    ɖʐwɒ̏k
+2093 朔 藥 色 角 sr oouk    ʂwɒk
+2094 灼 藥 職 略 tc jook  1  tʃiɒk
+2095 箸 藥 直 略 dc jook    dʒiɒ̏k
+2096 綽 藥 尺 約 tch jook    tʃhiɒk
+2097 杓 藥 裳 灼 zc jook    ʃʒiɒ̏k
+2098 若 藥 如 灼 ny jook    ʒiɒ̏k
+2099 略 藥 力 灼 l jook    liɒ̏k
+2100 却 藥 乞 約 kh jook   5 khiɒk
+2101 躩 藥 丘 縛 kh wjook    khyuɒk
+2102 恪 藥 克 各 kh ook  2  khɒk
+2103 覺 藥 訖 岳 k oouk    kiɒk
+2104 噱 藥 極 虐 g jook    giɒ̏k
+2105 矍 藥 厥 縛 k wjook   10 kyuɒk
+2106 各 藥 葛 鶴 k ook    kɒk
+2107 雘 藥 烏 郭 q wook    ʔwɒk
+2108 霍 藥 忽 郭 h wook    hwɒk
+2109 穫 藥 胡 郭 gh wook    ɦwɒ̏k
+2110 戄 藥 許 縛 h wjook    hyuɒk
+2111 託 藥 他 各 th ook   6 thɒk
+2112 洛 藥 歷 各 l ook   7 lɒ̏k
+2113 諾 藥 奴 各 n ook    nɒ̏k
+2114 博 藥 伯 各 p ook    pɒk
+2115 雹 藥 弼 角 b oouk   8 bɒ̏k
+2116 鐸 藥 達 各 d ook  4  dɒ̏k
+2117 朴 藥 匹 各 ph ook    phɒk
+2118 莫 藥 末 各 m ook   11 mɒ̏k
+2119 鶴 藥 曷 各 gh ook    ɦɒ̏k
+2120 臛 藥 黑 各 h ook    hɒk
+2121 學 藥 轄 覺 gh oouk    ɦiɒ̏k
+2122 廓 藥 苦 郭 kh wook    khwɒk
+2123 郭 藥 古 博 k wook    kwɒk
+2124 惡 藥 遏 各 q ook    ʔɒk
+2125 諤 藥 逆 各 ng ook    ŋɒ̏k
+2126 娖 藥 測 角 tshr oouk    ʈʂhwɒk
+2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɒk
+2128 濁 藥 直 角 dzr oouk    ɖʐwɒ̏k
+2293 㪬 藥 敕 角 thr oouk    ʈʂhɒk
 2129 陌 陌 莫 白 m aik   1 mə̏k
 2130 拍 陌 普 伯 ph aik    phək
 2131 百 陌 博 陌 p aik    pək
