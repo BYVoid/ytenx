@@ -81,7 +81,8 @@
       </p>
       <p>
         {% if dzih.kwangx %}
-          對應廣韻<a href="{% url 'kyonh.views.sieux_yonh_page' dzih.kwangx.ziox %}">{{dzih.kwangx}}</a>小韻
+          對應廣韻小韻
+          <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.kwangx.ziox %}">{{dzih.kwangx}}</a>
         {% endif %}        
       </p>
       <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
