@@ -8,8 +8,8 @@ import ytenx.sync.tcenghyonhtsen as tcenghyonhtsen
 
 kyonh.sync()
 jihthex.sync()
-#trngyan.sync()
-#dciangx.sync()
-#pyonh.sync()
+trngyan.sync()
+dciangx.sync()
+pyonh.sync()
 tcenghyonhtsen.sync()
 
