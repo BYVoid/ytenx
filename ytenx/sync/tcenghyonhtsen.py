@@ -131,11 +131,11 @@ def syncDzih():
     jeps = line[3]
     ngieh = line[4]
     kwangx = None;
-    try:
-      if len(line[5]) > 0:        
+    if len(line) > 5 and len(line[5]) > 0:
+      try:
         kwangx = ytenx.kyonh.models.SieuxYonh.objects.get(ziox = line[5])
-    except:
-      pass
+      except:
+        pass
 
     dzih = Dzih(
       ziox = ziox,
