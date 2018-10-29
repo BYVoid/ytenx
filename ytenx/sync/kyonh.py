@@ -361,14 +361,13 @@ def syncDauh():
   print 'Dauh...'
   
   def sync(line, num):
-    id = line[0]
     dauh = PrengQim(
-      identifier = id,
+      identifier = 'dauh' + line[0],
       tcengh = line[1],
       putonghua = line[2],
     )
     dauh.save()
-    dauhMap[id] = dauh
+    dauhMap[line[0]] = dauh
   
   traverse(base_path + 'Dauh.txt', sync)
   print 'Done'
