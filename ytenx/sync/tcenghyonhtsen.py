@@ -1,5 +1,6 @@
 # coding=utf-8
 from ytenx.tcenghyonhtsen.models import *
+import ytenx.kyonh.models
 
 basePath = './ytenx/sync/tcenghyonhtsen/'
 miukMap = {}
@@ -129,12 +130,16 @@ def syncDzih():
     sieux = sieuxMap[line[2]]
     jeps = line[3]
     ngieh = line[4]
+    kwangx = None;
+    if line[5] != '':
+      kwangx = ytenx.kyonh.models.SieuxYonh.objects.get(ziox = line[5])
 
     dzih = Dzih(
       ziox = ziox,
       dzih = dzih,
       sieux = sieux,
       ngieh = ngieh,
+      kwangx = kwangx,
     )
     
     kyenh = unicode(sieux.deuh())
