@@ -1,5 +1,6 @@
 # coding=utf-8
 from django.db import models
+import ytenx.kyonh.models
 
 #單字條目
 class Dzih(models.Model):
@@ -13,6 +14,8 @@ class Dzih(models.Model):
   cio = models.ManyToManyField('Cio')
   #字義
   ngieh = models.TextField();
+  #對應廣韻小韻
+  kwangx = models.ForeignKey(ytenx.kyonh.models.SieuxYonh, related_name='tcengh', null = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
