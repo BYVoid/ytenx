@@ -29,6 +29,7 @@ def zim(request):
     'jih_thex_dzyen_tongx': request.GET.get('jtdt'),
     'jih_thex_krau_dep': request.GET.get('jtkd'),
     'jih_thex_krenx_byan': request.GET.get('jtkb'),
+    'jih_thex_tha': request.GET.get('jtgt'),
   }
   
   if request.GET.get('dzyen'):
@@ -45,7 +46,7 @@ def zim(request):
   for dzih in chom_sryoh['dzih_pieux']:
     dzih_liet[dzih] = True
     #轉換異體
-    if chom_sryoh['jih_thex_dzyen_tongx'] or chom_sryoh['jih_thex_krau_dep'] or chom_sryoh['jih_thex_krenx_byan']:
+    if chom_sryoh['jih_thex_dzyen_tongx'] or chom_sryoh['jih_thex_krau_dep'] or chom_sryoh['jih_thex_krenx_byan'] or chom_sryoh['jih_thex_tha']:
       jih_thex = JihThex.objects.filter(dzih = dzih)
       if jih_thex:
         assert(len(jih_thex) == 1)
@@ -54,8 +55,6 @@ def zim(request):
         if chom_sryoh['jih_thex_dzyen_tongx']:
           for dzih in jih_thex.dzyen_tongx.all():
             dzih_liet[dzih.dzih] = True
-          for dzih in jih_thex.tha.all():
-            dzih_liet[dzih.dzih] = True
         #語義交疊異體
         if chom_sryoh['jih_thex_krau_dep']:
           for dzih in jih_thex.krau_dep.all():
@@ -63,6 +62,10 @@ def zim(request):
         #簡繁
         if chom_sryoh['jih_thex_krenx_byan']:
           for dzih in jih_thex.byan.all():
+            dzih_liet[dzih.dzih] = True
+        #Unihan所未收錄異體字
+        if chom_sryoh['jih_thex_tha']:
+          for dzih in jih_thex.tha.all():
             dzih_liet[dzih.dzih] = True
   dzih_liet = dzih_liet.keys()
   
