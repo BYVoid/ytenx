@@ -64,8 +64,10 @@
       <blockquote>{{dzih.tryoh}}</blockquote>
     {% endfor %}
   {% endif %}
-  {% if dzih_list.tcyts %}
+  {% if dzih_list.tcyts or dzih_list.tcytsjdz %}
     <h1>洪武正韻牋</h1>
+  {% endif %}
+  {% if dzih_list.tcyts %}
     {% for dzih in dzih_list.tcyts %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
@@ -89,7 +91,6 @@
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcytsjdz %}
-    <h1>洪武正韻牋逸字</h1>
     {% for dzih in dzih_list.tcytsjdz %}
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
@@ -102,6 +103,7 @@
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
         {{dzih.sieux.deuh|deuh}}聲<a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
+        逸字
       </p>
       <p>
     {% endfor %}
