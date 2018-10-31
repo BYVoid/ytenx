@@ -54,6 +54,8 @@ def zim(request):
         if chom_sryoh['jih_thex_dzyen_tongx']:
           for dzih in jih_thex.dzyen_tongx.all():
             dzih_liet[dzih.dzih] = True
+          for dzih in jih_thex.tha.all():
+            dzih_liet[dzih.dzih] = True
         #語義交疊異體
         if chom_sryoh['jih_thex_krau_dep']:
           for dzih in jih_thex.krau_dep.all():
