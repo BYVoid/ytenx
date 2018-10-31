@@ -14,7 +14,7 @@ class Dzih(models.Model):
   #繁體
   byan = models.ManyToManyField('Dzih', related_name='byan_pyanx')
   #Unihan所未收錄者
-  tha = models.ManyToManyField('Dzih', related_name='tha')
+  tha = models.ManyToManyField('Dzih', related_name='tha_pyanx')
 
   def __unicode__(self):
     return self.dzih
