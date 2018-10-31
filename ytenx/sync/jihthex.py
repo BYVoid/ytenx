@@ -12,11 +12,12 @@ def sync():
 def syncDzih():
   
   def sync_dzih(line, num):
-    dzih = Dzih(
-      dzih = line[0]
-    )
-    dzih.save()
-    dzih_map[dzih.dzih] = dzih  
+    if line[0] not in dzih_map:
+      dzih = Dzih(
+        dzih = line[0]
+      )
+      dzih.save()
+      dzih_map[dzih.dzih] = dzih  
     
   def sync_kruan(line, num):
     dzih = dzih_map[line[0]]
@@ -30,9 +31,17 @@ def syncDzih():
       dzih.byan.add(c)
     dzih.save()
   
+  def sync_non_unihan_kruan(line, num):
+    dzih = dzih_map[line[0]]
+    for c in line[1]:
+      dzih.tha.add(c)
+    dzih.save()
+
   print 'Dzih...'
   traverse(basePath + 'JihThex.csv', sync_dzih, separator=',')
+  traverse(basePath + 'ThaJihThex.csv', sync_dzih, separator=',')
   print 'Done'
   print 'DzihKruan...'
   traverse(basePath + 'JihThex.csv', sync_kruan, separator=',')
+  traverse(basePath + 'ThaJihThex.csv', sync_non_unihan_kruan, separator=',')  
   print 'Done'
