@@ -4,6 +4,7 @@ from django.shortcuts import render_to_response
 from jihthex.models import Dzih as JihThex
 from kyonh.models import Dzih as KyonhDzih
 from tcenghyonhtsen.models import Dzih as TcytsDzih
+from tcenghyonhtsen.models import JitDzih as TcytsJitDzih
 from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
 from dciangxkox.models import Dzih as DciangxKoxDzih
@@ -68,6 +69,7 @@ def zim(request):
     dzih_list['kyonh'] = KyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_tcyts']:
     dzih_list['tcyts'] = TcytsDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
+    dzih_list['tcytsjdz'] = TcytsJitDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_pyonh']:
     dzih_list['pyonh'] = PyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_trngyan']:
