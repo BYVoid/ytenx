@@ -1,7 +1,7 @@
 {% load ytenx %}
 <ul class="thumbnails">
   {% for cio in cio_do_pieux %}
-    <li class="span4" >
+    <li class="span4" style="float: right;">
       <div class="thumbnail">
         <a href="{% url 'pyonh.views.cio' cio.kyenh cio.jep %}">
           <img src="/static/img/KrungGhoTchiekDukPyonYonhTsuatQjeuhGhopDzip/volume{{cio.kyenh}}/{{cio.jep}}.jpg" alt="" >
