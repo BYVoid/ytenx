@@ -1,5 +1,6 @@
 # coding:utf8
 from django import template
+from re import sub
 
 register = template.Library()
 
@@ -104,5 +105,5 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
-  result = result.replace(r'yut', "yʔ")
+  result = sub(u'yut', ur'yʔ', result)
   return result
