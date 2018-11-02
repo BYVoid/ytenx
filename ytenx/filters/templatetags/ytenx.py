@@ -105,4 +105,4 @@ def krak_cik(text):
 def neom_khiowk(text):
   result = text
   result = result.replace(r'yut', "yʔ")
-  return text
+  return result
