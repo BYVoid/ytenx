@@ -123,3 +123,4 @@ def strict_mandarin_ipa(text):
   result = sub(u'(.)h', ur'\1ʰ', result)
   result = sub(u'(.)ɦ', ur'\1ʱ', result)
   result = sub(u'([sfʃʂ])[zvʒʐ]', ur'\1ʱ', result) 
+  return result
