@@ -200,11 +200,20 @@ def syncJitDzih():
     dzih = line[1]
     sieux = sieuxMap[line[2]]
     jeps = line[3]
+    ngieh = line[4]
+    kwangx = None;
+    if len(line) > 5 and len(line[5]) > 0:
+      try:
+        kwangx = ytenx.kyonh.models.SieuxYonh.objects.get(ziox = line[5])
+      except:
+        pass
 
     dzih = JitDzih(
       ziox = ziox,
       dzih = dzih,
       sieux = sieux,
+      ngieh = ngieh,
+      kwangx = kwangx,      
     )
     
     kyenh = unicode(sieux.deuh())
