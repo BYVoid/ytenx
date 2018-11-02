@@ -117,6 +117,7 @@ def neom_khiowk(text):
   result = sub(u'\(ŋ\)', ur'', result)
   return result
 
+@register.filter
 def strict_mandarin_ipa(text):
   result = text
   result = sub(u'(.)h', ur'\1ʰ', result)
