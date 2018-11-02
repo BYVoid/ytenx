@@ -104,15 +104,4 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text.replace(r'^k([hɦʱ]?[yi])', "c$1")
-  result = result.replace(r'^g([yi])', "ɟ$1")
-  result = result.replace(r'^ŋ([yiwu])', "$1")
-  result = result.replace(r'^h([yi])', "ç$1")
-  result = result.replace(r'^h([yi])', "ç$1")
-  result = result.replace(r'^ɦ([yi])', "çʱ$1")
-  result = result.replace(r'iɪ(.?)i',  "i$1")  
-  result = result.replace(r'^iɛ(.?)w', "ia$1w")  
-  result = result.replace(r'yut', "yʔ")
-  result = result.replace(r'[ptk]$', "ʔ")
-  result = result.replace(r'\(ŋ\)', "")
-  result = result.replace(r'i([^əaoeɛɔɑ]?)w', "iə$1w")
   return result
