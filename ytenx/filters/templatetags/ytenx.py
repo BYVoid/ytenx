@@ -105,5 +105,4 @@ def krak_cik(text):
 def neom_khiowk(text):
   result = text
   result = result.replace(r'yut', "yʔ")
-  result = result.replace(r'[ptk]$', "ʔ")  
   return text
