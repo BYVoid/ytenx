@@ -116,3 +116,9 @@ def neom_khiowk(text):
   result = sub(u'[ptk]$', ur'ʔ', result)
   result = sub(u'\(ŋ\)', ur'', result)
   return result
+
+def strict_mandarin_ipa(text):
+  result = text
+  result = sub(u'(.)h', ur'\1ʰ', result)
+  result = sub(u'(.)ɦ', ur'\1ʱ', result)
+  result = sub(u'([sfʃʂ])[zvʒʐ]', ur'\1ʱ', result) 
