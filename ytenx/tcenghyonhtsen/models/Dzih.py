@@ -53,7 +53,7 @@ class JitDzih(models.Model):
   #字義
   ngieh = models.TextField();
   #對應廣韻小韻
-  kwangx = models.ForeignKey(ytenx.kyonh.models.SieuxYonh, related_name='tcengh', null = True)
+  kwangx = models.ForeignKey(ytenx.kyonh.models.SieuxYonh, related_name='tcengh_jit', null = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
