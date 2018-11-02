@@ -1,5 +1,6 @@
 # coding:utf8
 from django import template
+from re import sub
 
 register = template.Library()
 
@@ -100,3 +101,26 @@ def siih_ho(value):
 @register.filter
 def krak_cik(text):
   return text.replace(r'\n', "<br>")
+
+@register.filter
+def neom_khiowk(text):
+  result = text
+  result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
+  result = sub(u'^g([yi])', ur'ɟ\1', result)
+  result = sub(u'^ŋ([yiwu])', ur'\1', result)
+  result = sub(u'^h([yi])', ur'ç\1', result)
+  result = sub(u'^ɦ([yi])', ur'çɦ\1', result)
+  result = sub(u'iɪ(.?)i', ur'i\1', result)
+  result = sub(u'iɛ(.?)w', ur'ia\1w', result)
+  result = sub(u'yut', ur'yʔ', result)
+  result = sub(u'[ptk]$', ur'ʔ', result)
+  result = sub(u'\(ŋ\)', ur'', result)
+  return result
+
+@register.filter
+def strict_mandarin_ipa(text):
+  result = text
+  result = sub(u'(.)h', ur'\1ʰ', result)
+  result = sub(u'(.)ɦ', ur'\1ʱ', result)
+  result = sub(u'([sfʃʂ])[zvʒʐ]', ur'\1ʱ', result) 
+  return result
