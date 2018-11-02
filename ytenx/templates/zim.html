@@ -82,13 +82,15 @@
         {{dzih.sieux.deuh|deuh}}聲<a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' dzih.sieux.yonhMiuk.dzih %}">{{dzih.sieux.yonhMiuk}}</a>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
       </p>
-      <p>
-        {% if dzih.kwangx %}
+      {% if dzih.kwangx %}
+        <p>
           對應廣韻小韻
           <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.kwangx.ziox %}">{{dzih.kwangx}}</a>
-        {% endif %}        
-      </p>
-      <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
+        </p>          
+      {% endif %}        
+      {% if dzih.ngieh != '' %}
+        <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
+      {% endif %}
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcytsjdz %}
@@ -106,7 +108,15 @@
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.sieux}}</a>小韻
         逸字
       </p>
-      <p>
+      {% if dzih.kwangx %}
+        <p>
+          對應廣韻小韻
+          <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.kwangx.ziox %}">{{dzih.kwangx}}</a>
+        </p>          
+      {% endif %}        
+      {% if dzih.ngieh != '' %}
+        <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
+      {% endif %}
     {% endfor %}
   {% endif %}
   {% if dzih_list.pyonh %}
