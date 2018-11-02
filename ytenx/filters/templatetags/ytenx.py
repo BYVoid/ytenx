@@ -105,15 +105,14 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
-  result = sub(u'^k([hɦʱ]?[yi])', ur'c$1', result)
-  result = sub(u'^g([yi])', ur'ɟ$1', result)
-  result = sub(u'^ŋ([yiwu])', ur'$1', result)
-  result = sub(u'^h([yi])', ur'ç$1', result)
-  result = sub(u'^ɦ([yi])', ur'çʱ$1', result)
-  result = sub(u'iɪ(.?)i', ur'i$1', result)
-  result = sub(u'iɛw', ur'iaw', result)
+  result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
+  result = sub(u'^g([yi])', ur'ɟ\1', result)
+  result = sub(u'^ŋ([yiwu])', ur'\1', result)
+  result = sub(u'^h([yi])', ur'ç\1', result)
+  result = sub(u'^ɦ([yi])', ur'çʱ\1', result)
+  result = sub(u'iɪ(.?)i', ur'i\1', result)
+  result = sub(u'iɛ(.?)w', ur'ia\1w', result)
   result = sub(u'yut', ur'yʔ', result)
   result = sub(u'[ptk]$', ur'ʔ', result)
   result = sub(u'\(ŋ\)', ur'', result)
-  result = sub(u'i([^əaoeɛɔɑ]?)w', ur'iə$1w', result)
   return result
