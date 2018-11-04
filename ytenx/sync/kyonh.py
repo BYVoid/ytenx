@@ -408,7 +408,7 @@ def syncDzih():
     current_ngieh = u''
     try:
       current_dzih = line[0]
-      current_ngieh = sub(gloss_fallback_pattern, ur'\1「' + last_dzih + u'」(' + last_ngieh + u')' , line[3], 1)
+      current_ngieh = sub(gloss_fallback_pattern, ur'(\1' + last_dzih + u'‧' + last_ngieh + u')' , line[3], 1)
       dzih = Dzih(
         ziox = num + 1,
         dzih = current_dzih,
