@@ -100,18 +100,8 @@
     {% endfor %}
     </table>
     <table class="table table-bordered">
-    {% for mjeng, preng in sieux_yonh.dauh.items %}
-      {% if preng %}
-        <tr>
-          <td>{{mjeng}}</td>
-          <td>{{preng}}</td>
-        </tr>
-      {% endif %}
-    {% endfor %}
-    </table>    
-    <table class="table table-bordered">
       <tr>
-        <td>{{sieux_yonh.dauh.tcengh.verbose_name}}</td>
+        <td>{{推導中州音}}</td>
         <td>
           {{sieux_yonh.dauh.tcengh|strict_mandarin_ipa}}
           {% if sieux_yonh.dauh.tcengh|strict_mandarin_ipa != sieux_yonh.dauh.tcengh|neom_khiowk|strict_mandarin_ipa %}
@@ -120,7 +110,7 @@
         </td>
       </tr>
         <tr>
-          <td>{{sieux_yonh.dauh.putonghua.verbose_name}}</td>
+          <td>{{推導普通話}}</td>
           <td>{{sieux_yonh.dauh.putonghua}}</td>
         </tr>
     </table>
