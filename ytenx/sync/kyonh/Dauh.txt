@@ -51,7 +51,7 @@
 50 jyȕŋ yong2
 51 fuŋ feng1
 52 hyuŋ xiong1
-53 ŋjyȕŋ yong2
+53 ŋyȕŋ yong2
 54 ʔyuŋ yong1
 55 nyȕŋ nong2
 56 tʃɦyȕŋ chong2
@@ -83,7 +83,7 @@
 82 ʈʂɦwɑ̏ŋ chuang2
 83 ʈʂhwɑŋ chuang1
 84 ʈʂwɑŋ zhuang1
-85 ŋjiɑ̏ŋ yang2
+85 ŋiɑ̏ŋ yang2
 86 ʈʂɦwɑ̏ŋ chuang2
 87 tʃiɨ zhi1
 88 jȉ yi2
@@ -106,7 +106,7 @@
 105 kɦȉ qi2
 106 hi xi1
 107 khi qi1
-108 ŋjȉ yi2
+108 ŋȉ yi2
 109 pɦȉ pi2
 110 ʃʒiɨ̏ chi2
 111 ɻ̏ er2
@@ -182,12 +182,12 @@
 181 phi pi1
 182 tsui zui1
 183 khui kui1
-184 ŋjȉ yi2
+184 ŋȉ yi2
 185 hi xi1
 186 tʃiɨ zhi1
 187 jȉ yi2
 188 ʃʒiɨ̏ chi2
-189 ŋjȉ yi2
+189 ŋȉ yi2
 190 sɨ si1
 191 ʈʂhɨ chi1
 192 kɦȉ qi2
@@ -220,11 +220,11 @@
 219 ki ji1
 220 hi xi1
 221 ʔi yi1
-222 ŋjȉ yi2
+222 ŋȉ yi2
 223 ŋȕi wei2
 224 kui gui1
 225 khui kui1
-226 ŋjy̏ yu2
+226 ŋy̏ yu2
 227 ʈʂhu chu1
 228 ʃy shu1
 229 ky ju1
@@ -248,7 +248,7 @@
 247 ʈʂu zhu1
 248 ʃʒy̏ chu2
 249 ny̏ nv2
-250 ŋjy̏ yu2
+250 ŋy̏ yu2
 251 ʈʂhu chu1
 252 vȕ wu2
 253 jy̏ yu2
@@ -304,7 +304,7 @@
 303 kiɪi ji1
 304 ɦiɪ̏i xi2
 305 ʔiɪi yi1
-306 ŋjiɪ̏i yi2
+306 ŋiɪ̏i yi2
 307 hiɪi xi1
 308 siɪi xi1
 309 thiɪi ti1
@@ -331,7 +331,7 @@
 330 ʈʂhai chai1
 331 hwa hua1
 332 nȁi nai2
-333 ŋjiȁi ya2
+333 ŋiȁi ya2
 334 ʔiai ya1
 335 ʂai shai1
 336 hiai xia1
@@ -357,7 +357,7 @@
 356 khiai qie1
 357 nȁi nai2
 358 ʂai shai1
-359 ŋjiȁi ye2
+359 ŋiȁi ye2
 360 ʈʂhai chai1
 361 hiai xie1
 362 lwȁi lai2
@@ -421,7 +421,7 @@
 420 nȉn nin2
 421 phin pin1
 422 pɦȉn pin2
-423 ŋjȉn yin2
+423 ŋȉn yin2
 424 kin jin1
 425 kyun 43252
 426 jyȕn yun2
@@ -466,14 +466,14 @@
 465 ʔin yin1
 466 kɦȉn qin2
 467 kin jin1
-468 ŋjȉn yin2
-469 ŋjyuɛ̏n yuan2
+468 ŋȉn yin2
+469 ŋyuɛ̏n yuan2
 470 jyuɛ̏n yuan2
 471 fvȁn fan2
 472 fan fan1
 473 hyuɛn xuan1
 474 ʔyuɛn yuan1
-475 ŋjiɛ̏n yan2
+475 ŋiɛ̏n yan2
 476 khiɛn qian1
 477 hiɛn xian1
 478 kiɛn jian1
@@ -544,7 +544,7 @@
 543 ɦwȁn huan2
 544 pan ban1
 545 mȁn man2
-546 ŋjiȁn yan2
+546 ŋiȁn yan2
 547 kian jian1
 548 phan pan1
 549 nwȁn nuan2
@@ -559,7 +559,7 @@
 558 khian qian1
 559 ʈʂɦȁn chan2
 560 hian xian1
-561 ŋjiȁn yan2
+561 ŋiȁn yan2
 562 ʔian yan1
 563 pan ban1
 564 lȁn lan2
@@ -586,7 +586,7 @@
 585 niɛ̏n nian2
 586 tiɛn dian1
 587 khiɛn qian1
-588 ŋjiɛ̏n yan2
+588 ŋiɛ̏n yan2
 589 miɛ̏n mian2
 590 pɦiɛ̏n pian2
 591 ʔyuɛn yuan1
@@ -652,7 +652,7 @@
 651 tɦiɛ̏w tiao2
 652 kiɛw jiao1
 653 liɛ̏w liao2
-654 ŋjiɛ̏w yao2
+654 ŋiɛ̏w yao2
 655 hiɛw xiao1
 656 ʔiɛw yao1
 657 khiɛw qiao1
@@ -695,7 +695,7 @@
 694 paw bao1
 695 phaw pao1
 696 khiaw qiao1
-697 ŋjiȁw yao2
+697 ŋiȁw yao2
 698 ʈʂaw zhao1
 699 ʈʂaw zhao1
 700 ʈʂhaw chao1
@@ -783,7 +783,7 @@
 782 pa ba1
 783 ʈʂha cha1
 784 ʂa sha1
-785 ŋjiȁ ya2
+785 ŋiȁ ya2
 786 ʈʂa zha1
 787 ʈʂɦȁ cha2
 788 sziɛ̏ xie2
@@ -884,7 +884,7 @@
 883 khiŋ qing1
 884 ʂəŋ sheng1
 885 kɦȉŋ qing2
-886 ŋjȉŋ ying2
+886 ŋȉŋ ying2
 887 ɦə̏ŋ heng2
 888 nə̏ŋ neng2
 889 kəŋ geng1
@@ -958,7 +958,7 @@
 957 kiŋ jing1
 958 tʃiŋ zheng1
 959 tsɦȉŋ qing2
-960 ŋjȉŋ ying2
+960 ŋȉŋ ying2
 961 hiŋ xing1
 962 tʃhiŋ cheng1
 963 kɦȉŋ qing2
@@ -989,7 +989,7 @@
 988 lȉw liu2
 989 tshiw qiu1
 990 jȉw you2
-991 ŋjȉw you2
+991 ŋȉw you2
 992 tsiw jiu1
 993 tsɦȉw qiu2
 994 siw xiu1
@@ -1040,7 +1040,7 @@
 1039 pɦȉw piao2
 1040 tsiw jiu1
 1041 ʂəw shou1
-1042 ŋjȉw you2
+1042 ŋȉw you2
 1043 hiw xiu1
 1044 mȉw miao2
 1045 tshim qin1
@@ -1061,7 +1061,7 @@
 1060 nȉm nin2
 1061 kɦȉm qin2
 1062 khim qin1
-1063 ŋjȉm yin2
+1063 ŋȉm yin2
 1064 him xin1
 1065 kim jin1
 1066 ʔim yin1
@@ -1113,7 +1113,7 @@
 1112 tʃhiɛm chan1
 1113 ʔiɛm yan1
 1114 khiɛm qian1
-1115 ŋjiɛ̏m yan2
+1115 ŋiɛ̏m yan2
 1116 tsiɛm jian1
 1117 tsɦiɛ̏m qian2
 1118 kɦiɛ̏m qian2
@@ -1135,7 +1135,7 @@
 1134 kiam jian1
 1135 ʂam shan1
 1136 ʔiam yan1
-1137 ŋjiȁm yan2
+1137 ŋiȁm yan2
 1138 hiam xian1
 1139 ʈʂam zhan1
 1140 nȁm nan2
@@ -1143,13 +1143,13 @@
 1142 khiam qian1
 1143 ɦiȁm xian2
 1144 ʈʂɦȁm chan2
-1145 ŋjiȁm yan2
+1145 ŋiȁm yan2
 1146 ʈʂham chan1
 1147 ʂam shan1
 1148 kiam jian1
 1149 pɦȁm pan2
 1150 khiam qian1
-1151 ŋjiɛ̏m yan2
+1151 ŋiɛ̏m yan2
 1152 hiɛm xian1
 1153 ʔiɛm yan1
 1154 khiɛm qian1
@@ -1213,7 +1213,7 @@
 1212 ʔî yi3
 1213 kî ji3
 1214 khî qi3
-1215 ŋjî yi3
+1215 ŋî yi3
 1216 ûi wei3
 1217 tsûi zui3
 1218 ʒûi rui3
@@ -1302,7 +1302,7 @@
 1301 ʂʐɨ̌' shi4
 1302 tsɨ̂ zi3
 1303 jî yi3
-1304 ŋjî yi3
+1304 ŋî yi3
 1305 tʃhiɨ̂ chi3
 1306 tʃhî chi3
 1307 ʈʂhɨ̂ chi3
@@ -1318,11 +1318,11 @@
 1317 ûi wei3
 1318 kûi gui3
 1319 hûi hui3
-1320 ŋjî yi3
+1320 ŋî yi3
 1321 hî xi3
 1322 ʔûi wei3
 1323 fvǐ' fei4
-1324 ŋjŷ yu3
+1324 ŋŷ yu3
 1325 lŷ lv3
 1326 dʒy̌' zhu4
 1327 jŷ yu3
@@ -1349,7 +1349,7 @@
 1348 ʃʒy̌' shu4
 1349 tshŷ qu3
 1350 tsŷ ju3
-1351 ŋjŷ yu3
+1351 ŋŷ yu3
 1352 jŷ yu3
 1353 dzy̌' ju4
 1354 fû fu3
@@ -1405,7 +1405,7 @@
 1404 miɪ̂i mi3
 1405 biɪ̌i' bi4
 1406 ʔiɪ̂i yi3
-1407 ŋjiɪ̂i yi3
+1407 ŋiɪ̂i yi3
 1408 piɪ̂i bi3
 1409 ɦiǎi' xia4
 1410 mâi mai3
@@ -1424,7 +1424,7 @@
 1423 giǎi' 
 1424 ɦiǎi' xie4
 1425 khiâi qie3
-1426 ŋjiâi ye3
+1426 ŋiâi ye3
 1427 ʔiâi ye3
 1428 hûi hui3
 1429 ʔûi wei3
@@ -1475,7 +1475,7 @@
 1474 dzǐn' jin4
 1475 tsîn jin3
 1476 bǐn' bin4
-1477 ŋjîn yin3
+1477 ŋîn yin3
 1478 tshîn qin3
 1479 gyǔn' 43255
 1480 jîn yin3
@@ -1502,7 +1502,7 @@
 1501 fvǔn' fen4
 1502 fûn fen3
 1503 ʔyûn yun3
-1504 ŋjyûn yun3
+1504 ŋyûn yun3
 1505 jyûn yun3
 1506 khyûn qun3
 1507 ʔîn yin3
@@ -1511,15 +1511,15 @@
 1510 khîn qin3
 1511 gǐn' jin4
 1512 ʈʂhə̂n chen3
-1513 ŋjîn yin3
+1513 ŋîn yin3
 1514 hîn xin3
-1515 ŋjyuɛ̂n yuan3
+1515 ŋyuɛ̂n yuan3
 1516 jyuɛ̂n yuan3
 1517 ʔiɛ̂n yan3
 1518 kiɛ̂n jian3
 1519 giɛ̌n' jian4
 1520 khiɛ̂n qian3
-1521 ŋjiɛ̂n yan3
+1521 ŋiɛ̂n yan3
 1522 hiɛ̂n xian3
 1523 vân wan3
 1524 fân fan3
@@ -1586,7 +1586,7 @@
 1585 bǎn' ban4
 1586 mân man3
 1587 ɖʐân shan4
-1588 ŋjiân yan3
+1588 ŋiân yan3
 1589 ʈʂhân chan3
 1590 phân pan3
 1591 ɖʐwân shuan4
@@ -1596,7 +1596,7 @@
 1595 kiân jian3
 1596 ʈʂhân chan3
 1597 ɖʐân shan4
-1598 ŋjiân yan3
+1598 ŋiân yan3
 1599 ʈʂân zhan3
 1600 ʈʂhwân chuan3
 1601 khiân qian3
@@ -1616,7 +1616,7 @@
 1615 biɛ̌n' bian4
 1616 khyuɛ̂n quan3
 1617 khiɛ̂n qian3
-1618 ŋjiɛ̂n yan3
+1618 ŋiɛ̂n yan3
 1619 siɛ̂n xian3
 1620 jiɛ̂n yan3
 1621 dziɛ̌n' juan4
@@ -1632,7 +1632,7 @@
 1631 ʒiɛ̂n ran3
 1632 sziɛ̌n' xian4
 1633 liɛ̂n lian3
-1634 ŋjiɛ̂n yan3
+1634 ŋiɛ̂n yan3
 1635 giɛ̌n' jian4
 1636 biɛ̌n' bian4
 1637 miɛ̂n mian3
@@ -1706,7 +1706,7 @@
 1705 ʈʂâw zhao3
 1706 ʔiâw yao3
 1707 bǎw' bao4
-1708 ŋjiâw yao3
+1708 ŋiâw yao3
 1709 ɖʐâw shao4
 1710 ʈʂhâw chao3
 1711 ʈʂâw zhao3
@@ -1765,7 +1765,7 @@
 1764 mâ ma3
 1765 tʃiɛ̂ zhe3
 1766 jiɛ̂ ye3
-1767 ŋjiâ ya3
+1767 ŋiâ ya3
 1768 kiâ jia3
 1769 ʂâ sha3
 1770 ʔiâ ya3
@@ -1804,7 +1804,7 @@
 1803 liɑ̂ŋ liang3
 1804 ʔiɑ̂ŋ yang3
 1805 giɑ̌ŋ' jiang4
-1806 ŋjiɑ̂ŋ yang3
+1806 ŋiɑ̂ŋ yang3
 1807 ʈʂhwɑ̂ŋ chuang3
 1808 siɑ̂ŋ xiang3
 1809 tʃiɑ̂ŋ zhang3
@@ -1916,7 +1916,7 @@
 1915 lîŋ ling3
 1916 bǐŋ' bing4
 1917 hyuə̂ŋ xiong3
-1918 ŋjîŋ ying3
+1918 ŋîŋ ying3
 1919 tʃîŋ zheng3
 1920 tʃhîŋ cheng3
 1921 gǐŋ' jing4
@@ -1993,7 +1993,7 @@
 1992 gǐm' jin4
 1993 kîm jin3
 1994 dzǐm' jin4
-1995 ŋjîm yin3
+1995 ŋîm yin3
 1996 ʂə̂m shen3
 1997 pîm bin3
 1998 ʔîm yin3
@@ -2037,7 +2037,7 @@
 2036 piɛ̂m bian3
 2037 tʃiɛ̂m zhan3
 2038 khiɛ̂m qian3
-2039 ŋjiɛ̂m yan3
+2039 ŋiɛ̂m yan3
 2040 giɛ̌m' jian4
 2041 kiɛ̂m jian3
 2042 ʔiɛ̂m yan3
@@ -2060,7 +2060,7 @@
 2059 tshiɛ̂m qian3
 2060 kiɛ̂m jian3
 2061 miɛ̂m mian3
-2062 ŋjiɛ̂m yan3
+2062 ŋiɛ̂m yan3
 2063 khiɛ̂m qian3
 2064 ʔiɛ̂m yan3
 2065 ɦiǎm' xian4
@@ -2166,7 +2166,7 @@
 2165 gǐ ji4
 2166 tshɨ̌ ci4
 2167 jǐ yi4
-2168 ŋjǐ yi4
+2168 ŋǐ yi4
 2169 phǐ pi4
 2170 dzɨ̌ zi4
 2171 tʃǐ zhi4
@@ -2214,7 +2214,7 @@
 2213 lǐ li4
 2214 nǐ ni4
 2215 phǐ pi4
-2216 ŋjǐ yi4
+2216 ŋǐ yi4
 2217 tʃǐ zhi4
 2218 khǐ qi4
 2219 dʒǐ zhi4
@@ -2271,7 +2271,7 @@
 2270 ʔǐ yi4
 2271 kǐ ji4
 2272 hǐ xi4
-2273 ŋjǐ yi4
+2273 ŋǐ yi4
 2274 khǐ qi4
 2275 vǐ wei4
 2276 kǔi gui4
@@ -2284,12 +2284,12 @@
 2283 hǔi hui4
 2284 fvǐ fei4
 2285 kǐ ji4
-2286 ŋjǐ yi4
+2286 ŋǐ yi4
 2287 khǐ qi4
 2288 hǐ xi4
 2289 gǐ ji4
 2290 ʔǐ yi4
-2291 ŋjy̌ yu4
+2291 ŋy̌ yu4
 2292 ly̌ lv4
 2293 ky̌ ju4
 2294 tshy̌ qu4
@@ -2314,7 +2314,7 @@
 2313 tʃhy̌ chu4
 2314 tʃhy̌ chu4
 2315 szy̌ xu4
-2316 ŋjy̌ yu4
+2316 ŋy̌ yu4
 2317 ʔy̌ yu4
 2318 ʃʒy̌ shu4
 2319 dʒy̌ zhu4
@@ -2366,7 +2366,7 @@
 2365 diɪ̌i di4
 2366 tshiɪ̌i qi4
 2367 siɪ̌i xi4
-2368 ŋjiɪ̌i yi4
+2368 ŋiɪ̌i yi4
 2369 kiɪ̌i ji4
 2370 ɦiɪ̌i xi4
 2371 khiɪ̌i qi4
@@ -2404,7 +2404,7 @@
 2403 ʃʒiɪ̌i shi4
 2404 jiɪ̌i yi4
 2405 ʔiɪ̌i yi4
-2406 ŋjiɪ̌i yi4
+2406 ŋiɪ̌i yi4
 2407 dʒiɪ̌i zhi4
 2408 liɪ̌i li4
 2409 khiɪ̌i qi4
@@ -2415,7 +2415,7 @@
 2414 ʂʐǔi shui4
 2415 tʃhiɪ̌i chi4
 2416 ɖʐǔi zhui4
-2417 ŋjiɪ̌i yi4
+2417 ŋiɪ̌i yi4
 2418 tsǔi zui4
 2419 phiɪ̌i pi4
 2420 khǔi kui4
@@ -2458,7 +2458,7 @@
 2457 mǎi mai4
 2458 ɦwǎ hua4
 2459 ʈʂhǎi chai4
-2460 ŋjiǎi ya4
+2460 ŋiǎi ya4
 2461 hiǎi xia4
 2462 pǎi bai4
 2463 bǎi bai4
@@ -2477,7 +2477,7 @@
 2476 nǎi nai4
 2477 hiǎi xie4
 2478 ɦiǎi xie4
-2479 ŋjiǎi ye4
+2479 ŋiǎi ye4
 2480 khwǎi kuai4
 2481 pǎi bai4
 2482 phǎi pai4
@@ -2548,7 +2548,7 @@
 2547 fvěi fei4
 2548 hǔi hui4
 2549 gǔi gui4
-2550 ŋjiɪ̌i yi4
+2550 ŋiɪ̌i yi4
 2551 tʃǐn zhen4
 2552 sǐn xin4
 2553 ʒǐn ren4
@@ -2560,7 +2560,7 @@
 2559 ʃǐn shen4
 2560 khǐn qin4
 2561 szǐn xin4
-2562 ŋjǐn yin4
+2562 ŋǐn yin4
 2563 tsǐn jin4
 2564 hǐn xin4
 2565 tʃǐn zhen4
@@ -2592,8 +2592,8 @@
 2591 kǐn jin4
 2592 gǐn jin4
 2593 ʔǐn yin4
-2594 ŋjǐn yin4
-2595 ŋjyuɛ̌n yuan4
+2594 ŋǐn yin4
+2595 ŋyuɛ̌n yuan4
 2596 ʔyuɛ̌n yuan4
 2597 fǎn fan4
 2598 khyuɛ̌n quan4
@@ -2607,7 +2607,7 @@
 2606 giɛ̌n jian4
 2607 fǎn fan4
 2608 jyuɛ̌n yuan4
-2609 ŋjiɛ̌n yan3
+2609 ŋiɛ̌n yan3
 2610 gyuɛ̌n juan4
 2611 kyuɛ̌n juan4
 2612 ɦǔn hun4
@@ -2667,7 +2667,7 @@
 2666 dzwɔ̌n zuan4
 2667 khwɔ̌n kuan4
 2668 kiǎn jian4
-2669 ŋjiǎn yan4
+2669 ŋiǎn yan4
 2670 ʔiǎn yan4
 2671 ʂǎn shan4
 2672 ɦiǎn xian4
@@ -2704,7 +2704,7 @@
 2703 niɛ̌n nian4
 2704 khiɛ̌n qian4
 2705 ɦiɛ̌n xian4
-2706 ŋjiɛ̌n yan4
+2706 ŋiɛ̌n yan4
 2707 ʔiɛ̌n yan4
 2708 tsiɛ̌n jian4
 2709 miɛ̌n mian4
@@ -2716,7 +2716,7 @@
 2715 siɛ̌n xian4
 2716 tʃiɛ̌n zhan4
 2717 ʃʒiɛ̌n shan4
-2718 ŋjiɛ̌n yan4
+2718 ŋiɛ̌n yan4
 2719 khiɛ̌n qian4
 2720 kyuɛ̌n juan4
 2721 jyuɛ̌n yuan4
@@ -2763,7 +2763,7 @@
 2762 diɛ̌w diao4
 2763 khiɛ̌w qiao4
 2764 liɛ̌w liao4
-2765 ŋjiɛ̌w yao4
+2765 ŋiɛ̌w yao4
 2766 ʔiɛ̌w yao4
 2767 hiɛ̌w xiao4
 2768 siɛ̌w xiao4
@@ -2779,7 +2779,7 @@
 2778 tshiɛ̌w qiao4
 2779 liɛ̌w liao4
 2780 khiɛ̌w qiao4
-2781 ŋjiɛ̌w yao4
+2781 ŋiɛ̌w yao4
 2782 tsiɛ̌w jiao4
 2783 miɛ̌w miao4
 2784 biɛ̌w biao4
@@ -2804,7 +2804,7 @@
 2803 bǎw bao4
 2804 ʈʂhǎw chao4
 2805 ʔiǎw yao4
-2806 ŋjiǎw yao4
+2806 ŋiǎw yao4
 2807 ɖʐǎw zhao4
 2808 ɦǎw hao4
 2809 dǎw dao4
@@ -2861,7 +2861,7 @@
 2860 kiǎ jia4
 2861 ʔiǎ ya4
 2862 hiǎ xia4
-2863 ŋjiǎ ya4
+2863 ŋiǎ ya4
 2864 ʈʂhǎ cha4
 2865 ʈʂǎ zha4
 2866 ʈʂǎ zha4
@@ -2910,7 +2910,7 @@
 2909 tʃhiɑ̌ŋ chang4
 2910 ʈʂhwɑ̌ŋ chuang4
 2911 tsiɑ̌ŋ jiang4
-2912 ŋjiɑ̌ŋ yang4
+2912 ŋiɑ̌ŋ yang4
 2913 fɑ̌ŋ fang4
 2914 vɑ̌ŋ wang4
 2915 hwɑ̌ŋ huang4
@@ -2963,7 +2963,7 @@
 2962 pə̌ŋ beng4
 2963 ɖʐə̌ŋ zheng4
 2964 ʂə̌ŋ sheng4
-2965 ŋjǐŋ ying4
+2965 ŋǐŋ ying4
 2966 bə̌ŋ beng4
 2967 hə̌ŋ heng4
 2968 ʔwə̌ŋ weng4
@@ -3015,7 +3015,7 @@
 3014 lǐŋ xing4
 3015 bǐŋ bing4
 3016 tʃhǐŋ cheng4
-3017 ŋjǐŋ ying4
+3017 ŋǐŋ ying4
 3018 ʃʒǐŋ sheng4
 3019 tʃhǐŋ cheng4
 3020 gǐŋ jing4
@@ -3058,7 +3058,7 @@
 3057 ʃʒǐw shou4
 3058 ʒǐw rou4
 3059 mə̌w miu4
-3060 ŋjǐw you4
+3060 ŋǐw you4
 3061 khǐw qiu4
 3062 tshǐw qiu4
 3063 ɦə̌w hou4
@@ -3096,7 +3096,7 @@
 3095 tʃhǐm chen4
 3096 ʈʂə̌m zhen4
 3097 ʈʂhə̌m chen4
-3098 ŋjǐm yin4
+3098 ŋǐm yin4
 3099 tʃǐm zhen4
 3100 lǐm lin4
 3101 ʃʒǐm shen4
@@ -3131,7 +3131,7 @@
 3130 ʒiɛ̌m ran4
 3131 ʔiɛ̌m yan4
 3132 piɛ̌m bian4
-3133 ŋjiɛ̌m yan4
+3133 ŋiɛ̌m yan4
 3134 ʃiɛ̌m shan4
 3135 tsiɛ̌m jian4
 3136 tshiɛ̌m qian4
@@ -3153,7 +3153,7 @@
 3152 kiɛ̌m jian4
 3153 khiɛ̌m qian4
 3154 liɛ̌m lian4
-3155 ŋjiɛ̌m yan4
+3155 ŋiɛ̌m yan4
 3156 hiɛ̌m xian4
 3157 khiɛ̌m qian4
 3158 vǎm wan4
@@ -3166,7 +3166,7 @@
 3165 ɖʐǎm zhan4
 3166 kiǎm jian4
 3167 nǎm nan4
-3168 ŋjiǎm yan4
+3168 ŋiǎm yan4
 3169 kiǎm jian4
 3170 ʈʂhǎm chan4
 3171 ʈʂǎm zhan4
@@ -3225,7 +3225,7 @@
 3224 mȕk mu4
 3225 jyȕk yu4
 3226 tʃhyuk chu
-3227 ŋjyȕk yu4
+3227 ŋyȕk yu4
 3228 dzyȕk zu2
 3229 ʔuk wu
 3230 dȕk du2
@@ -3243,7 +3243,7 @@
 3242 lȕk lu4
 3243 ŋȕk wu4
 3244 tʃyuk zhu
-3245 ŋjyȕk yu4
+3245 ŋyȕk yu4
 3246 hyuk xu
 3247 kyuk ju
 3248 gyȕk ju2
@@ -3265,7 +3265,7 @@
 3264 fuk fu
 3265 tʃhyuk chu
 3266 kiɒk jue
-3267 ŋjiɒ̏k yue4
+3267 ŋiɒ̏k yue4
 3268 ɖʐwɒ̏k zhuo2
 3269 ʈʂwɒk zhuo
 3270 ʂwɒk shuo
@@ -3314,7 +3314,7 @@
 3313 mȉt mi4
 3314 bȉt bi2
 3315 ʔit yi
-3316 ŋjȉt yi4
+3316 ŋȉt yi4
 3317 pit bi
 3318 tʃyut zhu
 3319 hit xi
@@ -3348,13 +3348,13 @@
 3347 hyut xu
 3348 jyȕt yu4
 3349 fut fu
-3350 ŋjyȕt yu4
+3350 ŋyȕt yu4
 3351 hit xi
 3352 kit ji
-3353 ŋjȉt yi4
+3353 ŋȉt yi4
 3354 gȉt ji2
 3355 khit qi
-3356 ŋjyuɛ̏t yue4
+3356 ŋyuɛ̏t yue4
 3357 fvȁt fa2
 3358 jyuɛ̏t yue4
 3359 kyuɛt jue
@@ -3369,7 +3369,7 @@
 3368 kiɛt jie
 3369 giɛ̏t jie2
 3370 fat fa
-3371 ŋjiɛ̏t ye4
+3371 ŋiɛ̏t ye4
 3372 mȕt mo4
 3373 thut tu
 3374 kut gu
@@ -3446,7 +3446,7 @@
 3445 ʈʂwat zhua
 3446 ɦiȁt xia2
 3447 ʔiat ya
-3448 ŋjiȁt ya4
+3448 ŋiȁt ya4
 3449 ʈʂhat cha
 3450 khiat qia
 3451 hiat xia
@@ -3479,7 +3479,7 @@
 3478 ɦiɛ̏t xie2
 3479 niɛ̏t nie4
 3480 dziɛ̏t jie2
-3481 ŋjiɛ̏t ye4
+3481 ŋiɛ̏t ye4
 3482 miɛ̏t mie4
 3483 piɛt bie
 3484 ʔiɛt ye
@@ -3497,7 +3497,7 @@
 3496 tʃiɛt zhe
 3497 ʃʒiɛ̏t she2
 3498 ʃʒiɛ̏t she2
-3499 ŋjiɛ̏t ye4
+3499 ŋiɛ̏t ye4
 3500 miɛ̏t mie4
 3501 khiɛt qie
 3502 piɛt bie
@@ -3547,7 +3547,7 @@
 3546 tʃhiɒk chuo
 3547 ʔiɒk yue
 3548 khiɒk que
-3549 ŋjiɒ̏k yue4
+3549 ŋiɒ̏k yue4
 3550 ʃʒiɒ̏k shuo2
 3551 tʃhiɒk chuo
 3552 siɒk xue
@@ -3607,7 +3607,7 @@
 3606 ɖʐə̏k zhe2
 3607 khik qi
 3608 ŋə̏k e4
-3609 ŋjȉk yi4
+3609 ŋȉk yi4
 3610 khək ke
 3611 ʔək e
 3612 hik xi
@@ -3676,7 +3676,7 @@
 3675 lȉk li4
 3676 tik di
 3677 ɦȉk xi2
-3678 ŋjȉk yi4
+3678 ŋȉk yi4
 3679 dȉk di2
 3680 thik ti
 3681 tsik ji
@@ -3718,7 +3718,7 @@
 3717 phik pi
 3718 ʈʂək zhe
 3719 bȉk bi2
-3720 ŋjȉk yi4
+3720 ŋȉk yi4
 3721 dzȉk ji2
 3722 tʃik zhi
 3723 mȉk mi4
@@ -3758,7 +3758,7 @@
 3757 tʃip zhi
 3758 lȉp li4
 3759 kip ji
-3760 ŋjȉp yi4
+3760 ŋȉp yi4
 3761 khip qi
 3762 sip xi
 3763 ʂəp she
@@ -3852,7 +3852,7 @@
 3851 ʂap sha
 3852 ʈʂap zha
 3853 ʔiap ya
-3854 ŋjiȁp ya4
+3854 ŋiȁp ya4
 3855 ʈʂhap cha
 3856 ɦiȁp xia2
 3857 ɖʐȁp zha
@@ -3860,7 +3860,7 @@
 3859 kiap jia
 3860 ʂap sha
 3861 hiap xia
-3862 ŋjiɛ̏p ye4
+3862 ŋiɛ̏p ye4
 3863 hiɛp xie
 3864 khiɛp qie
 3865 kiɛp jie
