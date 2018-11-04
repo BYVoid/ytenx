@@ -103,9 +103,9 @@
       <tr>
         <td>{{siewx_yonh.dauh.tcengh.verbose_name}}</td>
         <td>
-          {{siew_yonh.dauh.tcengh|mandarin_strict_ipa}}
-          {% if siew_yonh.dauh.tcengh|mandarin_strict_ipa != siew_yonh.dauh.tcengh|neom_khiowk|mandarin_strict_ipa %}
-            ({{siew_yonh.dauh.tcengh|neom_khiowk|mandarin_strict_ipa}})
+          {{siew_yonh.dauh.tcengh|strict_mandarin_ipa}}
+          {% if siew_yonh.dauh.tcengh|strict_mandarin_ipa != siew_yonh.dauh.tcengh|neom_khiowk|strict_mandarin_ipa %}
+            ({{siew_yonh.dauh.tcengh|neom_khiowk|strict_mandarin_ipa}})
           {% endif %}
         </td>
       </tr>
