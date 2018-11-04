@@ -63,6 +63,8 @@ def zim(request):
         if chom_sryoh['jih_thex_krenx_byan']:
           for dzih in jih_thex.byan.all():
             dzih_liet[dzih.dzih] = True
+          for dzih in jih_thex.krenx.all():
+            dzih_liet[dzih.dzih] = True            
         #Unihan所未收錄異體字
         if chom_sryoh['jih_thex_tha']:
           for dzih in jih_thex.tha.all():
