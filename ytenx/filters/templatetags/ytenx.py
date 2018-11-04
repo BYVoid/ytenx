@@ -118,7 +118,7 @@ def neom_khiowk(text):
   return result
 
 @register.filter
-def strict_mandarin_ipa(text):
+def beautify_mandarin_ipa(text):
   result = text
   result = sub(u'(.)h', ur'\1ʰ', result)
   result = sub(u'(.)ɦ', ur'\1ʱ', result)
