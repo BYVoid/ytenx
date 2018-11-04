@@ -107,7 +107,8 @@ def neom_khiowk(text):
   result = text
   result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
   result = sub(u'^g([yi])', ur'ɟ\1', result)
-  result = sub(u'^ŋ([yiwu])', ur'\1', result)
+  result = sub(u'^ŋj?([yi])', ur'j\1', result)
+  result = sub(u'^ŋ([wu])', ur'\1', result)
   result = sub(u'^h([yi])', ur'ç\1', result)
   result = sub(u'^ɦ([yi])', ur'çɦ\1', result)
   result = sub(u'iɪ(.?)i', ur'i\1', result)
@@ -118,7 +119,7 @@ def neom_khiowk(text):
   return result
 
 @register.filter
-def strict_mandarin_ipa(text):
+def beautify_mandarin_ipa(text):
   result = text
   result = sub(u'(.)h', ur'\1ʰ', result)
   result = sub(u'(.)ɦ', ur'\1ʱ', result)
