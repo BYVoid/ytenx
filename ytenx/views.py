@@ -12,6 +12,14 @@ from dciangxkox.models import Dzih as DciangxKoxDzih
 def index_page(request):
   return render_to_response('index.html')
 
+def activate_horizontal(request):
+  request.session['layout'] = 'horizontal'
+  return render_to_response('index.html')
+
+def activate_vertical(request):
+  request.session['layout'] = 'vertical'
+  return render_to_response('index.html')
+
 def about_page(request):
   return render_to_response('about.html')
 
