@@ -1,7 +1,6 @@
 # coding=utf-8
 from django.http import Http404
 from django.shortcuts import render
-from django.shortcuts import render_to_response
 from jihthex.models import Dzih as JihThex
 from kyonh.models import Dzih as KyonhDzih
 from tcenghyonhtsen.models import Dzih as TcytsDzih
