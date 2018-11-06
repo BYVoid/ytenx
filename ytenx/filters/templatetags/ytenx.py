@@ -114,6 +114,7 @@ def neom_khiowk(text):
   result = sub(u'iɪ(.?)i', ur'i\1', result)
   result = sub(u'iɛ(.?)w', ur'ia\1w', result)
   result = sub(u'yut', ur'yʔ', result)
+  result = sub(u'yȕt', ur'y̏ʔ', result)  
   result = sub(u'[ptk]$', ur'ʔ', result)
   result = sub(u'\(ŋ\)', ur'', result)
   return result
