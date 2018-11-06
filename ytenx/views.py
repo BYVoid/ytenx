@@ -9,9 +9,11 @@ from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
 from dciangxkox.models import Dzih as DciangxKoxDzih
 
-def index_page(request):  
-  if 'layout' in request.GET or 'layout' not in request.session: 
-    request.session['layout'] = request.GET.get('layout', 'horizontal');
+def index_page(request, layout = None):  
+  #if 'layout' in request.GET or 'layout' not in request.session: 
+  #  request.session['layout'] = request.GET.get('layout', 'horizontal');
+  if layout:
+    request.session['layout'] = layout;
   return render(request, 'index.html')
 
 def about_page(request):
