@@ -8,7 +8,7 @@ from django.core.paginator import InvalidPage, EmptyPage
 from models import *
 
 def triung_ngyan_qim_yonh(request):
-  return render_to_response('trngyan/triung_ngyan_qim_yonh.html', {
+  return render(request, 'trngyan/triung_ngyan_qim_yonh.html', {
     'cjeng_mux_pieux': CjengLyih.objects.all(),
     'yonh_mux_pieux': YonhBox.objects.all(),
   })
@@ -19,7 +19,7 @@ def sieux_yonh(request, ziox):
   except:
     raise Http404()
 
-  return render_to_response('trngyan/sieux_yonh.html', {
+  return render(request, 'trngyan/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
   })
 
@@ -58,7 +58,7 @@ def sieux_yonh_pieux(request):
   
   yonh_pieux = YonhBox.objects.all()
   
-  return render_to_response('trngyan/sieux_yonh_pieux.html', {
+  return render(request, 'trngyan/sieux_yonh_pieux.html', {
     'sieux_yonh_pieux': sieux_yonh_pieux,
     'cjeng_pieux': cjeng_pieux,
     'yonh_pieux': yonh_pieux,
@@ -70,7 +70,7 @@ def dzih(request, id):
   except:
     raise Http404()
 
-  return render_to_response('trngyan/dzih.html', {
+  return render(request, 'trngyan/dzih.html', {
     'dzih': dzih,
   })
 
@@ -81,7 +81,7 @@ def dzih_pieux(request):
     dzih_pieux = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
-  return render_to_response('trngyan/dzih_pieux.html', {
+  return render(request, 'trngyan/dzih_pieux.html', {
     'dzih_pieux': dzih_pieux,
   })
 
@@ -98,7 +98,7 @@ def cjeng_mux(request, dzih):
   except:
     raise Http404()
 
-  return render_to_response('trngyan/cjeng_mux.html', {
+  return render(request, 'trngyan/cjeng_mux.html', {
     'cjeng': cjeng,
   })
 
@@ -115,7 +115,7 @@ def yonh_mux(request, mjeng):
   except:
     raise Http404()
 
-  return render_to_response('trngyan/yonh_mux.html', {
+  return render(request, 'trngyan/yonh_mux.html', {
     'yonh': yonh,
   })
 
@@ -125,6 +125,6 @@ def cio(request, kyenh, jep):
     jep = jep,
   )
   
-  return render_to_response('trngyan/cio.html', {
+  return render(request, 'trngyan/cio.html', {
     'cio': cio,
   })
