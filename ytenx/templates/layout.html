@@ -72,7 +72,7 @@
                   <a href="{% url 'views.kiemx_sriek' %}">&#x202E;高級檢索</a>
                 </li>
                 <li style="float:right;">
-                  <a href="{% url 'views.index_page' %}">&#x202E;橫版</a>
+                  <a href="{% url 'views.index_page' %}?layout=horizontal">&#x202E;橫版</a>
                 </li>
               {% else %}
                 <li class="{% block index_active %}{% endblock %}">
@@ -103,7 +103,7 @@
                   <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
                 </li>
                 <li>
-                  <a href="{% url 'views.index_page' %}">縱版</a>
+                  <a href="{% url 'views.index_page' %}?layout=vertical">縱版</a>
                 </li>
               {% endif %}              
             </ul>
