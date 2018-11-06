@@ -9,19 +9,27 @@ from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
 from dciangxkox.models import Dzih as DciangxKoxDzih
 
-def index_page(request):
-  return render_to_response('index.html')
+def index_page(request):  
+  if 'layout' not in request.session:
+    request.session['layout'] = 'horizontal'
+  return render_to_response('index.html', {
+    'layout': request.session['layout'],
+  })
 
 def activate_horizontal(request):
   request.session['layout'] = 'horizontal'
-  return render_to_response('index.html')
+  return index_page(request);
 
 def activate_vertical(request):
   request.session['layout'] = 'vertical'
-  return render_to_response('index.html')
+  return index_page(request);
 
 def about_page(request):
-  return render_to_response('about.html')
+  if 'layout' not in request.session:
+    request.session['layout'] = 'horizontal'
+  return render_to_response('about.html', {
+    'layout': request.session['layout'],
+  })
 
 def kiemx_sriek(request):
   return render_to_response('kiemx_sriek.html')
