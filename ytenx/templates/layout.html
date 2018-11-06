@@ -36,14 +36,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          {% if layout == 'vertical' %}
+          {% if request.session.layout == 'vertical' %}
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand_rtl.gif" title="韻典網" width="100" height="40"></a>          
           {% else %}
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           {% endif %}
           <div class="nav-collapse">
             <ul class="nav">
-              {% if layout == 'vertical' %}
+              {% if request.session.layout == 'vertical' %}
                 <li class="{% block index_rtl_active %}{% endblock %}" style="float:right; direction:rtl">
                   <a href="{% url 'views.index_page' %}">&#x202E;首頁</a>
                 </li>
@@ -119,7 +119,7 @@
         </div>
       </div>
     </div>
-    {% if layout == 'vertical' %}
+    {% if request.session.layout == 'vertical' %}
       <div class="container" style="writing-mode:vertical-rl; text-orientation:mixed;  width:100%; overflow:auto;">
     {% else %}
       <div class="container">
