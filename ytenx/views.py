@@ -1,5 +1,6 @@
 # coding=utf-8
 from django.http import Http404
+from django.shortcuts import render
 from django.shortcuts import render_to_response
 from jihthex.models import Dzih as JihThex
 from kyonh.models import Dzih as KyonhDzih
@@ -12,19 +13,13 @@ from dciangxkox.models import Dzih as DciangxKoxDzih
 def index_page(request):  
   if 'layout' in request.GET or 'layout' not in request.session: 
     request.session['layout'] = request.GET.get('layout', 'horizontal');
-  return render_to_response('index.html', {
-    'layout': request.session['layout'],
-  })
+  return render(request, 'index.html')
 
 def about_page(request):
-  if 'layout' in request.GET or 'layout' not in request.session: 
-    request.session['layout'] = request.GET.get('layout', 'horizontal');
-  return render_to_response('about.html', {
-    'layout': request.session['layout'],
-  })
+  return render(request, 'about.html')
 
 def kiemx_sriek(request):
-  return render_to_response('kiemx_sriek.html')
+  return render(request, 'kiemx_sriek.html')
 
 def zim(request):
   chom_sryoh = {
@@ -91,8 +86,8 @@ def zim(request):
     dzih_list['trngyan'] = TrngyanDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_dciangx']:
     dzih_list['dciangx'] = DciangxKoxDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
-  
-  return render_to_response('zim.html', {
+ 
+  return render(request, 'zim.html', {
     'dzih_list': dzih_list,
     'chom_sryoh': chom_sryoh,
   })
