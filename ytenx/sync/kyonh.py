@@ -65,8 +65,10 @@ def syncCjengMuxPrengQim():
   def sync(line, num):
     preng = PrengQim(
       identifier = 'cjeng' + line[0],
-      polyhedron = line[1],
-      putonghua = line[2],
+      baxter = line[1],
+      polyhedron = line[2],
+      tcengh = line[3],
+      putonghua = line[4],
     )
     preng.save()
     cjengMuxPrengQimMap[line[0]] = preng
