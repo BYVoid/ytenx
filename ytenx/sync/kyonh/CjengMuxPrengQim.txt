@@ -1,39 +1,39 @@
-#字 polyhedron 漢語拼音
-幫 p b
-滂 ph p
-並 b b/p
-明 m m/w
-端 t d
-透 th t
-定 d d/t
-泥 n n
-知 tr zh
-徹 thr ch
-澄 dr zh/ch
-孃 nr n
-精 c z/j
-清 ch c/q
-從 z z/c/j/q
-心 s s/x
-邪 zs s/x
-莊 cr zh
-初 chr ch
-崇 zr ch/sh
-生 sr sh
-俟 zsr sh
-章 cj zh
-昌 chj ch
-常 zj zh/ch
-書 sj sh
-船 zsj ch/sh
-見 k g/j
-溪 kh k/q
-羣 g g/k/j/q
-疑 ng 
-影 q 
-曉 h h/x
-匣 gh h/x
-云  
-以 j 
-來 l l
-日 nj r/er
+#字 baxter polyhedron 中州音 普通話
+幫 p p p/f b
+滂 ph ph pʰ/f p
+並 b b b/pʱ/f(ʱ) b/p
+明 m m m/v m/w
+端 t t t d
+透 th th tʰ t
+定 d d d d/t
+泥 n n n n
+知 tr tr ʈʂ/tʃ zh
+徹 trh thr ʈʂʰ/tʃ ch
+澄 dr dr ɖʐ/ʈʂʱ/dʒ/tʃʱ zh/ch
+孃 nr nr n n
+精 ts c ts z/j
+清 tsh ch tsʰ c/q
+從 dz z dz z/c/j/q
+心 s s s s/x
+邪 z zs s(ʱ) s/x
+莊 tsr cr ʈʂ zh
+初 tsrh chr ʈʂʰ ch
+崇 dzr zr ɖʐ/ʈʂʱ ch/sh
+生 sr sr ʂ sh
+俟 zr zsr ʂ(ʱ) sh
+章 tsy cj tʃ zh
+昌 tsyh chj tʃʰ ch
+常 dzy zj ʃ(ʱ)/tʃʱ zh/ch
+書 sy sj ʃ sh
+船 zy zsj ʃ(ʱ)/tʃʱ ch/sh
+見 k k k/c g/j
+溪 kh kh kʰ/cʰ k/q
+羣 g g g/ɟ/kʱ/cʱ g/k/j/q
+疑 ng ng ŋ/j/∅ 
+影 x q h/x/ç 
+曉 h h ɦ/ç(ʱ) h/x
+匣 ' gh ʔ h/x
+云 h  j/∅ 
+以 y j j 
+來 l l l l
+日 ny nj ʒ/ɻ r/er
