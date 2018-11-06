@@ -17,14 +17,14 @@
         padding: 9px 0;
       }
       {% if request.session.layout == 'vertical' %}
-        body.navbar-fixed-top {
-          direction: rtl;
-        }
         container {
           writing-mode:vertical-rl;
           text-orientation:mixed;
           width:100%;
           overflow:auto;
+        }
+        body.navbar-fixed-top {
+          direction: rtl;
         }
       {% endif %}      
     </style>
