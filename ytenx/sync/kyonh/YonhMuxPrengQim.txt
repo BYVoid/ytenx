@@ -1,186 +1,186 @@
-#韻母 polyhedron 漢語拼音
-東一 ung ong
-東三 iung ong
-屋一 uk u
-屋三 iuk u/ü
-冬 uung ong
-沃 uuk u/uo
-鍾 yung iong
-燭 yuk u/ü
-江 rung iang/uang
-覺 ruk ue
-支開 ie i/ei
-支合 ye ui
-支A開 je i/ei
-支A合 jye ui
-支B開 ie i/ei
-支B合 ye ui
-脂開 ii i/ei
-脂合 yi ui
-脂A開 jii i/ei
-脂A合 jyi ui
-脂B開 ii i/ei
-脂B合 yi ui
-之 i i/ei
-微開 ioi i/ei
-微合 yoi ui
-魚 io ü/u
-模 o u
-虞 yo ü/u
-泰開 ad ai
-泰合 uad uai/ui
-廢開 iad ei
-廢合 yad ui/ei
-夬開 rad ai
-夬合 ruad uai
-佳開 re ai/a
-佳合 rue ua
-皆開 rai ie/ai
-皆合 ruai uai
-祭開 ied i/ei
-祭合 yed ui
-祭A開 jed i/ei
-祭A合 jyed ui
-祭B開 ied i/ei
-祭B合 yed ui
-齊開 e i
-齊合 ue ui
-咍 ai ai
-灰 uai ui
-眞開 in in/en
-眞合 yn ün/un
-眞A jin in/en
-眞B開 in in/en
-眞B合 yn ün/un
-臻 in in/en
-諄 yn ün/un
-諄A jyn ün/un
-質開 it i
-質合 yt i
-質A jit i
-質B開 it i
-質B合 yt i
-櫛 it i
-術 yt ü
-術A jyt ü
-痕 on en
-麧 ot uo
-魂 uon un/en
-沒 uot uo
-欣 ion in/en
-迄 iot i
-文 yon un/en
-物 yot u
-寒 an an
-桓 uan uan
-曷 at e
-末 uat uo
-元開 ian ian
-元合 yan üan
-月開 iat ie
-月合 yat ue
-刪開 ran ian
-刪合 ruan uan
-黠開 rat ia
-黠合 ruat ua
-山開 ren ian/an
-山合 ruen uan
-鎋開 ret a
-鎋合 ruet ua
-仙開 ien ian/an
-仙合 yen üan/uan
-仙A開 jen ian/an
-仙A合 jyen üan/uan
-仙B開 ien ian/an
-仙B合 yen üan/uan
-薛開 iet ie
-薛合 yet ue
-薛A開 jet ie/e
-薛A合 jyet ue
-薛B開 iet ie
-薛B合 yet ue
-先開 en ian
-先合 uen üan/ian
-屑開 et ie
-屑合 uet ue
-豪 au ao
-肴 rau iao
-宵 ieu iao
-宵A jeu iao
-宵B ieu iao
-蕭 eu iao
-歌 a e
-戈一合 ua e/uo
-戈三開 ia 
-戈三合 ya 
-麻二開 ra a
-麻二合 rua ua
-麻三開 ia ie
-唐開 ang ang
-唐合 uang uang
-鐸開 ak e
-鐸合 uak uo
-陽開 iang iang
-陽合 yang uang
-藥開 iak ue
-藥合 yak ue
-庚二開 rang eng 
-庚二合 ruang eng
-庚三開 ieng ing
-庚三合 yeng iong
-陌二開 rak e
-陌二合 ruak uo
-陌三開 iek i
-陌三合 yek uo
-耕開 reng ing
-耕合 rueng ong
-麥開 rek e
-麥合 ruek uo
-清開 ieng ing
-清合 yeng ong
-清A開 jeng ing
-清A合 jyeng ong
-昔開 iek i
-昔合 yek ü
-昔A開 jek i
-昔A合 jyek ü
-青開 eng ing
-青合 ueng iong
-錫開 ek i
-錫合 uek ü
-登開 ong eng
-登合 uong ong
-德開 ok e
-德合 uok uo
-蒸 ing ing
-職開 ik i
-職合 yk i
-尤 iu iu
-侯 u ou
-幽 y iu
-侵 im in
-侵A jim in
-侵B im in
-緝 ip i
-緝A jip i
-緝B ip i
-談 am an
-盍 ap a
-嚴 iam ian
-凡 yam an
-業 iap ie
-乏 yap a
-銜 ram ian
-狎 rap ia
-咸 rem ian
-洽 rep ia
-鹽 iem ian
-鹽A jem ian
-鹽B iem ian
-葉 iep ie
-葉A jep ie
-葉B iep ie
-添 em ian
-怗 ep ie
-覃 om an
-合 op e
+#韻母 baxter polyhedron 中州音 普通話
+東一 uwng ung uŋ ong
+東三 juwng iung yuŋ/uŋ ong
+屋一 uwk uk uk(uʔ) u
+屋三 juwk iuk yuk/uk(yuʔ/uʔ) u/ü
+冬 owng uung uŋ ong
+沃 owk uuk uk(uʔ) u/uo
+鍾 jowng yung yuŋ iong
+燭 jowk yuk yuk/uk(yuʔ/uʔ) u/ü
+江 aewng rung iɑŋ/wɑŋ/ɑŋ iang/uang
+覺 aewk ruk ɒk(ɒʔ/wɒʔ) ue
+支開 je ie i/ɨ i/ei
+支合 jwe ye ui ui
+支A開 jie je i i/ei
+支A合 jwie jye ui ui
+支B開 je ie i i/ei
+支B合 jwe ye ui ui
+脂開 ij ii i/ɨ i/ei
+脂合 wij yi ui ui
+脂A開 jij jii i i/ei
+脂A合 jwij jyi i/ui ui
+脂B開 ij ii i i/ei
+脂B合 wij yi ui ui
+之 i i i/ɨ i/ei
+微開 j+j ioi i i/ei
+微合 jw+j yoi i/ui ui
+魚 jo io y/u ü/u
+模 u o u u
+虞 ju yo y/u ü/u
+泰開 aj ad ai ai
+泰合 waj uad wai/ui uai/ui
+廢開 joj iad iɪi(i) ei
+廢合 jwoj(脣音joj) yad ui/i ui/ei
+夬開 aej rad ai/iai ai
+夬合 waej ruad wai uai
+佳開 ea re ai/iai ai/a
+佳合 wea rue wa ua
+皆開 eaj rai ai/iai ie/ai
+皆合 weaj ruai wai uai
+祭開 jej ied iɪi(i) i/ei
+祭合 jwej yed ui ui
+祭A開 jiej jed iɪi(i) i/ei
+祭A合 jwiei jyed ui ui
+祭B開 jej ied iɪi(i) i/ei
+祭B合 jwej yed ui ui
+齊開 ej e iɪi(i) i
+齊合 wej ue ui ui
+咍 oj ai ai ai
+灰 woj uai ui ui
+眞開 in in in/ən in/en
+眞合 win yn yun ün/un
+眞A jin jin in in/en
+眞B開 in in in in/en
+眞B合 win yn yun ün/un
+臻 in in ən in/en
+諄 jwin yn yun ün/un
+諄A jwin jyn yun ün/un
+質開 it it it/ət(iʔ/əʔ) i
+質合 wit yt yut(yʔ) i
+質A jit jit it(iʔ) i
+質B開 jwit it it(iʔ) i
+質B合 wit yt yut(yʔ) i
+櫛 it it ət(əʔ) i
+術 wit yt yut/ut(yʔ/uʔ) ü
+術A jwit jyt yut(yʔ) ü
+痕 on on ən en
+麧 ot ot ət uo
+魂 won uon un un/en
+沒 wot uot ut uo
+欣 j+n ion in in/en
+迄 j+t iot it i
+文 jun yon yun/un un/en
+物 jut yot yut/ut(yʔ/uʔ) u
+寒 an an ɑn an
+桓 wan(脣音an) uan wɔn uan
+曷 at at ɔt(ɔʔ) e
+末 wat(脣音at) uat wɔt(wɔʔ) uo
+元開 jon ian iɛn ian
+元合 jwon(脣音jon) yan yuɛn/an üan
+月開 jot iat iɛt(iɛʔ) ie
+月合 jwot(脣音jot) yat yuɛt(yuɛʔ) ue
+刪開 aen ran an/ian ian
+刪合 waen ruan wan uan
+黠開 aet rat at(aʔ) ia
+黠合 waet ruat wat(waʔ) ua
+山開 ean ren an/ian ian/an
+山合 wean ruen wan uan
+鎋開 eat ret at(aʔ) a
+鎋合 weat ruet wat(waʔ) ua
+仙開 jen ien iɛn/an ian/an
+仙合 jwen yen yuɛn/wan üan/uan
+仙A開 jien jen iɛn ian/an
+仙A合 jwien jyen yuɛn üan/uan
+仙B開 jen ien iɛn ian/an
+仙B合 jwen yen yuɛn üan/uan
+薛開 jet iet iɛt/at(iɛʔ/aʔ) ie
+薛合 jwet yet yuɛt/wat(yuɛʔ/waʔ) ue
+薛A開 jiet jet iɛt(iɛʔ) ie/e
+薛A合 jwiet jyet yuɛt(yuɛʔ) ue
+薛B開 jet iet iɛt(iɛʔ) ie
+薛B合 jwet yet yuɛt(yuɛʔ) ue
+先開 en en iɛn ian
+先合 wen uen yuɛn üan/ian
+屑開 et et iɛt(iɛʔ) ie
+屑合 wet uet yuɛt(yuɛʔ) ue
+豪 aw au aw ao
+肴 aew rau aw/iaw iao
+宵 jew ieu iɛw(iaw) iao
+宵A jiew jeu iɛw(iaw) iao
+宵B jew ieu iɛw(iaw) iao
+蕭 ew eu iɛw(iaw) iao
+歌 a a ɔ e
+戈一合 wa ua wɔ e/uo
+戈三開 ja ia iɛ 
+戈三合 jwa ya yuɛ 
+麻二開 ae ra a/ia a
+麻二合 wae rua wa ua
+麻三開 jae ia iɛ ie
+唐開 ang ang ɑŋ ang
+唐合 wang uang wɑŋ uang
+鐸開 ak ak ɒk(ɒʔ) e
+鐸合 wak uak wɒk(wɒʔ) uo
+陽開 jang iang iɑŋ/wɑŋ iang
+陽合 jwang(脣音jang) yang wɑŋ uang
+藥開 jak iak iɒk/wɒk(iɒʔ/wɒʔ) ue
+藥合 jwak(脣音jak) yak wɒk(wɒʔ) ue
+庚二開 aeng rang əŋ eng
+庚二合 waeng ruang wəŋ eng
+庚三開 jaeng ieng iŋ ing
+庚三合 jwaeng yeng yuəŋ iong
+陌二開 aek rak ək(əʔ) e
+陌二合 waek ruak wək(wəʔ) uo
+陌三開 jaek iek ik/ək(iʔ/əʔ) i
+陌三合 jwaek yek yuək(yuəʔ) uo
+耕開 eang reng əŋ ing
+耕合 weang rueng wəŋ ong
+麥開 eak rek ək(əʔ) e
+麥合 weak ruek wək(wəʔ) uo
+清開 jeng ieng iŋ ing
+清合 jweng yeng yuəŋ ong
+清A開 jieng jeng iŋ ing
+清A合 jwieng jyeng yuəŋ ong
+昔開 jek iek ik(iʔ) i
+昔合 jwek yek yuək(yuəʔ) ü
+昔A開 jiek jek ik(iʔ) i
+昔A合 jwiek jyek yuək(yuəʔ) ü
+青開 eng eng iŋ ing
+青合 weng ueng yuəŋ iong
+錫開 ek ek ik(iʔ) i
+錫合 wek uek yuək(yuəʔ) ü
+登開 ong ong əŋ eng
+登合 wong uong wəŋ ong
+德開 ok ok ək(əʔ) e
+德合 wok uok wək(wəʔ) uo
+蒸 ing ing iŋ ing
+職開 ik ik ik(iʔ) i
+職合 wik yk yuək(yuəʔ) i
+尤 juw iu iw/əw iu
+侯 uw u əw ou
+幽 jiw y iw iu
+侵 im im im/əm in
+侵A jim jim im in
+侵B im im im in
+緝 ip ip ip/əp(iʔ/əʔ) i
+緝A jip jip ip(iʔ) i
+緝B ip ip ip(iʔ) i
+談 am am am an
+盍 ap ap ap(aʔ) a
+嚴 jaem iam iɛm ian
+凡 jom yam am an
+業 jaep iap iɛp(iɛʔ) ie
+乏 jop yap ap(aʔ) a
+銜 aem ram am/iam ian
+狎 aep rap ap/iap(iaʔ/aʔ) ia
+咸 eam rem am/iam ian
+洽 eap rep ap/iap(iaʔ/aʔ) ia
+鹽 jem iem iɛm/am ian
+鹽A jiem jem iɛm ian
+鹽B jem iem iɛm ian
+葉 jep iep iɛp/ap(iɛʔ/aʔ) ie
+葉A jiep jep iɛp(iɛʔ) ie
+葉B jep iep iɛp(iɛʔ) ie
+添 em em iɛm ian
+怗 ep ep iɛp(iɛʔ) ie
+覃 om om am an
+合 op op ap(aʔ) e
