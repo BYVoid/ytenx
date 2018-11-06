@@ -7,18 +7,18 @@ from ytenx.helpers.paginator import Paginator
 
 def byoh_lyuk(request, name):
   if name == 'KienxPyan':
-    return kienx_pyan()
+    return kienx_pyan(request)
 
   if not name:
     name = 'miuk_lyuk'
   
   path = 'byohlyuk/' + name + '.html'
   try:
-    return render_to_response(path)
+    return render(request, path)
   except TemplateDoesNotExist:
     raise Http404()
 
-def kienx_pyan():
+def kienx_pyan(request):
   import os
   pwd = os.path.dirname(__file__)
 
@@ -29,6 +29,6 @@ def kienx_pyan():
     line = line.split('\t')
     kienx_pyan_pieux.append(line)
 
-  return render_to_response('byohlyuk/KienxPyan.html', {
+  return render(request, 'byohlyuk/KienxPyan.html', {
     'kienx_pyan_pieux': kienx_pyan_pieux,
   })
