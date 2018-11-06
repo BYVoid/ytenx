@@ -1,6 +1,6 @@
 # coding=utf-8
 from django.http import Http404
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.core.paginator import InvalidPage, EmptyPage
 from django.template.base import TemplateDoesNotExist
 from ytenx.helpers.paginator import Paginator
