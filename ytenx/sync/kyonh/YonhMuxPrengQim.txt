@@ -1,186 +1,186 @@
-#韻母 polyhedron 漢語拼音
-東一 ung ong
-東三 iung ong
-屋一 uk u
-屋三 iuk u/ü
-冬 uung ong
-沃 uuk u/uo
-鍾 yung iong
-燭 yuk u/ü
-江 rung iang/uang
-覺 ruk ue
-支開 ie i/ei
-支合 ye ui
-支A開 je i/ei
-支A合 jye ui
-支B開 ie i/ei
-支B合 ye ui
-脂開 ii i/ei
-脂合 yi ui
-脂A開 jii i/ei
-脂A合 jyi ui
-脂B開 ii i/ei
-脂B合 yi ui
-之 i i/ei
-微開 ioi i/ei
-微合 yoi ui
-魚 io ü/u
-模 o u
-虞 yo ü/u
-泰開 ad ai
-泰合 uad uai/ui
-廢開 iad ei
-廢合 yad ui/ei
-夬開 rad ai
-夬合 ruad uai
-佳開 re ai/a
-佳合 rue ua
-皆開 rai ie/ai
-皆合 ruai uai
-祭開 ied i/ei
-祭合 yed ui
-祭A開 jed i/ei
-祭A合 jyed ui
-祭B開 ied i/ei
-祭B合 yed ui
-齊開 e i
-齊合 ue ui
-咍 ai ai
-灰 uai ui
-眞開 in in/en
-眞合 yn ün/un
-眞A jin in/en
-眞B開 in in/en
-眞B合 yn ün/un
-臻 in in/en
-諄 yn ün/un
-諄A jyn ün/un
-質開 it i
-質合 yt i
-質A jit i
-質B開 it i
-質B合 yt i
-櫛 it i
-術 yt ü
-術A jyt ü
-痕 on en
-麧 ot uo
-魂 uon un/en
-沒 uot uo
-欣 ion in/en
-迄 iot i
-文 yon un/en
-物 yot u
-寒 an an
-桓 uan uan
-曷 at e
-末 uat uo
-元開 ian ian
-元合 yan üan
-月開 iat ie
-月合 yat ue
-刪開 ran ian
-刪合 ruan uan
-黠開 rat ia
-黠合 ruat ua
-山開 ren ian/an
-山合 ruen uan
-鎋開 ret a
-鎋合 ruet ua
-仙開 ien ian/an
-仙合 yen üan/uan
-仙A開 jen ian/an
-仙A合 jyen üan/uan
-仙B開 ien ian/an
-仙B合 yen üan/uan
-薛開 iet ie
-薛合 yet ue
-薛A開 jet ie/e
-薛A合 jyet ue
-薛B開 iet ie
-薛B合 yet ue
-先開 en ian
-先合 uen üan/ian
-屑開 et ie
-屑合 uet ue
-豪 au ao
-肴 rau iao
-宵 ieu iao
-宵A jeu iao
-宵B ieu iao
-蕭 eu iao
-歌 a e
-戈一合 ua e/uo
-戈三開 ia 
-戈三合 ya 
-麻二開 ra a
-麻二合 rua ua
-麻三開 ia ie
-唐開 ang ang
-唐合 uang uang
-鐸開 ak e
-鐸合 uak uo
-陽開 iang iang
-陽合 yang uang
-藥開 iak ue
-藥合 yak ue
-庚二開 rang eng 
-庚二合 ruang eng
-庚三開 ieng ing
-庚三合 yeng iong
-陌二開 rak e
-陌二合 ruak uo
-陌三開 iek i
-陌三合 yek uo
-耕開 reng ing
-耕合 rueng ong
-麥開 rek e
-麥合 ruek uo
-清開 ieng ing
-清合 yeng ong
-清A開 jeng ing
-清A合 jyeng ong
-昔開 iek i
-昔合 yek ü
-昔A開 jek i
-昔A合 jyek ü
-青開 eng ing
-青合 ueng iong
-錫開 ek i
-錫合 uek ü
-登開 ong eng
-登合 uong ong
-德開 ok e
-德合 uok uo
-蒸 ing ing
-職開 ik i
-職合 yk i
-尤 iu iu
-侯 u ou
-幽 y iu
-侵 im in
-侵A jim in
-侵B im in
-緝 ip i
-緝A jip i
-緝B ip i
-談 am an
-盍 ap a
-嚴 iam ian
-凡 yam an
-業 iap ie
-乏 yap a
-銜 ram ian
-狎 rap ia
-咸 rem ian
-洽 rep ia
-鹽 iem ian
-鹽A jem ian
-鹽B iem ian
-葉 iep ie
-葉A jep ie
-葉B iep ie
-添 em ian
-怗 ep ie
-覃 om an
-合 op e
+#韻母 baxter 中州音 polyhedron 普通話
+東一 uwng uŋ ung ong
+東三 juwng yuŋ/uŋ iung ong
+屋一 uwk uk(uʔ) uk u
+屋三 juwk yuk(yuʔ)/uk(uʔ) iuk u/ü
+冬 owng uŋ uung ong
+沃 owk uk(uʔ) uuk u/uo
+鍾 jowng yuŋ yung iong
+燭 jowk yuk(yuʔ)/uk(uʔ) yuk u/ü
+江 aewng iɑŋ/wɑŋ/ɑŋ rung iang/uang
+覺 aewk ɒk(ɒʔ)/wɒʔ ruk ue
+支開 je i/ɨ ie i/ei
+支合 jwe ui ye ui
+支A開 jie i je i/ei
+支A合 jwie ui jye ui
+支B開 je i ie i/ei
+支B合 jwe ui ye ui
+脂開 ij i/ɨ ii i/ei
+脂合 wij ui yi ui
+脂A開 jij i jii i/ei
+脂A合 jwij i/ui jyi ui
+脂B開 ij i ii i/ei
+脂B合 wij ui yi ui
+之 i i/ɨ i i/ei
+微開 j+j i ioi i/ei
+微合 jw+j i/ui yoi ui
+魚 jo y/u io ü/u
+模 u u o u
+虞 ju y/u yo ü/u
+泰開 aj ai ad ai
+泰合 waj wai/ui uad uai/ui
+廢開 joj iɪi(i) iad ei
+廢合 jwoj(脣音joj) ui/i yad ui/ei
+夬開 aej ai/iai rad ai
+夬合 waej wai ruad uai
+佳開 ea ai/iai re ai/a
+佳合 wea wa rue ua
+皆開 eaj ai/iai rai ie/ai
+皆合 weaj wai ruai uai
+祭開 jej iɪi(i) ied i/ei
+祭合 jwej ui yed ui
+祭A開 jiej iɪi(i) jed i/ei
+祭A合 jwiei ui jyed ui
+祭B開 jej iɪi(i) ied i/ei
+祭B合 jwej ui yed ui
+齊開 ej iɪi(i) e i
+齊合 wej ui ue ui
+咍 oj ai ai ai
+灰 woj ui uai ui
+眞開 in in/ən in in/en
+眞合 win yun yn ün/un
+眞A jin in jin in/en
+眞B開 in in in in/en
+眞B合 win yun yn ün/un
+臻 in ən in in/en
+諄 jwin yun yn ün/un
+諄A jwin yun jyn ün/un
+質開 it  it i
+質合 wit  yt i
+質A jit  jit i
+質B開 jwit  it i
+質B合 wit  yt i
+櫛 it  it i
+術 wit  yt ü
+術A jwit  jyt ü
+痕 on ən on en
+麧 ot ət ot uo
+魂 won un uon un/en
+沒 wot ut uot uo
+欣 j+n in ion in/en
+迄 j+t it iot i
+文 jun yun/un yon un/en
+物 jut yut/ut yot u
+寒 an ɑn an an
+桓 wan(脣音an) wɔn uan uan
+曷 at ɔt(ɔʔ) at e
+末 wat(脣音at) wɔt(wɔʔ) uat uo
+元開 jon iɛn ian ian
+元合 jwon(脣音jon) yuɛn/an yan üan
+月開 jot  iat ie
+月合 jwot(脣音jot)  yat ue
+刪開 aen an/ian ran ian
+刪合 waen wan ruan uan
+黠開 aet  rat ia
+黠合 waet  ruat ua
+山開 ean an/ian ren ian/an
+山合 wean wan ruen uan
+鎋開 eat  ret a
+鎋合 weat  ruet ua
+仙開 jen iɛn/an ien ian/an
+仙合 jwen yuɛn/wan yen üan/uan
+仙A開 jien iɛn jen ian/an
+仙A合 jwien yuɛn jyen üan/uan
+仙B開 jen iɛn ien ian/an
+仙B合 jwen yuɛn yen üan/uan
+薛開 jet  iet ie
+薛合 jwet  yet ue
+薛A開 jiet  jet ie/e
+薛A合 jwiet  jyet ue
+薛B開 jet  iet ie
+薛B合 jwet  yet ue
+先開 en iɛn en ian
+先合 wen yuɛn uen üan/ian
+屑開 et  et ie
+屑合 wet  uet ue
+豪 aw aw au ao
+肴 aew aw/iaw rau iao
+宵 jew iɛw(iaw) ieu iao
+宵A jiew iɛw(iaw) jeu iao
+宵B jew iɛw(iaw) ieu iao
+蕭 ew iɛw(iaw) eu iao
+歌 a ɔ a e
+戈一合 wa wɔ ua e/uo
+戈三開 ja iɛ ia 
+戈三合 jwa yuɛ ya 
+麻二開 ae a/ia ra a
+麻二合 wae wa rua ua
+麻三開 jae iɛ ia ie
+唐開 ang ɑŋ ang ang
+唐合 wang wɑŋ uang uang
+鐸開 ak  ak e
+鐸合 wak  uak uo
+陽開 jang iɑŋ/wɑŋ iang iang
+陽合 jwang(脣音jang) wɑŋ yang uang
+藥開 jak ɒk(ɒʔ)/wɒʔ iak ue
+藥合 jwak(脣音jak) wɒk(wɒʔ) yak ue
+庚二開 aeng əŋ rang eng
+庚二合 waeng wəŋ ruang eng
+庚三開 jaeng iŋ ieng ing
+庚三合 jwaeng yuəŋ yeng iong
+陌二開 aek  rak e
+陌二合 waek  ruak uo
+陌三開 jaek  iek i
+陌三合 jwaek  yek uo
+耕開 eang əŋ reng ing
+耕合 weang wəŋ rueng ong
+麥開 eak  rek e
+麥合 weak  ruek uo
+清開 jeng iŋ ieng ing
+清合 jweng yuəŋ yeng ong
+清A開 jieng  jeng ing
+清A合 jwieng  jyeng ong
+昔開 jek  iek i
+昔合 jwek  yek ü
+昔A開 jiek  jek i
+昔A合 jwiek  jyek ü
+青開 eng iŋ eng ing
+青合 weng yuəŋ ueng iong
+錫開 ek  ek i
+錫合 wek  uek ü
+登開 ong əŋ ong eng
+登合 wong wəŋ uong ong
+德開 ok  ok e
+德合 wok  uok uo
+蒸 ing iŋ ing ing
+職開 ik  ik i
+職合 wik yuək(yuəʔ) yk i
+尤 juw iw/əw iu iu
+侯 uw əw u ou
+幽 jiw iw y iu
+侵 im im/əm im in
+侵A jim im jim in
+侵B im im im in
+緝 ip  ip i
+緝A jip  jip i
+緝B ip  ip i
+談 am am am an
+盍 ap  ap a
+嚴 jaem iɛm iam ian
+凡 jom am yam an
+業 jaep  iap ie
+乏 jop  yap a
+銜 aem am/iam ram ian
+狎 aep  rap ia
+咸 eam am/iam rem ian
+洽 eap  rep ia
+鹽 jem iɛm iem ian
+鹽A jiem iɛm jem ian
+鹽B jem iɛm iem ian
+葉 jep  iep ie
+葉A jiep  jep ie
+葉B jep  iep ie
+添 em iɛm em ian
+怗 ep  ep ie
+覃 om am om an
+合 op  op e
