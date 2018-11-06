@@ -14,8 +14,6 @@ urlpatterns = patterns('',
   url(r'^about$', 'ytenx.views.about_page'),
   url(r'^zim$', 'ytenx.views.zim'),
   url(r'^sriek$', 'ytenx.views.kiemx_sriek'),
-  url(r'^h$', 'ytenx.views.activate_horizontal'),
-  url(r'^v$', 'ytenx.views.activate_vertical'),
 )
 
 urlpatterns += staticfiles_urlpatterns()
