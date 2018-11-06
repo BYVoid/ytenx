@@ -7,7 +7,7 @@ class PrengQim(models.Model):
   identifier = models.CharField(primary_key=True, max_length=6)
   polyhedron = models.CharField(verbose_name="古韻羅馬字", max_length=12, null=True)
   hiovNivv = models.CharField(verbose_name="有女羅馬字", max_length=12, null=True)
-  baxter = models.CharField(verbose_name="Baxter transcription", max_length=12, null=True)
+  baxter = models.CharField(verbose_name="Baxter transcription", max_length=30, null=True)
   tcengh = models.CharField(verbose_name="推導中州音", max_length=30, null=True)  
   putonghua = models.CharField(verbose_name="推導普通話", max_length=12, null=True)
   
