@@ -26,7 +26,9 @@
       }
       .horizontal-cn {
         {% if request.session.layout == 'vertical' %}                
-          direction:rtl; unicode-bidi:bidi-override;
+          direction: rtl;
+          unicode-bidi: bidi-override;
+          float: right;
         {% endif %}
       }
     </style>
@@ -57,7 +59,7 @@
           <div class="nav-collapse">
             {% if request.session.layout == 'vertical' %}
               <ul class="nav" style="float: right;">
-                <li class="{% block index_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block index_rtl_active %}{% endblock %}" class="horizontal-cn">
                   <a href="{% url 'views.index_page' %}" class="horizontal-cn">首頁</a>
                 </li>
                 <li class="{% block kyonh_rtl_active %}{% endblock %}" style="float:right;">
