@@ -72,24 +72,24 @@
                   <a href="{% url 'kyonh.views.index_page' %}" class="horizontal-cn">廣韻</a>
                 </li>
                 <li class="{% block trngyan_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-                  <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">&#x202E;中原音韻</a>
+                  <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}" class="horizontal-cn">中原音韻</a>
                 </li>
-                <li class="{% block tcenghyonhtsen_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block tcenghyonhtsen_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                   <a href="{% url 'tcenghyonhtsen.views.index_page' %}">&#x202E;洪武正韻牋</a>
                 </li>
-                <li class="{% block pyonh_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block pyonh_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                   <a href="{% url 'pyonh.views.pyon_yonh' %}">&#x202E;分韻撮要</a>
                 </li>
-                <li class="{% block dciangxkox_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block dciangxkox_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                   <a href="{% url 'dciangxkox.views.dciangx_kox' %}">&#x202E;上古音系</a>
                 </li>
-                <li class="{% block byoh_lyuk_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block byoh_lyuk_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                   <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">&#x202E;附錄</a>
                 </li>
-                <li class="{% block about_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block about_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                   <a href="{% url 'views.about_page' %}">&#x202E;關於</a>
                 </li>
-                <li class="{% block kiemx_sriek_rtl_active %}{% endblock %}" style="float:right;">
+                <li class="{% block kiemx_sriek_rtl_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %} >
                   <a href="{% url 'views.kiemx_sriek' %}">&#x202E;高級檢索</a>
                 </li>
                 <li style="float:right;">
