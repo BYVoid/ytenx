@@ -25,7 +25,10 @@
         {% endif %}
       }
       {% if request.session.layout == 'vertical' %}        
-        div {
+        .nav {
+           direction: rtl;
+        }
+        .navbar-inner {
            direction: rtl;
         } 
       {% endif %}      
