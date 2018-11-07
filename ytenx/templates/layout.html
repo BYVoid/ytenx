@@ -16,14 +16,20 @@
       .sidebar-nav {
         padding: 9px 0;
       }
-      .container-main {
-        {% if request.session.layout == 'vertical' %}        
+      {% if request.session.layout == 'vertical' %}        
+        .span10 {
           writing-mode:vertical-rl;
           text-orientation:mixed;
           width:100%;
           overflow:auto;
-        {% endif %}
-      }
+        }
+        .span12 {
+          writing-mode:vertical-rl;
+          text-orientation:mixed;
+          width:100%;
+          overflow:auto;
+        }
+      {% endif %}
       .horizontal-cn {
         {% if request.session.layout == 'vertical' %}                
           direction: rtl;
