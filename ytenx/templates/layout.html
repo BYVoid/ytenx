@@ -100,7 +100,7 @@
               <li class="{% block about_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                 <a href="{% url 'views.about_page' %}">關於</a>
               </li>
-              <li class="{% block kiemx_sriek_active %}{% endblock %} {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}">
+              <li class="{% block kiemx_sriek_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}">
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
               </li>
               {% if request.session.layout == 'vertical' %}
