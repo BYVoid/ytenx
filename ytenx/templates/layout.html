@@ -61,7 +61,7 @@
             {% if request.session.layout == 'vertical' %}
               <ul class="nav" style="float: right;">
                 <li class="{% block index_rtl_active %}{% endblock %}" style="float:right; direction:rtl">
-                  <a href="{% url 'views.index_page' %}" style="direction:rtl">首頁</a>
+                  <a href="{% url 'views.index_page' %}" style="direction:rtl; unicode-bidi:bidi-override;">首頁</a>
                 </li>
                 <li class="{% block kyonh_rtl_active %}{% endblock %}" style="float:right; direction:rtl">
                   <a href="{% url 'kyonh.views.index_page' %}">&#x202E;廣韻</a>
