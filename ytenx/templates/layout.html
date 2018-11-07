@@ -16,7 +16,7 @@
       .sidebar-nav {
         padding: 9px 0;
       }
-      .container--main {
+      .container-main {
         {% if request.session.layout == 'vertical' %}        
           writing-mode:vertical-rl;
           text-orientation:mixed;
@@ -28,6 +28,9 @@
         .navbar-inner {
           direction: rtl;
         }
+        .navbar-fixed-top {
+          direction: rtl;
+        }      
       {% endif %}      
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -132,7 +135,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container container-main">
       <div class="row">
         {% block body %}{% endblock %}
       </div>
