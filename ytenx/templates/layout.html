@@ -15,8 +15,11 @@
       }
       .sidebar-nav {
         padding: 9px 0;
-        direction: rtl;
-        unicode-bidi: bidi-override;
+        {% if request.session.layout == 'vertical' %}                
+          direction: rtl;
+          unicode-bidi: bidi-override;
+          float: right;
+        {% endif %}
       }
       {% if request.session.layout == 'vertical' %}        
         .span10 {
