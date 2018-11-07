@@ -14,41 +14,8 @@
         padding-bottom: 40px;
       }
       .sidebar-nav {
-        padding: 9px 0;        
+        padding: 9px 0;
       }
-      {% if request.session.layout == 'vertical' %}        
-        .sidebar-nav {
-          direction: rtl;
-          unicode-bidi: bidi-override;
-        }
-        .sidebar-nav ul li a {
-          direction: rtl;
-          unicode-bidi: bidi-override;
-        }
-        .horizontal-cn-nav ul li {
-          float: right;
-        }      
-        .horizontal-cn-nav ul li a {
-          direction: rtl;
-          unicode-bidi: bidi-override;
-        }
-        .horizontal-cn {
-          direction: rtl;
-          unicode-bidi: bidi-override;
-        }
-        .span10 {
-          writing-mode:vertical-rl;
-          text-orientation:mixed;
-          width:100%;
-          overflow:auto;
-        }
-        .span12 {
-          writing-mode:vertical-rl;
-          text-orientation:mixed;
-          width:100%;
-          overflow:auto;
-        }
-      {% endif %}
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -69,50 +36,37 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          {% if request.session.layout == 'vertical' %}
-            <a id="brand" class="brand" style="float:right" href="{% url 'views.index_page' %}"><img src="/static/img/brand_rtl.gif" title="韻典網" width="100" height="40"></a>
-          {% else %}
-            <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
-          {% endif %}
-          <div class="nav-collapse horizontal-cn-nav">
-            <ul class="nav" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-              <li class="{% block index_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+          <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="{% block index_active %}{% endblock %}">
                 <a href="{% url 'views.index_page' %}">首頁</a>
               </li>
-              <li class="{% block kyonh_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block kyonh_active %}{% endblock %}">
                 <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
               </li>
-              <li class="{% block trngyan_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block trngyan_active %}{% endblock %}">
                 <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">中原音韻</a>
               </li>
-              <li class="{% block tcenghyonhtsen_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block tcenghyonhtsen_active %}{% endblock %}">
                 <a href="{% url 'tcenghyonhtsen.views.index_page' %}">洪武正韻牋</a>
               </li>
-              <li class="{% block pyonh_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block pyonh_active %}{% endblock %}">
                 <a href="{% url 'pyonh.views.pyon_yonh' %}">分韻撮要</a>
               </li>
-              <li class="{% block dciangxkox_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block dciangxkox_active %}{% endblock %}">
                 <a href="{% url 'dciangxkox.views.dciangx_kox' %}">上古音系</a>
               </li>
-              <li class="{% block byoh_lyuk_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block byoh_lyuk_active %}{% endblock %}">
                 <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
               </li>
-              <li class="{% block about_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block about_active %}{% endblock %}">
                 <a href="{% url 'views.about_page' %}">關於</a>
               </li>
-              <li class="{% block kiemx_sriek_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}">
+              <li class="{% block kiemx_sriek_active %}{% endblock %}">
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
               </li>
-              {% if request.session.layout == 'vertical' %}
-                <li style="float:right;">
-                  <a href="{% url 'views.index_page' %}?layout=horizontal">橫版</a>
-                </li>
-              {% else %}
-                <li>
-                  <a href="{% url 'views.index_page' %}?layout=vertical">縱版</a>
-                </li>
-              {% endif %}
-            </ul>                
+            </ul>
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
               <input type="hidden" name="dzyen" value="1">
@@ -125,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="container container-main">
+    <div class="container">
       <div class="row">
         {% block body %}{% endblock %}
       </div>
