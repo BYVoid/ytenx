@@ -77,7 +77,7 @@
           <div class="nav-collapse horizontal-cn-nav">
             <ul class="nav" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
               <li class="{% block index_active %}{% endblock %}">
-                <a href="{% url 'views.index_page' %}" class="horizontal-cn">首頁</a>
+                <a href="{% url 'views.index_page' %}">首頁</a>
               </li>
               <li class="{% block kyonh_active %}{% endblock %}">
                 <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
@@ -86,19 +86,19 @@
                 <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">中原音韻</a>
               </li>
               <li class="{% block tcenghyonhtsen_active %}{% endblock %}">
-                <a href="{% url 'tcenghyonhtsen.views.index_page' %}" class="horizontal-cn">洪武正韻牋</a>
+                <a href="{% url 'tcenghyonhtsen.views.index_page' %}">洪武正韻牋</a>
               </li>
               <li class="{% block pyonh_active %}{% endblock %}">
-                <a href="{% url 'pyonh.views.pyon_yonh' %}" class="horizontal-cn">分韻撮要</a>
+                <a href="{% url 'pyonh.views.pyon_yonh' %}">分韻撮要</a>
               </li>
               <li class="{% block dciangxkox_active %}{% endblock %}">
-                <a href="{% url 'dciangxkox.views.dciangx_kox' %}" class="horizontal-cn">上古音系</a>
+                <a href="{% url 'dciangxkox.views.dciangx_kox' %}">上古音系</a>
               </li>
               <li class="{% block byoh_lyuk_active %}{% endblock %}">
-                <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}" class="horizontal-cn">附錄</a>
+                <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
               </li>
               <li class="{% block about_active %}{% endblock %}">
-                <a href="{% url 'views.about_page' %}" class="horizontal-cn">關於</a>
+                <a href="{% url 'views.about_page' %}">關於</a>
               </li>
               <li class="{% block kiemx_sriek_active %}{% endblock %}">
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
