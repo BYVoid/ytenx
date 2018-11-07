@@ -104,7 +104,7 @@
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
               </li>
               {% if request.session.layout == 'vertical' %}
-                <li>
+                <li style="float:right;">
                   <a href="{% url 'views.index_page' %}?layout=horizontal">橫版</a>
                 </li>
               {% else %}
