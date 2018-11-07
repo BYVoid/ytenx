@@ -14,20 +14,17 @@
         padding-bottom: 40px;
       }
       .sidebar-nav {
-        {% if request.session.layout == 'vertical' %}                
-          direction: rtl;
-          unicode-bidi: bidi-override;
-        {% else %}
-          padding: 9px 0;        
-        {% endif %}
+        padding: 9px 0;        
       }
-      .sidebar-nav ul li a {
-        {% if request.session.layout == 'vertical' %}                
+      {% if request.session.layout == 'vertical' %}        
+        .sidebar-nav ul li a {
           direction: rtl;
           unicode-bidi: bidi-override;
-        {% endif %}
-      }      
-      {% if request.session.layout == 'vertical' %}        
+        }
+        .horizontal-cn-nav ul li a {
+          direction: rtl;
+          unicode-bidi: bidi-override;
+        }       
         .span10 {
           writing-mode:vertical-rl;
           text-orientation:mixed;
@@ -40,9 +37,7 @@
           width:100%;
           overflow:auto;
         }
-        span {
-          unicode-bidi: embed;
-        }
+
       {% endif %}
       .horizontal-cn {
         {% if request.session.layout == 'vertical' %}                
@@ -76,16 +71,16 @@
           {% else %}
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           {% endif %}
-          <div class="nav-collapse">
+          <div class="nav-collapse horizontal-cn-nav">
             <ul class="nav" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
               <li class="{% block index_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                 <a href="{% url 'views.index_page' %}" class="horizontal-cn">首頁</a>
               </li>
               <li class="{% block kyonh_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-                <a href="{% url 'kyonh.views.index_page' %}" class="horizontal-cn">廣韻</a>
+                <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
               </li>
               <li class="{% block trngyan_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-                <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}" class="horizontal-cn">中原音韻</a>
+                <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">中原音韻</a>
               </li>
               <li class="{% block tcenghyonhtsen_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                 <a href="{% url 'tcenghyonhtsen.views.index_page' %}" class="horizontal-cn">洪武正韻牋</a>
