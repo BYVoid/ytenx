@@ -17,11 +17,16 @@
         {% if request.session.layout == 'vertical' %}                
           direction: rtl;
           unicode-bidi: bidi-override;
-          edge: right;
         {% else %}
           padding: 9px 0;        
         {% endif %}
       }
+      .sidebar-nav ul li a {
+        {% if request.session.layout == 'vertical' %}                
+          direction: rtl;
+          unicode-bidi: bidi-override;
+        {% endif %}
+      }      
       {% if request.session.layout == 'vertical' %}        
         .span10 {
           writing-mode:vertical-rl;
