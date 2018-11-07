@@ -24,14 +24,11 @@
           overflow:auto;
         {% endif %}
       }
-      {% if request.session.layout == 'vertical' %}        
-        .nav {
-           direction: rtl;
-        }
-        .navbar-inner {
-           direction: rtl;
-        } 
-      {% endif %}      
+      .horizontal-cn {
+        {% if request.session.layout == 'vertical' %}                
+          direction:rtl; unicode-bidi:bidi-override;
+        {% endif %}
+      }
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -60,11 +57,11 @@
           <div class="nav-collapse">
             {% if request.session.layout == 'vertical' %}
               <ul class="nav" style="float: right;">
-                <li class="{% block index_rtl_active %}{% endblock %}" style="float:right; direction:rtl; unicode-bidi:bidi-override;">
-                  <a href="{% url 'views.index_page' %}">首頁</a>
+                <li class="{% block index_rtl_active %}{% endblock %}" style="float:right;">
+                  <a href="{% url 'views.index_page' %}" class="horizontal-cn">首頁</a>
                 </li>
-                <li class="{% block kyonh_rtl_active %}{% endblock %}" style="float:right; direction:rtl; unicode-bidi:bidi-override;">
-                  <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
+                <li class="{% block kyonh_rtl_active %}{% endblock %}" style="float:right;">
+                  <a href="{% url 'kyonh.views.index_page' %}" class="horizontal-cn">廣韻</a>
                 </li>
                 <li class="{% block trngyan_rtl_active %}{% endblock %}" style="float:right;">
                   <a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">&#x202E;中原音韻</a>
