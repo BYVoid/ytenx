@@ -1,6 +1,7 @@
 # coding=utf-8
 from django.http import Http404
-from django.shortcuts import render_to_response
+from django.shortcuts import redirect
+from django.shortcuts import render
 from jihthex.models import Dzih as JihThex
 from kyonh.models import Dzih as KyonhDzih
 from tcenghyonhtsen.models import Dzih as TcytsDzih
@@ -9,14 +10,14 @@ from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
 from dciangxkox.models import Dzih as DciangxKoxDzih
 
-def index_page(request):
-  return render_to_response('index.html')
+def index_page(request):  
+  return render(request, 'index.html')
 
 def about_page(request):
-  return render_to_response('about.html')
+  return render(request, 'about.html')
 
 def kiemx_sriek(request):
-  return render_to_response('kiemx_sriek.html')
+  return render(request, 'kiemx_sriek.html')
 
 def zim(request):
   chom_sryoh = {
@@ -83,8 +84,8 @@ def zim(request):
     dzih_list['trngyan'] = TrngyanDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_dciangx']:
     dzih_list['dciangx'] = DciangxKoxDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
-  
-  return render_to_response('zim.html', {
+ 
+  return render(request, 'zim.html', {
     'dzih_list': dzih_list,
     'chom_sryoh': chom_sryoh,
   })

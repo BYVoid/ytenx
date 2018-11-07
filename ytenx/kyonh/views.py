@@ -1,6 +1,6 @@
 # coding=utf-8
 from django.http import Http404
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
@@ -8,10 +8,10 @@ from django.core.paginator import InvalidPage, EmptyPage
 from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih, Dzih, YonhCjep, YonhGheh
 
 def index_page(request):
-  return render_to_response('kyonh/index.html')
+  return render(request, 'kyonh/index.html')
 
 def intro_page(request):
-  return render_to_response('kyonh/intro.html')
+  return render(request, 'kyonh/intro.html')
 
 def sieux_yonh_page(request, ziox):
   try:
@@ -19,7 +19,7 @@ def sieux_yonh_page(request, ziox):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/sieux_yonh.html', {
+  return render(request, 'kyonh/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
   })
 
@@ -67,7 +67,7 @@ def sieux_yonh_list_page(request):
     yonh_pieux.append(cjep)
     yonh_pieux += cjep.yonhgheh_set.all()
   
-  return render_to_response('kyonh/sieux_yonh_pieux.html', {
+  return render(request, 'kyonh/sieux_yonh_pieux.html', {
     'sieux_yonh_pieux': sieux_yonh_pieux,
     'cjeng_pieux': cjeng_pieux,
     'yonh_pieux': yonh_pieux,
@@ -84,7 +84,7 @@ def dzih(request, ziox):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/dzih.html', {
+  return render(request, 'kyonh/dzih.html', {
     'dzih': dzih,
   })
 
@@ -95,37 +95,37 @@ def dzih_pieux(request):
     dzih_pieux = paginator.page(request.GET)
   except (EmptyPage, InvalidPage):
     raise Http404()
-  return render_to_response('kyonh/dzih_pieux.html', {
+  return render(request, 'kyonh/dzih_pieux.html', {
     'dzih_pieux': dzih_pieux,
   })
 
 @cache_page(60 * 60 * 24)
 def cjeng_mux_list_page(request):
-  return render_to_response('kyonh/cjeng_mux_list.html', {
+  return render(request, 'kyonh/cjeng_mux_list.html', {
     'cjeng_mux_list': CjengMux.objects.all(),
   })
 
 @cache_page(60 * 60 * 24)
 def yonh_mux_list_page(request):
-  return render_to_response('kyonh/yonh_mux_list.html', {
+  return render(request, 'kyonh/yonh_mux_list.html', {
     'yonh_mux_list': YonhMux.objects.get_pairs(),
   })
 
 @cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):
-  return render_to_response('kyonh/yonh_miuk_list.html', {
+  return render(request, 'kyonh/yonh_miuk_list.html', {
     'yonh_miuk_list': YonhMiukDzip.objects.all(),
   })
 
 @cache_page(60 * 60 * 24)
 def cjeng_ngix_list_page(request):
-  return render_to_response('kyonh/cjeng_ngix_list.html', {
+  return render(request, 'kyonh/cjeng_ngix_list.html', {
     'cjeng_mux_list': CjengMux.objects.all(),
   })
 
 @cache_page(60 * 60 * 24)
 def yonh_ngix_list_page(request):
-  return render_to_response('kyonh/yonh_ngix_list.html', {
+  return render(request, 'kyonh/yonh_ngix_list.html', {
     'yonh_mux_list': YonhMux.objects.get_pairs(),
   })
 
@@ -140,7 +140,7 @@ def yonh_do_page(request):
   dzip = dzip_list[0]
   yonh_do = SieuxYonh.objects.get_yonh_do(dzip)
 
-  return render_to_response('kyonh/yonh_do.html', {
+  return render(request, 'kyonh/yonh_do.html', {
     'yonh_do': yonh_do,
     'cjeng_lyih_list': CjengLyih.objects.all(),
     'dzip': dzip,
@@ -153,7 +153,7 @@ def cio_page(request, kyenh, jep):
     jep = jep,
   )
   
-  return render_to_response('kyonh/cio.html', {
+  return render(request, 'kyonh/cio.html', {
     'cio': cio,
   })
 
@@ -163,7 +163,7 @@ def cjeng_mux_page(request, dzih):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/cjeng_mux.html', {
+  return render(request, 'kyonh/cjeng_mux.html', {
     'cjeng': cjeng,
   })
 
@@ -173,7 +173,7 @@ def yonh_mux_page(request, mjeng):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/yonh_mux.html', {
+  return render(request, 'kyonh/yonh_mux.html', {
     'yonh': yonh,
   })
 
@@ -183,7 +183,7 @@ def yonh_miuk_page(request, dzih):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/yonh_miuk.html', {
+  return render(request, 'kyonh/yonh_miuk.html', {
     'yonh_miuk': yonh_miuk,
   })
 
@@ -193,7 +193,7 @@ def pyanx_dciangx_page(request, dzih):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/pyanx_dciangx.html', {
+  return render(request, 'kyonh/pyanx_dciangx.html', {
     'dciangx': dciangx,
   })
 
@@ -203,6 +203,6 @@ def pyanx_ghrax_page(request, dzih):
   except:
     raise Http404()
 
-  return render_to_response('kyonh/pyanx_ghrax.html', {
+  return render(request, 'kyonh/pyanx_ghrax.html', {
     'ghrax': ghrax,
   })
