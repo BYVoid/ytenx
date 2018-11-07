@@ -35,6 +35,9 @@
           width:100%;
           overflow:auto;
         }
+        span {
+          unicode-bidi: embed;
+        }
       {% endif %}
       .horizontal-cn {
         {% if request.session.layout == 'vertical' %}                
