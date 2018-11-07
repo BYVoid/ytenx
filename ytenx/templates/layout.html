@@ -25,9 +25,9 @@
         {% endif %}
       }
       {% if request.session.layout == 'vertical' %}        
-        .nav {
-          float: right;
-        }
+        * {
+           direction: rtl;
+        } 
       {% endif %}      
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -55,8 +55,8 @@
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           {% endif %}
           <div class="nav-collapse">
-            <ul class="nav" style="float: right;">
-              {% if request.session.layout == 'vertical' %}
+            {% if request.session.layout == 'vertical' %}
+              <ul class="nav" style="float: right;">
                 <li class="{% block index_rtl_active %}{% endblock %}" style="float:right; direction:rtl">
                   <a href="{% url 'views.index_page' %}">&#x202E;首頁</a>
                 </li>
@@ -87,7 +87,9 @@
                 <li style="float:right;">
                   <a href="{% url 'views.index_page' %}?layout=horizontal">&#x202E;橫版</a>
                 </li>
-              {% else %}
+              </ul>
+            {% else %}
+              <ul class="nav">
                 <li class="{% block index_active %}{% endblock %}">
                   <a href="{% url 'views.index_page' %}">首頁</a>
                 </li>
@@ -118,8 +120,8 @@
                 <li>
                   <a href="{% url 'views.index_page' %}?layout=vertical">縱版</a>
                 </li>
-              {% endif %}              
-            </ul>
+              </ul>                
+            {% endif %}              
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
               <input type="hidden" name="dzyen" value="1">
