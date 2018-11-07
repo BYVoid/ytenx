@@ -76,7 +76,7 @@
           {% endif %}
           <div class="nav-collapse horizontal-cn-nav">
             <ul class="nav" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-              <li class="{% block index_active %}{% endblock %}">
+              <li class="{% block index_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
                 <a href="{% url 'views.index_page' %}">首頁</a>
               </li>
               <li class="{% block kyonh_active %}{% endblock %}">
@@ -100,16 +100,16 @@
               <li class="{% block about_active %}{% endblock %}">
                 <a href="{% url 'views.about_page' %}">關於</a>
               </li>
-              <li class="{% block kiemx_sriek_active %}{% endblock %}">
+              <li class="{% block kiemx_sriek_active %}{% endblock %} {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}">
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
               </li>
               {% if request.session.layout == 'vertical' %}
                 <li>
-                  <a href="{% url 'views.index_page' %}?layout=horizontal" class="horizontal-cn">橫版</a>
+                  <a href="{% url 'views.index_page' %}?layout=horizontal">橫版</a>
                 </li>
               {% else %}
                 <li>
-                  <a href="{% url 'views.index_page' %}?layout=vertical" class="horizontal-cn">縱版</a>
+                  <a href="{% url 'views.index_page' %}?layout=vertical">縱版</a>
                 </li>
               {% endif %}
             </ul>                
