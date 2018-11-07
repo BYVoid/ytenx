@@ -14,11 +14,13 @@
         padding-bottom: 40px;
       }
       .sidebar-nav {
-        padding: 9px 0;
         {% if request.session.layout == 'vertical' %}                
           direction: rtl;
           unicode-bidi: bidi-override;
           float: right;
+          padding: 0 9px;        
+        {% else %}
+          padding: 9px 0;        
         {% endif %}
       }
       {% if request.session.layout == 'vertical' %}        
