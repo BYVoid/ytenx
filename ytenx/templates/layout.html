@@ -17,14 +17,25 @@
         padding: 9px 0;        
       }
       {% if request.session.layout == 'vertical' %}        
+        .sidebar-nav {
+          direction: rtl;
+          unicode-bidi: bidi-override;
+        }
         .sidebar-nav ul li a {
           direction: rtl;
           unicode-bidi: bidi-override;
         }
+        .horizontal-cn-nav ul li {
+          float: right;
+        }      
         .horizontal-cn-nav ul li a {
           direction: rtl;
           unicode-bidi: bidi-override;
-        }       
+        }
+        .horizontal-cn {
+          direction: rtl;
+          unicode-bidi: bidi-override;
+        }
         .span10 {
           writing-mode:vertical-rl;
           text-orientation:mixed;
@@ -37,15 +48,7 @@
           width:100%;
           overflow:auto;
         }
-
       {% endif %}
-      .horizontal-cn {
-        {% if request.session.layout == 'vertical' %}                
-          direction: rtl;
-          unicode-bidi: bidi-override;
-          float: right;
-        {% endif %}
-      }
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -73,7 +76,7 @@
           {% endif %}
           <div class="nav-collapse horizontal-cn-nav">
             <ul class="nav" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
-              <li class="{% block index_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
+              <li class="{% block index_active %}{% endblock %}">
                 <a href="{% url 'views.index_page' %}" class="horizontal-cn">首頁</a>
               </li>
               <li class="{% block kyonh_active %}{% endblock %}" {% if request.session.layout == 'vertical' %}style="float:right;"{% endif %}>
