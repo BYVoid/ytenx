@@ -45,7 +45,7 @@
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+      <div class="navbar-inner" style="float:right">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
@@ -53,7 +53,7 @@
             <span class="icon-bar"></span>
           </a>
           {% if request.session.layout == 'vertical' %}
-            <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand_rtl.gif" title="韻典網" width="100" height="40"></a>          
+            <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand_rtl.gif" title="韻典網" width="100" height="40"></a>
           {% else %}
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           {% endif %}
