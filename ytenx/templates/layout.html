@@ -57,7 +57,7 @@
           {% else %}
             <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           {% endif %}
-          <div class="nav-collapse" style="direction:rtl;">
+          <div class="nav-collapse">
             <ul class="nav">
               {% if request.session.layout == 'vertical' %}
                 <li class="{% block index_rtl_active %}{% endblock %}" style="float:right; direction:rtl">
@@ -123,7 +123,7 @@
                 </li>
               {% endif %}              
             </ul>
-            <form class="navbar-search"  style="direction:rtl;float:right" action="{% url 'views.zim' %}">
+            <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
               <input type="hidden" name="dzyen" value="1">
               <input type="hidden" name="jtkb" value="1">
