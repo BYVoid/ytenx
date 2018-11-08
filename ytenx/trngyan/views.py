@@ -87,7 +87,7 @@ def dzih_pieux(request):
 
 @cache_page(60 * 60 * 24)
 def cjeng_mux_pieux(request):
-  return render_to_response('trngyan/cjeng_mux_pieux.html', {
+  return render(request, 'trngyan/cjeng_mux_pieux.html', {
     'cjeng_mux_pieux': CjengLyih.objects.all(),
   })
 
@@ -104,7 +104,7 @@ def cjeng_mux(request, dzih):
 
 @cache_page(60 * 60 * 24)
 def yonh_mux_pieux(request):
-  return render_to_response('trngyan/yonh_mux_pieux.html', {
+  return render(request, 'trngyan/yonh_mux_pieux.html', {
     'yonh_mux_pieux': YonhBox.objects.all(),
   })
 
