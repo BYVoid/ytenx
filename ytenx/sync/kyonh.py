@@ -22,7 +22,7 @@ prengQimMap = {}
 dauhMap = {}
 ngixQimMap = {}
 sieuxYonhMap = {}
-gloss_fallback_pattern = u'(^古文|^俗$|上同|^亦同|同上|^二同)'
+gloss_fallback_pattern = u'(^古文|^俗$|上同|^亦同|同上|^二同|^俗見上注|^俗本音.)'
 last_dzih = u''
 last_ngieh = u''
 
