@@ -35,6 +35,7 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
+        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
       </h2>
       <h3>
         {% if dzih.sieuxYonh.pyanx %}
@@ -44,7 +45,7 @@
       </h3>
       <p>
         {{dzih.sieuxYonh.yonh.gheh.cjep}}{{dzih.sieuxYonh.yonh.ho|ho}}{{dzih.sieuxYonh.yonh.tongx|sryoh}}{{dzih.sieuxYonh.yonhMiuk.deuh|deuh}}<a href="{% url 'kyonh.views.yonh_miuk_page' dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a><a href="{% url 'kyonh.views.cjeng_mux_page' dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>
-        ({{dzih.sieuxYonh.preng.baxter}})
+        <span class="display-unless-with-vertical-layout">({{dzih.sieuxYonh.preng.baxter}})</span>
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
     {% endfor %}
@@ -73,8 +74,9 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
+        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
-      <h3>
+      <h3 class="display-unless-with-vertical-layout">
         {{dzih.sieux.ipa}}
       </h3>
       <p>
@@ -98,8 +100,9 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
+        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
-      <h3>
+      <h3 class="display-unless-with-vertical-layout">
         {{dzih.sieux.ipa}}
       </h3>
       <p>
@@ -141,6 +144,7 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
+        <span class="latin-below display-only-with-vertical-layout">{{dzih.ngix_1}}</span>
       </h2>
   	  <p>
   	   聲符
