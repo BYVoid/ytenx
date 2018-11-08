@@ -7,78 +7,80 @@
 <div class="page-header">
   <h1>{{sieux_yonh}} <small>中原音韻第{{sieux_yonh.ziox|sryoh}}小韻</small></h1>
 </div>
-<div class="row">
-  <div class="span4">
-    <table class="table table-bordered">
-    	<tr>
-    	  <td>小韻</td>
-    	  <td>{{sieux_yonh}}</td>
-    	</tr>
-    	<tr>
-    	  <td>序號</td>
-    	  <td>{{sieux_yonh.ziox}}</td>
-    	</tr>
-    	<tr>
-    	  <td>聲母</td>
-    	  <td>
-    	  	<a href="{% url 'trngyan.views.cjeng_mux' sieux_yonh.cjeng.dzih %}">
-    	  		{{sieux_yonh.cjeng}}
-    	  	</a>
-    	  </td>
-    	</tr>
-    	<tr>
-    	  <td>韻母</td>
-    	  <td>
-    	  	<a href="{% url 'trngyan.views.yonh_mux' sieux_yonh.yonh.mjeng %}">
-    	  		{{sieux_yonh.yonh}}
-    	  	</a>
-    	  </td>
-    	</tr>
-    	<tr>
-    	  <td>韻部</td>
-    	  <td>{{sieux_yonh.yonh_box}}</td>
-    	</tr>
-    	<tr>
-    	  <td>聲調</td>
-    	  <td>{{sieux_yonh.deuh|deuh_trngyan}}</td>
-    	</tr>
-    	<tr>
-    	  <td>四呼</td>
-    	  <td>{{sieux_yonh.ho|siih_ho}}</td>
-    	</tr>
-    </table>
-  </div>
-  <div class="span3">
-    <h2>擬音</h2>
-    <table class="table table-bordered">
-    {% for mjeng, ngix in sieux_yonh.ngix %}
-      {% if ngix %}
+<div style="writing-mode:horizontal-tb">
+  <div class="row">
+    <div class="span4">
+      <table class="table table-bordered">
         <tr>
-          <td>{{mjeng}}</td>
-          <td>{{ngix}}</td>
+          <td>小韻</td>
+          <td>{{sieux_yonh}}</td>
         </tr>
-      {% endif %}
-    {% endfor %}
+        <tr>
+          <td>序號</td>
+          <td>{{sieux_yonh.ziox}}</td>
+        </tr>
+        <tr>
+          <td>聲母</td>
+          <td>
+            <a href="{% url 'trngyan.views.cjeng_mux' sieux_yonh.cjeng.dzih %}">
+              {{sieux_yonh.cjeng}}
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>韻母</td>
+          <td>
+            <a href="{% url 'trngyan.views.yonh_mux' sieux_yonh.yonh.mjeng %}">
+              {{sieux_yonh.yonh}}
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>韻部</td>
+          <td>{{sieux_yonh.yonh_box}}</td>
+        </tr>
+        <tr>
+          <td>聲調</td>
+          <td>{{sieux_yonh.deuh|deuh_trngyan}}</td>
+        </tr>
+        <tr>
+          <td>四呼</td>
+          <td>{{sieux_yonh.ho|siih_ho}}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="span3">
+      <h2>擬音</h2>
+      <table class="table table-bordered">
+      {% for mjeng, ngix in sieux_yonh.ngix %}
+        {% if ngix %}
+          <tr>
+            <td>{{mjeng}}</td>
+            <td>{{ngix}}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span8">
+    <h2>字</h2>
+    <table class="table table-condensed table-bordered">
+      {% for dzih in sieux_yonh.dzih_set.all %}
+        <tr>
+          <td><a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a></td>
+          <td>{{dzih.tryoh}}</td>
+        </tr>
+      {% endfor %}
     </table>
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="span8">
-  <h2>字</h2>
-  <table class="table table-condensed table-bordered">
-    {% for dzih in sieux_yonh.dzih_set.all %}
-    	<tr>
-    	  <td><a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a></td>
-    	  <td>{{dzih.tryoh}}</td>
-    	</tr>
-    {% endfor %}
-  </table>
-  </div>
-</div>
-<div class="row">
-  <div class="span8">
-    <h2>書影</h2>
-    {% include "trngyan/pohpyon/cio_do.html" with cio_do_pieux=sieux_yonh.cio.all only %}
+  <div class="row">
+    <div class="span8">
+      <h2>書影</h2>
+      {% include "trngyan/pohpyon/cio_do.html" with cio_do_pieux=sieux_yonh.cio.all only %}
+    </div>
   </div>
 </div>
 {% endblock %}
