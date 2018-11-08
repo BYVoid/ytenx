@@ -16,12 +16,15 @@
       .sidebar-nav {
         padding: 9px 0;
       }
-      .vertical_divider {
-        display: none;
-      }      
     </style>
     {% if request.session.layout == 'vertical' %}
       {% include "vertical_style.html" %}
+    {% else %}
+      <style type="text/css">
+        .display-only-with-vertical-layout {
+          display: none;
+        }
+      </style>
     {% endif %}    
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
