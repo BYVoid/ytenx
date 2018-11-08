@@ -10,6 +10,13 @@ from pyonh.models import Dzih as PyonhDzih
 from trngyan.models import Dzih as TrngyanDzih
 from dciangxkox.models import Dzih as DciangxKoxDzih
 
+def renew_session(request):  
+  if request.GET.get('layout', '') == 'horizontal': 
+    request.session['layout'] = 'horizontal'
+  # if request.GET.get('layout', '') == 'vertical': 
+  #   request.session['layout'] = 'vertical'
+  return redirect(request.GET.get('path', ''))
+
 def index_page(request):  
   return render(request, 'index.html')
 
