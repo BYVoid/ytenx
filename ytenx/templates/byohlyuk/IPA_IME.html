@@ -104,14 +104,15 @@ function insert(field, v) {
   margin-top: 100px;
 }
 </style>
-<div id="subnav-fixed" class="horizontal-ltr">
+<div class="horizontal-ltr">
+<div id="subnav-fixed" >
   <div id="edit">
     <form name="formipa" onSubmit="return(false);" action="#">
       <input type="text" id="textipa" name="textipa">
     </form>
   </div>
   
-  <div class="horizontal-cn">
+  <div>
     <a href="#byox">輔音</a>
     <a href="#ngyan">元音</a>
     <a href="#byoh">附加符號</a>
@@ -119,17 +120,17 @@ function insert(field, v) {
   </div>
 </div>
 
-<div id="warp" class="horizontal-ltr">
-  <ul class="breadcrumb horizontal-cn">
+<div id="warp">
+  <ul class="breadcrumb">
     <li>
       <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
       <span class="divider">/</span>
     </li>
     <li class="active">國際音標輸入法</li>
   </ul>
-  <h2 id="byox" class="write-as-layout-direction">輔音</h2>
+  <h2 id="byox">輔音</h2>
   <table class="table table-bordered table-condensed">
-    <caption class="horizontal-cn">肺部氣流輔音</caption>
+    <caption>肺部氣流輔音</caption>
     <tr>
       <td></td>
       <th colspan="2" class="write-as-layout-direction">雙脣</th>
