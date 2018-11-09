@@ -142,7 +142,7 @@ def yonh_do_page(request):
 
   return render(request, 'kyonh/yonh_do.html', {
     'yonh_do': yonh_do,
-    'cjeng_lyih_list': CjengLyih.objects.all().order_by('mjeng'),
+    'cjeng_lyih_list': CjengLyih.objects.all().order_by('-mjeng'),
     'dzip': dzip,
     'dzip_list': dzip_list,
   })
