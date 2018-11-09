@@ -70,7 +70,7 @@
         </tr>
         {% for dzih in dzih_pieux %}
         <tr>
-          <td class="horizontal-ltr">{{dzih.ziox}}</td>
+          <td><span class="horizontal-ltr">{{dzih.ziox}}</span></td>
           <td>
             <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
           </td>
@@ -84,7 +84,7 @@
               {{dzih.yonh}}
             </a>
           </td>
-          <td>{{dzih.yonh_seh}}</td>
+          <td><span class="horizontal-ltr">{{dzih.yonh_seh}}</span></td>
           <td>
             {% if dzih.sieux_yonh %}
               <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
