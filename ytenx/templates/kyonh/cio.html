@@ -6,37 +6,39 @@
 <div class="page-header">
   <h1>第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎 <small>《廣韻澤存堂本》</small></h1>
 </div>
-{% include "pohpyon/navibar.html" with urls=cio.urls only %}
-<div class="span10 tb-with-table-by-layout-direction"">
-  {% if cio.myon %}
+<div class="tb-with-table-by-layout-direction">
+  {% include "pohpyon/navibar.html" with urls=cio.urls only %}
+  <div class="span10 write-as-layout-direction">
+    {% if cio.myon %}
+      <div class="row">
+        {% autoescape off %}
+          <blockquote>{{cio.myon|krak_cik}}</blockquote>
+        {% endautoescape %}
+      </div>
+    {% endif %}
+    {% if cio.cio.sieuxyonh_set.all %}
+      <div class="row">
+        <h2>小韻</h2>
+        {% for sieux in cio.cio.sieuxyonh_set.all %}
+          <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if cio.cio.dzih_set.all %}
+      <div class="row">
+        <h2>字頭</h2>
+        {% for dzih in cio.cio.dzih_set.all %}
+          <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
     <div class="row">
-      {% autoescape off %}
-        <blockquote>{{cio.myon|krak_cik}}</blockquote>
-      {% endautoescape %}
-    </div>
-  {% endif %}
-  {% if cio.cio.sieuxyonh_set.all %}
-    <div class="row">
-      <h2>小韻</h2>
-      {% for sieux in cio.cio.sieuxyonh_set.all %}
-        <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
-      {% endfor %}
-    </div>
-  {% endif %}
-  {% if cio.cio.dzih_set.all %}
-    <div class="row">
-      <h2>字頭</h2>
-      {% for dzih in cio.cio.dzih_set.all %}
-        <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a>
-      {% endfor %}
-    </div>
-  {% endif %}
-  <div class="row">
-    <h2>圖片</h2>
-    <div class="thumbnail">
-      <a href="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg">
-        <img src="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg" alt="" >
-      </a>
+      <h2>圖片</h2>
+      <div class="thumbnail">
+        <a href="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg">
+          <img src="/static/img/DrakDzuonDang/volume{{cio.kyenh}}/p{{cio}}.jpg" alt="" >
+        </a>
+      </div>
     </div>
   </div>
 </div>
