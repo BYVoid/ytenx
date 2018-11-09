@@ -8,9 +8,6 @@
   <h1>等韻圖 <small>廣韻</small></h1>
 </div>
 <div class="row horizontal-cn">
-  {% for cjeng_lyih in cjeng_lyih_list %}
-    <p>{{cjeng_lyih}}</p>
-  {% endfor %}  
   <div class="span12">
     {% include "pagination.html" with list=dzip_list only %}
     <table class="table table-bordered table-condensed table-striped horizontal-cn">
