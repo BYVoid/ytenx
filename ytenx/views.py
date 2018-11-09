@@ -1,4 +1,5 @@
 # coding=utf-8
+from django.core.cache import cache
 from django.http import Http404
 from django.shortcuts import redirect
 from django.shortcuts import render
@@ -15,6 +16,7 @@ def renew_session(request):
     request.session['layout'] = 'horizontal'
   #if request.GET.get('layout', '') == 'vertical': 
   #  request.session['layout'] = 'vertical'
+  cache.clear()
   return redirect(request.GET.get('path', ''))
 
 def index_page(request):  
