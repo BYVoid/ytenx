@@ -21,8 +21,8 @@
 <div class="page-header">
   <h1>字表 <small>上古音系</small></h1>
 </div>
-<div style="writing-mode:horizontal-tb">
-<div class="row">
+<div class="tb-with-table-by-layout-direction">
+<div class="row horizontal-cn">
   <div id="search" class="span3">
   <form method="get" action="">
     <ul>
@@ -70,7 +70,7 @@
         </tr>
         {% for dzih in dzih_pieux %}
         <tr>
-          <td>{{dzih.ziox}}</td>
+          <td><span class="horizontal-ltr">{{dzih.ziox}}</span></td>
           <td>
             <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
           </td>
@@ -84,7 +84,7 @@
               {{dzih.yonh}}
             </a>
           </td>
-          <td>{{dzih.yonh_seh}}</td>
+          <td><span class="horizontal-ltr">{{dzih.yonh_seh}}</span></td>
           <td>
             {% if dzih.sieux_yonh %}
               <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
@@ -94,7 +94,7 @@
               無
             {% endif %}
           </td>
-          <td>{{dzih.ngix_1}}</td>
+          <td><span class="horizontal-ltr">{{dzih.ngix_1}}</span></td>
           <td>{{dzih.tryoh}}</td>
         </tr>
         {% endfor %}

@@ -32,6 +32,7 @@
   {% if dzih_list.kyonh %}
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
@@ -51,8 +52,10 @@
     {% endfor %}
   {% endif %}
   {% if dzih_list.trngyan %}
+    <div class="vertical_divider display-only-with-vertical-layout"></div>
     <h1>中原音韻</h1>
     {% for dzih in dzih_list.trngyan %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
@@ -67,10 +70,12 @@
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcyts or dzih_list.tcytsjdz %}
+    <div class="vertical_divider display-only-with-vertical-layout"></div>
     <h1>洪武正韻牋</h1>
   {% endif %}
   {% if dzih_list.tcyts %}
     {% for dzih in dzih_list.tcyts %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
@@ -97,6 +102,7 @@
   {% endif %}
   {% if dzih_list.tcytsjdz %}
     {% for dzih in dzih_list.tcytsjdz %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
@@ -123,8 +129,10 @@
     {% endfor %}
   {% endif %}
   {% if dzih_list.pyonh %}
+    <div class="vertical_divider display-only-with-vertical-layout"></div>
     <h1>分韻撮要</h1>
     {% for dzih in dzih_list.pyonh %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'pyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
@@ -139,8 +147,10 @@
     {% endfor %}
   {% endif %}
   {% if dzih_list.dciangx %}
+    <div class="vertical_divider display-only-with-vertical-layout"></div>
     <h1>上古音系</h1>
     {% for dzih in dzih_list.dciangx %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter}}</span>
         <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>

@@ -1,10 +1,20 @@
 <style type="text/css">
-  .display-unless-with-vertical-layout {
+  .display-unless-with-vertical-layout, #switch-to-vertical-layout {
     display: none;
   }
-  .auto-direction {
+  .write-as-layout-direction {
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    overflow: auto;
+  }
+  .tb-with-table-by-layout-direction {
+    writing-mode: horizontal-tb;
+    direction: rtl;    
+  }
+  .tb-with-table-by-layout-direction table {
+    writing-mode: vertical-rl;
+    text-align: right;
+    direction: ltr;
     overflow: auto;
   }
   .auto-direction-fullsize {
@@ -17,6 +27,9 @@
   .badge-info {
     writing-mode: horizontal-tb;
   }
+  .navbar .nav>li {
+    float: right;
+  }  
   blockquote {
     border-left: 0px;
     border-top: 0px;
@@ -25,73 +38,71 @@
     margin-top: 1em;
   }
   .horizontal-cn {
-    float: right;
-    writing-mode:horizontal-tb;
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  .horizontal-cn form ul li {
-    float: right;
-  }
-  .horizontal-cn form ul li select option{
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  .horizontal-cn li {
-    float: right;
-  }  
-  .horizontal-cn ul {
-    float: right;
-  }  
-  .horizontal-cn ul li {
-    float: right;
-  }
-  .horizontal-cn ul li a {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }  
-  .horizontal-cn table {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  .horizontal-cn table tr td {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-  }
-  .sidebar-nav {
     writing-mode: horizontal-tb;
     direction: rtl;
     unicode-bidi: bidi-override;
   }
-  .sidebar-nav ul li a {
+  .horizontal-cn a,
+  .horizontal-cn span,
+  .horizontal-cn div,
+  .horizontal-cn ul,
+  .horizontal-cn li,
+  .horizontal-cn table,
+  .horizontal-cn td,
+  .horizontal-cn input,
+  .horizontal-cn selection option,
+  .horizontal-cn .brand,
+  .horizontal-cn .nav,
+  .horizontal-cn .btn{
     direction: rtl;
     unicode-bidi: bidi-override;
+  }
+  .horizontal-cn ul,
+  .horizontal-cn li,
+  .horizontal-cn table,
+  .horizontal-cn input,
+  .horizontal-cn selection option,
+  .horizontal-cn .brand,
+  .horizontal-cn .btn{
+    float: right;     
+  }
+  .sidebar-cn li,
+  .sidebar-cn a {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    unicode-bidi: bidi-override;    
   }
   .pagination {
     text-align: right;
     writing-mode: horizontal-tb;
   }
-  .pagination ul li {
+  .pagination li {
     float: right;
   }
+  .sidebar-nav {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+  }  
   .table {
     width: auto;
   }
-  .table tr td{
-    width: auto;
-    text-orientation: upright;
-    text-orientation: upright;
-  }
-  .table-remove-border-vertical tr td {
-    border-top: none;
-  }
-  .table-remove-border-vertical tr th {
+  .table-remove-border-when-vertical th,
+  .table-remove-border-when-vertical td {
     border-top: none;
   }
   .latin-below {
     writing-mode: horizontal-tb;
     font-size: 0.618em;
   }
+  .horizontal-ltr {
+    writing-mode: horizontal-tb;
+    direction: ltr;
+  }
+  .horizontal-ltr-override {
+    writing-mode: horizontal-tb;
+    direction: ltr;
+    unicode-bidi: bidi-override;    
+  }  
   .vertical_divider {
     width: 5px;
     background-color: #EAEFF5;
