@@ -37,7 +37,7 @@
     <link rel="apple-touch-icon-precomposed" href="/static/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top horizontal-cn">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -47,7 +47,7 @@
           </a>
           <a id="brand" class="brand" href="{% url 'views.index_page' %}"><img src="/static/img/brand.gif" title="韻典網" width="100" height="40"></a>
           <div class="nav-collapse">
-            <ul class="nav horizontal-cn">
+            <ul class="nav">
               <li class="{% block index_active %}{% endblock %}">
                 <a href="{% url 'views.index_page' %}">首頁</a>
               </li>
