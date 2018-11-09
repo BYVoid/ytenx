@@ -70,7 +70,7 @@
         </tr>
         {% for dzih in dzih_pieux %}
         <tr>
-          <td>{{dzih.ziox}}</td>
+          <td class="horizontal-ltr">{{dzih.ziox}}</td>
           <td>
             <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
           </td>
@@ -94,7 +94,7 @@
               無
             {% endif %}
           </td>
-          <td>{{dzih.ngix_1}}</td>
+          <td class="horizontal-ltr">{{dzih.ngix_1}}</td>
           <td>{{dzih.tryoh}}</td>
         </tr>
         {% endfor %}
