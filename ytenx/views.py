@@ -14,8 +14,8 @@ from dciangxkox.models import Dzih as DciangxKoxDzih
 def renew_session(request):  
   if request.GET.get('layout', '') == 'horizontal': 
     request.session['layout'] = 'horizontal'
-  #if request.GET.get('layout', '') == 'vertical': 
-  #  request.session['layout'] = 'vertical'
+  # if request.GET.get('layout', '') == 'vertical': 
+  #   request.session['layout'] = 'vertical'
   cache.clear()
   return redirect(request.GET.get('path', ''))
 
