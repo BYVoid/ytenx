@@ -129,7 +129,6 @@ def yonh_ngix_list_page(request):
     'yonh_mux_list': YonhMux.objects.get_pairs(),
   })
 
-@cache_page(60 * 60 * 24)
 def yonh_do_page(request):
   paginator = Paginator(YonhMiukDzip.objects.all(), 1)
   try:
