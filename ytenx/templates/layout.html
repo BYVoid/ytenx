@@ -75,12 +75,16 @@
               <li class="{% block kiemx_sriek_active %}{% endblock %}">
                 <a href="{% url 'views.kiemx_sriek' %}">高級檢索</a>
               </li>
-              <li class="display-only-with-vertical-layout">
-                <a href="{% url 'views.renew_session' %}?layout=horizontal&path={{ request.get_full_path|urlencode }}">橫版</a>
-              </li>
-              <li class="display-unless-with-vertical-layout">
-                <a href="{% url 'views.renew_session' %}?layout=vertical&path={{ request.get_full_path|urlencode }}">縱版</a>
-              </li>              
+              <div class="display-only-with-vertical-layout">
+                <li>
+                  <a href="{% url 'views.renew_session' %}?layout=horizontal&path={{ request.get_full_path|urlencode }}">橫版</a>
+                </li>
+              </div>
+              <div class="display-unless-with-vertical-layout">
+                <li>
+                  <a href="{% url 'views.renew_session' %}?layout=vertical&path={{ request.get_full_path|urlencode }}">縱版</a>
+                </li>
+              </div>
             </ul>
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
