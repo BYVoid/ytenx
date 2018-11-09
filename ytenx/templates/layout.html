@@ -17,7 +17,7 @@
         padding: 9px 0;
       }
     </style>
-    {% if request.session.layout == 'vertical' %}
+    {% if request.session.layout != 'vertical' %}
       {% include "vertical_style.html" %}
     {% else %}
       <style type="text/css">
