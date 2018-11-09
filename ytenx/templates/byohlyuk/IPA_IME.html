@@ -104,14 +104,14 @@ function insert(field, v) {
   margin-top: 100px;
 }
 </style>
-<div id="subnav-fixed" class="horizontal-cn">
+<div id="subnav-fixed" class="horizontal-ltr">
   <div id="edit">
     <form name="formipa" onSubmit="return(false);" action="#">
       <input type="text" id="textipa" name="textipa">
     </form>
   </div>
   
-  <div>
+  <div class="horizontal-cn">
     <a href="#byox">輔音</a>
     <a href="#ngyan">元音</a>
     <a href="#byoh">附加符號</a>
@@ -120,31 +120,31 @@ function insert(field, v) {
 </div>
 
 <div id="warp" class="horizontal-ltr">
-  <ul class="breadcrumb">
+  <ul class="breadcrumb horizontal-cn">
     <li>
       <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
       <span class="divider">/</span>
     </li>
     <li class="active">國際音標輸入法</li>
   </ul>
-  <h2 id="byox">輔音</h2>
+  <h2 id="byox" class="write-as-layout-direction">輔音</h2>
   <table class="table table-bordered table-condensed">
-    <caption>肺部氣流輔音</caption>
+    <caption class="horizontal-cn">肺部氣流輔音</caption>
     <tr>
       <td></td>
-      <th colspan="2">雙脣</th>
-      <th colspan="2">脣齒</th>
-      <th colspan="2">齒</th>
-      <th colspan="2">齒齦</th>
-      <th colspan="2">齦後</th>
-      <th colspan="2">齦齶</th>
-      <th colspan="2">捲舌</th>
-      <th colspan="2">硬齶</th>
-      <th colspan="2">軟齶</th>
-      <th colspan="2">小舌</th>
-      <th colspan="2">咽</th>
-      <th colspan="2">會厭</th>
-      <th colspan="2">喉</th>
+      <th colspan="2" class="write-as-layout-direction">雙脣</th>
+      <th colspan="2" class="write-as-layout-direction">脣齒</th>
+      <th colspan="2" class="write-as-layout-direction">齒</th>
+      <th colspan="2" class="write-as-layout-direction">齒齦</th>
+      <th colspan="2" class="write-as-layout-direction">齦後</th>
+      <th colspan="2" class="write-as-layout-direction">齦齶</th>
+      <th colspan="2" class="write-as-layout-direction">捲舌</th>
+      <th colspan="2" class="write-as-layout-direction">硬齶</th>
+      <th colspan="2" class="write-as-layout-direction">軟齶</th>
+      <th colspan="2" class="write-as-layout-direction">小舌</th>
+      <th colspan="2" class="write-as-layout-direction">咽</th>
+      <th colspan="2" class="write-as-layout-direction">會厭</th>
+      <th colspan="2" class="write-as-layout-direction">喉</th>
     </tr>
     <tr>
       <td>鼻</td>
