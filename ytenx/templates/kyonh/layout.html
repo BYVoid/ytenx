@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 {% block kyonh_active %}active{% endblock %}
 {% block body %}
-<div class="span2 style="writing-mode:horizontal-tb;">
-  <div class="well sidebar-nav" style="float:right;">
-    <ul class="nav nav-list" style="float:right;">
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
       <li class="nav-header">檢</li>
       <li class="{% block kyonh_index_active %}{% endblock %}">
         <a href="{% url 'kyonh.views.index_page' %}">廣韻</a>
