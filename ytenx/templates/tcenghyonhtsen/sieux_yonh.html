@@ -80,7 +80,7 @@
     <h2>書影</h2>
     <ul class="thumbnails">
       {% for cio in sieux_yonh.ziox_cio %}
-        <li class="span3" class="li-thumbnail" style="display: block;">
+        <li class="span3" class="li-thumbnail" style="display: block; float: none;">
           <div class="thumbnail">
             <a href="{% url 'tcenghyonhtsen.views.cio_page' cio.kyenh cio.jep %}">
               <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
