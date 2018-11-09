@@ -10,7 +10,7 @@
     {% else %}
       {# 第一 #}
       <li class="disabled">
-        <a href="">上一䈎</a>
+        <a href="" class="horizontal-cn">上一䈎</a>
       </li>
       <li class="active">
         <a href="">1</a>
@@ -36,11 +36,11 @@
         <a href="?{{list.args_last}}">{{list.paginator.num_pages}}</a>
       </li>
       <li>
-        <a href="?{{list.args_next}}">下一䈎</a>
+        <a href="?{{list.args_next}}" class="horizontal-cn">下一䈎</a>
       </li>
     {% else %}
       <li class="disabled">
-        <a href="">下一䈎</a>
+        <a href="" class="horizontal-cn">下一䈎</a>
       </li>
     {% endif %}
   </ul>
