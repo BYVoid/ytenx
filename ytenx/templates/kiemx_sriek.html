@@ -8,16 +8,16 @@
     <h1>高級檢索 <small>跨韻書查詢</small></h1>
   </div>
   <div class="tb-with-table-by-layout-direction">
-    <div class="write-as-layout-direction">
-      <form class="form-horizontal" action="{% url 'views.zim' %}">
-        <fieldset>
-          <div class="control-group horizontal-cn">
-            <label class="control-label" for="dzih">字</label>
-            <div class="controls">
-              <input type="text" class="input-xlarge" id="dzih" name="dzih">
-              <p class="help-block horizontal-cn">在此輸入要查詢的漢字，每次可查詢不超過五個字。</p>
-            </div>
+    <form class="form-horizontal" action="{% url 'views.zim' %}">
+      <fieldset>
+        <div class="control-group horizontal-cn">
+          <label class="control-label" for="dzih">字</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" id="dzih" name="dzih">
+            <p class="help-block horizontal-cn">在此輸入要查詢的漢字，每次可查詢不超過五個字。</p>
           </div>
+        </div>
+        <div class="write-as-layout-direction">        
           <div class="control-group horizontal-cn">
             <label class="control-label write-as-layout-direction">檢索範圍</label>
             <div class="controls">
@@ -70,12 +70,12 @@
               <p class="help-block">如：「陰」「隂」、「歴」「厯」</p>
             </div>
           </div>
-          <div class="form-actions horizontal-cn">
-            <button type="submit" class="btn btn-primary">檢索</button>
-          </div>
-        </fieldset>
-      </form>
-    </div>
+        </div>
+        <div class="form-actions horizontal-cn">
+          <button type="submit" class="btn btn-primary">檢索</button>
+        </div>
+      </fieldset>
+    </form>
   </div>
 </div>
 {% endblock %}
