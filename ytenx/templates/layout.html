@@ -24,9 +24,9 @@
         .display-only-with-vertical-layout, #switch-to-horizontal-layout {
           display: none;
         }
-        #switch-to-vertical-layout {
-          display: none;
-        }        
+        .thumbnails>li {
+          float: right;
+        }
       </style>
     {% endif %}    
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
               <li id="switch-to-horizontal-layout">
                 <a href="{% url 'views.renew_session' %}?layout=horizontal&path={{ request.get_full_path|urlencode }}">橫版</a>
               </li>
-              <li id="switch-to-vertical-layout">
+              <li id="switch-to-vertical-layout" style="display: none;">
                 <a href="{% url 'views.renew_session' %}?layout=vertical&path={{ request.get_full_path|urlencode }}">縱版</a>
               </li>
             </ul>

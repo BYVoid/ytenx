@@ -1,16 +1,16 @@
 <div class="pagination">
   <ul>
-    <li><a href="{{urls.first}}">首䈎</a></li>
+    <li><a href="{{urls.first}}" class="horizontal-cn">首䈎</a></li>
     {% if urls.previous %}
-      <li><a href="{{urls.previous}}">上一䈎</a></li>
+      <li><a href="{{urls.previous}} class="horizontal-cn"">上一䈎</a></li>
     {% else %}
-      <li class="disabled"><a href="">上一䈎</a></li>
+      <li class="disabled"><a href="" class="horizontal-cn">上一䈎</a></li>
     {% endif %}
     {% if urls.next %}
-      <li><a href="{{urls.next}}">下一䈎</a></li>
+      <li><a href="{{urls.next}}" class="horizontal-cn">下一䈎</a></li>
     {% else %}
-      <li class="disabled"><a href="">下一䈎</a></li>
+      <li class="disabled"><a href="" class="horizontal-cn">下一䈎</a></li>
     {% endif %}
-    <li><a href="{{urls.last}}">末䈎</a></li>
+    <li><a href="{{urls.last}}" class="horizontal-cn">末䈎</a></li>
   </ul>
 </div>

@@ -4,8 +4,36 @@
   }
   .write-as-layout-direction {
     writing-mode: vertical-rl;
+    direction: ltr;
     text-orientation: mixed;
     overflow: auto;
+  }
+  .write-as-layout-direction .row {
+    margin-left: auto;
+  }
+  .write-as-layout-direction .controls>.radio:first-child,
+  .write-as-layout-direction .controls>.checkbox:first-child {
+    margin-left: 0px;    
+    padding-top: 1em;
+  }
+  .write-as-layout-direction .controls>.checkbox {
+    margin-left: 0px;    
+    padding-top: 1em;
+    margin-right: 1em;    
+  }
+  .write-as-layout-direction .controls>.checkbox.inline+.checkbox.inline {
+    margin-left: 0px;    
+  }  
+  .write-as-layout-direction .controls>.checkbox>input {
+    margin-left: auto;
+    margin-right: -1em;
+  }
+  .write-as-layout-direction .controls>.help-block {
+    margin-left: 3em;
+    padding-top: 2em;
+  }    
+  .write-as-layout-direction .control-label {
+    width: auto;
   }
   .tb-with-table-by-layout-direction {
     writing-mode: horizontal-tb;
@@ -16,6 +44,9 @@
     text-align: right;
     direction: ltr;
     overflow: auto;
+  }
+  .thumbnails>li {
+    float: none;
   }
   .auto-direction-fullsize {
     writing-mode: vertical-rl;
@@ -63,7 +94,8 @@
   .horizontal-cn input,
   .horizontal-cn selection option,
   .horizontal-cn .brand,
-  .horizontal-cn .btn{
+  .horizontal-cn .btn,
+  .horizontal-cn>.control-label {
     float: right;     
   }
   .sidebar-cn li,
