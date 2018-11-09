@@ -58,7 +58,7 @@ def sieux_yonh_list_page(request):
     raise Http404()
   
   cjeng_pieux = []
-  for lyih in CjengLyih.objects.latest():
+  for lyih in CjengLyih.objects.all():
     cjeng_pieux.append(lyih)
     cjeng_pieux += lyih.cjengmux_set.all()
   
@@ -142,7 +142,7 @@ def yonh_do_page(request):
 
   return render(request, 'kyonh/yonh_do.html', {
     'yonh_do': yonh_do,
-    'cjeng_lyih_list': CjengLyih.objects.latest(),
+    'cjeng_lyih_list': CjengLyih.objects.all(),
     'dzip': dzip,
     'dzip_list': dzip_list,
   })
