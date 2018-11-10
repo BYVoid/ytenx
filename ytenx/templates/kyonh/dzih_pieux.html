@@ -31,7 +31,7 @@
         </tr>
         {% for dzih in dzih_pieux %}
         <tr>
-          <td>{{dzih.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
+          <td nowrap>{{dzih.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
           <td><a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a></td>
           <td>
             {% if dzih.sieuxYonh.pyanx %}
