@@ -86,7 +86,7 @@ def zim(request):
     dzih_list['kyonh'] = KyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_tcyts']:
     dzih_list['tcyts'] = TcytsDzih.objects.filter(dzih__in = dzih_liet).order_by('cioTriungZiox')
-    dzih_list['tcytsjdz'] = TcytsJitDzih.objects.filter(dzih__in = dzih_liet).order_by('cioTriungZiox')
+    dzih_list['tcytsjdz'] = TcytsJitDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_pyonh']:
     dzih_list['pyonh'] = PyonhDzih.objects.filter(dzih__in = dzih_liet).order_by('ziox')
   if chom_sryoh['zim_trngyan']:
