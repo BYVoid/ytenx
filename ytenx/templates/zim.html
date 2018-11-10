@@ -61,6 +61,7 @@
   {% if dzih_list.trngyan %}
     <h1>中原音韻</h1>
     {% for dzih in dzih_list.trngyan %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
@@ -72,7 +73,6 @@
         <a href="{% url 'trngyan.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.tryoh}}</blockquote>
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcyts or dzih_list.tcytsjdz %}
@@ -103,11 +103,11 @@
       {% if dzih.ngieh != '' %}
         <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
       {% endif %}
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcytsjdz %}
     {% for dzih in dzih_list.tcytsjdz %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
         <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
