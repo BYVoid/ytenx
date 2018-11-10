@@ -63,7 +63,7 @@ def sryoh(value):
   return res
 
 @register.filter
-def tsiowngh_ghwaeng_srwioh(value, layout):
+def tsiowng_ghwaeng_srwioh(value, layout):
   if layout == 'vertical':
     return sryoh(value)
   return value
