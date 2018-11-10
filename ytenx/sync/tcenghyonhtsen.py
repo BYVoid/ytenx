@@ -97,10 +97,10 @@ def syncPyanx(dciangx, ghrax):
   return pyanx
 
 def syncSieux():
-  global cioTriungSieuxZiox
   print 'Sieux...'
   
   def sync(line, num):
+    global cioTriungSieuxZiox
     ziox = line[0]
     taj = line[1]
     miuk = line[2]
@@ -127,10 +127,10 @@ def syncSieux():
   print 'Done'
 
 def syncDzih():
-  global cioTriungDzihZiox
   print 'Dzih...'
   
   def sync(line, num):
+    global cioTriungDzihZiox
     ziox = line[0]
     dzih = line[1]
     sieux = sieuxMap[line[2]]
