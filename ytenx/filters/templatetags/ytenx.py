@@ -20,7 +20,7 @@ num_map = {
   '1000': u'千',
 }
 
-ipa_to_neom_khiowk_replacement = {
+transcription_to_neom_khiowk_replacement = {
   u'^k([hɦʱ]?[yi])': ur'c\1',
   u'^g([yi])': ur'ɟ\1',
   u'^ŋj?([yi])': ur'j\1',
@@ -126,24 +126,8 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
-  for pattern, replacement in ipa_to_neom_khiowk_replacement.iteritems():
+  for pattern, replacement in transcription_to_neom_khiowk_replacement.iteritems():
     result = sub(pattern, replacement, result)
-  return result
-
-def neom_khiowk_backup(text):
-  result = text
-  result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
-  result = sub(u'^g([yi])', ur'ɟ\1', result)
-  result = sub(u'^ŋj?([yi])', ur'j\1', result)
-  result = sub(u'^ŋ([wu])', ur'\1', result)
-  result = sub(u'^h([yi])', ur'ç\1', result)
-  result = sub(u'^ɦ([yi])', ur'çɦ\1', result)
-  result = sub(u'iɪ(.?)i', ur'i\1', result)
-  result = sub(u'iɛ(.?)w', ur'ia\1w', result)
-  result = sub(u'yut', ur'yʔ', result)
-  result = sub(u'yȕt', ur'y̏ʔ', result)  
-  result = sub(u'[ptk]$', ur'ʔ', result)
-  result = sub(u'\(ŋ\)', ur'', result)
   return result
 
 @register.filter
