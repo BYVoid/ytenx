@@ -105,8 +105,7 @@
   {% if dzih_list.tcytsjdz %}
     {% for dzih in dzih_list.tcytsjdz %}
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
