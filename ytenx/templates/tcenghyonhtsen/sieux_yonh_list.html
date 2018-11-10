@@ -19,7 +19,7 @@
     	</tr>
     	{% for sieux_yonh in sieux_yonh_list %}
     	<tr>
-        <td><span class="horizontal-ltr">{{sieux_yonh.cioTriungZiox}}</span></td>
+        <td>{{sieux_yonh.cioTriungZiox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
         <td>
           <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
         </td>
