@@ -4,7 +4,7 @@ import ytenx.kyonh.models
 
 #單字條目
 class Dzih(models.Model):
-  #序號
+  #Index in ytenx 
   ziox = models.IntegerField(primary_key = True)
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
@@ -16,7 +16,9 @@ class Dzih(models.Model):
   ngieh = models.TextField();
   #對應廣韻小韻
   kwangx = models.ForeignKey(ytenx.kyonh.models.SieuxYonh, related_name='tcengh', null = True)
-  
+  #小韻于韻書中之序
+  cioTriungZiox = models.IntegerField(db_index = True)
+
   class Meta:
     app_label = 'tcenghyonhtsen'
   

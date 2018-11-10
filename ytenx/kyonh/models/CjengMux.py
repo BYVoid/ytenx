@@ -6,6 +6,8 @@ from SieuxYonh import SieuxYonh
 class CjengLyih(models.Model):
   #脣音 舌頭音 舌上音 齒頭音 正齒音莊組 正齒音章組 牙音 喉音 半舌音 半齒音
   mjeng = models.CharField(max_length = 5, primary_key = True)
+  #序
+  ziox = models.IntegerField()
   
   class Meta:
     app_label = 'kyonh'
@@ -23,6 +25,8 @@ class CjengMux(models.Model):
   ngix = models.OneToOneField('NgixQim')
   #拼音
   preng = models.OneToOneField('PrengQim')
+  #序
+  ziox = models.IntegerField()
   
   class Meta:
     app_label = 'kyonh'

@@ -105,7 +105,8 @@ def syncCjengMux():
   
   def sync(line, num):
     lyih = CjengLyih(
-      mjeng = line[1]
+      mjeng = line[1],
+      ziox = line[3],
     )
     lyih.save()
     cjeng = CjengMux(
@@ -113,6 +114,7 @@ def syncCjengMux():
       lyih = lyih,
       ngix = cjengMuxNgixQimMap[line[0]],
       preng = cjengMuxPrengQimMap[line[0]],
+      ziox = line[2],
     )
     cjeng.save()
     cjengMuxMap[line[0]] = cjeng

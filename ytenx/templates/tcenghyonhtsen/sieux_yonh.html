@@ -5,7 +5,7 @@
 {% block keywords %}{{sieux_yonh}}, 小韻, {{sieux_yonh.pyanx}}, 反切, 洪武正韻牋, {% endblock %}
 {% block content %}
 <div class="page-header">
-  <h1>{{sieux_yonh}} <small>洪武正韻牋第{{sieux_yonh.ziox|sryoh}}小韻</small></h1>
+  <h1>{{sieux_yonh}} <small>洪武正韻牋第{{sieux_yonh.cioTriungZiox|sryoh}}小韻</small></h1>
 </div>
 <div class="row">
   <div class="span4">
@@ -16,7 +16,7 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>{{sieux_yonh.ziox}}</td>
+    	  <td>{{sieux_yonh.cioTriungZiox}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -57,7 +57,7 @@
   <div class="span8">
     {% if sieux_yonh.dzih_set.all %}
       <h2>字頭</h2>
-      {% for dzih in sieux_yonh.dzih_set.all %}
+      {% for dzih in sieux_yonh.dzih_set.all|dictsort:"cioTriungZiox" %}
         {{dzih}}
       {% endfor %}
     {% endif %}

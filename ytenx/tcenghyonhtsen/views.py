@@ -20,7 +20,7 @@ def sieux_yonh_page(request, ziox):
   })
 
 def sieux_yonh_list_page(request):
-  sieux_yonh_list = SieuxYonh.objects.all()
+  sieux_yonh_list = SieuxYonh.objects.all().order_by('cioTriungZiox')
   paginator = Paginator(sieux_yonh_list, 15)
   try:
     sieux_yonh_list = paginator.page(request.GET)

@@ -14,6 +14,8 @@ dciangxMap = {}
 ghraxMap = {}
 sieuxMap = {}
 njipZiox = 1
+cioTriungSieuxZiox = 1
+cioTriungDzihZiox = 1
 
 def sync():
   syncYonhMiuk()
@@ -98,6 +100,7 @@ def syncSieux():
   print 'Sieux...'
   
   def sync(line, num):
+    global cioTriungSieuxZiox
     ziox = line[0]
     taj = line[1]
     miuk = line[2]
@@ -114,7 +117,9 @@ def syncSieux():
       yonhMiuk = miuk,
       pyanx = pyanx,
       ipa = ipa,
+      cioTriungZiox = cioTriungSieuxZiox,
     )
+    cioTriungSieuxZiox = cioTriungSieuxZiox + 1
     sieux.save()
     sieuxMap[ziox] = sieux
   
@@ -125,6 +130,7 @@ def syncDzih():
   print 'Dzih...'
   
   def sync(line, num):
+    global cioTriungDzihZiox
     ziox = line[0]
     dzih = line[1]
     sieux = sieuxMap[line[2]]
@@ -143,7 +149,9 @@ def syncDzih():
       sieux = sieux,
       ngieh = ngieh,
       kwangx = kwangx,
+      cioTriungZiox = cioTriungDzihZiox,
     )
+    cioTriungDzihZiox = cioTriungDzihZiox + 1
     
     kyenh = unicode(sieux.deuh())
     
