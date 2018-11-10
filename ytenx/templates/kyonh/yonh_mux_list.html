@@ -30,7 +30,7 @@
         <td>
           {% with yonh=item.cio %}
             {% if yonh%}
-              <a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
+              <a class="yonh" href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>
