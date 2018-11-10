@@ -84,7 +84,7 @@
       {% if ngix %}
         <tr>
           <td>{{mjeng}}</td>
-          <td>{{ngix}}</td>
+          <td class="horizontal-ltr">{{ngix}}</td>
         </tr>
       {% endif %}
     {% endfor %}
@@ -94,7 +94,7 @@
       {% if preng %}
         <tr>
           <td>{{mjeng}}</td>
-          <td>{{preng}}</td>
+          <td class="horizontal-ltr">{{preng}}</td>
         </tr>
       {% endif %}
     {% endfor %}
@@ -102,7 +102,7 @@
     <table class="table table-bordered">
       <tr>
         <td>推導中州音</td>
-        <td>
+        <td class="horizontal-ltr">
           {{sieux_yonh.dauh.tcengh|beautify_mandarin_ipa}}
           {% if sieux_yonh.dauh.tcengh|beautify_mandarin_ipa != sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa %}
             ({{sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa}})
@@ -112,7 +112,7 @@
       {% if sieux_yonh.dauh.putonghua %}
         <tr>
           <td>推導普通話</td>
-          <td>{{sieux_yonh.dauh.putonghua}}</td>
+          <td class="horizontal-ltr">{{sieux_yonh.dauh.putonghua}}</td>
         </tr>
       {% endif %}
     </table>
