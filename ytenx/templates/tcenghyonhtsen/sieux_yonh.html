@@ -16,7 +16,8 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>{{sieux_yonh.cioTriungZiox}}</td>
+    	  <td class="display-unless-with-vertical-layout">{{sieux_yonh.cioTriungZiox}}</td>
+        <td class="display-only-with-vertical-layout">{{sieux_yonh.cioTriungZiox|sryoh}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -44,11 +45,11 @@
     	</tr>
       <tr>
         <td>譯訓轉寫</td>
-        <td>{{sieux_yonh.ipa|beautify_mandarin_ipa}}</td>
+        <td><span class="horizontal-ltr">{{sieux_yonh.ipa|beautify_mandarin_ipa}}</span></td>
       </tr>
       <tr>
         <td>南曲</td>
-        <td>{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</td>
+        <td><span class="horizontal-ltr">{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</span></td>
       </tr>      
     </table>
   </div>

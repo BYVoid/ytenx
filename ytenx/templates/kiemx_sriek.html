@@ -7,17 +7,19 @@
   <div class="page-header">
     <h1>高級檢索 <small>跨韻書查詢</small></h1>
   </div>
-  <div class="tb-with-table-by-layout-direction">
+  <p class="display-only-with-vertical-layout" style="margin-top:3em;">所欲詢字輸入于此凡列不過五字者皆可一回倂詢也</p>
+  <div id="tb-sriek" class="tb-with-table-by-layout-direction">
     <form class="form-horizontal" action="{% url 'views.zim' %}">
       <fieldset>
         <div class="control-group horizontal-cn">
-          <label class="control-label" for="dzih">字</label>
+          <label class="control-label display-unless-with-vertical-layout" for="dzih">字</label>
           <div class="controls">
             <input type="text" class="input-xlarge" id="dzih" name="dzih">
-            <p class="help-block horizontal-cn">在此輸入要查詢的漢字，每次可查詢不超過五個字。</p>
+            <p class="help-block display-unless-with-vertical-layout">在此輸入要查詢的漢字，每次可查詢不超過五個字。</p>
           </div>
         </div>
-        <div class="write-as-layout-direction">        
+        <div class="write-as-layout-direction"> 
+          <br class="display-only-with-vertical-layout">
           <div class="control-group">
             <label class="control-label">檢索範圍</label>
             <br class="display-only-with-vertical-layout">

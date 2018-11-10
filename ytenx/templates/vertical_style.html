@@ -2,7 +2,10 @@
   .display-unless-with-vertical-layout, #switch-to-vertical-layout {
     display: none;
   }
-  body {
+  html {
+    padding-bottom: 60px;
+  }
+  .full-height-only-with-vertical-layout {
     height: 100%;
   }
   .container-main {
@@ -12,8 +15,9 @@
     overflow: auto;
   }
   .container-main>.write-as-layout-direction {
+    padding-left: 20px;
+    padding-right: 20px;
     height: 100%;
-    width: 100%;
   }  
   .write-as-layout-direction {
     writing-mode: vertical-rl;
@@ -31,6 +35,31 @@
     margin-left: auto;
     width: auto;
     float: none;
+  }
+  .write-as-layout-direction .page-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .write-as-layout-direction p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .write-as-layout-direction .table {
+    margin-left: 20px;
+  }
+  .write-as-layout-direction table td {
+    vertical-align: middle;
+  }
+  .write-as-layout-direction .table-bordered tbody:first-child tr:first-child td {
+    border-top: 1px solid #ddd;
+  }
+  .write-as-layout-direction .controls {
+    margin-top: 2em;
+    margin-left: 3em;
   }
   .write-as-layout-direction .controls>.radio:first-child,
   .write-as-layout-direction .controls>.checkbox:first-child {
@@ -73,17 +102,16 @@
     float: none;
   }
   .badge-info {
-    writing-mode: horizontal-tb;
+    text-orientation: upright;
   }
   .navbar .nav>li {
     float: right;
   }  
   blockquote {
     border-left: 0px;
-    border-top: 0px;
+    border-top: 0.5em solid transparent;
   }
   blockquote::before {
-    margin-top: 1em;
   }
   .horizontal-cn {
     writing-mode: horizontal-tb;
@@ -143,6 +171,7 @@
   .latin-below {
     writing-mode: horizontal-tb;
     font-size: 0.618em;
+    line-height: normal;
   }
   .horizontal-ltr {
     writing-mode: horizontal-tb;
@@ -183,5 +212,15 @@
   }
   #yonh-do td {
     text-align: center;
+  }
+  #tb-sriek {
+    height: 100%;
+  }
+  #dciangx-kox-sriek {
+    margin-bottom: 10px;
+    float: left;
+  }
+  #dciangx-kox-sriek input {
+    float: right;
   }
 </style>

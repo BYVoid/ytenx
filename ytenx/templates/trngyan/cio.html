@@ -6,30 +6,32 @@
 <div class="page-header">
   <h1>第{{cio.jep|sryoh}}䈎 <small>《欽定四庫全書・集部・中原音韻・{{cio.kyenh|dciangx_ghrax}}卷》</small></h1>
 </div>
-{% include "pohpyon/navibar.html" with urls=cio.urls only %}
-<div class="span10">
-  {% if cio.sieuxyonh_set.all %}
+<div class="tb-with-table-by-layout-direction">
+  {% include "pohpyon/navibar.html" with urls=cio.urls only %}
+  <div class="span10 write-as-layout-direction">
+    {% if cio.sieuxyonh_set.all %}
+      <div class="row">
+        <h2>小韻</h2>
+        {% for sieux in cio.sieux_yonh %}
+          <a href="{% url 'trngyan.views.sieux_yonh' sieux.ziox %}">{{sieux}}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if cio.dzih_set.all %}
+      <div class="row">
+        <h2>字頭</h2>
+        {% for dzih in cio.dzih %}
+          <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
     <div class="row">
-      <h2>小韻</h2>
-      {% for sieux in cio.sieux_yonh %}
-        <a href="{% url 'trngyan.views.sieux_yonh' sieux.ziox %}">{{sieux}}</a>
-      {% endfor %}
-    </div>
-  {% endif %}
-  {% if cio.dzih_set.all %}
-    <div class="row">
-      <h2>字頭</h2>
-      {% for dzih in cio.dzih %}
-        <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a>
-      {% endfor %}
-    </div>
-  {% endif %}
-  <div class="row">
-    <h2>圖片</h2>
-    <div class="thumbnail">
-      <a href="/static/img/TriungNgyanQimYonh/Kyenh{{cio.kyenh}}/{{cio.jep}}.gif">
-        <img src="/static/img/TriungNgyanQimYonh/Kyenh{{cio.kyenh}}/{{cio.jep}}.gif" alt="" >
-      </a>
+      <h2>圖片</h2>
+      <div class="thumbnail">
+        <a href="/static/img/TriungNgyanQimYonh/Kyenh{{cio.kyenh}}/{{cio.jep}}.gif">
+          <img src="/static/img/TriungNgyanQimYonh/Kyenh{{cio.kyenh}}/{{cio.jep}}.gif" alt="" >
+        </a>
+      </div>
     </div>
   </div>
 </div>
