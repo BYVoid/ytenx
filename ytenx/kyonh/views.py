@@ -58,7 +58,7 @@ def sieux_yonh_list_page(request):
     raise Http404()
   
   cjeng_pieux = []
-  for lyih in CjengLyih.objects.all():
+  for lyih in CjengLyih.objects.all().order_by('ziox'):
     cjeng_pieux.append(lyih)
     cjeng_pieux += lyih.cjengmux_set.all()
   
