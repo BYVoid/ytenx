@@ -3,6 +3,13 @@
 {% block kiemx_sriek_active %}active{% endblock %}
 {% block caption %}檢索 - 韻典網{% endblock %}
 {% block body %}
+{% if request.session.layout == "vertical" %}
+  <style type="text/css">
+    h1 {
+      margin-left: 1em;
+    }
+  </style>
+{% endif %}
 <div class="span12">
   <div class="page-header">
     <h1>檢索結果</h1>
