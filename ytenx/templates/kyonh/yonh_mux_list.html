@@ -10,7 +10,7 @@
 </div>
 <div class="row">
   <div class="span10">
-    <table class="table table-bordered table-condensed table-striped">
+    <table class="table table-bordered table-condensed table-striped class="yonh"">
       <tr>
         <th>攝</th>
         <th>韻系</th>
@@ -24,13 +24,13 @@
       {% for item in yonh_mux_list %}
       <tr>
         <td>{{item.gheh.cjep}}</td>
-        <td class="yonh">{{item.gheh}}</td>
+        <td>{{item.gheh}}</td>
         <td>{{item.tongx|sryoh}}</td>
         <td>{{item.ho|ho}}</td>
         <td>
           {% with yonh=item.cio %}
             {% if yonh%}
-              <a class="yonh" href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
+              <a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>
