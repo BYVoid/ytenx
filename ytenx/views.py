@@ -17,7 +17,7 @@ def renew_session(request):
   if request.GET.get('layout', '') == 'vertical': 
     request.session['layout'] = 'vertical'
   cache.clear()
-  return redirect(request.GET.get('path', ''))
+  return redirect(request.GET.get('path', '/'))
 
 def index_page(request):  
   return render(request, 'index.html')
