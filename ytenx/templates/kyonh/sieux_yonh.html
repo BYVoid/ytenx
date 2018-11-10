@@ -102,17 +102,19 @@
     <table class="table table-bordered">
       <tr>
         <td>推導中州音</td>
-        <td class="horizontal-ltr">
-          {{sieux_yonh.dauh.tcengh|beautify_mandarin_ipa}}
-          {% if sieux_yonh.dauh.tcengh|beautify_mandarin_ipa != sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa %}
-            ({{sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa}})
-          {% endif %}
+        <td>
+          <span class="horizontal-ltr">
+            {{sieux_yonh.dauh.tcengh|beautify_mandarin_ipa}}
+            {% if sieux_yonh.dauh.tcengh|beautify_mandarin_ipa != sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa %}
+              ({{sieux_yonh.dauh.tcengh|neom_khiowk|beautify_mandarin_ipa}})
+            {% endif %}
+          </span>
         </td>
       </tr>
       {% if sieux_yonh.dauh.putonghua %}
         <tr>
           <td>推導普通話</td>
-          <td class="horizontal-ltr">{{sieux_yonh.dauh.putonghua}}</td>
+          <td class="horizontal-ltr"><span class="horizontal-ltr">{{sieux_yonh.dauh.putonghua}}</span></td>
         </tr>
       {% endif %}
     </table>
