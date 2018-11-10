@@ -51,6 +51,12 @@
   .write-as-layout-direction .table {
     margin-left: 20px;
   }
+  .write-as-layout-direction table td {
+    vertical-align: middle;
+  }
+  .write-as-layout-direction .table-bordered tbody:first-child tr:first-child td {
+    border-top: 1px solid #ddd;
+  }
   .write-as-layout-direction .controls {
     margin-top: 2em;
     margin-left: 3em;
@@ -78,9 +84,6 @@
   }    
   .write-as-layout-direction .control-label {
     width: auto;
-  }
-  .write-as-layout-direction .table-bordered tbody:first-child tr:first-child td {
-    border-top: 1px solid #ddd;
   }
   .tb-with-table-by-layout-direction {
     writing-mode: horizontal-tb;
