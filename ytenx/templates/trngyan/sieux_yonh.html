@@ -17,7 +17,7 @@
         </tr>
         <tr>
           <td>序號</td>
-          <td>{{sieux_yonh.ziox}}</td>
+          <td>{{sieux_yonh.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
         </tr>
         <tr>
           <td>聲母</td>
@@ -56,7 +56,7 @@
         {% if ngix %}
           <tr>
             <td>{{mjeng}}</td>
-            <td>{{ngix}}</td>
+            <td><ipa>{{ngix}}</ipa></td>
           </tr>
         {% endif %}
       {% endfor %}

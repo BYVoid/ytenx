@@ -16,7 +16,7 @@
     	</tr>
     	<tr>
     	  <td>序號</td>
-    	  <td>{{sieux_yonh.ziox}}</td>
+    	  <td>{{sieux_yonh.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
     	</tr>
     	<tr>
     	  <td>反切</td>
@@ -39,7 +39,7 @@
     	<tr>
     	  <td>韻母</td>
     	  <td>
-    	  	<a href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
+    	  	<a class="yonh" href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
     	  		{{sieux_yonh.yonh}}
     	  	</a>
     	  </td>
@@ -47,7 +47,7 @@
     	<tr>
     	  <td>韻目</td>
     	  <td>
-    	  	<a href="{% url 'kyonh.views.yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">
+    	  	<a class="yonh" href="{% url 'kyonh.views.yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">
     	  		{{sieux_yonh.yonhMiuk}}
     	  	</a>
     	  </td>
@@ -66,7 +66,7 @@
     	</tr>
     	<tr>
     	  <td>韻系</td>
-    	  <td>{{sieux_yonh.yonh.gheh}}</td>
+    	  <td class="yonh">{{sieux_yonh.yonh.gheh}}</td>
     	</tr>
     	<tr>
     	  <td>韻攝</td>

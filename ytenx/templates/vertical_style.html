@@ -5,6 +5,15 @@
   html {
     padding-bottom: 60px;
   }
+  ipa {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+  }
+  .yonh,
+  .yonh td{
+    text-orientation: upright;
+    white-space: nowrap;
+  }
   .full-height-only-with-vertical-layout {
     height: 100%;
   }
@@ -85,6 +94,10 @@
   .write-as-layout-direction .control-label {
     width: auto;
   }
+  .write-as-layout-direction .thumbnails .thumbnail {
+    writing-mode: vertical-lr
+  }
+
   .tb-with-table-by-layout-direction {
     writing-mode: horizontal-tb;
     direction: rtl;    
@@ -141,7 +154,9 @@
   .horizontal-cn selection option,
   .horizontal-cn .brand,
   .horizontal-cn .btn,
-  .horizontal-cn>.control-label {
+  .horizontal-cn>.control-label,
+  .horizontal-cn>.nav-collapse>.nav,
+  .horizontal-cn>.nav-collapse>.navbar-search {
     float: right;     
   }
   .sidebar-cn li,
@@ -183,7 +198,7 @@
     unicode-bidi: bidi-override;    
   }  
   .vertical_divider {
-    width: 5px;
+    width: 3px;
     background-color: #EAEFF5;
     display: block;
   }

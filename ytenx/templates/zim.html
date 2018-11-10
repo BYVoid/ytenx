@@ -3,6 +3,13 @@
 {% block kiemx_sriek_active %}active{% endblock %}
 {% block caption %}檢索 - 韻典網{% endblock %}
 {% block body %}
+{% if request.session.layout == "vertical" %}
+  <style type="text/css">
+    h1 {
+      margin-right: 1.5em;
+    }
+  </style>
+{% endif %}
 <div class="span12">
   <div class="page-header">
     <h1>檢索結果</h1>
@@ -30,35 +37,33 @@
   </ul>
   
   {% if dzih_list.kyonh %}
-    <div class="vertical_divider display-only-with-vertical-layout"></div>  
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
       </h2>
-      <h3>
+      <h3 class="yonh">
         {% if dzih.sieuxYonh.pyanx %}
           <a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         {% endif %}
         <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
       </h3>
-      <p>
+      <p class="yonh">
         {{dzih.sieuxYonh.yonh.gheh.cjep}}{{dzih.sieuxYonh.yonh.ho|ho}}{{dzih.sieuxYonh.yonh.tongx|sryoh}}{{dzih.sieuxYonh.yonhMiuk.deuh|deuh}}<a href="{% url 'kyonh.views.yonh_miuk_page' dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a><a href="{% url 'kyonh.views.cjeng_mux_page' dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>
         <span class="display-unless-with-vertical-layout">({{dzih.sieuxYonh.preng.baxter}})</span>
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
-      <div class="vertical_divider display-only-with-vertical-layout"></div>
     {% endfor %}
   {% endif %}
   {% if dzih_list.trngyan %}
     <h1>中原音韻</h1>
     {% for dzih in dzih_list.trngyan %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -68,7 +73,6 @@
         <a href="{% url 'trngyan.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.tryoh}}</blockquote>
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcyts or dzih_list.tcytsjdz %}
@@ -76,9 +80,9 @@
   {% endif %}
   {% if dzih_list.tcyts %}
     {% for dzih in dzih_list.tcyts %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -99,14 +103,13 @@
       {% if dzih.ngieh != '' %}
         <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
       {% endif %}
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.tcytsjdz %}
     {% for dzih in dzih_list.tcytsjdz %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -128,15 +131,14 @@
       {% if dzih.ngieh != '' %}
         <blockquote>【正韻】{{dzih.ngieh}}</blockquote>
       {% endif %}
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.pyonh %}
     <h1>分韻撮要</h1>
     {% for dzih in dzih_list.pyonh %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'pyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -146,15 +148,14 @@
         <a href="{% url 'pyonh.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>小韻
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
   {% if dzih_list.dciangx %}
     <h1>上古音系</h1>
     {% for dzih in dzih_list.dciangx %}
+      <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
-        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
         <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.ngix_1}}</span>
       </h2>
@@ -181,7 +182,6 @@
       </p>
       <p>擬音 {{dzih.ngix_1}}</p>
       <blockquote>{{dzih.tryoh}}</blockquote>
-      <div class="vertical_divider display-only-with-vertical-layout"></div>  
     {% endfor %}
   {% endif %}
 </div>

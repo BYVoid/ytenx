@@ -27,11 +27,11 @@
       </tr>
       {% for yonh in yonh_mux_list %}
       <tr>
-        <td>{{yonh.gheh}}</td>
+        <td class="yonh">{{yonh.gheh}}</td>
         <td>
           {% with yonh=yonh.cio %}
             {% if yonh%}
-              <a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
+              <a class="yonh" href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh %}">{{yonh}}</a>
             {% endif %}
           {% endwith %}
         </td>

@@ -114,7 +114,7 @@
         </tr>
         {% for sieux_yonh in sieux_yonh_pieux %}
         <tr>
-          <td>{{sieux_yonh.ziox}}</td>
+          <td>{{sieux_yonh.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
           <td>
             <a href="{% url 'kyonh.views.sieux_yonh_page' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
           </td>
@@ -135,11 +135,11 @@
               {{sieux_yonh.yonhMiuk}}
             </a>
           </td>
-          <td>{{sieux_yonh.yonhMiuk.deuh|deuh}}</td>
+          <td class="yonh">{{sieux_yonh.yonhMiuk.deuh|deuh}}</td>
           <td>{{sieux_yonh.yonh.tongx|sryoh}}</td>
           <td>{{sieux_yonh.yonh.ho|ho}}</td>
           <td>
-            <a href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
+            <a class="yonh" href="{% url 'kyonh.views.yonh_mux_page' sieux_yonh.yonh.mjeng %}">
               {{sieux_yonh.yonh}}
             </a>
           </td>

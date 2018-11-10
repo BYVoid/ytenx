@@ -20,6 +20,21 @@ num_map = {
   '1000': u'千',
 }
 
+transcription_to_neom_khiowk_replacement = {
+  u'^k([hɦʱ]?[yi])': ur'c\1',
+  u'^g([yi])': ur'ɟ\1',
+  u'^ŋj?([yi])': ur'j\1',
+  u'^ŋ([wu])': ur'\1',
+  u'^h([yi])': ur'ç\1',
+  u'^ɦ([yi])': ur'çɦ\1',
+  u'iɪ(.?)i': ur'i\1',
+  u'iɛ(.?)w': ur'ia\1w',
+  u'yut': ur'yʔ',
+  u'yȕt': ur'y̏ʔ',
+  u'[ptk]$': ur'ʔ',
+  u'\(ŋ\)': ur'',
+}
+
 @register.filter
 def sryoh(value):
   value = str(value)
@@ -46,6 +61,12 @@ def sryoh(value):
     while res[-1] == num_map['0']:
       res = res[:-1]
   return res
+
+@register.filter
+def tsiowng_ghwaeng_srwioh(value, layout):
+  if layout == 'vertical':
+    return sryoh(value)
+  return value
 
 @register.filter
 def deuh(value):
@@ -105,18 +126,8 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
-  result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
-  result = sub(u'^g([yi])', ur'ɟ\1', result)
-  result = sub(u'^ŋj?([yi])', ur'j\1', result)
-  result = sub(u'^ŋ([wu])', ur'\1', result)
-  result = sub(u'^h([yi])', ur'ç\1', result)
-  result = sub(u'^ɦ([yi])', ur'çɦ\1', result)
-  result = sub(u'iɪ(.?)i', ur'i\1', result)
-  result = sub(u'iɛ(.?)w', ur'ia\1w', result)
-  result = sub(u'yut', ur'yʔ', result)
-  result = sub(u'yȕt', ur'y̏ʔ', result)  
-  result = sub(u'[ptk]$', ur'ʔ', result)
-  result = sub(u'\(ŋ\)', ur'', result)
+  for pattern, replacement in transcription_to_neom_khiowk_replacement.iteritems():
+    result = sub(pattern, replacement, result)
   return result
 
 @register.filter
