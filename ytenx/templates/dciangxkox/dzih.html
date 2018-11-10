@@ -41,16 +41,16 @@
     <h2>擬音</h2>
     <table class="table table-bordered">
       <tr>
-        <td>{{dzih.ngix_1}}</td>
+        <td><ipa>{{dzih.ngix_1}}</ipa></td>
       </tr>
       {% if dzih.ngix_2 %}
       <tr>
-        <td>{{dzih.ngix_2}} （上古後期）</td>
+        <td><ipa>{{dzih.ngix_2}}</ipa> （上古後期）</td>
       </tr>
       {% endif %}
       {% if dzih.ngix_3 %}
       <tr>
-        <td>{{dzih.ngix_3}} （上古晚期）</td>
+        <td><ipa>{{dzih.ngix_3}}</ipa> （上古晚期）</td>
       </tr>
       {% endif %}
     </table>
@@ -69,7 +69,7 @@
       {% if ngix %}
         <tr>
           <td>{{mjeng}}</td>
-          <td>{{ngix}}</td>
+          <td><ipa>{{ngix}}</ipa></td>
         </tr>
       {% endif %}
     {% endfor %}
