@@ -51,16 +51,18 @@
         <td><span class="horizontal-ltr">{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</span></td>
       </tr>
       <tr>
-        <td>
+        <td colspan="2">
+          <div>
+            <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
+            <div id="qim-bjin" class="collapse">
+              Lorem ipsum dolor text....
+            </div>
+          </div>
         </td>
       </tr>
     </table>
   </div>
 </div>
-          <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
-          <div id="qim-bjin" class="collapse">
-            Lorem ipsum dolor text....
-          </div>
 <div class="row">
   <div class="span8">
     {% if sieux_yonh.dzih_set.all %}
