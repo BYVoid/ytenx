@@ -126,7 +126,7 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
-  for search_for, replacement in ipa_to_neom_khiowk_replacement:
+  for search_for, replacement in ipa_to_neom_khiowk_replacement.iteritems():
     result = sub(searchfor, replacement, result)
   return result
 
