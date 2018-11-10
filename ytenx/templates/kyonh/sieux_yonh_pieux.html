@@ -114,7 +114,7 @@
         </tr>
         {% for sieux_yonh in sieux_yonh_pieux %}
         <tr>
-          <td><span class="horizontal-ltr">{{sieux_yonh.ziox}}</span></td>
+          <td>{{sieux_yonh.ziox|tsiowng_ghwaeng_srwioh:request.session.layout}}</td>
           <td>
             <a href="{% url 'kyonh.views.sieux_yonh_page' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
           </td>
