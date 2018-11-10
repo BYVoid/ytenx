@@ -55,7 +55,7 @@
 </div>
 <div class="row">
   <div class="span8">
-    {% if sieux_yonh.dzih_set.all %}
+    {% if sieux_yonh.dzih_set.all|dictsort:"cioTriungZiox" %}
       <h2>字頭</h2>
       {% for dzih in sieux_yonh.dzih_set.all %}
         {{dzih}}
