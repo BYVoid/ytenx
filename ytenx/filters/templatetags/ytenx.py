@@ -126,6 +126,11 @@ def krak_cik(text):
 @register.filter
 def neom_khiowk(text):
   result = text
+  for search_for, replacement in ipa_to_neom_khiowk_replacement:
+    result = sub(searchfor, replacement, result)
+
+def neom_khiowk_backup(text):
+  result = text
   result = sub(u'^k([hɦʱ]?[yi])', ur'c\1', result)
   result = sub(u'^g([yi])', ur'ɟ\1', result)
   result = sub(u'^ŋj?([yi])', ur'j\1', result)
