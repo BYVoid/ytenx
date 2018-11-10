@@ -34,7 +34,8 @@
     <h1>廣韻</h1>
     {% for dzih in dzih_list.kyonh %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
       </h2>
@@ -56,7 +57,8 @@
     <h1>中原音韻</h1>
     {% for dzih in dzih_list.trngyan %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -75,7 +77,8 @@
   {% if dzih_list.tcyts %}
     {% for dzih in dzih_list.tcyts %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -102,7 +105,8 @@
   {% if dzih_list.tcytsjdz %}
     {% for dzih in dzih_list.tcytsjdz %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -131,7 +135,8 @@
     <h1>分韻撮要</h1>
     {% for dzih in dzih_list.pyonh %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'pyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -148,7 +153,8 @@
     <h1>上古音系</h1>
     {% for dzih in dzih_list.dciangx %}
       <h2>
-        <span class="badge badge-info">{{forloop.counter}}</span>
+        <span class="badge badge-info display-unless-with-vertical-layout">{{forloop.counter}}</span>
+        <span class="badge badge-info display-if-with-vertical-layout">{{forloop.counter|sryoh}}</span>
         <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.ngix_1}}</span>
       </h2>
