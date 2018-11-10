@@ -10,7 +10,7 @@
 <div class="row horizontal-cn">
   <div class="span12">
     {% include "pagination.html" with list=dzip_list only %}
-    <table class="table table-bordered table-condensed table-striped horizontal-cn">
+    <table id="yonh-do" class="table table-bordered table-condensed table-striped horizontal-cn">
     <tr>
       <td rowspan="2" colspan="3">廣韻韻圖第{{dzip_list.number|sryoh}}</td>
       {% for cjeng_lyih in cjeng_lyih_list %}
