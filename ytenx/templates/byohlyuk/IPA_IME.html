@@ -104,1425 +104,1427 @@ function insert(field, v) {
   margin-top: 100px;
 }
 </style>
-<div id="subnav-fixed">
-  <div id="edit">
-    <form name="formipa" onSubmit="return(false);" action="#">
-      <input type="text" id="textipa" name="textipa">
-    </form>
-  </div>
-  
-  <div>
-    <a href="#byox">輔音</a>
-    <a href="#ngyan">元音</a>
-    <a href="#byoh">附加符號</a>
-    <a href="#thrieu">超音段音位</a>
-  </div>
+<div class="ipa-tables-with-nav">
+        <div id="subnav-fixed" >
+          <div id="edit">
+            <form name="formipa" onSubmit="return(false);" action="#">
+              <input type="text" id="textipa" name="textipa">
+            </form>
+          </div>
+          <div class="ipa-nav-cn">
+		  <a href="#byox">輔音</a>
+		  <a href="#ngyan">元音</a>
+		  <a href="#byoh">附加符號</a>
+		  <a href="#thrieu">超音段音位</a>
+          </div>
+	</div>
+	<div class="ipa-tables">
+		<div id="warp">
+		  <ul class="breadcrumb">
+		    <li>
+		      <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
+		      <span class="divider">/</span>
+		    </li>
+		    <li class="active">國際音標輸入法</li>
+		  </ul>
+		  <h2 id="byox">輔音</h2>
+		  <table class="table table-bordered table-condensed">
+		    <caption class="horizontal-cn">肺部氣流輔音</caption>
+		    <tr class="horizontal-cn">
+		      <td></td>
+		      <th colspan="2" >雙脣</th>
+		      <th colspan="2">脣齒</th>
+		      <th colspan="2">齒</th>
+		      <th colspan="2">齒齦</th>
+		      <th colspan="2">齦後</th>
+		      <th colspan="2">齦齶</th>
+		      <th colspan="2">捲舌</th>
+		      <th colspan="2">硬齶</th>
+		      <th colspan="2">軟齶</th>
+		      <th colspan="2">小舌</th>
+		      <th colspan="2">咽</th>
+		      <th colspan="2">會厭</th>
+		      <th colspan="2">喉</th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">鼻</td>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">m</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɱ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">n̪</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">n</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȵ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɳ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɲ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ŋ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɴ</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">爆</td>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">p</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">b</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ȹ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȸ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">t̪</button></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">d̪</button></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">t</button></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">d</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ȶ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȡ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʈ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɖ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">c</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɟ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">k</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɡ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">q</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɢ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_shade"></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ʡ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʔ</button></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">擦</td>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɸ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">β</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">f</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">v</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">θ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ð</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">s</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">z</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʃ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʒ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɕ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʑ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʂ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʐ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ç</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʝ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">x</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɣ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">χ</button></th>
+		      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʁ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ħ</button></th>
+		      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʕ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʜ</button></th>
+		      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʢ</button></th>
+		      <th rowspan="2" class="consonant_left"><button class="ipa" onClick="khimh(event)">h</button></th>
+		      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ɦ</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">近</td>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʋ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɹ</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɻ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">j</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɰ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">顫</td>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʙ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">r</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʀ</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">я</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">閃</td>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ⱱ̟</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ⱱ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɾ</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɽ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɢ̆</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʡ̯</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">邊擦</td>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɬ</button></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɮ</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɭ˔̊</button></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʎ̥˔</button></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʟ̝̊</button></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">邊近</td>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">l</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɭ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʎ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʟ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">邊閃</td>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɺ</button></th>
+		      <th class="consonant_left consonant_right"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)" style="font-family: 'Lucida Sans Unicode', 'Segoe UI', 'DejaVu Sans', 'Lingoes Unicode', Gentium">ɺ̢ </button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʎ̯</button></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		      <th class="consonant_shade"></th>
+		    </tr>
+		  </table>
+		  <p>輔音對：清 濁</p>
+		  <p>ȹ = p̪　ȸ = b̪</p>
+		  <div style="clear:both"></div>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    非肺部氣流輔音
+		    </caption>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">喌</td>
+		      <th><button class="ipa" onClick="khimh(event)">ʘ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ǀ</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ǃ</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ǂ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ǁ</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">內爆</td>
+		      <th><button class="ipa" onClick="khimh(event)">ɓ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ɗ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ʄ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ᶑ</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ɠ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ʛ</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" rowspan="3">噴</td>
+		      <th><button class="ipa" onClick="khimh(event)">pʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">tʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">cʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ʈʼ</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">kʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">qʼ</button></th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)">fʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">θʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">sʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ɬʼ</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">xʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">χʼ</button></th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)">tsʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">tɬʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">cʎ̝̥ʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">tʃʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ʈʂʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">kxʼ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">kʟ̝̊ʼ</button></th>
+		    </tr>
+		  </table>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    非肺部氣流輔音
+		    </caption>
+		    <tr>
+		      <th colspan="2">喌</th>
+		      <th colspan="2" class="horizontal-cn">內爆</th>
+		      <th colspan="2">噴</th>
+		    </tr>
+		    <tr>
+		      <th>ʘ</th>
+		      <td class="horizontal-cn">雙脣</td>
+		      <th>ɓ</th>
+		      <td class="horizontal-cn">雙脣</td>
+		      <th><button class="ipa" onClick="khimh(event)">ʼ</button></th>
+		      <td><em class="horizontal-cn">譬如：</em></td>
+		    </tr>
+		    <tr>
+		      <th>ǀ</th>
+		      <td>齒</td>
+		      <th>ɗ</th>
+		      <td class="horizontal-cn">齒齦</td>
+		      <th>pʼ</th>
+		      <td class="horizontal-cn">雙脣</td>
+		    </tr>
+		    <tr>
+		      <th>ǃ</th>
+		      <td class="horizontal-cn">齒齦（後）</td>
+		      <th>ʄ</th>
+		      <td class="horizontal-cn">硬齶</td>
+		      <th>tʼ</th>
+		      <td class="horizontal-cn">齒齦</td>
+		    </tr>
+		    <tr>
+		      <th>ǂ</th>
+		      <td class="horizontal-cn">齶齒齦</td>
+		      <th>ɠ</th>
+		      <td class="horizontal-cn">軟齶</td>
+		      <th>kʼ</th>
+		      <td class="horizontal-cn">軟齶</td>
+		    </tr>
+		    <tr>
+		      <th>ǁ</th>
+		      <td class="horizontal-cn">齒齦邊</td>
+		      <th>ʛ</th>
+		      <td class="horizontal-cn">小舌</td>
+		      <th>sʼ</th>
+		      <td class="horizontal-cn">齒齦擦</td>
+		    </tr>
+		  </table>
+		  <div style="clear:both"></div>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    塞擦音
+		    </caption>
+		    <tr>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">p̪f</button></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ts</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dz</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tʃ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dʒ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tɕ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dʑ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʈʂ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɖʐ</button></th>
+		    </tr>
+		    <tr>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tɬ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dɮ</button></th>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">cç</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɟʝ</button></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		      <th class="consonant_left"></th>
+		      <th class="consonant_right"></th>
+		    </tr>
+		  </table>
+		  <div style="clear:both"></div>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    協同調音輔音
+		    </caption>
+		    <tr>
+		      <td>擦</td>
+		      <th class="consonant_left">ɕ</th>
+		      <th class="consonant_right">ʑ</th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ɧ</button></th>
+		    </tr>
+		    <tr>
+		      <td>近</td>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʍ</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">w</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ɥ</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ɫ</button></th>
+		    </tr>
+		    <tr>
+		      <td>塞</td>
+		      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">k͡p</button></th>
+		      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɡ͡b</button></th>
+		      <th colspan="2"><button class="ipa" onClick="khimh(event)">ŋ͡m</button></th>
+		    </tr>
+		  </table>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    塞擦音和雙重調音輔音
+		    </caption>
+		    <tr class="horizontal-cn">
+		      <th>連音符</th>
+		      <th>合字</th>
+		      <th>描述</th>
+		    </tr>
+		    <tr>
+		      <th>t͡s</th>
+		      <th>ʦ</th>
+		      <td class="horizontal-cn">清齒齦塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>d͡z</th>
+		      <th>ʣ</th>
+		      <td class="horizontal-cn">濁齒齦塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>t͡ʃ</th>
+		      <th>ʧ</th>
+		      <td class="horizontal-cn">清齦後塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>d͡ʒ</th>
+		      <th>ʤ</th>
+		      <td class="horizontal-cn">濁齦後塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>t͡ɕ</th>
+		      <th>ʨ</th>
+		      <td class="horizontal-cn">清齒齦-齶塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>d͡ʑ</th>
+		      <th>ʥ</th>
+		      <td class="horizontal-cn">濁齒齦-齶塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>t͡ɬ</th>
+		      <th>–</th>
+		      <td class="horizontal-cn">清齒齦邊塞擦音</td>
+		    </tr>
+		    <tr>
+		      <th>k͡p</th>
+		      <th>–</th>
+		      <td class="horizontal-cn">清脣-軟齶爆音</td>
+		    </tr>
+		    <tr>
+		      <th>ɡ͡b</th>
+		      <th>–</th>
+		      <td class="horizontal-cn">濁脣-軟齶爆音</td>
+		    </tr>
+		    <tr>
+		      <th>ŋ͡m</th>
+		      <th>–</th>
+		      <td class="horizontal-cn">脣-軟齶鼻塞音</td>
+		    </tr>
+		  </table>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    協同調音輔音
+		    </caption>
+		    <tr>
+		      <th>ʍ</th>
+		      <td class="horizontal-cn">脣-軟齶清擦音</td>
+		    </tr>
+		    <tr>
+		      <th>w</th>
+		      <td class="horizontal-cn">脣-軟齶濁近音</td>
+		    </tr>
+		    <tr>
+		      <th>ɥ</th>
+		      <td class="horizontal-cn">脣-硬齶濁近音</td>
+		    </tr>
+		    <tr>
+		      <th>ɕ ʑ</th>
+		      <td class="horizontal-cn">齒齦-齶擦音</td>
+		    </tr>
+		    <tr>
+		      <th>ɧ</th>
+		      <td class="horizontal-cn">同時ʃ和x</td>
+		    </tr>
+		    <tr>
+		      <th>k͜p t͡s</th>
+		      <td class="horizontal-cn">若有必要，塞擦音及雙重調音輔音可用連音符連接兩箇字母</td>
+		    </tr>
+		  </table>
+		  <div style="clear:both"></div>
+		  <h2 id="ngyan">元音</h2>
+		  <table class="table table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    元音
+		    </caption>
+		    <tr>
+		      <td></td>
+		      <th colspan="3">前</th>
+		      <th colspan="3" class="horizontal-cn">次前</th>
+		      <th colspan="3">央</th>
+		      <th colspan="3" class="horizontal-cn">次後</th>
+		      <th colspan="3">後</th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">出位</td>
+		      <th><button class="ipa" onClick="khimh(event)">ʑ̩</button></th>
+		      <th> · </th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʑ̩ʷ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɿ</button>
+			<button class="ipa" onClick="khimh(event)">ʅ</button></th>
+		      <th> · </th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʮ</button>
+			<button class="ipa" onClick="khimh(event)">ʯ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">β̩</button>
+			<button class="ipa" onClick="khimh(event)">v̩</button></th>
+		      <th> · </th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">β̩ʷ</button>
+			<button class="ipa" onClick="khimh(event)">v̩ʷ</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">高</td>
+		      <th><button class="ipa" onClick="khimh(event)">i</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">y</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɨ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʉ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɯ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">u</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">次高</td>
+		      <th></th>
+		      <th></th>
+		      <th></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɪ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʏ</button></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ᵻ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ᵿ</button></th>
+		      <th style="text-align:right">　</th>
+		      <th> · </th>
+		      <th><button class="ipa" onClick="khimh(event)">ʊ</button></th>
+		      <th colspan="3"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">中高</td>
+		      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">e</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ø</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɘ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɵ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɤ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">o</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">中</td>
+		      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ᴇ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ø̞</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ə</button></th>
+		      <th></th>
+		      <th></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɤ̞</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">o̞</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">中低</td>
+		      <th><button class="ipa" onClick="khimh(event)">ɛ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">œ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɜ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɞ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ʌ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɔ</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">次低</td>
+		      <th><button class="ipa" onClick="khimh(event)">æ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"></th>
+		      <th colspan="3"></th>
+		      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ɐ</button></th>
+		      <th></th>
+		      <th></th>
+		      <th colspan="3"></th>
+		      <th colspan="3"></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn" style="text-align:right">低</td>
+		      <th><button class="ipa" onClick="khimh(event)">a</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɶ</button></th>
+		      <th colspan="3"></th>
+		      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ᴀ</button></th>
+		      <th></th>
+		      <th></th>
+		      <th colspan="3"></th>
+		      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɑ</button></th>
+		      <th>·</th>
+		      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɒ</button></th>
+		    </tr>
+		  </table>
+		  <p>元音對：不圓脣 · 圓脣 </p>
+		  <p>ɿ = z̩　ʅ = ʐ̩　ʮ = z̩ʷ　ʯ = ʐ̩ʷ　ᴀ = ä　ᴇ = e̞　ᵻ = ɪ̈　ᵿ = ʊ̈</p>
+		  <div style="clear:both"></div>
+		  <h2 id="byoh">附加符號</h2>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    附加符號
+		    </caption>
+		    <tr>
+		      <th colspan="6" class="horizontal-cn">音節</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̩">◌̩</button></th>
+		      <th>ɹ̩ n̩</th>
+		      <td class="ipa-table-row-header-cn">音節性</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̯">◌̯</button></th>
+		      <th>e̯ ʊ̯</th>
+		      <td class="ipa-table-row-header-cn">非音節性</td>
+		    </tr>
+		    <tr>
+		      <th colspan="6" class="horizontal-cn">除阻</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ʰ">◌ʰ</button></th>
+		      <th>tʰ</th>
+		      <td rowspan="2" class="ipa-table-row-header-cn">送氣</td>
+		      <th rowspan="2"><button class="ipa" onClick="khimh(event)" value="̚">◌̚</button></th>
+		      <th rowspan="2">d̚</th>
+		      <td rowspan="2" class="ipa-table-row-header-cn">無聲除阻</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ʱ">◌ʱ</button></th>
+		      <th>dʱ</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ⁿ">◌ⁿ</button></th>
+		      <th>dⁿ</th>
+		      <td class="ipa-table-row-header-cn">鼻除阻</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="ˡ">◌ˡ</button></th>
+		      <th>dˡ</th>
+		      <td class="ipa-table-row-header-cn">邊除阻</td>
+		    </tr>
+		    <tr>
+		      <th colspan="6" class="horizontal-cn">發聲態</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̥">◌̥</button></th>
+		      <th>n̥ d̥</th>
+		      <td class="ipa-table-row-header-cn">清化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̬">◌̬</button></th>
+		      <th>s̬ t̬</th>
+		      <td class="ipa-table-row-header-cn">濁化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̤">◌̤</button></th>
+		      <th>b̤ a̤</th>
+		      <td class="ipa-table-row-header-cn">氣化／弛化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̰">◌̰</button></th>
+		      <th>b̰ a̰</th>
+		      <td class="ipa-table-row-header-cn">嘎裂化</td>
+		    </tr>
+		    <tr>
+		      <th colspan="6" class="horizontal-cn">調音</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̪">◌̪</button></th>
+		      <th>t̪ d̪</th>
+		      <td class="ipa-table-row-header-cn">齒化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̼">◌̼</button></th>
+		      <th>t̼ d̼</th>
+		      <td class="ipa-table-row-header-cn">舌脣化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̺">◌̺</button></th>
+		      <th>t̺ d̺</th>
+		      <td class="ipa-table-row-header-cn">舌櫼化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̻">◌̻</button></th>
+		      <th>t̻ d̻</th>
+		      <td class="ipa-table-row-header-cn">舌葉化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̟">◌̟</button></th>
+		      <th>u̟ t̟</th>
+		      <td class="ipa-table-row-header-cn">偏前</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̠">◌̠</button></th>
+		      <th>i̠ t̠</th>
+		      <td class="ipa-table-row-header-cn">偏後</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̈">◌̈</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ë</button>
+			<button class="ipa" onClick="khimh(event)">ä</button></th>
+		      <td class="ipa-table-row-header-cn">央化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̽">◌̽</button></th>
+		      <th>e̽ ɯ̽</th>
+		      <td class="ipa-table-row-header-cn">中央化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̝">◌̝</button></th>
+		      <th>e̝ ɹ̝</th>
+		      <td colspan="4" rowspan="2" class="horizontal-cn">偏高 (ɹ̝ = 齒齦濁擦音)</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="˔">◌˔</button></th>
+		      <th>˔</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̞">◌̞</button></th>
+		      <th>e̞ β̞</th>
+		      <td colspan="4" rowspan="2" class="horizontal-cn">偏低 (β̞ = 雙脣濁近音)</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="˕">◌˕</button></th>
+		      <th>˕</th>
+		    </tr>
+		    <tr>
+		      <th colspan="6" class="horizontal-cn">協同調音</th>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̹">◌̹</button></th>
+		      <th>ɔ̹ x̹</th>
+		      <td class="ipa-table-row-header-cn">更圓</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̜">◌̜</button></th>
+		      <th>ɔ̜ x̜ʷ</th>
+		      <td class="ipa-table-row-header-cn">略展</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ʷ">◌ʷ</button></th>
+		      <th>tʷ dʷ</th>
+		      <td class="ipa-table-row-header-cn">脣化或脣-軟齶化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="ʲ">◌ʲ</button></th>
+		      <th>tʲ dʲ</th>
+		      <td class="ipa-table-row-header-cn">齶化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ˠ">◌ˠ</button></th>
+		      <th>tˠ dˠ</th>
+		      <td class="ipa-table-row-header-cn">軟齶化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="ˤ">◌ˤ</button></th>
+		      <th>tˤ aˤ</th>
+		      <td class="ipa-table-row-header-cn">咽化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="ᶣ">◌ᶣ</button></th>
+		      <th>tᶣ dᶣ</th>
+		      <td class="ipa-table-row-header-cn">脣-齶化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̴">◌̴</button></th>
+		      <th>ɫ
+			<button class="ipa" onClick="khimh(event)">ᵶ</button></th>
+		      <td class="ipa-table-row-header-cn">軟齶化或咽化</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̘">◌̘</button></th>
+		      <th>e̘ o̘</th>
+		      <td class="ipa-table-row-header-cn">舌根前伸</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="̙">◌̙</button></th>
+		      <th>e̙ o̙</th>
+		      <td class="ipa-table-row-header-cn">舌根後縮</td>
+		    </tr>
+		    <tr>
+		      <th><button class="ipa" onClick="khimh(event)" value="̃">◌̃</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ẽ</button>
+			z̃</th>
+		      <td class="ipa-table-row-header-cn">鼻化</td>
+		      <th><button class="ipa" onClick="khimh(event)" value="˞">◌˞</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">ɚ</button>
+			<button class="ipa" onClick="khimh(event)">ɝ</button></th>
+		      <td>日化</td>
+		    </tr>
+		  </table>
+		  <p>下方附加符號可放在有降部字母上方，譬如： ŋ̊ ŋ̍ ȷ̈</p>
+		  <p>無點<em>i</em>，‹ı›，用于點干擾附加符號時。其他國際音標字母可用作附加符號變體：tˢ（擦除阻），bʱ（氣化／弛化），ˀa（喉開頭），ᵊ（插中性元音），oᶷ（複元音化）。“國際音標的擴展”引入了補充附加符號，主要用于言語病理學。</p>
+		  <div style="clear:both"></div>
+		  <h2 id="thrieu">超音段音位</h2>
+		  <table class="table-bordered table-condensed">
+		    <tbody>
+		      <tr>
+			<th colspan="6" class="horizontal-cn">長短、重音、節奏</th>
+		      </tr>
+		      <tr>
+			<th><button class="ipa" onClick="khimh(event)">ˈ</button></th>
+			<th>ˈa</th>
+			<td class="ipa-table-row-header-cn">主重音</td>
+			<th><button class="ipa" onClick="khimh(event)">ˌ</button></th>
+			<th>ˌa</th>
+			<td class="ipa-table-row-header-cn">次重音</td>
+		      </tr>
+		      <tr>
+			<th><button class="ipa" onClick="khimh(event)">ː</button></th>
+			<th>aː kː</th>
+			<td class="ipa-table-row-header-cn">長</td>
+			<th><button class="ipa" onClick="khimh(event)">ˑ</button></th>
+			<th>aˑ</th>
+			<td class="ipa-table-row-header-cn">半長</td>
+		      </tr>
+		      <tr>
+			<th><button class="ipa" onClick="khimh(event)" value="̆">◌̆</button></th>
+			<th>ə̆</th>
+			<td class="ipa-table-row-header-cn">超短</td>
+			<th><button class="ipa" onClick="khimh(event)">.</button></th>
+			<th>a.a</th>
+			<td class="ipa-table-row-header-cn">音節閒隔</td>
+		      </tr>
+		      <tr>
+			<th><button class="ipa" onClick="khimh(event)">‿</button></th>
+			<th>s‿a</th>
+			<td class="ipa-table-row-header-cn">連接 (閒隔不出現)</td>
+			<td colspan="3"></td>
+		      </tr>
+		      <tr>
+			<th colspan="6" class="horizontal-cn">語調</th>
+		      </tr>
+		      <tr>
+			<th colspan="2"><button class="ipa" onClick="khimh(event)">|</button></th>
+			<td class="ipa-table-row-header-cn">小韻律羣／音步羣</td>
+			<th colspan="2"><button class="ipa" onClick="khimh(event)">‖</button></th>
+			<td class="ipa-table-row-header-cn">大韻律羣／語調群</td>
+		      </tr>
+		      <tr>
+			<th colspan="2"><button class="ipa" onClick="khimh(event)">↗</button></th>
+			<td class="ipa-table-row-header-cn">整體上升</td>
+			<th colspan="2"><button class="ipa" onClick="khimh(event)">↘</button></th>
+			<td class="ipa-table-row-header-cn">整體下降</td>
+		      </tr>
+		      <tr>
+			<th colspan="6" class="horizontal-cn">聲調</th>
+		      </tr>
+		      <tr>
+			<th colspan="2">e̋ ˥</th>
+			<td class="ipa-table-row-header-cn">超高</td>
+			<th colspan="2">ě ˩˥</th>
+			<td class="ipa-table-row-header-cn">升</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">é ˦</th>
+			<td class="ipa-table-row-header-cn">高</td>
+			<th colspan="2">ê ˥˩</th>
+			<td class="ipa-table-row-header-cn">降</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">ē ˧</th>
+			<td class="ipa-table-row-header-cn">中</td>
+			<th colspan="2">e᷄ ˧˥</th>
+			<td class="ipa-table-row-header-cn">高升</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">è ˨</th>
+			<td class="ipa-table-row-header-cn">低</td>
+			<th colspan="2">e᷅ ˩˥</th>
+			<td class="ipa-table-row-header-cn">低升</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">ȅ ˩</th>
+			<td class="ipa-table-row-header-cn">超低</td>
+			<th colspan="2">e᷇ ˥˧</th>
+			<td class="ipa-table-row-header-cn">高降</td>
+		      </tr>
+		      <tr>
+			<th colspan="2"></th>
+			<td></td>
+			<th colspan="2">e᷆ ˧˩</th>
+			<td class="ipa-table-row-header-cn">低降</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">ꜛke</th>
+			<td class="ipa-table-row-header-cn">升階</td>
+			<th colspan="2">e᷉ ˧˩˧</th>
+			<td class="ipa-table-row-header-cn">降升</td>
+		      </tr>
+		      <tr>
+			<th colspan="2">ꜜke</th>
+			<td class="ipa-table-row-header-cn">降階</td>
+			<th colspan="2">e᷈ ˧˥˧</th>
+			<td class="ipa-table-row-header-cn">升降</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    聲調<br>
+		    五度標記
+		    </caption>
+		    <tr>
+		      <td></td>
+		      <th><button class="ipa" onClick="khimh(event)">¹</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">²</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">³</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">⁴</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">⁵</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">單字調</td>
+		      <th><button class="ipa" onClick="khimh(event)">˩</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">˨</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">˧</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">˦</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">˥</button></th>
+		    </tr>
+		    <tr>
+		      <td class="ipa-table-row-header-cn">連續變調</td>
+		      <th><button class="ipa" onClick="khimh(event)">꜖</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜕</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜔</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜓</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜒</button></th>
+		    </tr>
+		  </table>
+		  <table class="table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    聲調<br>
+		    調類
+		    </caption>
+		    <tr>
+		      <td></td>
+		      <th>陰</th>
+		      <th>陽</th>
+		    </tr>
+		    <tr>
+		      <td>平</td>
+		      <th><button class="ipa" onClick="khimh(event)">꜀</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜁</button></th>
+		    </tr>
+		    <tr>
+		      <td>上</td>
+		      <th><button class="ipa" onClick="khimh(event)">꜂</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜃</button></th>
+		    </tr>
+		    <tr>
+		      <td>去</td>
+		      <th><button class="ipa" onClick="khimh(event)">꜄</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜅</button></th>
+		    </tr>
+		    <tr>
+		      <td>入</td>
+		      <th><button class="ipa" onClick="khimh(event)">꜆</button></th>
+		      <th><button class="ipa" onClick="khimh(event)">꜇</button></th>
+		    </tr>
+		  </table>
+		  <div style="clear:both"></div>
+		  <table class="table table-bordered table-condensed">
+		    <caption class="horizontal-cn">
+		    廢棄和非標準符號
+		    </caption>
+		    <tr>
+		      <th>Symbol or
+			exemplar</th>
+		      <th>Name</th>
+		      <th>Value</th>
+		      <th>IPA
+			equivalent</th>
+		      <th>Notes</th>
+		    </tr>
+		    <tr>
+		      <td>?</td>
+		      <td>question mark</td>
+		      <td>glottal stop</td>
+		      <td>[ʔ]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ƍ</td>
+		      <td>turned small delta</td>
+		      <td>labialized voiced alveolo-dental fricative</td>
+		      <td>[ðʷ, zʷ]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>σ</td>
+		      <td>small sigma</td>
+		      <td>labialized voiceless alveolo-dental fricative</td>
+		      <td>[θʷ, sʷ]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ƺ</td>
+		      <td>ezh with tail</td>
+		      <td>labialized voiced postalveolar fricative</td>
+		      <td>[ʒʷ]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ƪ</td>
+		      <td>reversed esh with top loop</td>
+		      <td>labialized voiceless postalveolar fricative</td>
+		      <td>[ʃʷ]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ƻ</td>
+		      <td>barred two</td>
+		      <td>voiced alveolar affricate</td>
+		      <td>[d͡z]</td>
+		      <td>withdrawn 1976</td>
+		    </tr>
+		    <tr>
+		      <td>ƾ</td>
+		      <td></td>
+		      <td>voiceless alveolar affricate</td>
+		      <td>[t͡s]</td>
+		      <td>Withdrawn 1976</td>
+		    </tr>
+		    <tr>
+		      <td>ƞ</td>
+		      <td>right-leg N</td>
+		      <td>syllabic n</td>
+		      <td>[n̩]</td>
+		      <td>withdrawn 1976</td>
+		    </tr>
+		    <tr>
+		      <td>ƫ</td>
+		      <td>left-hook T</td>
+		      <td>palatalized t</td>
+		      <td>[tʲ]</td>
+		      <td>withdrawn 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ʓ</td>
+		      <td>curly-tail ezh</td>
+		      <td>voiced alveolo-palatal(ized) fricative</td>
+		      <td>[ʒʲ] or [ʑ]</td>
+		      <td>withdrawn 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ʆ</td>
+		      <td>curly-tail esh</td>
+		      <td>voiceless alveolo-palatal(ized) fricative</td>
+		      <td>[ʃʲ] or [ɕ]</td>
+		      <td>withdrawn 1989</td>
+		    </tr>
+		    <tr>
+		      <td>λ</td>
+		      <td>lambda</td>
+		      <td>voiced alveolar lateral affricate</td>
+		      <td>[d͡ɮ]</td>
+		      <td>Used by Americanists</td>
+		    </tr>
+		    <tr>
+		      <td>ƛ</td>
+		      <td>lambda bar</td>
+		      <td>voiceless alveolar lateral affricate</td>
+		      <td>[t͡ɬ]</td>
+		      <td>Used by Americanists</td>
+		    </tr>
+		    <tr>
+		      <td>ł</td>
+		      <td>l bar</td>
+		      <td>voiceless alveolar lateral fricative</td>
+		      <td>[ɬ]</td>
+		      <td>Used by Americanists</td>
+		    </tr>
+		    <tr>
+		      <td>š č ž</td>
+		      <td>s c z with caron</td>
+		      <td>postalveolars</td>
+		      <td>[ʃ], [t͡ʃ], [ʒ]</td>
+		      <td>Used by Americanists, Slavicists</td>
+		    </tr>
+		    <tr>
+		      <td>ǰ, ǧ, ǯ</td>
+		      <td>j, g, ezh with caron</td>
+		      <td>voiced postalveolar affricate</td>
+		      <td>[d͡ʒ]</td>
+		      <td>Used by Americanists, Slavicists <i>etc.</i></td>
+		    </tr>
+		    <tr>
+		      <td>ẋ</td>
+		      <td>x with dot</td>
+		      <td>voiceless uvular fricative</td>
+		      <td>[χ]</td>
+		      <td>Used by Americanists</td>
+		    </tr>
+		    <tr>
+		      <td><img alt="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Baby_gamma.svg/10px-Baby_gamma.svg.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTFjM0xB2NYQAAAIhJREFUGJWFyrEKQWEYx+EnRQab5dhMrkFxATbjcQkmRQYDWeUSXIHdLSi7uACDsmAkAxZf8tXJb3v/7wM9HHHBHBXf+jhhEIYWnpj6rYtxtJnhgcbnTrBGIYZ5bHBAGUs0YxSq4oodFlkolOKF4T84whY31MKYi1AJdbRRRCcL3nHGBHuswuMNxccYK1o1qTsAAAAASUVORK5CYII=" height="9" width="10"></td>
+		      <td>baby gamma</td>
+		      <td>close-mid back unrounded vowel</td>
+		      <td>[ɤ]</td>
+		      <td>rejected 1989; Unicode LATIN SMALL LETTER RAMS HORN (U+0264) represents either glyph</td>
+		    </tr>
+		    <tr>
+		      <td>ᵻ / ᵿ</td>
+		      <td>barred small capital I / upsilon</td>
+		      <td>near-close central unrounded / rounded vowel</td>
+		      <td>[ɨ̞ / ʉ̞]</td>
+		      <td>used by the OED among others</td>
+		    </tr>
+		    <tr>
+		      <td>Ǝ</td>
+		      <td>small capital turned E</td>
+		      <td>close-mid near-back unrounded vowel</td>
+		      <td></td>
+		      <td>used by some Koreanologists who study Gyeongsang dialect, where there is no phonemic differentiation between /ʌ/ (RR <i>eo</i>; Hangul ㅓ) and /ɯ/ (RR <i>eu</i>; Hangul ㅡ).</td>
+		    </tr>
+		    <tr>
+		      <td>ʚ</td>
+		      <td>closed epsilon</td>
+		      <td>open-mid central rounded vowel</td>
+		      <td>[ɞ]</td>
+		      <td>a misprint of <i>ɞ</i></td>
+		    </tr>
+		    <tr>
+		      <td>ɷ</td>
+		      <td>closed omega</td>
+		      <td>near-close near-back rounded vowel</td>
+		      <td>[ʊ]</td>
+		      <td>rejected 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ω</td>
+		      <td>omega</td>
+		      <td>near-close near-back unrounded vowel</td>
+		      <td>[ʊ̜]</td>
+		      <td>Made by analogy to ɜ and ɞ from ɷ or ʊ symbol.</td>
+		    </tr>
+		    <tr>
+		      <td>ı</td>
+		      <td>dotless small i</td>
+		      <td>near-close near-front unrounded vowel</td>
+		      <td>[ɪ]</td>
+		      <td>a mistake</td>
+		    </tr>
+		    <tr>
+		      <td>ȹ ȸ</td>
+		      <td></td>
+		      <td>voiceless and voiced labiodental plosive</td>
+		      <td>[p̪ b̪]</td>
+		      <td>used in Africanist linguistics</td>
+		    </tr>
+		    <tr>
+		      <td>∅ or Ø</td>
+		      <td>slashed 0 or uppercase slashed O</td>
+		      <td>null initial</td>
+		      <td></td>
+		      <td>Usually used in phonology to mean "no sound values." However, in Chinese linguistics, some scholars considered it as "weak" glottal stop or something similar as sound value of the "existent" first consonant of syllables started by a vowel (e.g. <i>ān</i> in <i>Tiān'ānmén</i>), and this opinion can be connected with ㅇ (<i>ieung</i>) in hangul. ∅ can be confusing with close-mid front rounded vowel [ø].</td>
+		    </tr>
+		    <tr>
+		      <td>ƥ ƭ ƈ ƙ ʠ</td>
+		      <td>hooktop P, T, C, K, Q</td>
+		      <td>voiceless implosives</td>
+		      <td>[ɓ̥ ɗ̥ ʄ̊ ɠ̊ ʛ̊]</td>
+		      <td>withdrawn in 1993</td>
+		    </tr>
+		    <tr>
+		      <td>ʇ</td>
+		      <td>turned T</td>
+		      <td>dental click</td>
+		      <td>[ǀ]</td>
+		      <td>superseded 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ʗ</td>
+		      <td>stretched C</td>
+		      <td>alveolar click</td>
+		      <td>[ǃ]</td>
+		      <td>superseded 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ʖ</td>
+		      <td>inverted glottal stop</td>
+		      <td>alveolar lateral click</td>
+		      <td>[ǁ]</td>
+		      <td>superseded 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ʞ</td>
+		      <td>turned K</td>
+		      <td>velar click</td>
+		      <td></td>
+		      <td>Proposed symbol withdrawn 1970; articulation judged impossible</td>
+		    </tr>
+		    <tr>
+		      <td>ɩ</td>
+		      <td>small iota</td>
+		      <td>near-close near-front unrounded vowel</td>
+		      <td>[ɪ]</td>
+		      <td>rejected 1989</td>
+		    </tr>
+		    <tr>
+		      <td>ɼ</td>
+		      <td>long-leg R</td>
+		      <td>voiced strident apico-alveolar trill (Czech <i>ř</i>)</td>
+		      <td>[r̝]</td>
+		      <td>withdrawn 1989</td>
+		    </tr>
+		    <tr>
+		      <td>g</td>
+		      <td>looptail g</td>
+		      <td>voiced velar plosive</td>
+		      <td>[ɡ]</td>
+		      <td>The standard Unicode Basic Latin/ASCII lower-case g (U+0067) may have a "looptail g" glyph; the preferred IPA "open-tail g" (U+0261) is in the IPA Extensions Unicode block</td>
+		    </tr>
+		    <tr>
+		      <td>ȣ</td>
+		      <td>ou</td>
+		      <td>close-mid back unrounded vowel or voiced velar fricative</td>
+		      <td>[ɤ] or [ɣ]</td>
+		      <td>a mistake in either case</td>
+		    </tr>
+		    <tr>
+		      <td>я</td>
+		      <td>reversed ʀ or Cyrillic ya</td>
+		      <td>voiced epiglottal trill</td>
+		      <td></td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ɿ</td>
+		      <td>reversed fishhook R / turned iota</td>
+		      <td>apical dental unrounded vowel</td>
+		      <td>[z̩]</td>
+		      <td>used by Sinologists, and by Japanologists studying the phonology of the Miyako language</td>
+		    </tr>
+		    <tr>
+		      <td>ʅ</td>
+		      <td>squat reversed esh (actually ɿ with retroflex tail)</td>
+		      <td>apical retroflex unrounded vowel</td>
+		      <td>[ʐ̩]</td>
+		      <td>used by Sinologists. See Chinese vowels</td>
+		    </tr>
+		    <tr>
+		      <td>ʮ</td>
+		      <td>turned h with fishhook</td>
+		      <td>apical dental rounded vowel</td>
+		      <td>[z̩ʷ]</td>
+		      <td>used by Sinologists</td>
+		    </tr>
+		    <tr>
+		      <td>ʯ</td>
+		      <td>turned h with fishhook and tail</td>
+		      <td>apical retroflex rounded vowel</td>
+		      <td>[ʐ̩ʷ]</td>
+		      <td>used by Sinologists</td>
+		    </tr>
+		    <tr>
+		      <td>ᴀ</td>
+		      <td>small capital A</td>
+		      <td>open central vowel</td>
+		      <td>any of [ä a̱ ɑ̈ ɑ̞ ɐ̞]</td>
+		      <td>used by Sinologists</td>
+		    </tr>
+		    <tr>
+		      <td>ᴀ</td>
+		      <td>small capital A</td>
+		      <td>open back unrounded vowel</td>
+		      <td>[ɑ]</td>
+		      <td>superseded 1900</td>
+		    </tr>
+		    <tr>
+		      <td>ᴇ</td>
+		      <td>small capital E</td>
+		      <td>mid front unrounded vowel</td>
+		      <td>[e̞] or [ɛ̝]</td>
+		      <td>used by Sinologists and some Koreanologists</td>
+		    </tr>
+		    <tr>
+		      <td>G R Œ <i>etc.</i></td>
+		      <td>uppercase letters</td>
+		      <td></td>
+		      <td>[ɢ ʀ ɶ] <i>etc.</i></td>
+		      <td>Uppercase alternatives to symbols shaped like small capitals</td>
+		    </tr>
+		    <tr>
+		      <td>Q</td>
+		      <td>small capital Q</td>
+		      <td>gemination</td>
+		      <td>[kk tt] or [kː tː] etc.</td>
+		      <td>Used in Japanese phonology to represent the Sokuon.</td>
+		    </tr>
+		    <tr>
+		      <td>  </td>
+		      <td>belted</td>
+		      <td>Voiceless lateral fricatives (retroflex, palatal and velar)</td>
+		      <td>[ɭ̥̝ ʎ̥̝ ʟ̥̝]</td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ɑ̢ <i>etc.</i></td>
+		      <td>underdot</td>
+		      <td>("retroflex" or r-colored vowels)</td>
+		      <td>[ɑ˞] <i>etc.</i></td>
+		      <td></td>
+		    </tr>
+		    <tr>
+		      <td>ȡ ȶ ȵ ȴ etc. or d̂ t̂ n̂ l̂ etc.</td>
+		      <td>curl or circumflex</td>
+		      <td>alveolo-palatal</td>
+		      <td></td>
+		      <td>used by Sinologists</td>
+		    </tr>
+		    <tr>
+		      <td>k', etc.</td>
+		      <td></td>
+		      <td>no audible release</td>
+		      <td>[k̚], etc.</td>
+		      <td>Withdrawn</td>
+		    </tr>
+		    <tr>
+		      <td>d̡ t̡ <i>etc.</i></td>
+		      <td>subscript left hook</td>
+		      <td>palatalization</td>
+		      <td>[dʲ tʲ] <i>etc.</i></td>
+		      <td>superseded 1989</td>
+		    </tr>
+		    <tr>
+		      <td>k̫ <i>etc.</i></td>
+		      <td>subscript w</td>
+		      <td>labialization</td>
+		      <td>[kʷ] <i>etc.</i></td>
+		      <td>superseded 1989</td>
+		    </tr>
+		    <tr>
+		      <td>K P T <i>etc.</i></td>
+		      <td>uppercase letters (not small capitals)</td>
+		      <td>fortis</td>
+		      <td>[k͈ p͈ t͈], etc.</td>
+		      <td>used by some Koreanologists</td>
+		    </tr>
+		    <tr>
+		      <td>ɔ̗ / ɔ̖ <i>etc.</i></td>
+		      <td></td>
+		      <td>lower-pitched rising / falling tone contour</td>
+		      <td></td>
+		      <td>In a language which distinguishes more than one rising or falling tone.</td>
+		    </tr>
+		    <tr>
+		      <td>k‘ t‘ or kʻ tʻ</td>
+		      <td>left quote or reversed comma</td>
+		      <td>"weak" (or sometimes "normal") aspiration</td>
+		      <td>[k t] (sometimes [kʰ tʰ])</td>
+		      <td>First symbol may be left single quotation mark (U+2018) or modifier letter apostrophe (U+02BC); second symbol may be single high-reversed-9 quotation mark (U+201B) or modifier letter reversed comma (U+02BD)</td>
+		    </tr>
+		    <tr>
+		      <td>ʦ ʣ ʧ ʤ etc.</td>
+		      <td>ligatures</td>
+		      <td>affricates</td>
+		      <td>[ts dz tʃ dʒ] etc. or [t͡s d͡z t͡ʃ d͡ʒ] etc.</td>
+		      <td>Formerly an acceptable variant</td>
+		    </tr>
+		    <tr>
+		      <td>[p′] etc.</td>
+		      <td>prime</td>
+		      <td>palatalization</td>
+		      <td>[pʲ] etc.</td>
+		      <td>Traditional in accounts of Irish phonology</td>
+		    </tr>
+		  </table>
+		</div>
+	</div>
 </div>
-
-<div id="warp">
-  <ul class="breadcrumb">
-    <li>
-      <a href="{% url 'byohlyuk.views.byoh_lyuk' '' %}">附錄</a>
-      <span class="divider">/</span>
-    </li>
-    <li class="active">國際音標輸入法</li>
-  </ul>
-  <h2 id="byox">輔音</h2>
-  <table class="table table-bordered table-condensed">
-    <caption>肺部氣流輔音</caption>
-    <tr>
-      <td></td>
-      <th colspan="2">雙脣</th>
-      <th colspan="2">脣齒</th>
-      <th colspan="2">齒</th>
-      <th colspan="2">齒齦</th>
-      <th colspan="2">齦後</th>
-      <th colspan="2">齦齶</th>
-      <th colspan="2">捲舌</th>
-      <th colspan="2">硬齶</th>
-      <th colspan="2">軟齶</th>
-      <th colspan="2">小舌</th>
-      <th colspan="2">咽</th>
-      <th colspan="2">會厭</th>
-      <th colspan="2">喉</th>
-    </tr>
-    <tr>
-      <td>鼻</td>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">m</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɱ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">n̪</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">n</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȵ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɳ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɲ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ŋ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɴ</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>爆</td>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">p</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">b</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ȹ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȸ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">t̪</button></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">d̪</button></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">t</button></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">d</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ȶ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ȡ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʈ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɖ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">c</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɟ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">k</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɡ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">q</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɢ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_shade"></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ʡ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʔ</button></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>擦</td>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɸ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">β</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">f</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">v</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">θ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ð</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">s</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">z</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʃ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʒ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɕ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʑ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʂ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʐ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ç</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʝ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">x</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɣ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">χ</button></th>
-      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʁ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ħ</button></th>
-      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʕ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʜ</button></th>
-      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ʢ</button></th>
-      <th rowspan="2" class="consonant_left"><button class="ipa" onClick="khimh(event)">h</button></th>
-      <th rowspan="2" class="consonant_right"><button class="ipa" onClick="khimh(event)">ɦ</button></th>
-    </tr>
-    <tr>
-      <td>近</td>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʋ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɹ</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɻ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">j</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɰ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left"></th>
-    </tr>
-    <tr>
-      <td>顫</td>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʙ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">r</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʀ</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">я</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>閃</td>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ⱱ̟</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ⱱ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɾ</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɽ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɢ̆</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʡ̯</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>邊擦</td>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɬ</button></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɮ</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ɭ˔̊</button></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʎ̥˔</button></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʟ̝̊</button></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>邊近</td>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">l</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɭ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʎ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʟ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-    <tr>
-      <td>邊閃</td>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_left consonant_right"><button class="ipa" onClick="khimh(event)">ɺ</button></th>
-      <th class="consonant_left consonant_right"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)" style="font-family: 'Lucida Sans Unicode', 'Segoe UI', 'DejaVu Sans', 'Lingoes Unicode', Gentium">ɺ̢ </button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ʎ̯</button></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-      <th class="consonant_shade"></th>
-    </tr>
-  </table>
-  <p>輔音對：清 濁</p>
-  <p>ȹ = p̪　ȸ = b̪</p>
-  <div style="clear:both"></div>
-  <table class="table-bordered table-condensed">
-    <caption>
-    非肺部氣流輔音
-    </caption>
-    <tr>
-      <td>喌</td>
-      <th><button class="ipa" onClick="khimh(event)">ʘ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ǀ</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ǃ</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ǂ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ǁ</button></th>
-    </tr>
-    <tr>
-      <td>內爆</td>
-      <th><button class="ipa" onClick="khimh(event)">ɓ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ɗ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ʄ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ᶑ</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ɠ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ʛ</button></th>
-    </tr>
-    <tr>
-      <td rowspan="3">噴</td>
-      <th><button class="ipa" onClick="khimh(event)">pʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">tʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">cʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ʈʼ</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">kʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">qʼ</button></th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)">fʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">θʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">sʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ɬʼ</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">xʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">χʼ</button></th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)">tsʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">tɬʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">cʎ̝̥ʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">tʃʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ʈʂʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">kxʼ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">kʟ̝̊ʼ</button></th>
-    </tr>
-  </table>
-  <table class="table-bordered table-condensed">
-    <caption>
-    非肺部氣流輔音
-    </caption>
-    <tr>
-      <th colspan="2">喌</th>
-      <th colspan="2">內爆</th>
-      <th colspan="2">噴</th>
-    </tr>
-    <tr>
-      <th>ʘ</th>
-      <td>雙脣</td>
-      <th>ɓ</th>
-      <td>雙脣</td>
-      <th><button class="ipa" onClick="khimh(event)">ʼ</button></th>
-      <td><em>譬如：</em></td>
-    </tr>
-    <tr>
-      <th>ǀ</th>
-      <td>齒</td>
-      <th>ɗ</th>
-      <td>齒齦</td>
-      <th>pʼ</th>
-      <td>雙脣</td>
-    </tr>
-    <tr>
-      <th>ǃ</th>
-      <td>齒齦（後）</td>
-      <th>ʄ</th>
-      <td>硬齶</td>
-      <th>tʼ</th>
-      <td>齒齦</td>
-    </tr>
-    <tr>
-      <th>ǂ</th>
-      <td>齶齒齦</td>
-      <th>ɠ</th>
-      <td>軟齶</td>
-      <th>kʼ</th>
-      <td>軟齶</td>
-    </tr>
-    <tr>
-      <th>ǁ</th>
-      <td>齒齦邊</td>
-      <th>ʛ</th>
-      <td>小舌</td>
-      <th>sʼ</th>
-      <td>齒齦擦</td>
-    </tr>
-  </table>
-  <div style="clear:both"></div>
-  <table class="table-bordered table-condensed">
-    <caption>
-    塞擦音
-    </caption>
-    <tr>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">p̪f</button></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ts</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dz</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tʃ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dʒ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tɕ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dʑ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʈʂ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɖʐ</button></th>
-    </tr>
-    <tr>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">tɬ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">dɮ</button></th>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">cç</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɟʝ</button></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-      <th class="consonant_left"></th>
-      <th class="consonant_right"></th>
-    </tr>
-  </table>
-  <div style="clear:both"></div>
-  <table class="table-bordered table-condensed">
-    <caption>
-    協同調音輔音
-    </caption>
-    <tr>
-      <td>擦</td>
-      <th class="consonant_left">ɕ</th>
-      <th class="consonant_right">ʑ</th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ɧ</button></th>
-    </tr>
-    <tr>
-      <td>近</td>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">ʍ</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">w</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ɥ</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ɫ</button></th>
-    </tr>
-    <tr>
-      <td>塞</td>
-      <th class="consonant_left"><button class="ipa" onClick="khimh(event)">k͡p</button></th>
-      <th class="consonant_right"><button class="ipa" onClick="khimh(event)">ɡ͡b</button></th>
-      <th colspan="2"><button class="ipa" onClick="khimh(event)">ŋ͡m</button></th>
-    </tr>
-  </table>
-  <table class="table-bordered table-condensed">
-    <caption>
-    塞擦音和雙重調音輔音
-    </caption>
-    <tr>
-      <th>連音符</th>
-      <th>合字</th>
-      <th>描述</th>
-    </tr>
-    <tr>
-      <th>t͡s</th>
-      <th>ʦ</th>
-      <td>清齒齦塞擦音</td>
-    </tr>
-    <tr>
-      <th>d͡z</th>
-      <th>ʣ</th>
-      <td>濁齒齦塞擦音</td>
-    </tr>
-    <tr>
-      <th>t͡ʃ</th>
-      <th>ʧ</th>
-      <td>清齦後塞擦音</td>
-    </tr>
-    <tr>
-      <th>d͡ʒ</th>
-      <th>ʤ</th>
-      <td>濁齦後塞擦音</td>
-    </tr>
-    <tr>
-      <th>t͡ɕ</th>
-      <th>ʨ</th>
-      <td>清齒齦-齶塞擦音</td>
-    </tr>
-    <tr>
-      <th>d͡ʑ</th>
-      <th>ʥ</th>
-      <td>濁齒齦-齶塞擦音</td>
-    </tr>
-    <tr>
-      <th>t͡ɬ</th>
-      <th>–</th>
-      <td>清齒齦邊塞擦音</td>
-    </tr>
-    <tr>
-      <th>k͡p</th>
-      <th>–</th>
-      <td>清脣-軟齶爆音</td>
-    </tr>
-    <tr>
-      <th>ɡ͡b</th>
-      <th>–</th>
-      <td>濁脣-軟齶爆音</td>
-    </tr>
-    <tr>
-      <th>ŋ͡m</th>
-      <th>–</th>
-      <td>脣-軟齶鼻塞音</td>
-    </tr>
-  </table>
-  <table class="table-bordered table-condensed">
-    <caption>
-    協同調音輔音
-    </caption>
-    <tr>
-      <th>ʍ</th>
-      <td>脣-軟齶清擦音</td>
-    </tr>
-    <tr>
-      <th>w</th>
-      <td>脣-軟齶濁近音</td>
-    </tr>
-    <tr>
-      <th>ɥ</th>
-      <td>脣-硬齶濁近音</td>
-    </tr>
-    <tr>
-      <th>ɕ ʑ</th>
-      <td>齒齦-齶擦音</td>
-    </tr>
-    <tr>
-      <th>ɧ</th>
-      <td>同時ʃ和x</td>
-    </tr>
-    <tr>
-      <th>k͜p t͡s</th>
-      <td>若有必要，塞擦音及雙重調音輔音可用連音符連接兩箇字母</td>
-    </tr>
-  </table>
-  <div style="clear:both"></div>
-  <h2 id="ngyan">元音</h2>
-  <table class="table table-bordered table-condensed">
-    <caption>
-    元音
-    </caption>
-    <tr>
-      <td></td>
-      <th colspan="3">前</th>
-      <th colspan="3">次前</th>
-      <th colspan="3">央</th>
-      <th colspan="3">次後</th>
-      <th colspan="3">後</th>
-    </tr>
-    <tr>
-      <td style="text-align:right">出位</td>
-      <th><button class="ipa" onClick="khimh(event)">ʑ̩</button></th>
-      <th> · </th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʑ̩ʷ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɿ</button>
-        <button class="ipa" onClick="khimh(event)">ʅ</button></th>
-      <th> · </th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʮ</button>
-        <button class="ipa" onClick="khimh(event)">ʯ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">β̩</button>
-        <button class="ipa" onClick="khimh(event)">v̩</button></th>
-      <th> · </th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">β̩ʷ</button>
-        <button class="ipa" onClick="khimh(event)">v̩ʷ</button></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">高</td>
-      <th><button class="ipa" onClick="khimh(event)">i</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">y</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɨ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʉ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɯ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">u</button></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">次高</td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɪ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ʏ</button></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ᵻ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ᵿ</button></th>
-      <th style="text-align:right">　</th>
-      <th> · </th>
-      <th><button class="ipa" onClick="khimh(event)">ʊ</button></th>
-      <th colspan="3"></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">中高</td>
-      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">e</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ø</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɘ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɵ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɤ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">o</button></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">中</td>
-      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ᴇ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ø̞</button></th>
-      <th colspan="3"></th>
-      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ə</button></th>
-      <th></th>
-      <th></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɤ̞</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">o̞</button></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">中低</td>
-      <th><button class="ipa" onClick="khimh(event)">ɛ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">œ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɜ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɞ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ʌ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɔ</button></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">次低</td>
-      <th><button class="ipa" onClick="khimh(event)">æ</button></th>
-      <th>·</th>
-      <th style="text-align: left"></th>
-      <th colspan="3"></th>
-      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ɐ</button></th>
-      <th></th>
-      <th></th>
-      <th colspan="3"></th>
-      <th colspan="3"></th>
-    </tr>
-    <tr>
-      <td style="text-align:right">低</td>
-      <th><button class="ipa" onClick="khimh(event)">a</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɶ</button></th>
-      <th colspan="3"></th>
-      <th style="text-align: right"><button class="ipa" onClick="khimh(event)">ᴀ</button></th>
-      <th></th>
-      <th></th>
-      <th colspan="3"></th>
-      <th style="text-align:right"><button class="ipa" onClick="khimh(event)">ɑ</button></th>
-      <th>·</th>
-      <th style="text-align: left"><button class="ipa" onClick="khimh(event)">ɒ</button></th>
-    </tr>
-  </table>
-  <p>元音對：不圓脣 · 圓脣 </p>
-  <p>ɿ = z̩　ʅ = ʐ̩　ʮ = z̩ʷ　ʯ = ʐ̩ʷ　ᴀ = ä　ᴇ = e̞　ᵻ = ɪ̈　ᵿ = ʊ̈</p>
-  <div style="clear:both"></div>
-  <h2 id="byoh">附加符號</h2>
-  <table class="table-bordered table-condensed">
-    <caption>
-    附加符號
-    </caption>
-    <tr>
-      <th colspan="6">音節</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̩">◌̩</button></th>
-      <th>ɹ̩ n̩</th>
-      <td>音節性</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̯">◌̯</button></th>
-      <th>e̯ ʊ̯</th>
-      <td>非音節性</td>
-    </tr>
-    <tr>
-      <th colspan="6">除阻</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ʰ">◌ʰ</button></th>
-      <th>tʰ</th>
-      <td rowspan="2">送氣</td>
-      <th rowspan="2"><button class="ipa" onClick="khimh(event)" value="̚">◌̚</button></th>
-      <th rowspan="2">d̚</th>
-      <td rowspan="2">無聲除阻</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ʱ">◌ʱ</button></th>
-      <th>dʱ</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ⁿ">◌ⁿ</button></th>
-      <th>dⁿ</th>
-      <td>鼻除阻</td>
-      <th><button class="ipa" onClick="khimh(event)" value="ˡ">◌ˡ</button></th>
-      <th>dˡ</th>
-      <td>邊除阻</td>
-    </tr>
-    <tr>
-      <th colspan="6">發聲態</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̥">◌̥</button></th>
-      <th>n̥ d̥</th>
-      <td>清化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̬">◌̬</button></th>
-      <th>s̬ t̬</th>
-      <td>濁化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̤">◌̤</button></th>
-      <th>b̤ a̤</th>
-      <td>氣化／弛化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̰">◌̰</button></th>
-      <th>b̰ a̰</th>
-      <td>嘎裂化</td>
-    </tr>
-    <tr>
-      <th colspan="6">調音</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̪">◌̪</button></th>
-      <th>t̪ d̪</th>
-      <td>齒化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̼">◌̼</button></th>
-      <th>t̼ d̼</th>
-      <td>舌脣化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̺">◌̺</button></th>
-      <th>t̺ d̺</th>
-      <td>舌櫼化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̻">◌̻</button></th>
-      <th>t̻ d̻</th>
-      <td>舌葉化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̟">◌̟</button></th>
-      <th>u̟ t̟</th>
-      <td>偏前</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̠">◌̠</button></th>
-      <th>i̠ t̠</th>
-      <td>偏後</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̈">◌̈</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ë</button>
-        <button class="ipa" onClick="khimh(event)">ä</button></th>
-      <td>央化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̽">◌̽</button></th>
-      <th>e̽ ɯ̽</th>
-      <td>中央化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̝">◌̝</button></th>
-      <th>e̝ ɹ̝</th>
-      <td colspan="4" rowspan="2">偏高 (ɹ̝ = 齒齦濁擦音)</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="˔">◌˔</button></th>
-      <th>˔</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̞">◌̞</button></th>
-      <th>e̞ β̞</th>
-      <td colspan="4" rowspan="2">偏低 (β̞ = 雙脣濁近音)</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="˕">◌˕</button></th>
-      <th>˕</th>
-    </tr>
-    <tr>
-      <th colspan="6">協同調音</th>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̹">◌̹</button></th>
-      <th>ɔ̹ x̹</th>
-      <td>更圓</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̜">◌̜</button></th>
-      <th>ɔ̜ x̜ʷ</th>
-      <td>略展</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ʷ">◌ʷ</button></th>
-      <th>tʷ dʷ</th>
-      <td>脣化或脣-軟齶化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="ʲ">◌ʲ</button></th>
-      <th>tʲ dʲ</th>
-      <td>齶化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ˠ">◌ˠ</button></th>
-      <th>tˠ dˠ</th>
-      <td>軟齶化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="ˤ">◌ˤ</button></th>
-      <th>tˤ aˤ</th>
-      <td>咽化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="ᶣ">◌ᶣ</button></th>
-      <th>tᶣ dᶣ</th>
-      <td>脣-齶化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̴">◌̴</button></th>
-      <th>ɫ
-        <button class="ipa" onClick="khimh(event)">ᵶ</button></th>
-      <td>軟齶化或咽化</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̘">◌̘</button></th>
-      <th>e̘ o̘</th>
-      <td>舌根前伸</td>
-      <th><button class="ipa" onClick="khimh(event)" value="̙">◌̙</button></th>
-      <th>e̙ o̙</th>
-      <td>舌根後縮</td>
-    </tr>
-    <tr>
-      <th><button class="ipa" onClick="khimh(event)" value="̃">◌̃</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ẽ</button>
-        z̃</th>
-      <td>鼻化</td>
-      <th><button class="ipa" onClick="khimh(event)" value="˞">◌˞</button></th>
-      <th><button class="ipa" onClick="khimh(event)">ɚ</button>
-        <button class="ipa" onClick="khimh(event)">ɝ</button></th>
-      <td>日化</td>
-    </tr>
-  </table>
-  <p>下方附加符號可放在有降部字母上方，譬如： ŋ̊ ŋ̍ ȷ̈</p>
-  <p>無點<em>i</em>，‹ı›，用于點干擾附加符號時。其他國際音標字母可用作附加符號變體：tˢ（擦除阻），bʱ（氣化／弛化），ˀa（喉開頭），ᵊ（插中性元音），oᶷ（複元音化）。“國際音標的擴展”引入了補充附加符號，主要用于言語病理學。</p>
-  <div style="clear:both"></div>
-  <h2 id="thrieu">超音段音位</h2>
-  <table class="table-bordered table-condensed">
-    <tbody>
-      <tr>
-        <th colspan="6">長短、重音、節奏</th>
-      </tr>
-      <tr>
-        <th><button class="ipa" onClick="khimh(event)">ˈ</button></th>
-        <th>ˈa</th>
-        <td>主重音</td>
-        <th><button class="ipa" onClick="khimh(event)">ˌ</button></th>
-        <th>ˌa</th>
-        <td>次重音</td>
-      </tr>
-      <tr>
-        <th><button class="ipa" onClick="khimh(event)">ː</button></th>
-        <th>aː kː</th>
-        <td>長</td>
-        <th><button class="ipa" onClick="khimh(event)">ˑ</button></th>
-        <th>aˑ</th>
-        <td>半長</td>
-      </tr>
-      <tr>
-        <th><button class="ipa" onClick="khimh(event)" value="̆">◌̆</button></th>
-        <th>ə̆</th>
-        <td>超短</td>
-        <th><button class="ipa" onClick="khimh(event)">.</button></th>
-        <th>a.a</th>
-        <td>音節閒隔</td>
-      </tr>
-      <tr>
-        <th><button class="ipa" onClick="khimh(event)">‿</button></th>
-        <th>s‿a</th>
-        <td>連接 (閒隔不出現)</td>
-        <td colspan="3"></td>
-      </tr>
-      <tr>
-        <th colspan="6">語調</th>
-      </tr>
-      <tr>
-        <th colspan="2"><button class="ipa" onClick="khimh(event)">|</button></th>
-        <td>小韻律羣／音步羣</td>
-        <th colspan="2"><button class="ipa" onClick="khimh(event)">‖</button></th>
-        <td>大韻律羣／語調群</td>
-      </tr>
-      <tr>
-        <th colspan="2"><button class="ipa" onClick="khimh(event)">↗</button></th>
-        <td>整體上升</td>
-        <th colspan="2"><button class="ipa" onClick="khimh(event)">↘</button></th>
-        <td>整體下降</td>
-      </tr>
-      <tr>
-        <th colspan="6">聲調</th>
-      </tr>
-      <tr>
-        <th colspan="2">e̋ ˥</th>
-        <td>超高</td>
-        <th colspan="2">ě ˩˥</th>
-        <td>升</td>
-      </tr>
-      <tr>
-        <th colspan="2">é ˦</th>
-        <td>高</td>
-        <th colspan="2">ê ˥˩</th>
-        <td>降</td>
-      </tr>
-      <tr>
-        <th colspan="2">ē ˧</th>
-        <td>中</td>
-        <th colspan="2">e᷄ ˧˥</th>
-        <td>高升</td>
-      </tr>
-      <tr>
-        <th colspan="2">è ˨</th>
-        <td>低</td>
-        <th colspan="2">e᷅ ˩˥</th>
-        <td>低升</td>
-      </tr>
-      <tr>
-        <th colspan="2">ȅ ˩</th>
-        <td>超低</td>
-        <th colspan="2">e᷇ ˥˧</th>
-        <td>高降</td>
-      </tr>
-      <tr>
-        <th colspan="2"></th>
-        <td></td>
-        <th colspan="2">e᷆ ˧˩</th>
-        <td>低降</td>
-      </tr>
-      <tr>
-        <th colspan="2">ꜛke</th>
-        <td>升階</td>
-        <th colspan="2">e᷉ ˧˩˧</th>
-        <td>降升</td>
-      </tr>
-      <tr>
-        <th colspan="2">ꜜke</th>
-        <td>降階</td>
-        <th colspan="2">e᷈ ˧˥˧</th>
-        <td>升降</td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="table-bordered table-condensed">
-    <caption>
-    聲調<br>
-    五度標記
-    </caption>
-    <tr>
-      <td></td>
-      <th><button class="ipa" onClick="khimh(event)">¹</button></th>
-      <th><button class="ipa" onClick="khimh(event)">²</button></th>
-      <th><button class="ipa" onClick="khimh(event)">³</button></th>
-      <th><button class="ipa" onClick="khimh(event)">⁴</button></th>
-      <th><button class="ipa" onClick="khimh(event)">⁵</button></th>
-    </tr>
-    <tr>
-      <td>單字調</td>
-      <th><button class="ipa" onClick="khimh(event)">˩</button></th>
-      <th><button class="ipa" onClick="khimh(event)">˨</button></th>
-      <th><button class="ipa" onClick="khimh(event)">˧</button></th>
-      <th><button class="ipa" onClick="khimh(event)">˦</button></th>
-      <th><button class="ipa" onClick="khimh(event)">˥</button></th>
-    </tr>
-    <tr>
-      <td>連續變調</td>
-      <th><button class="ipa" onClick="khimh(event)">꜖</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜕</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜔</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜓</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜒</button></th>
-    </tr>
-  </table>
-  <table class="table-bordered table-condensed">
-    <caption>
-    聲調<br>
-    調類
-    </caption>
-    <tr>
-      <td></td>
-      <th>陰</th>
-      <th>陽</th>
-    </tr>
-    <tr>
-      <td>平</td>
-      <th><button class="ipa" onClick="khimh(event)">꜀</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜁</button></th>
-    </tr>
-    <tr>
-      <td>上</td>
-      <th><button class="ipa" onClick="khimh(event)">꜂</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜃</button></th>
-    </tr>
-    <tr>
-      <td>去</td>
-      <th><button class="ipa" onClick="khimh(event)">꜄</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜅</button></th>
-    </tr>
-    <tr>
-      <td>入</td>
-      <th><button class="ipa" onClick="khimh(event)">꜆</button></th>
-      <th><button class="ipa" onClick="khimh(event)">꜇</button></th>
-    </tr>
-  </table>
-  <div style="clear:both"></div>
-  <table class="table table-bordered table-condensed">
-    <caption>
-    廢棄和非標準符號
-    </caption>
-    <tr>
-      <th>Symbol or
-        exemplar</th>
-      <th>Name</th>
-      <th>Value</th>
-      <th>IPA
-        equivalent</th>
-      <th>Notes</th>
-    </tr>
-    <tr>
-      <td>?</td>
-      <td>question mark</td>
-      <td>glottal stop</td>
-      <td>[ʔ]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ƍ</td>
-      <td>turned small delta</td>
-      <td>labialized voiced alveolo-dental fricative</td>
-      <td>[ðʷ, zʷ]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>σ</td>
-      <td>small sigma</td>
-      <td>labialized voiceless alveolo-dental fricative</td>
-      <td>[θʷ, sʷ]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ƺ</td>
-      <td>ezh with tail</td>
-      <td>labialized voiced postalveolar fricative</td>
-      <td>[ʒʷ]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ƪ</td>
-      <td>reversed esh with top loop</td>
-      <td>labialized voiceless postalveolar fricative</td>
-      <td>[ʃʷ]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ƻ</td>
-      <td>barred two</td>
-      <td>voiced alveolar affricate</td>
-      <td>[d͡z]</td>
-      <td>withdrawn 1976</td>
-    </tr>
-    <tr>
-      <td>ƾ</td>
-      <td></td>
-      <td>voiceless alveolar affricate</td>
-      <td>[t͡s]</td>
-      <td>Withdrawn 1976</td>
-    </tr>
-    <tr>
-      <td>ƞ</td>
-      <td>right-leg N</td>
-      <td>syllabic n</td>
-      <td>[n̩]</td>
-      <td>withdrawn 1976</td>
-    </tr>
-    <tr>
-      <td>ƫ</td>
-      <td>left-hook T</td>
-      <td>palatalized t</td>
-      <td>[tʲ]</td>
-      <td>withdrawn 1989</td>
-    </tr>
-    <tr>
-      <td>ʓ</td>
-      <td>curly-tail ezh</td>
-      <td>voiced alveolo-palatal(ized) fricative</td>
-      <td>[ʒʲ] or [ʑ]</td>
-      <td>withdrawn 1989</td>
-    </tr>
-    <tr>
-      <td>ʆ</td>
-      <td>curly-tail esh</td>
-      <td>voiceless alveolo-palatal(ized) fricative</td>
-      <td>[ʃʲ] or [ɕ]</td>
-      <td>withdrawn 1989</td>
-    </tr>
-    <tr>
-      <td>λ</td>
-      <td>lambda</td>
-      <td>voiced alveolar lateral affricate</td>
-      <td>[d͡ɮ]</td>
-      <td>Used by Americanists</td>
-    </tr>
-    <tr>
-      <td>ƛ</td>
-      <td>lambda bar</td>
-      <td>voiceless alveolar lateral affricate</td>
-      <td>[t͡ɬ]</td>
-      <td>Used by Americanists</td>
-    </tr>
-    <tr>
-      <td>ł</td>
-      <td>l bar</td>
-      <td>voiceless alveolar lateral fricative</td>
-      <td>[ɬ]</td>
-      <td>Used by Americanists</td>
-    </tr>
-    <tr>
-      <td>š č ž</td>
-      <td>s c z with caron</td>
-      <td>postalveolars</td>
-      <td>[ʃ], [t͡ʃ], [ʒ]</td>
-      <td>Used by Americanists, Slavicists</td>
-    </tr>
-    <tr>
-      <td>ǰ, ǧ, ǯ</td>
-      <td>j, g, ezh with caron</td>
-      <td>voiced postalveolar affricate</td>
-      <td>[d͡ʒ]</td>
-      <td>Used by Americanists, Slavicists <i>etc.</i></td>
-    </tr>
-    <tr>
-      <td>ẋ</td>
-      <td>x with dot</td>
-      <td>voiceless uvular fricative</td>
-      <td>[χ]</td>
-      <td>Used by Americanists</td>
-    </tr>
-    <tr>
-      <td><img alt="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Baby_gamma.svg/10px-Baby_gamma.svg.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTFjM0xB2NYQAAAIhJREFUGJWFyrEKQWEYx+EnRQab5dhMrkFxATbjcQkmRQYDWeUSXIHdLSi7uACDsmAkAxZf8tXJb3v/7wM9HHHBHBXf+jhhEIYWnpj6rYtxtJnhgcbnTrBGIYZ5bHBAGUs0YxSq4oodFlkolOKF4T84whY31MKYi1AJdbRRRCcL3nHGBHuswuMNxccYK1o1qTsAAAAASUVORK5CYII=" height="9" width="10"></td>
-      <td>baby gamma</td>
-      <td>close-mid back unrounded vowel</td>
-      <td>[ɤ]</td>
-      <td>rejected 1989; Unicode LATIN SMALL LETTER RAMS HORN (U+0264) represents either glyph</td>
-    </tr>
-    <tr>
-      <td>ᵻ / ᵿ</td>
-      <td>barred small capital I / upsilon</td>
-      <td>near-close central unrounded / rounded vowel</td>
-      <td>[ɨ̞ / ʉ̞]</td>
-      <td>used by the OED among others</td>
-    </tr>
-    <tr>
-      <td>Ǝ</td>
-      <td>small capital turned E</td>
-      <td>close-mid near-back unrounded vowel</td>
-      <td></td>
-      <td>used by some Koreanologists who study Gyeongsang dialect, where there is no phonemic differentiation between /ʌ/ (RR <i>eo</i>; Hangul ㅓ) and /ɯ/ (RR <i>eu</i>; Hangul ㅡ).</td>
-    </tr>
-    <tr>
-      <td>ʚ</td>
-      <td>closed epsilon</td>
-      <td>open-mid central rounded vowel</td>
-      <td>[ɞ]</td>
-      <td>a misprint of <i>ɞ</i></td>
-    </tr>
-    <tr>
-      <td>ɷ</td>
-      <td>closed omega</td>
-      <td>near-close near-back rounded vowel</td>
-      <td>[ʊ]</td>
-      <td>rejected 1989</td>
-    </tr>
-    <tr>
-      <td>ω</td>
-      <td>omega</td>
-      <td>near-close near-back unrounded vowel</td>
-      <td>[ʊ̜]</td>
-      <td>Made by analogy to ɜ and ɞ from ɷ or ʊ symbol.</td>
-    </tr>
-    <tr>
-      <td>ı</td>
-      <td>dotless small i</td>
-      <td>near-close near-front unrounded vowel</td>
-      <td>[ɪ]</td>
-      <td>a mistake</td>
-    </tr>
-    <tr>
-      <td>ȹ ȸ</td>
-      <td></td>
-      <td>voiceless and voiced labiodental plosive</td>
-      <td>[p̪ b̪]</td>
-      <td>used in Africanist linguistics</td>
-    </tr>
-    <tr>
-      <td>∅ or Ø</td>
-      <td>slashed 0 or uppercase slashed O</td>
-      <td>null initial</td>
-      <td></td>
-      <td>Usually used in phonology to mean "no sound values." However, in Chinese linguistics, some scholars considered it as "weak" glottal stop or something similar as sound value of the "existent" first consonant of syllables started by a vowel (e.g. <i>ān</i> in <i>Tiān'ānmén</i>), and this opinion can be connected with ㅇ (<i>ieung</i>) in hangul. ∅ can be confusing with close-mid front rounded vowel [ø].</td>
-    </tr>
-    <tr>
-      <td>ƥ ƭ ƈ ƙ ʠ</td>
-      <td>hooktop P, T, C, K, Q</td>
-      <td>voiceless implosives</td>
-      <td>[ɓ̥ ɗ̥ ʄ̊ ɠ̊ ʛ̊]</td>
-      <td>withdrawn in 1993</td>
-    </tr>
-    <tr>
-      <td>ʇ</td>
-      <td>turned T</td>
-      <td>dental click</td>
-      <td>[ǀ]</td>
-      <td>superseded 1989</td>
-    </tr>
-    <tr>
-      <td>ʗ</td>
-      <td>stretched C</td>
-      <td>alveolar click</td>
-      <td>[ǃ]</td>
-      <td>superseded 1989</td>
-    </tr>
-    <tr>
-      <td>ʖ</td>
-      <td>inverted glottal stop</td>
-      <td>alveolar lateral click</td>
-      <td>[ǁ]</td>
-      <td>superseded 1989</td>
-    </tr>
-    <tr>
-      <td>ʞ</td>
-      <td>turned K</td>
-      <td>velar click</td>
-      <td></td>
-      <td>Proposed symbol withdrawn 1970; articulation judged impossible</td>
-    </tr>
-    <tr>
-      <td>ɩ</td>
-      <td>small iota</td>
-      <td>near-close near-front unrounded vowel</td>
-      <td>[ɪ]</td>
-      <td>rejected 1989</td>
-    </tr>
-    <tr>
-      <td>ɼ</td>
-      <td>long-leg R</td>
-      <td>voiced strident apico-alveolar trill (Czech <i>ř</i>)</td>
-      <td>[r̝]</td>
-      <td>withdrawn 1989</td>
-    </tr>
-    <tr>
-      <td>g</td>
-      <td>looptail g</td>
-      <td>voiced velar plosive</td>
-      <td>[ɡ]</td>
-      <td>The standard Unicode Basic Latin/ASCII lower-case g (U+0067) may have a "looptail g" glyph; the preferred IPA "open-tail g" (U+0261) is in the IPA Extensions Unicode block</td>
-    </tr>
-    <tr>
-      <td>ȣ</td>
-      <td>ou</td>
-      <td>close-mid back unrounded vowel or voiced velar fricative</td>
-      <td>[ɤ] or [ɣ]</td>
-      <td>a mistake in either case</td>
-    </tr>
-    <tr>
-      <td>я</td>
-      <td>reversed ʀ or Cyrillic ya</td>
-      <td>voiced epiglottal trill</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ɿ</td>
-      <td>reversed fishhook R / turned iota</td>
-      <td>apical dental unrounded vowel</td>
-      <td>[z̩]</td>
-      <td>used by Sinologists, and by Japanologists studying the phonology of the Miyako language</td>
-    </tr>
-    <tr>
-      <td>ʅ</td>
-      <td>squat reversed esh (actually ɿ with retroflex tail)</td>
-      <td>apical retroflex unrounded vowel</td>
-      <td>[ʐ̩]</td>
-      <td>used by Sinologists. See Chinese vowels</td>
-    </tr>
-    <tr>
-      <td>ʮ</td>
-      <td>turned h with fishhook</td>
-      <td>apical dental rounded vowel</td>
-      <td>[z̩ʷ]</td>
-      <td>used by Sinologists</td>
-    </tr>
-    <tr>
-      <td>ʯ</td>
-      <td>turned h with fishhook and tail</td>
-      <td>apical retroflex rounded vowel</td>
-      <td>[ʐ̩ʷ]</td>
-      <td>used by Sinologists</td>
-    </tr>
-    <tr>
-      <td>ᴀ</td>
-      <td>small capital A</td>
-      <td>open central vowel</td>
-      <td>any of [ä a̱ ɑ̈ ɑ̞ ɐ̞]</td>
-      <td>used by Sinologists</td>
-    </tr>
-    <tr>
-      <td>ᴀ</td>
-      <td>small capital A</td>
-      <td>open back unrounded vowel</td>
-      <td>[ɑ]</td>
-      <td>superseded 1900</td>
-    </tr>
-    <tr>
-      <td>ᴇ</td>
-      <td>small capital E</td>
-      <td>mid front unrounded vowel</td>
-      <td>[e̞] or [ɛ̝]</td>
-      <td>used by Sinologists and some Koreanologists</td>
-    </tr>
-    <tr>
-      <td>G R Œ <i>etc.</i></td>
-      <td>uppercase letters</td>
-      <td></td>
-      <td>[ɢ ʀ ɶ] <i>etc.</i></td>
-      <td>Uppercase alternatives to symbols shaped like small capitals</td>
-    </tr>
-    <tr>
-      <td>Q</td>
-      <td>small capital Q</td>
-      <td>gemination</td>
-      <td>[kk tt] or [kː tː] etc.</td>
-      <td>Used in Japanese phonology to represent the Sokuon.</td>
-    </tr>
-    <tr>
-      <td>  </td>
-      <td>belted</td>
-      <td>Voiceless lateral fricatives (retroflex, palatal and velar)</td>
-      <td>[ɭ̥̝ ʎ̥̝ ʟ̥̝]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ɑ̢ <i>etc.</i></td>
-      <td>underdot</td>
-      <td>("retroflex" or r-colored vowels)</td>
-      <td>[ɑ˞] <i>etc.</i></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ȡ ȶ ȵ ȴ etc. or d̂ t̂ n̂ l̂ etc.</td>
-      <td>curl or circumflex</td>
-      <td>alveolo-palatal</td>
-      <td></td>
-      <td>used by Sinologists</td>
-    </tr>
-    <tr>
-      <td>k', etc.</td>
-      <td></td>
-      <td>no audible release</td>
-      <td>[k̚], etc.</td>
-      <td>Withdrawn</td>
-    </tr>
-    <tr>
-      <td>d̡ t̡ <i>etc.</i></td>
-      <td>subscript left hook</td>
-      <td>palatalization</td>
-      <td>[dʲ tʲ] <i>etc.</i></td>
-      <td>superseded 1989</td>
-    </tr>
-    <tr>
-      <td>k̫ <i>etc.</i></td>
-      <td>subscript w</td>
-      <td>labialization</td>
-      <td>[kʷ] <i>etc.</i></td>
-      <td>superseded 1989</td>
-    </tr>
-    <tr>
-      <td>K P T <i>etc.</i></td>
-      <td>uppercase letters (not small capitals)</td>
-      <td>fortis</td>
-      <td>[k͈ p͈ t͈], etc.</td>
-      <td>used by some Koreanologists</td>
-    </tr>
-    <tr>
-      <td>ɔ̗ / ɔ̖ <i>etc.</i></td>
-      <td></td>
-      <td>lower-pitched rising / falling tone contour</td>
-      <td></td>
-      <td>In a language which distinguishes more than one rising or falling tone.</td>
-    </tr>
-    <tr>
-      <td>k‘ t‘ or kʻ tʻ</td>
-      <td>left quote or reversed comma</td>
-      <td>"weak" (or sometimes "normal") aspiration</td>
-      <td>[k t] (sometimes [kʰ tʰ])</td>
-      <td>First symbol may be left single quotation mark (U+2018) or modifier letter apostrophe (U+02BC); second symbol may be single high-reversed-9 quotation mark (U+201B) or modifier letter reversed comma (U+02BD)</td>
-    </tr>
-    <tr>
-      <td>ʦ ʣ ʧ ʤ etc.</td>
-      <td>ligatures</td>
-      <td>affricates</td>
-      <td>[ts dz tʃ dʒ] etc. or [t͡s d͡z t͡ʃ d͡ʒ] etc.</td>
-      <td>Formerly an acceptable variant</td>
-    </tr>
-    <tr>
-      <td>[p′] etc.</td>
-      <td>prime</td>
-      <td>palatalization</td>
-      <td>[pʲ] etc.</td>
-      <td>Traditional in accounts of Irish phonology</td>
-    </tr>
-  </table>
-</div>
-<p>修改自 https://bitbucket.org/daujyungx/ipa_map/ （版本 2011-07-31）</p>
+<p id="ipa-tables-credit">修改自 https://bitbucket.org/daujyungx/ipa_map/ （版本 2011-07-31）</p>
 {% endblock %}

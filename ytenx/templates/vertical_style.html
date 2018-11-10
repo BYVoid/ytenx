@@ -2,14 +2,35 @@
   .display-unless-with-vertical-layout, #switch-to-vertical-layout {
     display: none;
   }
+  body {
+    height: 100%;
+  }
+  .container-main {
+    direction: rtl;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+  .container-main>.write-as-layout-direction {
+    height: 100%;
+    width: 100%;
+  }  
   .write-as-layout-direction {
     writing-mode: vertical-rl;
     direction: ltr;
     text-orientation: mixed;
     overflow: auto;
   }
-  .write-as-layout-direction .row {
+  .write-as-layout-direction .row,
+  .write-as-layout-direction [class*="span"],
+  .write-as-layout-direction .span3,
+  .write-as-layout-direction .span4,
+  .write-as-layout-direction .span6,
+  .write-as-layout-direction .span8,
+  .write-as-layout-direction .span10 {
     margin-left: auto;
+    width: auto;
+    float: none;
   }
   .write-as-layout-direction .controls>.radio:first-child,
   .write-as-layout-direction .controls>.checkbox:first-child {
@@ -45,16 +66,12 @@
     direction: ltr;
     overflow: auto;
   }
+  .thumbnails {
+    margin-left: auto;
+  }
   .thumbnails>li {
     float: none;
   }
-  .auto-direction-fullsize {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-  }  
   .badge-info {
     writing-mode: horizontal-tb;
   }
@@ -79,6 +96,7 @@
   .horizontal-cn ul,
   .horizontal-cn li,
   .horizontal-cn table,
+  .horizontal-cn th,
   .horizontal-cn td,
   .horizontal-cn input,
   .horizontal-cn selection option,
@@ -139,5 +157,28 @@
     width: 5px;
     background-color: #EAEFF5;
     display: block;
+  }
+  .ipa-tables-with-nav {
+    writing-mode: horizontal-tb;
+  }  
+  .ipa-tables-with-nav #subnav-fixed {
+    writing-mode: horizontal-tb;
+  }
+  .ipa-tables {
+    writing-mode: vertical-rl;
+  }
+  .ipa-nav-cn {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+  }  
+  .ipa-tables table {
+    writing-mode: horizontal-tb;
+  }
+  .ipa-table-row-header-cn  {
+    width: 1em;
+  }
+  #ipa-tables-credit {
+    text-align: right;
   }
 </style>
