@@ -12,7 +12,7 @@
     <table class="table table-bordered">
     	<tr>
     	  <td>韻系</td>
-    	  <td>{{yonh.gheh}}</td>
+    	  <td class="yonh">{{yonh.gheh}}</td>
     	</tr>
     	<tr>
     	  <td>韻攝</td>
@@ -40,7 +40,7 @@
         <td>韻目</td>
         <td>
           {% for yonh_miuk in yonh.yonhmiuk_set.all %}
-      	  	<a href="{% url 'kyonh.views.yonh_miuk_page' yonh_miuk.dzih %}">
+      	  	<a class="yonh" href="{% url 'kyonh.views.yonh_miuk_page' yonh_miuk.dzih %}">
       	  		{{yonh_miuk}}
       	  	</a>
           {% endfor %}
