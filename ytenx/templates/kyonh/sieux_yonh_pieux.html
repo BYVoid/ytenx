@@ -38,9 +38,11 @@
                   <option>{{cjeng}}</option>
                 {% endif %}
               {% else %}
-                <option disabled="disabled">
-                  <span class="display-unless-with-vertical-layout">{{cjeng}}</span>
-                  <span class="display-only-with-vertical-layout">&#x202e;{{cjeng}}&#x202c;</span>
+                <option disabled="disabled" class="display-unless-with-vertical-layout">
+                  {{cjeng}}
+                </option>
+                <option disabled="disabled" class="display-only-with-vertical-layout">
+                  &#x202e;{{cjeng}}&#x202c;
                 </option>
               {% endif %}
             {% endfor %}
