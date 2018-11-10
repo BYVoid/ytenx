@@ -86,7 +86,11 @@
               </li>
             </ul>
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
-              <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">
+              {% if request.session.layout == 'vertical' %}
+                <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;所欲詢字置此">              
+              {% else %}
+                <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">              
+              {% endif %}
               <input type="hidden" name="dzyen" value="1">
               <input type="hidden" name="jtkb" value="1">
               <input type="hidden" name="jtkd" value="1">
