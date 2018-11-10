@@ -3,7 +3,7 @@ from django.db import models
 
 #小韻
 class SieuxYonh(models.Model):
-  #小韻序號
+  #Permanent index in ytenx
   ziox = models.IntegerField(primary_key = True)
   #代表字
   taj = models.CharField(max_length = 1, db_index = True)
@@ -15,6 +15,8 @@ class SieuxYonh(models.Model):
   cio = models.ManyToManyField('Cio')
   #IPA
   ipa = models.CharField(max_length = 16, db_index = True);
+  #小韻于韻書中之序
+  cioTriungZiox = models.IntegerField(db_index = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
