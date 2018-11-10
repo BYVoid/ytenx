@@ -39,13 +39,13 @@
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
       </h2>
-      <h3>
+      <h3 class="yonh">
         {% if dzih.sieuxYonh.pyanx %}
           <a href="{% url 'kyonh.views.pyanx_dciangx_page' dzih.sieuxYonh.pyanx.dciangx.dzih %}">{{dzih.sieuxYonh.pyanx.dciangx}}</a><a href="{% url 'kyonh.views.pyanx_ghrax_page' dzih.sieuxYonh.pyanx.ghrax.dzih %}">{{dzih.sieuxYonh.pyanx.ghrax}}</a>切
         {% endif %}
         <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieuxYonh.ziox %}">{{dzih.sieuxYonh}}</a>小韻
       </h3>
-      <p>
+      <p class="yonh">
         {{dzih.sieuxYonh.yonh.gheh.cjep}}{{dzih.sieuxYonh.yonh.ho|ho}}{{dzih.sieuxYonh.yonh.tongx|sryoh}}{{dzih.sieuxYonh.yonhMiuk.deuh|deuh}}<a href="{% url 'kyonh.views.yonh_miuk_page' dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a><a href="{% url 'kyonh.views.cjeng_mux_page' dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>
         <span class="display-unless-with-vertical-layout">({{dzih.sieuxYonh.preng.baxter}})</span>
       </p>
