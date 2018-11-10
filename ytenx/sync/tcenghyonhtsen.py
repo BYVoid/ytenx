@@ -20,6 +20,7 @@ cioTriungDzihZiox = 1
 def sync():
   syncYonhMiuk()
   syncSieux()
+  syncQimBjin()
   syncDzih()
   syncKoxQim()
   syncJitDzih()
@@ -124,6 +125,32 @@ def syncSieux():
     sieuxMap[ziox] = sieux
   
   traverse('SieuxYonh.txt', sync)
+  print 'Done'
+
+def syncQimBjin():
+  print 'QimBjin...'
+
+  def sync(line, num):
+    ziox = line[0]
+    t1 = line[1]
+    t2 = line[2]
+    t3 = line[3]
+    t4 = line[4]
+    merge_t2_t3 = line[5]
+    filename = line[6]
+    
+    qimBjin = QimBjin(
+      ziox = ziox,
+      t1 = t1,
+      t2 = t2,
+      t3 = t3,
+      t4 = t4,
+      merge_t2_t3 = merge_t2_t3,
+      filename = filename,
+    )
+    qimBjin.save()
+  
+  traverse('QimBjin.txt', sync)
   print 'Done'
 
 def syncDzih():
