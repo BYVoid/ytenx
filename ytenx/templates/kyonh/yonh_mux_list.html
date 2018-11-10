@@ -36,7 +36,7 @@
         </td>
         <td>
           {% for ghrax in item.cio.ghraxdzih_set.all %}
-            <span><a href="{% url 'kyonh.views.pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a></span>
+            <a href="{% url 'kyonh.views.pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a>
           {% endfor %}
         </td>
         <td>
