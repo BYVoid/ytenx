@@ -55,9 +55,9 @@
 </div>
 <div class="row">
   <div class="span8">
-    {% if sieux_yonh.dzih_set.all|dictsort:"cioTriungZiox" %}
+    {% if sieux_yonh.dzih_set.all %}
       <h2>字頭</h2>
-      {% for dzih in sieux_yonh.dzih_set.all %}
+      {% for dzih in sieux_yonh.dzih_set.all|dictsort:"cioTriungZiox" %}
         {{dzih}}
       {% endfor %}
     {% endif %}
