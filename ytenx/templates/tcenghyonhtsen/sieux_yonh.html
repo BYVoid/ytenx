@@ -13,17 +13,17 @@
     	<tr>
     	  <td>小韻</td>
     	  <td>{{sieux_yonh}}</td>
-        <td rowspan=8 class="display-only-with-vertical-layout" style="min-height:2em">
+        {% if qim_bjin_set %}
+          <td rowspan=8 class="display-only-with-vertical-layout" style="min-height:2em">
             <button data-toggle="collapse" data-target="#qim-bjin-vertical">聽</button>
             <div id="qim-bjin-vertical" class="collapse">            
-              {% if sieux_yonh.t1.all %}
-                {% for qim_bjin in qim_bjin_set %}
-                  <p class="qim_bjin_text">{{qim_bjin}}</p>
-                  <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
-                {% endfor %}
-              {% endif %}
-            </div>                  
-        </td>
+              {% for qim_bjin in qim_bjin_set %}
+                <p class="qim_bjin_text">{{qim_bjin}}</p>
+                <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
+              {% endfor %}              
+            </div>
+          </td>
+        {% endif %}        
     	</tr>
     	<tr>
     	  <td>序號</td>
@@ -61,21 +61,21 @@
         <td>南曲</td>
         <td><span class="horizontal-ltr">{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</span></td>
       </tr>
-      <tr class="display-unless-with-vertical-layout">
-        <td colspan="2">
-          <div>
-            <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聽</button>
-            <div id="qim-bjin-horizontal" class="collapse">            
-              {% if sieux_yonh.t1.all %}
+      {% if qim_bjin_set %}
+        <tr class="display-unless-with-vertical-layout">
+          <td colspan="2">
+            <div>
+              <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聽</button>
+              <div id="qim-bjin-horizontal" class="collapse">            
                 {% for qim_bjin in qim_bjin_set %}
                   <p>{{qim_bjin}}</p>
                   <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 {% endfor %}
-              {% endif %}
-            </div>                    
-          </div>
-        </td>
-      </tr>
+              </div>                    
+            </div>
+          </td>
+        </tr>
+      {% endif %}      
     </table>
   </div>
 </div>
