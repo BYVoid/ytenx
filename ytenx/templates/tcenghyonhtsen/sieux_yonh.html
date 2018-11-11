@@ -72,7 +72,7 @@
               <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聽</button>
               <div id="qim-bjin-horizontal" class="collapse">
                 {% for qim_bjin in qim_bjin_set %}
-                  <table class="table table-borderless">
+                  <table class="table" stlye="border:none;">
                     <tr>
                       {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
                         <td>{{tone}}</td>
