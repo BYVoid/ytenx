@@ -6,13 +6,13 @@ class QimBjin(models.Model):
   #序
   ziox = models.IntegerField(primary_key = True)
   #平聲小韻號
-  t1 = models.ForeignKey('SieuxYonh', db_index = True)
+  t1 = models.ForeignKey('SieuxYonh', related_name='t1', db_index = True)
   #上聲小韻號
-  t2 = models.ForeignKey('SieuxYonh', db_index = True)
+  t2 = models.ForeignKey('SieuxYonh', related_name='t2', db_index = True)
   #去聲小韻號
-  t3 = models.ForeignKey('SieuxYonh', db_index = True)
+  t3 = models.ForeignKey('SieuxYonh', related_name='t3', db_index = True)
   #入聲小韻號
-  t4 = models.ForeignKey('SieuxYonh', db_index = True)
+  t4 = models.ForeignKey('SieuxYonh', related_name='t4', db_index = True)
   #重上聲是否歸于去聲
   merge_t2_t3 = models.BooleanField();
   #是否可有入聲
