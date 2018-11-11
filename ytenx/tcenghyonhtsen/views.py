@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.views.decorators.cache import cache_page
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import SieuxYonh, YonhBux, YonhMiuk, Cio
+from models import SieuxYonh, YonhBux, YonhMiuk, Cio, QimBjin
 
 def index_page(request):
   return render(request, 'tcenghyonhtsen/index.html')
@@ -17,6 +17,7 @@ def sieux_yonh_page(request, ziox):
 
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
+    'qim_bjin_set': (sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()),
   })
 
 def sieux_yonh_list_page(request):

@@ -41,7 +41,7 @@
     {% for dzih in dzih_list.kyonh %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
       </h2>
@@ -63,7 +63,7 @@
     {% for dzih in dzih_list.trngyan %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -82,7 +82,7 @@
     {% for dzih in dzih_list.tcyts %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -109,7 +109,7 @@
     {% for dzih in dzih_list.tcytsjdz %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
       </h2>
@@ -138,7 +138,7 @@
     {% for dzih in dzih_list.pyonh %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'pyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
       </h2>
       <p>
@@ -155,7 +155,7 @@
     {% for dzih in dzih_list.dciangx %}
       <div class="vertical_divider display-only-with-vertical-layout"></div>
       <h2>
-        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request.session.layout}}</span>
+        <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
         <span class="latin-below display-only-with-vertical-layout">{{dzih.ngix_1}}</span>
       </h2>
