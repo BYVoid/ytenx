@@ -141,7 +141,7 @@ def syncQimBjin():
     t2 = getSieuxYonhOrNone(line[2])
     t3 = getSieuxYonhOrNone(line[3])
     t4 = getSieuxYonhOrNone(line[4])
-    merge_t2_t3 = line[5]
+    merge_t2_t3 = (line[5] != "FALSE")
     has_t4 = (line[4] != '')
     filename = line[6]
     
