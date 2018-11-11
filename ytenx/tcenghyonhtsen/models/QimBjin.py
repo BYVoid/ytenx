@@ -35,7 +35,7 @@ class QimBjin(models.Model):
     def getIPA(sieuxYonh):
         if sieuxYonh == None:
           return u'?'
-        ipa = sieuxYong.ipa
+        ipa = sieuxYonh.ipa
         ipa = sub(u'^\(ŋ\)|\'$', u'', ipa)
         ipa = sub(u'iɪ(.?)i', ur'i\1', ipa)
         return ipa
