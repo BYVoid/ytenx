@@ -22,22 +22,28 @@ class QimBjin(models.Model):
   
   class Meta:
     app_label = 'tcenghyonhtsen'
-  
+
   def __unicode__(self):
-    def getIPA(sieuxYonh):
-      if sieuxYonh == None:
-        return u'?'
-      return sieuxYonh.ipa
-    
-    text = u'平' + getIPA(self.t1)
-    if self.merge_t2_t3:
-      text = text + u' 上去'
-      if getIPA(self.t3) != '?':
-        text = text + getIPA(self.t3)
-      else:
-        text = text + getIPA(self.t2)
-    else:
-      text = text + u' 上' + getIPA(self.t2) + u' 去' + getIPA(self.t3)
-    if self.has_t4:
-      text = text + u' 入' + getIPA(self.t4)
+    mapping = self.tone_to_ipa_mapping
+    text = u''
+    for tone, ipa in mapping:
+      text = text + tone + ipa + ' '
     return text
+
+  def tone_to_ipa_mapping(self):
+    def getIPA(sieuxYonh):
+        if sieuxYonh == None:
+          return u'?'
+        return sieuxYonh.ipa
+    result = {u'平': getIPA(self.t1)}
+    if self.merge_t2_t3:
+      if getIPA(self.t3) != '?':
+        result[u'上去'] = getIPA(self.t3)
+      else:
+        result[u'上去'] = getIPA(self.t2)
+    else:
+      result[u'上'] = getIPA(self.t2)
+      result[u'去'] = getIPA(self.t3)
+    if self.has_t4:
+      result[u'入'] = getIPA(self.t4)
+    return result
