@@ -20,6 +20,7 @@
             </button>
             <div id="qim-bjin-vertical" class="collapse">            
               <p>
+                <br>
                 {% for qim_bjin in qim_bjin_set %}
                   <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
                   {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
