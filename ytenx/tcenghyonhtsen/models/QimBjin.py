@@ -26,7 +26,7 @@ class QimBjin(models.Model):
   def __unicode__(self):
     mapping = self.tone_to_ipa_mapping()
     text = u''
-    for tone, ipa in mapping.iteritems():
+    for (tone, ipa) in mapping.iteritems():
       text = text + tone + ipa + ' '
     return text
 
@@ -35,15 +35,15 @@ class QimBjin(models.Model):
         if sieuxYonh == None:
           return u'?'
         return sieuxYonh.ipa
-    result = {u'平': getIPA(self.t1)}
+    result = [(u'平', getIPA(self.t1))]
     if self.merge_t2_t3:
-      if getIPA(self.t3) != '?':
-        result[u'上去'] = getIPA(self.t3)
+      if getIPA(self.t3) == '?':
+        result.append((u'上去', getIPA(self.t2)))
       else:
-        result[u'上去'] = getIPA(self.t2)
+        result.append((u'上去', getIPA(self.t3)))
     else:
-      result[u'上'] = getIPA(self.t2)
-      result[u'去'] = getIPA(self.t3)
+      result.append((u'上', getIPA(self.t2)))
+      result.append((u'去', getIPA(self.t3)))
     if self.has_t4:
-      result[u'入'] = getIPA(self.t4)
+      result.append((u'入', getIPA(self.t4)))
     return result
