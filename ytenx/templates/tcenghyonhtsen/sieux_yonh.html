@@ -21,7 +21,7 @@
                 <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 <p class="qim_bjin_text">
                   {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                    {{tone}}<ipa>{{ipa}}</ipa>&nbsp;
+                    <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa}}</ipa>&nbsp;
                   {% endfor %}
                 </p>
               {% endfor %}              
