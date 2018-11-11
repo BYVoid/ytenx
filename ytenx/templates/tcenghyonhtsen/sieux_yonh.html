@@ -54,10 +54,14 @@
         <td colspan="2">
           <div>
             <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
-            <div id="qim-bjin" class="collapse">
-              <p>{{qim_bjin_text}}</p>
-              <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin_filename}}"></p>
-            </div>
+            <div id="qim-bjin" class="collapse">            
+              {% if sieux_yonh.t1.all %}
+                {% for qim_bjin in sieux_yonh.t1.all %}
+                  <p>{{qim_bjin.text}}</p>
+                  <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
+                {% endfor %}
+              {% endif %}   
+            </div>                    
           </div>
         </td>
       </tr>
