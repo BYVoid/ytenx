@@ -21,7 +21,7 @@
                 <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 <p class="qim_bjin_text">
                   {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                    {{tone}}<ipa>{{ipa}}&nbsp;</ipa>
+                    {{tone}}<ipa>{{ipa}}</ipa>&nbsp;
                   {% endfor %}
                 </p>
               {% endfor %}              
@@ -70,10 +70,21 @@
           <td colspan="2">
             <div>
               <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聽</button>
-              <div id="qim-bjin-horizontal" class="collapse">            
+              <div id="qim-bjin-horizontal" class="collapse">
                 {% for qim_bjin in qim_bjin_set %}
-                  <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
-                  <p>{{qim_bjin}}</p>
+                  <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>                
+                  <table>
+                    <tr>
+                      {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                        <td>{{tone}}</td>
+                      {% endfor %}
+                    </tr>
+                    <tr>
+                      {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                        <td>{{ipa}}</td>
+                      {% endfor %}
+                    </tr>
+                  </table>
                 {% endfor %}
               </div>                    
             </div>
