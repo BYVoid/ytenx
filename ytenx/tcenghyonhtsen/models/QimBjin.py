@@ -38,6 +38,6 @@ class QimBjin(models.Model):
         text = text + getIPA(self.t2)
     else:
       text = text + u' 上' + getIPA(self.t2) + u' 去' + getIPA(self.t3)
-    if has_t4:
+    if self.has_t4:
       text = text + u' 入' + getIPA(self.t4)
     return text
