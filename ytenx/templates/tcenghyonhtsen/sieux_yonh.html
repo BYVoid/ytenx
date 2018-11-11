@@ -14,16 +14,17 @@
     	  <td>小韻</td>
     	  <td>{{sieux_yonh}}</td>
         {% if qim_bjin_set %}
-          <td rowspan=8 class="display-only-with-vertical-layout" style="min-height:2em;display:none;">
-            <button data-toggle="collapse" data-target="#qim-bjin-vertical">聞</button>
+          <td nowrap rowspan=8 class="display-only-with-vertical-layout" style="min-height:3em;display:none;">
+            <button data-toggle="collapse" data-target="#qim-bjin-vertical" class="btn btn-default">
+              聞<br><span class="caret"></span>
+            </button>
             <div id="qim-bjin-vertical" class="collapse">            
+              <br>
               {% for qim_bjin in qim_bjin_set %}
-                <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
-                <p class="qim_bjin_text">
-                  {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                    <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
-                  {% endfor %}
-                </p>
+                <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
+                {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                  <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
+                {% endfor %}
               {% endfor %}              
             </div>
           </td>
@@ -69,7 +70,9 @@
         <tr class="display-unless-with-vertical-layout" style="display:none;">
           <td colspan="2">
             <div>
-              <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聞</button>
+              <button data-toggle="collapse" data-target="#qim-bjin-horizontal" class="btn btn-default">
+                聞&nbsp;<span class="caret"></span>
+              </button>
               <div id="qim-bjin-horizontal" class="collapse">
                 {% for qim_bjin in qim_bjin_set %}
                   <table class="table">
