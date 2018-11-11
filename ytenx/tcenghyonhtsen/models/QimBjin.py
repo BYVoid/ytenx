@@ -42,7 +42,7 @@ class QimBjin(models.Model):
     
     result = [(u'平', getIPA(self.t1))]
     if self.merge_t2_t3:
-      result.append((u'上去', getIPA((self.t3 is None) if self.t2 else self.t3)))
+      result.append((u'上去', getIPA(self.t2 if self.t3 is None else self.t3)))
     else:
       result.append((u'上', getIPA(self.t2)))
       result.append((u'去', getIPA(self.t3)))
