@@ -13,9 +13,9 @@
     	<tr>
     	  <td>小韻</td>
     	  <td>{{sieux_yonh}}</td>
-        <td rowspan=7 class="display-only-with-vertical-layout">
-            <button data-toggle="collapse" data-target="#qim-bjin2">聽</button>
-            <div id="qim-bjin2" class="collapse">            
+        <td rowspan=8 class="display-only-with-vertical-layout">
+            <button data-toggle="collapse" data-target="#qim-bjin-vertical">聽</button>
+            <div id="qim-bjin-vertical" class="collapse" style="width:100%">            
               {% if sieux_yonh.t1.all %}
                 {% for qim_bjin in qim_bjin_set %}
                   <p>{{qim_bjin}}</p>
@@ -64,8 +64,8 @@
       <tr class="display-unless-with-vertical-layout">
         <td colspan="2">
           <div>
-            <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
-            <div id="qim-bjin" class="collapse">            
+            <button data-toggle="collapse" data-target="#qim-bjin-horizontal">聽</button>
+            <div id="#qim-bjin-horizontal" class="collapse">            
               {% if sieux_yonh.t1.all %}
                 {% for qim_bjin in qim_bjin_set %}
                   <p>{{qim_bjin}}</p>
@@ -78,17 +78,6 @@
       </tr>
     </table>
   </div>
-</div>
-<div class="display-only-with-vertical-layout">
-  <button data-toggle="collapse" data-target="#qim-bjin3">聽</button>
-  <div id="qim-bjin3" class="collapse">            
-    {% if sieux_yonh.t1.all %}
-    {% for qim_bjin in qim_bjin_set %}
-    <p>{{qim_bjin}}</p>
-    <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
-      {% endfor %}
-      {% endif %}
-  </div>                    
 </div>
 <div class="row">
   <div class="span8">
