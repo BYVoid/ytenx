@@ -50,23 +50,34 @@
         <td>南曲</td>
         <td><span class="horizontal-ltr">{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</span></td>
       </tr>
-      <tr>
+      <tr class="display-unless-with-vertical-layout">
         <td colspan="2">
           <div>
             <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
-            <div id="qim-bjin" class="collapse" style="width:auto">            
+            <div id="qim-bjin" class="collapse">            
               {% if sieux_yonh.t1.all %}
                 {% for qim_bjin in qim_bjin_set %}
                   <p>{{qim_bjin}}</p>
                   <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 {% endfor %}
-              {% endif %}   
+              {% endif %}
             </div>                    
           </div>
         </td>
       </tr>
     </table>
   </div>
+</div>
+<div class="display-only-with-vertical-layout">
+  <button data-toggle="collapse" data-target="#qim-bjin">聽</button>
+  <div id="qim-bjin" class="collapse">            
+    {% if sieux_yonh.t1.all %}
+    {% for qim_bjin in qim_bjin_set %}
+    <p>{{qim_bjin}}</p>
+    <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
+      {% endfor %}
+      {% endif %}
+  </div>                    
 </div>
 <div class="row">
   <div class="span8">
