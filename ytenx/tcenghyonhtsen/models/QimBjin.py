@@ -1,5 +1,6 @@
 # coding=utf-8
 from django.db import models
+from re import sub
 
 #小韻
 class QimBjin(models.Model):
@@ -34,7 +35,11 @@ class QimBjin(models.Model):
     def getIPA(sieuxYonh):
         if sieuxYonh == None:
           return u'?'
-        return sieuxYonh.ipa
+        ipa = sieuxYonh.ipa
+        ipa = sub(u'^\(ŋ\)|\'$', u'', ipa)
+        ipa = sub(u'iɪ(.?)i', ur'i\1', ipa)
+        return ipa
+    
     result = [(u'平', getIPA(self.t1))]
     if self.merge_t2_t3:
       if getIPA(self.t3) == '?':
