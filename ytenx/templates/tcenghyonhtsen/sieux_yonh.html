@@ -22,11 +22,9 @@
               {% for qim_bjin in qim_bjin_set %}
                 <p>
                   <br><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}">
-                  <span class="qim_bjin_text">
                   {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
                     <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
                   {% endfor %}
-                  </span>
                  </p>
               {% endfor %}              
             </div>
