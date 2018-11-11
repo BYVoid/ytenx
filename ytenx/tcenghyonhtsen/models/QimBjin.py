@@ -33,7 +33,7 @@ class QimBjin(models.Model):
 
   def tone_to_ipa_mapping(self):
     def getIPA(sieuxYonh):
-        if sieuxYonh == None:
+        if sieuxYonh is None:
           return u'?'
         ipa = sieuxYonh.ipa
         ipa = sub(u'^\(ŋ\)|\'$', u'', ipa)
@@ -42,7 +42,7 @@ class QimBjin(models.Model):
     
     result = [(u'平', getIPA(self.t1))]
     if self.merge_t2_t3:
-      result.append((u'上去', getIPA(self.t3 if self.t3 else self.t2)))
+      result.append((u'上去', getIPA((self.t3 is None) if self.t2 else self.t3)))
     else:
       result.append((u'上', getIPA(self.t2)))
       result.append((u'去', getIPA(self.t3)))
