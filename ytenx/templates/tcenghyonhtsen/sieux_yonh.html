@@ -15,7 +15,9 @@
     	  <td>{{sieux_yonh}}</td>
         {% if qim_bjin_set %}
           <td rowspan=8 class="display-only-with-vertical-layout" style="min-height:2em;display:none;">
-            <button data-toggle="collapse" data-target="#qim-bjin-vertical" class="btn">聞</button>
+            <button data-toggle="collapse" data-target="#qim-bjin-vertical" class="btn">
+              聞<br><span class="caret"></span>
+            </button>
             <div id="qim-bjin-vertical" class="collapse">            
               {% for qim_bjin in qim_bjin_set %}
                 <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
@@ -70,8 +72,8 @@
           <td colspan="2">
             <div>
               <span class="caret"></span>
-              <button data-toggle="collapse" data-target="#qim-bjin-horizontal" class="btn btn-default">
-                聞<span class="caret"></span>
+              <button data-toggle="collapse" data-target="#qim-bjin-horizontal" class="btn">
+                聞<br><span class="caret"></span>
               </button>
               <div id="qim-bjin-horizontal" class="collapse">
                 {% for qim_bjin in qim_bjin_set %}
