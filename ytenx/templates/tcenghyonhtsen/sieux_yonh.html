@@ -20,7 +20,7 @@
               {% for qim_bjin in qim_bjin_set %}
                 <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 <p class="qim_bjin_text">
-                  {% for tone, ipa in qim_bjin.tone_to_ipa_mapping.items %}
+                  {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
                     {{tone}}
                     <span class="horizontal-ltr">{{ipa}}</span>
                   {% endfor %}
