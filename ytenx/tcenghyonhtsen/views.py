@@ -14,29 +14,9 @@ def sieux_yonh_page(request, ziox):
     sieux_yonh = SieuxYonh.objects.get(ziox=ziox)
   except:
     raise Http404()
-    
-  qim_bjin_set = QimBjin.objects.filter(t1 = ziox) | QimBjin.objects.filter(t2 = ziox) | QimBjin.objects.filter(t3 = ziox) | QimBjin.objects.filter(t4 = ziox);
-  qim_bjin_text = ''
-  qim_bjin_filename = ''
-  if qim_bjin_set.count() = 1:
-    qim_bjin = qim_bjin_set[:1].get()
-    qim_bjin_filename = qim_bjin.filename
-    qim_bjin_text = u'平' + SieuxYonnh.objects.get(ziox = qim_bjin.t1).ipa
-    if qim_bjin.merge_t2_t3:
-      qim_bjin_text = qim_bjin_text + u' 上去'
-      if qim_bjin.t3 != '?':
-        qim_bjin_text = qim_bjin_text + qim_bjin.t3
-      else:
-        qim_bjin_text = qim_bjin_text + qim_bjin.t2
-      else:
-        qim_bjin_text = qim_bjin_text + u' 上' + qim_bjin.t2 + u' 去' + qim_bjin.t3
-    if qim_bjin.t4 != ''
-        qim_bjin_text = qim_bjin_text + u' 入' + qim_bjin.t4
 
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
-    'qim_bjin_text': qim_bjin_text,
-    'qim_bjin_filename': qim_bjin_filename
   })
 
 def sieux_yonh_list_page(request):
