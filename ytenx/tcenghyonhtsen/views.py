@@ -17,7 +17,7 @@ def sieux_yonh_page(request, ziox):
 
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
-    'qim_bjin_set': (sieux_yonh.t1.all() | sieux_yonh.t2.all() | sieux_yonh.t3.all() | sieux_yonh.t4.all()),
+    'qim_bjin_set': (sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()),
   })
 
 def sieux_yonh_list_page(request):
