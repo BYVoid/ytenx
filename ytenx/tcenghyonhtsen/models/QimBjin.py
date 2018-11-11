@@ -24,7 +24,7 @@ class QimBjin(models.Model):
     app_label = 'tcenghyonhtsen'
 
   def __unicode__(self):
-    mapping = self.tone_to_ipa_mapping
+    mapping = self.tone_to_ipa_mapping()
     text = u''
     for tone, ipa in mapping:
       text = text + tone + ipa + ' '
