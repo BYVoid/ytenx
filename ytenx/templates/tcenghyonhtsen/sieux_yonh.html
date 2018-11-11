@@ -19,7 +19,6 @@
               聞<br><span class="caret"></span>
             </button>
             <div id="qim-bjin-vertical" class="collapse">            
-              <p>
                 <br>
                 {% for qim_bjin in qim_bjin_set %}
                   <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
@@ -27,7 +26,6 @@
                     <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
                   {% endfor %}
                 {% endfor %}              
-              </p>                
             </div>
           </td>
         {% endif %}        
