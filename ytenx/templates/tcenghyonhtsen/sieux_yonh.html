@@ -14,7 +14,7 @@
     	  <td>小韻</td>
     	  <td>{{sieux_yonh}}</td>
         {% if qim_bjin_set %}
-          <td nowrap rowspan=8 class="display-only-with-vertical-layout" style="min-height:3em;vertical-align:text-bottom;display:none;">
+          <td nowrap rowspan=8 class="display-only-with-vertical-layout" style="min-height:3em;display:none;">
             <button data-toggle="collapse" data-target="#qim-bjin-vertical" class="btn btn-default">
               聞<br><span class="caret"></span>
             </button>
@@ -22,9 +22,11 @@
               {% for qim_bjin in qim_bjin_set %}
                 <p>
                   <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
-                  {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                    <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
-                  {% endfor %}
+                  <span class="vertical-align:text-bottom;">
+                    {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                      <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
+                    {% endfor %}
+                  </span>
                  </p>
               {% endfor %}              
             </div>
