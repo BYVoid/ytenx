@@ -37,7 +37,7 @@ class QimBjin(models.Model):
           return u'?'
         ipa = sieuxYong.ipa
         ipa = sub(u'^\(ŋ\)|\'$', u'', ipa)
-        ipa = sub(u'iɪ(.?)i':, ur'i\1', ipa)
+        ipa = sub(u'iɪ(.?)i', ur'i\1', ipa)
         return ipa
     
     result = [(u'平', getIPA(self.t1))]
