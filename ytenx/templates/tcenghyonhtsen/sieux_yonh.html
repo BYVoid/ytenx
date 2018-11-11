@@ -18,7 +18,7 @@
             <div id="qim-bjin-vertical" class="collapse">            
               {% if sieux_yonh.t1.all %}
                 {% for qim_bjin in qim_bjin_set %}
-                  <p>{{qim_bjin}}</p>
+                  <p class="qim_bjin_text">{{qim_bjin}}</p>
                   <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>
                 {% endfor %}
               {% endif %}
