@@ -31,7 +31,7 @@ class QimBjin(models.Model):
     
     text = u'平' + getIPA(self.t1)
     if self.merge_t2_t3:
-      text + u' 上去'
+      text = text + u' 上去'
       if getIPA(self.t3) != '?':
         text = text + getIPA(self.t3)
       else:
