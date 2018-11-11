@@ -26,7 +26,7 @@ class QimBjin(models.Model):
   def __unicode__(self):
     mapping = self.tone_to_ipa_mapping()
     text = u''
-    for (tone, ipa) in mapping.iteritems():
+    for tone, ipa in mapping:
       text = text + tone + ipa + ' '
     return text
 
