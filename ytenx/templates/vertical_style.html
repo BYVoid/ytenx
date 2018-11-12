@@ -97,7 +97,9 @@
   .write-as-layout-direction .thumbnails .thumbnail {
     writing-mode: vertical-lr
   }
-
+  thumbnail img {
+    max-height: 100%;
+  }
   .tb-with-table-by-layout-direction {
     writing-mode: horizontal-tb;
     direction: rtl;    
@@ -119,7 +121,12 @@
   }
   .navbar .nav>li {
     float: right;
-  }  
+  }
+  @media only screen and (max-width: 979px) {
+    .nav-collapse .nav>li {
+      float: none;
+    }
+  }
   blockquote {
     border-left: 0px;
     border-top: 0.5em solid transparent;
@@ -250,5 +257,8 @@
     padding-left:8px;
     color:grey;
     background-color:rgba(255,0,0,0);
+  }
+  #search-form {
+    float: left;
   }
 </style>
