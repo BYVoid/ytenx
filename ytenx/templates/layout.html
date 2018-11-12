@@ -93,6 +93,9 @@
                 <a href="{% url 'views.renew_session' %}?layout=vertical&path={{ request.get_full_path|urlencode }}">縱版(Alpha)</a>
               </li>
             </ul>
+            
+          </div>
+          
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               {% if request.session.layout == 'vertical' %}
                 <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;置字于此以詢之">              
@@ -105,7 +108,7 @@
               <input type="hidden" name="jtdt" value="1">
               <input type="hidden" name="jtgt" value="1">              
             </form>
-          </div>
+
         </div>
       </div>
     </div>
