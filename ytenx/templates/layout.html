@@ -60,18 +60,6 @@
               <img src="/static/img/seal_borderless.gif" title="韻典網" width="45" height="45">
             </a>
           </span>
-          <form id="search-form" class="navbar-search" action="{% url 'views.zim' %}">
-            {% if request.session.layout == 'vertical' %}
-              <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;置字于此以詢之">              
-            {% else %}
-              <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">              
-            {% endif %}
-            <input type="hidden" name="dzyen" value="1">
-            <input type="hidden" name="jtkb" value="1">
-            <input type="hidden" name="jtkd" value="1">
-            <input type="hidden" name="jtdt" value="1">
-            <input type="hidden" name="jtgt" value="1">              
-          </form>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="{% block index_active %}{% endblock %}">
