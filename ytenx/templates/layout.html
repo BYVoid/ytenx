@@ -16,6 +16,13 @@
       .sidebar-nav {
         padding: 9px 0;
       }
+      #additional-search-form {
+        display: none;
+      }
+      @media (max-width: 979px)
+      #additional-search-form {
+        display: inline-block;
+      }
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     {% if request.session.layout == 'vertical' %}
@@ -57,6 +64,19 @@
               <img src="/static/img/seal_borderless.gif" title="韻典網" width="45" height="45">
             </a>
           </span>
+            <form id="additional-search-form" class="navbar-search pull-left" action="{% url 'views.zim' %}">
+              {% if request.session.layout == 'vertical' %}
+                <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;置字于此以詢之">              
+              {% else %}
+                <input type="text" class="search-query span3" name="dzih" placeholder="在此輸入要檢索的字">              
+              {% endif %}
+              <input type="hidden" name="dzyen" value="1">
+              <input type="hidden" name="jtkb" value="1">
+              <input type="hidden" name="jtkd" value="1">
+              <input type="hidden" name="jtdt" value="1">
+              <input type="hidden" name="jtgt" value="1">              
+            </form>
+          
           <div class="nav-collapse">
             <ul class="nav">
               <li class="{% block index_active %}{% endblock %}">
@@ -93,9 +113,6 @@
                 <a href="{% url 'views.renew_session' %}?layout=vertical&path={{ request.get_full_path|urlencode }}">縱版(Alpha)</a>
               </li>
             </ul>
-            
-          </div>
-          
             <form class="navbar-search pull-left" action="{% url 'views.zim' %}">
               {% if request.session.layout == 'vertical' %}
                 <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;置字于此以詢之">              
@@ -108,7 +125,7 @@
               <input type="hidden" name="jtdt" value="1">
               <input type="hidden" name="jtgt" value="1">              
             </form>
-
+          </div>
         </div>
       </div>
     </div>
