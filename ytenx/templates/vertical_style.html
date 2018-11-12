@@ -119,9 +119,13 @@
   .badge-info {
     text-orientation: upright;
   }
-  .navbar .nav>li {
+  .horizontal-cn .navbar .nav>li {
     float: right;
-  }  
+  }
+  @media (max-width: 979px)
+  .horizontal-cn .nav-collapse .nav>li {
+    float: none;
+  }
   blockquote {
     border-left: 0px;
     border-top: 0.5em solid transparent;
