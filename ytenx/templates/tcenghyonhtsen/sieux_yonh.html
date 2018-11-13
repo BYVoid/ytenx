@@ -60,7 +60,12 @@
     	</tr>
       <tr>
         <td>譯訓轉寫</td>
-        <td><a class="horizontal-ltr" href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">{{sieux_yonh.ipa|beautify_mandarin_ipa}}</a></td>
+        <td>
+          <a class="horizontal-ltr" href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
+            {{sieux_yonh.jamo}}
+            {{sieux_yonh.ipa|beautify_mandarin_ipa}}
+          </a>
+        </td>
       </tr>
       <tr>
         <td>南曲</td>
