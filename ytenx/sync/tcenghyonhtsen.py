@@ -108,6 +108,7 @@ def syncSieux():
     dciangx = line[3]
     ghrax = line[4]
     ipa = line[10]
+    jamo = line[11]    
     
     miuk = miukMap[miuk]
     pyanx = syncPyanx(dciangx, ghrax)
@@ -118,6 +119,7 @@ def syncSieux():
       yonhMiuk = miuk,
       pyanx = pyanx,
       ipa = ipa,
+      jamo = jamo,
       cioTriungZiox = cioTriungSieuxZiox,
     )
     cioTriungSieuxZiox = cioTriungSieuxZiox + 1
