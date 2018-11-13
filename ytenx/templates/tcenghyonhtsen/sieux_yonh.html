@@ -61,9 +61,9 @@
       <tr>
         <td>譯訓轉寫</td>
         <td>
-          <a class="horizontal-ltr" href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
+          <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
             {{sieux_yonh.jamo}}
-            {{sieux_yonh.ipa|beautify_mandarin_ipa}}
+            <ipa>{{sieux_yonh.ipa|beautify_mandarin_ipa}}</ipa>
           </a>
         </td>
       </tr>
