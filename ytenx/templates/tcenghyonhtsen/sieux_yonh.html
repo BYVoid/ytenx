@@ -62,7 +62,7 @@
         <td>譯訓轉寫</td>
         <td>
           <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
-            {{sieux_yonh.jamo}}
+            <span class="horizontal-ltr">{{sieux_yonh.jamo}}</span>
             <ipa>{{sieux_yonh.ipa|beautify_mandarin_ipa}}</ipa>
           </a>
         </td>
