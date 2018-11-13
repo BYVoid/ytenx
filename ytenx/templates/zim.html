@@ -84,10 +84,10 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
-        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
+        <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}" class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</a>
       </h2>
       <h3 class="display-unless-with-vertical-layout">
-        {{dzih.sieux.ipa}}
+        <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">{{dzih.sieux.ipa}}</a>
       </h3>
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
@@ -111,10 +111,10 @@
       <h2>
         <span class="badge badge-info">逸{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' dzih.sieux.ziox %}">{{dzih.dzih}}</a>
-        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</span>
+        <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}" class="latin-below display-only-with-vertical-layout">{{dzih.sieux.ipa}}</a>
       </h2>
       <h3 class="display-unless-with-vertical-layout">
-        {{dzih.sieux.ipa}}
+        <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">{{dzih.sieux.ipa}}</a>
       </h3>
       <p>
         {{dzih.sieux.pyanx.dciangx}}{{dzih.sieux.pyanx.ghrax}}切
