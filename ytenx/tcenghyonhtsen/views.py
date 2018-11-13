@@ -31,7 +31,7 @@ def sieux_yonh_list_page(request):
     'sieux_yonh_list': sieux_yonh_list,
   })
 
-def transcsription_legend_page(request):
+def transcription_legend_page(request):
   return render(request, 'tcenghyonhtsen/transcription_legend.html')
 
 @cache_page(60 * 60 * 24)
