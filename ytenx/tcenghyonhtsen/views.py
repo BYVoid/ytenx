@@ -32,7 +32,11 @@ def sieux_yonh_list_page(request):
   })
 
 def transcription_legend_page(request):
-  return render(request, 'tcenghyonhtsen/transcription_legend.html')
+  return render(request, 'tcenghyonhtsen/transcription_legend.html' {
+    'ghiunh': [line.split('\t') for line in open('static/tables/jiek_hiunh_ghiunh.tsv')],
+    'shieng': [line.split('\t') for line in open('static/tables/jiek_hiunh_shieng.tsv')],
+    'dewh': [line.split('\t') for line in open('static/tables/jiek_hiunh_dewh.tsv')],
+  })
 
 @cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):
