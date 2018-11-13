@@ -14,7 +14,7 @@ class SieuxYonh(models.Model):
   #書頁
   cio = models.ManyToManyField('Cio')
   #彥文
-  jamo = models.CharField(max_length = 16, db_index = True);
+  # jamo = models.CharField(max_length = 16, db_index = True);
   #IPA
   ipa = models.CharField(max_length = 16, db_index = True);
   #小韻于韻書中之序
