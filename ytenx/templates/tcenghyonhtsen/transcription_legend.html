@@ -9,6 +9,19 @@
 <div class="row">
   <div class="span6 container-table-horizontal">
     <div>
+	    <table class="table table-bordered table-striped table-nowrap">
+        {% for row in ghiunh %}
+          <tr>
+            <td><span class="horizontal-cn">{{ row.0 }}</span></td>
+            <td><span class="horizontal-ltr">{{ row.1 }}</span></td>
+            <td><ipa>{{ row.2 }}</ipa></td>
+            <td>&nbsp;</td>
+            <td><span class="horizontal-cn">{{ row.3 }}</span></td>
+            <td><span class="horizontal-ltr">{{ row.4 }}</span></td>
+            <td><ipa>{{ row.5 }}</ipa></td>
+          </tr>
+        {% endfor %}
+      </table>
       <table class="table table-bordered table-striped table-horizontal table-nowrap">
         <tr class="horizontal-cn">
           <th nowrap>韻部</th>
