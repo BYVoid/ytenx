@@ -7,5 +7,6 @@ urlpatterns = patterns('',
   (r'^yonhmiuk$', 'ytenx.tcenghyonhtsen.views.yonh_miuk_list_page'),
   (r'^yonhmiuk/(.+)/$', 'ytenx.tcenghyonhtsen.views.yonh_miuk_page'),
   (r'^cio/(\d{1,1})/(\d{1,3})/$', 'ytenx.tcenghyonhtsen.views.cio_page'),
+  (r'^transcription_legend$', 'ytenx.tcenghyonhtsen.views.transcription_legend_page'),                                              
   (r'^$', 'ytenx.tcenghyonhtsen.views.index_page'),
 )
