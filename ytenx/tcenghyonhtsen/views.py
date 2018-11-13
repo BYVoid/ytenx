@@ -31,6 +31,9 @@ def sieux_yonh_list_page(request):
     'sieux_yonh_list': sieux_yonh_list,
   })
 
+def transcription_legend_page(request):
+  return render(request, 'tcenghyonhtsen/transcription_legend.html')
+
 @cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):
   return render(request, 'tcenghyonhtsen/yonh_miuk_list.html', {

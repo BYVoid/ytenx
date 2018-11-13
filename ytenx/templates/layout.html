@@ -16,6 +16,15 @@
       .sidebar-nav {
         padding: 9px 0;
       }
+      .vertical {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        direction: ltr;
+        text-align: left;
+      }
+      .table-nowrap td {
+        white-space: nowrap;
+      }
     </style>
     <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
     {% if request.session.layout == 'vertical' %}

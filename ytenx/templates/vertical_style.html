@@ -97,6 +97,20 @@
   .write-as-layout-direction .thumbnails .thumbnail {
     writing-mode: vertical-lr
   }
+  .container-table-horizontal {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    text-align: right;
+    width: auto;
+  }
+  .table-horizontal {
+    writing-mode: horizontal-tb;
+    direction: rtl;
+  }  
+  .table-horizontal tr>td {
+    vertical-align: top;
+    text-align: right;
+  }
   thumbnail img {
     max-height: 100%;
   }
