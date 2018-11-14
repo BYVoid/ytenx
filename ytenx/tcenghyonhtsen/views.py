@@ -38,7 +38,7 @@ def transcription_legend_page(request):
     #return [line.split(separator) for line in open(staticfiles_storage.path(filename), 'r')]
     return [line.split(separator) for line in open(filename, 'r')]
   return render(request, 'tcenghyonhtsen/transcription_legend.html', {
-    'ghiunh': listOfLists('jiek_hiunh_ghiunh.tsv', '\t'),
+    'ghiunh': listOfLists('static/tables/jiek_hiunh_ghiunh.tsv', '\t'),
     'shieng': listOfLists('ytenx/static/tables/jiek_hiunh_shieng.tsv', '\t'),
     'dewh': listOfLists('ytenx/static/tables/jiek_hiunh_dewh.tsv', '\t'),
   })
