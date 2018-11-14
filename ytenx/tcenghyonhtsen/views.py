@@ -34,7 +34,7 @@ def sieux_yonh_list_page(request):
   })
 
 def transcription_legend_page(request):
-  def listOfLists(filename, separator)
+  def listOfLists(filename, separator):
     file_path = os.path.join(settings.STATIC_ROOT, filename)
     return [line.split(separator) for line in open(file_path, 'r')]
   return render(request, 'tcenghyonhtsen/transcription_legend.html' {
