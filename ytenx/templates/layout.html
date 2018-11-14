@@ -73,15 +73,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a id="brand" class="brand" href="{% url 'views.index_page' %}">
-            <img src="/static/img/brand.gif" title="韻典網" class="display-unless-with-vertical-layout" width="100" height="40">
-            <span class="display-only-with-vertical-layout">韻典網</span>
-          </a>
           <span class="display-only-with-vertical-layout">
             <a id="seal" class="brand" href="{% url 'views.index_page' %}">
               <img src="/static/img/seal_dark.gif" title="韻典網" width="45" height="45">
             </a>
           </span>
+          <a id="brand" class="brand" href="{% url 'views.index_page' %}">
+            <img src="/static/img/brand.gif" title="韻典網" class="display-unless-with-vertical-layout" width="100" height="40">
+          </a>          
           <form id="search-form" class="navbar-search" action="{% url 'views.zim' %}">	
             {% if request.session.layout == 'vertical' %}	
               <input type="text" class="search-query span3" name="dzih" placeholder="&#x202e;置字于此以詢之">              	
