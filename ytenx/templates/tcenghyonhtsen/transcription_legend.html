@@ -6,59 +6,60 @@
 <div class="page-header">
   <h1>洪武正韻譯訓轉寫規則</h1>
 </div>
+
 <div class="row">
-        <div class="col-sm-6">
-          <table class="table table-bordered table-striped table-nowrap">
-              <tr>
-                <th><span class="horizontal-cn">韻部</span></th>
-                <th><span class="horizontal-cn">譯訓</span></th>
-                <th><span class="horizontal-cn">轉寫</span></th>
-                <th>&nbsp;</th>
-                <th><span class="horizontal-cn">譯訓</span></th>
-                <th><span class="horizontal-cn">轉寫</span></th>
-              </tr>  
-            {% for row in ghiunh %}
-              <tr>
-                <td><span class="horizontal-cn">{{ row.0 }}</span></td>
-                <td><span class="horizontal-ltr">{{ row.1 }}</span></td>
-                <td><ipa>{{ row.2 }}</ipa></td>
-                <td>&nbsp;</td>
-                <td><span class="horizontal-ltr">{{ row.3 }}</span></td>
-                <td><ipa>{{ row.4 }}</ipa></td>
-              </tr>
-            {% endfor %}
-          </table>
-        </div>
-        <div class="col-sm-6">      
-          <table class="table table-bordered table-striped">
-              <tr>
-                <th nowrap><span class="horizontal-cn">譯訓</span></th>
-                <th nowrap><span class="horizontal-cn">轉寫</span></th>
-                <th nowrap><span class="horizontal-cn">備註</span></th>
-              </tr>              
-            {% for row in shieng %}
-              <tr>
-                <td nowrap><span>{{ row.0 }}</span></td>
-                <td><ipa>{{ row.1 }}</ipa></td>
-                <td><span>{{ row.2 }}</span></td>
-              </tr>
-            {% endfor %}
-          </table>
-          <table class="table table-bordered table-striped">
-              <tr>
-                <th nowrap<span class="horizontal-cn">聲調</span></th>
-                <th nowrap><span class="horizontal-cn">轉寫</span></th>
-                <th nowrap><span class="horizontal-cn">備註</span></th>
-              </tr>              
-            {% for row in dewh %}
-              <tr>
-                <td nowrap><span>{{ row.0 }}</span></td>
-                <td><ipa>{{ row.1 }}</ipa></td>
-                <td><span>{{ row.2 }}</span></td>
-              </tr>
-            {% endfor %}
-          </table>
-        </div>
+  <div class="col-sm">
+    <table class="table table-bordered table-striped table-nowrap">
+        <tr>
+          <th><span class="horizontal-cn">韻部</span></th>
+          <th><span class="horizontal-cn">譯訓</span></th>
+          <th><span class="horizontal-cn">轉寫</span></th>
+          <th>&nbsp;</th>
+          <th><span class="horizontal-cn">譯訓</span></th>
+          <th><span class="horizontal-cn">轉寫</span></th>
+        </tr>  
+      {% for row in ghiunh %}
+        <tr>
+          <td><span class="horizontal-cn">{{ row.0 }}</span></td>
+          <td><span class="horizontal-ltr">{{ row.1 }}</span></td>
+          <td><ipa>{{ row.2 }}</ipa></td>
+          <td>&nbsp;</td>
+          <td><span class="horizontal-ltr">{{ row.3 }}</span></td>
+          <td><ipa>{{ row.4 }}</ipa></td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div class="col-sm">      
+    <table class="table table-bordered table-striped">
+        <tr>
+          <th nowrap><span class="horizontal-cn">譯訓</span></th>
+          <th nowrap><span class="horizontal-cn">轉寫</span></th>
+          <th nowrap><span class="horizontal-cn">備註</span></th>
+        </tr>              
+      {% for row in shieng %}
+        <tr>
+          <td nowrap><span>{{ row.0 }}</span></td>
+          <td><ipa>{{ row.1 }}</ipa></td>
+          <td><span>{{ row.2 }}</span></td>
+        </tr>
+      {% endfor %}
+    </table>
+    <table class="table table-bordered table-striped">
+        <tr>
+          <th nowrap<span class="horizontal-cn">聲調</span></th>
+          <th nowrap><span class="horizontal-cn">轉寫</span></th>
+          <th nowrap><span class="horizontal-cn">備註</span></th>
+        </tr>              
+      {% for row in dewh %}
+        <tr>
+          <td nowrap><span>{{ row.0 }}</span></td>
+          <td><ipa>{{ row.1 }}</ipa></td>
+          <td><span>{{ row.2 }}</span></td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
 </div>
 
 {% endblock %}
