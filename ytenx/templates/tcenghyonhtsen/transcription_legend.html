@@ -7,11 +7,19 @@
   <h1>洪武正韻譯訓轉寫規則</h1>
 </div>
 <div class="row">
-  <duv class="span6 container-table-horizontal" style="white-space: nowrap">
+  <duv class="span6">
     <table class="table">
       <tr>
         <td>
           <table class="table table-bordered table-striped table-nowrap">
+              <tr>
+                <th><span class="horizontal-cn">韻部</span></th>
+                <th><span class="horizontal-cn">譯訓</span></th>
+                <th><span class="horizontal-cn">轉寫</span></th>
+                <th>&nbsp;</th>
+                <th><span class="horizontal-cn">譯訓</span></th>
+                <th><span class="horizontal-cn">轉寫</span></th>
+              </tr>  
             {% for row in ghiunh %}
               <tr>
                 <td><span class="horizontal-cn">{{ row.0 }}</span></td>
@@ -26,6 +34,11 @@
         </td>
         <td>      
           <table class="table table-bordered table-striped">
+              <tr>
+                <th><span class="horizontal-cn">譯訓</span></th>
+                <th><span class="horizontal-cn">轉寫</span></th>
+                <th><span class="horizontal-cn">備註</span></th>
+              </tr>              
             {% for row in shieng %}
               <tr>
                 <td><span>{{ row.0 }}</span></td>
@@ -35,6 +48,11 @@
             {% endfor %}
           </table>
           <table class="table table-bordered table-striped">
+              <tr>
+                <th><span class="horizontal-cn">聲調</span></th>
+                <th><span class="horizontal-cn">轉寫</span></th>
+                <th><span class="horizontal-cn">備註</span></th>
+              </tr>              
             {% for row in dewh %}
               <tr>
                 <td><span>{{ row.0 }}</span></td>
