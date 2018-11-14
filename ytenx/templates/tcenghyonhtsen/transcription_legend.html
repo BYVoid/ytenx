@@ -9,22 +9,22 @@
 
 <div class="row" style="column-count: 2">
     <div>
-      <table class="table table-bordered table-striped table-nowrap table-condensed" style="width: auto">
+      <table class="table table-bordered table-striped table-nowrap table-condensed">
         <tr>
           <th><span class="horizontal-cn">韻部</span></th>
-          <th><span class="horizontal-cn">譯訓</span></th>
+          <th style="width: auto"><span class="horizontal-cn">譯訓</span></th>
           <th><span class="horizontal-cn">轉寫</span></th>
           <th>&nbsp;</th>
-          <th><span class="horizontal-cn">譯訓</span></th>
+          <th style="width: auto"><span class="horizontal-cn">譯訓</span></th>
           <th><span class="horizontal-cn">轉寫</span></th>
         </tr>  
         {% for row in ghiunh %}
           <tr>
             <td><span class="horizontal-cn">{{ row.0 }}</span></td>
-            <td><span class="horizontal-ltr">{{ row.1 }}</span></td>
+            <td style="width: auto"><span class="horizontal-ltr">{{ row.1 }}</span></td>
             <td><ipa>{{ row.2 }}</ipa></td>
             <td>&nbsp;</td>
-            <td><span class="horizontal-ltr">{{ row.3 }}</span></td>
+            <td style="width: auto"><span class="horizontal-ltr">{{ row.3 }}</span></td>
             <td><ipa>{{ row.4 }}</ipa></td>
           </tr>
         {% endfor %}
