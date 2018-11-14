@@ -12,7 +12,7 @@
     {% include "pagination.html" with list=dzip_list only %}
     <table id="yonh-do" class="table table-bordered table-condensed table-striped horizontal-cn">
     <tr>
-      <td rowspan="2" colspan="3">廣韻韻圖第{{dzip_list.number|sryoh}}</td>
+      <td nowrap rowspan="2" colspan="3">廣韻韻圖第{{dzip_list.number|sryoh}}</td>
       {% for cjeng_lyih in cjeng_lyih_list %}
           <td colspan="{{cjeng_lyih.cjengmux_set.all|length}}">
             {{cjeng_lyih}}
