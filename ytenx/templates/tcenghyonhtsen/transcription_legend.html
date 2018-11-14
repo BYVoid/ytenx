@@ -7,7 +7,7 @@
   <h1>洪武正韻譯訓轉寫規則</h1>
 </div>
 <div class="row">
-  <duv class="span6">
+  <div>
     <table class="table" style="width:100%">
       <tr>
         <td>
@@ -35,13 +35,13 @@
         <td>      
           <table class="table table-bordered table-striped">
               <tr>
-                <th><span class="horizontal-cn">譯訓</span></th>
-                <th><span class="horizontal-cn">轉寫</span></th>
-                <th><span class="horizontal-cn">備註</span></th>
+                <th nowrap><span class="horizontal-cn">譯訓</span></th>
+                <th nowrap><span class="horizontal-cn">轉寫</span></th>
+                <th nowrap><span class="horizontal-cn">備註</span></th>
               </tr>              
             {% for row in shieng %}
               <tr>
-                <td><span>{{ row.0 }}</span></td>
+                <td nowrap><span>{{ row.0 }}</span></td>
                 <td><ipa>{{ row.1 }}</ipa></td>
                 <td><span>{{ row.2 }}</span></td>
               </tr>
@@ -49,13 +49,13 @@
           </table>
           <table class="table table-bordered table-striped">
               <tr>
-                <th><span class="horizontal-cn">聲調</span></th>
-                <th><span class="horizontal-cn">轉寫</span></th>
-                <th><span class="horizontal-cn">備註</span></th>
+                <th nowrap<span class="horizontal-cn">聲調</span></th>
+                <th nowrap><span class="horizontal-cn">轉寫</span></th>
+                <th nowrap><span class="horizontal-cn">備註</span></th>
               </tr>              
             {% for row in dewh %}
               <tr>
-                <td><span>{{ row.0 }}</span></td>
+                <td nowrap><span>{{ row.0 }}</span></td>
                 <td><ipa>{{ row.1 }}</ipa></td>
                 <td><span>{{ row.2 }}</span></td>
               </tr>
