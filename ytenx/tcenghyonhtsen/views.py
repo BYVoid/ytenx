@@ -1,6 +1,10 @@
 # coding=utf-8
+import os
+from django.conf import settings
+from django.contrib.staticfiles.storage import staticfiles_storage
 from django.http import Http404
 from django.shortcuts import render
+from django.templatetags.static import static
 from django.views.decorators.cache import cache_page
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
@@ -32,7 +36,13 @@ def sieux_yonh_list_page(request):
   })
 
 def transcription_legend_page(request):
-  return render(request, 'tcenghyonhtsen/transcription_legend.html')
+  def listOfLists(filename, separator):
+    return [line.split(separator) for line in open(staticfiles_storage.path(filename), 'r')]
+  return render(request, 'tcenghyonhtsen/transcription_legend.html', {
+    'ghiunh': listOfLists('ytenx/static/tables/jiek_hiunh_ghiunh.tsv', '\t'),
+    'shieng': listOfLists('ytenx/static/tables/jiek_hiunh_shieng.tsv', '\t'),
+    'dewh': listOfLists('ytenx/static/tables/jiek_hiunh_dewh.tsv', '\t'),
+  })
 
 @cache_page(60 * 60 * 24)
 def yonh_miuk_list_page(request):

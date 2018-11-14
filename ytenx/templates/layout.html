@@ -22,7 +22,8 @@
         direction: ltr;
         text-align: left;
       }
-      .table-nowrap td {
+      .table-nowrap td,
+      .table-nowrap th {
         white-space: nowrap;
       }
     </style>
@@ -40,6 +41,12 @@
         #search-form {
           float: right;
         }
+        title-cn:before {
+          content: "《";
+        }
+        title-cn:after {
+          content: "》";
+        }        
       </style>
     {% endif %}    
     <!--[if lt IE 9]>
