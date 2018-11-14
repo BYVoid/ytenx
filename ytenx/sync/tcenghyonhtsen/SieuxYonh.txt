@@ -461,10 +461,10 @@
 458 常 陽 陳 羊 zc joong    ʃʒiɑ̏ŋ ᄿᅣᇰ
 459 穰 陽 如 羊 ny joong  3  ʒiɑ̏ŋ ᅀᅣᇰ
 460 娘 陽 女 良 nr joong   6 niɑ̏ŋ 냐ᇰ
-461 霜 陽 師 莊 sr joong   7 ʂwɑŋ ᄾᅡᇰ
-462 瘡 陽 初 莊 tshr joong    ʈʂhwɑŋ ᅕᅡᇰ
-463 莊 陽 側 霜 tsr joong  8  ʈʂwɑŋ ᅐᅡᇰ
-464 牀 陽 助 莊 dzr joong    ʈʂɦwɑ̏ŋ ᅑᅡᇰ
+461 霜 陽 師 莊 sr joong   7 ʂ(w)ɑŋ ᄾᅡᇰ
+462 瘡 陽 初 莊 tshr joong    ʈʂh(w)ɑŋ ᅕᅡᇰ
+463 莊 陽 側 霜 tsr joong  8  ʈʂ(w)ɑŋ ᅐᅡᇰ
+464 牀 陽 助 莊 dzr joong    ʈʂɦ(w)ɑ̏ŋ ᅑᅡᇰ
 465 長 陽 仲 良 dc joong    tʃɦiɑ̏ŋ ᅑᅣᇰ
 466 良 陽 龍 張 l joong   8 liɑ̏ŋ 랴ᇰ
 467 香 陽 虛 良 h joong    hiɑŋ 햐ᇰ
@@ -1060,11 +1060,11 @@
 1050 彊 養 巨 兩 g joong q   giɑ̌ŋ' ʿ꺄ᇰ
 1051 仰 養 魚 兩 ng joong q   ŋiɑ̂ŋ ʿᅌᅣᇰ
 1052 想 養 息 兩 s joong q   siɑ̂ŋ ʿᄼᅣᇰ
-1053 㼽 養 楚 兩 tshr joong q   ʈʂhwɑ̂ŋ ʿᅕᅡᇰ
+1053 㼽 養 楚 兩 tshr joong q   ʈʂh(w)ɑ̂ŋ ʿᅕᅡᇰ
 1054 敞 養 昌 兩 tch joong q   tʃhiɑ̂ŋ ʿᅕᅣᇰ
 1055 掌 養 止 兩 tc joong q  2 tʃiɑ̂ŋ ʿᅐᅣᇰ
 2285 長 養 展 兩 tr joong q   tʃiɑ̂ŋ ʿᅐᅣᇰ
-1056 爽 養 所 兩 sr joong q  3 ʂwɑ̂ŋ ʿᄾᅡᇰ
+1056 爽 養 所 兩 sr joong q  3 ʂ(w)ɑ̂ŋ ʿᄾᅡᇰ
 1057 響 養 許 兩 h joong q   hiɑ̂ŋ ʿ햐ᇰ
 1058 襁 養 居 仰 k joong q   kiɑ̂ŋ ʿ갸ᇰ
 1059 丈 養 呈 兩 dc joong q   dʒiɑ̌ŋ' ʿᅑᅣᇰ
@@ -1706,13 +1706,13 @@
 1692 唱 漾 尺 亮 tch joong h   tʃhiɑ̌ŋ ᅕᅣᇰʾ
 1693 障 漾 知 亮 tc joong h   tʃiɑ̌ŋ ᅐᅣᇰʾ
 1694 將 漾 子 亮 ts joong h   tsiɑ̌ŋ ᅎᅣᇰʾ
-1695 壯 漾 側 況 tsr wjoong h   ʈʂwɑ̌ŋ ᅐᅡᇰʾ
+1695 壯 漾 側 況 tsr wjoong h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰʾ
 1696 狂 漾 渠 放 g wjoong h   gwɑ̌ŋ 꽈ᇰʾ
 1697 蹡 漾 七 亮 tsh joong h   tshiɑ̌ŋ ᅔᅣᇰʾ
-1698 狀 漾 助 浪 dzr oong h   ɖʐwɑ̌ŋ ᅑᅡᇰʾ
+1698 狀 漾 助 浪 dzr oong h   ɖʐ(w)ɑ̌ŋ ᅑᅡᇰʾ
 1699 匠 漾 疾 亮 dz joong h   dziɑ̌ŋ ᅏᅣᇰʾ
 1700 讓 漾 而 亮 ny joong h   ʒiɑ̌ŋ ᅀᅣᇰʾ
-1701 創 漾 楚 浪 tshr oong h   ʈʂhwɑ̌ŋ ᅕᅡᇰʾ
+1701 創 漾 楚 浪 tshr oong h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰʾ
 1702 仗 漾 直 亮 dc joong h  2 dʒiɑ̌ŋ ᅑᅣᇰʾ
 1703 諒 漾 力 仗 l joong h 1  liɑ̌ŋ 랴ᇰʾ
 1704 向 漾 許 亮 h joong h   hiɑ̌ŋ 햐ᇰʾ
@@ -1742,12 +1742,12 @@
 1728 漭 漾 莫 浪 m oong h   mɑ̌ŋ 마ᇰʾ
 1729 絳 漾 古 巷 k ooung h   kiɑ̌ŋ 갸ᇰʾ
 1730 巷 漾 胡 降 gh ooung h   ɦiɑ̌ŋ ᅘᅣᇰʾ
-1731 堫 漾 楚 降 tshr ooung h   ʈʂhwɑ̌ŋ ᅕᅡᇰʾ
-1732 撞 漾 陟 降 tsr ooung h   ʈʂwɑ̌ŋ ᅐᅡᇰʾ
-1733 漴 漾 士 降 dzr ooung h   ɖʐwɑ̌ŋ ᅑᅡᇰʾ
-1734 淙 漾 色 降 sr ooung h   ʂwɑ̌ŋ ᄾᅡᇰʾ
+1731 堫 漾 楚 降 tshr ooung h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰʾ
+1732 撞 漾 陟 降 tsr ooung h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰʾ
+1733 漴 漾 士 降 dzr ooung h   ɖʐ(w)ɑ̌ŋ ᅑᅡᇰʾ
+1734 淙 漾 色 降 sr ooung h   ʂ(w)ɑ̌ŋ ᄾᅡᇰʾ
 1735 肨 漾 匹 絳 ph ooung h   phɑ̌ŋ 파ᇰʾ
-1736 䚎 漾 丑 降 tshr ooung h   ʈʂhwɑ̌ŋ ᅕᅡᇰʾ
+1736 䚎 漾 丑 降 tshr ooung h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰʾ
 1737 敬 敬 居 慶 k eing h  1 kǐŋ 기ᇰʾ
 1738 勁 敬 居 正 k eing h   kǐŋ 기ᇰʾ
 1739 徑 敬 吉 定 k eing h   kǐŋ 기ᇰʾ
@@ -2107,8 +2107,8 @@
 2089 作 藥 即 各 ts ook    tsɒk ᅎᅡᆨ
 2090 昨 藥 疾 各 dz ook    dzɒ̏k ᅏᅡᆨ
 2091 鑠 藥 式 灼 c jook    ʃiɒk ᄾᅣᆨ
-2092 浞 藥 食 角 dzr oouk    ɖʐwɒ̏k ᅑᅡᆨ
-2093 朔 藥 色 角 sr oouk    ʂwɒk ᄾᅡᆨ
+2092 浞 藥 食 角 dzr oouk    ɖʐ(w)ɒ̏k ᅑᅡᆨ
+2093 朔 藥 色 角 sr oouk    ʂ(w)ɒk ᄾᅡᆨ
 2094 灼 藥 職 略 tc jook  1  tʃiɒk ᅐᅣᆨ
 2095 箸 藥 直 略 dc jook    dʒiɒ̏k ᅑᅣᆨ
 2096 綽 藥 尺 約 tch jook    tʃhiɒk ᅕᅣᆨ
@@ -2141,9 +2141,9 @@
 2123 郭 藥 古 博 k wook    kwɒk 곽
 2124 惡 藥 遏 各 q ook    ʔɒk ᅙᅡᆨ
 2125 諤 藥 逆 各 ng ook    ŋɒ̏k ᅌᅡᆨ
-2126 娖 藥 測 角 tshr oouk    ʈʂhwɒk ᅕᅡᆨ
-2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɒk ᅐᅡᆨ
-2128 濁 藥 直 角 dzr oouk    ɖʐwɒ̏k ᅑᅡᆨ
+2126 娖 藥 測 角 tshr oouk    ʈʂh(w)ɒk ᅕᅡᆨ
+2127 捉 藥 竹 角 tsr oouk   9 ʈʂ(w)ɒk ᅐᅡᆨ
+2128 濁 藥 直 角 dzr oouk    ɖʐ(w)ɒ̏k ᅑᅡᆨ
 2293 㪬 藥 敕 角 thr oouk    ʈʂhɒk ᅕᅡᆨ
 2129 陌 陌 莫 白 m aik   1 mə̏k 믝
 2130 拍 陌 普 伯 ph aik    phək 픡
