@@ -10,22 +10,27 @@
     direction: ltr;
   }
   .yonh,
-  .yonh td{
+  .yonh td {
     text-orientation: upright;
     white-space: nowrap;
   }
+  td {
+    min-height: 1em;
+  }  
   .full-height-only-with-vertical-layout {
     height: 100%;
   }
   .container-main {
     direction: rtl;
     height: 100%;
-    width: 100%;
+    width: auto;
     overflow: auto;
   }
   .container-main>.write-as-layout-direction {
     padding-left: 20px;
     padding-right: 20px;
+    min-width: 90%;
+    width: auto;
     height: 100%;
   }  
   .write-as-layout-direction {
