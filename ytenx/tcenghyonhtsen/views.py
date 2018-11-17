@@ -1,6 +1,7 @@
 # coding=utf-8
 import os
 from django.conf import settings
+from django.contrib.staticfiles import finders
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.http import Http404
 from django.shortcuts import render
@@ -37,9 +38,10 @@ def sieux_yonh_list_page(request):
 
 def transcription_legend_page(request):
   def listOfLists(filename, separator):
-    return [line.split(separator) for line in open(staticfiles_storage.path(filename), 'r')]
+    return [lines.plit(separator) for line in open(finders.find('tables/jiek_hiunh_ghiunh.tsv'), 'r')]
+    # return [line.split(separator) for line in open(staticfiles_storage.path(filename), 'r')]
   return render(request, 'tcenghyonhtsen/transcription_legend.html', {
-    'ghiunh': listOfLists('ytenx/static/tables/jiek_hiunh_ghiunh.tsv', '\t'),
+    'ghiunh': listOfLists('tables/jiek_hiunh_ghiunh.tsv', '\t'),
     'shieng': listOfLists('ytenx/static/tables/jiek_hiunh_shieng.tsv', '\t'),
     'dewh': listOfLists('ytenx/static/tables/jiek_hiunh_dewh.tsv', '\t'),
   })
