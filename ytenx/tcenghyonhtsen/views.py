@@ -1,6 +1,6 @@
 # coding=utf-8
-import os
 from django.conf import settings
+from django.contrib.staticfiles import finders
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.http import Http404
 from django.shortcuts import render
@@ -19,9 +19,12 @@ def sieux_yonh_page(request, ziox):
   except:
     raise Http404()
 
+  all_qim_bjin_set = sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()
+  valid_qim_bjin_set = [qim_bjin for qim_bjin in all_qim_bjin_set if finders.find('audio/GhungMyoxTcenghYonhTsen/' + qim_bjin.filename)]
+
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
-    'qim_bjin_set': (sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()),
+    'qim_bjin_set': valid_qim_bjin_set,
   })
 
 def sieux_yonh_list_page(request):
@@ -37,11 +40,11 @@ def sieux_yonh_list_page(request):
 
 def transcription_legend_page(request):
   def listOfLists(filename, separator):
-    return [line.split(separator) for line in open(staticfiles_storage.path(filename), 'r')]
+    return [line.split(separator) for line in open(finders.find(filename), 'r')]
   return render(request, 'tcenghyonhtsen/transcription_legend.html', {
-    'ghiunh': listOfLists('ytenx/static/tables/jiek_hiunh_ghiunh.tsv', '\t'),
-    'shieng': listOfLists('ytenx/static/tables/jiek_hiunh_shieng.tsv', '\t'),
-    'dewh': listOfLists('ytenx/static/tables/jiek_hiunh_dewh.tsv', '\t'),
+    'ghiunh': listOfLists('tables/jiek_hiunh_ghiunh.tsv', '\t'),
+    'shieng': listOfLists('tables/jiek_hiunh_shieng.tsv', '\t'),
+    'dewh': listOfLists('tables/jiek_hiunh_dewh.tsv', '\t'),
   })
 
 @cache_page(60 * 60 * 24)
