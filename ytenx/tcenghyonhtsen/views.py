@@ -19,10 +19,11 @@ def sieux_yonh_page(request, ziox):
     sieux_yonh = SieuxYonh.objects.get(ziox=ziox)
   except:
     raise Http404()
-    qim_bjin_set = sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()
-    for qim_bjin in qim_bjin_set:
-      if not os.path.isfile(finders.find('audio/GhungMyoxTcenghYonhTsen/' + qim_bjin.filename)):
-        qim_bjin_set.remove(qim_bjin)
+
+  qim_bjin_set = sieux_yonh.qim_bjin_1.all() | sieux_yonh.qim_bjin_2.all() | sieux_yonh.qim_bjin_3.all() | sieux_yonh.qim_bjin_4.all()
+  for qim_bjin in qim_bjin_set:
+    if not os.path.isfile(finders.find('audio/GhungMyoxTcenghYonhTsen/' + qim_bjin.filename)):
+      qim_bjin_set.remove(qim_bjin)
 
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
