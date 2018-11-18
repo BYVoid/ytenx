@@ -14,6 +14,8 @@ class QimBjin(models.Model):
   t3 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_3', db_index = True, null = True)
   #入聲小韻號
   t4 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_4', db_index = True, null = True)
+  #增補小韻號
+  additional = models.ForeignKey('SieuxYonh', related_name='qim_bjin_additonal', db_index = True, null = True)
   #重上聲是否歸于去聲
   merge_t2_t3 = models.BooleanField();
   #是否可有入聲
