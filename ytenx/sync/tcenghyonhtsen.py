@@ -146,6 +146,7 @@ def syncQimBjin():
     merge_t2_t3 = (line[5] != "FALSE")
     has_t4 = (line[4] != '')
     filename = line[6]
+    additional = getSieuxYonhOrNone(line[7])
     
     qimBjin = QimBjin(
       ziox = ziox,
@@ -156,6 +157,7 @@ def syncQimBjin():
       merge_t2_t3 = merge_t2_t3,
       has_t4 = has_t4,
       filename = filename,
+      additional = additional,
     )
     qimBjin.save()
   
