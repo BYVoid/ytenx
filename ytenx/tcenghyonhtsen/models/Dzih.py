@@ -28,6 +28,7 @@ class Dzih(models.Model):
     return self.dzih
   
   def fallbackGloss(max_recursion_level = 3):
+    return 'adfasdfasdfa'
     if max_recursion_level == 0 or self.cioTriungZiox <= 1 or not re.match(gloss_fallback_pattern, self.ngieh):
       return self.ngieh
     previous = Dzih.objects.filter(cioTriungZiox = self.cioTriungZiox - 1)
