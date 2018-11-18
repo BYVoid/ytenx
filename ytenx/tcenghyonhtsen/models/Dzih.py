@@ -5,7 +5,7 @@ import ytenx.kyonh.models
 
 #單字條目
 class Dzih(models.Model):
-  gloss_fallback_pattern = u'(同上[（\(][（）^\(\)]+)([）\)])'
+  gloss_fallback_pattern = u'(同上[（\(][^（）\(\)]+)([）\)])'
   #Index in ytenx 
   ziox = models.IntegerField(primary_key = True)
   #字
