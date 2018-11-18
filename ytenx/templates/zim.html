@@ -100,7 +100,7 @@
           <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.kwangx.ziox %}">{{dzih.kwangx}}</a>
         </p>          
       {% endif %}        
-      {% if dzih.ngieh != '' %}
+      {% if dzih.fallbackGloss != '' %}
         <blockquote>【正韻】{{dzih.fallbackGloss}}</blockquote>
       {% endif %}
     {% endfor %}
