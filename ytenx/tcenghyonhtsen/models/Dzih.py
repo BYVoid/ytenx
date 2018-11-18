@@ -31,7 +31,7 @@ class Dzih(models.Model):
     if max_recursion_level == 0 or self.cioTriungZiox <= 1 or not re.match(gloss_fallback_pattern, self.ngieh):
       return self.ngieh
     previous = Dzih.objects.filter(cioTriungZiox = self.cioTriungZiox - 1)
-    if not previous
+    if not previous:
       return self.ngieh
     return re.sub(gloss_fallback_pattern, ur'\1‧' + previous[:1].get().fallbackGloss(max_recursion_level - 1) + ur'\2', self.ngieh)
 
