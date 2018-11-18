@@ -28,12 +28,12 @@ class Dzih(models.Model):
     return self.dzih
   
   def fallbackGloss(self, max_recursion_level = 3):
-    if max_recursion_level == 0 or self.cioTriungZiox <= 1 or not re.match(gloss_fallback_pattern, self.ngieh):
+    if max_recursion_level == 0 or self.cioTriungZiox <= 1 or not re.match(Dzih.gloss_fallback_pattern, self.ngieh):
       return self.ngieh
     previous = Dzih.objects.filter(cioTriungZiox = self.cioTriungZiox - 1)
     if not previous:
       return self.ngieh
-    return re.sub(gloss_fallback_pattern, ur'\1‧' + previous[:1].get().fallbackGloss(max_recursion_level - 1) + ur'\2', self.ngieh)
+    return re.sub(Dzih.gloss_fallback_pattern, ur'\1‧' + previous[:1].get().fallbackGloss(max_recursion_level - 1) + ur'\2', self.ngieh)
 
 #古音
 class KoxQim(models.Model):
