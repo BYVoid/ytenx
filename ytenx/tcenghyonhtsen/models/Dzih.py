@@ -33,7 +33,7 @@ class Dzih(models.Model):
     previous = Dzih.objects.filter(cioTriungZiox = self.cioTriungZiox - 1)
     if not previous:
       return self.ngieh
-    return re.sub(Dzih.gloss_fallback_pattern, ur'\1‧' + previous.latest().fallbackGloss(max_recursion_level - 1) + ur'\2', self.ngieh)
+    return re.sub(Dzih.gloss_fallback_pattern, ur'\1‧' + previous[:1][0].fallbackGloss(max_recursion_level - 1) + ur'\2', self.ngieh)
 
 #古音
 class KoxQim(models.Model):
