@@ -154,10 +154,10 @@ def syncQimBjin():
       t2 = t2,
       t3 = t3,
       t4 = t4,
-      additional = additional,
       merge_t2_t3 = merge_t2_t3,
       has_t4 = has_t4,
       filename = filename,
+      additional = additional,
     )
     qimBjin.save()
   
