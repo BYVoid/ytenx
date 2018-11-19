@@ -6,3 +6,4 @@ from YonhMiuk import *
 from YonhBux import *
 from Dzih import *
 from Cio import *
+from Transcription import *
