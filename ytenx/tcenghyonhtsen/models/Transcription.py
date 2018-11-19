@@ -41,7 +41,7 @@ class ShiengTranscription(models.Model):
 #聲調轉寫
 class DewhTranscription(models.Model):
   #調類
-  dewhLwih = models.CharField(max_length = 4, primary_key = True8s)
+  dewhLwih = models.CharField(max_length = 4, primary_key = True)
   #譯訓
   jiekHiunh = models.CharField(max_length = 8)
   #IPA轉寫
