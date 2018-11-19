@@ -4,10 +4,12 @@ import ytenx.kyonh.models
 
 #韻母轉寫
 class GhiunhTranscription(models.Model):
+  #序
+  ziox = models.IntegerField(primary_key = True)
   #韻部
   ghiunhBox = models.CharField(max_length = 4)
   #譯訓舒聲
-  shioJiekHiunh = models.CharField(max_length = 8, primary_key = True)
+  shioJiekHiunh = models.CharField(max_length = 8)
   #舒聲IPA轉寫
   shioIpa = models.CharField(max_length = 16)
   #譯訓舒聲
@@ -23,10 +25,12 @@ class GhiunhTranscription(models.Model):
 
 #聲母轉寫
 class ShiengTranscription(models.Model):
+  #序
+  ziox = models.IntegerField(primary_key = True)
   #聲類
   shiengLwih = models.CharField(max_length = 4)
   #譯訓
-  jiekHiunh = models.CharField(max_length = 8, primary_key = True)
+  jiekHiunh = models.CharField(max_length = 8)
   #IPA轉寫
   ipa = models.CharField(max_length = 16)
   #備註
@@ -40,8 +44,10 @@ class ShiengTranscription(models.Model):
 
 #聲調轉寫
 class DewhTranscription(models.Model):
+  #序
+  ziox = models.IntegerField(primary_key = True)
   #調類
-  dewhLwih = models.CharField(max_length = 4, primary_key = True)
+  dewhLwih = models.CharField(max_length = 4)
   #譯訓
   jiekHiunh = models.CharField(max_length = 8)
   #IPA轉寫
