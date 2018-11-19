@@ -1,4 +1,4 @@
-#調類 譯訓 IPA轉寫 備註
+#調類 譯訓 轉寫 備註
 清平 ◌ ◌ 【Borgia Cinese 475】清平B【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】清平聲 le ton est égal, plein et clair;
 濁平 ◌ ◌̏ 【Borgia Cinese 475】濁平E【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】濁平聲 le ton est égal, plein et bas.
 清上 ◌〯 ◌̂ 【Borgia Cinese 475】上dcBA【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】上聲 le ton est haut dans le principe et bas en finissant;
