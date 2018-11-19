@@ -25,15 +25,16 @@ def sync():
   syncKoxQim()
   syncJitDzih()
   syncSieuxCio()
+  syncTranscriptionLegend()
   print 'Tcengh Yonh Tsen Done'
 
-def traverse(filename, callback):
+def traverse(filename, callback, separator = ' '):
   num = 0
   for line in open(basePath + filename):
     if (line[0] == '#'):
       continue
     line = line[:-1].decode('utf-8')
-    line = line.split(' ')
+    line = line.split(separator)
     callback(line, num)
     num += 1
 
@@ -300,3 +301,43 @@ def syncSieuxCio():
     sieux.save()
 
   print 'Done'
+
+def syncTranscriptionLegend():
+  print 'Transcription...'
+  
+  def syncGhiunh(line, num):
+    ghiunh = GhiunhTranscription(
+      ziox = line[0],
+      ghiunhBox = line[1],
+      shioJiekHiunh = line[2],
+      shioIpa = line[3],
+      njipJiekHiunh = line[4],
+      njipIpa = line[5],
+    )
+    ghiunh.save()
+    
+  def syncShieng(line, num):
+    shieng = ShiengTranscription(
+      ziox = line[0],
+      shiengLwih = line[1],
+      jiekHiunh = line[2],
+      ipa = line[3],
+      memo = line[4],
+    )
+    shieng.save()
+    
+  def syncDewh(line, num):
+    dewh = DewhTranscription(
+      ziox = line[0],
+      dewhLwih = line[1],
+      jiekHiunh = line[2],
+      ipa = line[3],
+      memo = line[4],
+    )
+    dewh.save()    
+
+  traverse('GhiunhTranscription.txt', syncGhiunh, separator='\t')
+  traverse('ShiengTranscription.txt', syncShieng, separator='\t')
+  traverse('DewhTranscription.txt', syncDewh, separator='\t')
+  print 'Done'
+  

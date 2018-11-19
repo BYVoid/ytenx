@@ -20,11 +20,11 @@
         </tr>
         {% for row in ghiunh %}
           <tr>
-            <td><span class="horizontal-cn">{{ row.0 }}</span></td>
-            <td><span class="horizontal-ltr">{{ row.1 }}</span></td>
-            <td><ipa>{{ row.2 }}</ipa></td>
-            <td><span class="horizontal-ltr">{{ row.3 }}</span></td>
-            <td><ipa>{{ row.4 }}</ipa></td>
+            <td><span class="horizontal-cn">{{ row.ghiunhBox }}</span></td>
+            <td><span class="horizontal-ltr">{{ row.shioJiekHiunh }}</span></td>
+            <td><ipa>{{ row.shioIpa }}</ipa></td>
+            <td><span class="horizontal-ltr">{{ row.njipJiekHiunh }}</span></td>
+            <td><ipa>{{ row.njipIpa }}</ipa></td>
           </tr>
         {% endfor %}
       </table>
@@ -33,29 +33,33 @@
   <div style="display: inline-block">
       <table class="table table-bordered table-striped">
         <tr>
+          <th nowrap><span>聲類</span></th>
           <th nowrap><span>譯訓</span></th>
           <th nowrap><span>轉寫</span></th>
           <th nowrap><span>備註</span></th>
         </tr>              
         {% for row in shieng %}
           <tr>
-            <td nowrap><span>{{ row.0 }}</span></td>
-            <td nowrap><ipa>{{ row.1 }}</ipa></td>
-            <td><span>{{ row.2 }}</span></td>
+            <td nowrap><span>{{ row.shiengLwih }}</span></td>
+            <td nowrap><span>{{ row.jiekHiunh }}</span></td>
+            <td nowrap><ipa>{{ row.ipa }}</ipa></td>
+            <td><span>{{ row.memo }}</span></td>
           </tr>
         {% endfor %}
       </table>
       <table class="table table-bordered table-striped">
         <tr>
-          <th nowrap><span>聲調</span></th>
+          <th nowrap><span>調類</span></th>
+          <th nowrap><span>譯訓</span></th>
           <th nowrap><span>轉寫</span></th>
           <th nowrap><span>備註</span></th>
         </tr>              
         {% for row in dewh %}
           <tr>
-            <td nowrap><span>{{ row.0 }}</span></td>
-            <td nowrap><ipa>{{ row.1 }}</ipa></td>
-            <td><span>{{ row.2 }}</span></td>
+            <td nowrap><span>{{ row.dewhLwih }}</span></td>
+            <td nowrap><span class="horizontal-ltr">{{ row.jiekHiunh }}</span></td>
+            <td nowrap><ipa>{{ row.ipa }}</ipa></td>
+            <td><span>{{ row.memo }}</span></td>
           </tr>
         {% endfor %}
       </table>
