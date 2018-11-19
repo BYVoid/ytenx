@@ -25,6 +25,7 @@ def sync():
   syncKoxQim()
   syncJitDzih()
   syncSieuxCio()
+  syncTranscription()
   print 'Tcengh Yonh Tsen Done'
 
 def traverse(filename, callback):
@@ -300,3 +301,40 @@ def syncSieuxCio():
     sieux.save()
 
   print 'Done'
+
+def syncTranscription():
+  print 'Transcription...'
+  
+  def syncGhiunh(line, num):
+    ghiunh = GhiunhTranscription(
+      ghiunhBox = line[0],
+      shioJiekHiunh = line[1],
+      shioIpa = line[2],
+      njipJiekHiunh = line[3],
+      njipIPA = line[4],
+    )
+    ghiunh.save()
+    
+  def syncShieng(line, num):
+    shieng = ShiengTranscription(
+      shiengLwih = line[0],
+      jiekHiunh = line[1],
+      ipa = line[2],
+      memo = line[3],
+    )
+    shieng.save()
+    
+  def syncDewh(line, num):
+    dewh = DewhTranscription(
+      dewhLwih = line[0],
+      jiekHiunh = line[1],
+      ipa = line[2],
+      memo = line[3],
+    )
+    dewh.save()    
+
+  traverse('GhiunhTranscription.txt', syncGhiunh)
+  traverse('ShiengTranscription.txt', syncShieng)
+  traverse('DewhTranscription.txt', syncDewh)
+  print 'Done'
+  
