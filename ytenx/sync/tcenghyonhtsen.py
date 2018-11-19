@@ -307,34 +307,37 @@ def syncTranscription():
   
   def syncGhiunh(line, num):
     ghiunh = GhiunhTranscription(
-      ghiunhBox = line[0],
-      shioJiekHiunh = line[1],
-      shioIpa = line[2],
-      njipJiekHiunh = line[3],
-      njipIpa = line[4],
+      ziox = line[0],
+      ghiunhBox = line[1],
+      shioJiekHiunh = line[2],
+      shioIpa = line[3],
+      njipJiekHiunh = line[4],
+      njipIpa = line[5],
     )
     ghiunh.save()
     
   def syncShieng(line, num):
     shieng = ShiengTranscription(
-      shiengLwih = line[0],
-      jiekHiunh = line[1],
-      ipa = line[2],
-      memo = line[3],
+      ziox = line[0],
+      shiengLwih = line[1],
+      jiekHiunh = line[2],
+      ipa = line[3],
+      memo = line[4],
     )
     shieng.save()
     
   def syncDewh(line, num):
     dewh = DewhTranscription(
-      dewhLwih = line[0],
-      jiekHiunh = line[1],
-      ipa = line[2],
-      memo = line[3],
+      ziox = line[0],
+      dewhLwih = line[1],
+      jiekHiunh = line[2],
+      ipa = line[3],
+      memo = line[4],
     )
     dewh.save()    
 
-  traverse('GhiunhTranscription.txt', syncGhiunh)
-  traverse('ShiengTranscription.txt', syncShieng)
-  traverse('DewhTranscription.txt', syncDewh)
+  traverse('GhiunhTranscription.txt', syncGhiunh, separator='\t')
+  traverse('ShiengTranscription.txt', syncShieng, separator='\t')
+  traverse('DewhTranscription.txt', syncDewh, separator='\t')
   print 'Done'
   
