@@ -311,7 +311,7 @@ def syncTranscription():
       shioJiekHiunh = line[1],
       shioIpa = line[2],
       njipJiekHiunh = line[3],
-      njipIPA = line[4],
+      njipIpa = line[4],
     )
     ghiunh.save()
     
