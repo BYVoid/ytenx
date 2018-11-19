@@ -28,13 +28,13 @@ def sync():
   syncSieuxCio()
   print 'Tcengh Yonh Tsen Done'
 
-def traverse(filename, callback):
+def traverse(filename, callback, separator = ' '):
   num = 0
   for line in open(basePath + filename):
     if (line[0] == '#'):
       continue
     line = line[:-1].decode('utf-8')
-    line = line.split(' ')
+    line = line.split(separator)
     callback(line, num)
     num += 1
 
