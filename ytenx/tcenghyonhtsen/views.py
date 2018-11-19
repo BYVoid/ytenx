@@ -8,7 +8,7 @@ from django.templatetags.static import static
 from django.views.decorators.cache import cache_page
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import SieuxYonh, YonhBux, YonhMiuk, Cio, QimBjin
+from models import SieuxYonh, YonhBux, YonhMiuk, Cio, QimBjin, GhiunhTranscription, ShiengTranscription, DewhTranscription
 
 def index_page(request):
   return render(request, 'tcenghyonhtsen/index.html')
@@ -39,12 +39,10 @@ def sieux_yonh_list_page(request):
   })
 
 def transcription_legend_page(request):
-  def listOfLists(filename, separator):
-    return [line.split(separator) for line in open(finders.find(filename), 'r')]
   return render(request, 'tcenghyonhtsen/transcription_legend.html', {
-    'ghiunh': listOfLists('tables/jiek_hiunh_ghiunh.tsv', '\t'),
-    'shieng': listOfLists('tables/jiek_hiunh_shieng.tsv', '\t'),
-    'dewh': listOfLists('tables/jiek_hiunh_dewh.tsv', '\t'),
+    'ghiunh': GhiunhTranscription.objects.all(),
+    'shieng': ShiengTranscription.objects.all(),
+    'dewh': DewhTranscription.objects.all(),
   })
 
 @cache_page(60 * 60 * 24)
