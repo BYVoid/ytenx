@@ -40,9 +40,9 @@ def sieux_yonh_list_page(request):
 
 def transcription_legend_page(request):
   return render(request, 'tcenghyonhtsen/transcription_legend.html', {
-    'ghiunh': GhiunhTranscription.objects.all(),
-    'shieng': ShiengTranscription.objects.all(),
-    'dewh': DewhTranscription.objects.all(),
+    'ghiunh': GhiunhTranscription.objects.all().order_by('ziox'),
+    'shieng': ShiengTranscription.objects.all().order_by('ziox'),
+    'dewh': DewhTranscription.objects.all().order_by('ziox'),
   })
 
 @cache_page(60 * 60 * 24)
