@@ -18,6 +18,7 @@ cioTriungSieuxZiox = 1
 cioTriungDzihZiox = 1
 
 def sync():
+  syncTranscription()
   syncYonhMiuk()
   syncSieux()
   syncQimBjin()
@@ -25,7 +26,6 @@ def sync():
   syncKoxQim()
   syncJitDzih()
   syncSieuxCio()
-  syncTranscription()
   print 'Tcengh Yonh Tsen Done'
 
 def traverse(filename, callback):
