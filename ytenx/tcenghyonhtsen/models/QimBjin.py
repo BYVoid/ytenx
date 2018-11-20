@@ -21,7 +21,7 @@ class QimBjin(models.Model):
   #文件名
   filename = models.CharField(max_length = 16, db_index = True);
   #增補小韻號
-  additional = models.ForeignKey('SieuxYonh', related_name='qim_bjin_additonal', db_index = True, null = True)
+  additional = models.ForeignKey('SieuxYonh', related_name='qim_bjin_additional', db_index = True, null = True)
   
   class Meta:
     app_label = 'tcenghyonhtsen'

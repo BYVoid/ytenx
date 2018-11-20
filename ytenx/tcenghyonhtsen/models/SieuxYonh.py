@@ -32,3 +32,8 @@ class SieuxYonh(models.Model):
 
   def ziox_cio(self):
     return self.cio.order_by('kyenh').order_by('jep').all()
+  
+  def qim_bjin_list(self):
+    normal_set = self.qim_bjin_1.all() | self.qim_bjin_2.all() | self.qim_bjin_3.all() | self.qim_bjin_4.all()
+    unique_normal_list = list(normal_set)[0:1] if normal_set else []
+    return unique_normal_list + list(self.qim_bjin_additional.all())
