@@ -890,7 +890,7 @@
 882 煖 旱 乃 管 n woon q   nwɔ̂n 눤〯
 883 產 產 楚 簡 tshr an q  1 ʈʂhân ᅕᅡᆫ〯
 884 潸 產 數 版 sr wan q   ʂwân ᄾᅪᆫ〯
-885 撰 產 雛 產 dzr an q   ɖʐǎn' ᅑᅡᆫ〯
+885 撰 產 雛 產 dzr an q   ɖʐ(w)ǎn' ᅑᅡᆫ〯
 886 赧 產 乃 版 n an q   nân 난〯
 887 限 產 下 簡 gh an q   ɦiǎn' ᅘᅣᆫ〯
 888 綰 產 烏 版 q an q   ʔiân ᅙᅣᆫ〯
@@ -935,7 +935,7 @@
 926 舛 銑 尺 兗 tch wjen q   tʃhyuɛ̂n ᅕᆑᆫ〯
 927 剸 銑 止 兗 tc wjen q   tʃyuɛ̂n ᅐᆑᆫ〯
 928 輭 銑 乳 兗 ny wjen q  8 ʒyuɛ̂n ᅀᆑᆫ〯
-929 撰 銑 雛 兗 dzr wen q   ɖʐwǎn' ᅑᅪᆫ〯
+929 撰 銑 雛 兗 dzr wen q   ɖʐ(yu)iɛ̌n' ᅑᅧᆫ〯
 930 展 銑 之 輦 tc jen q   tʃiɛ̂n ᅐᅧᆫ〯
 931 輦 銑 力 展 l en q   liɛ̂n 련〯
 932 衍 銑 以 淺 y jen q  7 jiɛ̂n 연〯
