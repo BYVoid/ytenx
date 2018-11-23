@@ -259,7 +259,7 @@
 258 桓 寒 胡 官 gh woon  4 11 ɦwɔ̏n ᅘᅯᆫ
 259 暵 寒 許 干 h oon  5 12 hɑn 헌
 260 刪 刪 師 姦 sr an   1 ʂan ᄾᅡᆫ
-261 散 刪 相 關 s an    san ᄼᅪᆫ
+261 散 刪 相 關 s an    san ᄼᅡᆫ
 262 關 刪 姑 還 k wan    kwan 관
 263 彎 刪 烏 還 q wan   2 ʔwan ᅙᅪᆫ
 264 還 刪 胡 關 gh wan   3 ɦwȁn ᅘᅪᆫ
@@ -2045,7 +2045,7 @@
 2027 獺 轄 逖 轄 th at    that 탇
 2028 瞎 轄 許 轄 h at    hiat 햗
 2029 𨰉 轄 查 轄 dzr at    ɖʐȁt ᅑᅡᆮ
-2030 拶 轄 宗 滑 ts at    tsat ᅎᅪᆮ
+2030 拶 轄 宗 滑 ts at    tsat ᅎᅡᆮ
 2031 伐 轄 房 滑 bf at    fvȁt ᄬᅡᆮ
 2032 韈 轄 無 發 mf at    vȁt ᄝᅡᆮ
 2033 髮 轄 方 伐 f at    fat ᄫᅡᆮ
