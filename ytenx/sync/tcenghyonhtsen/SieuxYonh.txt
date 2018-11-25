@@ -2157,7 +2157,7 @@
 2138 客 陌 乞 格 kh aik    khək 킉
 2139 格 陌 各 頟 k aik   2 kək 긕
 2140 額 陌 鄂 格 ng aik    ŋə̏k ᅌᅴᆨ
-2141 畫 陌 霍 虢 gh waik    ɦwə̏k ᅘᅱᆨ
+2141 畫 陌 霍 虢 h waik    hwək 휙
 2142 虢 陌 古 伯 k waik    kwək 귁
 2143 索 陌 色 窄 sr aik    ʂək ᄾᅴᆨ
 2144 窄 陌 側 格 tsr aik    ʈʂək ᅐᅴᆨ
