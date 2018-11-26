@@ -706,7 +706,7 @@
 705 ? 891 1536 2032 FALSE van.m4a 
 706 ? 892 ? 2020 FALSE tcan.m4a 2025
 707 ? 897 1519 2030 FALSE tzan.m4a 
-708 ? 929 ? ? TRUE drwan.m4a 
+708 ? 929 ? ? TRUE drwanxh.m4a 
 709 ? 934 ? 2035 FALSE ngien.m4a 
 710 ? 948 1586  FALSE niew.m4a 
 711 ? 976 1608  FALSE jiaw.m4a 356
@@ -714,11 +714,11 @@
 713 ? 976 1608  FALSE jiaw.m4a 1597
 714 ? 999 1645  FALSE tzo.m4a 
 715 ? 1008 1655  FALSE hwo.m4a 
-716 ? 1013 ?  FALSE swo.m4a 
+716 ? 1013 ?  FALSE swox.m4a 
 717 ? 1014 1653  TRUE dzwoh.m4a 
-718 ? 1015 ?  FALSE two.m4a 
+718 ? 1015 ?  FALSE twox.m4a 
 719 ? 1016 1656  FALSE thwo.m4a 
-720 ? 1017 ?  FALSE lwo.m4a 
+720 ? 1017 ?  FALSE lwox.m4a 
 721 ? 1032 1677  FALSE ngwa.m4a 
 722 ? 1033 ?  FALSE tax.m4a 
 723 ? 1034 ?  FALSE shwax.m4a 
@@ -747,23 +747,23 @@
 746 ? ? 1252 1919 TRUE szyung.m4a 
 747 ? ? 1281  TRUE szhieih 699
 748 ? ? 1289  FALSE shieih.m4a 
-749 ? ? 1339  TRUE dru.m4a 
-750 ? ? 1359  FALSE tai.m4a 1360
+749 ? ? 1339  TRUE druh.m4a 
+750 ? ? 1359  FALSE taih.m4a 1360
 751 ? ? 1370  FALSE ngwaih.m4a 
-752 ? ? 1371  FALSE qwai.m4a 
-753 ? ? 1381  FALSE phai.m4a 
-754 ? ? 1390  FALSE khwai.m4a 
+752 ? ? 1371  FALSE qwaih.m4a 
+753 ? ? 1381  FALSE phaih.m4a 
+754 ? ? 1390  FALSE khwaih.m4a 
 755 ? ? 1408  FALSE juih.m4a 
 756 ? ? 1447 1951 FALSE tzyun.m4a 
-757 ? ? 1449 ? TRUE szin.m4a 
+757 ? ? 1449 ? TRUE szinh.m4a 
 758 ? ? 1455 1941 FALSE khin.m4a 
-759 ? ? 1458 ? FALSE shyun.m4a 
+759 ? ? 1458 ? FALSE shyunh.m4a 
 760 ? ? 1478 1976 FALSE nun.m4a 
 761 ? ? 1499 1998 FALSE tshwon.m4a 
-762 ? ? 1515 ? FALSE tchwan.m4a 
-763 ? ? 1585  FALSE ngiew.m4a 
+762 ? ? 1515 ? FALSE tchwanh.m4a 
+763 ? ? 1585  FALSE ngiewh.m4a 
 764 ? ? 1646  TRUE dwoh.m4a 
-765 ? ? 1657  TRUE fvwo.m4a 
+765 ? ? 1657  TRUE fvwoh.m4a 
 766 ? ? 1756 2140 FALSE ngeng.m4a 
 767 ? ? 1784 ? FALSE tshengh.mp4 
 768 ? ? 1786 2187 FALSE theng.m4a 
