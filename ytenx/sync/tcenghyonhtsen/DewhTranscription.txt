@@ -1,7 +1,7 @@
 #序	#調類	譯訓	轉寫	備註
-1	清平	◌	◌	【Borgia Cinese 475】清平B【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】清平聲 le ton est égal, plein et clair;
-2	濁平	◌	◌̏	【Borgia Cinese 475】濁平E【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】濁平聲 le ton est égal, plein et bas.
-3	清上	〯	◌̂	【Borgia Cinese 475】上dcBA【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】上聲 le ton est haut dans le principe et bas en finissant;
+1	清平	◌	◌	【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】清平聲 le ton est égal, plein et clair;【Borgia Cinese 475】清平B
+2	濁平	◌	◌̏	【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】濁平聲 le ton est égal, plein et bas.【Borgia Cinese 475】濁平E
+3	清上	〯	◌̂	【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】上聲 le ton est haut dans le principe et bas en finissant;【Borgia Cinese 475】上dcBA
 4	全濁上	〯	◌̌'	【四聲通考】上聲全濁諸字時音必如全清去聲呼之也
-5	去	〮	◌̌	【Borgia Cinese 475】去GABc【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】去聲 le ton est bas en commençant et haut en finissant,
+5	去	〮	◌̌	【DICTIONNAIRE CHINOIS, FRANÇAIS ET LATIN. PRÉFACE.】去聲 le ton est bas en commençant et haut en finissant,【Borgia Cinese 475】去GABc
 6	入	〮	◌(-p/t/k/ʔ)	

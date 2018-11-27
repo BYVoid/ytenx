@@ -580,7 +580,7 @@
 579 562 ? 1804  FALSE tchow.m4a 
 580 563 1144 1788  FALSE hiw.m4a 
 581 564 1145 2290  FALSE khiw.m4a 
-582 565 1146 1789  FALSE kiow.m4a 
+582 565 1146 1789  FALSE kiw.m4a 
 583 566 1147 1790  TRUE giw.m4a 
 584 567 1143 1825  FALSE qiw.m4a 
 585 568 1136 1799  FALSE tciw.m4a 
@@ -693,7 +693,7 @@
 692 2264 ? ? ? FALSE fim.m4a 
 693 ? 694 1262  FALSE tchi.m4a 1263
 694 ? 699 ?  FALSE shex.m4a 
-695 ? 746 1322  TRUE dzyu.m4a 
+695 ? 746 1322  TRUE dzyuxh.m4a 
 696 ? 757 1343  FALSE thu.m4a 
 697 ? 768 1340  FALSE tcu.m4a 
 698 ? 776 1382  FALSE pai.m4a 
@@ -715,7 +715,7 @@
 714 ? 999 1645  FALSE tzo.m4a 
 715 ? 1008 1655  FALSE hwo.m4a 
 716 ? 1013 ?  FALSE swox.m4a 
-717 ? 1014 1653  TRUE dzwoh.m4a 
+717 ? 1014 1653  TRUE dzwoxh.m4a 
 718 ? 1015 ?  FALSE twox.m4a 
 719 ? 1016 1656  FALSE thwo.m4a 
 720 ? 1017 ?  FALSE lwox.m4a 
@@ -723,13 +723,13 @@
 722 ? 1033 ?  FALSE tax.m4a 
 723 ? 1034 ?  FALSE shwax.m4a 
 724 ? 1038 1685  FALSE tshie.m4a 
-725 ? 1040 ?  TRUE dzieh.m4a 
+725 ? 1040 ?  TRUE dziexh.m4a 
 726 ? 1043 ?  FALSE zhiex.m4a 
 727 ? 1051 1707 ? FALSE ngiang.m4a 
 728 ? 1082 1721 2124 FALSE qang.m4a 
-729 ? 1103 ? ? TRUE hhyuengh.mp4 
+729 ? 1103 ? ? TRUE hhyuengxh.m4a 
 730 ? 1105 1767 ? FALSE qyueng.m4a 
-731 ? 1138 1800  TRUE szhiwh.m4a 
+731 ? 1138 1800  TRUE szhiwxh.m4a 
 732 ? 1142 1809  FALSE niw.m4a 
 733 ? 1152 1791  FALSE fow.m4a 1802
 734 ? 1157 1811  FALSE how.m4a 
@@ -737,15 +737,15 @@
 736 ? 1165 1816  FALSE tshow.m4a 
 737 ? 1169 1828 2215 FALSE tzim.m4a 
 738 ? 1176 1833 ? FALSE tchem.m4a 
-739 ? 1190 ? ? FALSE ngamx.mp4 
+739 ? 1190 ? ? FALSE ngamx.m4a 
 740 ? 1199 ? 2238 FALSE hiam.m4a 
 741 ? 1207 1857 2237 FALSE qiam.m4a 
 742 ? 1209 1858 2235 FALSE tcam.m4a 
-743 ? 1212 ? ? FALSE mamx.mp4 
+743 ? 1212 ? ? FALSE mamx.m4a 
 744 ? 1227 1875 2253 FALSE tiem.m4a 
 745 ? ? 1232 1893 FALSE sung.m4a 
 746 ? ? 1252 1919 TRUE szyung.m4a 
-747 ? ? 1281  TRUE szhieih 699
+747 ? ? 1281  TRUE szhieih.m4a 
 748 ? ? 1289  FALSE shieih.m4a 
 749 ? ? 1339  TRUE druh.m4a 
 750 ? ? 1359  FALSE taih.m4a 1360
@@ -765,7 +765,7 @@
 764 ? ? 1646  TRUE dwoh.m4a 
 765 ? ? 1657  TRUE fvwoh.m4a 
 766 ? ? 1756 2140 FALSE ngeng.m4a 
-767 ? ? 1784 ? FALSE tshengh.mp4 
+767 ? ? 1784 ? FALSE tshengh.m4a 
 768 ? ? 1786 2187 FALSE theng.m4a 
 769 ? ? 1795  TRUE sziwh.m4a 
 770 ? ? 2273  FALSE qah.m4a 
@@ -773,7 +773,7 @@
 772 ? ? ? 1913 FALSE shuk.m4a 
 773 ? ? ? 1915 FALSE nyuk.m4a 
 774 ? ? ? 1926 FALSE shut.m4a 
-775 ? ? ? 1945 FALSE tyut.m4 
+775 ? ? ? 1945 FALSE tyut.m4a 
 776 ? ? ? 1952 TRUE dzyut.m4a 
 777 ? ? ? 1982 FALSE ngut.m4a 
 778 ? ? ? 2021 FALSE nwat.m4a 

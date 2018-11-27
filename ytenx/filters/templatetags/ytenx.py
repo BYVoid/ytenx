@@ -34,7 +34,7 @@ transcription_to_neom_khiowk_replacement = {
   u'[ptk]$': ur'ʔ',
   u'\(ŋ\)': ur'',
   u'\(w\)': ur'w',
-  u'\(yu\)iɛ': ur 'yuɛ',
+  u'\(yu\)iɛ': ur'yuɛ',
 }
 
 @register.filter
