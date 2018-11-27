@@ -19,9 +19,10 @@ def sieux_yonh_page(request, ziox):
   except:
     raise Http404()
 
+  shouldPlayAudio = (ziox == 3 or ziox == 1467 or ziox == 2076);
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
-    'qim_bjin_set': sieux_yonh.qim_bjin_list,
+    'qim_bjin_set': sieux_yonh.qim_bjin_list if shouldPlayAudio else {},
   })
 
 def sieux_yonh_list_page(request):
