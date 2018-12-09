@@ -22,7 +22,7 @@ def sieux_yonh_page(request, ziox):
   qim_bjim_sample_set = {3, 1467, 2076}
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
-    'qim_bjin_set': sieux_yonh.qim_bjin_list if int(ziox) in qim_bjim_sample_set else {},
+    'qim_bjin_set': sieux_yonh.qim_bjin_list,
   })
 
 def sieux_yonh_list_page(request):
