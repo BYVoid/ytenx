@@ -19,6 +19,7 @@ def sieux_yonh_page(request, ziox):
   except:
     raise Http404()
 
+  qim_bjim_sample_set = {3, 1467, 2076}
   return render(request, 'tcenghyonhtsen/sieux_yonh.html', {
     'sieux_yonh': sieux_yonh,
     'qim_bjin_set': sieux_yonh.qim_bjin_list,
