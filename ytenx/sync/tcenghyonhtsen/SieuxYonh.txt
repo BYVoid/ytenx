@@ -117,18 +117,18 @@
 116 敷 模 芳 無 f o  6 11 fu ᄫᅮ
 117 扶 模 逢 夫 bf o   12 fvȕ ᄬᅮ
 118 無 模 微 夫 mf o    vȕ ᄝᅮ
-119 皆 皆 居 諧 k ai   1 kiai 괘
-120 𦂄 皆 丘 皆 kh ai    khiai 쾌
-121 諧 皆 雄 皆 gh ai    ɦiȁi ᅘᅫ
-122 乖 皆 公 懷 k wai   11 kwai 걔
-123 懷 皆 乎 乖 gh wai   7 ɦwȁi ᅘᅤ
+119 皆 皆 居 諧 k ai   1 kiai 걔
+120 𦂄 皆 丘 皆 kh ai    khiai 컈
+121 諧 皆 雄 皆 gh ai    ɦiȁi ᅘᅤ
+122 乖 皆 公 懷 k wai   11 kwai 괘
+123 懷 皆 乎 乖 gh wai   7 ɦwȁi ᅘᅫ
 124 差 皆 初 皆 tshr ai    ʈʂhai ᅕᅢ
 125 齋 皆 莊 皆 tsr ai    ʈʂai ᅐᅢ
 126 豺 皆 牀 皆 dzr ai   10 ʈʂɦȁi ᅑᅢ
 127 排 皆 步 皆 b ai    pɦȁi 빼
 128 埋 皆 謨 皆 m ai    mȁi 매
 129 簁 皆 所 皆 sr ai    ʂai ᄾᅢ
-130 涯 皆 宜 皆 ng ai   2 (ŋ)jiȁi ᅌᅫ
+130 涯 皆 宜 皆 ng ai   2 (ŋ)jiȁi ᅌᅤ
 131 咍 皆 呼 來 h ooi    hai 해
 132 開 皆 丘 哀 kh ooi    khai 캐
 133 該 皆 柯 開 k ooi   3 kai 개
@@ -776,18 +776,18 @@
 771 輔 姥 扶 古 bf o q   fvǔ' ᄬᅮ〯
 772 武 姥 罔 古 mf o q  6 vû ᄝᅮ〯
 773 數 姥 所 武 sr o q   ʂû ᄾᅮ〯
-774 解 解 佳 買 k ai q   kiâi 괘〯
-775 蟹 解 胡 買 gh ai q   ɦiǎi' ᅘᅫ〯
+774 解 解 佳 買 k ai q   kiâi 걔〯
+775 蟹 解 胡 買 gh ai q   ɦiǎi' ᅘᅤ〯
 776 罷 解 補 買 p ai q   pâi 배〯
 777 灑 解 所 蟹 sr ai q  1 ʂâi ᄾᅢ〯
 778 廌 解 鉏 買 dzr ai q   ɖʐǎi' ᅑᅢ〯
 779 跐 解 初 買 tshr ai q   ʈʂhâi ᅕᅢ〯
 780 買 解 莫 蟹 m ai q  2 mâi 매〯
-781 夥 解 胡 買 gh wai q   ɦwǎi' ᅘᅤ〯
-782 柺 解 古 買 k wai q   kwâi 걔〯
-783 駭 解 下 楷 gh ai q   ɦiǎi' ᅘᅫ〯
-784 鍇 解 口 駭 kh ai q   khiâi 쾌〯
-785 騃 解 語 駭 ng ai q   (ŋ)jiâi ᅌᅫ〯
+781 夥 解 胡 買 gh wai q   ɦwǎi' ᅘᅫ〯
+782 柺 解 古 買 k wai q   kwâi 괘〯
+783 駭 解 下 楷 gh ai q   ɦiǎi' ᅘᅤ〯
+784 鍇 解 口 駭 kh ai q   khiâi 컈〯
+785 騃 解 語 駭 ng ai q   (ŋ)jiâi ᅌᅤ〯
 786 矮 解 鴉 蟹 q ai q   ʔâi ᅙᅢ〯
 787 海 解 呼 改 h ooi q   hâi 해〯
 788 愷 解 可 亥 kh ooi q   khâi 캐〯
@@ -1381,29 +1381,29 @@
 1367 愛 泰 於 蓋 q ooi h   ʔǎi ᅙᅢ〮
 1368 艾 泰 牛 蓋 ng ooi h  5 ŋǎi ᅌᅢ〮
 1369 害 泰 下 蓋 gh ooi h   ɦǎi ᅘᅢ〮
-1370 外 泰 五 塊 ng wai h   ŋwǎi ᅌᅤ〮
-1371 嗄 泰 於 邁 q wai h   ʔǎi ᅙᅢ〮
+1370 外 泰 五 塊 ng wai h   ŋwǎi ᅌᅫ〮
+1371 嗄 泰 於 邁 q ai h   ʔǎi ᅙᅢ〮
 1372 慨 泰 丘 蓋 kh ooi h   khǎi 캐〮
 1373 再 泰 作 代 ts ooi h   tsǎi ᅎᅢ〮
 1374 在 泰 昨 代 dz ooi h   dzǎi ᅏᅢ〮
 1375 嘬 泰 楚 邁 tshr ai h   ʈʂhǎi ᅕᅢ〮
 1376 瘥 泰 楚 懈 tshr ai h   ʈʂhǎi ᅕᅢ〮
-1377 戒 泰 居 拜 k ai h  7 kiǎi 괘〮
+1377 戒 泰 居 拜 k ai h  7 kiǎi 걔〮
 1378 隘 泰 烏 懈 q ai h  4 ʔiǎi ᅙᅤ〮
-1379 睚 泰 牛 懈 ng ai h   (ŋ)jiǎi ᅌᅫ〮
-1380 𩋧 泰 口 戒 kh ai h   khiǎi 쾌〮
+1379 睚 泰 牛 懈 ng ai h   (ŋ)jiǎi ᅌᅤ〮
+1380 𩋧 泰 口 戒 kh ai h   khiǎi 컈〮
 1381 派 泰 普 夬 ph ai h  8 phǎi 패〮
 1382 拜 泰 布 怪 p ai h   pǎi 배〮
 1383 敗 泰 薄 邁 b ai h  9 bǎi 빼〮
 1384 賣 泰 莫 懈 m ai h  10 mǎi 매〮
 1385 曬 泰 所 賣 sr ai h   ʂǎi ᄾᅢ〮
 1386 塞 泰 先 代 s ooi h  14 sǎi ᄼᅢ〮
-1387 怪 泰 古 壞 k wai h   kwǎi 걔〮
+1387 怪 泰 古 壞 k wai h   kwǎi 괘〮
 1388 砦 泰 助 邁 dzr ai h  11 ɖʐǎi ᅑᅢ〮
 1389 債 泰 側 賣 tsr ai h  12 ʈʂǎi ᅐᅢ〮
-1390 快 泰 苦 夬 kh wai h   khwǎi 컈〮
-1391 械 泰 下 戒 gh ai h  13 ɦiǎi ᅘᅫ〮
-1392 壞 泰 華 賣 gh wai h   ɦwǎi ᅘᅤ〮
+1390 快 泰 苦 夬 kh wai h   khwǎi 쾌〮
+1391 械 泰 下 戒 gh ai h  13 ɦiǎi ᅘᅤ〮
+1392 壞 泰 華 賣 gh wai h   ɦwǎi ᅘᅫ〮
 1393 隊 隊 杜 對 d woi h   dǔi 뛰〮
 1394 對 隊 都 内 t woi h   tǔi 뒤〮
 1395 退 隊 吐 内 th woi h  1 thǔi 튀〮
