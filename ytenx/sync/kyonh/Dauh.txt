@@ -1298,7 +1298,7 @@
 1297 ʃiɨ̂ shi3
 1298 dʒǐ' zhi4
 1299 khî qi3
-1300 ɖʐɨ̂ shi4
+1300 ɖʐɨ̌' shi4
 1301 ʂʐɨ̌' shi4
 1302 tsɨ̂ zi3
 1303 jî yi3
@@ -1339,7 +1339,7 @@
 1338 ʂû shu3
 1339 ʈʂhû chu3
 1340 ʈʂû zhu3
-1341 ɖʐû shu4
+1341 ɖʐǔ' shu4
 1342 dzy̌' ju4
 1343 ʔŷ yu3
 1344 kŷ ju3
@@ -1371,7 +1371,7 @@
 1370 tshŷ qu3
 1371 lŷ lv3
 1372 sŷ xu3
-1373 ɖʐû shu4
+1373 ɖʐǔ' shu4
 1374 mû mu3
 1375 thû tu3
 1376 dǔ' du4
@@ -1410,7 +1410,7 @@
 1409 ɦiǎi' xia4
 1410 mâi mai3
 1411 khiâi qia3
-1412 ɖʐâi zhai4
+1412 ɖʐǎi' zhai4
 1413 nâi nai3
 1414 bǎi' bai3
 1415 ʔiâi ya3
@@ -1418,7 +1418,7 @@
 1417 kiâi jia3
 1418 ʂâi shai3
 1419 kwâ gua3
-1420 ɖʐwâ zhuai4
+1420 ɖʐwǎ' zhuai4
 1421 ɦwǎ' hua4
 1422 hwâ hua3
 1423 giǎi' 
@@ -1495,7 +1495,7 @@
 1494 khîn qin3
 1495 ʃyûn shun3
 1496 hîn xin3
-1497 ɖʐə̂n shen4
+1497 ɖʐə̌n' shen4
 1498 tʃîn zhen3
 1499 vûn wen3
 1500 fûn fen3
@@ -1585,17 +1585,17 @@
 1584 ɦwǎn' huan4
 1585 bǎn' ban4
 1586 mân man3
-1587 ɖʐân shan4
+1587 ɖʐǎn' shan4
 1588 ŋiân yan3
 1589 ʈʂhân chan3
 1590 phân pan3
-1591 ɖʐǎn' shuan4
+1591 ɖʐwǎn' shuan4
 1592 ʂân shan3
 1593 ɦiǎn' xian4
 1594 mân 
 1595 kiân jian3
 1596 ʈʂhân chan3
-1597 ɖʐân shan4
+1597 ɖʐǎn' shan4
 1598 ŋiân yan3
 1599 ʈʂân zhan3
 1600 ʈʂhwân chuan3
@@ -1651,7 +1651,7 @@
 1650 dʒyuɛ̌n' zhuan4
 1651 tʃyuɛ̂n zhuan3
 1652 syuɛ̂n xuan3
-1653 ɖʐwân shuan4
+1653 ɖʐwǎn' shuan4
 1654 gyuɛ̌n' juan4
 1655 hyuɛ̂n xuan3
 1656 biɛ̌n' bian4
@@ -1661,7 +1661,7 @@
 1660 ʃiɛ̂n shan3
 1661 ʔiɛ̂n yan3
 1662 dʒiɛ̌n' zhan4
-1663 ɖʐân shuan4
+1663 ɖʐǎn' shuan4
 1664 siɛ̂w xiao3
 1665 kiɛ̂w jiao3
 1666 tiɛ̂w diao3
@@ -1707,7 +1707,7 @@
 1706 ʔiâw yao3
 1707 bǎw' bao4
 1708 ŋiâw yao3
-1709 ɖʐâw shao4
+1709 ɖʐǎw' shao4
 1710 ʈʂhâw chao3
 1711 ʈʂâw zhao3
 1712 ʂâw shao3
@@ -1788,7 +1788,7 @@
 1787 ʒiɛ̂ re3
 1788 ʈʂâ zha3
 1789 ʈʂâ zha3
-1790 ɖʐâ sha4
+1790 ɖʐǎ' sha4
 1791 tʃhiɛ̂ che3
 1792 ʈʂâ zha3
 1793 nâ na3
@@ -1867,7 +1867,7 @@
 1866 kwə̂ŋ gong3
 1867 pə̂ŋ beng3
 1868 ʈʂə̂ŋ zheng3
-1869 ɖʐə̂ŋ zheng4
+1869 ɖʐə̌ŋ' zheng4
 1870 ʔwə̂ŋ weng3
 1871 tə̂ŋ 
 1872 lə̂ŋ leng3
@@ -1950,7 +1950,7 @@
 1949 tʃîw zhou3
 1950 fə̂w fou3
 1951 ʈʂə̂w zhou3
-1952 ɖʐə̂w shou4
+1952 ɖʐə̌w' shou4
 1953 ʈʂhə̂w chou3
 1954 fə̂w fou3
 1955 ɦə̌w' hou4
@@ -1970,7 +1970,7 @@
 1969 tsə̂w zou3
 1970 khə̂w kou3
 1971 də̌w' dou4
-1972 ɖʐə̂w 
+1972 ɖʐə̌w' 
 1973 tshə̂w cou3
 1974 ʔîw you3
 1975 kîw jiu3
@@ -2002,7 +2002,7 @@
 2001 hîm xin3
 2002 tʃîm zhen3
 2003 jîm yin3
-2004 ɖʐə̂m shen4
+2004 ɖʐə̌m' shen4
 2005 kâm gan3
 2006 dǎm' dan4
 2007 ʔâm an3
@@ -2064,10 +2064,10 @@
 2063 khiɛ̂m qian3
 2064 ʔiɛ̂m yan3
 2065 ɦiǎm' xian4
-2066 ɖʐâm zhan4
+2066 ɖʐǎm' zhan4
 2067 khiâm qian3
 2068 kiâm jian3
-2069 ɖʐâm shan4
+2069 ɖʐǎm' shan4
 2070 lâm lan3
 2071 ʈʂâm zhan3
 2072 ʈʂhâm chan3
@@ -2083,7 +2083,7 @@
 2082 ʔiâm yan3
 2083 ʈʂhâm chan3
 2084 hiâm xian3
-2085 ɖʐâm shan4
+2085 ɖʐǎm' shan4
 2086 fvǎm' fan4
 2087 vâm man3
 2088 fâm fan3
