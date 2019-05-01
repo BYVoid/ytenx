@@ -1,179 +1,179 @@
 #ytenx_permanent_index 代表字 韻目 反切上字 反切下字 聲母 韻母 聲調 古音序 逸字序 ipa 譯訓
-1 東 東 德 紅 t ong   1 tuŋ 두ᇰ
-2 通 東 他 紅 th ong   2 thuŋ 투ᇰ
-3 同 東 徒 紅 d ong   3 tɦȕŋ 뚜ᇰ
-4 龍 東 盧 容 l ong   4 l(y)ȕŋ 류ᇰ
-5 隆 東 良 中 l jong  2  lyȕŋ 류ᇰ
-6 蓬 東 蒲 紅 b ong  1  pɦȕŋ 뿌ᇰ
-7 蒙 東 莫 紅 m ong  3 5 mȕŋ 무ᇰ
-8 悤 東 倉 紅 tsh ong   6 tshuŋ ᅔᅮᇰ
-9 宗 東 祖 冬 ts ong  4  tsuŋ ᅎᅮᇰ
-10 縱 東 將 容 ts jong   7 tsyuŋ ᅎᅲᇰ
-11 叢 東 徂 紅 dz ong    tsɦȕŋ ᅏᅮᇰ
-12 從 東 牆 容 s jong    tsɦyȕŋ ᅏᅲᇰ
-13 洪 東 胡 公 gh ong  7 8 ɦȕŋ ᅘᅮᇰ
-14 烘 東 呼 洪 h ong  8 9 huŋ 후ᇰ
-15 空 東 苦 紅 kh ong    khuŋ 쿠ᇰ
-16 公 東 古 紅 k ong  9  kuŋ 구ᇰ
-17 翁 東 烏 紅 q ong    ʔuŋ ᅙᅮᇰ
-18 風 東 方 中 f jong   10 fuŋ ᄫᅮᇰ
-19 馮 東 符 中 bf jong   11 fvȕŋ ᄬᅮᇰ
-20 松 東 息 中 s jong  10 12 syuŋ ᄼᅲᇰ
-21 充 東 昌 中 tch jong   13 tʃhyuŋ ᅕᅲᇰ
-22 中 東 陟 隆 tc jong  5 14 tʃyuŋ ᅐᅲᇰ
-23 戎 東 而 中 ny jong    ʒyȕŋ ᅀᅲᇰ
-24 崇 東 鉏 中 dzr jong  6  ʈʂɦȕŋ ᅑᅮᇰ
-25 蟲 東 持 中 dc jong   15 tʃɦyȕŋ ᅑᅲᇰ
-26 融 東 以 中 y jong   16 jyȕŋ 유ᇰ
-27 顒 東 魚 容 ng jong    ŋyȕŋ ᅌᅲᇰ
-28 弓 東 居 中 k jong   18 kyuŋ 규ᇰ
-29 穹 東 丘 中 kh jong  12 20 khyuŋ 큐ᇰ
-30 窮 東 渠 宮 g jong  13  kɦyȕŋ 뀨ᇰ
-31 農 東 奴 宗 n ong   19 nȕŋ 누ᇰ
-32 舂 東 書 容 c jong  14  ʃyuŋ ᄾᅲᇰ
-33 胷 東 許 容 h jong    hyuŋ 휴ᇰ
-34 邕 東 於 容 q jong  15  ʔyuŋ ᅙᅲᇰ
-35 雄 東 胡 容 gh jong  11 17 ɦyȕŋ ᅘᅲᇰ
-36 支 支 旨 而 tc jer  1 1 tʃiɨ ᅐᅵ
-37 菑 支 莊 持 tsr er    ʈʂɨ ᅐᅳ
-38 施 支 申 之 c jer  3 4 ʃiɨ(ʂɨ) ᄾᅵ
-39 差 支 叉 兹 tshr er    ʈʂhɨ ᅕᅳ
-40 時 支 辰 之 zc jer    ʃʒiɨ̏ ᄿᅵ
-41 兒 支 如 支 ny jer    ɻ̏ ᅀᅵ
-42 斯 支 相 咨 s er   5 sɨ ᄼᅳ
-43 雌 支 此 兹 tsh er    tshɨ ᅔᅳ
-44 貲 支 津 私 ts er  2 2 tsɨ ᅎᅳ
-45 疵 支 才 資 dz er   3 tsɦɨ̏ ᅏᅳ
-46 知 支 珍 而 tc je   8 tʃi ᅐᅵ
-47 摛 支 抽 知 tch je   9 tʃhi ᅕᅵ
-48 馳 支 陳 知 dc je   7 tʃɦȉ ᅑᅵ
-49 紕 支 篇 夷 ph e   12 phi 피
-50 悲 支 逋 眉 p e   10 pi 비
-51 皮 支 蒲 麋 b e  5 11 pɦȉ 삐
-52 麋 支 忙 皮 m e   13 mȉ 미
-53 夷 支 延 知 y je  6 14 jȉ 이
-54 奇 支 渠 宜 g e  7 15 kɦȉ 끼
-55 羲 支 虛 宜 h e  10 17 hi 히
-56 伊 支 於 宜 q e  8 16 ʔi ᅙᅵ
-57 詞 支 詳 兹 z e    szɨ̏ ᄽᅳ
-58 微 支 無 非 mf e    vȉ ᄝᅵ
-59 肥 支 符 非 bf e  9 17 fvȉ ᄬᅵ
-60 霏 支 芳 微 f e   18 fi ᄫᅵ
-61 齊 齊 前 西 dz eoi  3 1 tsɦiɪ̏i ᅏᅨ
-62 西 齊 先 齊 s eoi  8  siɪi ᄼᅨ
-63 妻 齊 千 西 tsh eoi    tshiɪi ᅔᅨ
-64 齎 齊 牋 西 ts eoi  9 2 tsiɪi ᅎᅨ
-65 氐 齊 都 黎 t eoi    tiɪi 뎨
-66 梯 齊 天 黎 th eoi    thiɪi 톄
-67 題 齊 杜 兮 d eoi  5 3 tɦiɪ̏i 뗴
-68 泥 齊 年 題 n eoi  1  niɪ̏i 녜
-69 倪 齊 研 奚 ng eoi   4 ŋiɪ̏i ᅌᅨ
-70 離 齊 鄰 溪 l eoi  4 5 liɪ̏i 례
-71 雞 齊 堅 溪 k eoi  7 6 kiɪi 계
-72 谿 齊 牽 奚 kh eoi  6 7 khiɪi 켸
-73 兮 齊 弦 雞 gh eoi    ɦiɪ̏i ᅘᅨ
-74 迷 齊 綿 衣 m eoi  2  miɪ̏i 몌
-75 篦 齊 邊 迷 p eoi    piɪi 볘
-76 烓 齊 淵 畦 q eoi    ʔiɪi ᅙᅨ
-77 魚 魚 牛 居 ng ju   1 ŋy̏ ᅌᅲ
-78 于 魚 雲 俱 y ju   2 jy̏ 유
-79 於 魚 衣 虛 q ju    ʔy ᅙᅲ
-80 虛 魚 休 居 h ju   3 hy 휴
-81 區 魚 丘 於 kh ju   4 khy 큐
-82 居 魚 斤 於 k ju  1  ky 규
-83 渠 魚 求 於 g ju   5 kɦy̏ 뀨
-84 胥 魚 新 於 s ju   6 sy ᄼᅲ
-85 疽 魚 子 余 ts ju   7 tsy ᅎᅲ
-86 徐 魚 祥 於 z ju    szy̏ ᄽᅲ
-87 書 魚 商 居 c ju  3 8 ʃy ᄾᅲ
-88 諸 魚 專 於 tc ju  2 9 tʃy ᅐᅲ
-89 除 魚 長 魚 dc ju   9 tʃɦy̏ ᅑᅲ
-90 殊 魚 尚 朱 zc ju   10 ʃʒy̏ ᄿᅲ
-91 如 魚 人 余 ny ju   11 ʒy̏ ᅀᅲ
-92 袽 魚 女 居 nr ju    ny̏ 뉴
-93 樞 魚 抽 居 tch ju    tʃhy ᅕᅲ
-94 閭 魚 淩 如 l ju   12 ly̏ 류
-95 趨 魚 逡 須 tsh ju    tshy ᅔᅲ
-96 模 模 莫 胡 m o  1 1 mȕ 무
-97 鋪 模 滂 模 ph o   2 phu 푸
-98 逋 模 奔 謨 p o    pu 부
-99 租 模 宗 蘇 ts o   3 tsu ᅎᅮ
-100 徂 模 叢 租 dz o    tsɦȕ ᅏᅮ
-101 蒲 模 薄 胡 b o    pɦȕ 뿌
-102 都 模 東 徒 t o    tu 두
-103 徒 模 同 都 d o   4 tɦȕ 뚜
-104 盧 模 龍 都 l o   5 lȕ 루
-105 奴 模 農 都 n o    nȕ 누
-106 胡 模 洪 孤 gh o   6 ɦȕ ᅘᅮ
-107 孤 模 攻 乎 k o  2 7 ku 구
-108 枯 模 空 胡 kh o  3  khu 쿠
-109 呼 模 荒 胡 h o    hu 후
-110 吾 模 訛 胡 ng o  4  ŋȕ ᅌᅮ
-111 麤 模 倉 胡 tsh o    tshu ᅔᅮ
-112 烏 模 汪 胡 q o   8 ʔu ᅙᅮ
-113 蘇 模 孫 租 s o  5 10 su ᄼᅮ
-114 初 模 楚 徂 tshr o    ʈʂhu ᅕᅮ
-115 蔬 模 山 徂 sr o   9 ʂu ᄾᅮ
-116 敷 模 芳 無 f o  6 11 fu ᄫᅮ
-117 扶 模 逢 夫 bf o   12 fvȕ ᄬᅮ
-118 無 模 微 夫 mf o    vȕ ᄝᅮ
-119 皆 皆 居 諧 k ai   1 kiai 걔
-120 𦂄 皆 丘 皆 kh ai    khiai 컈
-121 諧 皆 雄 皆 gh ai    ɦiȁi ᅘᅤ
-122 乖 皆 公 懷 k wai   11 kwai 괘
-123 懷 皆 乎 乖 gh wai   7 ɦwȁi ᅘᅫ
-124 差 皆 初 皆 tshr ai    ʈʂhai ᅕᅢ
-125 齋 皆 莊 皆 tsr ai    ʈʂai ᅐᅢ
-126 豺 皆 牀 皆 dzr ai   10 ʈʂɦȁi ᅑᅢ
-127 排 皆 步 皆 b ai    pɦȁi 빼
-128 埋 皆 謨 皆 m ai    mȁi 매
-129 簁 皆 所 皆 sr ai    ʂai ᄾᅢ
-130 涯 皆 宜 皆 ng ai   2 (ŋ)jiȁi ᅌᅤ
-131 咍 皆 呼 來 h ooi    hai 해
-132 開 皆 丘 哀 kh ooi    khai 캐
-133 該 皆 柯 開 k ooi   3 kai 개
-134 孩 皆 何 開 gh ooi    ɦȁi ᅘᅢ
-135 哀 皆 於 開 q ooi   4 ʔai ᅙᅢ
-136 皚 皆 魚 開 ng ooi   9 ŋȁi ᅌᅢ
-137 胎 皆 湯 來 th ooi    thai 태
-138 臺 皆 堂 來 d ooi   5 tɦȁi 때
-139 能 皆 囊 來 n ooi    nȁi 내
-140 來 皆 郎 才 l ooi   6 lȁi 래
-141 䚡 皆 桑 才 s ooi   8 sai ᄼᅢ
-142 猜 皆 倉 才 tsh ooi    tshai ᅔᅢ
-143 哉 皆 將 來 ts ooi    tsai ᅎᅢ
-144 裁 皆 牆 來 dz ooi    tsɦȁi ᅏᅢ
-145 灰 灰 呼 回 h woi   1 hui 휘
-146 恢 灰 枯 回 kh woi   2 khui 퀴
-147 煨 灰 烏 魁 q woi    ʔui ᅙᅱ
-148 傀 灰 姑 回 k woi    kui 귀
-149 規 灰 居 爲 k wjoi   3 kui 귀
-150 回 灰 胡 瑰 gh woi  1 4 ɦȕi ᅘᅱ
-151 危 灰 吾 回 ng woi   5 ŋȕi ᅌᅱ
-152 堆 灰 都 回 t woi    tui 뒤
-153 推 灰 通 回 th woi    thui 튀
-154 隤 灰 徒 回 d woi   13 tɦȕi 뛰
-155 雷 灰 盧 回 l woi  2 6 lȕi 뤼
-156 崔 灰 倉 回 tsh woi    tshui ᅔᅱ
-157 杯 灰 晡 回 p woi   7 pui 뷔
-158 丕 灰 鋪 杯 ph woi    phui 퓌
-159 枚 灰 謨 杯 m woi   8 mȕi 뮈
-160 垂 灰 直 追 dc wjoi    ʈʂɦȕi ᅑᅱ
-161 隨 灰 旬 威 z wjoi    szȕi ᄽᅱ
-162 隹 灰 朱 惟 tc wjoi  4 9 ʈʂui ᅐᅱ
-163 甤 灰 如 隹 ny wjoi   10 ʒȕi ᅀᅱ
-164 雖 灰 蘇 回 s woi   11 sui ᄼᅱ
-165 爲 灰 于 嬀 gh wjoi    ȕi 위
-166 葵 灰 渠 爲 g wjoi   12 kɦȕi 뀌
-167 嗺 灰 遵 綏 ts wjoi    tsui ᅎᅱ
-168 裴 灰 蒲 枚 b woi  3  pɦȕi 쀠
-169 衰 灰 所 追 sr wjoi    ʂui ᄾᅱ
-170 痿 灰 儒 隹 ny wjoi    ʒȕi ᅀᅱ
-171 厜 灰 津 垂 ts wjoi    tsui ᅎᅱ
-172 誰 灰 視 隹 zc wjoi    ʂʐȕi ᄿᅱ
-173 睢 灰 翾 圭 h wjoi    hui 휘
-174 吹 灰 昌 垂 tch wjoi    ʈʂhui ᅕᅱ
-175 摧 灰 徂 回 dz woi    tsɦȕi ᅏᅱ
+1 東 東 德 紅 t ong   1 tuŋ *두ᇰ
+2 通 東 他 紅 th ong   2 thuŋ *투ᇰ
+3 同 東 徒 紅 d ong   3 tɦȕŋ *뚜ᇰ
+4 龍 東 盧 容 l ong   4 l(y)ȕŋ *류ᇰ俗*루ᇰ
+5 隆 東 良 中 l jong  2  lyȕŋ *류ᇰ
+6 蓬 東 蒲 紅 b ong  1  pɦȕŋ *뿌ᇰ
+7 蒙 東 莫 紅 m ong  3 5 mȕŋ *무ᇰ
+8 悤 東 倉 紅 tsh ong   6 tshuŋ *ᅔᅮᇰ
+9 宗 東 祖 冬 ts ong  4  tsuŋ *ᅎᅮᇰ
+10 縱 東 將 容 ts jong   7 tsyuŋ *ᅎᅲᇰ
+11 叢 東 徂 紅 dz ong    tsɦȕŋ *ᅏᅮᇰ
+12 從 東 牆 容 s jong    tsɦyȕŋ *ᅏᅲᇰ
+13 洪 東 胡 公 gh ong  7 8 ɦȕŋ *ᅘᅮᇰ
+14 烘 東 呼 洪 h ong  8 9 huŋ *후ᇰ
+15 空 東 苦 紅 kh ong    khuŋ *쿠ᇰ
+16 公 東 古 紅 k ong  9  kuŋ *구ᇰ
+17 翁 東 烏 紅 q ong    ʔuŋ *ᅙᅮᇰ
+18 風 東 方 中 f jong   10 fuŋ *ᄫᅮᇰ
+19 馮 東 符 中 bf jong   11 fvȕŋ *ᄬᅮᇰ
+20 松 東 息 中 s jong  10 12 s(y)uŋ *ᄼᅲᇰ俗*ᄼᅮᇰ
+21 充 東 昌 中 tch jong   13 tʃhyuŋ *ᅕᅲᇰ
+22 中 東 陟 隆 tc jong  5 14 tʃyuŋ *ᅐᅲᇰ
+23 戎 東 而 中 ny jong    ʒyȕŋ *ᅀᅲᇰ
+24 崇 東 鉏 中 dzr jong  6  ʈʂɦȕŋ *ᅑᅮᇰ
+25 蟲 東 持 中 dc jong   15 tʃɦyȕŋ *ᅑᅲᇰ
+26 融 東 以 中 y jong   16 jyȕŋ *유ᇰ
+27 顒 東 魚 容 ng jong    ŋyȕŋ *ᅌᅲᇰ
+28 弓 東 居 中 k jong   18 kyuŋ *규ᇰ
+29 穹 東 丘 中 kh jong  12 20 khyuŋ *큐ᇰ
+30 窮 東 渠 宮 g jong  13  kɦyȕŋ *뀨ᇰ
+31 農 東 奴 宗 n ong   19 nȕŋ *누ᇰ
+32 舂 東 書 容 c jong  14  ʃyuŋ *ᄾᅲᇰ
+33 胷 東 許 容 h jong    hyuŋ *휴ᇰ
+34 邕 東 於 容 q jong  15  ʔyuŋ *ᅙᅲᇰ
+35 雄 東 胡 容 gh jong  11 17 ɦyȕŋ *ᅘᅲᇰ
+36 支 支 旨 而 tc jer  1 1 tʃi/ʈʂɨ *ᅐᅵ俗*ᅐᅵᇫ/*ᅐᅳᇫ
+37 菑 支 莊 持 tsr er    ʈʂɨ *ᅐᅳ
+38 施 支 申 之 c jer  3 4 ʃi/ʂɨ *ᄾᅵ俗*ᄾᅳᇫ
+39 差 支 叉 兹 tshr er    ʈʂhɨ *ᅕᅳ
+40 時 支 辰 之 zc jer    ʃʒȉ/ʂʐɨ̏ *ᄿᅵ俗*ᄿᅳᇫ
+41 兒 支 如 支 ny jer    ɻ̏ *ᅀᅵ俗*ᅀᅳᇫ
+42 斯 支 相 咨 s er   5 sɨ *ᄼᅳ
+43 雌 支 此 兹 tsh er    tshɨ *ᅔᅳ
+44 貲 支 津 私 ts er  2 2 tsɨ *ᅎᅳ
+45 疵 支 才 資 dz er   3 tsɦɨ̏ *ᅏᅳ
+46 知 支 珍 而 tc je   8 tʃi *ᅐᅵ
+47 摛 支 抽 知 tch je   9 tʃhi *ᅕᅵ
+48 馳 支 陳 知 dc je   7 tʃɦȉ *ᅑᅵ
+49 紕 支 篇 夷 ph e   12 phi *피
+50 悲 支 逋 眉 p e   10 pi *비
+51 皮 支 蒲 麋 b e  5 11 pɦȉ *삐
+52 麋 支 忙 皮 m e   13 mȉ *미
+53 夷 支 延 知 y je  6 14 jȉ *이
+54 奇 支 渠 宜 g e  7 15 kɦȉ *끼
+55 羲 支 虛 宜 h e  10 17 hi *히
+56 伊 支 於 宜 q e  8 16 ʔi *ᅙᅵ
+57 詞 支 詳 兹 z e    szɨ̏ *ᄽᅳ
+58 微 支 無 非 mf e    vȉ *ᄝᅵ
+59 肥 支 符 非 bf e  9 17 fvȉ *ᄬᅵ
+60 霏 支 芳 微 f e   18 fi *ᄫᅵ
+61 齊 齊 前 西 dz eoi  3 1 tsɦȉ *ᅏᅨ俗*ᅏᅵ
+62 西 齊 先 齊 s eoi  8  si *ᄼᅨ俗*ᄼᅵ
+63 妻 齊 千 西 tsh eoi    tshi *ᅔᅨ俗*ᅔᅵ
+64 齎 齊 牋 西 ts eoi  9 2 tsi *ᅎᅨ俗*ᅎᅵ
+65 氐 齊 都 黎 t eoi    ti *뎨俗*디
+66 梯 齊 天 黎 th eoi    thi *톄俗*티
+67 題 齊 杜 兮 d eoi  5 3 tɦȉ *뗴俗*띠
+68 泥 齊 年 題 n eoi  1  nȉ *녜俗*니
+69 倪 齊 研 奚 ng eoi   4 jȉ *예俗*이
+70 離 齊 鄰 溪 l eoi  4 5 lȉ *례俗*리
+71 雞 齊 堅 溪 k eoi  7 6 ki *계俗*기
+72 谿 齊 牽 奚 kh eoi  6 7 khi *켸俗*키
+73 兮 齊 弦 雞 gh eoi    ɦȉ *ᅘᅨ俗*ᅘᅵ
+74 迷 齊 綿 衣 m eoi  2  mȉ *몌俗*미
+75 篦 齊 邊 迷 p eoi    pi *볘俗*비
+76 烓 齊 淵 畦 q eoi    ʔi *ᅙᅨ俗*ᅙᅵ
+77 魚 魚 牛 居 ng ju   1 ŋy̏ *ᅌᅲ
+78 于 魚 雲 俱 y ju   2 jy̏ *유
+79 於 魚 衣 虛 q ju    ʔy *ᅙᅲ
+80 虛 魚 休 居 h ju   3 hy *휴
+81 區 魚 丘 於 kh ju   4 khy *큐
+82 居 魚 斤 於 k ju  1  ky *규
+83 渠 魚 求 於 g ju   5 kɦy̏ *뀨
+84 胥 魚 新 於 s ju   6 sy *ᄼᅲ
+85 疽 魚 子 余 ts ju   7 tsy *ᅎᅲ
+86 徐 魚 祥 於 z ju    szy̏ *ᄽᅲ
+87 書 魚 商 居 c ju  3 8 ʃy *ᄾᅲ
+88 諸 魚 專 於 tc ju  2 9 tʃy *ᅐᅲ
+89 除 魚 長 魚 dc ju   9 tʃɦy̏ *ᅑᅲ
+90 殊 魚 尚 朱 zc ju   10 ʃʒy̏ *ᄿᅲ
+91 如 魚 人 余 ny ju   11 ʒy̏ *ᅀᅲ
+92 袽 魚 女 居 nr ju    ny̏ *뉴
+93 樞 魚 抽 居 tch ju    tʃhy *ᅕᅲ
+94 閭 魚 淩 如 l ju   12 ly̏ *류
+95 趨 魚 逡 須 tsh ju    tshy *ᅔᅲ
+96 模 模 莫 胡 m o  1 1 mȕ *무
+97 鋪 模 滂 模 ph o   2 phu *푸
+98 逋 模 奔 謨 p o    pu *부
+99 租 模 宗 蘇 ts o   3 tsu *ᅎᅮ
+100 徂 模 叢 租 dz o    tsɦȕ *ᅏᅮ
+101 蒲 模 薄 胡 b o    pɦȕ *뿌
+102 都 模 東 徒 t o    tu *두
+103 徒 模 同 都 d o   4 tɦȕ *뚜
+104 盧 模 龍 都 l o   5 lȕ *루
+105 奴 模 農 都 n o    nȕ *누
+106 胡 模 洪 孤 gh o   6 ɦȕ *ᅘᅮ
+107 孤 模 攻 乎 k o  2 7 ku *구
+108 枯 模 空 胡 kh o  3  khu *쿠
+109 呼 模 荒 胡 h o    hu *후
+110 吾 模 訛 胡 ng o  4  ŋȕ *ᅌᅮ
+111 麤 模 倉 胡 tsh o    tshu *ᅔᅮ
+112 烏 模 汪 胡 q o   8 ʔu *ᅙᅮ
+113 蘇 模 孫 租 s o  5 10 su *ᄼᅮ
+114 初 模 楚 徂 tshr o    ʈʂhu *ᅕᅮ
+115 蔬 模 山 徂 sr o   9 ʂu *ᄾᅮ
+116 敷 模 芳 無 f o  6 11 fu *ᄫᅮ
+117 扶 模 逢 夫 bf o   12 fvȕ *ᄬᅮ
+118 無 模 微 夫 mf o    vȕ *ᄝᅮ
+119 皆 皆 居 諧 k ai   1 kiai *걔
+120 𦂄 皆 丘 皆 kh ai    khiai *컈
+121 諧 皆 雄 皆 gh ai    ɦiȁi *ᅘᅤ
+122 乖 皆 公 懷 k wai   11 kwai *괘
+123 懷 皆 乎 乖 gh wai   7 ɦwȁi *ᅘᅫ
+124 差 皆 初 皆 tshr ai    ʈʂhai *ᅕᅢ
+125 齋 皆 莊 皆 tsr ai    ʈʂai *ᅐᅢ
+126 豺 皆 牀 皆 dzr ai   10 ʈʂɦȁi *ᅑᅢ
+127 排 皆 步 皆 b ai    pɦȁi *빼
+128 埋 皆 謨 皆 m ai    mȁi *매
+129 簁 皆 所 皆 sr ai    ʂai *ᄾᅢ
+130 涯 皆 宜 皆 ng ai   2 (ŋ)jiȁi *ᅌᅤ
+131 咍 皆 呼 來 h ooi    hai *해
+132 開 皆 丘 哀 kh ooi    khai *캐
+133 該 皆 柯 開 k ooi   3 kai *개
+134 孩 皆 何 開 gh ooi    ɦȁi *ᅘᅢ
+135 哀 皆 於 開 q ooi   4 ʔai *ᅙᅢ
+136 皚 皆 魚 開 ng ooi   9 ŋȁi *ᅌᅢ
+137 胎 皆 湯 來 th ooi    thai *태
+138 臺 皆 堂 來 d ooi   5 tɦȁi *때
+139 能 皆 囊 來 n ooi    nȁi *내
+140 來 皆 郎 才 l ooi   6 lȁi *래
+141 䚡 皆 桑 才 s ooi   8 sai *ᄼᅢ
+142 猜 皆 倉 才 tsh ooi    tshai *ᅔᅢ
+143 哉 皆 將 來 ts ooi    tsai *ᅎᅢ
+144 裁 皆 牆 來 dz ooi    tsɦȁi *ᅏᅢ
+145 灰 灰 呼 回 h woi   1 hui *휘
+146 恢 灰 枯 回 kh woi   2 khui *퀴
+147 煨 灰 烏 魁 q woi    ʔui *ᅙᅱ
+148 傀 灰 姑 回 k woi    kui *귀
+149 規 灰 居 爲 k wjoi   3 kui *귀
+150 回 灰 胡 瑰 gh woi  1 4 ɦȕi *ᅘᅱ
+151 危 灰 吾 回 ng woi   5 ŋȕi *ᅌᅱ
+152 堆 灰 都 回 t woi    tui *뒤
+153 推 灰 通 回 th woi    thui *튀
+154 隤 灰 徒 回 d woi   13 tɦȕi *뛰
+155 雷 灰 盧 回 l woi  2 6 lȕi *뤼
+156 崔 灰 倉 回 tsh woi    tshui *ᅔᅱ
+157 杯 灰 晡 回 p woi   7 pui *뷔
+158 丕 灰 鋪 杯 ph woi    phui *퓌
+159 枚 灰 謨 杯 m woi   8 mȕi *뮈
+160 垂 灰 直 追 dc wjoi    ʈʂɦȕi *ᅑᅱ
+161 隨 灰 旬 威 z wjoi    szȕi *ᄽᅱ
+162 隹 灰 朱 惟 tc wjoi  4 9 ʈʂui *ᅐᅱ
+163 甤 灰 如 隹 ny wjoi   10 ʒȕi *ᅀᅱ
+164 雖 灰 蘇 回 s woi   11 sui *ᄼᅱ
+165 爲 灰 于 嬀 gh wjoi    ȕi *위
+166 葵 灰 渠 爲 g wjoi   12 kɦȕi *뀌
+167 嗺 灰 遵 綏 ts wjoi    tsui *ᅎᅱ
+168 裴 灰 蒲 枚 b woi  3  pɦȕi *쀠
+169 衰 灰 所 追 sr wjoi    ʂui *ᄾᅱ
+170 痿 灰 儒 隹 ny wjoi    ʒȕi *ᅀᅱ
+171 厜 灰 津 垂 ts wjoi    tsui *ᅎᅱ
+172 誰 灰 視 隹 zc wjoi    ʂʐȕi *ᄿᅱ
+173 睢 灰 翾 圭 h wjoi    hui *휘
+174 吹 灰 昌 垂 tch wjoi    ʈʂhui *ᅕᅱ
+175 摧 灰 徂 回 dz woi    tsɦȕi *ᅏᅱ
 176 真 真 之 人 tc jeon  1  tʃin ᅐᅵᆫ
 177 申 真 升 人 c jeon    ʃin ᄾᅵᆫ
 178 瞋 真 稱 人 tch jeon    tʃhin ᅕᅵᆫ
@@ -209,22 +209,22 @@
 208 存 真 徂 尊 dz won    tsɦȕn ᅏᅮᆫ
 209 旬 真 辭 倫 z wjon    szyȕn ᄽᅲᆫ
 210 倫 真 龍 春 l wjon    lyȕn 륜
-211 文 真 無 分 mf wjon   16 vȕn ᄝᅮᆫ
-212 芬 真 敷 文 f wjon   17 fun ᄫᅮᆫ
-213 汾 真 符 分 bf wjon    fvȕn ᄬᅮᆫ
+211 文 真 無 分 mf wjon   16 vȕn ᄝᅮᆫ俗ᄝᅳᆫ
+212 芬 真 敷 文 f wjon   17 fun ᄫᅮᆫ俗ᄫᅳᆫ
+213 汾 真 符 分 bf wjon    fvȕn ᄬᅮᆫ俗ᄬᅳᆫ
 214 䰟 真 胡 昆 gh won    ɦȕn ᅘᅮᆫ
 215 昆 真 公 渾 k won   18 kun 군
 216 溫 真 烏 昆 q won   19 ʔun ᅙᅮᆫ
 217 昏 真 呼 昆 h won    hun 훈
 218 坤 真 枯 昆 kh won    khun 쿤
-219 奔 真 逋 昆 p won    pun 분
-220 歕 真 浦 魂 ph won    phun 푼
-221 盆 真 蒲 奔 b won   20 pɦȕn 뿐
-222 門 真 謨 奔 m won    mȕn 문
+219 奔 真 逋 昆 p won    pun 분俗븐
+220 歕 真 浦 魂 ph won    phun 푼俗픈
+221 盆 真 蒲 奔 b won   20 pɦȕn 뿐俗쁜
+222 門 真 謨 奔 m won    mȕn 문俗믄
 223 孫 真 蘇 昆 s won   21 sun ᄼᅮᆫ
 224 村 真 倉 尊 tsh won   22 tshun ᅔᅮᆫ
 225 尊 真 租 昆 ts won   23 tsun ᅎᅮᆫ
-226 暾 真 他 昆 th won    thun 툰
+226 暾 真 他 昆 th won    thun 툰俗튼
 227 屯 真 徒 孫 d won  15  tɦȕn 뚠
 228 論 真 盧 昆 l won   24 lȕn 룬
 229 敦 真 都 昆 t won    tun 둔
@@ -234,21 +234,21 @@
 233 痕 真 胡 恩 gh on    ɦə̏n ᅘᅳᆫ
 234 根 真 古 痕 k on    kən 근
 235 恩 真 烏 痕 q on    ʔən ᅙᅳᆫ
-236 垠 真 五 根 ng on    ŋə̏n ᅌᅳᆫ
-237 寒 寒 河 干 gh oon   1 ɦɑ̏n ᅘᅥᆫ
-238 豻 寒 俄 寒 ng oon    ŋɑ̏n ᅌᅥᆫ
-239 看 寒 丘 寒 kh oon    khɑn 컨
-240 干 寒 居 寒 k oon    kɑn 건
-241 安 寒 於 寒 q oon    ʔɑn ᅙᅥᆫ
+236 垠 真 五 根 ng on    ŋə̏n ᅌᅳᆫ俗은
+237 寒 寒 河 干 gh oon   1 ɦɑ̏n ᅘᅥᆫ俗ᅘᅡᆫ
+238 豻 寒 俄 寒 ng oon    ŋɑ̏n *ᅌᅥᆫ
+239 看 寒 丘 寒 kh oon    khɑn 컨俗칸
+240 干 寒 居 寒 k oon    kɑn 건俗간
+241 安 寒 於 寒 q oon    ʔɑn ᅙᅥᆫ俗ᅙᅡᆫ
 242 歡 寒 呼 官 h woon    hwɔn 훤
 243 寬 寒 枯 官 kh woon    khwɔn 퀀
 244 官 寒 沽 歡 k woon    kwɔn 권
 245 剜 寒 烏 歡 q woon    ʔwɔn ᅙᅯᆫ
-246 岏 寒 吾 官 ng woon    ŋwɔ̏n ᅌᅯᆫ
-247 潘 寒 鋪 官 ph woon   2 phwɔn 풘
-248 般 寒 逋 潘 p woon   3 pwɔn 붠
-249 槃 寒 蒲 官 b woon  1 4 pɦwɔ̏n 뿬
-250 瞞 寒 謨 官 m woon  3 5 mwɔ̏n 뭔
+246 岏 寒 吾 官 ng woon    (ŋ)wɔ̏n ᅌᅯᆫ俗원
+247 潘 寒 鋪 官 ph woon   2 phwɔn 풘俗펀
+248 般 寒 逋 潘 p woon   3 pwɔn 붠俗번
+249 槃 寒 蒲 官 b woon  1 4 pɦwɔ̏n 뿬俗뼌
+250 瞞 寒 謨 官 m woon  3 5 mwɔ̏n 뭔俗먼
 251 酸 寒 蘇 官 s woon    swɔn ᄼᅯᆫ
 252 鑽 寒 祖 官 ts woon    tswɔn ᅎᅯᆫ
 253 欑 寒 徂 官 dz woon   6 tsɦwɔ̏n ᅏᅯᆫ
@@ -256,21 +256,21 @@
 255 湍 寒 他 官 th woon  2 8 thwɔn 퉌
 256 團 寒 徒 官 d woon    tɦwɔ̏n 뚼
 257 鸞 寒 盧 官 l woon   10 lwɔ̏n 뤈
-258 桓 寒 胡 官 gh woon  4 11 ɦwɔ̏n ᅘᅯᆫ
-259 暵 寒 許 干 h oon  5 12 hɑn 헌
+258 桓 寒 胡 官 gh woon  4 11 ɦwɔ̏n ᅘᅯᆫ俗원/ᄋᆑᆫ
+259 暵 寒 許 干 h oon  5 12 hɑn 헌俗한
 260 刪 刪 師 姦 sr an   1 ʂan ᄾᅡᆫ
-261 散 刪 相 關 s an    san ᄼᅡᆫ
+261 散 刪 相 關 s an    swan ᄼᅪᆫ
 262 關 刪 姑 還 k wan    kwan 관
 263 彎 刪 烏 還 q wan   2 ʔwan ᅙᅪᆫ
 264 還 刪 胡 關 gh wan   3 ɦwȁn ᅘᅪᆫ
 265 跧 刪 阻 頑 tsr wan    ʈʂwan ᅐᅪᆫ
 266 姦 刪 居 顔 k an   5 kian 갼
-267 顔 刪 牛 姦 ng an    (ŋ)jiȁn ᅌᅣᆫ
-268 頑 刪 五 還 ng wan    ŋwȁn ᅌᅪᆫ
+267 顔 刪 牛 姦 ng an    (ŋ)jiȁn ᅌᅣᆫ俗얀
+268 頑 刪 五 還 ng wan    (ŋ)wȁn ᅌᅪᆫ俗완
 269 班 刪 逋 還 p an    pan 반
 270 斒 刪 逋 閑 p an    pan 반
-271 虤 刪 五 閑 ng an    (ŋ)jiȁn ᅌᅣᆫ
-272 攀 刪 披 班 ph an    phan 판
+271 虤 刪 五 閑 ng an    (ŋ)jiȁn ᅌᅣᆫ俗얀
+272 攀 刪 披 班 ph an    phan 판俗펀
 273 蠻 刪 謨 還 m an    mȁn 만
 274 潺 刪 鉏 山 dzr an    ʈʂɦȁn ᅑᅡᆫ
 275 餐 刪 千 山 tsh an    tshan ᅔᅡᆫ
@@ -317,7 +317,7 @@
 315 鋋 先 時 連 zc jen    ʃʒiɛ̏n ᄿᅧᆫ
 316 饘 先 諸 延 tc jen    tʃiɛn ᅐᅧᆫ
 317 蟬 先 呈 延 dc jen   12 tʃɦiɛ̏n ᅑᅧᆫ
-318 潺 先 鋤 連 dzr en    ʈʂɦiɛ̏n ᅑᅧᆫ
+318 潺 先 鋤 連 dzr en    ʈʂɦȁn ᅑᅡᆫ
 319 挻 先 抽 延 tch jen    tʃhiɛn ᅕᅧᆫ
 320 軒 先 虛 延 h en  17 13 hiɛn 현
 321 乾 先 渠 焉 g en   14 kɦiɛ̏n 껸
@@ -331,83 +331,83 @@
 329 專 先 朱 緣 tc wjen  18 16 tʃyuɛn ᅐᆑᆫ
 330 𤲬 先 而 宣 ny wjen    ʒyuɛ̏n ᅀᆑᆫ
 331 暄 先 呼 淵 h wen   17 hyuɛn ᄒᆑᆫ
-332 員 先 于 權 y wjen  19 18 jyuɛ̏n ᄋᆑᆫ
+332 員 先 于 權 y wjen  19 18 (ŋ)jyuɛ̏n ᄋᆑᆫ古ᅌᆑᆫ
 333 圈 先 驅 圓 kh wen  20 19 khyuɛn ᄏᆑᆫ
 334 權 先 逵 員 g wen  21 20 kɦyuɛ̏n ᄁᆑᆫ
-335 蕭 蕭 先 彫 s eu   1 siɛw ᄼᅧᇦ
-336 貂 蕭 丁 聊 t eu   2 tiɛw 뎌ᇦ
-337 祧 蕭 他 彫 th eu    thiɛw 텨ᇦ
-338 迢 蕭 田 聊 d eu   3 tɦiɛ̏w 뗘ᇦ
-339 聊 蕭 連 條 l eu   5 liɛ̏w 려ᇦ
-340 驍 蕭 堅 堯 k eu   6 kiɛw 겨ᇦ
-341 幺 蕭 伊 堯 q eu   7 ʔiɛw ᅙᅧᇦ
-342 橇 蕭 丘 妖 kh eu    khiɛw 켜ᇦ
-343 篍 蕭 此 遙 tsh eu   8 tshiɛw ᅔᅧᇦ
-344 焦 蕭 兹 消 ts eu    tsiɛw ᅎᅧᇦ
-345 樵 蕭 慈 消 dz eu    tsɦiɛ̏w ᅏᅧᇦ
-346 猋 蕭 卑 遙 p eu   10 piɛw 벼ᇦ
-347 漂 蕭 紕 招 ph eu   11 phiɛw 펴ᇦ
-348 瓢 蕭 毗 招 b eu    pɦiɛ̏w 뼈ᇦ
-349 苗 蕭 眉 鑣 m eu   13 miɛ̏w 며ᇦ
-350 燒 蕭 尸 昭 c jeu    ʃiɛw ᄾᅧᇦ
-351 弨 蕭 蚩 招 tch jeu    tʃhiɛw ᅕᅧᇦ
-352 昭 蕭 之 遙 tc jeu   12 tʃiɛw ᅐᅧᇦ
-353 韶 蕭 時 招 zc jeu    ʃʒiɛ̏w ᄿᅧᇦ
-354 饒 蕭 如 招 ny jeu    ʒiɛ̏w ᅀᅧᇦ
-355 潮 蕭 馳 遙 dc jeu    tʃɦiɛ̏w ᅑᅧᇦ
-356 堯 蕭 餘 招 y jeu   14 jiɛ̏w 여ᇦ
-357 橋 蕭 祁 堯 g eu   15 kɦiɛ̏w 껴ᇦ
-358 鴞 蕭 吁 驕 h eu   16 hiɛw 혀ᇦ
-359 爻 爻 何 交 gh au   1 ɦiȁw ᅘᅣᇦ
-360 交 爻 居 肴 k au  1 1 kiaw 갸ᇦ
-361 敲 爻 丘 交 kh au    khiaw 캬ᇦ
-362 哮 爻 虛 交 h au    hiaw 햐ᇦ
-363 坳 爻 於 交 q au   2 ʔiaw ᅙᅣᇦ
-364 包 爻 班 交 p au    paw 바ᇦ
-365 胞 爻 披 交 ph au    phaw 파ᇦ
-366 庖 爻 蒲 交 b au    pɦȁw 빠ᇦ
-367 茅 爻 謨 交 m au    mȁw 마ᇦ
-2277 毛 爻 莫 襃 m au    mȁw 마ᇦ
-368 梢 爻 所 交 sr au    ʂaw ᄾᅡᇦ
-369 䜈 爻 楚 交 tshr au    ʈʂhaw ᅕᅡᇦ
-370 巢 爻 鋤 交 dzr au    ʈʂɦȁw ᅑᅡᇦ
-371 嘲 爻 陟 交 tsr au    ʈʂaw ᅐᅡᇦ
-372 鐃 爻 尼 交 nr au   3 nȁw 나ᇦ
-373 豪 爻 胡 刀 gh oou   4 ɦȁw ᅘᅡᇦ
-374 蒿 爻 呼 高 h oou   5 haw 하ᇦ
-375 高 爻 姑 勞 k oou   6 kaw 가ᇦ
-376 鏖 爻 於 刀 q oou    ʔaw ᅙᅡᇦ
-377 敖 爻 牛 刀 ng oou   7 ŋȁw ᅌᅡᇦ
-378 襃 爻 博 毛 p oou    paw 바ᇦ
-379 騷 爻 蘇 曹 s oou   8 saw ᄼᅡᇦ
-380 操 爻 倉 刀 tsh oou    tshaw ᅔᅡᇦ
-381 遭 爻 則 刀 ts oou   9 tsaw ᅎᅡᇦ
-382 曹 爻 財 勞 dz oou    tsɦȁw ᅏᅡᇦ
-383 刀 爻 都 高 t oou   10 taw 다ᇦ
-384 饕 爻 他 刀 th oou    thaw 타ᇦ
-385 匋 爻 徒 刀 d oou    tɦȁw 따ᇦ
-386 勞 爻 郎 刀 l oou   11 lȁw 라ᇦ
-387 猱 爻 奴 刀 n oou    nȁw 나ᇦ
-388 尻 爻 苦 高 kh oou    khaw 카ᇦ
+335 蕭 蕭 先 彫 s eu   1 siɛw ᄼᅧᇢ俗ᄼᅣᇢ
+336 貂 蕭 丁 聊 t eu   2 tiɛw 뎌ᇢ俗댜ᇢ
+337 祧 蕭 他 彫 th eu    thiɛw 텨ᇢ俗탸ᇢ
+338 迢 蕭 田 聊 d eu   3 tɦiɛ̏w 뗘ᇢ俗땨ᇢ
+339 聊 蕭 連 條 l eu   5 liɛ̏w 려ᇢ俗랴ᇢ
+340 驍 蕭 堅 堯 k eu   6 kiɛw 겨ᇢ俗갸ᇢ
+341 幺 蕭 伊 堯 q eu   7 ʔiɛw ᅙᅧᇢ俗ᅙᅣᇢ
+342 橇 蕭 丘 妖 kh eu    khiɛw 켜ᇢ俗캬ᇢ
+343 篍 蕭 此 遙 tsh eu   8 tshiɛw ᅔᅧᇢ俗ᅔᅣᇢ
+344 焦 蕭 兹 消 ts eu    tsiɛw ᅎᅧᇢ俗ᅎᅣᇢ
+345 樵 蕭 慈 消 dz eu    tsɦiɛ̏w ᅏᅧᇢ俗ᅏᅣᇢ
+346 猋 蕭 卑 遙 p eu   10 piɛw 벼ᇢ俗뱌ᇢ
+347 漂 蕭 紕 招 ph eu   11 phiɛw 펴ᇢ俗퍄ᇢ
+348 瓢 蕭 毗 招 b eu    pɦiɛ̏w 뼈ᇢ俗뺘ᇢ
+349 苗 蕭 眉 鑣 m eu   13 miɛ̏w 며ᇢ俗먀ᇢ
+350 燒 蕭 尸 昭 c jeu    ʃiɛw ᄾᅧᇢ俗ᄾᅣᇢ
+351 弨 蕭 蚩 招 tch jeu    tʃhiɛw ᅕᅧᇢ俗ᅕᅣᇢ
+352 昭 蕭 之 遙 tc jeu   12 tʃiɛw ᅐᅧᇢ俗ᅐᅣᇢ
+353 韶 蕭 時 招 zc jeu    ʃʒiɛ̏w ᄿᅧᇢ俗ᄿᅣᇢ
+354 饒 蕭 如 招 ny jeu    ʒiɛ̏w ᅀᅧᇢ俗ᅀᅣᇢ
+355 潮 蕭 馳 遙 dc jeu    tʃɦiɛ̏w ᅑᅧᇢ俗ᅑᅣᇢ
+356 堯 蕭 餘 招 y jeu   14 jiɛ̏w 여ᇢ俗야ᇢ
+357 橋 蕭 祁 堯 g eu   15 kɦiɛ̏w 껴ᇢ俗꺄ᇢ
+358 鴞 蕭 吁 驕 h eu   16 hiɛw 혀ᇢ俗햐ᇢ
+359 爻 爻 何 交 gh au   1 ɦiȁw ᅘᅣᇢ
+360 交 爻 居 肴 k au  1 1 kiaw 갸ᇢ
+361 敲 爻 丘 交 kh au    khiaw 캬ᇢ
+362 哮 爻 虛 交 h au    hiaw 햐ᇢ
+363 坳 爻 於 交 q au   2 ʔiaw ᅙᅣᇢ
+364 包 爻 班 交 p au    paw 바ᇢ
+365 胞 爻 披 交 ph au    phaw 파ᇢ
+366 庖 爻 蒲 交 b au    pɦȁw 빠ᇢ
+367 茅 爻 謨 交 m au    mȁw 마ᇢ
+2277 毛 爻 莫 襃 m au    mȁw 마ᇢ
+368 梢 爻 所 交 sr au    ʂaw ᄾᅡᇢ
+369 䜈 爻 楚 交 tshr au    ʈʂhaw ᅕᅡᇢ
+370 巢 爻 鋤 交 dzr au    ʈʂɦȁw ᅑᅡᇢ
+371 嘲 爻 陟 交 tsr au    ʈʂaw ᅐᅡᇢ
+372 鐃 爻 尼 交 nr au   3 nȁw 나ᇢ
+373 豪 爻 胡 刀 gh oou   4 ɦȁw ᅘᅡᇢ
+374 蒿 爻 呼 高 h oou   5 haw 하ᇢ
+375 高 爻 姑 勞 k oou   6 kaw 가ᇢ
+376 鏖 爻 於 刀 q oou    ʔaw ᅙᅡᇢ
+377 敖 爻 牛 刀 ng oou   7 ŋȁw ᅌᅡᇢ俗아ᇢ
+378 襃 爻 博 毛 p oou    paw 바ᇢ
+379 騷 爻 蘇 曹 s oou   8 saw ᄼᅡᇢ
+380 操 爻 倉 刀 tsh oou    tshaw ᅔᅡᇢ
+381 遭 爻 則 刀 ts oou   9 tsaw ᅎᅡᇢ
+382 曹 爻 財 勞 dz oou    tsɦȁw ᅏᅡᇢ
+383 刀 爻 都 高 t oou   10 taw 다ᇢ
+384 饕 爻 他 刀 th oou    thaw 타ᇢ
+385 匋 爻 徒 刀 d oou    tɦȁw 따ᇢ
+386 勞 爻 郎 刀 l oou   11 lȁw 라ᇢ
+387 猱 爻 奴 刀 n oou    nȁw 나ᇢ
+388 尻 爻 苦 高 kh oou    khaw 카ᇢ
 389 歌 歌 居 何 k oo  1  kɔ 거
 390 珂 歌 丘 何 kh oo   1 khɔ 커
 391 訶 歌 虎 何 h oo   1 hɔ 허
-392 阿 歌 於 何 q oo    ʔɔ ᅙᅥ
+392 阿 歌 於 何 q oo    ʔɔ ᅙᅥ俗ᅙᅡ
 393 何 歌 寒 歌 gh oo    ɦɔ̏ ᅘᅥ
-394 莪 歌 牛 何 ng oo  2 2 ŋɔ̏ ᅌᅥ
+394 莪 歌 牛 何 ng oo  2 2 ŋɔ̏ ᅌᅥ俗어
 395 娑 歌 桑 何 s oo   3 sɔ ᄼᅥ
 396 蹉 歌 倉 何 tsh oo  5  tshɔ ᅔᅥ
 397 醝 歌 才 何 dz oo   4 tsɦɔ̏ ᅏᅥ
 398 多 歌 得 何 t oo   5 tɔ 더
-399 佗 歌 湯 何 th oo    thɔ 터
+399 佗 歌 湯 何 th oo    thɔ 터俗타
 400 駝 歌 唐 何 d oo   6 tɦɔ̏ 떠
 401 羅 歌 郎 何 l oo  4 7 lɔ̏ 러
-402 那 歌 奴 何 n oo    nɔ̏ 너
+402 那 歌 奴 何 n oo    nɔ̏ 너俗나
 403 戈 歌 古 禾 k woo    kwɔ 궈
 404 科 歌 苦 禾 kh woo   9 khwɔ 쿼
 405 渦 歌 烏 禾 q woo   8 ʔwɔ ᅙᅯ
 406 和 歌 戶 戈 gh woo   10 ɦwɔ̏ ᅘᅯ
-407 訛 歌 吾 禾 ng woo  3  ŋwɔ̏ ᅌᅯ
+407 訛 歌 吾 禾 ng woo  3  (ŋ)wɔ̏ ᅌᅯ俗워
 408 波 歌 補 禾 p woo   11 pwɔ 붜
 409 頗 歌 普 禾 ph woo    phwɔ 풔
 410 媻 歌 蒲 禾 b woo  6 12 pɦwɔ̏ 뿨
@@ -428,7 +428,7 @@
 425 嘉 麻 居 牙 k a   6 kia 갸
 426 伽 麻 具 牙 g a    kɦiȁ 꺄
 427 鴉 麻 於 加 q a  4 7 ʔia ᅙᅣ
-428 牙 麻 牛 加 ng a  5  (ŋ)jiȁ ᅌᅣ
+428 牙 麻 牛 加 ng a  5  (ŋ)jiȁ ᅌᅣ俗야
 429 華 麻 胡 瓜 gh wa    ɦwȁ ᅘᅪ
 430 花 麻 呼 瓜 h wa   8 hwa 화
 431 誇 麻 枯 瓜 kh wa    khwa 콰
@@ -458,13 +458,13 @@
 455 商 陽 尸 羊 c joong   4 ʃiɑŋ ᄾᅣᇰ
 456 昌 陽 齒 良 tch joong    tʃhiɑŋ ᅕᅣᇰ
 457 章 陽 止 良 tc joong  2  tʃiɑŋ ᅐᅣᇰ
-458 常 陽 陳 羊 zc joong    ʃʒiɑ̏ŋ ᄿᅣᇰ
+458 常 陽 陳 羊 zc joong    ʃʒiɑ̏ŋ ᅑᅣᇰ
 459 穰 陽 如 羊 ny joong  3  ʒiɑ̏ŋ ᅀᅣᇰ
 460 娘 陽 女 良 nr joong   6 niɑ̏ŋ 냐ᇰ
-461 霜 陽 師 莊 sr joong   7 ʂ(w)ɑŋ ᄾᅡᇰ
-462 瘡 陽 初 莊 tshr joong    ʈʂh(w)ɑŋ ᅕᅡᇰ
-463 莊 陽 側 霜 tsr joong  8  ʈʂ(w)ɑŋ ᅐᅡᇰ
-464 牀 陽 助 莊 dzr joong    ʈʂɦ(w)ɑ̏ŋ ᅑᅡᇰ
+461 霜 陽 師 莊 sr joong   7 ʂ(w)ɑŋ ᄾᅡᇰ俗ᄾᅪᇰ
+462 瘡 陽 初 莊 tshr joong    ʈʂh(w)ɑŋ ᅕᅡᇰ俗ᅕᅪᇰ
+463 莊 陽 側 霜 tsr joong  8  ʈʂ(w)ɑŋ ᅐᅡᇰ俗ᅐᅪᇰ
+464 牀 陽 助 莊 dzr joong    ʈʂɦ(w)ɑ̏ŋ ᅑᅡᇰ俗ᅑᅪᇰ
 465 長 陽 仲 良 dc joong    tʃɦiɑ̏ŋ ᅑᅣᇰ
 466 良 陽 龍 張 l joong   8 liɑ̏ŋ 랴ᇰ
 467 香 陽 虛 良 h joong    hiɑŋ 햐ᇰ
@@ -498,35 +498,35 @@
 495 邦 陽 搏 旁 p oong  15 23 pɑŋ 바ᇰ
 496 降 陽 胡 江 gh ooung    ɦiɑ̏ŋ ᅘᅣᇰ
 497 舡 陽 許 江 h ooung    hiɑŋ 햐ᇰ
-498 庚 庚 古 衡 k aing    kəŋ 긔ᇰ
-499 阬 庚 丘 庚 kh aing    khəŋ 킈ᇰ
-500 盲 庚 眉 庚 m aing   1 mə̏ŋ 믜ᇰ
-501 亨 庚 虛 庚 h aing    həŋ 희ᇰ
-502 行 庚 何 庚 gh aing   18 ɦ(i)ə̏ŋ ᅘᅵᇰ
-503 橫 庚 胡 盲 gh waing    ɦwə̏ŋ ᅘᅱᇰ
+498 庚 庚 古 衡 k aing    k(i)əŋ 긔ᇰ俗그ᇰ/기ᇰ
+499 阬 庚 丘 庚 kh aing    kh(i)əŋ 킈ᇰ俗크ᇰ
+500 盲 庚 眉 庚 m aing   1 mə̏ŋ 믜ᇰ俗므ᇰ
+501 亨 庚 虛 庚 h aing    h(i)əŋ 희ᇰ俗히ᇰ
+502 行 庚 何 庚 gh aing   18 ɦ(i)ə̏ŋ ᅘᅵᇰ俗ᅘᅳᇰ
+503 橫 庚 胡 盲 gh waing    ɦwə̏ŋ ᅘᅱᇰ俗ᅘᅮᇰ
 504 觥 庚 姑 橫 k waing   2 kwəŋ 귀ᇰ
-505 烹 庚 普 庚 ph aing    phəŋ 픠ᇰ
-506 彭 庚 蒲 庚 b aing    pɦə̏ŋ 쁴ᇰ
-507 崢 庚 抽 庚 tshr aing    ʈʂhəŋ ᅕᅴᇰ
-508 棖 庚 除 庚 dzr aing    ʈʂɦə̏ŋ ᅑᅴᇰ
+505 烹 庚 普 庚 ph aing    phəŋ 픠ᇰ俗프ᇰ
+506 彭 庚 蒲 庚 b aing    pɦə̏ŋ 쁴ᇰ俗쁘ᇰ
+507 崢 庚 抽 庚 tshr aing    ʈʂhəŋ ᅕᅴᇰ俗ᅕᅳᇰ
+508 棖 庚 除 庚 dzr aing    ʈʂɦə̏ŋ ᅑᅴᇰ俗ᅑᅳᇰ
 509 兵 庚 補 明 p eing    piŋ 비ᇰ
 510 平 庚 蒲 明 b eing   3 pɦȉŋ 삐ᇰ
 511 明 庚 眉 兵 m eing   4 mȉŋ 미ᇰ
-512 生 庚 師 庚 sr aing    ʂəŋ ᄾᅴᇰ
+512 生 庚 師 庚 sr aing    ʂəŋ ᄾᅴᇰ俗ᄾᅳᇰ
 513 京 庚 居 卿 k eing    kiŋ 기ᇰ
 2278 經 庚 堅 丁 k ing    kiŋ 기ᇰ
 514 卿 庚 丘 京 kh eing    khiŋ 키ᇰ
 515 勍 庚 渠 京 g eing    kɦȉŋ 끼ᇰ
 516 英 庚 於 京 q eing   5 ʔiŋ ᅙᅵᇰ
-517 榮 庚 于 平 gh weing   6 jyuə̏ŋ ᄋᆔᇰ
-518 傖 庚 士 耕 dzr eong    ʈʂɦə̏ŋ ᅑᅴᇰ
+517 榮 庚 于 平 gh weing   6 jyuə̏ŋ ᄋᆔᇰ俗유ᇰ/이ᇰ
+518 傖 庚 士 耕 dzr eong    ʈʂɦə̏ŋ ᅑᅴᇰ俗ᅑᅳᇰ
 519 兄 庚 呼 榮 h weing    hyuəŋ ᄒᆔᇰ
-520 鍧 庚 呼 宏 h weong    hwəŋ 휘ᇰ
-521 爭 庚 甾 耕 tsr eong   7 ʈʂəŋ ᅐᅴᇰ
-522 能 庚 奴 登 n eong    nə̏ŋ 늬ᇰ
+520 鍧 庚 呼 宏 h weong    hwəŋ 휘ᇰ俗후ᇰ
+521 爭 庚 甾 耕 tsr eong   7 ʈʂəŋ ᅐᅴᇰ俗ᅐᅳᇰ
+522 能 庚 奴 登 n eong    nə̏ŋ 늬ᇰ俗느ᇰ
 523 寧 庚 奴 經 n eing   8 nȉŋ 니ᇰ
-524 絣 庚 補 耕 p eong    pəŋ 븨ᇰ
-525 娉 庚 彼 耕 ph eong   9 ph(i)əŋ 픠ᇰ
+524 絣 庚 補 耕 p eong    pəŋ 븨ᇰ俗브ᇰ
+525 娉 庚 彼 耕 ph eong   9 phiŋ 피ᇰ
 526 清 庚 七 情 tsh eing    tshiŋ ᅔᅵᇰ
 527 精 庚 子 盈 ts eing    tsiŋ ᅎᅵᇰ
 528 餳 庚 徐 盈 z eing    szȉŋ ᄽᅵᇰ
@@ -539,198 +539,198 @@
 535 令 庚 離 呈 l eing   11 lȉŋ 리ᇰ
 536 盈 庚 餘 輕 y jeing   13 jȉŋ 이ᇰ
 537 形 庚 奚 經 gh eing    ɦȉŋ ᅘᅵᇰ
-538 傾 庚 窺 營 kh weing    khyuəŋ ᄏᆔᇰ
-539 瓊 庚 渠 營 g weing    kɦyuə̏ŋ ᄁᆔᇰ
+538 傾 庚 窺 營 kh weing    khyuəŋ ᄏᆔᇰ俗키ᇰ
+539 瓊 庚 渠 營 g weing    kɦyuə̏ŋ ᄁᆔᇰ俗끼ᇰ
 540 星 庚 先 青 s eing   14 siŋ ᄼᅵᇰ
 541 丁 庚 當 經 t eing    tiŋ 디ᇰ
 542 聽 庚 他 經 th eing    thiŋ 티ᇰ
 543 庭 庚 唐 丁 d eing   15 tɦȉŋ 띠ᇰ
 544 馨 庚 醯 經 h eing    hiŋ 히ᇰ
-545 扃 庚 涓 熒 k weing    kyuəŋ ᄀᆔᇰ
+545 扃 庚 涓 熒 k weing    kyuəŋ ᄀᆔᇰ俗규ᇰ
 546 繩 庚 神 陵 zc jeing    ʃʒȉŋ ᄿᅵᇰ
-547 仍 庚 如 陵 ny jeing    ʒȉŋ ᅀᅵᇰ
+547 仍 庚 如 陵 ny jeing    ʒȉŋ ᅀᅵᇰ俗ᅀᅵᆫ
 548 凝 庚 魚 陵 ng eing    ŋȉŋ ᅌᅵᇰ
 549 興 庚 虛 陵 h eing    hiŋ 히ᇰ
-550 登 庚 都 騰 t eong   16 təŋ 듸ᇰ
-551 騰 庚 徒 登 d eong    tɦə̏ŋ 띄ᇰ
-552 棱 庚 盧 登 l eong    lə̏ŋ 릐ᇰ
-553 僧 庚 思 登 s eong    səŋ ᄼᅴᇰ
-554 增 庚 咨 登 ts eong    tsəŋ ᅎᅴᇰ
-555 繒 庚 慈 稜 dz eong    tsɦȉŋ ᅏᅵᇰ
-556 層 庚 徂 登 dz eong    tsɦə̏ŋ ᅏᅴᇰ
-557 𢫮 庚 胡 登 gh eong    ɦə̏ŋ ᅘᅴᇰ
+550 登 庚 都 騰 t eong   16 təŋ 듸ᇰ俗드ᇰ
+551 騰 庚 徒 登 d eong    tɦə̏ŋ 띄ᇰ俗뜨ᇰ
+552 棱 庚 盧 登 l eong    lə̏ŋ 릐ᇰ俗르ᇰ
+553 僧 庚 思 登 s eong    səŋ ᄼᅴᇰ俗ᄼᅳᇰ
+554 增 庚 咨 登 ts eong    tsəŋ ᅎᅴᇰ俗ᅎᅳᇰ
+555 繒 庚 慈 稜 dz eong    tsɦȉŋ ᅏᅵᇰ俗ᅏᅳᇰ
+556 層 庚 徂 登 dz eong    tsɦə̏ŋ ᅏᅴᇰ俗ᅏᅳᇰ
+557 𢫮 庚 胡 登 gh eong    ɦ(i)ə̏ŋ 긔ᇰ俗그ᇰ/기ᇰ
 558 鞃 庚 丘 肱 kh weong    khwəŋ 퀴ᇰ
 559 泓 庚 烏 宏 q weong    ʔwəŋ ᅙᅱᇰ
-560 尤 尤 于 求 y jeou  1 1 jȉw 이ᇦ
-561 抽 尤 丑 鳩 tch jeou   6 tʃhiw ᅕᅵᇦ
-562 搊 尤 楚 蒐 tshr jeou    ʈʂhəw ᅕᅳᇦ
-563 休 尤 虛 尤 h jeou  2  hiw 히ᇦ
-564 丘 尤 驅 尤 kh jeou    khiw 키ᇦ
-565 鳩 尤 居 尤 k jeou   2 kiw 기ᇦ
-566 求 尤 渠 尤 g jeou  3 3 kɦȉw 끼ᇦ
-567 憂 尤 於 尤 q jeou   4 ʔiw ᅙᅵᇦ
-568 周 尤 職 流 tc jeou   5 tʃiw ᅐᅵᇦ
-569 儔 尤 除 留 dc jeou    tʃɦȉw ᅑᅵᇦ
-570 留 尤 力 求 l jeou  4  lȉw 리ᇦ
-571 脩 尤 思 留 s jeou   7 siw ᄼᅵᇦ
-572 秋 尤 此 由 tsh jeou   8 tshiw ᅔᅵᇦ
-573 啾 尤 即 由 ts jeou    tsiw ᅎᅵᇦ
-574 酋 尤 慈 秋 dz jeou  5  tsɦȉw ᅏᅵᇦ
-575 收 尤 尸 周 c jeou    ʃiw ᄾᅵᇦ
-576 柔 尤 而 由 ny jeou  6 9 ʒȉw ᅀᅵᇦ
-577 搜 尤 疏 鳩 sr jeou   10 ʂəw ᄾᅳᇦ
-578 鄒 尤 側 鳩 tsr jeou   11 ʈʂəw ᅐᅳᇦ
-579 浮 尤 房 鳩 bf jeou  7 12 fvə̏w ᄬᅳᇦ
-580 彪 尤 補 尤 p jeou    piw 비ᇦ
-581 滮 尤 皮 休 b jeou    pɦȉw 삐ᇦ
-582 愁 尤 鋤 尤 dzr jeou    ʈʂɦə̏w ᅑᅳᇦ
-583 繆 尤 莫 彪 m jeou    mȉw 미ᇦ
-584 秠 尤 匹 尤 ph jeou    phiw 피ᇦ
-585 侯 尤 胡 鉤 gh eou    ɦə̏w ᅘᅳᇦ
-586 謳 尤 烏 侯 q eou    ʔəw ᅙᅳᇦ
-587 彄 尤 驅 侯 kh eou   13 khəw 크ᇦ
-588 腢 尤 魚 侯 ng eou   16 ŋə̏w ᅌᅳᇦ
-589 鉤 尤 居 侯 k eou   14 kəw 그ᇦ
-590 裒 尤 蒲 侯 b eou    pɦə̏w 쁘ᇦ
-591 謀 尤 莫 侯 m eou  9 15 mə̏w 므ᇦ
-592 漱 尤 先 侯 s eou    səw ᄼᅳᇦ
-593 鯫 尤 將 侯 ts eou    tsəw ᅎᅳᇦ
-594 兜 尤 當 侯 t eou    təw 드ᇦ
-595 偷 尤 他 侯 th eou    thəw 트ᇦ
-596 頭 尤 徒 侯 d eou   17 tɦə̏w 뜨ᇦ
-597 樓 尤 盧 侯 l eou   19 lə̏w 르ᇦ
-598 䨲 尤 奴 侯 n eou  10 18 nə̏w 느ᇦ
-599 侵 侵 七 林 tsh jeom  1  tshim ᅔᅵᆷ
-600 尋 侵 徐 心 z jeom   2 szȉm ᄽᅵᆷ
-601 深 侵 式 針 c jeom    ʃim ᄾᅵᆷ
-602 斟 侵 諸 深 tc jeom   3 tʃim ᅐᅵᆷ
-603 諶 侵 時 壬 zc jeom    ʃʒȉm ᄿᅵᆷ
-604 壬 侵 如 深 ny jeom   4 ʒȉm ᅀᅵᆷ
-605 森 侵 疏 簪 sr jeom   1 ʂəm ᄾᅳᆷ
-606 簪 侵 緇 深 tsr jeom    ʈʂəm ᅐᅳᆷ
-607 岑 侵 鋤 簪 dzr jeom   6 ʈʂɦə̏m ᅑᅳᆷ
-608 琛 侵 丑 森 tch jeom    tʃhim ᅕᅵᆷ
-609 沈 侵 持 森 dc jeom    tʃɦȉm ᅑᅵᆷ
-610 林 侵 犁 沈 l jeom    lȉm 림
-611 淫 侵 夷 斟 y jeom   7 jȉm 임
-612 心 侵 思 林 s jeom    sim ᄼᅵᆷ
-613 音 侵 於 禽 q jeom   8 ʔim ᅙᅵᆷ
-614 吟 侵 魚 音 ng jeom  2  ŋȉm ᅌᅵᆷ
-615 歆 侵 虛 金 h jeom    him 힘
-616 欽 侵 驅 音 kh jeom    khim 킴
-617 今 侵 居 吟 k jeom  3  kim 김
-618 琴 侵 渠 金 g jeom   9 kɦȉm 낌
-619 南 侵 乃 林 nr jeom    nȉm 님
-620 覃 覃 徒 含 d oom   1 tɦȁm 땀
-621 貪 覃 他 含 th oom    tham 탐
-622 耽 覃 都 含 t oom   4 tam 담
-623 婪 覃 盧 含 l oom    lȁm 람
-624 南 覃 那 含 n oom    nȁm 남
-625 毿 覃 蘇 含 s oom    sam ᄼᅡᆷ
-626 參 覃 倉 含 tsh oom   2 tsham ᅔᅡᆷ
-627 簪 覃 祖 含 ts oom    tsam ᅎᅡᆷ
-628 蠶 覃 徂 含 dz oom    tsɦȁm ᅏᅡᆷ
-629 堪 覃 苦 含 kh oom   10 kham 캄
-630 含 覃 胡 南 gh oom   3 ɦȁm ᅘᅡᆷ
-631 諳 覃 烏 含 q oom  1 5 ʔam ᅙᅡᆷ
-632 談 覃 徒 監 d am    tɦȁm 땀
-633 儋 覃 都 監 t am    tam 담
-634 藍 覃 盧 監 l am    lȁm 람
-635 三 覃 蘇 監 s am    sam ᄼᅡᆷ
-636 甘 覃 沽 三 k oom    kam 감
-637 酣 覃 胡 甘 gh oom   6 ɦȁm ᅘᅡᆷ
-638 咸 覃 胡 嵒 gh am    ɦiȁm ᅘᅣᆷ
-639 嵒 覃 魚 咸 ng am    (ŋ)jiȁm ᅌᅣᆷ
-640 攕 覃 所 含 sr oom    ʂam ᄾᅡᆷ
-641 讒 覃 鉏 咸 dzr am   7 ʈʂɦȁm ᅑᅡᆷ
-642 監 覃 古 銜 k am    kiam 걈
-643 嵌 覃 丘 銜 kh am    khiam 캼
-644 衫 覃 師 銜 sr am   9 ʂam ᄾᅡᆷ
-645 欃 覃 初 銜 tshr am   8 ʈʂham ᅕᅡᆷ
-646 凡 覃 符 咸 bf am    fvȁm ᄬᅡᆷ
-647 鹽 鹽 移 廉 y jem    jiɛ̏m 염
-648 銛 鹽 思 廉 s em   2 siɛm ᄼᅧᆷ
-649 僉 鹽 千 廉 tsh em    tshiɛm ᅔᅧᆷ
-650 尖 鹽 將 廉 ts em    tsiɛm ᅎᅧᆷ
-651 爓 鹽 徐 廉 z em    sziɛ̏m ᄽᅧᆷ
-652 潛 鹽 慈 鹽 dz em   3 tsɦiɛ̏m ᅏᅧᆷ
-653 苫 鹽 詩 廉 c jem    ʃiɛm ᄾᅧᆷ
-654 襜 鹽 蚩 占 tch jem    tʃhiɛm ᅕᅧᆷ
-655 詹 鹽 之 廉 tc jem    tʃiɛm ᅐᅧᆷ
-656 蟾 鹽 時 占 zc jem   4 ʃʒiɛ̏m ᄿᅧᆷ
-657 髯 鹽 而 占 ny jem    ʒiɛ̏m ᅀᅧᆷ
-658 廉 鹽 力 鹽 l em   7 liɛ̏m 렴
-659 淹 鹽 衣 炎 q em    ʔiɛm ᅙᅧᆷ
-660 噞 鹽 牛 廉 ng em    ŋiɛ̏m ᅌᅧᆷ
-661 黏 鹽 尼 占 nr em   5 niɛ̏m 념
-662 箝 鹽 其 廉 g em    kɦiɛ̏m 꼄
-663 砭 鹽 悲 廉 p em    piɛm 볌
-664 添 鹽 他 兼 th em    thiɛm 텸
-665 甜 鹽 徒 兼 d em   6 tɦiɛ̏m 뗨
-666 謙 鹽 苦 兼 kh em    khiɛm 켬
-667 兼 鹽 古 嫌 k em    kiɛm 겸
-668 嫌 鹽 胡 兼 gh em   1 ɦiɛ̏m ᅘᅧᆷ
-669 杴 鹽 虛 嚴 h em    hiɛm 혐
+560 尤 尤 于 求 y jeou  1 1 jȉw 이ᇢ
+561 抽 尤 丑 鳩 tch jeou   6 tʃhiw ᅕᅵᇢ
+562 搊 尤 楚 蒐 tshr jeou    ʈʂhəw ᅕᅳᇢ
+563 休 尤 虛 尤 h jeou  2  hiw 히ᇢ
+564 丘 尤 驅 尤 kh jeou    khiw 키ᇢ
+565 鳩 尤 居 尤 k jeou   2 kiw 기ᇢ
+566 求 尤 渠 尤 g jeou  3 3 kɦȉw 끼ᇢ
+567 憂 尤 於 尤 q jeou   4 ʔiw ᅙᅵᇢ
+568 周 尤 職 流 tc jeou   5 tʃiw ᅐᅵᇢ
+569 儔 尤 除 留 dc jeou    tʃɦȉw ᅑᅵᇢ
+570 留 尤 力 求 l jeou  4  lȉw 리ᇢ
+571 脩 尤 思 留 s jeou   7 siw ᄼᅵᇢ
+572 秋 尤 此 由 tsh jeou   8 tshiw ᅔᅵᇢ
+573 啾 尤 即 由 ts jeou    tsiw ᅎᅵᇢ
+574 酋 尤 慈 秋 dz jeou  5  tsɦȉw ᅏᅵᇢ
+575 收 尤 尸 周 c jeou    ʃiw ᄾᅵᇢ
+576 柔 尤 而 由 ny jeou  6 9 ʒȉw ᅀᅵᇢ
+577 搜 尤 疏 鳩 sr jeou   10 ʂəw ᄾᅳᇢ
+578 鄒 尤 側 鳩 tsr jeou   11 ʈʂəw ᅐᅳᇢ
+579 浮 尤 房 鳩 bf jeou  7 12 fvə̏w ᄬᅳᇢ
+580 彪 尤 補 尤 p jeou    piw 비ᇢ
+581 滮 尤 皮 休 b jeou    pɦȉw 삐ᇢ
+582 愁 尤 鋤 尤 dzr jeou    ʈʂɦə̏w ᅑᅳᇢ
+583 繆 尤 莫 彪 m jeou    mȉw 미ᇢ
+584 秠 尤 匹 尤 ph jeou    phiw 피ᇢ
+585 侯 尤 胡 鉤 gh eou    ɦə̏w ᅘᅳᇢ
+586 謳 尤 烏 侯 q eou    ʔəw ᅙᅳᇢ
+587 彄 尤 驅 侯 kh eou   13 khəw 크ᇢ
+588 腢 尤 魚 侯 ng eou   16 ŋə̏w ᅌᅳᇢ俗으ᇢ
+589 鉤 尤 居 侯 k eou   14 kəw 그ᇢ
+590 裒 尤 蒲 侯 b eou    pɦə̏w 쁘ᇢ
+591 謀 尤 莫 侯 m eou  9 15 mə̏w 므ᇢ
+592 漱 尤 先 侯 s eou    səw ᄼᅳᇢ
+593 鯫 尤 將 侯 ts eou    tsəw ᅎᅳᇢ
+594 兜 尤 當 侯 t eou    təw 드ᇢ
+595 偷 尤 他 侯 th eou    thəw 트ᇢ
+596 頭 尤 徒 侯 d eou   17 tɦə̏w 뜨ᇢ
+597 樓 尤 盧 侯 l eou   19 lə̏w 르ᇢ
+598 䨲 尤 奴 侯 n eou  10 18 nə̏w 느ᇢ
+599 侵 侵 七 林 tsh jeom  1  tshim ᅔᅵᆷ俗ᅔᅵᆫ
+600 尋 侵 徐 心 z jeom   2 szȉm ᄽᅵᆷ俗ᄽᅵᆫ
+601 深 侵 式 針 c jeom    ʃim ᄾᅵᆷ俗ᄾᅵᆫ
+602 斟 侵 諸 深 tc jeom   3 tʃim ᅐᅵᆷ俗ᅐᅵᆫ
+603 諶 侵 時 壬 zc jeom    ʃʒȉm ᄿᅵᆷ俗ᄿᅵᆫ
+604 壬 侵 如 深 ny jeom   4 ʒȉm ᅀᅵᆷ俗ᅀᅵᆫ
+605 森 侵 疏 簪 sr jeom   1 ʂəm ᄾᅳᆷ俗ᄾᅳᆫ
+606 簪 侵 緇 深 tsr jeom    ʈʂəm ᅐᅳᆷ俗ᅐᅳᆫ
+607 岑 侵 鋤 簪 dzr jeom   6 ʈʂɦə̏m ᅑᅳᆷ俗ᅑᅳᆫ
+608 琛 侵 丑 森 tch jeom    tʃhim ᅕᅵᆷ俗ᅕᅵᆫ
+609 沈 侵 持 森 dc jeom    tʃɦȉm ᅑᅵᆷ俗ᅑᅵᆫ
+610 林 侵 犁 沈 l jeom    lȉm 림俗린
+611 淫 侵 夷 斟 y jeom   7 jȉm 임俗인
+612 心 侵 思 林 s jeom    sim ᄼᅵᆷ俗ᄼᅵᆫ
+613 音 侵 於 禽 q jeom   8 ʔim ᅙᅵᆷ俗ᅙᅵᆫ
+614 吟 侵 魚 音 ng jeom  2  ŋȉm ᅌᅵᆷ俗인
+615 歆 侵 虛 金 h jeom    him 힘俗힌
+616 欽 侵 驅 音 kh jeom    khim 킴俗킨
+617 今 侵 居 吟 k jeom  3  kim 김俗긴
+618 琴 侵 渠 金 g jeom   9 kɦȉm 낌俗낀
+619 南 侵 乃 林 nr jeom    nȉm 님俗닌
+620 覃 覃 徒 含 d oom   1 tɦȁm 땀俗딴
+621 貪 覃 他 含 th oom    tham 탐俗탄
+622 耽 覃 都 含 t oom   4 tam 담俗단
+623 婪 覃 盧 含 l oom    lȁm 람俗란
+624 南 覃 那 含 n oom    nȁm 남俗난
+625 毿 覃 蘇 含 s oom    sam ᄼᅡᆷ俗ᄼᅡᆫ
+626 參 覃 倉 含 tsh oom   2 tsham ᅔᅡᆷ俗ᅔᅡᆫ
+627 簪 覃 祖 含 ts oom    tsam ᅎᅡᆷ俗ᅎᅡᆫ
+628 蠶 覃 徂 含 dz oom    tsɦȁm ᅏᅡᆷ俗ᅏᅡᆫ
+629 堪 覃 苦 含 kh oom   10 kham 캄俗칸
+630 含 覃 胡 南 gh oom   3 ɦȁm ᅘᅡᆷ俗ᅘᅡᆫ
+631 諳 覃 烏 含 q oom  1 5 ʔam ᅙᅡᆷ俗ᅙᅡᆫ
+632 談 覃 徒 監 d am    tɦȁm 땀俗딴
+633 儋 覃 都 監 t am    tam 담俗단
+634 藍 覃 盧 監 l am    lȁm 람俗란
+635 三 覃 蘇 監 s am    sam ᄼᅡᆷ俗ᄼᅡᆫ
+636 甘 覃 沽 三 k oom    kam 감俗간
+637 酣 覃 胡 甘 gh oom   6 ɦȁm ᅘᅡᆷ俗ᅘᅡᆫ
+638 咸 覃 胡 嵒 gh am    ɦiȁm ᅘᅣᆷ俗ᅘᅣᆫ
+639 嵒 覃 魚 咸 ng am    (ŋ)jiȁm ᅌᅣᆷ俗얀
+640 攕 覃 所 含 sr oom    ʂam ᄾᅡᆷ俗ᄾᅡᆫ
+641 讒 覃 鉏 咸 dzr am   7 ʈʂɦȁm ᅑᅡᆷ俗ᅑᅡᆫ
+642 監 覃 古 銜 k am    kiam 걈俗갼
+643 嵌 覃 丘 銜 kh am    khiam 캼俗캼
+644 衫 覃 師 銜 sr am   9 ʂam ᄾᅡᆷ俗ᄾᅡᆷ
+645 欃 覃 初 銜 tshr am   8 ʈʂham ᅕᅡᆷ俗ᅕᅡᆫ
+646 凡 覃 符 咸 bf am    fvȁm ᄬᅡᆷ俗ᄬᅡᆫ
+647 鹽 鹽 移 廉 y jem    jiɛ̏m 염俗연
+648 銛 鹽 思 廉 s em   2 siɛm ᄼᅧᆷ俗ᄼᅧᆫ
+649 僉 鹽 千 廉 tsh em    tshiɛm ᅔᅧᆷ俗ᅔᅧᆫ
+650 尖 鹽 將 廉 ts em    tsiɛm ᅎᅧᆷ俗ᅎᅧᆫ
+651 爓 鹽 徐 廉 z em    sziɛ̏m ᄽᅧᆷ俗ᄽᅧᆫ
+652 潛 鹽 慈 鹽 dz em   3 tsɦiɛ̏m ᅏᅧᆷ俗ᅏᅧᆫ
+653 苫 鹽 詩 廉 c jem    ʃiɛm ᄾᅧᆷ俗ᄾᅧᆫ
+654 襜 鹽 蚩 占 tch jem    tʃhiɛm ᅕᅧᆷ俗ᅕᅧᆫ
+655 詹 鹽 之 廉 tc jem    tʃiɛm ᅐᅧᆷ俗ᅐᅧᆫ
+656 蟾 鹽 時 占 zc jem   4 ʃʒiɛ̏m ᄿᅧᆷ俗ᄿᅧᆫ
+657 髯 鹽 而 占 ny jem    ʒiɛ̏m ᅀᅧᆷ俗ᅀᅧᆫ
+658 廉 鹽 力 鹽 l em   7 liɛ̏m 렴俗련
+659 淹 鹽 衣 炎 q em    ʔiɛm ᅙᅧᆷ俗ᅙᅧᆫ
+660 噞 鹽 牛 廉 ng em    ŋiɛ̏m ᅌᅧᆷ俗연
+661 黏 鹽 尼 占 nr em   5 niɛ̏m 념俗년
+662 箝 鹽 其 廉 g em    kɦiɛ̏m 꼄俗꼄
+663 砭 鹽 悲 廉 p em    piɛm 볌俗변
+664 添 鹽 他 兼 th em    thiɛm 텸俗텬
+665 甜 鹽 徒 兼 d em   6 tɦiɛ̏m 뗨俗뗜
+666 謙 鹽 苦 兼 kh em    khiɛm 켬俗켠
+667 兼 鹽 古 嫌 k em    kiɛm 겸俗겸
+668 嫌 鹽 胡 兼 gh em   1 ɦiɛ̏m ᅘᅧᆷ俗ᅘᅧᆫ
+669 杴 鹽 虛 嚴 h em    hiɛm 혐俗현
 670 董 董 多 動 t ong q   tûŋ 두ᇰ〯
 671 統 董 他 總 th ong q   thûŋ 투ᇰ〯
 672 動 董 徒 總 d ong q   dǔŋ' 뚜ᇰ〯
-673 曨 董 力 董 l ong q  4 lûŋ 루ᇰ〯
+673 曨 董 力 董 l ong q  4 lûŋ *루ᇰ〯
 674 琫 董 邊 孔 p ong q 1 1 pûŋ 부ᇰ〯
 675 蠓 董 母 總 m ong q 1  mûŋ 무ᇰ〯
-676 總 董 作 孔 ts ong q   tsûŋ ᅎᅮᇰ〯
-677 澒 董 胡 孔 gh ong q   ɦǔŋ' ᅘᅮᇰ〯
-678 孔 董 康 董 kh ong q   khûŋ 쿠ᇰ〯
-679 恐 董 丘 隴 kh ong q   khyûŋ 큐ᇰ〯
-680 蓊 董 烏 孔 q ong q   ʔûŋ ᅙᅮᇰ〯
-681 捧 董 方 孔 f ong q  3 fûŋ ᄫᅮᇰ〯
-682 腫 董 知 隴 tc jong q   tʃyûŋ ᅐᅲᇰ〯
-683 重 董 直 隴 dc jong q   dʒyǔŋ' ᅑᅲᇰ〯
-684 宂 董 而 隴 ny jong q   ʒyûŋ ᅀᅲᇰ〯
-685 竦 董 息 勇 s jong q   syûŋ ᄼᅲᇰ〯
-686 寵 董 丑 勇 tch jong q   tʃhyûŋ ᅕᅲᇰ〯
-687 勇 董 尹 竦 y jong q  4 jyûŋ 유ᇰ〯
-688 兇 董 許 拱 h jong q  5 hyûŋ 휴ᇰ〯
-689 拱 董 居 竦 k jong q   kyûŋ 규ᇰ〯
-690 癑 董 乃 湩 n ong q  6 nûŋ 누ᇰ〯
-691 慫 董 即 勇 ts jong q  2 tsyûŋ ᅎᅲᇰ〯
-692 紙 紙 諸 氏 tc jer q 1 1 tʃiɨ̂ ᅐᅵ〯
-693 豸 紙 丈 几 dc jer q  2 dʒǐ' ᅑᅵ〯
-694 齒 紙 昌 止 tch jer q   tʃhiɨ̂ ᅕᅵ〯
-695 侈 紙 尺 里 tch je q   tʃhî ᅕᅵ〯
-696 此 紙 雌 氏 tsh er q   tshɨ̂ ᅔᅳ〯
-697 子 紙 祖 似 ts er q  4 tsɨ̂ ᅎᅳ〯
-698 始 紙 詩 止 c je q  5 ʃiɨ̂ ᄾᅵ〯
-699 史 紙 師 止 sr e q   ʂɨ̂ ᄾᅳ〯
-700 市 紙 士 紙 dzr e q   ʃʒiɨ̌'(ʂʐɨ̌') ᄿᅵ〯
-701 視 紙 善 指 zc je q   ʃʒiɨ̌' ᄿᅵ〯
-702 以 紙 養 里 y je q 2 3 jî 이〯
-703 倚 紙 隱 綺 q e q   ʔî ᅙᅵ〯
-704 耳 紙 忍 止 ny je q  7 ɻ̂ ᅀᅵ〯
-705 彼 紙 補 委 p e q  8 pî 비〯
-706 庀 紙 普 弭 ph e q   phî 피〯
-707 陛 紙 部 比 b e q  9 bǐ' 삐〯
-708 被 紙 部 靡 b ei q   bǐ' 삐〯
-709 技 紙 巨 綺 g e q   gǐ' 끼〯
-710 似 紙 詳 子 z e q   szɨ̌' ᄽᅳ〯
-711 死 紙 想 姊 s e q   sɨ̂ ᄼᅳ〯
-712 喜 紙 許 里 h e q 3  hî 히〯
-713 水 紙 式 軌 c wje q  10 ʃyûi ᄾᆔ〯
-714 斐 紙 敷 尾 f e q  12 fî ᄫᅵ〯
-715 尾 紙 無 匪 mf e q   vî ᄝᅵ〯
-716 薺 薺 在 禮 dz eoi q   dziɪ̌i' ᅏᅨ〯
-717 濟 薺 子 禮 ts eoi q   tsiɪ̂i ᅎᅨ〯
-718 徙 薺 想 里 s ei q 2 1 sî ᄼᅵ〯
-719 邸 薺 典 禮 t eoi q 3 2 tiɪ̂i 뎨〯
-720 弟 薺 待 禮 d eoi q  3 diɪ̌i' 뗴〯
-721 泚 薺 此 禮 tsh eoi q 4  tshiɪ̂i ᅔᅨ〯
-722 里 薺 良 以 l ei q  4 lî 리〯
-723 體 薺 他 禮 th eoi q   thiɪ̂i 톄〯
-724 伱 薺 乃 里 n ei q  7 nî 니〯
-725 徯 薺 戶 禮 gh eoi q   ɦiɪ̌i' ᅘᅨ〯
-726 己 薺 居 里 k ei q 1 6 kî 기〯
-727 起 薺 墟 里 kh ei q   khî 키〯
-728 啟 薺 祛 禮 kh eoi q   khiɪ̂i 켸〯
-729 米 薺 莫 禮 m eoi q 5 5 miɪ̂i 몌〯
+676 總 董 作 孔 ts ong q   tsûŋ *ᅎᅮᇰ〯
+677 澒 董 胡 孔 gh ong q   ɦǔŋ' *ᅘᅮᇰ〯
+678 孔 董 康 董 kh ong q   khûŋ *쿠ᇰ〯
+679 恐 董 丘 隴 kh ong q   khyûŋ 큐ᇰ〯俗쿠ᇰ〯 
+680 蓊 董 烏 孔 q ong q   ʔûŋ *ᅙᅮᇰ〯
+681 捧 董 方 孔 f ong q  3 fûŋ *ᅙᅮᇰ〯
+682 腫 董 知 隴 tc jong q   tʃyûŋ *ᅐᅲᇰ〯俗ᅐᅮᇰ〯
+683 重 董 直 隴 dc jong q   dʒyǔŋ' *ᅐᅲᇰ〯俗ᅑᅮᇰ〯
+684 宂 董 而 隴 ny jong q   ʒyûŋ *ᅀᅲᇰ〯俗ᅀᅮᇰ〯
+685 竦 董 息 勇 s jong q   syûŋ *ᄼᅲᇰ〯俗ᄼᅮᇰ〯
+686 寵 董 丑 勇 tch jong q   tʃhyûŋ *ᅕᅲᇰ〯俗ᅕᅮᇰ〯
+687 勇 董 尹 竦 y jong q  4 jyûŋ *유ᇰ〯
+688 兇 董 許 拱 h jong q  5 hyûŋ *휴ᇰ〯
+689 拱 董 居 竦 k jong q   kyûŋ *규ᇰ〯
+690 癑 董 乃 湩 n ong q  6 nûŋ *누ᇰ〯
+691 慫 董 即 勇 ts jong q  2 tsyûŋ ᅎᅲᇰ〯俗ᅎᅮᇰ〯
+692 紙 紙 諸 氏 tc jer q 1 1 tʃî/ʈʂɨ̂ *ᅐᅵ〯俗ᅐᅵᇫ〯/ᅐᅳᇫ〯
+693 豸 紙 丈 几 dc jer q  2 dʒǐ' *ᅑᅵ〯俗ᅑᅵᇫ〯
+694 齒 紙 昌 止 tch jer q   tʃhî/ʈʂhɨ̂ *ᅕᅵ〯俗ᅕᅳᇫ〯
+695 侈 紙 尺 里 tch je q   tʃhî/ʈʂhɨ̂ *ᅕᅵ〯俗ᅕᅳᇫ〯
+696 此 紙 雌 氏 tsh er q   tshɨ̂ *ᅔᅳ〯
+697 子 紙 祖 似 ts er q  4 tsɨ̂ *ᅎᅳ〯俗ᅎᅳᇫ〯
+698 始 紙 詩 止 c je q  5 ʃî/ʂɨ̂ *ᄾᅵ〯俗ᄾᅳᇫ〯
+699 史 紙 師 止 sr e q   ʂɨ̂ *ᄾᅵ〯俗ᄾᅳᇫ〯
+700 市 紙 士 紙 dzr e q   ʃʒǐ/ʂʐɨ̌' *ᄿᅵ〯俗ᄿᅳᇫ〯
+701 視 紙 善 指 zc je q   ʃʒǐ/ʂʐɨ̌' *ᄿᅵ〯俗ᄿᅳᇫ〯
+702 以 紙 養 里 y je q 2 3 (ŋ)jî *이〯古ᅌᅵ〯
+703 倚 紙 隱 綺 q e q   ʔî *ᅙᅵ〯
+704 耳 紙 忍 止 ny je q  7 ɻ̂ *ᅀᅵ〯俗ᅀᅳᇫ〯
+705 彼 紙 補 委 p e q  8 pî *비〯俗븨〯
+706 庀 紙 普 弭 ph e q   phî *피〯
+707 陛 紙 部 比 b e q  9 bǐ' *삐〯
+708 被 紙 部 靡 b ei q   bǐ' *삐〯
+709 技 紙 巨 綺 g e q   gǐ' *끼〯
+710 似 紙 詳 子 z e q   szɨ̌' *ᄽᅳ〯俗ᄽᅳᇫ〯
+711 死 紙 想 姊 s e q   sɨ̂ *ᄼᅳ〯俗ᄼᅳᇫ〯
+712 喜 紙 許 里 h e q 3  hî *히〯
+713 水 紙 式 軌 c wje q  10 ʃyûi *ᄾᆔ〯俗ᄾᅵᇫ〯
+714 斐 紙 敷 尾 f e q  12 fî *ᄫᅵ〯
+715 尾 紙 無 匪 mf e q   vî *ᄝᅵ〯
+716 薺 薺 在 禮 dz eoi q   dzǐ' ᅏᅨ〯俗ᅏᅵ〯
+717 濟 薺 子 禮 ts eoi q   tsî ᅎᅨ〯俗ᅎᅵ〯
+718 徙 薺 想 里 s ei q 2 1 sî ᄼᅨ〯俗ᄼᅵ〯
+719 邸 薺 典 禮 t eoi q 3 2 tî 뎨〯俗디〯
+720 弟 薺 待 禮 d eoi q  3 dǐ' 뗴〯俗띠〯
+721 泚 薺 此 禮 tsh eoi q 4  tshî ᅔᅨ〯俗ᅔᅵ〯
+722 里 薺 良 以 l ei q  4 lî 례〯俗리〯
+723 體 薺 他 禮 th eoi q   thî 톄〯俗티〯
+724 伱 薺 乃 里 n ei q  7 nî 녜〯俗니〯
+725 徯 薺 戶 禮 gh eoi q   ɦǐ' ᅘᅨ〯俗ᅘᅵ〯
+726 己 薺 居 里 k ei q 1 6 kî 계〯俗기〯
+727 起 薺 墟 里 kh ei q   khî 켸〯俗키〯
+728 啟 薺 祛 禮 kh eoi q   khî 켸〯俗키〯
+729 米 薺 莫 禮 m eoi q 5 5 mî 몌〯俗미〯
 730 語 語 偶 許 ng ju q   ŋŷ ᅌᅲ〯
 731 與 語 弋 渚 j ju q   jŷ 유〯
 2279 傴 語 於 語 q ju q   ʔŷ ᅙᅲ〯
@@ -776,46 +776,46 @@
 771 輔 姥 扶 古 bf o q   fvǔ' ᄬᅮ〯
 772 武 姥 罔 古 mf o q  6 vû ᄝᅮ〯
 773 數 姥 所 武 sr o q   ʂû ᄾᅮ〯
-774 解 解 佳 買 k ai q   kiâi 걔〯
-775 蟹 解 胡 買 gh ai q   ɦiǎi' ᅘᅤ〯
-776 罷 解 補 買 p ai q   pâi 배〯
-777 灑 解 所 蟹 sr ai q  1 ʂâi ᄾᅢ〯
-778 廌 解 鉏 買 dzr ai q   ɖʐǎi' ᅑᅢ〯
-779 跐 解 初 買 tshr ai q   ʈʂhâi ᅕᅢ〯
-780 買 解 莫 蟹 m ai q  2 mâi 매〯
-781 夥 解 胡 買 gh wai q   ɦwǎi' ᅘᅫ〯
-782 柺 解 古 買 k wai q   kwâi 괘〯
-783 駭 解 下 楷 gh ai q   ɦiǎi' ᅘᅤ〯
-784 鍇 解 口 駭 kh ai q   khiâi 컈〯
-785 騃 解 語 駭 ng ai q   (ŋ)jiâi ᅌᅤ〯
-786 矮 解 鴉 蟹 q ai q   ʔâi ᅙᅢ〯
-787 海 解 呼 改 h ooi q   hâi 해〯
-788 愷 解 可 亥 kh ooi q   khâi 캐〯
-789 改 解 居 亥 k ooi q  3 kâi 개〯
-790 亥 解 胡 改 gh ooi q   ɦǎi' ᅘᅢ〯
-791 靉 解 依 亥 q ooi q  4 ʔâi ᅙᅢ〯
-792 采 解 此 宰 tsh ooi q  5 tshâi ᅔᅢ〯
-793 宰 解 子 亥 ts ooi q   tsâi ᅎᅢ〯
-794 在 解 盡 亥 dz ooi q   dzǎi' ᅏᅢ〯
-795 茝 解 昌 亥 tsh ooi q   ʈʂhâi ᅕᅢ〯
+774 解 解 佳 買 k ai q   kiâi *걔〯俗계〯
+775 蟹 解 胡 買 gh ai q   ɦiǎi' *ᅘᅤ〯俗ᅘᅨ〯
+776 罷 解 補 買 p ai q   pâi *배〯
+777 灑 解 所 蟹 sr ai q  1 ʂâi *ᄾᅢ〯
+778 廌 解 鉏 買 dzr ai q   ɖʐǎi' *ᅑᅢ〯
+779 跐 解 初 買 tshr ai q   ʈʂhâi *ᅕᅢ〯
+780 買 解 莫 蟹 m ai q  2 mâi *매〯
+781 夥 解 胡 買 gh wai q   ɦwǎi' *ᅘᅫ〯俗로〯
+782 柺 解 古 買 k wai q   kwâi *괘〯
+783 駭 解 下 楷 gh ai q   ɦiǎi' *ᅘᅢ〯
+784 鍇 解 口 駭 kh ai q   khiâi 컈〯俗켸〯
+785 騃 解 語 駭 ng ai q   (ŋ)jiâi *ᅌᅢ〯
+786 矮 解 鴉 蟹 q ai q   ʔâi *ᅙᅤ〯
+787 海 解 呼 改 h ooi q   hâi *해〯
+788 愷 解 可 亥 kh ooi q   khâi *캐〯
+789 改 解 居 亥 k ooi q  3 kâi *개〯
+790 亥 解 胡 改 gh ooi q   ɦǎi' *ᅘᅢ〯
+791 靉 解 依 亥 q ooi q  4 ʔâi *ᅙᅢ〯
+792 采 解 此 宰 tsh ooi q  5 tshâi *ᅔᅢ〯
+793 宰 解 子 亥 ts ooi q   tsâi *ᅎᅢ〯
+794 在 解 盡 亥 dz ooi q   dzǎi' *ᅏᅢ〯
+795 茝 解 昌 亥 tsh ooi q   tshâi *ᅔᅢ〯
 796 待 解 蕩 亥 d ooi q 1  dǎi' 때〯
 797 乃 解 囊 亥 n ooi q  6 nâi 내〯
 798 賄 賄 乎 罪 gh woi q   ɦǔi' ᅘᅱ〯
 799 猥 賄 烏 賄 q woi q  2 ʔûi ᅙᅱ〯
 800 隗 賄 五 罪 ng woi q   ŋûi ᅌᅱ〯
-801 琲 賄 部 浼 b woi q   bǔi' 쀠〯
-802 美 賄 莫 賄 m woi q  3 mûi 뮈〯
+801 琲 賄 部 浼 b woi q   bǔi' 쀠〯俗쁴〯
+802 美 賄 莫 賄 m woi q  3 mûi 뮈〯俗믜〯
 803 漼 賄 取 猥 tsh woi q   tshûi ᅔᅱ〯
 804 辠 賄 徂 賄 dz woi q   dzǔi' ᅏᅱ〯
 805 鐓 賄 杜 罪 d woi q   dǔi' 뛰〯
 806 壘 賄 魯 猥 l woi q  4 lûi 뤼〯
 807 魁 賄 苦 猥 kh woi q   khûi 퀴〯
 808 餧 賄 弩 罪 n woi q  5 nûi 뉘〯
-809 揣 賄 楚 委 tshr wjoi q   ʈʂhwûi ᅕᅱ〯
+809 揣 賄 楚 委 tshr wjoi q   ʈʂhûi/ʈʂhwâi ᅕᅱ〯俗ᅕᅫ〯
 810 捶 賄 主 蘂 tc wjoi q   ʈʂûi ᅐᅱ〯
 811 繠 賄 如 累 ny wjoi q   ʒûi ᅀᅱ〯
 812 髓 賄 息 委 s wjoi q   sûi ᄼᅱ〯
-813 岯 賄 部 癸 b wjoi q   bǔi' 쀠〯
+813 岯 賄 部 癸 b wjoi q   bǔi' 쀠〯俗쁴〯
 814 觜 賄 即 委 ts wjoi q   tsûi ᅎᅱ〯
 815 趡 賄 千 水 tsh wjoi q   tshûi ᅔᅱ〯
 816 跬 賄 犬 蘂 kh wjoi q   khûi 퀴〯
@@ -824,191 +824,191 @@
 2280 虫 賄 許 偉 h wjoi q  1 hûi 휘〯
 819 詭 賄 古 委 k wjoi q   kûi 귀〯
 2281 跪 賄 渠 委 g wjoi q  6 gǔi' 뀌〯
-820 軫 軫 止 忍 tc jeon q  1 tʃîn ᅐᅵᆫ〯
-821 蜃 軫 時 軫 zc jeon q   ʃʒǐn' ᄿᅵᆫ〯
-822 忍 軫 爾 軫 ny jeon q  2 ʒîn ᅀᅵᆫ〯
-823 哂 軫 矢 忍 c jeon q   ʃîn ᄾᅵᆫ〯
-824 牝 軫 婢 忍 b jeon q   bǐn' 삔〯
-825 盡 軫 慈 忍 dz jeon q  3 dzǐn' ᅏᅵᆫ〯
-826 引 軫 以 忍 y jeon q   jîn 인〯
-827 嶙 軫 良 忍 l jeon q   lîn 린〯
-828 盡 軫 即 忍 ts jeon q   tsîn ᅎᅵᆫ〯
-829 囅 軫 丑 忍 tch jeon q   tʃhîn ᅕᅵᆫ〯
-830 紖 軫 直 忍 dc jeon q  4 dʒǐn' ᅑᅵᆫ〯
-831 泯 軫 弭 盡 m jeon q  5 mîn 민〯
-832 緊 軫 居 忍 k jeon q  6 kîn 긴〯
-833 窘 軫 巨 隕 g wjon q  7 gyǔn' 뀬〯
-834 稛 軫 苦 隕 kh wjon q   khyûn 큔〯
-835 準 軫 之 允 tc wjon q   tʃyûn ᅐᅲᆫ〯
-836 蠢 軫 尺 允 tch wjon q  8 tʃhyûn ᅕᅲᆫ〯
-837 盾 軫 乳 允 ny wjon q  9 ʒyûn ᅀᅲᆫ〯
-838 筍 軫 聳 允 s wjon q  10 syûn ᄼᅲᆫ〯
-839 隕 軫 羽 敏 gh wjon q   jyûn 윤〯
-840 吻 軫 武 粉 mf wjon q   vûn ᄝᅮᆫ〯
-841 憤 軫 房 吻 bf wjon q  11 fvǔn' ᄬᅮᆫ〯
-842 粉 軫 府 吻 pf wjon q   fûn ᄫᅮᆫ〯
-843 蘊 軫 委 粉 q wjon q   ʔyûn ᅙᅲᆫ〯
-844 攟 軫 舉 蘊 k wjon q   kyûn 균〯
-845 隱 軫 於 謹 q jon q  12 ʔîn ᅙᅵᆫ〯
-846 䘆 軫 許 謹 h jon q   hîn 힌〯
-847 齔 軫 初 謹 tshr eon q   ʈʂhə̂n ᅕᅳᆫ〯
-848 近 軫 巨 謹 g jon q   gǐn' 낀〯
-849 听 軫 語 謹 ng jon q   ŋîn ᅌᅵᆫ〯
-850 混 軫 胡 本 gh won q  13 ɦǔn' ᅘᅮᆫ〯
-851 梱 軫 苦 本 kh won q   khûn 쿤〯
-852 袞 軫 古 本 k won q  14 kûn 군〯
-853 穩 軫 烏 本 q won q   ʔûn ᅙᅮᆫ〯
-854 本 軫 布 袞 p won q   pûn 분〯
-2282 𣄏 軫 部 本 b won q   bǔn' 뿐〯
-855 懣 軫 母 本 m won q   mûn 문〯
-856 損 軫 蘇 本 s won q   sûn ᄼᅮᆫ〯
-857 忖 軫 趨 本 tsh won q   tshûn ᅔᅮᆫ〯
-858 撙 軫 祖 本 ts won q  16 tsûn ᅎᅮᆫ〯
-859 鱒 軫 徂 本 dz won q   dzǔn' ᅏᅮᆫ〯
+820 軫 軫 止 忍 tc jeon q  1 tʃîn *ᅐᅵᆫ〯
+821 蜃 軫 時 軫 zc jeon q   ʃʒǐn' *ᄿᅵᆫ〯
+822 忍 軫 爾 軫 ny jeon q  2 ʒîn *ᅀᅵᆫ〯
+823 哂 軫 矢 忍 c jeon q   ʃîn *ᄾᅵᆫ〯
+824 牝 軫 婢 忍 b jeon q   bǐn' *삔〯
+825 盡 軫 慈 忍 dz jeon q  3 dzǐn' *ᅏᅵᆫ〯
+826 引 軫 以 忍 y jeon q   jîn *인〯
+827 嶙 軫 良 忍 l jeon q   lîn *린〯
+828 盡 軫 即 忍 ts jeon q   tsîn *ᅎᅵᆫ〯
+829 囅 軫 丑 忍 tch jeon q   tʃhîn *ᅕᅵᆫ〯
+830 紖 軫 直 忍 dc jeon q  4 dʒǐn' *ᅑᅵᆫ〯
+831 泯 軫 弭 盡 m jeon q  5 mîn *민〯
+832 緊 軫 居 忍 k jeon q  6 kîn *긴〯
+833 窘 軫 巨 隕 g wjon q  7 gyǔn' *뀬〯
+834 稛 軫 苦 隕 kh wjon q   khyûn *큔〯
+835 準 軫 之 允 tc wjon q   tʃyûn *ᅐᅲᆫ〯
+836 蠢 軫 尺 允 tch wjon q  8 tʃhyûn *ᅕᅲᆫ〯
+837 盾 軫 乳 允 ny wjon q  9 ʒyûn *ᅀᅲᆫ〯
+838 筍 軫 聳 允 s wjon q  10 syûn *ᄼᅲᆫ〯俗ᄼᅮᆫ〯
+839 隕 軫 羽 敏 gh wjon q   jyûn *윤〯
+840 吻 軫 武 粉 mf wjon q   vûn ᄝᅮᆫ〯俗ᄝᅳᆫ〯
+841 憤 軫 房 吻 bf wjon q  11 fvǔn' ᄬᅮᆫ〯俗ᄬᅳᆫ〯
+842 粉 軫 府 吻 pf wjon q   fûn ᄫᅮᆫ〯俗ᄫᅳᆫ〯
+843 蘊 軫 委 粉 q wjon q   ʔyûn *ᅙᅲᆫ〯
+844 攟 軫 舉 蘊 k wjon q   kyûn *균〯
+845 隱 軫 於 謹 q jon q  12 ʔîn *ᅙᅵᆫ〯
+846 䘆 軫 許 謹 h jon q   hîn *힌〯
+847 齔 軫 初 謹 tshr eon q   ʈʂhə̂n *ᅕᅳᆫ〯
+848 近 軫 巨 謹 g jon q   gǐn' *낀〯
+849 听 軫 語 謹 ng jon q   (ŋ)în *ᅌᅵᆫ〯俗인〯
+850 混 軫 胡 本 gh won q  13 ɦǔn' *ᅘᅮᆫ〯
+851 梱 軫 苦 本 kh won q   khûn *쿤〯
+852 袞 軫 古 本 k won q  14 kûn *군〯
+853 穩 軫 烏 本 q won q   ʔûn *ᅙᅮᆫ〯
+854 本 軫 布 袞 p won q   pûn 분〯俗븐〯
+2282 𣄏 軫 部 本 b won q   bǔn' 분〯俗븐〯
+855 懣 軫 母 本 m won q   mûn 문〯俗믄〯
+856 損 軫 蘇 本 s won q   sûn *ᄼᅮᆫ〯
+857 忖 軫 趨 本 tsh won q   tshûn *ᅔᅮᆫ〯
+858 撙 軫 祖 本 ts won q  16 tsûn *ᅎᅮᆫ〯
+859 鱒 軫 徂 本 dz won q   dzǔn' *ᅏᅮᆫ〯
 860 盾 軫 徒 本 d won q  15 dǔn' 뚠〯
-861 很 軫 下 懇 gh on q   ɦə̌n' ᅘᅳᆫ〯
-862 懇 軫 口 很 kh on q   khə̂n 큰〯
-863 眼 軫 魚 墾 ng on q   ŋə̂n ᅌᅳᆫ〯
-864 稟 軫 必 敏 p jeon q   pîn 빈〯
-865 品 軫 丕 敏 ph jeon q   phîn 핀〯
-866 旱 旱 侯 罕 gh oon q   ɦɑ̌n' ᅘᅥᆫ〯
-867 罕 旱 許 旱 h oon q   hɑ̂n 헌〯
-868 侃 旱 空 旱 kh oon q   khɑ̂n 컨〯
-869 稈 旱 古 旱 k oon q  4 kɑ̂n 건〯
-870 緩 旱 胡 管 gh woon q  1 ɦwɔ̌n' ᅘᅯᆫ〯
-871 盌 旱 烏 管 q woon q  2 ʔwɔ̂n ᅙᅯᆫ〯
-872 款 旱 苦 管 kh woon q   khwɔ̂n 퀀〯
-873 管 旱 古 緩 k woon q  3 kwɔ̂n 권〯
-874 滿 旱 莫 旱 m oon q   mwɔ̂n 뭔〯
-875 伴 旱 蒲 滿 b woon q   bwɔ̌n' 뿬〯
-876 算 旱 損 管 s woon q   swɔ̂n ᄼᅯᆫ〯
-877 纂 旱 作 管 ts woon q   tswɔ̂n ᅎᅯᆫ〯
-878 短 旱 都 管 t woon q   twɔ̂n 둰〯
-879 疃 旱 土 緩 th woon q  5 thwɔ̂n 퉌〯
-880 斷 旱 徒 管 d woon q   dwɔ̌n' 뚼〯
-881 卵 旱 魯 管 l woon q   lwɔ̂n 뤈〯
-882 煖 旱 乃 管 n woon q   nwɔ̂n 눤〯
-883 產 產 楚 簡 tshr an q  1 ʈʂhân ᅕᅡᆫ〯
-884 潸 產 數 版 sr wan q   ʂwân ᄾᅪᆫ〯
-885 撰 產 雛 產 dzr wan q   ɖʐ(w)ǎn' ᅑᅡᆫ〯
-886 赧 產 乃 版 n an q   nân 난〯
-887 限 產 下 簡 gh an q   ɦiǎn' ᅘᅣᆫ〯
-888 綰 產 烏 版 q an q   ʔiân ᅙᅣᆫ〯
-889 版 產 補 綰 p an q  2 pân 반〯
-890 返 產 甫 版 f an q   fân ᄫᅡᆫ〯
-891 晚 產 武 綰 mf an q   vân ᄝᅡᆫ〯
-892 醆 產 祖 產 ts an q   ʈʂân ᅐᅡᆫ〯
-893 棧 產 徂 限 dz an q  3 dzǎn' ᅏᅡᆫ〯
-894 簡 產 古 限 k an q  4 kiân 갼〯
-895 眼 產 五 限 ng an q   (ŋ)jiân ᅌᅣᆫ〯
-896 瓚 產 在 簡 dz an q   dzǎn' ᅏᅡᆫ〯
-897 儹 產 積 產 ts an q   tsân ᅎᅡᆫ〯
-898 亶 產 多 簡 t an q   tân 단〯
-2283 坦 產 他 但 th an q   thân 탄〯
-899 但 產 徒 亶 d an q   dǎn' 딴〯
-900 嬾 產 魯 簡 l an q   lân 란〯
-901 散 產 蘇 簡 s an q   sân ᄼᅡᆫ〯
-902 汕 產 所 簡 sr an q   ʂân ᄾᅡᆫ〯
-903 矕 產 母 板 m an q   mân 만〯
-904 眅 產 普 板 ph an q   phân 판〯
-905 銑 銑 蘇 典 s en q  1 siɛ̂n ᄼᅧᆫ〯
-906 扁 銑 補 典 p en q   piɛ̂n 변〯
-907 辮 銑 婢 免 b en q   biɛ̌n' 뼌〯
-908 免 銑 美 辨 m en q  2 miɛ̂n 면〯
-909 典 銑 多 殄 t en q   tiɛ̂n 뎐〯
-910 腆 銑 他 典 th en q  3 thiɛ̂n 텬〯
-911 殄 銑 徒 典 d en q   diɛ̌n' 뗜〯
-912 撚 銑 乃 殄 n en q   niɛ̂n 년〯
-913 顯 銑 呼 典 h en q   hiɛ̂n 현〯
-914 繭 銑 吉 典 k en q  4 kiɛ̂n 견〯
-915 峴 銑 胡 典 gh en q  5 ɦiɛ̌n' ᅘᅧᆫ〯
-916 犬 銑 苦 泫 kh wen q   khyuɛ̂n ᄏᆑᆫ〯
-917 畎 銑 古 泫 k wen q   kyuɛ̂n ᄀᆑᆫ〯
-918 泫 銑 胡 犬 gh wen q   ɦyuɛ̌n' ᅘᆑᆫ〯
-919 淺 銑 七 演 tsh en q   tshiɛ̂n ᅔᅧᆫ〯
-920 翦 銑 子 演 ts en q   tsiɛ̂n ᅎᅧᆫ〯
-921 踐 銑 慈 演 dz en q   dziɛ̌n' ᅏᅧᆫ〯
-922 選 銑 須 兗 s wen q   syuɛ̂n ᄼᆑᆫ〯
-923 雋 銑 徂 兗 dz wen q   dzyuɛ̌n' ᅏᆑᆫ〯
-924 闡 銑 齒 善 tch jen q   tʃhiɛ̂n ᅕᅧᆫ〯
-925 善 銑 上 演 zc jen q   ʃʒiɛ̌n' ᄿᅧᆫ〯
-926 舛 銑 尺 兗 tch wjen q   tʃhyuɛ̂n ᅕᆑᆫ〯
-927 剸 銑 止 兗 tc wjen q   tʃyuɛ̂n ᅐᆑᆫ〯
-928 輭 銑 乳 兗 ny wjen q  8 ʒyuɛ̂n ᅀᆑᆫ〯
-929 撰 銑 雛 兗 dzr wen q   ɖʐ(yu)iɛ̌n' ᅑᅧᆫ〯
-930 展 銑 之 輦 tc jen q   tʃiɛ̂n ᅐᅧᆫ〯
-931 輦 銑 力 展 l en q   liɛ̂n 련〯
-932 衍 銑 以 淺 y jen q  7 jiɛ̂n 연〯
-933 輾 銑 尼 展 nr en q  6 niɛ̂n 년〯
-934 巘 銑 語 蹇 ng en q   ŋiɛ̂n ᅌᅧᆫ〯
-935 篆 銑 柱 兗 dc wjen q   dʒyuɛ̌n' ᅑᆑᆫ〯
-936 臠 銑 盧 轉 l wen q   lyuɛ̂n ᄅᆑᆫ〯
-937 遣 銑 驅 演 kh en q   khiɛ̂n 켠〯
-938 蹇 銑 九 輦 k en q  12 kiɛ̂n 견〯
-939 鍵 銑 巨 展 g en q   giɛ̌n' 껸〯
-940 圈 銑 巨 卷 g wen q   gyuɛ̌n' ᄁᆑᆫ〯
-941 卷 銑 古 轉 k wen q  9 kyuɛ̂n ᄀᆑᆫ〯
-942 阮 銑 五 遠 ng wen q   (ŋ)jyuɛ̂n ᅌᆑᆫ〯
-943 宛 銑 於 阮 q wen q  10 ʔyuɛ̂n ᅙᆑᆫ〯
-944 𣉖 銑 況 遠 h wen q   hyuɛ̂n ᄒᆑᆫ〯
-945 偃 銑 於 幰 q en q   ʔiɛ̂n ᅙᅧᆫ〯
-946 篠 篠 先 了 s eu q  1 siɛ̂w ᄼᅧᇦ〯
-947 湫 篠 子 了 ts eu q   tsiɛ̂w ᅎᅧᇦ〯
-948 鳥 篠 尼 了 n eu q   niɛ̂w 녀ᇦ〯
-949 朓 篠 土 了 th eu q   thiɛ̂w 텨ᇦ〯
-950 了 篠 盧 皎 l eu q   liɛ̂w 려ᇦ〯
-951 窕 篠 徒 了 d eu q   diɛ̌w' 뗘ᇦ〯
-952 杳 篠 伊 鳥 q eu q  2 ʔiɛ̂w ᅙᅧᇦ〯
-953 皎 篠 吉 了 k eu q   kiɛ̂w 겨ᇦ〯
-954 沼 篠 止 少 tc jeu q   tʃiɛ̂w ᅐᅧᇦ〯
-955 糾 篠 其 紹 g eu q   giɛ̌w' 껴ᇦ〯
-956 紹 篠 市 沼 zc jeu q   ʃʒiɛ̌w' ᄿᅧᇦ〯
-957 擾 篠 爾 紹 ny jeu q   ʒiɛ̂w ᅀᅧᇦ〯
-958 趙 篠 直 紹 dc jeu q   dʒiɛ̌w' ᅑᅧᇦ〯
-959 悄 篠 七 小 tsh eu q   tshiɛ̂w ᅔᅧᇦ〯
-960 少 篠 始 紹 c jeu q   ʃiɛ̂w ᄾᅧᇦ〯
-961 曉 篠 馨 杳 h eu q   hiɛ̂w 혀ᇦ〯
-962 表 篠 彼 小 p eu q   piɛ̂w 벼ᇦ〯
-963 縹 篠 普 沼 ph eu q   phiɛ̂w 펴ᇦ〯
-964 摽 篠 婢 小 b eu q   biɛ̌w' 뼈ᇦ〯
-965 眇 篠 弭 沼 m eu q  3 miɛ̂w 며ᇦ〯
-966 巧 巧 苦 絞 kh au q   khiâw 캬ᇦ〯
-967 佼 巧 古 巧 k au q 1  kiâw 갸ᇦ〯
-968 飽 巧 博 巧 p au q   pâw 바ᇦ〯
-969 鮑 巧 部 巧 b au q   bǎw' 빠ᇦ〯
-970 卯 巧 莫 鮑 m au q  5 mâw 마ᇦ〯
-971 稍 巧 山 巧 sr au q   ʂâw ᄾᅡᇦ〯
-972 煼 巧 楚 絞 tshr au q  5 ʈʂhâw ᅕᅡᇦ〯
-973 爪 巧 側 絞 tsr au q   ʈʂâw ᅐᅡᇦ〯
-974 橈 巧 女 巧 nr au q   nâw 나ᇦ〯
-975 拗 巧 於 巧 q au q   ʔiâw ᅙᅣᇦ〯
-976 齩 巧 五 巧 ng au q   (ŋ)jiâw ᅌᅣᇦ〯
-977 骹 巧 胡 飽 gh au q   ɦiǎw' ᅘᅣᇦ〯
-978 皓 巧 胡 老 gh oou q  6 ɦǎw' ᅘᅡᇦ〯
-979 好 巧 許 皓 h oou q   hâw 하ᇦ〯
-980 考 巧 苦 浩 kh oou q   khâw 카ᇦ〯
-981 杲 巧 古 老 k oou q   kâw 가ᇦ〯
-982 媼 巧 烏 皓 q oou q  1 ʔâw ᅙᅡᇦ〯
-983 寶 巧 博 浩 p oou q  2 pâw 바ᇦ〯
-984 抱 巧 蒲 皓 b oou q   bǎw' 빠ᇦ〯
-985 掃 巧 蘇 老 s oou q  3 sâw ᄼᅡᇦ〯
-986 草 巧 采 早 tsh oou q  4 tshâw ᅔᅡᇦ〯
-987 早 巧 子 皓 ts oou q   tsâw ᅎᅡᇦ〯
-988 皁 巧 在 早 dz oou q   dzǎw' ᅏᅡᇦ〯
-989 倒 巧 都 皓 t oou q   tâw 다ᇦ〯
-990 討 巧 土 皓 th oou q   thâw 타ᇦ〯
-991 道 巧 杜 皓 d oou q  7 dǎw' 따ᇦ〯
-992 老 巧 魯 皓 l oou q  8 lâw 라ᇦ〯
-993 腦 巧 乃 老 n oou q   nâw 나ᇦ〯
+861 很 軫 下 懇 gh on q   ɦə̌n' *ᅘᅳᆫ〯
+862 懇 軫 口 很 kh on q   khə̂n *큰〯
+863 眼 軫 魚 墾 ng on q   ŋə̂n *ᅌᅳᆫ〯俗은〯
+864 稟 軫 必 敏 p jeon q   pîn *빈〯
+865 品 軫 丕 敏 ph jeon q   phîn *핀〯
+866 旱 旱 侯 罕 gh oon q   ɦɑ̌n' *ᅘᅥᆫ〯俗ᅘᅡᆫ〯
+867 罕 旱 許 旱 h oon q   hɑ̂n *헌〯俗한〯
+868 侃 旱 空 旱 kh oon q   khɑ̂n *컨〯俗칸〯
+869 稈 旱 古 旱 k oon q  4 kɑ̂n *건〯俗간〯
+870 緩 旱 胡 管 gh woon q  1 ɦwɔ̌n' *ᅘᅯᆫ〯俗원〯
+871 盌 旱 烏 管 q woon q  2 ʔwɔ̂n *ᅙᅯᆫ〯
+872 款 旱 苦 管 kh woon q   khwɔ̂n *퀀〯
+873 管 旱 古 緩 k woon q  3 kwɔ̂n *권〯
+874 滿 旱 莫 旱 m oon q   mwɔ̂n 뭔〯俗먼〯
+875 伴 旱 蒲 滿 b woon q   bwɔ̌n' 뿬〯俗뻔〯
+876 算 旱 損 管 s woon q   swɔ̂n *ᄼᅯᆫ〯
+877 纂 旱 作 管 ts woon q   tswɔ̂n *ᅎᅯᆫ〯
+878 短 旱 都 管 t woon q   twɔ̂n *둰〯
+879 疃 旱 土 緩 th woon q  5 thwɔ̂n *퉌〯
+880 斷 旱 徒 管 d woon q   dwɔ̌n' *뚼〯
+881 卵 旱 魯 管 l woon q   lwɔ̂n *뤈〯
+882 煖 旱 乃 管 n woon q   nwɔ̂n *눤〯
+883 產 產 楚 簡 tshr an q  1 ʈʂhân *ᅕᅡᆫ〯
+884 潸 產 數 版 sr wan q   ʂwân *ᄾᅪᆫ〯
+885 撰 產 雛 產 dzr wan q   ɖʐwǎn' *ᅑᅡᆫ〯俗ᅑᅪᆫ〯
+886 赧 產 乃 版 n an q   nân *난〯
+887 限 產 下 簡 gh an q   ɦiǎn' *ᅘᅣᆫ〯
+888 綰 產 烏 版 q an q   ʔiân *ᅙᅣᆫ〯
+889 版 產 補 綰 p an q  2 pân *반〯
+890 返 產 甫 版 f an q   fân ᄫᅪᆫ〯俗ᄫᅡᆫ〯
+891 晚 產 武 綰 mf an q   vân ᄝᅪᆫ〯
+892 醆 產 祖 產 ts an q   tsân *ᅎᅡᆫ〯
+893 棧 產 徂 限 dz an q  3 dzǎn' *ᅏᅡᆫ〯
+894 簡 產 古 限 k an q  4 kiân *갼〯
+895 眼 產 五 限 ng an q   (ŋ)jiân *ᅌᅣᆫ〯
+896 瓚 產 在 簡 dz an q   dzǎn' *ᅏᅡᆫ〯
+897 儹 產 積 產 ts an q   tsân *ᅎᅡᆫ〯
+898 亶 產 多 簡 t an q   tân *단〯
+2283 坦 產 他 但 th an q   thân *탄〯
+899 但 產 徒 亶 d an q   dǎn' *딴〯
+900 嬾 產 魯 簡 l an q   lân *란〯
+901 散 產 蘇 簡 s an q   sân *ᄼᅡᆫ〯
+902 汕 產 所 簡 sr an q   ʂân *ᄾᅡᆫ〯
+903 矕 產 母 板 m an q   mân *만〯
+904 眅 產 普 板 ph an q   phân *판〯
+905 銑 銑 蘇 典 s en q  1 siɛ̂n *ᄼᅧᆫ〯
+906 扁 銑 補 典 p en q   piɛ̂n *변〯
+907 辮 銑 婢 免 b en q   biɛ̌n' *뼌〯
+908 免 銑 美 辨 m en q  2 miɛ̂n *면〯
+909 典 銑 多 殄 t en q   tiɛ̂n *뎐〯
+910 腆 銑 他 典 th en q  3 thiɛ̂n *텬〯
+911 殄 銑 徒 典 d en q   diɛ̌n' *뗜〯
+912 撚 銑 乃 殄 n en q   niɛ̂n *년〯
+913 顯 銑 呼 典 h en q   hiɛ̂n *현〯
+914 繭 銑 吉 典 k en q  4 kiɛ̂n *견〯
+915 峴 銑 胡 典 gh en q  5 ɦiɛ̌n' *ᅘᅧᆫ〯
+916 犬 銑 苦 泫 kh wen q   khyuɛ̂n *ᄏᆑᆫ〯
+917 畎 銑 古 泫 k wen q   kyuɛ̂n *ᄀᆑᆫ〯
+918 泫 銑 胡 犬 gh wen q   ɦyuɛ̌n' *ᅘᆑᆫ〯
+919 淺 銑 七 演 tsh en q   tshiɛ̂n *ᅔᅧᆫ〯
+920 翦 銑 子 演 ts en q   tsiɛ̂n *ᅎᅧᆫ〯
+921 踐 銑 慈 演 dz en q   dziɛ̌n' *ᅏᅧᆫ〯
+922 選 銑 須 兗 s wen q   syuɛ̂n *ᄼᆑᆫ〯
+923 雋 銑 徂 兗 dz wen q   dzyuɛ̌n' *ᅏᆑᆫ〯
+924 闡 銑 齒 善 tch jen q   tʃhiɛ̂n *ᅕᅧᆫ〯
+925 善 銑 上 演 zc jen q   ʃʒiɛ̌n' *ᄿᅧᆫ〯
+926 舛 銑 尺 兗 tch wjen q   tʃhyuɛ̂n *ᅕᆑᆫ〯
+927 剸 銑 止 兗 tc wjen q   tʃyuɛ̂n *ᅐᆑᆫ〯
+928 輭 銑 乳 兗 ny wjen q  8 ʒyuɛ̂n *ᅀᆑᆫ〯
+929 撰 銑 雛 兗 dzr wen q   ɖʐwǎn' *ᅑᅪᆫ〯
+930 展 銑 之 輦 tc jen q   tʃiɛ̂n *ᅐᅧᆫ〯
+931 輦 銑 力 展 l en q   liɛ̂n *련〯
+932 衍 銑 以 淺 y jen q  7 jiɛ̂n *연〯
+933 輾 銑 尼 展 nr en q  6 niɛ̂n *년〯
+934 巘 銑 語 蹇 ng en q   ŋiɛ̂n *ᅌᅧᆫ〯
+935 篆 銑 柱 兗 dc wjen q   dʒyuɛ̌n' *ᅑᆑᆫ〯
+936 臠 銑 盧 轉 l wen q   lyuɛ̂n *ᄅᆑᆫ〯
+937 遣 銑 驅 演 kh en q   khiɛ̂n *켠〯
+938 蹇 銑 九 輦 k en q  12 kiɛ̂n *견〯
+939 鍵 銑 巨 展 g en q   giɛ̌n' *껸〯
+940 圈 銑 巨 卷 g wen q   gyuɛ̌n' *ᄁᆑᆫ〯
+941 卷 銑 古 轉 k wen q  9 kyuɛ̂n *ᄀᆑᆫ〯
+942 阮 銑 五 遠 ng wen q   (ŋ)jyuɛ̂n **ᅌᆑᆫ〯
+943 宛 銑 於 阮 q wen q  10 ʔyuɛ̂n *ᅙᆑᆫ〯
+944 𣉖 銑 況 遠 h wen q   hyuɛ̂n *ᄒᆑᆫ〯
+945 偃 銑 於 幰 q en q   ʔiɛ̂n *ᅙᅧᆫ〯
+946 篠 篠 先 了 s eu q  1 siɛ̂w ᄼᅧᇢ〯俗ᄼᅣᇢ〯
+947 湫 篠 子 了 ts eu q   tsiɛ̂w ᅎᅧᇢ〯俗ᅎᅣᇢ〯
+948 鳥 篠 尼 了 n eu q   niɛ̂w 녀ᇢ〯俗냐ᇢ〯
+949 朓 篠 土 了 th eu q   thiɛ̂w 텨ᇢ〯俗탸ᇢ〯
+950 了 篠 盧 皎 l eu q   liɛ̂w 려ᇢ〯俗랴ᇢ〯
+951 窕 篠 徒 了 d eu q   diɛ̌w' 뗘ᇢ〯俗땨ᇢ〯
+952 杳 篠 伊 鳥 q eu q  2 ʔiɛ̂w ᅙᅧᇢ〯俗ᅙᅣᇢ〯
+953 皎 篠 吉 了 k eu q   kiɛ̂w 겨ᇢ〯俗갸ᇢ〯
+954 沼 篠 止 少 tc jeu q   tʃiɛ̂w ᅐᅧᇢ〯俗ᅐᅣᇢ〯
+955 糾 篠 其 紹 g eu q   giɛ̌w' 껴ᇢ〯俗꺄ᇢ〯
+956 紹 篠 市 沼 zc jeu q   ʃʒiɛ̌w' ᄿᅧᇢ〯俗ᄿᅣᇢ〯
+957 擾 篠 爾 紹 ny jeu q   ʒiɛ̂w ᅀᅧᇢ〯俗ᅀᅣᇢ〯
+958 趙 篠 直 紹 dc jeu q   dʒiɛ̌w' ᅑᅧᇢ〯俗ᅑᅣᇢ〯
+959 悄 篠 七 小 tsh eu q   tshiɛ̂w ᅔᅧᇢ〯俗ᅔᅣᇢ〯
+960 少 篠 始 紹 c jeu q   ʃiɛ̂w ᄾᅧᇢ〯俗ᄾᅣᇢ〯
+961 曉 篠 馨 杳 h eu q   hiɛ̂w 혀ᇢ〯俗햐ᇢ〯
+962 表 篠 彼 小 p eu q   piɛ̂w 벼ᇢ〯俗뱌ᇢ〯
+963 縹 篠 普 沼 ph eu q   phiɛ̂w 펴ᇢ〯俗퍄ᇢ〯
+964 摽 篠 婢 小 b eu q   biɛ̌w' 뼈ᇢ〯俗뺘ᇢ〯
+965 眇 篠 弭 沼 m eu q  3 miɛ̂w 며ᇢ〯俗먀ᇢ〯
+966 巧 巧 苦 絞 kh au q   khiâw 캬ᇢ〯
+967 佼 巧 古 巧 k au q 1  kiâw 갸ᇢ〯
+968 飽 巧 博 巧 p au q   pâw 바ᇢ〯
+969 鮑 巧 部 巧 b au q   bǎw' 빠ᇢ〯
+970 卯 巧 莫 鮑 m au q  5 mâw 마ᇢ〯
+971 稍 巧 山 巧 sr au q   ʂâw ᄾᅡᇢ〯
+972 煼 巧 楚 絞 tshr au q  5 ʈʂhâw ᅕᅡᇢ〯
+973 爪 巧 側 絞 tsr au q   ʈʂâw ᅐᅡᇢ〯
+974 橈 巧 女 巧 nr au q   nâw 나ᇢ〯
+975 拗 巧 於 巧 q au q   ʔiâw ᅙᅣᇢ〯
+976 齩 巧 五 巧 ng au q   (ŋ)jiâw ᅌᅣᇢ〯俗야ᇢ〯
+977 骹 巧 胡 飽 gh au q   ɦiǎw' ᅘᅣᇢ〯
+978 皓 巧 胡 老 gh oou q  6 ɦǎw' ᅘᅡᇢ〯
+979 好 巧 許 皓 h oou q   hâw 하ᇢ〯
+980 考 巧 苦 浩 kh oou q   khâw 카ᇢ〯
+981 杲 巧 古 老 k oou q   kâw 가ᇢ〯
+982 媼 巧 烏 皓 q oou q  1 ʔâw ᅙᅡᇢ〯
+983 寶 巧 博 浩 p oou q  2 pâw 바ᇢ〯
+984 抱 巧 蒲 皓 b oou q   bǎw' 빠ᇢ〯
+985 掃 巧 蘇 老 s oou q  3 sâw ᄼᅡᇢ〯
+986 草 巧 采 早 tsh oou q  4 tshâw ᅔᅡᇢ〯
+987 早 巧 子 皓 ts oou q   tsâw ᅎᅡᇢ〯
+988 皁 巧 在 早 dz oou q   dzǎw' ᅏᅡᇢ〯
+989 倒 巧 都 皓 t oou q   tâw 다ᇢ〯
+990 討 巧 土 皓 th oou q   thâw 타ᇢ〯
+991 道 巧 杜 皓 d oou q  7 dǎw' 따ᇢ〯
+992 老 巧 魯 皓 l oou q  8 lâw 라ᇢ〯
+993 腦 巧 乃 老 n oou q   nâw 나ᇢ〯
 994 哿 哿 嘉 我 k oo q   kɔ̂ 거〯
 995 可 哿 口 我 kh oo q  1 khɔ̂ 커〯
-996 妸 哿 烏 可 q oo q   ʔɔ̂ ᅙᅥ〯
-997 我 哿 五 可 ng oo q   ŋɔ̂ ᅌᅥ〯
+996 妸 哿 烏 可 q oo q   ʔɔ̂ ᅙᅥ〯俗ᅙᅡ〯
+997 我 哿 五 可 ng oo q   ŋɔ̂ ᅌᅥ〯俗어〯
 998 荷 哿 下 可 gh oo q   ɦɔ̌' ᅘᅥ〯
 999 左 哿 臧 可 ts oo q   tsɔ̂ ᅎᅥ〯
 1000 癉 哿 丁 可 t oo q   tɔ̂ 더〯
 1001 拕 哿 待 可 d oo q 1  dɔ̌' 떠〯
-1002 娜 哿 奴 可 n oo q   nɔ̂ 너〯
+1002 娜 哿 奴 可 n oo q   nɔ̂ 너〯俗나〯
 1003 麼 哿 忙 果 m woo q   mwɔ̂ 뭐〯
 1004 娑 哿 素 可 s oo q   sɔ̂ ᄼᅥ〯
 1005 瑳 哿 千 可 tsh oo q   tshɔ̂ ᅔᅥ〯
@@ -1021,10 +1021,10 @@
 1012 頗 哿 普 火 ph woo q   phwɔ̂ 풔〯
 1013 鎖 哿 蘇 果 s woo q  2 swɔ̂ ᄼᅯ〯
 1014 坐 哿 徂 果 dz woo q   dzwɔ̌' ᅏᅯ〯
-1015 朶 哿 都 火 t woo q  4 twɔ̂ 둬〯
-1016 妥 哿 吐 火 th woo q  3 thwɔ̂ 퉈〯
-1017 裸 哿 魯 果 l woo q  4 lwɔ̂ 뤄〯
-1018 㛂 哿 五 果 ng woo q   ŋwɔ̂ ᅌᅯ〯
+1015 朶 哿 都 火 t woo q  4 t(w)ɔ̂ 더〯
+1016 妥 哿 吐 火 th woo q  3 th(w)ɔ̂ 터〯
+1017 裸 哿 魯 果 l woo q  4 l(w)ɔ̂ 러〯
+1018 㛂 哿 五 果 ng woo q   (ŋ)wɔ̂ ᅌᅯ〯俗워〯
 1019 馬 馬 莫 下 m a q  1 mâ 마〯
 1020 把 馬 補 下 p a q   pâ 바〯
 1021 鮓 馬 側 下 tsr a q  2 ʈʂâ ᅐᅡ〯
@@ -1035,7 +1035,7 @@
 1026 姹 馬 抽 下 tshr a q   ʈʂhâ ᅕᅡ〯
 1027 閜 馬 許 下 h a q   hiâ 햐〯
 1028 啞 馬 倚 下 q a q   ʔiâ ᅙᅣ〯
-2284 雅 馬 語 下 ng a q  5 (ŋ)jiâ ᅌᅣ〯
+2284 雅 馬 語 下 ng a q  5 (ŋ)jiâ ᅌᅣ〯俗야〯
 1029 踝 馬 戶 瓦 gh wa q   ɦwǎ' ᅘᅪ〯
 1030 跨 馬 苦 瓦 kh wa q   khwâ 콰〯
 1031 寡 馬 古 瓦 k wa q  6 kwâ 과〯
@@ -1058,13 +1058,13 @@
 1048 獎 養 子 兩 ts joong q   tsiɑ̂ŋ ᅎᅣᇰ〯
 1049 兩 養 良 獎 l joong q  1 liɑ̂ŋ 랴ᇰ〯
 1050 彊 養 巨 兩 g joong q   giɑ̌ŋ' 꺄ᇰ〯
-1051 仰 養 魚 兩 ng joong q   ŋiɑ̂ŋ ᅌᅣᇰ〯
+1051 仰 養 魚 兩 ng joong q   ŋ(i)ɑ̂ŋ ᅌᅡᇰ〯俗ᅌᅣᇰ〯
 1052 想 養 息 兩 s joong q   siɑ̂ŋ ᄼᅣᇰ〯
 1053 㼽 養 楚 兩 tshr joong q   ʈʂh(w)ɑ̂ŋ ᅕᅡᇰ〯
 1054 敞 養 昌 兩 tch joong q   tʃhiɑ̂ŋ ᅕᅣᇰ〯
 1055 掌 養 止 兩 tc joong q  2 tʃiɑ̂ŋ ᅐᅣᇰ〯
 2285 長 養 展 兩 tr joong q   tʃiɑ̂ŋ ᅐᅣᇰ〯
-1056 爽 養 所 兩 sr joong q  3 ʂ(w)ɑ̂ŋ ᄾᅡᇰ〯
+1056 爽 養 所 兩 sr joong q  3 ʂ(w)ɑ̂ŋ ᄾᅡᇰ〯俗ᄾᅪᇰ〯
 1057 響 養 許 兩 h joong q   hiɑ̂ŋ 햐ᇰ〯
 1058 襁 養 居 仰 k joong q   kiɑ̂ŋ 갸ᇰ〯
 1059 丈 養 呈 兩 dc joong q   dʒiɑ̌ŋ' ᅑᅣᇰ〯
@@ -1100,153 +1100,153 @@
 1089 棒 養 步 項 b ooung q   bɑ̌ŋ' 빠ᇰ〯
 1090 項 養 戶 講 gh ooung q   ɦiɑ̌ŋ' ᅘᅣᇰ〯
 1091 朗 養 里 黨 l oong q  9 lɑ̂ŋ 라ᇰ〯
-1092 梗 梗 古 杏 k aing q   kə̂ŋ 긔ᇰ〯
+1092 梗 梗 古 杏 k aing q   k(i)ə̂ŋ 긔ᇰ〯俗그ᇰ〯/기ᇰ〯
 1093 杏 梗 何 梗 gh aing q   ɦǐŋ' ᅘᅵᇰ〯
-1094 卝 梗 胡 猛 gh waing q   ɦwə̌ŋ' ᅘᅱᇰ〯
+1094 卝 梗 胡 猛 gh waing q   ɦwə̌ŋ' ᅘᅱᇰ〯俗귀ᇰ〯
 1095 礦 梗 古 猛 k waing q   kwə̂ŋ 귀ᇰ〯
-1096 猛 梗 母 梗 m aing q   mə̂ŋ 믜ᇰ〯
+1096 猛 梗 母 梗 m aing q   mə̂ŋ 믜ᇰ〯俗므ᇰ〯
 1097 蠯 梗 蒲 猛 b aing q   bə̌ŋ' 쁴ᇰ〯
-1098 冷 梗 魯 杏 l aing q   lə̂ŋ 릐ᇰ〯
-1099 瑒 梗 杖 梗 dzr aing q   ɖʐə̌ŋ' ᅑᅴᇰ〯
+1098 冷 梗 魯 杏 l aing q   lə̂ŋ 릐ᇰ〯俗르ᇰ〯
+1099 瑒 梗 杖 梗 dzr aing q   ɖʐə̌ŋ' ᅑᅵᇰ〯
 1100 丙 梗 補 永 p eing q  1 pîŋ 비ᇰ〯
 2286 鞞 梗 補 鼎 p ing q   pîŋ 비ᇰ〯
 1101 竝 梗 部 迥 b eing q  2 bǐŋ' 삐ᇰ〯
-1102 頃 梗 丘 穎 kh weing q   khyuə̂ŋ ᄏᆔᇰ〯
+1102 頃 梗 丘 穎 kh weing q   khyuə̂ŋ ᄏᆔᇰ〯俗키ᇰ〯
 1103 迥 梗 戶 頂 gh weing q  6 ɦyuə̌ŋ' ᅘᆔᇰ〯
 1104 詗 梗 火 迥 h weing q   hyuə̂ŋ ᄒᆔᇰ〯
-1105 濙 梗 烏 迥 q weing q   ʔyuə̂ŋ ᅙᆔᇰ〯
+1105 濙 梗 烏 迥 q weing q   ʔyuə̂ŋ ᅙᆔᇰ〯俗ᅙᅵᇰ〯
 1106 悻 梗 下 頂 gh eing q   ɦǐŋ' ᅘᅵᇰ〯
 1107 謦 梗 棄 挺 kh eing q   khîŋ 키ᇰ〯
 1108 皿 梗 眉 永 m eing q   mîŋ 미ᇰ〯
-1109 省 梗 所 景 sr eing q   ʂə̂ŋ ᄾᅴᇰ〯
+1109 省 梗 所 景 sr eing q   ʂə̂ŋ ᄾᅴᇰ〯俗ᄾᅳᇰ〯
 1110 影 梗 於 丙 q eing q   ʔîŋ ᅙᅵᇰ〯
-1111 穎 梗 庾 頃 y wjeing q   jyuə̂ŋ ᄋᆔᇰ〯
+1111 穎 梗 庾 頃 y wjeing q   jîŋ 이ᇰ〯
 1112 景 梗 居 影 k eing q  3 kîŋ 기ᇰ〯
-1113 永 梗 於 憬 q weing q   jyuə̂ŋ ᄋᆔᇰ〯
-1114 憬 梗 居 永 k weing q   kyuə̂ŋ ᄀᆔᇰ〯
-2287 炅 梗 古 迥 k wjeing q   kyuə̂ŋ ᄀᆔᇰ〯
+1113 永 梗 於 憬 q weing q   jyuə̂ŋ ᄋᆔᇰ〯俗유ᇰ〯
+1114 憬 梗 居 永 k weing q   kyuə̂ŋ 기ᇰ〯
+2287 炅 梗 古 迥 k wjeing q   kyuə̂ŋ 기ᇰ〯
 1115 耿 梗 古 幸 k eong q   kîŋ 기ᇰ〯
-1116 幸 梗 下 耿 gh eong q   ɦə̌ŋ' ᅘᅴᇰ〯
+1116 幸 梗 下 耿 gh eong q   ɦǐŋ' ᅘᅵᇰ〯
 1117 黽 梗 母 耿 m eong q   mîŋ 미ᇰ〯
 1118 靜 梗 疾 郢 dz eing q   dzǐŋ' ᅏᅵᇰ〯
 1119 省 梗 息 井 s eing q   sîŋ ᄼᅵᇰ〯
-1120 請 梗 七 靜 tsh eing q   tshîŋ ᅔᅵᇰ〯
+1120 請 梗 七 靜 tsh eing q   #N/A #N/A
 1121 井 梗 子 郢 ts eing q  4 tsîŋ ᅎᅵᇰ〯
 1122 逞 梗 丑 郢 tch jeing q   tʃhîŋ ᅕᅵᇰ〯
 1123 領 梗 里 郢 l eing q   lîŋ 리ᇰ〯
 1124 頂 梗 都 領 t eing q   tîŋ 디ᇰ〯
-1125 肯 梗 苦 等 kh eong q   khə̂ŋ 킈ᇰ〯
+1125 肯 梗 苦 等 kh eong q   khə̂ŋ 킈ᇰ〯俗큰〯
 1126 茗 梗 莫 迥 m eing q   mîŋ 미ᇰ〯
-1127 挺 梗 徒 鼎 d eing q  5 dǐŋ' 띠ᇰ〯
+1127 挺 梗 徒 鼎 d eing q  5 dǐŋ' 띠ᇰ〯俗티ᇰ〯
 1128 濘 梗 乃 挺 n eing q   nîŋ 니ᇰ〯
 1129 拯 梗 之 庱 tc jeing q   tʃîŋ ᅐᅵᇰ〯
-1130 㱡 梗 色 拯 sr eing q   ʃîŋ ᄾᅵᇰ〯
-1131 等 梗 多 肯 t eong q   tə̂ŋ 듸ᇰ〯
-1132 有 有 云 九 y jeou q   jîw 이ᇦ〯
-1133 滫 有 息 有 s jeou q   sîw ᄼᅵᇦ〯
-1134 酒 有 子 酉 ts jeou q   tsîw ᅎᅵᇦ〯
-1135 首 有 始 九 c jeou q   ʃîw ᄾᅵᇦ〯
-1136 帚 有 止 酉 tc jeou q  1 tʃîw ᅐᅵᇦ〯
-1137 醜 有 齒 九 tch jeou q   tʃhîw ᅕᅵᇦ〯
-1138 受 有 是 酉 zc jeou q   ʃʒǐw' ᄿᅵᇦ〯
-1139 蹂 有 忍 九 ny jeou q   ʒîw ᅀᅵᇦ〯
-1140 紂 有 丈 九 dc jeou q   dʒǐw' ᅑᅵᇦ〯
-1141 柳 有 力 九 l jeou q 1  lîw 리ᇦ〯
-1142 紐 有 女 九 nr jeou q  2 nîw 니ᇦ〯
-1143 黝 有 於 糾 q jeou q   ʔîw ᅙᅵᇦ〯
-1144 朽 有 許 久 h jeou q 2 3 hîw 히ᇦ〯
-1145 糗 有 去 九 kh jeou q   khîw 키ᇦ〯
-1146 九 有 舉 有 k jeou q 3  kîw 기ᇦ〯
-1147 臼 有 巨 九 g jeou q  4 gǐw' 끼ᇦ〯
-1148 黈 有 他 口 th eou q  5 thə̂w 트ᇦ〯
-1149 鋀 有 徒 口 d eou q 4  də̌w' 뜨ᇦ〯
-1150 塿 有 郎 斗 l eou q   lə̂w 르ᇦ〯
-1151 㝅 有 乃 后 n eou q   nə̂w 느ᇦ〯
-1152 缶 有 俯 久 f jeou q   fə̂w ᄫᅳᇦ〯
-1153 阜 有 房 缶 bf jeou q  6 fvə̌w' ᄬᅳᇦ〯
-1154 溲 有 所 九 sr jeou q   ʂə̂w ᄾᅳᇦ〯
-1155 掫 有 側 久 tsr jeou q   ʈʂə̂w ᅐᅳᇦ〯
-1156 厚 有 胡 口 gh eou q  7 ɦə̌w' ᅘᅳᇦ〯
-1157 吼 有 許 厚 h eou q 5  hə̂w 흐ᇦ〯
-1158 口 有 苦 厚 kh eou q   khə̂w 크ᇦ〯
-1159 耇 有 舉 后 k eou q   kə̂w 그ᇦ〯
-1160 歐 有 於 口 q eou q  9 ʔə̂w ᅙᅳᇦ〯
-1161 偶 有 語 口 ng eou q   ŋə̂w ᅌᅳᇦ〯
-1162 剖 有 普 厚 ph eou q 6  phə̂w 프ᇦ〯
-1163 母 有 莫 厚 m eou q   mə̂w 므ᇦ〯
-1164 叟 有 蘇 后 s eou q 7 8 sə̂w ᄼᅳᇦ〯
-1165 趣 有 此 苟 tsh eou q 8 10 tshə̂w ᅔᅳᇦ〯
-1166 走 有 子 口 ts eou q   tsə̂w ᅎᅳᇦ〯
-1167 斗 有 當 口 t eou q 9  tə̂w 드ᇦ〯
-1168 寢 寢 七 稔 tsh jeom q  1 tshîm ᅔᅵᆷ〯
-1169 𥧲 寢 子 衽 ts jeom q   tsîm ᅎᅵᆷ〯
-1170 審 寢 式 荏 c jeom q   ʃîm ᄾᅵᆷ〯
-1171 瀋 寢 昌 枕 tch jeom q   tʃhîm ᅕᅵᆷ〯
-1172 枕 寢 章 荏 tc jeom q   tʃîm ᅐᅵᆷ〯
-1173 甚 寢 食 枕 zc jeom q   ʃʒǐm' ᄿᅵᆷ〯
-1174 餁 寢 忍 甚 ny jeom q   ʒîm ᅀᅵᆷ〯
-1175 㾕 寢 所 錦 sr jeom q   ʂ(i)ə̂m ᄾᅵᆷ〯
-1176 墋 寢 楚 錦 tshr jeom q   ʈʂhə̂m ᅕᅳᆷ〯
-1177 糝 寢 桑 錦 s jeom q  2 sîm ᄼᅵᆷ〯
-1178 吟 寢 魚 錦 ng jeom q   ŋîm ᅌᅵᆷ〯
-1179 踸 寢 丑 錦 tch jeom q   tʃhîm ᅕᅵᆷ〯
-1180 朕 寢 呈 稔 dc jeom q   dʒǐm' ᅑᅵᆷ〯
-1181 廩 寢 力 錦 l jeom q   lîm 림〯
-1182 錦 寢 居 飲 k jeom q   kîm 김〯
-1183 噤 寢 巨 飲 g jeom q   gǐm' 낌〯
-1184 飲 寢 於 錦 q jeom q   ʔîm ᅙᅵᆷ〯
-1185 感 感 古 禫 k oom q  1 kâm 감〯
-1186 禫 感 徒 感 d oom q   dǎm' 땀〯
-1187 頷 感 戶 感 gh oom q   ɦǎm' ᅘᅡᆷ〯
-1188 坎 感 苦 感 kh oom q  2 khâm 캄〯
-1189 晻 感 鄔 感 q oom q   ʔâm ᅙᅡᆷ〯
-1190 頷 感 五 感 ng oom q  3 ŋâm ᅌᅡᆷ〯
-1191 糝 感 桑 感 s oom q   sâm ᄼᅡᆷ〯
-1192 慘 感 七 感 tsh oom q   tshâm ᅔᅡᆷ〯
-1193 歜 感 徂 感 dz oom q   dzǎm' ᅏᅡᆷ〯
-1194 寁 感 子 感 ts oom q   tsâm ᅎᅡᆷ〯
-1195 紞 感 都 感 t oom q   tâm 담〯
-1196 襑 感 他 感 th oom q   thâm 탐〯
-1197 豏 感 下 斬 gh am q   ɦiǎm' ᅘᅣᆷ〯
-1198 檻 感 胡 覽 gh am q   ɦiǎm' ᅘᅣᆷ〯
-1199 闞 感 虎 覽 h am q   hiâm 햠〯
-1200 槧 感 左 敢 ts am q   dzâm ᅏᅡᆷ〯
-1201 膽 感 都 敢 t am q  4 tâm 담〯
-1202 啖 感 徒 覽 d am q   dǎm' 땀〯
-1203 壈 感 盧 感 l oom q  7 lâm 람〯
-1204 敢 感 古 覽 k am q  5 kâm 감〯
-1205 覽 感 魯 敢 l am q   lâm 람〯
-1206 減 感 古 斬 k am q   kiâm 걈〯
-1207 黯 感 乙 減 q am q   ʔiâm ᅙᅣᆷ〯
-1208 摻 感 所 斬 sr am q   ʂâm ᄾᅡᆷ〯
-1209 斬 感 側 減 tsr am q   ʈʂâm ᅐᅡᆷ〯
-1210 湛 感 大 減 dzr am q   ɖʐǎm' ᅑᅡᆷ〯
-1211 嶃 感 士 減 dzr am q   ɖʐǎm' ᅑᅡᆷ〯
-1212 鋄 感 忙 范 m am q   mâm 맘〯
-1213 范 感 房 啖 bf am q   fvǎm' ᄬᅡᆷ〯
-1214 琰 琰 以 冉 y jem q   jiɛ̂m 염〯
-1215 奄 琰 於 檢 q em q   ʔiɛ̂m ᅙᅧᆷ〯
-1216 閃 琰 失 冉 c jem q  4 ʃiɛ̂m ᄾᅧᆷ〯
-1217 冉 琰 而 琰 ny jem q   ʒiɛ̂m ᅀᅧᆷ〯
-1218 諂 琰 丑 琰 tch jem q   tʃhiɛ̂m ᅕᅧᆷ〯
-1219 斂 琰 力 冉 l em q   liɛ̂m 렴〯
-1220 險 琰 虛 檢 h em q   hiɛ̂m 혐〯
-1221 檢 琰 居 奄 k em q  2 kiɛ̂m 겸〯
-1222 儉 琰 巨 險 g em q   giɛ̌m' 꼄〯
-1223 隒 琰 魚 檢 ng em q  3 ŋiɛ̂m ᅌᅧᆷ〯
-1224 貶 琰 悲 檢 p em q   piɛ̂m 볌〯
-1225 颭 琰 職 琰 tc jem q   tʃiɛ̂m ᅐᅧᆷ〯
-1226 忝 琰 他 點 th em q   thiɛ̂m 텸〯
-1227 點 琰 多 忝 t em q  1 tiɛ̂m 뎜〯
-1228 簟 琰 徒 點 d em q   diɛ̌m' 뗨〯
-1229 淰 琰 乃 點 n em q   niɛ̂m 념〯
-1230 歉 琰 苦 簟 kh em q   khiɛ̂m 켬〯
-1231 漸 琰 秦 冉 dz em q   dziɛ̌m' ᅏᅧᆷ〯
+1130 㱡 梗 色 拯 sr eing q   ʂə̂ŋ ᄾᅵᇰ〯
+1131 等 梗 多 肯 t eong q   tə̂ŋ 듸ᇰ〯俗드ᇰ〯
+1132 有 有 云 九 y jeou q   jîw 이ᇢ〯
+1133 滫 有 息 有 s jeou q   sîw ᄼᅵᇢ〯
+1134 酒 有 子 酉 ts jeou q   tsîw ᅎᅵᇢ〯
+1135 首 有 始 九 c jeou q   ʃîw ᄾᅵᇢ〯
+1136 帚 有 止 酉 tc jeou q  1 tʃîw ᅐᅵᇢ〯
+1137 醜 有 齒 九 tch jeou q   tʃhîw ᅕᅵᇢ〯
+1138 受 有 是 酉 zc jeou q   ʃʒǐw' ᄿᅵᇢ〯
+1139 蹂 有 忍 九 ny jeou q   ʒîw ᅀᅵᇢ〯
+1140 紂 有 丈 九 dc jeou q   dʒǐw' ᅑᅵᇢ〯
+1141 柳 有 力 九 l jeou q 1  lîw 리ᇢ〯
+1142 紐 有 女 九 nr jeou q  2 nîw 니ᇢ〯
+1143 黝 有 於 糾 q jeou q   ʔîw ᅙᅵᇢ〯
+1144 朽 有 許 久 h jeou q 2 3 hîw 히ᇢ〯
+1145 糗 有 去 九 kh jeou q   khîw 키ᇢ〯
+1146 九 有 舉 有 k jeou q 3  kîw 기ᇢ〯
+1147 臼 有 巨 九 g jeou q  4 gǐw' 끼ᇢ〯
+1148 黈 有 他 口 th eou q  5 thə̂w 트ᇢ〯
+1149 鋀 有 徒 口 d eou q 4  də̌w' 뜨ᇢ〯
+1150 塿 有 郎 斗 l eou q   lə̂w 르ᇢ〯
+1151 㝅 有 乃 后 n eou q   nə̂w 느ᇢ〯
+1152 缶 有 俯 久 f jeou q   fə̂w ᄫᅳᇢ〯
+1153 阜 有 房 缶 bf jeou q  6 fvə̌w' ᄬᅳᇢ〯
+1154 溲 有 所 九 sr jeou q   ʂə̂w ᄾᅳᇢ〯
+1155 掫 有 側 久 tsr jeou q   ʈʂə̂w ᅐᅳᇢ〯
+1156 厚 有 胡 口 gh eou q  7 ɦə̌w' ᅘᅳᇢ〯
+1157 吼 有 許 厚 h eou q 5  hə̂w 흐ᇢ〯
+1158 口 有 苦 厚 kh eou q   khə̂w 크ᇢ〯
+1159 耇 有 舉 后 k eou q   kə̂w 그ᇢ〯
+1160 歐 有 於 口 q eou q  9 ʔə̂w ᅙᅳᇢ〯
+1161 偶 有 語 口 ng eou q   ŋə̂w ᅌᅳᇢ〯俗으ᇢ〯
+1162 剖 有 普 厚 ph eou q 6  phə̂w 프ᇢ〯
+1163 母 有 莫 厚 m eou q   mə̂w 므ᇢ〯
+1164 叟 有 蘇 后 s eou q 7 8 sə̂w ᄼᅳᇢ〯
+1165 趣 有 此 苟 tsh eou q 8 10 tshə̂w ᅔᅳᇢ〯
+1166 走 有 子 口 ts eou q   tsə̂w ᅎᅳᇢ〯
+1167 斗 有 當 口 t eou q 9  tə̂w 드ᇢ〯
+1168 寢 寢 七 稔 tsh jeom q  1 tshîm ᅔᅵᆷ〯俗ᅔᅵᆫ〯
+1169 𥧲 寢 子 衽 ts jeom q   tsîm ᅎᅵᆷ〯俗ᅎᅵᆫ〯
+1170 審 寢 式 荏 c jeom q   ʃîm ᄾᅵᆷ〯俗ᄾᅵᆫ〯
+1171 瀋 寢 昌 枕 tch jeom q   tʃhîm ᅕᅵᆷ〯俗ᄾᅵᆫ〯
+1172 枕 寢 章 荏 tc jeom q   tʃîm ᅐᅵᆷ〯俗ᅐᅵᆫ〯
+1173 甚 寢 食 枕 zc jeom q   ʃʒǐm' ᄿᅵᆷ〯俗ᄿᅵᆫ〯
+1174 餁 寢 忍 甚 ny jeom q   ʒîm ᅀᅵᆷ〯俗ᅀᅵᆫ〯
+1175 㾕 寢 所 錦 sr jeom q   ʂîm ᄾᅵᆷ〯俗ᄾᅵᆫ〯
+1176 墋 寢 楚 錦 tshr jeom q   ʈʂhə̂m ᅕᅳᆷ〯俗ᅕᅳᆫ〯
+1177 糝 寢 桑 錦 s jeom q  2 sîm ᄼᅵᆷ〯俗ᄼᅵᆫ〯
+1178 吟 寢 魚 錦 ng jeom q   ŋîm ᅌᅵᆷ〯俗인〯
+1179 踸 寢 丑 錦 tch jeom q   tʃhîm ᅕᅵᆷ〯俗ᅕᅵᆫ〯
+1180 朕 寢 呈 稔 dc jeom q   dʒǐm' ᅑᅵᆷ〯俗ᅑᅵᆫ〯
+1181 廩 寢 力 錦 l jeom q   lîm 림〯俗린〯
+1182 錦 寢 居 飲 k jeom q   kîm 김〯俗긴〯
+1183 噤 寢 巨 飲 g jeom q   gǐm' 낌〯俗낀〯
+1184 飲 寢 於 錦 q jeom q   ʔîm ᅙᅵᆷ〯俗ᅙᅵᆫ〯
+1185 感 感 古 禫 k oom q  1 kâm 감〯俗간〯
+1186 禫 感 徒 感 d oom q   dǎm' 땀〯俗딴〯
+1187 頷 感 戶 感 gh oom q   ɦǎm' ᅘᅡᆷ〯俗ᅘᅡᆫ〯
+1188 坎 感 苦 感 kh oom q  2 khâm 캄〯俗칸〯
+1189 晻 感 鄔 感 q oom q   ʔâm ᅙᅡᆷ〯俗ᅙᅡᆫ〯
+1190 頷 感 五 感 ng oom q  3 ŋâm ᅌᅡᆷ〯俗안〯
+1191 糝 感 桑 感 s oom q   sâm ᄼᅡᆷ〯俗ᄼᅡᆫ〯
+1192 慘 感 七 感 tsh oom q   tshâm ᅔᅡᆷ〯俗ᅔᅡᆫ〯
+1193 歜 感 徂 感 dz oom q   dzǎm' ᅏᅡᆷ〯俗ᅏᅡᆫ〯
+1194 寁 感 子 感 ts oom q   tsâm ᅎᅡᆷ〯俗ᅎᅡᆫ〯
+1195 紞 感 都 感 t oom q   tâm 담〯俗단〯
+1196 襑 感 他 感 th oom q   thâm 탐〯俗탄〯
+1197 豏 感 下 斬 gh am q   ɦiǎm' ᅘᅣᆷ〯俗ᅘᅣᆫ〯
+1198 檻 感 胡 覽 gh am q   ɦiǎm' ᅘᅣᆷ〯俗ᅘᅣᆫ〯
+1199 闞 感 虎 覽 h am q   hiâm 햠〯俗햔〯
+1200 槧 感 左 敢 ts am q   tsâm ᅎᅡᆷ〯俗ᅎᅡᆫ〯
+1201 膽 感 都 敢 t am q  4 tâm 담〯俗단〯
+1202 啖 感 徒 覽 d am q   dǎm' 땀〯俗딴〯
+1203 壈 感 盧 感 l oom q  7 lâm 람〯俗란〯
+1204 敢 感 古 覽 k am q  5 kâm 감〯俗간〯
+1205 覽 感 魯 敢 l am q   lâm 람〯俗란〯
+1206 減 感 古 斬 k am q   kiâm 걈〯俗갼〯
+1207 黯 感 乙 減 q am q   ʔiâm ᅙᅣᆷ〯俗ᅙᅣᆫ〯
+1208 摻 感 所 斬 sr am q   ʂâm ᄾᅡᆷ〯俗ᄾᅡᆫ〯
+1209 斬 感 側 減 tsr am q   ʈʂâm ᅐᅡᆷ〯俗ᅐᅡᆫ〯
+1210 湛 感 大 減 dzr am q   ɖʐǎm' ᅑᅡᆷ〯俗ᅑᅡᆫ〯
+1211 嶃 感 士 減 dzr am q   ɖʐǎm' ᅑᅡᆷ〯俗ᅑᅡᆫ〯
+1212 鋄 感 忙 范 m am q   mâm 맘〯俗만〯
+1213 范 感 房 啖 bf am q   fvǎm' ᄬᅡᆷ〯俗ᄬᅡᆫ〯
+1214 琰 琰 以 冉 y jem q   jiɛ̂m 염〯俗연〯
+1215 奄 琰 於 檢 q em q   ʔiɛ̂m ᅙᅧᆷ〯俗ᅙᅧᆫ〯
+1216 閃 琰 失 冉 c jem q  4 ʃiɛ̂m ᄾᅧᆷ〯俗ᄾᅧᆫ〯
+1217 冉 琰 而 琰 ny jem q   ʒiɛ̂m ᅀᅧᆷ〯俗ᅀᅧᆫ〯
+1218 諂 琰 丑 琰 tch jem q   tʃhiɛ̂m ᅕᅧᆷ〯俗ᅕᅧᆫ〯
+1219 斂 琰 力 冉 l em q   liɛ̂m 렴〯俗련〯
+1220 險 琰 虛 檢 h em q   hiɛ̂m 혐〯俗현〯
+1221 檢 琰 居 奄 k em q  2 kiɛ̂m 겸〯俗견〯
+1222 儉 琰 巨 險 g em q   giɛ̌m' 꼄〯俗껸〯
+1223 隒 琰 魚 檢 ng em q  3 ŋiɛ̂m ᅌᅧᆷ〯俗연〯
+1224 貶 琰 悲 檢 p em q   piɛ̂m 볌〯俗변〯
+1225 颭 琰 職 琰 tc jem q   tʃiɛ̂m ᅐᅧᆷ〯俗ᅐᅧᆫ〯
+1226 忝 琰 他 點 th em q   thiɛ̂m 텸〯俗텬〯
+1227 點 琰 多 忝 t em q  1 tiɛ̂m 뎜〯俗뎐〯
+1228 簟 琰 徒 點 d em q   diɛ̌m' 뗨〯俗뗜〯
+1229 淰 琰 乃 點 n em q   niɛ̂m 념〯俗년〯
+1230 歉 琰 苦 簟 kh em q   khiɛ̂m 켬〯俗켠〯
+1231 漸 琰 秦 冉 dz em q   dziɛ̌m' ᅏᅧᆷ〯俗ᅏᅧᆫ〯
 1232 送 送 蘇 弄 s ong h  1 sǔŋ ᄼᅮᇰ〮
 1233 鳳 送 馮 貢 bf ong h   fvǔŋ ᄬᅮᇰ〮
 1234 𧪳 送 千 弄 tsh ong h   tshǔŋ ᅔᅮᇰ〮
 1235 糉 送 作 弄 ts ong h   tsǔŋ ᅎᅮᇰ〮
-1236 縱 送 足 用 ts jong h   tsyǔŋ ᅎᅲᇰ〮
+1236 縱 送 足 用 ts jong h   tsyǔŋ ᅎᅲᇰ〮俗ᅎᅮᇰ〮
 1237 凍 送 多 貢 t ong h  2 tǔŋ 두ᇰ〮
 1238 痛 送 他 貢 th ong h   thǔŋ 투ᇰ〮
 1239 洞 送 徒 弄 d ong h   dǔŋ 뚜ᇰ〮
@@ -1259,70 +1259,70 @@
 1246 夢 送 蒙 弄 m ong h   mǔŋ 무ᇰ〮
 1247 賵 送 撫 鳳 f ong h  4 fǔŋ ᄫᅮᇰ〮
 1248 雍 送 於 用 q jong h   ʔyǔŋ ᅙᅲᇰ〮
-1249 衆 送 之 仲 tc jong h  5 tʃyǔŋ ᅐᅲᇰ〮
-1250 仲 送 直 衆 dc jong h   dʒyǔŋ ᅑᅲᇰ〮
+1249 衆 送 之 仲 tc jong h  5 tʃyǔŋ ᅐᅲᇰ〮俗ᅐᅮᇰ〮
+1250 仲 送 直 衆 dc jong h   dʒyǔŋ ᅑᅲᇰ〮俗ᅑᅮᇰ〮
 1251 用 送 余 頌 y jong h   jyǔŋ 유ᇰ〮
-1252 頌 送 似 用 z jong h   szyǔŋ ᄽᅲᇰ〮
-1253 從 送 才 仲 dz jong h   dzyǔŋ ᅏᅲᇰ〮
+1252 頌 送 似 用 z jong h   szyǔŋ ᄽᅲᇰ〮俗ᄽᅮᇰ〮
+1253 從 送 才 仲 dz jong h   dzyǔŋ ᅏᅲᇰ〮俗ᅏᅮᇰ〮
 1254 匈 送 許 用 h jong h   hyǔŋ 휴ᇰ〮
-1255 共 送 渠 用 g jong h   gyǔŋ 뀨ᇰ〮
-1256 恐 送 欺 用 kh jong h   khyǔŋ 큐ᇰ〮
-1257 供 送 居 用 k jong h   kyǔŋ 규ᇰ〮
+1255 共 送 渠 用 g jong h   gyǔŋ 뀨ᇰ〮俗꾸ᇰ〮
+1256 恐 送 欺 用 kh jong h   khyǔŋ 큐ᇰ〮俗쿠ᇰ〮
+1257 供 送 居 用 k jong h   kyǔŋ 규ᇰ〮俗구ᇰ〮
 1258 憃 送 丑 用 tch jong h   tʃhyǔŋ ᅕᅲᇰ〮
 1259 齈 送 奴 凍 n ong h   nǔŋ 누ᇰ〮
-1260 寘 寘 支 義 tc jer h  1 tʃiɨ̌ ᅐᅵ〮
-1261 恣 寘 資 四 ts er h   tsɨ̌ ᅎᅳ〮
-1262 翅 寘 昌 智 tch je h  3 tʃhiɨ̌ ᅕᅵ〮
-1263 熾 寘 昌 志 tch jer h   tʃhiɨ̌ ᅕᅵ〮
-1264 侍 寘 時 吏 zc jer h  2 ʃʒiɨ̌(ʂʐɨ̌) ᄿᅵ〮
-1265 二 寘 而 至 ny jer h   ɻ̌ ᅀᅵ〮
-1266 四 寘 息 漬 s er h   sɨ̌ ᄼᅳ〮
-1267 笥 寘 相 吏 s er h   sǐ ᄼᅵ〮
-1268 自 寘 疾 二 dz er h   dzɨ̌ ᅏᅳ〮
-1269 智 寘 知 意 tc je h   tʃǐ ᅐᅵ〮
-1270 制 寘 征 例 tc jei h   tʃiɪ̌i ᅐᅨ〮
-1271 治 寘 直 意 dc je h   dʒǐ ᅑᅵ〮
-1272 眙 寘 丑 吏 tch je h   tʃhǐ ᅕᅵ〮
-1273 異 寘 以 智 y je h 1  jǐ 이〮
-1274 詣 寘 倪 制 ng ei h   ŋiɪ̌i ᅌᅨ〮
-1275 曳 寘 以 制 y jei h  5 jiɪ̌i 예〮
-1276 試 寘 式 至 c je h   ʃiɨ̌(ʂɨ̌) ᄾᅵ〮
+1260 寘 寘 支 義 tc jer h  1 tʃiɨ̌ ᅐᅵ〮俗ᅐᅵᇫ〮
+1261 恣 寘 資 四 ts er h   tsɨ̌ ᅎᅳ〮俗ᅎᅳᇫ〮
+1262 翅 寘 昌 智 tch je h  3 ʈʂhɨ̌ ᅕᅳ〮俗ᅕᅳᇫ〮
+1263 熾 寘 昌 志 tch jer h   ʈʂhɨ̌ ᅕᅳ〮俗ᅕᅳᇫ〮
+1264 侍 寘 時 吏 zc jer h  2 ʃʒǐ/ʂʐɨ̌ ᄿᅵ〮俗ᄿᅳᇫ〮
+1265 二 寘 而 至 ny jer h   ɻ̌ ᅀᅵ〮俗ᅀᅳᇫ〮
+1266 四 寘 息 漬 s er h   sɨ̌ ᄼᅳ〮俗ᄼᅳᇫ〮
+1267 笥 寘 相 吏 s er h   sɨ̌ ᄼᅳ〮俗ᄼᅳᇫ〮
+1268 自 寘 疾 二 dz er h   dzɨ̌ ᅏᅳ〮俗ᅏᅳᇫ〮
+1269 智 寘 知 意 tc je h   tʃǐ ᅐᅵ〮俗ᅐᅵᇫ〮
+1270 制 寘 征 例 tc jei h   tʃǐ ᅐᅵ〮俗ᅐᅵᇫ〮
+1271 治 寘 直 意 dc je h   dʒǐ ᅑᅵ〮俗ᅑᅵᇫ〮
+1272 眙 寘 丑 吏 tch je h   tʃhǐ ᅕᅵ〮俗ᅕᅵᇫ〮
+1273 異 寘 以 智 y je h 1  (ŋ)jǐ 이〮古ᅌᅵ〮
+1274 詣 寘 倪 制 ng ei h   (ŋ)jǐ 이〮古ᅌᅵ〮
+1275 曳 寘 以 制 y jei h  5 jǐ 이〮
+1276 試 寘 式 至 c je h   ʃǐ/ʂɨ̌ ᄾᅵ〮俗ᄾᅳᇫ〮
 1277 芰 寘 奇 寄 g e h  6 gǐ 끼〮
 1278 譬 寘 匹 智 ph e h  7 phǐ 피〮
 1279 祕 寘 兵 媚 p e h   pǐ 비〮
 1280 避 寘 毗 意 b e h  10 bǐ 삐〮
-1281 誓 寘 時 智 zc jei h   ʃʒiɪ̌i ᄿᅨ〮
+1281 誓 寘 時 智 zc jei h   ʃʒǐ ᄿᅵ〮俗ᄿᅵᇫ〮
 1282 未 寘 無 沸 mf ei h   vǐ ᄝᅵ〮
-1283 廁 寘 初 寺 tshr e h   ʈʂhɨ̌ ᅕᅳ〮
-1284 次 寘 七 四 tsh e h   tshɨ̌ ᅔᅳ〮
+1283 廁 寘 初 寺 tshr e h   ʈʂhɨ̌ ᅕᅳ〮俗ᅕᅳᇫ〮
+1284 次 寘 七 四 tsh e h   tshɨ̌ ᅔᅳ〮俗ᅔᅳᇫ〮
 1285 戲 寘 許 意 h e h  11 hǐ 히〮
 1286 意 寘 於 戲 q e h  4 ʔǐ ᅙᅵ〮
-1287 医 寘 於 計 q ei h   ʔiɪ̌i ᅙᅨ〮
+1287 医 寘 於 計 q ei h   ʔǐ ᅙᅵ〮
 1288 費 寘 芳 未 f ei h  8 fǐ ᄫᅵ〮
-1289 世 寘 始 制 c jei h   ʃiɪ̌i ᄾᅨ〮
-1290 掣 寘 尺 制 tch jei h   tʃhiɪ̌i ᅕᅨ〮
-1291 侐 寘 火 揥 h ei h   hiɪ̌i 혜〮
-1292 閉 寘 必 弊 p ei h  9 piɪ̌i 볘〮
-1293 轡 寘 兵 臂 ph ei h   pǐ 비〮
+1289 世 寘 始 制 c jei h   ʃǐ/ʂɨ̌ ᄾᅵ〮俗ᄾᅳᇫ〮
+1290 掣 寘 尺 制 tch jei h   tʃhǐ ᅕᅵ〮俗ᅕᅵᇫ〮
+1291 侐 寘 火 揥 h ei h   hǐ 히〮
+1292 閉 寘 必 弊 p ei h  9 pǐ 비〮
+1293 轡 寘 兵 臂 ph ei h   phǐ 피〮
 1294 臂 寘 必 轡 p ei h   pǐ 비〮
-1295 霽 霽 子 計 ts eoi h  2 tsiɪ̌i ᅎᅨ〮
-1296 劑 霽 才 詣 dz eoi h   dziɪ̌i ᅏᅨ〮
-1297 細 霽 思 計 s eoi h   siɪ̌i ᄼᅨ〮
-1298 切 霽 七 計 tsh eoi h   tshiɪ̌i ᅔᅨ〮
-1299 帝 霽 丁 計 t eoi h   tiɪ̌i 뎨〮
-1300 替 霽 他 計 th eoi h  7 thiɪ̌i 톄〮
-1301 第 霽 大 計 d eoi h   diɪ̌i 뗴〮
-1302 地 霽 徒 利 d ei h  8 dǐ 띠〮
-1303 利 霽 力 地 l ei h  3 lǐ 리〮
-1304 麗 霽 力 霽 l eoi h  4 liɪ̌i 례〮
-1305 器 霽 去 冀 kh ei h   khǐ 키〮
-1306 契 霽 去 計 kh eoi h   khiɪ̌i 켸〮
-1307 計 霽 吉 詣 k eoi h   kiɪ̌i 계〮
-1308 寄 霽 吉 器 k ei h  5 kǐ 기〮
-1309 泥 霽 乃 計 n eoi h  1 niɪ̌i 녜〮
-1310 系 霽 胡 計 gh eoi h   ɦiɪ̌i ᅘᅨ〮
-1311 寐 霽 彌 計 m eoi h  6 miɪ̌i 몌〮
-1312 滯 霽 直 例 dzr eoi h   dʒiɪ̌i ᅑᅨ〮
+1295 霽 霽 子 計 ts eoi h  2 tsǐ ᅎᅨ〮俗ᅎᅵ〮
+1296 劑 霽 才 詣 dz eoi h   dzǐ ᅏᅨ〮俗ᅏᅵ〮
+1297 細 霽 思 計 s eoi h   sǐ ᄼᅨ〮俗ᄼᅵ〮
+1298 切 霽 七 計 tsh eoi h   tshǐ ᅔᅨ〮俗ᅔᅵ〮
+1299 帝 霽 丁 計 t eoi h   tǐ 뎨〮俗디〮
+1300 替 霽 他 計 th eoi h  7 thǐ 톄〮俗티〮
+1301 第 霽 大 計 d eoi h   dǐ 뗴〮俗띠〮
+1302 地 霽 徒 利 d ei h  8 dǐ 뗴〮俗띠〮
+1303 利 霽 力 地 l ei h  3 lǐ 례〮俗리〮
+1304 麗 霽 力 霽 l eoi h  4 lǐ 례〮俗리〮
+1305 器 霽 去 冀 kh ei h   khǐ 켸〮俗키〮
+1306 契 霽 去 計 kh eoi h   khǐ 켸〮俗키〮
+1307 計 霽 吉 詣 k eoi h   kǐ 계〮俗기〮
+1308 寄 霽 吉 器 k ei h  5 kǐ 계〮俗기〮
+1309 泥 霽 乃 計 n eoi h  1 nǐ 녜〮俗니〮
+1310 系 霽 胡 計 gh eoi h   ɦǐ ᅘᅨ〮俗ᅘᅵ〮
+1311 寐 霽 彌 計 m eoi h  6 mǐ 몌〮俗믜〮
+1312 滯 霽 直 例 dzr eoi h   dʒǐ ᅑᅨ〮俗ᅑᅵ〮
 1313 御 御 魚 據 ng ju h   ŋy̌ ᅌᅲ〮
 1314 飫 御 依 據 q ju h   ʔy̌ ᅙᅲ〮
 2288 豫 御 羊 茹 j ju h  1 jy̌ 유〮
@@ -1372,7 +1372,7 @@
 1358 代 泰 度 耐 d ooi h  1 dǎi 때〮
 1359 帶 泰 當 蓋 t ai h  2 tǎi 대〮
 1360 戴 泰 丁 代 t ooi h   tǎi 대〮
-1361 大 泰 度 柰 d ai h   dǎi 때〮
+1361 大 泰 度 柰 d ai h   dǎi 때〮俗따〮
 1362 賴 泰 落 蓋 l ai h  6 lǎi 래〮
 1363 徠 泰 洛 代 l ooi h   lǎi 래〮
 1364 柰 泰 尼 帶 nr ai h  3 nǎi 내〮
@@ -1388,10 +1388,10 @@
 1374 在 泰 昨 代 dz ooi h   dzǎi ᅏᅢ〮
 1375 嘬 泰 楚 邁 tshr ai h   ʈʂhǎi ᅕᅢ〮
 1376 瘥 泰 楚 懈 tshr ai h   ʈʂhǎi ᅕᅢ〮
-1377 戒 泰 居 拜 k ai h  7 kiǎi 걔〮
-1378 隘 泰 烏 懈 q ai h  4 ʔiǎi ᅙᅤ〮
-1379 睚 泰 牛 懈 ng ai h   (ŋ)jiǎi ᅌᅤ〮
-1380 𩋧 泰 口 戒 kh ai h   khiǎi 컈〮
+1377 戒 泰 居 拜 k ai h  7 kiǎi 걔〮俗계〮
+1378 隘 泰 烏 懈 q ai h  4 ʔiǎi ᅙᅤ〮俗ᅙᅨ〮
+1379 睚 泰 牛 懈 ng ai h   (ŋ)jiǎi ᅌᅤ〮俗얘〮
+1380 𩋧 泰 口 戒 kh ai h   khiǎi 컈〮俗켸〮
 1381 派 泰 普 夬 ph ai h  8 phǎi 패〮
 1382 拜 泰 布 怪 p ai h   pǎi 배〮
 1383 敗 泰 薄 邁 b ai h  9 bǎi 빼〮
@@ -1408,10 +1408,10 @@
 1394 對 隊 都 内 t woi h   tǔi 뒤〮
 1395 退 隊 吐 内 th woi h  1 thǔi 튀〮
 1396 類 隊 力 遂 l wjoi h   lǔi 뤼〮
-1397 配 隊 滂 佩 ph woi h   phǔi 퓌〮
-1398 旆 隊 步 昧 b woi h  3 bǔi 쀠〮
-1399 背 隊 邦 妹 p woi h  2 pǔi 뷔〮
-1400 妹 隊 莫 佩 m woi h  4 mǔi 뮈〮
+1397 配 隊 滂 佩 ph woi h   phǔi 퓌〮俗픠〮
+1398 旆 隊 步 昧 b woi h  3 bǔi 쀠〮俗쁴〮
+1399 背 隊 邦 妹 p woi h  2 pǔi 뷔〮俗븨〮
+1400 妹 隊 莫 佩 m woi h  4 mǔi 뮈〮俗믜〮
 1401 歲 隊 須 銳 s wjoi h   sǔi ᄼᅱ〮
 1402 遂 隊 徐 醉 z wjoi h   szǔi ᄽᅱ〮
 1403 翠 隊 七 醉 tsh wjoi h  5 tshǔi ᅔᅱ〮
@@ -1419,7 +1419,7 @@
 1405 潰 隊 胡 對 gh woi h   ɦǔi ᅘᅱ〮
 1406 誨 隊 呼 對 h woi h   hǔi 휘〮
 1407 慧 隊 胡 桂 gh wjoi h   ɦǔi ᅘᅱ〮
-1408 叡 隊 于 芮 y wjoi h   (j)ǔi 위〮
+1408 叡 隊 于 芮 y wjoi h   (ʒ)ǔi 위〮俗ᅀᅱ〮
 1409 汭 隊 儒 稅 ny wjoi h   ʒǔi ᅀᅱ〮
 1410 儈 隊 古 外 k woi h   kǔi 귀〮
 1411 貴 隊 居 胃 k wjoi h  6 kǔi 귀〮
@@ -1446,12 +1446,12 @@
 1432 稕 震 朱 閏 tc wjon h   tʃyǔn ᅐᅲᆫ〮
 1433 刃 震 而 振 ny jeon h  3 ʒǐn ᅀᅵᆫ〮
 1434 閏 震 儒 順 ny wjon h   ʒyǔn ᅀᅲᆫ〮
-1435 慭 震 魚 僅 ng jon h   ŋǐn ᅌᅵᆫ〮
+1435 慭 震 魚 僅 ng jon h   (ŋ)jǐn ᅌᅵᆫ〮俗인〮
 1436 孕 震 羊 進 y jeon h   jǐn 인〮
 1437 印 震 衣 刃 q jeon h  4 ʔǐn ᅙᅵᆫ〮
 1438 慎 震 時 刃 zc jeon h  2 ʃʒǐn ᄿᅵᆫ〮
 1439 儐 震 必 刃 p jeon h   pǐn 빈〮
-1440 奔 震 逋 悶 p won h   pǔn 분〮
+1440 奔 震 逋 悶 p won h   pǔn 분〮俗븐〮
 1441 信 震 思 晉 s jeon h  11 sǐn ᄼᅵᆫ〮
 1442 峻 震 須 閏 s wjon h   syǔn ᄼᅲᆫ〮
 1443 殉 震 松 閏 z wjon h   szyǔn ᄽᅲᆫ〮
@@ -1471,9 +1471,9 @@
 1457 僅 震 具 吝 g jon h   gǐn 낀〮
 1458 舜 震 輸 閏 c wjon h   ʃyǔn ᄾᅲᆫ〮
 1459 順 震 食 閏 zc wjon h   ʃʒyǔn ᄿᅲᆫ〮
-1460 問 震 文 運 mf wjon h   vǔn ᄝᅮᆫ〮
-1461 分 震 房 問 bf wjon h   fvǔn ᄬᅮᆫ〮
-1462 僨 震 方 問 f wjon h  9 fǔn ᄫᅮᆫ〮
+1460 問 震 文 運 mf wjon h   vǔn ᄝᅮᆫ〮俗ᄝᅳᆫ〮
+1461 分 震 房 問 bf wjon h   fvǔn ᄬᅮᆫ〮俗ᄬᅳᆫ〮
+1462 僨 震 方 問 f wjon h  9 fǔn ᄫᅮᆫ〮俗ᄬᅳᆫ〮
 1463 捃 震 居 運 k wjon h   kyǔn 균〮
 1464 郡 震 具 運 g wjon h   gyǔn 뀬〮
 1465 醞 震 於 問 q wjon h   ʔyǔn ᅙᅲᆫ〮
@@ -1482,9 +1482,9 @@
 1468 慁 震 胡 困 gh won h   ɦǔn ᅘᅮᆫ〮
 1469 惛 震 呼 困 h won h   hǔn 훈〮
 1470 困 震 苦 悶 kh won h   khǔn 쿤〮
-1471 噴 震 普 悶 ph won h   phǔn 푼〮
-1472 坌 震 步 悶 b won h  5 bǔn 뿐〮
-1473 悶 震 莫 困 m won h   mǔn 문〮
+1471 噴 震 普 悶 ph won h   phǔn 푼〮俗픈〮
+1472 坌 震 步 悶 b won h  5 bǔn 뿐〮俗쁜〮
+1473 悶 震 莫 困 m won h   mǔn 문〮俗믄〮
 1474 寸 震 村 困 tsh won h   tshǔn ᅔᅮᆫ〮
 1475 鐏 震 祖 悶 ts won h   tsǔn ᅎᅮᆫ〮
 1476 頓 震 都 困 t won h   tǔn 둔〮
@@ -1494,21 +1494,21 @@
 1480 恨 震 下 艮 gh on h   ɦə̌n ᅘᅳᆫ〮
 1481 艮 震 古 恨 k on h   kə̌n 근〮
 1482 硍 震 苦 恨 kh on h   khə̌n 큰〮
-1483 翰 翰 侯 幹 gh oon h  3 ɦɑ̌n ᅘᅥᆫ〮
-1484 榦 翰 古 汗 k oon h   kɑ̌n 건〮
-1485 漢 翰 虛 汗 h oon h   hɑ̌n 헌〮
-1486 看 翰 袪 幹 kh oon h   khɑ̌n 컨〮
-1487 按 翰 於 幹 q oon h   ʔɑ̌n ᅙᅥᆫ〮
-1488 岸 翰 魚 幹 ng oon h   ŋɑ̌n ᅌᅥᆫ〮
+1483 翰 翰 侯 幹 gh oon h  3 ɦɑ̌n ᅘᅥᆫ〮俗ᅘᅡᆫ〮
+1484 榦 翰 古 汗 k oon h   kɑ̌n 건〮俗간〮
+1485 漢 翰 虛 汗 h oon h   hɑ̌n 헌〮俗한〮
+1486 看 翰 袪 幹 kh oon h   khɑ̌n 컨〮俗칸〮
+1487 按 翰 於 幹 q oon h   ʔɑ̌n ᅙᅥᆫ〮俗ᅙᅡᆫ〮
+1488 岸 翰 魚 幹 ng oon h   ŋɑ̌n ᅌᅥᆫ〮俗안〮
 1489 換 翰 胡 玩 gh woon h   ɦwɔ̌n ᅘᅯᆫ〮
 1490 喚 翰 呼 玩 h woon h   hwɔ̌n 훤〮
 1491 貫 翰 古 玩 k woon h   kwɔ̌n 권〮
 1492 愞 翰 奴 亂 n woon h   nwɔ̌n 눤〮
-1493 玩 翰 五 換 ng woon h   ŋwɔ̌n ᅌᅯᆫ〮
-1494 半 翰 博 漫 p woon h   pwɔ̌n 붠〮
-1495 判 翰 普 半 ph woon h  2 phwɔ̌n 풘〮
-1496 畔 翰 薄 半 b woon h   bwɔ̌n 뿬〮
-1497 縵 翰 莫 半 m woon h  1 mwɔ̌n 뭔〮
+1493 玩 翰 五 換 ng woon h   (ŋ)wɔ̌n ᅌᅯᆫ〮俗원〮
+1494 半 翰 博 漫 p woon h   pwɔ̌n 붠〮俗번〮
+1495 判 翰 普 半 ph woon h  2 phwɔ̌n 풘〮俗펀〮
+1496 畔 翰 薄 半 b woon h   bwɔ̌n 뿬〮俗뻔〮
+1497 縵 翰 莫 半 m woon h  1 mwɔ̌n 뭔〮俗먼〮
 1498 筭 翰 蘇 貫 s woon h  4 swɔ̌n ᄼᅯᆫ〮
 1499 竄 翰 取 亂 tsh woon h   tshwɔ̌n ᅔᅯᆫ〮
 1500 鑽 翰 祖 筭 ts woon h   tswɔ̌n ᅎᅯᆫ〮
@@ -1522,13 +1522,13 @@
 1508 慣 諫 古 患 k wan h   kwǎn 관〮
 1509 患 諫 胡 慣 gh wan h  1 ɦwǎn ᅘᅪᆫ〮
 1510 襻 諫 普 患 ph an h   phǎn 판〮
-1511 番 諫 甫 患 f an h   fǎn ᄫᅡᆫ〮
+1511 番 諫 甫 患 f an h   fǎn ᄫᅪᆫ〮俗ᄫᅡᆫ〮
 1512 慢 諫 莫 晏 m an h   mǎn 만〮
 1513 訕 諫 所 晏 sr an h   ʂǎn ᄾᅡᆫ〮
 1514 棧 諫 助 諫 dzr an h  2 ɖʐǎn ᅑᅡᆫ〮
 1515 篡 諫 初 患 tshr wan h   ʈʂhwǎn ᅕᅪᆫ〮
-1516 骭 諫 下 患 gh an h   ɦwǎn ᅘᅪᆫ〮
-1517 薍 諫 五 患 ng wan h   ŋwǎn ᅌᅪᆫ〮
+1516 骭 諫 下 患 gh an h   ɦiǎn ᅘᅣᆫ〮
+1517 薍 諫 五 患 ng wan h   (ŋ)wǎn ᅌᅪᆫ〮俗완〮
 1518 粲 諫 倉 晏 tsh an h   tshǎn ᅔᅡᆫ〮
 1519 贊 諫 則 諫 ts an h   tsǎn ᅎᅡᆫ〮
 1520 瓚 諫 才 贊 dz an h   dzǎn ᅏᅡᆫ〮
@@ -1538,15 +1538,15 @@
 1524 旦 諫 得 爛 t an h   tǎn 단〮
 1525 散 諫 先 諫 s an h   sǎn ᄼᅡᆫ〮
 1526 腕 諫 烏 貫 q wan h   ʔwǎn ᅙᅪᆫ〮
-1527 鴈 諫 魚 澗 ng an h  3 (ŋ)jiǎn ᅌᅣᆫ〮
+1527 鴈 諫 魚 澗 ng an h  3 (ŋ)jiǎn ᅌᅣᆫ〮俗얀〮
 1528 難 諫 乃 旦 n an h   nǎn 난〮
 1529 鏟 諫 初 諫 tshr an h   ʈʂhǎn ᅕᅡᆫ〮
 1530 瓣 諫 備 莧 b an h   bǎn 빤〮
 1531 盼 諫 匹 襉 ph an h   phǎn 판〮
 1532 綻 諫 丈 襉 dzr an h   ɖʐǎn ᅑᅡᆫ〮
 1533 莧 諫 狹 澗 gh an h   ɦiǎn ᅘᅣᆫ〮
-1534 販 諫 方 諫 f an h   fǎn ᄫᅡᆫ〮
-1535 飯 諫 符 諫 bf an h   fvǎn ᄬᅡᆫ〮
+1534 販 諫 方 諫 f an h   fǎn ᄫᅪᆫ〮俗ᄫᅡᆫ〮
+1535 飯 諫 符 諫 bf an h   fvǎn ᄬᅪᆫ〮俗ᄬᅡᆫ〮
 1536 萬 諫 無 販 mf an h  4 vǎn ᄝᅡᆫ〮
 1537 霰 霰 先 見 s en h   siɛ̌n ᄼᅧᆫ〮
 1538 蒨 霰 倉 甸 tsh en h   tshiɛ̌n ᅔᅧᆫ〮
@@ -1559,7 +1559,7 @@
 1545 練 霰 郎 甸 l en h   liɛ̌n 련〮
 1546 戀 霰 龍 眷 l wen h  2 lyuɛ̌n ᄅᆑᆫ〮
 1547 現 霰 形 甸 gh en h  3 ɦiɛ̌n ᅘᅧᆫ〮
-1548 硯 霰 倪 甸 ng en h   (ŋ)jiɛ̌n ᅌᅧᆫ〮
+1548 硯 霰 倪 甸 ng en h   (ŋ)jiɛ̌n 연〮古ᅌᅧᆫ〮
 1549 建 霰 經 電 k en h   kiɛ̌n 견〮
 1550 眩 霰 熒 絹 gh wen h   ɦyuɛ̌n ᅘᆑᆫ〮
 1551 願 霰 虞 怨 ng wen h   (ŋ)jyuɛ̌n ᅌᆑᆫ〮
@@ -1591,83 +1591,83 @@
 1577 健 霰 渠 建 g en h   giɛ̌n 껸〮
 1578 便 霰 毗 面 b en h  4 biɛ̌n 뼌〮
 1579 薦 霰 作 甸 ts en h   tsiɛ̌n ᅎᅧᆫ〮
-1580 嘯 嘯 蘇 弔 s eu h 1  siɛ̌w ᄼᅧᇦ〮
-1581 弔 嘯 多 嘯 t eu h   tiɛ̌w 뎌ᇦ〮
-1582 糶 嘯 他 弔 th eu h   thiɛ̌w 텨ᇦ〮
-1583 調 嘯 杜 弔 d eu h   diɛ̌w 뗘ᇦ〮
-1584 料 嘯 力 弔 l eu h  1 liɛ̌w 려ᇦ〮
-1585 澆 嘯 五 弔 ng eu h   ŋiɛ̌w ᅌᅧᇦ〮
-1586 溺 嘯 奴 弔 n eu h 2  niɛ̌w 녀ᇦ〮
-1587 竅 嘯 苦 弔 kh eu h  6 khiɛ̌w 켜ᇦ〮
-1588 叫 嘯 古 弔 k eu h   kiɛ̌w 겨ᇦ〮
-1589 要 嘯 一 笑 q eu h   ʔiɛ̌w ᅙᅧᇦ〮
-1590 陗 嘯 七 肖 tsh eu h  2 tshiɛ̌w ᅔᅧᇦ〮
-1591 醮 嘯 子 肖 ts eu h  3 tsiɛ̌w ᅎᅧᇦ〮
-1592 嚼 嘯 在 笑 dz eu h   dziɛ̌w ᅏᅧᇦ〮
-1593 少 嘯 失 照 c jeu h   ʃiɛ̌w ᄾᅧᇦ〮
-1594 照 嘯 之 笑 tc jeu h   tʃiɛ̌w ᅐᅧᇦ〮
-1595 邵 嘯 實 照 zc jeu h  4 ʃʒiɛ̌w ᄿᅧᇦ〮
-1596 召 嘯 直 笑 dc jeu h   dʒiɛ̌w ᅑᅧᇦ〮
-1597 燿 嘯 弋 笑 y jeu h   jiɛ̌w 여ᇦ〮
-1598 嶠 嘯 渠 廟 g eu h   giɛ̌w 껴ᇦ〮
-1599 勡 嘯 匹 妙 ph eu h  5 phiɛ̌w 펴ᇦ〮
-1600 驃 嘯 毗 召 b eu h   biɛ̌w 뼈ᇦ〮
-1601 妙 嘯 彌 笑 m eu h   miɛ̌w 며ᇦ〮
-1602 歊 嘯 許 照 h eu h   hiɛ̌w 혀ᇦ〮
-1603 俵 嘯 悲 廟 p eu h   piɛ̌w 벼ᇦ〮
-1604 效 效 胡 孝 gh au h   ɦiǎw ᅘᅣᇦ〮
-1605 孝 效 許 教 h au h   hiǎw 햐ᇦ〮
-1606 敲 效 口 教 kh au h   khiǎw 캬ᇦ〮
-1607 教 效 居 效 k au h  6 kiǎw 갸ᇦ〮
-1608 樂 效 魚 教 ng au h   (ŋ)jiǎw ᅌᅣᇦ〮
-1609 豹 效 布 恔 p au h   pǎw 바ᇦ〮
-1610 砲 效 披 教 ph au h  1 phǎw 파ᇦ〮
-1611 拗 效 於 教 q au h  2 ʔiǎw ᅙᅣᇦ〮
-1612 貌 效 眉 教 m au h   mǎw 마ᇦ〮
-1613 帽 效 莫 報 m oou h  3 mǎw 마ᇦ〮
-1614 稍 效 所 教 sr au h   ʂǎw ᄾᅡᇦ〮
-1615 鈔 效 楚 教 tshr au h   ʈʂhǎw ᅕᅡᇦ〮
-1616 罩 效 陟 教 tsr au h  5 ʈʂǎw ᅐᅡᇦ〮
-1617 趠 效 勅 教 tshr au h   ʈʂhǎw ᅕᅡᇦ〮
-1618 櫂 效 直 教 dzr au h  4 ɖʐǎw ᅑᅡᇦ〮
-1619 閙 效 女 教 nr au h   nǎw 나ᇦ〮
-1620 抓 效 側 教 tsr au h   ʈʂǎw ᅐᅡᇦ〮
-1621 號 效 胡 到 gh oou h  8 ɦǎw ᅘᅡᇦ〮
-1622 耗 效 虛 到 h oou h   hǎw 하ᇦ〮
-1623 犒 效 口 到 kh oou h   khǎw 카ᇦ〮
-1624 誥 效 居 號 k oou h  7 kǎw 가ᇦ〮
-1625 奧 效 於 到 q oou h   ʔǎw ᅙᅡᇦ〮
-1626 慠 效 魚 到 ng oou h   ŋǎw ᅌᅡᇦ〮
-1627 暴 效 蒲 報 b oou h   bǎw 빠ᇦ〮
-1628 噪 效 先 到 s oou h   sǎw ᄼᅡᇦ〮
-1629 操 效 七 到 tsh oou h   tshǎw ᅔᅡᇦ〮
-1630 竈 效 則 到 ts oou h   tsǎw ᅎᅡᇦ〮
-1631 漕 效 在 到 dz oou h  9 dzǎw ᅏᅡᇦ〮
-1632 到 效 都 導 t oou h   tǎw 다ᇦ〮
-1633 導 效 杜 到 d oou h   dǎw 따ᇦ〮
-1634 勞 效 郎 到 l oou h   lǎw 라ᇦ〮
-1635 臑 效 奴 報 n oou h   nǎw 나ᇦ〮
+1580 嘯 嘯 蘇 弔 s eu h 1  siɛ̌w ᄼᅧᇢ〮俗ᄼᅣᇢ〮
+1581 弔 嘯 多 嘯 t eu h   tiɛ̌w 뎌ᇢ〮俗댜ᇢ〮
+1582 糶 嘯 他 弔 th eu h   thiɛ̌w 텨ᇢ〮俗탸ᇢ〮
+1583 調 嘯 杜 弔 d eu h   diɛ̌w 뗘ᇢ〮俗땨ᇢ〮
+1584 料 嘯 力 弔 l eu h  1 liɛ̌w 려ᇢ〮俗랴ᇢ〮
+1585 澆 嘯 五 弔 ng eu h   ŋiɛ̌w ᅌᅧᇢ〮俗ᅌᅣᇢ〮
+1586 溺 嘯 奴 弔 n eu h 2  niɛ̌w 녀ᇢ〮俗냐ᇢ〮
+1587 竅 嘯 苦 弔 kh eu h  6 khiɛ̌w 켜ᇢ〮俗캬ᇢ〮
+1588 叫 嘯 古 弔 k eu h   kiɛ̌w 겨ᇢ〮俗갸ᇢ〮
+1589 要 嘯 一 笑 q eu h   ʔiɛ̌w ᅙᅧᇢ〮俗ᅙᅣᇢ〮
+1590 陗 嘯 七 肖 tsh eu h  2 tshiɛ̌w ᅔᅧᇢ〮俗ᅔᅣᇢ〮
+1591 醮 嘯 子 肖 ts eu h  3 tsiɛ̌w ᅎᅧᇢ〮俗ᅎᅣᇢ〮
+1592 嚼 嘯 在 笑 dz eu h   dziɛ̌w ᅏᅧᇢ〮俗ᅏᅣᇢ〮
+1593 少 嘯 失 照 c jeu h   ʃiɛ̌w ᄾᅧᇢ〮俗ᄾᅣᇢ〮
+1594 照 嘯 之 笑 tc jeu h   tʃiɛ̌w ᅐᅧᇢ〮俗ᅐᅣᇢ〮
+1595 邵 嘯 實 照 zc jeu h  4 ʃʒiɛ̌w ᄿᅧᇢ〮俗ᄿᅣᇢ〮
+1596 召 嘯 直 笑 dc jeu h   dʒiɛ̌w ᅑᅧᇢ〮俗ᅑᅣᇢ〮
+1597 燿 嘯 弋 笑 y jeu h   jiɛ̌w 여ᇢ〮俗야ᇢ〮
+1598 嶠 嘯 渠 廟 g eu h   giɛ̌w 껴ᇢ〮俗꺄ᇢ〮
+1599 勡 嘯 匹 妙 ph eu h  5 phiɛ̌w 펴ᇢ〮俗퍄ᇢ〮
+1600 驃 嘯 毗 召 b eu h   biɛ̌w 뼈ᇢ〮俗뺘ᇢ〮
+1601 妙 嘯 彌 笑 m eu h   miɛ̌w 며ᇢ〮俗먀ᇢ〮
+1602 歊 嘯 許 照 h eu h   hiɛ̌w 혀ᇢ〮俗햐ᇢ〮
+1603 俵 嘯 悲 廟 p eu h   piɛ̌w 벼ᇢ〮俗뱌ᇢ〮
+1604 效 效 胡 孝 gh au h   ɦiǎw ᅘᅣᇢ〮
+1605 孝 效 許 教 h au h   hiǎw 햐ᇢ〮
+1606 敲 效 口 教 kh au h   khiǎw 캬ᇢ〮
+1607 教 效 居 效 k au h  6 kiǎw 갸ᇢ〮
+1608 樂 效 魚 教 ng au h   (ŋ)jiǎw ᅌᅣᇢ〮俗야ᇢ〮
+1609 豹 效 布 恔 p au h   pǎw 바ᇢ〮
+1610 砲 效 披 教 ph au h  1 phǎw 파ᇢ〮
+1611 拗 效 於 教 q au h  2 ʔiǎw ᅙᅣᇢ〮
+1612 貌 效 眉 教 m au h   mǎw 마ᇢ〮
+1613 帽 效 莫 報 m oou h  3 mǎw 마ᇢ〮
+1614 稍 效 所 教 sr au h   ʂǎw ᄾᅡᇢ〮
+1615 鈔 效 楚 教 tshr au h   ʈʂhǎw ᅕᅡᇢ〮
+1616 罩 效 陟 教 tsr au h  5 ʈʂǎw ᅐᅡᇢ〮
+1617 趠 效 勅 教 tshr au h   ʈʂhǎw ᅕᅡᇢ〮
+1618 櫂 效 直 教 dzr au h  4 ɖʐǎw ᅑᅡᇢ〮
+1619 閙 效 女 教 nr au h   nǎw 나ᇢ〮
+1620 抓 效 側 教 tsr au h   ʈʂǎw ᅐᅡᇢ〮
+1621 號 效 胡 到 gh oou h  8 ɦǎw ᅘᅡᇢ〮
+1622 耗 效 虛 到 h oou h   hǎw 하ᇢ〮
+1623 犒 效 口 到 kh oou h   khǎw 카ᇢ〮
+1624 誥 效 居 號 k oou h  7 kǎw 가ᇢ〮
+1625 奧 效 於 到 q oou h   ʔǎw ᅙᅡᇢ〮
+1626 慠 效 魚 到 ng oou h   ŋǎw ᅌᅡᇢ〮俗아ᇢ〮
+1627 暴 效 蒲 報 b oou h   bǎw 빠ᇢ〮
+1628 噪 效 先 到 s oou h   sǎw ᄼᅡᇢ〮
+1629 操 效 七 到 tsh oou h   tshǎw ᅔᅡᇢ〮
+1630 竈 效 則 到 ts oou h   tsǎw ᅎᅡᇢ〮
+1631 漕 效 在 到 dz oou h  9 dzǎw ᅏᅡᇢ〮
+1632 到 效 都 導 t oou h   tǎw 다ᇢ〮
+1633 導 效 杜 到 d oou h   dǎw 따ᇢ〮
+1634 勞 效 郎 到 l oou h   lǎw 라ᇢ〮
+1635 臑 效 奴 報 n oou h   nǎw 나ᇢ〮
 1636 箇 箇 古 荷 k oo h   kɔ̌ 거〮
 1637 過 箇 古 臥 k woo h   kwɔ̌ 궈〮
 1638 軻 箇 口 个 kh oo h 1  khɔ̌ 커〮
 1639 課 箇 苦 臥 kh woo h   khwɔ̌ 쿼〮
-1640 賀 箇 胡 臥 gh woo h   ɦwɔ̌ ᅘᅯ〮
+1640 賀 箇 胡 臥 gh woo h   ɦɔ̌ ᅘᅥ〮
 1641 荷 箇 胡 箇 gh oo h   ɦɔ̌ ᅘᅥ〮
-1642 餓 箇 五 箇 ng oo h   ŋɔ̌ ᅌᅥ〮
+1642 餓 箇 五 箇 ng oo h   ŋɔ̌ ᅌᅥ〮俗어〮
 1643 邏 箇 郎 佐 l oo h  1 lɔ̌ 러〮
 1644 些 箇 蘇 箇 s oo h   sɔ̌ ᄼᅥ〮
 1645 左 箇 子 賀 ts oo h  2 tsɔ̌ ᅎᅥ〮
-1646 惰 箇 杜 臥 d woo h 2  dwɔ̌ 뚸〮
+1646 惰 箇 杜 臥 d woo h 2  d(w)ɔ̌ 떠〮
 1647 奈 箇 乃 个 n oo h  3 nɔ̌ 너〮
 1648 癉 箇 丁 佐 t oo h   tɔ̌ 더〮
 1649 播 箇 補 過 p woo h   pwɔ̌ 붜〮
 1650 破 箇 普 過 ph woo h   phwɔ̌ 풔〮
 1651 磨 箇 莫 臥 m woo h   mwɔ̌ 뭐〮
-1652 剉 箇 才 臥 dz woo h  4 dzɔ̌ ᅏᅥ〮
-1653 坐 箇 徂 臥 dz woo h   dzwɔ̌ ᅏᅯ〮
+1652 剉 箇 才 臥 dz woo h  4 dz(w)ɔ̌ ᅏᅥ〮
+1653 坐 箇 徂 臥 dz woo h   dz(w)ɔ̌ ᅏᅥ〮
 1654 涴 箇 烏 臥 q woo h   ʔwɔ̌ ᅙᅯ〮
 1655 貨 箇 呼 臥 h woo h   hwɔ̌ 훠〮
-1656 唾 箇 吐 臥 th woo h   thwɔ̌ 퉈〮
+1656 唾 箇 吐 臥 th woo h   th(w)ɔ̌ 터〮
 1657 縛 箇 符 臥 bf woo h   fvwɔ̌ ᄬᅯ〮
 1658 呵 箇 呼 个 h oo h   hɔ̌ 허〮
 1659 禡 禡 莫 駕 m a h   mǎ 마〮
@@ -1683,12 +1683,12 @@
 1669 駕 禡 居 亞 k a h  3 kiǎ 갸〮
 1670 罷 禡 皮 罵 b a h   bǎ 빠〮
 1671 亞 禡 衣 架 q a h   ʔiǎ ᅙᅣ〮
-1672 訝 禡 五 駕 ng a h   (ŋ)jiǎ ᅌᅣ〮
+1672 訝 禡 五 駕 ng a h   (ŋ)jiǎ ᅌᅣ〮俗야〮
 1673 畫 禡 胡 挂 gh wa h   ɦwǎ ᅘᅪ〮
 1674 化 禡 呼 霸 h wa h  7 hwǎ 화〮
 1675 跨 禡 苦 化 kh wa h   khwǎ 콰〮
 1676 卦 禡 古 畫 k wa h  4 kwǎ 과〮
-1677 𡧗 禡 五 㕦 ng wa h   ŋwǎ ᅌᅪ〮
+1677 𡧗 禡 五 㕦 ng wa h   (ŋ)wǎ ᅌᅪ〮俗와〮
 1678 蔗 蔗 之 夜 tc jee h  1 tʃiɛ̌ ᅐᅧ〮
 1679 瀉 蔗 司 夜 s ee h   siɛ̌ ᄼᅧ〮
 1680 借 蔗 子 夜 ts ee h   tsiɛ̌ ᅎᅧ〮
@@ -1706,19 +1706,19 @@
 1692 唱 漾 尺 亮 tch joong h   tʃhiɑ̌ŋ ᅕᅣᇰ〮
 1693 障 漾 知 亮 tc joong h   tʃiɑ̌ŋ ᅐᅣᇰ〮
 1694 將 漾 子 亮 ts joong h   tsiɑ̌ŋ ᅎᅣᇰ〮
-1695 壯 漾 側 況 tsr wjoong h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰ〮
+1695 壯 漾 側 況 tsr wjoong h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰ〮俗ᅐᅪᇰ〮
 1696 狂 漾 渠 放 g wjoong h   gwɑ̌ŋ 꽈ᇰ〮
 1697 蹡 漾 七 亮 tsh joong h   tshiɑ̌ŋ ᅔᅣᇰ〮
 1698 狀 漾 助 浪 dzr oong h   ɖʐ(w)ɑ̌ŋ ᅑᅡᇰ〮
 1699 匠 漾 疾 亮 dz joong h   dziɑ̌ŋ ᅏᅣᇰ〮
 1700 讓 漾 而 亮 ny joong h   ʒiɑ̌ŋ ᅀᅣᇰ〮
-1701 創 漾 楚 浪 tshr oong h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰ〮
+1701 創 漾 楚 浪 tshr oong h   ʈʂ(w)ɑ̌ŋ ᅕᅡᇰ〮俗ᅕᅪᇰ〮
 1702 仗 漾 直 亮 dc joong h  2 dʒiɑ̌ŋ ᅑᅣᇰ〮
 1703 諒 漾 力 仗 l joong h 1  liɑ̌ŋ 랴ᇰ〮
 1704 向 漾 許 亮 h joong h   hiɑ̌ŋ 햐ᇰ〮
 1705 強 漾 其 亮 g joong h   giɑ̌ŋ 꺄ᇰ〮
 1706 怏 漾 於 亮 q joong h   ʔiɑ̌ŋ ᅙᅣᇰ〮
-1707 仰 漾 魚 向 ng joong h   ŋiɑ̌ŋ ᅌᅣᇰ〮
+1707 仰 漾 魚 向 ng joong h   ŋiɑ̌ŋ ᅌᅡᇰ〮
 1708 王 漾 于 放 gh wjoong h  6 wɑ̌ŋ 와ᇰ〮
 1709 況 漾 虛 放 h wjoong h   hwɑ̌ŋ 화ᇰ〮
 1710 誑 漾 古 況 k wjoong h   kwɑ̌ŋ 과ᇰ〮
@@ -1742,32 +1742,32 @@
 1728 漭 漾 莫 浪 m oong h   mɑ̌ŋ 마ᇰ〮
 1729 絳 漾 古 巷 k ooung h   kiɑ̌ŋ 갸ᇰ〮
 1730 巷 漾 胡 降 gh ooung h   ɦiɑ̌ŋ ᅘᅣᇰ〮
-1731 堫 漾 楚 降 tshr ooung h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰ〮
-1732 撞 漾 陟 降 tsr ooung h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰ〮
-1733 漴 漾 士 降 dzr ooung h   ɖʐ(w)ɑ̌ŋ ᅑᅡᇰ〮
-1734 淙 漾 色 降 sr ooung h   ʂ(w)ɑ̌ŋ ᄾᅡᇰ〮
+1731 堫 漾 楚 降 tshr ooung h   tʃhiɑ̌ŋ ᅕᅣᇰ〮
+1732 撞 漾 陟 降 tsr ooung h   ʈʂ(w)ɑ̌ŋ ᅐᅡᇰ〮俗ᅐᅪᇰ〮
+1733 漴 漾 士 降 dzr ooung h   ɖʐ(w)ɑ̌ŋ ᅑᅡᇰ〮俗ᅑᅪᇰ〮
+1734 淙 漾 色 降 sr ooung h   ʂ(w)ɑ̌ŋ ᄾᅡᇰ〮俗ᄾᅪᇰ〮
 1735 肨 漾 匹 絳 ph ooung h   phɑ̌ŋ 파ᇰ〮
-1736 䚎 漾 丑 降 tshr ooung h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰ〮
+1736 䚎 漾 丑 降 tshr ooung h   ʈʂh(w)ɑ̌ŋ ᅕᅡᇰ〮俗ᅕᅪᇰ〮
 1737 敬 敬 居 慶 k eing h  1 kǐŋ 기ᇰ〮
 1738 勁 敬 居 正 k eing h   kǐŋ 기ᇰ〮
 1739 徑 敬 吉 定 k eing h   kǐŋ 기ᇰ〮
 1740 映 敬 於 命 q eing h   ʔǐŋ ᅙᅵᇰ〮
 1741 競 敬 其 映 g eing h   gǐŋ 끼ᇰ〮
-1742 生 敬 所 敬 sr eing h   ʂə̌ŋ ᄾᅴᇰ〮
+1742 生 敬 所 敬 sr eing h   ʂə̌ŋ ᄾᅴᇰ〮俗ᄾᅳᇰ〮
 1743 慶 敬 丘 正 kh eing h  3 khǐŋ 키ᇰ〮
-1744 更 敬 居 孟 k aing h   kə̌ŋ 긔ᇰ〮
+1744 更 敬 居 孟 k aing h   k(i)ə̌ŋ 긔ᇰ〮俗그ᇰ〮/기ᇰ〮
 1745 行 敬 胡 孟 gh aing h   ɦǐŋ ᅘᅵᇰ〮
 1746 橫 敬 戶 孟 gh waing h   ɦwə̌ŋ ᅘᅱᇰ〮
-1747 榜 敬 比 孟 p aing h   pə̌ŋ 븨ᇰ〮
-1748 孟 敬 莫 更 m aing h   mə̌ŋ 믜ᇰ〮
+1747 榜 敬 比 孟 p aing h   pə̌ŋ 븨ᇰ〮俗브ᇰ〮
+1748 孟 敬 莫 更 m aing h   mə̌ŋ 믜ᇰ〮俗므ᇰ〮
 1749 柄 敬 陂 病 p eing h   pǐŋ 비ᇰ〮
 1750 病 敬 皮 命 b eing h   bǐŋ 삐ᇰ〮
 1751 命 敬 眉 病 m eing h   mǐŋ 미ᇰ〮
 1752 迎 敬 魚 慶 ng eing h   ŋǐŋ ᅌᅵᇰ〮
-1753 詠 敬 爲 命 gh weing h   jyuə̌ŋ ᄋᆔᇰ〮
+1753 詠 敬 爲 命 gh weing h   jyuə̌ŋ ᄋᆔᇰ〮俗유ᇰ〮
 1754 𡕷 敬 呼 正 h weing h   hyuə̌ŋ ᄒᆔᇰ〮
-1755 諍 敬 側 迸 tsr aing h   ʈʂə̌ŋ ᅐᅴᇰ〮
-1756 硬 敬 魚 孟 ng aing h   ŋə̌ŋ ᅌᅴᇰ〮
+1755 諍 敬 側 迸 tsr aing h   ʈʂə̌ŋ ᅐᅴᇰ〮俗ᅐᅳᇰ〮
+1756 硬 敬 魚 孟 ng aing h   ŋǐŋ ᅌᅵᇰ〮
 1757 瞠 敬 敕 諍 tshr aing h   ʈʂhə̌ŋ ᅕᅴᇰ〮
 1758 聘 敬 匹 正 ph eing h   phǐŋ 피ᇰ〮
 1759 性 敬 息 正 s eing h   sǐŋ ᄼᅵᇰ〮
@@ -1779,7 +1779,7 @@
 2289 鄭 敬 直 正 dr jeing h   dʒǐŋ ᅑᅵᇰ〮
 1765 正 敬 之 盛 tc jeing h   tʃǐŋ ᅐᅵᇰ〮
 1766 令 敬 力 正 l eing h   lǐŋ 리ᇰ〮
-1767 瑩 敬 縈 定 q weing h   ʔyuə̌ŋ ᅙᆔᇰ〮
+1767 瑩 敬 縈 定 q weing h   ʔyuə̌ŋ ᅙᆔᇰ〮俗ᅙᅵᇰ〮
 1768 鋥 敬 除 更 dzr aing h   ɖʐə̌ŋ ᅑᅴᇰ〮
 1769 釘 敬 丁 定 t eing h   tǐŋ 디ᇰ〮
 1770 聽 敬 他 定 th eing h   thǐŋ 티ᇰ〮
@@ -1790,492 +1790,492 @@
 1775 脛 敬 形 定 gh eing h   ɦǐŋ ᅘᅵᇰ〮
 1776 興 敬 許 應 h eing h   hǐŋ 히ᇰ〮
 1777 應 敬 於 證 q eing h   ʔǐŋ ᅙᅵᇰ〮
-1778 嶝 敬 丁 鄧 t eong h   tə̌ŋ 듸ᇰ〮
-1779 鄧 敬 唐 亙 d eong h   də̌ŋ 띄ᇰ〮
-1780 堋 敬 逋 鄧 p eong h   pə̌ŋ 븨ᇰ〮
-1781 贈 敬 昨 亙 dz eong h   dzə̌ŋ ᅏᅴᇰ〮
-1782 亙 敬 居 鄧 k eong h  2 kə̌ŋ 긔ᇰ〮
-1783 稜 敬 魯 鄧 l eong h   lə̌ŋ 릐ᇰ〮
-1784 蹭 敬 七 鄧 tsh eong h   tshə̌ŋ ᅔᅴᇰ〮
-1785 認 敬 而 證 ny eing h   ʒǐŋ ᅀᅵᇰ〮
+1778 嶝 敬 丁 鄧 t eong h   tə̌ŋ 듸ᇰ〮俗드ᇰ〮
+1779 鄧 敬 唐 亙 d eong h   də̌ŋ 띄ᇰ〮俗뜨ᇰ〮
+1780 堋 敬 逋 鄧 p eong h   pə̌ŋ 븨ᇰ〮俗브ᇰ〮
+1781 贈 敬 昨 亙 dz eong h   dzə̌ŋ ᅏᅴᇰ〮俗ᅏᅳᇰ〮
+1782 亙 敬 居 鄧 k eong h  2 k(i)ə̌ŋ 긔ᇰ〮俗그ᇰ〮/기ᇰ〮
+1783 稜 敬 魯 鄧 l eong h   lə̌ŋ 릐ᇰ〮俗르ᇰ〮
+1784 蹭 敬 七 鄧 tsh eong h   tshə̌ŋ ᅔᅴᇰ〮俗ᅔᅳᇰ〮
+1785 認 敬 而 證 ny eing h   ʒǐŋ ᅀᅵᇰ〮俗ᅀᅵᆫ〮
 1786 𤃶 敬 台 鄧 th eong h   thə̌ŋ 틔ᇰ〮
-1787 宥 宥 爰 救 y jeou h   jǐw 이ᇦ〮
-1788 齅 宥 許 救 h jeou h   hǐw 히ᇦ〮
-2290 糗 宥 丘 救 kh jeou h   khǐw 키ᇦ〮
-1789 救 宥 居 又 k jeou h   kǐw 기ᇦ〮
-1790 舊 宥 巨 又 g jeou h  2 gǐw 끼ᇦ〮
-1791 副 宥 敷 救 f jeou h  3 fə̌w ᄫᅳᇦ〮
-1792 復 宥 扶 富 bf jeou h   fvə̌w ᄬᅳᇦ〮
-1793 秀 宥 息 救 s jeou h   sǐw ᄼᅵᇦ〮
-1794 僦 宥 即 就 ts jeou h   tsǐw ᅎᅵᇦ〮
-1795 岫 宥 似 救 z jeou h   szǐw ᄽᅵᇦ〮
-1796 就 宥 疾 僦 dz jeou h   dzǐw ᅏᅵᇦ〮
-1797 狩 宥 舒 救 c jeou h   ʃǐw ᄾᅵᇦ〮
-1798 臭 宥 尺 救 tch jeou h  1 tʃhǐw ᅕᅵᇦ〮
-1799 祝 宥 職 救 tc jeou h   tʃǐw ᅐᅵᇦ〮
-1800 授 宥 承 呪 zc jeou h  4 ʃʒǐw ᄿᅵᇦ〮
-1801 輮 宥 如 又 ny jeou h 1 5 ʒǐw ᅀᅵᇦ〮
-1802 不 宥 俯 救 f jeou h   fə̌w ᄫᅳᇦ〮
-1803 瘦 宥 所 救 sr jeou h   ʂə̌w ᄾᅳᇦ〮
-1804 簉 宥 初 救 tshr jeou h   ʈʂhə̌w ᅕᅳᇦ〮
-1805 縐 宥 側 救 tsr jeou h   ʈʂə̌w ᅐᅳᇦ〮
-1806 驟 宥 鉏 救 dzr jeou h   ɖʐə̌w ᅑᅳᇦ〮
-1807 胄 宥 直 又 dc jeou h   dʒǐw ᅑᅵᇦ〮
-1808 溜 宥 力 救 l jeou h 2 6 lǐw 리ᇦ〮
-1809 狃 宥 女 救 nr jeou h   nǐw 니ᇦ〮
-1810 候 宥 胡 茂 gh eou h  7 ɦə̌w ᅘᅳᇦ〮
-1811 吼 宥 許 候 h eou h   hə̌w 흐ᇦ〮
-1812 寇 宥 丘 候 kh eou h  8 khə̌w 크ᇦ〮
-1813 漚 宥 於 候 q eou h   ʔə̌w ᅙᅳᇦ〮
-1814 戊 宥 莫 候 m eou h  12 mə̌w 므ᇦ〮
-1815 漱 宥 先 奏 s eou h   sə̌w ᄼᅳᇦ〮
-1816 湊 宥 千 候 tsh eou h   tshə̌w ᅔᅳᇦ〮
-1817 奏 宥 則 候 ts eou h   tsə̌w ᅎᅳᇦ〮
-1818 鬭 宥 丁 候 t eou h   tə̌w 드ᇦ〮
-1819 透 宥 他 候 th eou h   thə̌w 트ᇦ〮
-1820 豆 宥 大 透 d eou h   də̌w 뜨ᇦ〮
-1821 漏 宥 郎 豆 l eou h  10 lə̌w 르ᇦ〮
-1822 耨 宥 乃 豆 n eou h  9 nə̌w 느ᇦ〮
-1823 偶 宥 五 豆 ng eou h   ŋə̌w ᅌᅳᇦ〮
-1824 冓 宥 居 候 k eou h  11 kə̌w 그ᇦ〮
-1825 幼 宥 伊 謬 q jeou h  12 ʔǐw ᅙᅵᇦ〮
-1826 謬 宥 靡 幼 m jeou h   mǐw 미ᇦ〮
-1827 沁 沁 七 鴆 tsh jeom h   tshǐm ᅔᅵᆷ〮
-1828 浸 沁 子 鴆 ts jeom h   tsǐm ᅎᅵᆷ〮
-1829 枕 沁 職 任 tc jeom h   tʃǐm ᅐᅵᆷ〮
-1830 甚 沁 時 鴆 zc jeom h   ʃʒǐm ᄿᅵᆷ〮
-1831 任 沁 汝 鴆 ny jeom h   ʒǐm ᅀᅵᆷ〮
-1832 滲 沁 所 禁 sr jeom h   ʂə̌m ᄾᅳᆷ〮
-1833 讖 沁 楚 禁 tshr jeom h   ʈʂhə̌m ᅕᅳᆷ〮
-1834 譖 沁 側 禁 tsr jeom h   ʈʂə̌m ᅐᅳᆷ〮
-1835 闖 沁 丑 禁 tch jeom h   tʃhǐm ᅕᅵᆷ〮
-1836 臨 沁 力 禁 l jeom h   lǐm 림〮
-1837 紟 沁 巨 禁 g jeom h   gǐm 낌〮
-1838 鴆 沁 直 禁 dc jeom h   dʒǐm ᅑᅵᆷ〮
-1839 賃 沁 女 禁 nr jeom h  1 nǐm 님〮
-1840 禁 沁 居 廕 k jeom h   kǐm 김〮
-1841 蔭 沁 於 禁 q jeom h   ʔǐm ᅙᅵᆷ〮
-1842 深 沁 式 禁 c jeom h   ʃǐm ᄾᅵᆷ〮
-1843 吟 沁 宜 禁 ng jeom h   ŋǐm ᅌᅵᆷ〮
-1844 勘 勘 苦 紺 kh oom h   khǎm 캄〮
-1845 紺 勘 古 暗 k oom h  1 kǎm 감〮
-1846 憾 勘 胡 紺 gh oom h   ɦǎm ᅘᅡᆷ〮
-2291 暗 勘 烏 紺 q oom h   ʔǎm ᅙᅡᆷ〮
-1847 參 勘 七 紺 tsh oom h   tshǎm ᅔᅡᆷ〮
-1848 探 勘 他 紺 th oom h   thǎm 탐〮
-1849 闞 勘 苦 濫 kh am h   khǎm 캄〮
-1850 暫 勘 昨 濫 dz am h   dzǎm ᅏᅡᆷ〮
-1851 三 勘 息 暫 s am h   sǎm ᄼᅡᆷ〮
-1852 擔 勘 都 濫 t am h   tǎm 담〮
-1853 淡 勘 徒 濫 d am h   dǎm 땀〮
-1854 賧 勘 吐 濫 th am h   thǎm 탐〮
-1855 濫 勘 盧 瞰 l am h  4 lǎm 람〮
-1856 陷 勘 乎 韽 gh am h   ɦiǎm ᅘᅣᆷ〮
-1857 韽 勘 於 陷 q am h   ʔiǎm ᅙᅣᆷ〮
-1858 蘸 勘 莊 陷 tsr am h   ʈʂǎm ᅐᅡᆷ〮
-1859 湛 勘 丈 陷 dzr am h   ɖʐǎm ᅑᅡᆷ〮
-1860 鑑 勘 古 陷 k am h   kiǎm 걈〮
-1861 檻 勘 胡 監 gh am h   ɦiǎm ᅘᅣᆷ〮
-1862 讒 勘 士 監 dzr am h  2 ɖʐǎm ᅑᅡᆷ〮
-1863 摲 勘 所 鑑 sr am h   ʂǎm ᄾᅡᆷ〮
-1864 梵 勘 扶 泛 bf am h   fvǎm ᄬᅡᆷ〮
-1865 豔 豔 以 贍 y jem h  1 jiɛ̌m 염〮
-1866 厭 豔 於 豔 q em h   ʔiɛ̌m ᅙᅧᆷ〮
-1867 窆 豔 波 驗 p em h   piɛ̌m 볌〮
-1868 塹 豔 七 豔 tsh em h   tshiɛ̌m ᅔᅧᆷ〮
-1869 苫 豔 舒 贍 c jem h   ʃiɛ̌m ᄾᅧᆷ〮
-1870 襜 豔 昌 豔 tch jem h   tʃhiɛ̌m ᅕᅧᆷ〮
-1871 占 豔 章 豔 tc jem h  2 tʃiɛ̌m ᅐᅧᆷ〮
-1872 染 豔 而 豔 ny jem h   ʒiɛ̌m ᅀᅧᆷ〮
-1873 斂 豔 力 驗 l em h  3 liɛ̌m 렴〮
-1874 㮇 豔 他 念 th em h   thiɛ̌m 텸〮
-1875 店 豔 都 念 t em h   tiɛ̌m 뎜〮
-1876 念 豔 奴 玷 n em h   niɛ̌m 념〮
-1877 歉 豔 詰 念 kh em h   khiɛ̌m 켬〮
-1878 僭 豔 子 念 ts em h   tsiɛ̌m ᅎᅧᆷ〮
-1879 釅 豔 魚 欠 ng em h   ŋiɛ̌m ᅌᅧᆷ〮
-1880 黏 豔 尼 欠 nr em h   niɛ̌m 념〮
-1881 脅 豔 虛 欠 h em h   hiɛ̌m 혐〮
-1882 欠 豔 去 劍 kh em h   khiɛ̌m 켬〮
-1883 劍 豔 居 欠 k em h   kiɛ̌m 겸〮
-1884 屋 屋 烏 谷 q ok    ʔuk ᅙᅮᆨ
-1885 穀 屋 古 祿 k ok   1 kuk 국
-1886 酷 屋 枯 沃 kh ok    khuk 쿡
-1887 熇 屋 呼 木 h ok    huk 훅
-1888 縠 屋 胡 谷 gh ok    ɦȕk ᅘᅮᆨ
-1889 卜 屋 博 木 p ok    puk 북
-1890 撲 屋 普 卜 ph ok    phuk 푹
-1891 僕 屋 步 木 b ok    bȕk 뿍
-1892 木 屋 莫 卜 m ok   2 mȕk 묵
-1893 速 屋 蘇 谷 s ok   3 suk ᄼᅮᆨ
-1894 夙 屋 蘇 玉 s jok    syuk ᄼᅲᆨ
-1895 蔟 屋 千 木 tsh ok   4 tshuk ᅔᅮᆨ
-1896 族 屋 昨 木 dz ok    dzȕk ᅏᅮᆨ
-1897 禿 屋 他 禿 th ok    thuk 툭
-1898 牘 屋 杜 谷 d ok   5 dȕk 뚝
-1899 祿 屋 盧 谷 l ok   6 lȕk 룩
-1900 福 屋 方 六 f jok   7 fuk ᄫᅮᆨ
-1901 伏 屋 房 六 bf jok   8 fvȕk ᄬᅮᆨ
-1902 蹙 屋 子 六 ts jok    tsyuk ᅎᅲᆨ
-1903 叔 屋 式 竹 c jok   9 ʃyuk ᄾᅲᆨ
-1904 柷 屋 昌 六 tch jok   10 tʃhyuk ᅕᅲᆨ
-1905 畜 屋 許 六 h jok    hyuk 휵
-1906 祝 屋 之 六 tc jok  2 11 tʃyuk ᅐᅲᆨ
-1907 匊 屋 居 六 k jok  1 12 kyuk 귝
-1908 孰 屋 神 六 zc jok    ʃʒyȕk ᄿᅲᆨ
-1909 肉 屋 而 六 ny jok    ʒyȕk ᅀᅲᆨ
-1910 育 屋 余 六 y jok   13 jyȕk 육
-1911 郁 屋 乙 六 q jok   14 ʔyuk ᅙᅲᆨ
-1912 玉 屋 魚 欲 ng jok    ŋyȕk ᅌᅲᆨ
-1913 縮 屋 所 六 sr jok    ʂuk ᄾᅮᆨ
-1914 逐 屋 直 六 dc jok   15 dʒyȕk ᅑᅲᆨ
-1915 朒 屋 女 六 nr jok    nyȕk 뉵
-1916 麴 屋 丘 六 kh jok    khyuk 큑
-1917 局 屋 渠 玉 g jok    gyȕk 뀩
-1918 足 屋 縱 玉 ts jok    tsyuk ᅎᅲᆨ
-1919 續 屋 松 玉 z jok    szyȕk ᄽᅲᆨ
-1920 篤 屋 都 毒 t ok    tuk 둑
-1921 質 質 職 日 tc jeot   1 tʃit ᅐᅳᆮ
-1922 失 質 式 質 c jeot    ʃit ᄾᅳᆮ
-1923 實 質 人 室 zc jeot    ʃʒȉt ᄿᅳᆮ
-1924 叱 質 尺 栗 tch jeot    tʃhit ᅕᅳᆮ
-1925 日 質 人 質 ny jeot    ʒȉt ᅀᅳᆮ
-1926 率 質 朔 律 sr wjot    ʂut ᄾᅮᆮ
-1927 悉 質 息 七 s jeot    sit ᄼᅳᆮ
-1928 七 質 戚 悉 tsh jeot    tshit ᅔᅳᆮ
-1929 堲 質 子 悉 ts jeot    tsit ᅎᅳᆮ
-1930 疾 質 昨 悉 dz jeot    dzȉt ᅏᅳᆮ
-1931 必 質 壁 吉 p jeot   2 pit 븓
-1932 弼 質 薄 密 b jeot    bȉt 쁟
-1933 密 質 覓 筆 m jeot  1 3 mȉt 믇
-1934 匹 質 僻 吉 ph jeot   4 phit 픋
-1935 秩 質 直 質 dc jeot    dʒȉt ᅑᅳᆮ
-1936 栗 質 力 質 l jeot    lȉt 륻
-1937 暱 質 尼 質 nr jeot   5 nȉt 늗
-1938 仡 質 魚 乞 ng jot    ŋȉt ᅌᅳᆮ
-1939 逸 質 弋 質 y jeot   9 jȉt 읃
-1940 一 質 益 悉 q jeot    ʔit ᅙᅳᆮ
-1941 乞 質 欺 訖 kh jot    khit 큳
-1942 吉 質 激 質 k jeot   6 kit 귿
-1943 肸 質 黑 乙 h jot   7 hit 흗
-1944 橘 質 厥 筆 k wjot    kyut 귣
-1945 祋 質 都 律 t wjot    tyut 듇
-1946 矞 質 休 筆 h wjot    hyut 휻
-1947 術 質 食 律 zc wjot   8 ʃʒyȕt ᄿᅲᆮ
-1948 出 質 尺 律 tch wjot    tʃhyut ᅕᅲᆮ
-1949 恤 質 雪 律 s wjot    syut ᄼᅲᆮ
-1950 焌 質 促 律 tsh wjot    tshyut ᅔᅲᆮ
-1951 卒 質 即 律 ts wjot    tsyut ᅎᅲᆮ
-1952 崒 質 昨 律 dz wjot    dzyȕt ᅏᅲᆮ
-1953 窋 質 竹 律 tc wjot    tʃyut ᅐᅲᆮ
-1954 律 質 劣 戌 l wjot   10 lyȕt 륟
-1955 聿 質 以 律 y wjot   11 jyȕt 윧
-1956 櫛 質 側 瑟 tsr eot    ʈʂət ᅐᅳᆮ
-1957 瑟 質 色 櫛 sr eot    ʂət ᄾᅳᆮ
-1958 勿 質 文 拂 mf wjot    vȕt ᄝᅮᆮ
-1959 拂 質 敷 勿 f wjot    fut ᄫᅮᆮ
-1960 佛 質 符 勿 bf wjot    fvȕt ᄬᅮᆮ
-1961 欻 質 許 勿 h wjot    hyut 휻
-2292 䬑 質 王 勿 j wjot    (jy)ȕt 윧
-1962 屈 質 曲 勿 kh wjot   12 khyut 큗
-1963 屈 質 九 勿 k wjot    kyut 귣
-1964 倔 質 渠 勿 g wjot    gyȕt 뀯
-1965 鬱 質 紆 勿 q wjot   13 ʔyut ᅙᅲᆮ
-1966 沒 質 莫 勃 m wot    mȕt 묻
-1967 孛 質 蒲 沒 b wot   14 bȕt 뿓
-1968 不 質 逋 沒 p wot    put 붇
-1969 窣 質 蘇 骨 s wot    sut ᄼᅮᆮ
-1970 卒 質 蒼 沒 tsh wot    tshut ᅔᅮᆮ
-1971 卒 質 臧 沒 ts wot    tsut ᅎᅮᆮ
-1972 咄 質 當 沒 t wot   15 tut 둗
-1973 硉 質 盧 沒 l wot    lȕt 룯
-1974 朏 質 普 沒 ph wot    phut 푿
-1975 突 質 吐 訥 th wot    thut 툳
-1976 訥 質 奴 骨 n wot    nȕt 눋
-1977 覈 質 下 沒 gh ot    ɦə̏t ᅘᅳᆮ
-1978 鶻 質 胡 骨 gh wot    ɦȕt ᅘᅮᆮ
-1979 忽 質 呼 骨 h wot    hut 훋
-1980 窟 質 苦 骨 kh wot   16 khut 쿧
-1981 骨 質 古 忽 k wot    kut 굳
-1982 兀 質 五 忽 ng wot   17 ŋȕt ᅌᅮᆮ
-1983 媼 質 烏 骨 q wot    ʔut ᅙᅮᆮ
-1984 曷 曷 何 葛 gh oot    ɦɔ̏t ᅘᅥᆮ
-1985 喝 曷 許 葛 h oot    hɔt 헏
-1986 渴 曷 丘 葛 kh oot    khɔt 컫
-1987 葛 曷 居 曷 k oot    kɔt 걷
-1988 遏 曷 阿 葛 q oot   1 ʔɔt ᅙᅥᆮ
-1989 末 曷 莫 葛 m oot   2 mwɔ̏t 뭗
-1990 活 曷 戶 括 gh woot    ɦwɔ̏t ᅘᅯᆮ
-1991 豁 曷 呼 括 h woot    hwɔt 훧
-1992 闊 曷 苦 括 kh woot    khwɔt 퀃
-1993 括 曷 古 活 k woot   3 kwɔt 궏
-1994 斡 曷 烏 活 q woot    ʔwɔt ᅙᅯᆮ
-1995 撥 曷 北 末 p woot    pwɔt 붣
-1996 潑 曷 普 活 ph woot   4 phwɔt 풛
-1997 跋 曷 蒲 撥 b woot    bwɔ̏t 뿯
-1998 撮 曷 倉 括 tsh woot    tshwɔt ᅔᅯᆮ
-1999 繓 曷 子 括 ts woot    tswɔt ᅎᅯᆮ
-2000 掇 曷 都 括 t woot    twɔt 둳
-2001 脫 曷 他 括 th woot   5 thwɔt 퉏
-2002 奪 曷 徒 活 d woot    dwɔ̏t 뚿
-2003 捋 曷 盧 活 l woot    lwɔ̏t 뤋
-2004 轄 轄 胡 八 gh at    ɦiȁt ᅘᅣᆮ
-2005 糵 轄 牙 八 ng at    (ŋ)jiȁt ᅌᅣᆮ
-2006 薩 轄 桑 轄 s at    sat ᄼᅡᆮ
-2007 嶻 轄 才 達 dz at    dzȁt ᅏᅡᆮ
-2008 笪 轄 當 拔 t at    tat 닫
-2009 達 轄 堂 滑 d at    dȁt 딷
-2010 闥 轄 他 達 th at    that 탇
-2011 剌 轄 郎 達 l at   2 lȁt 랃
-2012 捺 轄 乃 八 n at    nȁt 낟
-2013 攃 轄 七 煞 tsh at    tshat ᅔᅡᆮ
-2014 戛 轄 訖 黠 k at    kiat 갿
-2015 軋 轄 乙 黠 q at    ʔiat ᅙᅣᆮ
-2016 猾 轄 戶 八 gh wat   1 ɦwȁt ᅘᅪᆮ
-2017 八 轄 布 拔 p at    pat 받
-2018 殺 轄 山 戛 sr at    ʂat ᄾᅡᆮ
-2019 察 轄 初 戛 tshr at    ʈʂhat ᅕᅡᆮ
-2020 札 轄 側 八 tsr at    ʈʂat ᅐᅡᆮ
-2021 豽 轄 女 滑 nr wat   3 nwȁt 놛
-2022 楬 轄 丘 瞎 kh at    khiat 캳
-2023 刮 轄 古 滑 k wat    kwat 괃
-2024 刷 轄 數 滑 sr wat    ʂwat ᄾᅪᆮ
-2025 哳 轄 陟 轄 tsr at    ʈʂat ᅐᅡᆮ
-2026 帓 轄 莫 轄 m at    mȁt 맏
-2027 獺 轄 逖 轄 th at    that 탇
-2028 瞎 轄 許 轄 h at    hiat 햗
-2029 𨰉 轄 查 轄 dzr at    ɖʐȁt ᅑᅡᆮ
-2030 拶 轄 宗 滑 ts at    tsat ᅎᅡᆮ
-2031 伐 轄 房 滑 bf at    fvȁt ᄬᅡᆮ
-2032 韈 轄 無 發 mf at    vȁt ᄝᅡᆮ
-2033 髮 轄 方 伐 f at    fat ᄫᅡᆮ
-2034 屑 屑 先 結 s et   1 siɛt ᄼᅧᆮ
-2035 孽 屑 魚 列 ng et    ŋiɛ̏t ᅌᅧᆮ
-2036 結 屑 古 屑 k et   2 kiɛt 겯
-2037 闕 屑 丘 月 kh wet   3 khyuɛt ᄏᆑᆮ
-2038 朅 屑 琦 熱 g et    giɛ̏t 껻
-2039 別 屑 避 列 b et    biɛ̏t 뼏
-2040 鼈 屑 必 列 p et    piɛt 볃
-2041 列 屑 良 薛 l et   4 liɛ̏t 렫
-2042 月 屑 魚 厥 ng wet    (ŋ)jyuɛ̏t ᅌᆑᆮ
-2043 謁 屑 於 歇 q et    ʔiɛt ᅙᅧᆮ
-2044 穴 屑 胡 决 gh wet    ɦyuɛ̏t ᅘᆑᆮ
-2045 烕 屑 呼 决 h wet    hyuɛt ᄒᆑᆮ
-2046 拙 屑 朱 劣 tc wjet    tʃyuɛt ᅐᆑᆮ
-2047 滅 屑 彌 列 m et   5 miɛ̏t 멷
-2048 傑 屑 巨 列 g et   6 giɛ̏t 껻
-2049 熱 屑 而 列 ny jet    ʒiɛ̏t ᅀᅧᆮ
-2050 撆 屑 匹 蔑 ph et    phiɛt 펻
-2051 雪 屑 蘇 絕 s wet   7 syuɛt ᄼᆑᆮ
-2052 挈 屑 詰 結 kh et    khiɛt 켣
-2053 茁 屑   dc wjet    dʒyuɛ̏t ᅑᆑᆮ
-2054 絕 屑 情 雪 ts wet    dzyuɛ̏t ᅏᆑᆮ
-2055 說 屑 輸 𤑔 c wjet    ʃyuɛt ᄾᆑᆮ
-2056 節 屑 子 結 ts et    tsiɛt ᅎᅧᆮ
-2057 截 屑 昨 結 dz et   8 dziɛ̏t ᅏᅧᆮ
-2058 鐵 屑 他 結 th et    thiɛt 텯
-2059 抉 屑 一 决 q wet    ʔyuɛt ᅙᆑᆮ
-2060 歠 屑 昌 悅 tch wjet    tʃhyuɛt ᅕᆑᆮ
-2061 劣 屑 力 輟 l wet    lyuɛ̏t ᄅᆑᆮ
-2062 𤑔 屑 儒 劣 ny wjet    ʒyuɛ̏t ᅀᆑᆮ
-2063 厥 屑 居 月 k wet    kyuɛt ᄀᆑᆮ
-2064 徹 屑 敕 列 tch jet    tʃhiɛt ᅕᅧᆮ
-2065 轍 屑 直 列 dc jet    dʒiɛ̏t ᅑᅧᆮ
-2066 橜 屑 其 月 g wet    gyuɛ̏t ᄁᆑᆮ
-2067 浙 屑 之 列 tc jet   9 tʃiɛt ᅐᅧᆮ
-2068 纈 屑 胡 結 gh et    ɦiɛ̏t ᅘᅧᆮ
-2069 曳 屑 延 結 y jet    jiɛ̏t 엳
-2070 設 屑 式 列 c jet    ʃiɛt ᄾᅧᆮ
-2071 涅 屑 乃 結 n et    niɛ̏t 녇
-2072 舌 屑 食 列 zc jet    ʃʒiɛ̏t ᄿᅧᆮ
-2073 耋 屑 杜 結 d et   10 diɛ̏t 뗟
-2074 歇 屑 許 竭 h et    hiɛt 혇
-2075 切 屑 千 結 tsh et    tshiɛt ᅔᅧᆮ
-2076 刷 屑 所 劣 sr wet    ʂyuɛt ᄾᆑᆮ
-2077 藥 藥 弋 灼 y jook   1 jiɒ̏k 약
-2078 嶽 藥 逆 角 ng oouk   2 (ŋ)jiɒ̏k ᅌᅣᆨ
-2079 渥 藥 乙 角 q oouk    ʔiɒk ᅙᅣᆨ
-2080 約 藥 乙 却 q jook    ʔiɒk ᅙᅣᆨ
-2081 謔 藥 迄 却 h jook    hiɒk 햑
-2082 縛 藥 符 約 bf wjook    fvɒ̏k ᄬᅡᆨ
-2083 削 藥 息 約 s jook    siɒk ᄼᅣᆨ
-2084 索 藥 昔 各 s ook   3 sɒk ᄼᅡᆨ
-2085 錯 藥 七 各 tsh ook  3  tshɒk ᅔᅡᆨ
-2086 鵲 藥 七 雀 tsh jook   4 tshiɒk ᅔᅣᆨ
-2087 皭 藥 疾 雀 dz jook    dziɒ̏k ᅏᅣᆨ
-2088 爵 藥 即 約 ts jook    tsiɒk ᅎᅣᆨ
-2089 作 藥 即 各 ts ook    tsɒk ᅎᅡᆨ
-2090 昨 藥 疾 各 dz ook    dzɒ̏k ᅏᅡᆨ
-2091 鑠 藥 式 灼 c jook    ʃiɒk ᄾᅣᆨ
-2092 浞 藥 食 角 dzr oouk    ʃʒiɒ̏k ᄿᅣᆨ
-2093 朔 藥 色 角 sr oouk    ʂ(w)ɒk ᄾᅡᆨ
-2094 灼 藥 職 略 tc jook  1  tʃiɒk ᅐᅣᆨ
-2095 箸 藥 直 略 dc jook    dʒiɒ̏k ᅑᅣᆨ
-2096 綽 藥 尺 約 tch jook    tʃhiɒk ᅕᅣᆨ
-2097 杓 藥 裳 灼 zc jook    ʃʒiɒ̏k ᄿᅣᆨ
-2098 若 藥 如 灼 ny jook    ʒiɒ̏k ᅀᅣᆨ
-2099 略 藥 力 灼 l jook    liɒ̏k 략
-2100 却 藥 乞 約 kh jook   5 khiɒk 캭
-2101 躩 藥 丘 縛 kh wjook    khyuɒk ᄏᆄᆨ
-2102 恪 藥 克 各 kh ook  2  khɒk 칵
-2103 覺 藥 訖 岳 k oouk    kiɒk 갹
-2104 噱 藥 極 虐 g jook    giɒ̏k 꺅
-2105 矍 藥 厥 縛 k wjook   10 kyuɒk ᄀᆄᆨ
-2106 各 藥 葛 鶴 k ook    kɒk 각
-2107 雘 藥 烏 郭 q wook    ʔwɒk ᅙᅪᆨ
-2108 霍 藥 忽 郭 h wook    hwɒk 확
-2109 穫 藥 胡 郭 gh wook    ɦwɒ̏k ᅘᅪᆨ
-2110 戄 藥 許 縛 h wjook    hyuɒk ᄒᆄᆨ
-2111 託 藥 他 各 th ook   6 thɒk 탁
-2112 洛 藥 歷 各 l ook   7 lɒ̏k 락
-2113 諾 藥 奴 各 n ook    nɒ̏k 낙
-2114 博 藥 伯 各 p ook    pɒk 박
-2115 雹 藥 弼 角 b oouk   8 bɒ̏k 빡
-2116 鐸 藥 達 各 d ook  4  dɒ̏k 딱
-2117 朴 藥 匹 各 ph ook    phɒk 팍
-2118 莫 藥 末 各 m ook   11 mɒ̏k 막
-2119 鶴 藥 曷 各 gh ook    ɦɒ̏k ᅘᅡᆨ
-2120 臛 藥 黑 各 h ook    hɒk 학
-2121 學 藥 轄 覺 gh oouk    ɦiɒ̏k ᅘᅣᆨ
-2122 廓 藥 苦 郭 kh wook    khwɒk 콱
-2123 郭 藥 古 博 k wook    kwɒk 곽
-2124 惡 藥 遏 各 q ook    ʔɒk ᅙᅡᆨ
-2125 諤 藥 逆 各 ng ook    ŋɒ̏k ᅌᅡᆨ
-2126 娖 藥 測 角 tshr oouk    ʈʂh(w)ɒk ᅕᅡᆨ
-2127 捉 藥 竹 角 tsr oouk   9 ʈʂ(w)ɒk ᅐᅡᆨ
-2128 濁 藥 直 角 dzr oouk    ɖʐ(w)ɒ̏k ᅑᅡᆨ
-2293 㪬 藥 敕 角 thr oouk    ʈʂhɒk ᅕᅡᆨ
-2129 陌 陌 莫 白 m aik   1 mə̏k 믝
-2130 拍 陌 普 伯 ph aik    phək 픡
-2131 百 陌 博 陌 p aik    pək 븩
-2132 白 陌 薄 陌 b aik    bə̏k 쁵
-2133 宅 陌 直 格 dzr aik   17 ɖʐə̏k ᅑᅴᆨ
-2134 坼 陌 恥 格 tshr aik    ʈʂhək ᅕᅴᆨ
-2135 檗 陌 搏 厄 p aik    pək 븩
-2136 赫 陌 呼 格 h aik    hək 흭
-2137 黑 陌 迄 得 h eok    hək 흭
-2138 客 陌 乞 格 kh aik    khək 킉
-2139 格 陌 各 頟 k aik   2 kək 긕
-2140 額 陌 鄂 格 ng aik    ŋə̏k ᅌᅴᆨ
-2141 畫 陌 霍 虢 h waik    hwək 휙
-2142 虢 陌 古 伯 k waik    kwək 귁
-2143 索 陌 色 窄 sr aik    ʂək ᄾᅴᆨ
-2144 窄 陌 側 格 tsr aik    ʈʂək ᅐᅴᆨ
-2145 厄 陌 乙 革 q aik    ʔək ᅙᅴᆨ
-2146 賾 陌 士 革 dzr aik    ʂʐə̏k ᄿᅴᆨ
-2147 昔 陌 思 積 s eik   3 sik ᄼᅵᆨ
-2148 刺 陌 七 迹 tsh eik   4 tshik ᅔᅵᆨ
-2149 席 陌 祥 亦 z eik    szȉk ᄽᅵᆨ
-2150 寂 陌 前 歷 dz eik    dzȉk ᅏᅵᆨ
-2151 積 陌 資 昔 ts eik  4  tsik ᅎᅵᆨ
-2152 釋 陌 施 隻 c jeik    ʃik ᄾᅵᆨ
-2153 尺 陌 昌 石 tch jeik  2 5 tʃhik ᅕᅵᆨ
-2154 隻 陌 之 石 tc jeik   6 tʃik ᅐᅵᆨ
-2155 石 陌 裳 隻 zc jeik    ʃʒȉk ᄿᅵᆨ
-2156 擲 陌 直 隻 dc jeik    dʒȉk ᅑᅵᆨ
-2157 益 陌 伊 昔 q eik    ʔik ᅙᅵᆨ
-2158 繹 陌 夷 益 y jeik   7 jȉk 익
-2159 壁 陌 必 歷 p eik   8 pik 빅
-2160 僻 陌 匹 亦 ph eik    phik 픽
-2161 匿 陌 女 力 n eik    nȉk 닉
-2162 闢 陌 毗 亦 b eik    bȉk 삑
-2163 玃 陌 俱 碧 g weik    gyuə̏k ᄁᆔᆨ
-2164 躩 陌 驅 碧 kh weik    khyuək ᄏᆔᆨ
-2165 𧈅 陌 迄 逆 h eik    hik 힉
-2166 戟 陌 訖 逆 k eik  1 9 kik 긱
-2167 劇 陌 竭 戟 g eik   10 gȉk 끽
-2168 逆 陌 宜 戟 ng eik    ŋȉk ᅌᅵᆨ
-2169 隙 陌 乞 逆 kh eik   13 khik 킥
-2170 覓 陌 莫 狄 m eik   11 mȉk 믹
-2171 的 陌 丁 歷 t eik  3  tik 딕
-2172 逖 陌 他 歷 th eik    thik 틱
-2173 狄 陌 杜 歷 d eik    dȉk 띡
-2174 歷 陌 郎 狄 l eik  2 16 lȉk 릭
-2175 檄 陌 刑 狄 gh eik    ɦȉk ᅘᅵᆨ
-2176 喫 陌 苦 擊 kh eik   12 khik 킥
-2177 闃 陌 苦 狊 kh weik    khyuək ᄏᆔᆨ
-2178 狊 陌 古 闃 k weik    kyuək ᄀᆔᆨ
-2179 殈 陌 呼 狊 h weik    hyuək ᄒᆔᆨ
-2180 寔 陌 丞 職 zc jeik    ʃʒȉk ᄿᅵᆨ
-2181 測 陌 初 力 tshr eik    ʈʂhik ᅕᅵᆨ
-2182 崱 陌 疾 力 dz eik    dzȉk ᅏᅵᆨ
-2183 賊 陌 疾 則 dz eok    dzə̏k ᅏᅴᆨ
-2184 即 陌 節 力 ts eik    tsik ᅎᅵᆨ
-2185 域 陌 越 逼 gh weik    jyuə̏k ᄋᆔᆨ
-2186 德 陌 多 則 t eok    tək 듹
-2187 忒 陌 惕 德 th eok    thək 틕
-2188 特 陌 敵 德 d eok    də̏k 띅
-2189 勒 陌 歷 德 l eok    lə̏k 릑
-2190 北 陌 必 勒 p eok    pək 븩
-2191 匐 陌 步 黑 b eok    bə̏k 쁵
-2192 墨 陌 密 北 m eok    mə̏k 믝
-2193 塞 陌 悉 則 s eok    sək ᄼᅴᆨ
-2194 則 陌 子 德 ts eok   14 tsək ᅎᅴᆨ
-2195 劾 陌 胡 得 gh eok    ɦə̏k ᅘᅴᆨ
-2196 或 陌 穫 北 gh weok    ɦwə̏k ᅘᅱᆨ
-2197 獲 陌 胡 麥 gh waik    ɦwə̏k ᅘᅱᆨ
-2198 緝 緝 七 入 tsh jeop    tship ᅔᅵᆸ
-2199 戢 緝 側 入 tsr jeop   1 ʈʂɨp ᅐᅳᆸ
-2200 霫 緝 息 入 s jeop    sip ᄼᅵᆸ
-2201 習 緝 席 入 z jeop   2 szȉp ᄽᅵᆸ
-2202 集 緝 秦 入 dz jeop    dzȉp ᅏᅵᆸ
-2203 執 緝 質 入 tc jeop    tʃip ᅐᅵᆸ
-2204 蟄 緝 直 立 dc jeop    dʒȉp ᅑᅵᆸ
-2205 蟄 緝 尺 入 tch jeop    tʃhip ᅕᅵᆸ
-2206 十 緝 寔 執 zc jeop    ʃʒȉp ᄿᅵᆸ
-2207 入 緝 日 執 ny jeop    ʒȉp ᅀᅵᆸ
-2208 澀 緝 色 入 sr jeop   5 ʂɨp ᄾᅳᆸ
-2209 立 緝 力 入 l jeop    lȉp 립
-2210 揖 緝 一 入 q jeop   6 ʔip ᅙᅵᆸ
-2211 吸 緝 許 及 h jeop    hip 힙
-2212 泣 緝 乞 及 kh jeop    khip 킵
-2213 急 緝 居 立 k jeop   7 kip 깁
-2214 及 緝 忌 立 g jeop   9 gȉp 낍
-2215 湒 緝 賫 入 ts jeop    tsip ᅎᅵᆸ
-2216 合 合 胡 閤 gh oop    ɦɔ̏p ᅘᅡᆸ
-2217 榼 合 克 盍 kh oop    khɔp 캅
-2218 閤 合 古 沓 k oop    kɔp 갑
-2219 姶 合 遏 合 q oop    ʔɔp ᅙᅡᆸ
-2220 趿 合 悉 合 s oop    sap ᄼᅡᆸ
-2221 帀 合 作 答 ts oop    tsap ᅎᅡᆸ
-2222 雜 合 昨 答 dz oop    dzȁp ᅏᅡᆸ
-2223 答 合 得 合 t oop   2 tap 답
-2224 雜 合 七 合 tsh oop   1 tshap ᅔᅡᆸ
-2225 錔 合 託 合 th oop    thap 탑
-2226 沓 合 達 合 d oop   3 dȁp 땁
-2227 蠟 合 落 合 l oop   4 lȁp 랍
-2228 納 合 奴 答 n oop   5 nȁp 납
-2229 榻 合 託 甲 th ap   6 thap 탑
-2230 洽 合 胡 夾 gh ap    ɦiȁp ᅘᅣᆸ
-2231 恰 合 苦 洽 kh ap    khiap 캽
-2232 夾 合 古 洽 k ap   7 kiap 걉
-2233 歃 合 色 洽 sr ap   8 ʂap ᄾᅡᆸ
-2234 臿 合 測 洽 tshr ap   9 ʈʂhap ᅕᅡᆸ
-2235 劄 合 竹 洽 tsr ap    ʈʂap ᅐᅡᆸ
-2236 𢇵 合 胒 洽 nr ap    niȁp 냡
-2237 押 合 乙 甲 q ap   10 ʔ(i)ap ᅙᅡᆸ
-2238 呷 合 呼 甲 h ap    hiap 햡
-2239 霅 合 直 甲 dzr ap    ɖʐȁp ᅑᅡᆸ
-2240 乏 合 扶 沓 bf ap    fvȁp ᄬᅡᆸ
-2241 法 合 方 甲 f ap    fap ᄫᅡᆸ
-2242 葉 葉 弋 涉 y jep   4 jiɛ̏p 엽
-2243 笈 葉 極 曄 g ep    giɛ̏p 꼅
-2244 妾 葉 七 接 tsh ep    tshiɛp ᅔᅧᆸ
-2245 接 葉 即 涉 ts ep   2 tsiɛp ᅎᅧᆸ
-2246 捷 葉 疾 葉 dz ep    dziɛ̏p ᅏᅧᆸ
-2247 攝 葉 失 涉 c jep    ʃiɛp ᄾᅧᆸ
-2248 讋 葉 質 涉 tc jep    tʃiɛp ᅐᅧᆸ
-2249 聶 葉 尼 輒 nr ep   3 niɛ̏p 녑
-2250 䐑 葉 直 涉 dc jep    dʒiɛ̏p ᅑᅧᆸ
-2251 獵 葉 力 涉 l ep    liɛ̏p 렵
-2252 帖 葉 他 協 th ep   1 thiɛp 텹
-2253 喋 葉 丁 協 t ep   5 tiɛp 뎝
-2254 協 葉 胡 頰 gh ep   6 ɦiɛ̏p ᅘᅧᆸ
-2255 頰 葉 古 協 k ep   7 kiɛp 겹
-2256 篋 葉 乞 協 kh ep   8 khiɛp 켭
-2257 偞 葉 呼 協 h ep    hiɛp 협
-2258 燮 葉 悉 協 s ep    siɛp ᄼᅧᆸ
-2259 業 葉 魚 怯 ng ep    ŋiɛ̏p ᅌᅧᆸ
+1787 宥 宥 爰 救 y jeou h   jǐw 이ᇢ〮
+1788 齅 宥 許 救 h jeou h   hǐw 히ᇢ〮
+2290 糗 宥 丘 救 kh jeou h   khǐw 키ᇢ〮
+1789 救 宥 居 又 k jeou h   kǐw 기ᇢ〮
+1790 舊 宥 巨 又 g jeou h  2 gǐw 끼ᇢ〮
+1791 副 宥 敷 救 f jeou h  3 fə̌w ᄫᅳᇢ〮
+1792 復 宥 扶 富 bf jeou h   fvə̌w ᄬᅳᇢ〮
+1793 秀 宥 息 救 s jeou h   sǐw ᄼᅵᇢ〮
+1794 僦 宥 即 就 ts jeou h   tsǐw ᅎᅵᇢ〮
+1795 岫 宥 似 救 z jeou h   szǐw ᄽᅵᇢ〮
+1796 就 宥 疾 僦 dz jeou h   dzǐw ᅏᅵᇢ〮
+1797 狩 宥 舒 救 c jeou h   ʃǐw ᄾᅵᇢ〮
+1798 臭 宥 尺 救 tch jeou h  1 tʃhǐw ᅕᅵᇢ〮
+1799 祝 宥 職 救 tc jeou h   tʃǐw ᅐᅵᇢ〮
+1800 授 宥 承 呪 zc jeou h  4 ʃʒǐw ᄿᅵᇢ〮
+1801 輮 宥 如 又 ny jeou h 1 5 ʒǐw ᅀᅵᇢ〮
+1802 不 宥 俯 救 f jeou h   fə̌w ᄫᅳᇢ〮
+1803 瘦 宥 所 救 sr jeou h   ʂə̌w ᄾᅳᇢ〮
+1804 簉 宥 初 救 tshr jeou h   ʈʂhə̌w ᅕᅳᇢ〮
+1805 縐 宥 側 救 tsr jeou h   ʈʂə̌w ᅐᅳᇢ〮
+1806 驟 宥 鉏 救 dzr jeou h   ɖʐə̌w ᅑᅳᇢ〮
+1807 胄 宥 直 又 dc jeou h   dʒǐw ᅑᅵᇢ〮
+1808 溜 宥 力 救 l jeou h 2 6 lǐw 리ᇢ〮
+1809 狃 宥 女 救 nr jeou h   nǐw 니ᇢ〮
+1810 候 宥 胡 茂 gh eou h  7 ɦə̌w ᅘᅳᇢ〮
+1811 吼 宥 許 候 h eou h   hə̌w 흐ᇢ〮
+1812 寇 宥 丘 候 kh eou h  8 khə̌w 크ᇢ〮
+1813 漚 宥 於 候 q eou h   ʔə̌w ᅙᅳᇢ〮
+1814 戊 宥 莫 候 m eou h  12 mə̌w 므ᇢ〮
+1815 漱 宥 先 奏 s eou h   sə̌w ᄼᅳᇢ〮
+1816 湊 宥 千 候 tsh eou h   tshə̌w ᅔᅳᇢ〮
+1817 奏 宥 則 候 ts eou h   tsə̌w ᅎᅳᇢ〮
+1818 鬭 宥 丁 候 t eou h   tə̌w 드ᇢ〮
+1819 透 宥 他 候 th eou h   thə̌w 트ᇢ〮
+1820 豆 宥 大 透 d eou h   də̌w 뜨ᇢ〮
+1821 漏 宥 郎 豆 l eou h  10 lə̌w 르ᇢ〮
+1822 耨 宥 乃 豆 n eou h  9 nə̌w 느ᇢ〮
+1823 偶 宥 五 豆 ng eou h   ŋə̌w ᅌᅳᇢ〮俗으ᇢ〮
+1824 冓 宥 居 候 k eou h  11 kə̌w 그ᇢ〮
+1825 幼 宥 伊 謬 q jeou h  12 ʔǐw ᅙᅵᇢ〮
+1826 謬 宥 靡 幼 m jeou h   mǐw 미ᇢ〮
+1827 沁 沁 七 鴆 tsh jeom h   tshǐm ᅔᅵᆷ〮俗ᅔᅵᆫ〮
+1828 浸 沁 子 鴆 ts jeom h   tsǐm ᅎᅵᆷ〮俗ᅎᅵᆫ〮
+1829 枕 沁 職 任 tc jeom h   tʃǐm ᅐᅵᆷ〮俗ᅐᅵᆫ〮
+1830 甚 沁 時 鴆 zc jeom h   ʃʒǐm ᄿᅵᆷ〮俗ᄿᅵᆫ〮
+1831 任 沁 汝 鴆 ny jeom h   ʒǐm ᅀᅵᆷ〮俗ᅀᅵᆫ〮
+1832 滲 沁 所 禁 sr jeom h   ʂə̌m ᄾᅳᆷ〮俗ᄾᅳᆫ〮
+1833 讖 沁 楚 禁 tshr jeom h   ʈʂhə̌m ᅕᅳᆷ〮俗ᅕᅳᆫ〮
+1834 譖 沁 側 禁 tsr jeom h   ʈʂə̌m ᅐᅳᆷ〮俗ᅐᅳᆫ〮
+1835 闖 沁 丑 禁 tch jeom h   tʃhǐm ᅕᅵᆷ〮俗ᅕᅵᆫ〮
+1836 臨 沁 力 禁 l jeom h   lǐm 림〮俗린〮
+1837 紟 沁 巨 禁 g jeom h   gǐm 낌〮俗낀〮
+1838 鴆 沁 直 禁 dc jeom h   dʒǐm ᅑᅵᆷ〮俗ᅑᅵᆫ〮
+1839 賃 沁 女 禁 nr jeom h  1 nǐm 님〮俗닌〮
+1840 禁 沁 居 廕 k jeom h   kǐm 김〮俗긴〮
+1841 蔭 沁 於 禁 q jeom h   ʔǐm ᅙᅵᆷ〮俗ᅙᅵᆫ〮
+1842 深 沁 式 禁 c jeom h   ʃǐm ᄾᅵᆷ〮俗ᄾᅵᆫ〮
+1843 吟 沁 宜 禁 ng jeom h   ŋǐm ᅌᅵᆷ〮俗인〮
+1844 勘 勘 苦 紺 kh oom h   khǎm 캄〮俗칸〮
+1845 紺 勘 古 暗 k oom h  1 kǎm 감〮俗간〮
+1846 憾 勘 胡 紺 gh oom h   ɦǎm ᅘᅡᆷ〮俗ᅘᅡᆫ〮
+2291 暗 勘 烏 紺 q oom h   ʔǎm ᅙᅡᆷ〮俗ᅙᅡᆫ〮
+1847 參 勘 七 紺 tsh oom h   tshǎm ᅔᅡᆷ〮俗ᅔᅡᆫ〮
+1848 探 勘 他 紺 th oom h   thǎm 탐〮俗탄〮
+1849 闞 勘 苦 濫 kh am h   khǎm 캄〮俗칸〮
+1850 暫 勘 昨 濫 dz am h   dzǎm ᅏᅡᆷ〮俗ᅏᅡᆫ〮
+1851 三 勘 息 暫 s am h   sǎm ᄼᅡᆷ〮俗ᄼᅡᆫ〮
+1852 擔 勘 都 濫 t am h   tǎm 담〮俗단〮
+1853 淡 勘 徒 濫 d am h   dǎm 땀〮俗딴〮
+1854 賧 勘 吐 濫 th am h   thǎm 탐〮俗탄〮
+1855 濫 勘 盧 瞰 l am h  4 lǎm 람〮俗란〮
+1856 陷 勘 乎 韽 gh am h   ɦiǎm ᅘᅣᆷ〮俗ᅘᅣᆫ〮
+1857 韽 勘 於 陷 q am h   ʔiǎm ᅙᅣᆷ〮俗ᅙᅣᆫ〮
+1858 蘸 勘 莊 陷 tsr am h   ʈʂǎm ᅐᅡᆷ〮俗ᅐᅡᆫ〮
+1859 湛 勘 丈 陷 dzr am h   ɖʐǎm ᅑᅡᆷ〮俗ᅑᅡᆫ〮
+1860 鑑 勘 古 陷 k am h   kiǎm 걈〮俗갼〮
+1861 檻 勘 胡 監 gh am h   ɦiǎm ᅘᅣᆷ〮俗ᅘᅣᆫ〮
+1862 讒 勘 士 監 dzr am h  2 ɖʐǎm ᅑᅡᆷ〮俗ᅑᅡᆫ〮
+1863 摲 勘 所 鑑 sr am h   ʂǎm ᄾᅡᆷ〮俗ᄾᅡᆫ〮
+1864 梵 勘 扶 泛 bf am h   fvǎm ᄬᅡᆷ〮俗ᄬᅡᆫ〮
+1865 豔 豔 以 贍 y jem h  1 jiɛ̌m 염〮俗연〮
+1866 厭 豔 於 豔 q em h   ʔiɛ̌m ᅙᅧᆷ〮俗ᅙᅧᆫ〮
+1867 窆 豔 波 驗 p em h   piɛ̌m 볌〮俗변〮
+1868 塹 豔 七 豔 tsh em h   tshiɛ̌m ᅔᅧᆷ〮俗ᅔᅧᆫ〮
+1869 苫 豔 舒 贍 c jem h   ʃiɛ̌m ᄾᅧᆷ〮俗ᄾᅧᆫ〮
+1870 襜 豔 昌 豔 tch jem h   tʃhiɛ̌m ᅕᅧᆷ〮俗ᅕᅧᆫ〮
+1871 占 豔 章 豔 tc jem h  2 tʃiɛ̌m ᅐᅧᆷ〮俗ᅐᅧᆫ〮
+1872 染 豔 而 豔 ny jem h   ʒiɛ̌m ᅀᅧᆷ〮俗ᅀᅧᆫ〮
+1873 斂 豔 力 驗 l em h  3 liɛ̌m 렴〮俗련〮
+1874 㮇 豔 他 念 th em h   thiɛ̌m 텸〮俗텬〮
+1875 店 豔 都 念 t em h   tiɛ̌m 뎜〮俗뎐〮
+1876 念 豔 奴 玷 n em h   niɛ̌m 념〮俗년〮
+1877 歉 豔 詰 念 kh em h   khiɛ̌m 켬〮俗켠〮
+1878 僭 豔 子 念 ts em h   tsiɛ̌m ᅎᅧᆷ〮俗ᅎᅧᆫ〮
+1879 釅 豔 魚 欠 ng em h   ŋiɛ̌m ᅌᅧᆷ〮俗연〮
+1880 黏 豔 尼 欠 nr em h   niɛ̌m 념〮俗년〮
+1881 脅 豔 虛 欠 h em h   hiɛ̌m 혐〮俗현〮
+1882 欠 豔 去 劍 kh em h   khiɛ̌m 켬〮俗켠〮
+1883 劍 豔 居 欠 k em h   kiɛ̌m 겸〮俗견〮
+1884 屋 屋 烏 谷 q ok    ʔuk(-ʔ) ᅙᅮᆨ〮俗ᅙᅮᇹ〮
+1885 穀 屋 古 祿 k ok   1 kuk(-ʔ) 국〮俗구ᇹ〮
+1886 酷 屋 枯 沃 kh ok    khuk(-ʔ) 쿡〮俗쿠ᇹ〮
+1887 熇 屋 呼 木 h ok    huk(-ʔ) 훅〮俗후ᇹ〮
+1888 縠 屋 胡 谷 gh ok    ɦȕk(-ʔ) ᅘᅮᆨ〮俗ᅘᅮᇹ〮
+1889 卜 屋 博 木 p ok    puk(-ʔ) 북〮俗부ᇹ〮
+1890 撲 屋 普 卜 ph ok    phuk(-ʔ) 푹〮俗푸ᇹ〮
+1891 僕 屋 步 木 b ok    bȕk(-ʔ) 뿍〮俗뿌ᇹ〮
+1892 木 屋 莫 卜 m ok   2 mȕk(-ʔ) 묵〮俗무ᇹ〮
+1893 速 屋 蘇 谷 s ok   3 suk(-ʔ) ᄼᅮᆨ〮俗ᄼᅮᇹ〮
+1894 夙 屋 蘇 玉 s jok    syuk(-ʔ) ᄼᅲᆨ〮俗ᄼᅲᇹ〮
+1895 蔟 屋 千 木 tsh ok   4 tshuk(-ʔ) ᅔᅮᆨ〮俗ᅔᅮᇹ〮
+1896 族 屋 昨 木 dz ok    dzȕk(-ʔ) ᅏᅮᆨ〮俗ᅏᅮᇹ〮
+1897 禿 屋 他 禿 th ok    thuk(-ʔ) 툭〮俗투ᇹ〮
+1898 牘 屋 杜 谷 d ok   5 dȕk(-ʔ) 뚝〮俗뚜ᇹ〮
+1899 祿 屋 盧 谷 l ok   6 lȕk(-ʔ) 룩〮俗루ᇹ〮
+1900 福 屋 方 六 f jok   7 fuk(-ʔ) ᄫᅮᆨ〮俗ᄫᅮᇹ〮
+1901 伏 屋 房 六 bf jok   8 fvȕk(-ʔ) ᄬᅮᆨ〮俗ᄬᅮᇹ〮
+1902 蹙 屋 子 六 ts jok    tsyuk(-ʔ) ᅎᅲᆨ〮俗ᅔᅮᇹ〮
+1903 叔 屋 式 竹 c jok   9 ʃyuk(-ʔ) ᄾᅲᆨ〮俗ᄾᅮᇹ〮
+1904 柷 屋 昌 六 tch jok   10 tʃhyuk(-ʔ) ᅕᅲᆨ〮俗ᅕᅮᇹ〮
+1905 畜 屋 許 六 h jok    hyuk(-ʔ) 휵〮俗휴ᇹ〮
+1906 祝 屋 之 六 tc jok  2 11 tʃyuk(-ʔ) ᅐᅲᆨ〮俗ᅐᅮᇹ〮
+1907 匊 屋 居 六 k jok  1 12 kyuk(-ʔ) 귝〮俗규ᇹ〮
+1908 孰 屋 神 六 zc jok    ʃʒyȕk(-ʔ) ᄿᅮᆨ〮俗ᄿᅮᇹ〮
+1909 肉 屋 而 六 ny jok    ʒyȕk(-ʔ) ᅀᅮᆨ〮俗ᅀᅮᇹ〮
+1910 育 屋 余 六 y jok   13 jyȕk(-ʔ) 육〮俗유ᇹ〮
+1911 郁 屋 乙 六 q jok   14 ʔyuk(-ʔ) ᅙᅲᆨ〮俗ᅙᅲᇹ〮
+1912 玉 屋 魚 欲 ng jok    ŋyȕk(-ʔ) ᅌᅲᆨ〮
+1913 縮 屋 所 六 sr jok    ʂuk(-ʔ) ᄾᅮᆨ〮俗ᄾᅮᇹ〮
+1914 逐 屋 直 六 dc jok   15 dʒyȕk(-ʔ) ᅑᅲᆨ〮俗ᅐᅮᇹ〮
+1915 朒 屋 女 六 nr jok    nyȕk(-ʔ) 뉵〮俗뉴ᇹ〮
+1916 麴 屋 丘 六 kh jok    khyuk(-ʔ) 큑〮俗큐ᇹ〮
+1917 局 屋 渠 玉 g jok    gyȕk(-ʔ) 뀩〮俗뀨ᇹ〮
+1918 足 屋 縱 玉 ts jok    tsyuk(-ʔ) ᅎᅲᆨ〮俗ᅎᅮᇹ〮
+1919 續 屋 松 玉 z jok    szyȕk(-ʔ) ᄽᅲᆨ〮俗ᄽᅲᇹ〮
+1920 篤 屋 都 毒 t ok    tuk(-ʔ) 둑〮俗두ᇹ〮
+1921 質 質 職 日 tc jeot   1 tʃit(-ʔ) ᅐᅵᆮ〮俗ᅐᅵᇹ〮
+1922 失 質 式 質 c jeot    ʃit(-ʔ) ᄾᅵᆮ〮俗ᄾᅵᇹ〮
+1923 實 質 人 室 zc jeot    ʃʒȉt(-ʔ) ᄾᅵᆮ〮俗ᄿᅵᇹ〮
+1924 叱 質 尺 栗 tch jeot    tʃhit(-ʔ) ᄾᅵᆮ〮俗ᅕᅵᇹ〮
+1925 日 質 人 質 ny jeot    ʒȉt(-ʔ) ᅀᅵᆮ〮俗ᅀᅵᇹ〮
+1926 率 質 朔 律 sr wjot    ʂut(-ʔ) ᄾᅮᆮ〮俗ᄾᅫᇹ〮
+1927 悉 質 息 七 s jeot    sit(-ʔ) ᄼᅵᆮ〮俗ᄼᅵᇹ〮
+1928 七 質 戚 悉 tsh jeot    tshit(-ʔ) ᅔᅵᆮ〮俗ᅔᅵᇹ〮
+1929 堲 質 子 悉 ts jeot    tsit(-ʔ) ᅎᅵᆮ〮俗ᅎᅵᇹ〮
+1930 疾 質 昨 悉 dz jeot    dzȉt(-ʔ) ᅏᅵᆮ〮俗ᅏᅵᇹ〮
+1931 必 質 壁 吉 p jeot   2 pit(-ʔ) 빋〮俗비ᇹ〮
+1932 弼 質 薄 密 b jeot    bȉt(-ʔ) 삗〮俗삐ᇹ〮
+1933 密 質 覓 筆 m jeot  1 3 mȉt(-ʔ) 믿〮俗미ᇹ〮
+1934 匹 質 僻 吉 ph jeot   4 phit(-ʔ) 핃〮俗피ᇹ〮
+1935 秩 質 直 質 dc jeot    dʒȉt(-ʔ) ᅑᅵᆮ〮俗ᅑᅵᇹ〮
+1936 栗 質 力 質 l jeot    lȉt(-ʔ) 릳〮俗리ᇹ〮
+1937 暱 質 尼 質 nr jeot   5 nȉt(-ʔ) 닏〮俗니ᇹ〮
+1938 仡 質 魚 乞 ng jot    ŋȉt(-ʔ) ᅌᅵᆮ〮俗이ᇹ〮
+1939 逸 質 弋 質 y jeot   9 jȉt(-ʔ) 읻〮俗이ᇹ〮
+1940 一 質 益 悉 q jeot    ʔit(-ʔ) ᅙᅵᆮ〮俗ᅙᅵᇹ〮
+1941 乞 質 欺 訖 kh jot    khit(-ʔ) 킫〮俗키ᇹ〮
+1942 吉 質 激 質 k jeot   6 kit(-ʔ) 긷〮俗기ᇹ〮
+1943 肸 質 黑 乙 h jot   7 hit(-ʔ) 힏〮俗히ᇹ〮
+1944 橘 質 厥 筆 k wjot    kyut(-ʔ) 귣〮俗규ᇹ〮
+1945 祋 質 都 律 t wjot    tyut(-ʔ) 듇〮俗듀ᇹ〮
+1946 矞 質 休 筆 h wjot    hyut(-ʔ) 휻〮俗휴ᇹ〮
+1947 術 質 食 律 zc wjot   8 ʃʒyȕt(-ʔ) ᄿᅲᆮ〮俗ᄿᅲᇹ〮
+1948 出 質 尺 律 tch wjot    tʃhyut(-ʔ) ᅕᅲᆮ〮俗ᅕᅲᇹ〮
+1949 恤 質 雪 律 s wjot    syut(-ʔ) ᄼᅲᆮ〮俗ᄼᅲᇹ〮
+1950 焌 質 促 律 tsh wjot    tshyut(-ʔ) ᅔᅲᆮ〮俗ᅔᅲᇹ〮
+1951 卒 質 即 律 ts wjot    tsyut(-ʔ) ᅎᅲᆮ〮俗ᅎᅲᇹ〮
+1952 崒 質 昨 律 dz wjot    dzyȕt(-ʔ) ᅏᅲᆮ〮俗ᅏᅲᇹ〮
+1953 窋 質 竹 律 tc wjot    tʃyut(-ʔ) ᅐᅲᆮ〮俗ᅐᅲᇹ〮
+1954 律 質 劣 戌 l wjot   10 lyȕt(-ʔ) 륟〮俗류ᇹ〮
+1955 聿 質 以 律 y wjot   11 jyȕt(-ʔ) 윧〮俗유ᇹ〮
+1956 櫛 質 側 瑟 tsr eot    ʈʂət(-ʔ) ᅐᅳᆮ〮俗ᅐᅳᇹ〮
+1957 瑟 質 色 櫛 sr eot    ʂət(-ʔ) ᄾᅳᆮ〮俗ᄾᅳᇹ〮
+1958 勿 質 文 拂 mf wjot    vȕt(-ʔ) ᄝᅮᆮ〮俗ᄝᅮᇹ〮
+1959 拂 質 敷 勿 f wjot    fut(-ʔ) ᄫᅮᆮ〮俗ᄫᅮᇹ〮
+1960 佛 質 符 勿 bf wjot    fvȕt(-ʔ) ᄬᅮᆮ〮俗ᄬᅮᇹ〮
+1961 欻 質 許 勿 h wjot    ɦyut(-ʔ) ᅘᅲᆮ〮俗ᅘᅲᇹ〮
+2292 䬑 質 王 勿 j wjot    jyȕt(-ʔ) 윧〮俗유ᇹ〮
+1962 屈 質 曲 勿 kh wjot   12 khyut(-ʔ) 큗〮俗큐ᇹ〮
+1963 屈 質 九 勿 k wjot    kyut(-ʔ) 귣〮俗규ᇹ〮
+1964 倔 質 渠 勿 g wjot    gyȕt(-ʔ) 뀯〮俗뀨ᇹ〮
+1965 鬱 質 紆 勿 q wjot   13 ʔyut(-ʔ) ᅙᅲᆮ〮俗ᅙᅲᇹ〮
+1966 沒 質 莫 勃 m wot    mȕt(-ʔ) 묻〮俗무ᇹ〮
+1967 孛 質 蒲 沒 b wot   14 bȕt(-ʔ) 쁟〮俗뿌ᇹ〮
+1968 不 質 逋 沒 p wot    put(-ʔ) 붇〮俗부ᇹ〮
+1969 窣 質 蘇 骨 s wot    sut(-ʔ) ᄼᅮᆮ〮俗ᄼᅮᇹ〮
+1970 卒 質 蒼 沒 tsh wot    tshut(-ʔ) ᅔᅮᆮ〮俗ᅔᅮᇹ〮
+1971 卒 質 臧 沒 ts wot    tsut(-ʔ) ᅎᅮᆮ〮俗ᅎᅮᇹ〮
+1972 咄 質 當 沒 t wot   15 tut(-ʔ) 둗〮俗두ᇹ〮
+1973 硉 質 盧 沒 l wot    lȕt(-ʔ) 룯〮俗루ᇹ〮
+1974 朏 質 普 沒 ph wot    phut(-ʔ) 푿〮俗푸ᇹ〮
+1975 突 質 吐 訥 th wot    thut(-ʔ) 툳〮俗투ᇹ〮
+1976 訥 質 奴 骨 n wot    nȕt(-ʔ) 눋〮俗누ᇹ〮
+1977 覈 質 下 沒 gh ot    ɦə̏t(-ʔ) ᅘᅳᆮ〮俗ᅘᅳᇹ〮
+1978 鶻 質 胡 骨 gh wot    ɦȕt(-ʔ) ᅘᅮᆮ〮俗ᅘᅮᇹ〮
+1979 忽 質 呼 骨 h wot    hut(-ʔ) 훋〮俗후ᇹ〮
+1980 窟 質 苦 骨 kh wot   16 khut(-ʔ) 쿧〮俗쿠ᇹ〮
+1981 骨 質 古 忽 k wot    kut(-ʔ) 굳〮俗구ᇹ〮
+1982 兀 質 五 忽 ng wot   17 (ŋ)ȕt(-ʔ) ᅌᅮᆮ〮俗우ᇹ〮
+1983 媼 質 烏 骨 q wot    ʔut(-ʔ) ᅙᅮᆮ〮俗ᅙᅮᇹ〮
+1984 曷 曷 何 葛 gh oot    ɦɔ̏t(-ʔ) ᅘᅥᆮ〮俗ᅘᅥᇹ〮
+1985 喝 曷 許 葛 h oot    hɔt(-ʔ) 헏〮俗허ᇹ〮
+1986 渴 曷 丘 葛 kh oot    khɔt(-ʔ) 컫〮俗커ᇹ〮
+1987 葛 曷 居 曷 k oot    kɔt(-ʔ) 걷〮俗거ᇹ〮
+1988 遏 曷 阿 葛 q oot   1 ʔɔt(-ʔ) ᅙᅥᆮ〮俗ᅙᅥᇹ〮
+1989 末 曷 莫 葛 m oot   2 mwɔ̏t(-ʔ) 뭗〮俗뭐ᇹ〮
+1990 活 曷 戶 括 gh woot    ɦwɔ̏t(-ʔ) ᅘᅯᆮ〮俗ᅘᅯᇹ〮
+1991 豁 曷 呼 括 h woot    hwɔt(-ʔ) 훧〮俗훠ᇹ〮
+1992 闊 曷 苦 括 kh woot    khwɔt(-ʔ) 퀃〮俗쿼ᇹ〮
+1993 括 曷 古 活 k woot   3 kwɔt(-ʔ) 궏〮俗궈ᇹ〮
+1994 斡 曷 烏 活 q woot    ʔwɔt(-ʔ) ᅙᅯᆮ〮俗ᅙᅯᇹ〮
+1995 撥 曷 北 末 p woot    pwɔt(-ʔ) 붣〮俗붜ᇹ〮
+1996 潑 曷 普 活 ph woot   4 phwɔt(-ʔ) 풛〮俗풔ᇹ〮
+1997 跋 曷 蒲 撥 b woot    bwɔ̏t(-ʔ) 뿯〮俗뿨ᇹ〮
+1998 撮 曷 倉 括 tsh woot    tshwɔt(-ʔ) ᅔᅯᆮ〮俗ᅔᅯᇹ〮
+1999 繓 曷 子 括 ts woot    tswɔt(-ʔ) ᅎᅯᆮ〮俗ᅎᅯᇹ〮
+2000 掇 曷 都 括 t woot    twɔt(-ʔ) 둳〮俗둬ᇹ〮
+2001 脫 曷 他 括 th woot   5 thwɔt(-ʔ) 퉏〮俗퉈ᇹ〮
+2002 奪 曷 徒 活 d woot    dwɔ̏t(-ʔ) 뚿〮俗뚸ᇹ〮
+2003 捋 曷 盧 活 l woot    lwɔ̏t(-ʔ) 뤋〮俗뤄ᇹ〮
+2004 轄 轄 胡 八 gh at    ɦiȁt(-ʔ) ᅘᅣᆮ〮俗ᅘᅣᇹ〮
+2005 糵 轄 牙 八 ng at    (ŋ)jiȁt(-ʔ) ᅌᅣᆮ〮俗야ᇹ〮
+2006 薩 轄 桑 轄 s at    sat(-ʔ) ᄼᅡᆮ〮俗ᄼᅡᇹ〮
+2007 嶻 轄 才 達 dz at    dzȁt(-ʔ) ᅏᅡᆮ〮俗ᅏᅡᇹ〮
+2008 笪 轄 當 拔 t at    tat(-ʔ) 닫〮俗다ᇹ〮
+2009 達 轄 堂 滑 d at    dȁt(-ʔ) 딷〮俗따ᇹ〮
+2010 闥 轄 他 達 th at    that(-ʔ) 탇〮俗타ᇹ〮
+2011 剌 轄 郎 達 l at   2 lȁt(-ʔ) 랃〮俗라ᇹ〮
+2012 捺 轄 乃 八 n at    nȁt(-ʔ) 낟〮俗나ᇹ〮
+2013 攃 轄 七 煞 tsh at    tshat(-ʔ) ᅔᅡᆮ〮俗ᅔᅡᇹ〮
+2014 戛 轄 訖 黠 k at    kiat(-ʔ) 갿〮俗갸ᇹ〮
+2015 軋 轄 乙 黠 q at    ʔiat(-ʔ) ᅙᅣᆮ〮俗ᅙᅣᇹ〮
+2016 猾 轄 戶 八 gh wat   1 ɦwȁt(-ʔ) ᅘᅪᆮ〮俗ᅘᅪᇹ〮
+2017 八 轄 布 拔 p at    pat(-ʔ) 받〮俗바ᇹ〮
+2018 殺 轄 山 戛 sr at    ʂat(-ʔ) ᄾᅡᆮ〮俗ᄾᅡᇹ〮
+2019 察 轄 初 戛 tshr at    ʈʂhat(-ʔ) ᅕᅡᆮ〮俗ᅕᅡᇹ〮
+2020 札 轄 側 八 tsr at    ʈʂat(-ʔ) ᅐᅡᆮ〮俗ᅐᅡᇹ〮
+2021 豽 轄 女 滑 nr wat   3 nwȁt(-ʔ) 놛〮俗놔ᇹ〮
+2022 楬 轄 丘 瞎 kh at    khiat(-ʔ) 캳〮俗캬ᇹ〮
+2023 刮 轄 古 滑 k wat    kwat(-ʔ) 괃〮俗과ᇹ〮
+2024 刷 轄 數 滑 sr wat    ʂwat(-ʔ) ᄾᅪᆮ〮俗ᄾᅪᇹ〮
+2025 哳 轄 陟 轄 tsr at    ʈʂat(-ʔ) ᅐᅡᆮ〮俗ᅐᅡᇹ〮
+2026 帓 轄 莫 轄 m at    mȁt(-ʔ) 맏〮俗마ᇹ〮
+2027 獺 轄 逖 轄 th at    that(-ʔ) 탇〮俗타ᇹ〮
+2028 瞎 轄 許 轄 h at    hiat(-ʔ) 햗〮俗햐ᇹ〮
+2029 𨰉 轄 查 轄 dzr at    ɖʐȁt(-ʔ) ᅑᅡᆮ〮俗ᅑᅡᇹ〮
+2030 拶 轄 宗 滑 ts at    tswat(-ʔ) ᅎᅪᆮ〮俗ᅎᅪᇹ〮
+2031 伐 轄 房 滑 bf at    fvȁt(-ʔ) ᄬᅪᆮ〮俗ᄬᅡᇹ〮
+2032 韈 轄 無 發 mf at    vȁt(-ʔ) ᄝᅡᆮ〮俗ᄝᅡᇹ〮
+2033 髮 轄 方 伐 f at    fat(-ʔ) ᄫᅪᆮ〮俗ᄫᅡᇹ〮
+2034 屑 屑 先 結 s et   1 siɛt(-ʔ) ᄼᅧᆮ〮俗ᄼᅧᇹ〮
+2035 孽 屑 魚 列 ng et    ŋiɛ̏t(-ʔ) ᅌᅧᆮ〮俗ᅌᅧᇹ〮
+2036 結 屑 古 屑 k et   2 kiɛt(-ʔ) 겯〮俗겨ᇹ〮
+2037 闕 屑 丘 月 kh wet   3 khyuɛt(-ʔ) ᄏᆑᆮ〮俗ᄏᆑᇹ〮
+2038 朅 屑 琦 熱 g et    giɛ̏t(-ʔ) 껻〮俗껴ᇹ〮
+2039 別 屑 避 列 b et    biɛ̏t(-ʔ) 뼏〮俗뼈ᇹ〮
+2040 鼈 屑 必 列 p et    piɛt(-ʔ) 볃〮俗벼ᇹ〮
+2041 列 屑 良 薛 l et   4 liɛ̏t(-ʔ) 렫〮俗려ᇹ〮
+2042 月 屑 魚 厥 ng wet    (ŋ)jyuɛ̏t(-ʔ) ᅌᆑᆮ〮俗ᄋᆑᇹ〮古ᄋᆑᆮ〮
+2043 謁 屑 於 歇 q et    ʔiɛt(-ʔ) ᅙᅧᆮ〮俗ᅙᅧᇹ〮
+2044 穴 屑 胡 决 gh wet    ɦyuɛ̏t(-ʔ) ᅘᆑᆮ〮俗ᅘᆑᇹ〮
+2045 烕 屑 呼 决 h wet    hyuɛt(-ʔ) ᄒᆑᆮ〮俗ᄒᆑᇹ〮
+2046 拙 屑 朱 劣 tc wjet    tʃyuɛt(-ʔ) ᅐᆑᆮ〮俗ᅐᆑᇹ〮
+2047 滅 屑 彌 列 m et   5 miɛ̏t(-ʔ) 멷〮俗며ᇹ〮
+2048 傑 屑 巨 列 g et   6 giɛ̏t(-ʔ) 껻〮俗껴ᇹ〮
+2049 熱 屑 而 列 ny jet    ʒiɛ̏t(-ʔ) ᅀᅧᆮ〮俗ᅀᅧᇹ〮
+2050 撆 屑 匹 蔑 ph et    phiɛt(-ʔ) 펻〮俗펴ᇹ〮
+2051 雪 屑 蘇 絕 s wet   7 syuɛt(-ʔ) ᄼᆑᆮ〮俗ᄼᆑᇹ〮
+2052 挈 屑 詰 結 kh et    khiɛt(-ʔ) 켣〮俗켜ᇹ〮
+2053 茁 屑   dc wjet    dʒyuɛ̏t(-ʔ) ᅑᆑᆮ〮俗ᅑᆑᇹ〮
+2054 絕 屑 情 雪 ts wet    dzyuɛ̏t(-ʔ) ᅏᆑᆮ〮俗ᅏᆑᇹ〮
+2055 說 屑 輸 𤑔 c wjet    ʃyuɛt(-ʔ) ᄾᆑᆮ〮俗ᄾᆑᇹ〮
+2056 節 屑 子 結 ts et    tsiɛt(-ʔ) ᅎᅧᆮ〮俗ᅎᅧᇹ〮
+2057 截 屑 昨 結 dz et   8 dziɛ̏t(-ʔ) ᅏᅧᆮ〮俗ᅏᅧᇹ〮
+2058 鐵 屑 他 結 th et    thiɛt(-ʔ) 텯〮俗텨ᇹ〮
+2059 抉 屑 一 决 q wet    ʔyuɛt(-ʔ) ᅙᆑᆮ〮俗ᅙᆑᇹ〮
+2060 歠 屑 昌 悅 tch wjet    tʃhyuɛt(-ʔ) ᅕᆑᆮ〮俗ᅕᆑᇹ〮
+2061 劣 屑 力 輟 l wet    lyuɛ̏t(-ʔ) ᄅᆑᆮ〮俗ᄅᆑᇹ〮
+2062 𤑔 屑 儒 劣 ny wjet    ʒyuɛ̏t(-ʔ) ᅀᆑᆮ〮俗ᅀᆑᇹ〮
+2063 厥 屑 居 月 k wet    kyuɛt(-ʔ) ᄀᆑᆮ〮俗ᄀᆑᇹ〮
+2064 徹 屑 敕 列 tch jet    tʃhiɛt(-ʔ) ᅕᅧᆮ〮俗ᅕᅧᇹ〮
+2065 轍 屑 直 列 dc jet    dʒiɛ̏t(-ʔ) ᅑᅧᆮ〮俗ᅑᅧᇹ〮
+2066 橜 屑 其 月 g wet    gyuɛ̏t(-ʔ) ᄁᆑᆮ〮俗ᄁᆑᇹ〮
+2067 浙 屑 之 列 tc jet   9 tʃiɛt(-ʔ) ᅐᅧᆮ〮俗ᅐᅧᇹ〮
+2068 纈 屑 胡 結 gh et    ɦiɛ̏t(-ʔ) ᅘᅧᆮ〮俗ᅘᅧᇹ〮
+2069 曳 屑 延 結 y jet    jiɛ̏t(-ʔ) 엳〮俗여ᇹ〮
+2070 設 屑 式 列 c jet    ʃiɛt(-ʔ) ᄾᅧᆮ〮俗ᄾᅧᇹ〮
+2071 涅 屑 乃 結 n et    niɛ̏t(-ʔ) 녇〮俗녀ᇹ〮
+2072 舌 屑 食 列 zc jet    ʃʒiɛ̏t(-ʔ) ᄿᅧᆮ〮俗ᄿᅧᇹ〮
+2073 耋 屑 杜 結 d et   10 diɛ̏t(-ʔ) 뗟〮俗뗘ᇹ〮
+2074 歇 屑 許 竭 h et    hiɛt(-ʔ) 혇〮俗혀ᇹ〮
+2075 切 屑 千 結 tsh et    tshiɛt(-ʔ) ᅔᅧᆮ〮俗ᅔᅧᇹ〮
+2076 刷 屑 所 劣 sr wet    ʂwat(-ʔ) ᄾᅪᆮ〮俗ᄾᅪᇹ〮
+2077 藥 藥 弋 灼 y jook   1 jiɒ̏k(-ʔ) 약〮俗야ᇦ〮
+2078 嶽 藥 逆 角 ng oouk   2 (ŋ)jiɒ̏k(-ʔ) 약〮俗야ᇦ〮古ᅌᅣᆨ〮
+2079 渥 藥 乙 角 q oouk    ʔiɒk(-ʔ) ᅙᅣᆨ〮俗ᅙᅣᇦ〮
+2080 約 藥 乙 却 q jook    ʔiɒk(-ʔ) ᅙᅣᆨ〮俗ᅙᅣᇦ〮
+2081 謔 藥 迄 却 h jook    hiɒk(-ʔ) 햑〮俗햐ᇦ〮
+2082 縛 藥 符 約 bf wjook    fvɒ̏k(-ʔ) ᄬᅡᆨ〮俗ᄬᅡᇦ〮
+2083 削 藥 息 約 s jook    siɒk(-ʔ) ᄼᅣᆨ〮俗ᄼᅣᇦ〮
+2084 索 藥 昔 各 s ook   3 sɒk(-ʔ) ᄼᅡᆨ〮俗ᄼᅡᇦ〮
+2085 錯 藥 七 各 tsh ook  3  tshɒk(-ʔ) ᅔᅡᆨ〮俗ᅔᅡᇦ〮
+2086 鵲 藥 七 雀 tsh jook   4 tshiɒk(-ʔ) ᅔᅣᆨ〮俗ᅔᅣᇦ〮
+2087 皭 藥 疾 雀 dz jook    dziɒ̏k(-ʔ) ᅏᅣᆨ〮俗ᅏᅣᇦ〮
+2088 爵 藥 即 約 ts jook    tsiɒk(-ʔ) ᅎᅣᆨ〮俗ᅎᅣᇦ〮
+2089 作 藥 即 各 ts ook    tsɒk(-ʔ) ᅎᅡᆨ〮俗ᅎᅡᇦ〮
+2090 昨 藥 疾 各 dz ook    dzɒ̏k(-ʔ) ᅏᅡᆨ〮俗ᅏᅡᇦ〮
+2091 鑠 藥 式 灼 c jook    ʃiɒk(-ʔ) ᄾᅣᆨ〮俗ᄾᅣᇦ〮
+2092 浞 藥 食 角 dzr oouk    ʂʐwɒ̏k(-ʔ) ᄿᅡᆨ〮俗ᄿᅡᇦ〮
+2093 朔 藥 色 角 sr oouk    ʂ(w)ɒk(-ʔ) ᄾᅡᆨ〮俗ᄾᅪᇦ〮
+2094 灼 藥 職 略 tc jook  1  tʃiɒk(-ʔ) ᅐᅣᆨ〮俗ᅐᅣᇦ〮
+2095 箸 藥 直 略 dc jook    dʒiɒ̏k(-ʔ) ᅑᅣᆨ〮俗ᅑᅣᇦ〮
+2096 綽 藥 尺 約 tch jook    tʃhiɒk(-ʔ) ᅕᅣᆨ〮俗ᅕᅣᇦ〮
+2097 杓 藥 裳 灼 zc jook    ʃʒiɒ̏k(-ʔ) ᄿᅣᆨ〮俗ᄿᅣᇦ〮
+2098 若 藥 如 灼 ny jook    ʒiɒ̏k(-ʔ) ᅀᅣᆨ〮俗ᅀᅣᇦ〮
+2099 略 藥 力 灼 l jook    liɒ̏k(-ʔ) 략〮俗랴ᇦ〮
+2100 却 藥 乞 約 kh jook   5 khiɒk(-ʔ) 캭〮俗커ᇹ〮
+2101 躩 藥 丘 縛 kh wjook    khyuɒk(-ʔ) 캭〮俗캬ᇦ〮
+2102 恪 藥 克 各 kh ook  2  khɒk(-ʔ) 칵〮俗카ᇦ〮
+2103 覺 藥 訖 岳 k oouk    kiɒk(-ʔ) 갹〮俗갸ᇦ〮
+2104 噱 藥 極 虐 g jook    giɒ̏k(-ʔ) 꺅〮俗꺄ᇦ〮
+2105 矍 藥 厥 縛 k wjook   10 kyuɒk(-ʔ) 갹〮俗갸ᇦ〮
+2106 各 藥 葛 鶴 k ook    kɒk(-ʔ) 각〮俗가ᇦ〮
+2107 雘 藥 烏 郭 q wook    ʔwɒk(-ʔ) ᅙᅪᆨ〮俗ᅙᅪᇦ〮
+2108 霍 藥 忽 郭 h wook    hwɒk(-ʔ) 확〮俗화ᇦ〮
+2109 穫 藥 胡 郭 gh wook    ɦwɒ̏k(-ʔ) ᅘᅪᆨ〮俗ᅘᅪᇦ〮
+2110 戄 藥 許 縛 h wjook    hyuɒk(-ʔ) 확〮俗화ᇦ〮
+2111 託 藥 他 各 th ook   6 thɒk(-ʔ) 탁〮俗타ᇦ〮
+2112 洛 藥 歷 各 l ook   7 lɒ̏k(-ʔ) 락〮俗라ᇦ〮
+2113 諾 藥 奴 各 n ook    nɒ̏k(-ʔ) 낙〮俗나ᇦ〮
+2114 博 藥 伯 各 p ook    pɒk(-ʔ) 박〮俗바ᇦ〮
+2115 雹 藥 弼 角 b oouk   8 bɒ̏k(-ʔ) 빡〮俗빠ᇦ〮
+2116 鐸 藥 達 各 d ook  4  dɒ̏k(-ʔ) 딱〮俗따ᇦ〮
+2117 朴 藥 匹 各 ph ook    phɒk(-ʔ) 팍〮俗파ᇦ〮
+2118 莫 藥 末 各 m ook   11 mɒ̏k(-ʔ) 막〮俗마ᇦ〮
+2119 鶴 藥 曷 各 gh ook    ɦɒ̏k(-ʔ) ᅘᅡᆨ〮俗ᅘᅡᇦ〮
+2120 臛 藥 黑 各 h ook    hɒk(-ʔ) 학〮俗하ᇦ〮
+2121 學 藥 轄 覺 gh oouk    ɦiɒ̏k(-ʔ) ᅘᅡᆨ〮俗ᅘᅡᇦ〮
+2122 廓 藥 苦 郭 kh wook    khwɒk(-ʔ) 콱〮俗콰ᇦ〮
+2123 郭 藥 古 博 k wook    kwɒk(-ʔ) 곽〮俗과ᇦ〮
+2124 惡 藥 遏 各 q ook    ʔɒk(-ʔ) ᅙᅡᆨ〮俗ᅙᅡᇦ〮
+2125 諤 藥 逆 各 ng ook    ŋɒ̏k(-ʔ) 악〮俗아ᇦ〮
+2126 娖 藥 測 角 tshr oouk    ʈʂh(w)ɒk(-ʔ) ᅕᅡᆨ〮俗ᅕᅪᇦ〮
+2127 捉 藥 竹 角 tsr oouk   9 ʈʂwɒk(-ʔ) ᅐᅪᆨ〮俗ᅐᅪᇦ〮
+2128 濁 藥 直 角 dzr oouk    ɖʐwɒ̏k(-ʔ) ᅑᅪᆨ〮俗ᅑᅪᇦ〮
+2293 㪬 藥 敕 角 thr oouk    ʈʂhwɒk(-ʔ) ᅑᅪᆨ〮俗ᅑᅪᇦ〮
+2129 陌 陌 莫 白 m aik   1 mə̏k(-ʔ) 믝〮俗매ᇹ〮
+2130 拍 陌 普 伯 ph aik    phək(-ʔ) 픡〮俗픠ᇹ〮
+2131 百 陌 博 陌 p aik    pək(-ʔ) 븩〮俗븨ᇹ〮
+2132 白 陌 薄 陌 b aik    bə̏k(-ʔ) 쁵〮俗쁴ᇹ〮
+2133 宅 陌 直 格 dzr aik   17 ɖʐə̏k(-ʔ) ᅑᅴᆨ〮俗ᅑᅴᇹ〮
+2134 坼 陌 恥 格 tshr aik    ʈʂhək(-ʔ) ᅕᅴᆨ〮俗ᅕᅴᇹ〮
+2135 檗 陌 搏 厄 p aik    pək(-ʔ) 븩〮俗븨ᇹ〮
+2136 赫 陌 呼 格 h aik    hək(-ʔ) 흭〮俗혀ᇹ〮
+2137 黑 陌 迄 得 h eok    hək(-ʔ) 흭〮俗희ᇹ〮
+2138 客 陌 乞 格 kh aik    khək(-ʔ) 킉〮俗킈ᇹ〮
+2139 格 陌 各 頟 k aik   2 kək(-ʔ) 긕〮俗긔ᇹ〮
+2140 額 陌 鄂 格 ng aik    ŋə̏k(-ʔ) 읙〮俗ᅌᅴᇹ〮
+2141 畫 陌 霍 虢 h waik    ɦwə̏k(-ʔ) ᅘᅱᆨ〮俗ᅘᅱᇹ〮
+2142 虢 陌 古 伯 k waik    kwək(-ʔ) 귁〮俗귀ᇹ〮
+2143 索 陌 色 窄 sr aik    ʂək(-ʔ) ᄾᅴᆨ〮俗ᄾᅴᇹ〮
+2144 窄 陌 側 格 tsr aik    ʈʂək(-ʔ) ᅐᅴᆨ〮俗ᅐᅴᇹ〮
+2145 厄 陌 乙 革 q aik    ʔək(-ʔ) ᅙᅴᆨ〮俗ᅙᅴᇹ〮
+2146 賾 陌 士 革 dzr aik    ɖʐə̏k(-ʔ) ᅑᅴᆨ〮俗ᅑᅴᇹ〮
+2147 昔 陌 思 積 s eik   3 sik(-ʔ) ᄼᅵᆨ〮俗ᄼᅵᇹ〮
+2148 刺 陌 七 迹 tsh eik   4 tshik(-ʔ) ᅔᅵᆨ〮俗ᅔᅵᇹ〮
+2149 席 陌 祥 亦 z eik    szȉk(-ʔ) ᄽᅵᆨ〮俗ᄽᅵᇹ〮
+2150 寂 陌 前 歷 dz eik    dzȉk(-ʔ) ᅏᅵᆨ〮俗ᅏᅵᇹ〮
+2151 積 陌 資 昔 ts eik  4  tsik(-ʔ) ᅎᅵᆨ〮俗ᅎᅵᇹ〮
+2152 釋 陌 施 隻 c jeik    ʃik(-ʔ) ᄾᅵᆨ〮俗ᄾᅵᇹ〮
+2153 尺 陌 昌 石 tch jeik  2 5 tʃhik(-ʔ) ᅕᅵᆨ〮俗ᅕᅵᇹ〮
+2154 隻 陌 之 石 tc jeik   6 tʃik(-ʔ) ᅐᅵᆨ〮俗ᅐᅵᇹ〮
+2155 石 陌 裳 隻 zc jeik    ʃʒȉk(-ʔ) ᄿᅵᆨ〮俗ᄿᅵᇹ〮
+2156 擲 陌 直 隻 dc jeik    dʒȉk(-ʔ) ᅑᅵᆨ〮俗ᅑᅵᇹ〮
+2157 益 陌 伊 昔 q eik    ʔik(-ʔ) ᅙᅵᆨ〮俗ᅙᅵᇹ〮
+2158 繹 陌 夷 益 y jeik   7 jȉk(-ʔ) 익〮俗이ᇹ〮
+2159 壁 陌 必 歷 p eik   8 pik(-ʔ) 빅〮俗비ᇹ〮
+2160 僻 陌 匹 亦 ph eik    phik(-ʔ) 픽〮俗피ᇹ〮
+2161 匿 陌 女 力 n eik    nȉk(-ʔ) 닉〮俗니ᇹ〮
+2162 闢 陌 毗 亦 b eik    bȉk(-ʔ) 삑〮俗피ᇹ〮
+2163 玃 陌 俱 碧 g weik    gyuə̏k(-ʔ) ᄁᆔᆨ〮俗ᄁᆔᇹ〮
+2164 躩 陌 驅 碧 kh weik    khyuək(-ʔ) ᄏᆔᆨ〮俗ᄏᆔᇹ〮
+2165 𧈅 陌 迄 逆 h eik    hik(-ʔ) 힉〮俗히ᇹ〮
+2166 戟 陌 訖 逆 k eik  1 9 kik(-ʔ) 긱〮俗기ᇹ〮
+2167 劇 陌 竭 戟 g eik   10 gȉk(-ʔ) 끽〮俗끼ᇹ〮
+2168 逆 陌 宜 戟 ng eik    ŋȉk(-ʔ) 익〮俗ᅌᅵᇹ〮
+2169 隙 陌 乞 逆 kh eik   13 khik(-ʔ) 킥〮俗키ᇹ〮
+2170 覓 陌 莫 狄 m eik   11 mȉk(-ʔ) 믹〮俗미ᇹ〮
+2171 的 陌 丁 歷 t eik  3  tik(-ʔ) 딕〮俗디ᇹ〮
+2172 逖 陌 他 歷 th eik    thik(-ʔ) 틱〮俗티ᇹ〮
+2173 狄 陌 杜 歷 d eik    dȉk(-ʔ) 띡〮俗띠ᇹ〮
+2174 歷 陌 郎 狄 l eik  2 16 lȉk(-ʔ) 릭〮俗리ᇹ〮
+2175 檄 陌 刑 狄 gh eik    ɦȉk(-ʔ) ᅘᅵᆨ〮俗ᅘᅵᇹ〮
+2176 喫 陌 苦 擊 kh eik   12 khik(-ʔ) 킥〮俗키ᇹ〮
+2177 闃 陌 苦 狊 kh weik    khyuək(-ʔ) ᄏᆔᆨ〮俗ᄏᆔᇹ〮
+2178 狊 陌 古 闃 k weik    kyuək(-ʔ) ᄀᆔᆨ〮俗ᄀᆔᇹ〮
+2179 殈 陌 呼 狊 h weik    hyuək(-ʔ) ᄒᆔᆨ〮俗ᄒᆔᇹ〮
+2180 寔 陌 丞 職 zc jeik    ʃʒȉk(-ʔ) ᄿᅵᆨ〮俗ᄿᅵᇹ〮
+2181 測 陌 初 力 tshr eik    ʈʂhik(-ʔ) ᅕᅵᆨ〮俗ᅕᅵᇹ〮
+2182 崱 陌 疾 力 dz eik    dzȉk(-ʔ) ᅏᅵᆨ〮俗ᅏᅵᇹ〮
+2183 賊 陌 疾 則 dz eok    dzə̏k(-ʔ) ᅏᅴᆨ〮俗ᅏᅴᇹ〮
+2184 即 陌 節 力 ts eik    tsik(-ʔ) ᅎᅵᆨ〮俗ᅎᅵᇹ〮
+2185 域 陌 越 逼 gh weik    jyuə̏k(-ʔ) ᅌᆔᆨ〮俗ᄋᆔᇹ〮
+2186 德 陌 多 則 t eok    tək(-ʔ) 듹〮俗듸ᇹ〮
+2187 忒 陌 惕 德 th eok    thək(-ʔ) 틕〮俗틔ᇹ〮
+2188 特 陌 敵 德 d eok    də̏k(-ʔ) 띅〮俗띄ᇹ〮
+2189 勒 陌 歷 德 l eok    lə̏k(-ʔ) 릑〮俗릐ᇹ〮
+2190 北 陌 必 勒 p eok    pək(-ʔ) 븩〮俗븨ᇹ〮
+2191 匐 陌 步 黑 b eok    bə̏k(-ʔ) 쁵〮俗쁴ᇹ〮
+2192 墨 陌 密 北 m eok    mə̏k(-ʔ) 믝〮俗믜ᇹ〮
+2193 塞 陌 悉 則 s eok    sək(-ʔ) ᄼᅴᆨ〮俗ᄼᅴᇹ〮
+2194 則 陌 子 德 ts eok   14 tsək(-ʔ) ᅎᅴᆨ〮俗ᅎᅴᇹ〮
+2195 劾 陌 胡 得 gh eok    ɦə̏k(-ʔ) ᅘᅴᆨ〮俗ᅘᅴᇹ〮
+2196 或 陌 穫 北 gh weok    ɦwə̏k(-ʔ) ᅘᅱᆨ〮俗ᅘᅱᇹ〮
+2197 獲 陌 胡 麥 gh waik    ɦwə̏k(-ʔ) ᅘᅱᆨ〮俗ᅘᅱᇹ〮
+2198 緝 緝 七 入 tsh jeop    tship(-ʔ) ᅔᅵᆸ〮俗ᅔᅵᇹ〮
+2199 戢 緝 側 入 tsr jeop   1 ʈʂɨp(-ʔ) ᅐᅳᆸ〮俗ᅐᅳᇹ〮
+2200 霫 緝 息 入 s jeop    sip(-ʔ) ᄼᅵᆸ〮俗ᄼᅵᇹ〮
+2201 習 緝 席 入 z jeop   2 szȉp(-ʔ) ᄽᅵᆸ〮俗ᄽᅵᇹ〮
+2202 集 緝 秦 入 dz jeop    dzȉp(-ʔ) ᅏᅵᆸ〮俗ᅏᅵᇹ〮
+2203 執 緝 質 入 tc jeop    tʃip(-ʔ) ᅐᅵᆸ〮俗ᅐᅵᇹ〮
+2204 蟄 緝 直 立 dc jeop    dʒȉp(-ʔ) ᅑᅵᆸ〮俗ᅑᅵᇹ〮
+2205 蟄 緝 尺 入 tch jeop    tʃhip(-ʔ) ᅕᅵᆸ〮俗ᅕᅵᇹ〮
+2206 十 緝 寔 執 zc jeop    ʃʒȉp(-ʔ) ᄿᅵᆸ〮俗ᄿᅵᇹ〮
+2207 入 緝 日 執 ny jeop    ʒȉp(-ʔ) ᅀᅵᆸ〮俗ᅀᅵᇹ〮
+2208 澀 緝 色 入 sr jeop   5 ʂɨp(-ʔ) ᄾᅳᆸ〮俗ᄾᅳᇹ〮
+2209 立 緝 力 入 l jeop    lȉp(-ʔ) 립〮俗리ᇹ〮
+2210 揖 緝 一 入 q jeop   6 ʔip(-ʔ) ᅙᅵᆸ〮俗ᅙᅵᇹ〮
+2211 吸 緝 許 及 h jeop    hip(-ʔ) 힙〮俗히ᇹ〮
+2212 泣 緝 乞 及 kh jeop    khip(-ʔ) 킵〮俗키ᇹ〮
+2213 急 緝 居 立 k jeop   7 kip(-ʔ) 깁〮俗기ᇹ〮
+2214 及 緝 忌 立 g jeop   9 gȉp(-ʔ) 낍〮俗끼ᇹ〮
+2215 湒 緝 賫 入 ts jeop    tsip(-ʔ) ᅎᅵᆸ〮俗ᅎᅵᇹ〮
+2216 合 合 胡 閤 gh oop    ɦɔ̏p(-ʔ) ᅘᅡᆸ〮俗ᅘᅥᇹ〮
+2217 榼 合 克 盍 kh oop    khɔp(-ʔ) 캅〮俗카ᇹ〮
+2218 閤 合 古 沓 k oop    kɔp(-ʔ) 갑〮俗가ᇹ〮
+2219 姶 合 遏 合 q oop    ʔɔp(-ʔ) ᅙᅡᆸ〮俗ᅙᅡᇹ〮
+2220 趿 合 悉 合 s oop    sap(-ʔ) ᄼᅡᆸ〮俗ᄼᅡᇹ〮
+2221 帀 合 作 答 ts oop    tsap(-ʔ) ᅎᅡᆸ〮俗ᅎᅡᇹ〮
+2222 雜 合 昨 答 dz oop    dzȁp(-ʔ) ᅏᅡᆸ〮俗ᅏᅡᇹ〮
+2223 答 合 得 合 t oop   2 tap(-ʔ) 답〮俗다ᇹ〮
+2224 雜 合 七 合 tsh oop   1 tshap(-ʔ) ᅔᅡᆸ〮俗ᅔᅡᇹ〮
+2225 錔 合 託 合 th oop    thap(-ʔ) 탑〮俗타ᇹ〮
+2226 沓 合 達 合 d oop   3 dȁp(-ʔ) 땁〮俗따ᇹ〮
+2227 蠟 合 落 合 l oop   4 lȁp(-ʔ) 랍〮俗라ᇹ〮
+2228 納 合 奴 答 n oop   5 nȁp(-ʔ) 납〮俗나ᇹ〮
+2229 榻 合 託 甲 th ap   6 thap(-ʔ) 탑〮俗타ᇹ〮
+2230 洽 合 胡 夾 gh ap    ɦiȁp(-ʔ) ᅘᅣᆸ〮俗ᅘᅣᇹ〮
+2231 恰 合 苦 洽 kh ap    khiap(-ʔ) 캽〮俗캬ᇹ〮
+2232 夾 合 古 洽 k ap   7 kiap(-ʔ) 걉〮俗갸ᇹ〮
+2233 歃 合 色 洽 sr ap   8 ʂap(-ʔ) ᄾᅡᆸ〮俗ᄾᅡᇹ〮
+2234 臿 合 測 洽 tshr ap   9 ʈʂhap(-ʔ) ᅕᅡᆸ〮俗ᅕᅡᇹ〮
+2235 劄 合 竹 洽 tsr ap    ʈʂap(-ʔ) ᅐᅡᆸ〮俗ᅐᅡᇹ〮
+2236 𢇵 合 胒 洽 nr ap    nȁp(-ʔ) 납〮俗나ᇹ〮
+2237 押 合 乙 甲 q ap   10 ʔiap(-ʔ) ᅙᅣᆸ〮俗ᅙᅣᇹ〮
+2238 呷 合 呼 甲 h ap    hiap(-ʔ) 햡〮俗햐ᇹ〮
+2239 霅 合 直 甲 dzr ap    ɖʐȁp(-ʔ) ᅑᅡᆸ〮俗ᅑᅡᇹ〮
+2240 乏 合 扶 沓 bf ap    fvȁp(-ʔ) ᄬᅡᆸ〮俗ᄬᅡᇹ〮
+2241 法 合 方 甲 f ap    fap(-ʔ) ᄫᅡᆸ〮俗ᄫᅡᇹ〮
+2242 葉 葉 弋 涉 y jep   4 ʔjiɛ̏p(-ʔ) 엽〮俗여ᇹ〮古ᅙᅧᆸ〮
+2243 笈 葉 極 曄 g ep    giɛ̏p(-ʔ) 꼅〮俗껴ᇹ〮
+2244 妾 葉 七 接 tsh ep    tshiɛp(-ʔ) ᅔᅧᆸ〮俗ᅔᅧᇹ〮
+2245 接 葉 即 涉 ts ep   2 tsiɛp(-ʔ) ᅎᅧᆸ〮俗ᅎᅧᇹ〮
+2246 捷 葉 疾 葉 dz ep    dziɛ̏p(-ʔ) ᅏᅧᆸ〮俗ᅏᅧᇹ〮
+2247 攝 葉 失 涉 c jep    ʃiɛp(-ʔ) ᄾᅧᆸ〮俗ᄾᅧᇹ〮
+2248 讋 葉 質 涉 tc jep    tʃiɛp(-ʔ) ᅐᅧᆸ〮俗ᅐᅧᇹ〮
+2249 聶 葉 尼 輒 nr ep   3 niɛ̏p(-ʔ) 녑〮俗녀ᇹ〮
+2250 䐑 葉 直 涉 dc jep    dʒiɛ̏p(-ʔ) ᅑᅧᆸ〮俗ᅑᅧᇹ〮
+2251 獵 葉 力 涉 l ep    liɛ̏p(-ʔ) 렵〮俗려ᇹ〮
+2252 帖 葉 他 協 th ep   1 thiɛp(-ʔ) 텹〮俗텨ᇹ〮
+2253 喋 葉 丁 協 t ep   5 tiɛp(-ʔ) 뎝〮俗뎌ᇹ〮
+2254 協 葉 胡 頰 gh ep   6 ɦiɛ̏p(-ʔ) ᅘᅧᆸ〮俗ᅘᅧᇹ〮
+2255 頰 葉 古 協 k ep   7 kiɛp(-ʔ) 겹〮俗겨ᇹ〮
+2256 篋 葉 乞 協 kh ep   8 khiɛp(-ʔ) 켭〮俗켜ᇹ〮
+2257 偞 葉 呼 協 h ep    hiɛp(-ʔ) 협〮俗혀ᇹ〮
+2258 燮 葉 悉 協 s ep    siɛp(-ʔ) ᄼᅧᆸ〮俗ᄼᅧᇹ〮
+2259 業 葉 魚 怯 ng ep    ŋiɛ̏p(-ʔ) ᅌᅧᆸ〮俗ᅌᅧᇹ〮
 2260 崩 東 卜 公 p ong  16  puŋ 부ᇰ
 2261 趽 東 滂 公 ph ong  17  phuŋ 푸ᇰ
 2262 渜 寒 奴 官 n woon   9 nwɔ̏n 눤
