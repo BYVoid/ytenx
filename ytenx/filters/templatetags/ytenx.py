@@ -29,7 +29,7 @@ transcription_to_neom_khiowk_replacement = {
   u'iɛ(.?)w': ur'ia\1w',
   u'yut': ur'yʔ',
   u'yȕt': ur'y̏ʔ',
-  u'[ptk]\(-ʔ\)': ur'ʔ',
+  u'[ptkʔ]\(-ʔ\)': ur'ʔ',
   u'\(ŋ\)': ur'',
   u'\(w\)': ur'w',
   u'\(yu\)iɛ': ur'yuɛ',
