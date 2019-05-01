@@ -2276,19 +2276,19 @@
 2257 偞 葉 呼 協 h ep    hiɛp(-ʔ) 협〮俗혀ᇹ〮
 2258 燮 葉 悉 協 s ep    siɛp(-ʔ) ᄼᅧᆸ〮俗ᄼᅧᇹ〮
 2259 業 葉 魚 怯 ng ep    ŋiɛ̏p(-ʔ) ᅌᅧᆸ〮俗ᅌᅧᇹ〮
-2260 崩 東 卜 公 p ong  16  puŋ 부ᇰ
-2261 趽 東 滂 公 ph ong  17  phuŋ 푸ᇰ
-2262 渜 寒 奴 官 n woon   9 nwɔ̏n 눤
-2263 他 麻 湯 家 th a   10 tha 타
-2264 風 侵 孚 金 f jeom  4  fim ᄫᅵᆷ
-2265 礦 董 古 猛 k ong q 2  kûŋ 구ᇰ〯
-2266 䣙 董   b ong q 3  bǔŋ' 뿌ᇰ〯
-2267 芛 紙 𧲈  y wje q  11 ûi 위〯
-2268 那 馬   n a q  8 nâ 나〯
-2269 謊 養   h woong q  8 hwɑ̂ŋ 화ᇰ〯
-2270 湳 感 乃 感 n oom q  6 nâm 남〯
-2271 睔 震 古 困 k won h  8 kǔn 군〮
-2272 套 效   th oou h  10 thǎw 타ᇦ〮
-2273 大 禡 一 駕 q a h  5 ʔǎ ᅙᅡ〮
-2274 懺 勘   tshr am h  3 ʈʂhǎm ᅕᅡᆷ〮
-2275 贉 勘 徒 紺 d oom h  5 dǎm 땀〮
+2260 崩 東 卜 公 p ong  16  puŋ *부ᇰ
+2261 趽 東 滂 公 ph ong  17  phuŋ *푸ᇰ
+2262 渜 寒 奴 官 n woon   9 nwɔ̏n *눤
+2263 他 麻 湯 家 th a   10 tha *타
+2264 風 侵 孚 金 f jeom  4  fim *ᄫᅵᆷ
+2265 礦 董 古 猛 k ong q 2  kûŋ *구ᇰ〯
+2266 䣙 董   b ong q 3  bǔŋ' *뿌ᇰ〯
+2267 芛 紙 𧲈  y wje q  11 ûi *위〯
+2268 那 馬   n a q  8 nâ *나〯
+2269 謊 養   h woong q  8 hwɑ̂ŋ *화ᇰ〯
+2270 湳 感 乃 感 n oom q  6 nâm *남〯
+2271 睔 震 古 困 k won h  8 kǔn *군〮
+2272 套 效   th oou h  10 thǎw *타ᇦ〮
+2273 大 禡 一 駕 q a h  5 ʔǎ *ᅙᅡ〮
+2274 懺 勘   tshr am h  3 ʈʂhǎm *ᅕᅡᆷ〮
+2275 贉 勘 徒 紺 d oom h  5 dǎm *땀〮
