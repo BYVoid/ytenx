@@ -21,17 +21,15 @@ num_map = {
 }
 
 transcription_to_neom_khiowk_replacement = {
-  u'^k([hɦʱ]?[yi])': ur'c\1',
-  u'^g([yi])': ur'ɟ\1',
-  u'^ŋj?([yi])': ur'j\1',
-  u'^ŋ([wu])': ur'\1',
-  u'^h([yi])': ur'ç\1',
-  u'^ɦ([yi])': ur'çɦ\1',
-  u'iɪ(.?)i': ur'i\1',
+  u'k([hɦʱ]?[yi])': ur'c\1',
+  u'g([yi])': ur'ɟ\1',
+  u'ŋ([wu])': ur'\1',
+  u'h([yi])': ur'ç\1',
+  u'ɦ([yi])': ur'çɦ\1',
   u'iɛ(.?)w': ur'ia\1w',
   u'yut': ur'yʔ',
   u'yȕt': ur'y̏ʔ',
-  u'[ptk]$': ur'ʔ',
+  u'[ptk]\(-ʔ\)': ur'ʔ',
   u'\(ŋ\)': ur'',
   u'\(w\)': ur'w',
   u'\(yu\)iɛ': ur'yuɛ',
