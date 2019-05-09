@@ -21,7 +21,7 @@ num_map = {
 }
 
 transcription_to_neom_khiowk_replacement = {
-  u'k([hɦʱ]?[yi])': ur'c\1',
+  u'k([hɦʰʱ]?[yi])': ur'c\1',
   u'g([yi])': ur'ɟ\1',
   u'ŋ([wu])': ur'\1',
   u'h([yi])': ur'ç\1',
@@ -29,10 +29,13 @@ transcription_to_neom_khiowk_replacement = {
   u'iɛ(.?)w': ur'ia\1w',
   u'yut': ur'yʔ',
   u'yȕt': ur'y̏ʔ',
-  u'[ptkʔ]\(-ʔ\)': ur'ʔ',
+  u'ʔ\([ptk]\)': ur'ʔ',
   u'\(ŋ\)': ur'',
   u'\(w\)': ur'w',
   u'\(yu\)iɛ': ur'yuɛ',
+  u'^.*ɔ.?n\/(.+a.?n)$': ur'\1',
+  u'^ŋɔ.?n\/(a.?n)$': ur'ŋ\1',
+  u'^.*i.?\/(.*ɨ.?)$': ur'\1',
 }
 
 @register.filter
@@ -133,7 +136,5 @@ def neom_khiowk(text):
 @register.filter
 def beautify_mandarin_ipa(text):
   result = text
-  result = sub(u'(.)h', ur'\1ʰ', result)
-  result = sub(u'(.)ɦ', ur'\1ʱ', result)
   result = sub(u'([sfʃʂ])[zvʒʐ]', ur'\1ʱ', result) 
   return result
