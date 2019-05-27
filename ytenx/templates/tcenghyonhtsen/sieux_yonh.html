@@ -62,14 +62,10 @@
         <td>譯訓</td>
         <td nowrap>
           <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
-            <span class="horizontal-ltr">{{sieux_yonh.jamo}}</span>
-            <ipa>{{sieux_yonh.ipa|beautify_mandarin_ipa}}</ipa>
+            <ipa>{{sieux_yonh.ipa|beautify_mandarin_ipa}}</ipa>            
+            <span class="horizontal-ltr">({{sieux_yonh.jamo}})</span>
           </a>
         </td>
-      </tr>
-      <tr>
-        <td>南曲</td>
-        <td><span class="horizontal-ltr">{{sieux_yonh.ipa|neom_khiowk|beautify_mandarin_ipa}}</span></td>
       </tr>
       {% if qim_bjin_set %}
         <tr class="display-unless-with-vertical-layout">
