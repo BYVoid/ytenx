@@ -50,7 +50,7 @@
             {% for sieux in tongx_ghang %}
               <td>
                 {% if sieux %}
-                  <a href="" title="{{sieux.pyanx}}切">{{sieux}}</a>
+                  <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}" title="{{sieux.pyanx}}切">{{sieux}}</a>
                 {% endif %}
               </td>
             {% endfor %}
