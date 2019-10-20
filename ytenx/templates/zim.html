@@ -43,7 +43,9 @@
       <h2>
         <span class="badge badge-info">{{forloop.counter|tsiowng_ghwaeng_srwioh:request}}</span>
         <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih.dzih}}</a>
-        <span class="latin-below display-only-with-vertical-layout">{{dzih.sieuxYonh.preng.baxter}}</span>
+        <span class="latin-below display-only-with-vertical-layout"><span title="古韻羅馬字">{{dzih.sieuxYonh.preng.polyhedron}}</span></span>
+        <span class="latin-below display-only-with-vertical-layout"><span title="有女羅馬字">{{dzih.sieuxYonh.preng.hiovNivv}}</span></span>
+        <span class="latin-below display-only-with-vertical-layout"><span title="Baxter transcription">{{dzih.sieuxYonh.preng.baxter}}</span></span>
       </h2>
       <h3 class="yonh">
         {% if dzih.sieuxYonh.pyanx %}
@@ -53,7 +55,7 @@
       </h3>
       <p class="yonh">
         {{dzih.sieuxYonh.yonh.gheh.cjep}}{{dzih.sieuxYonh.yonh.ho|ho}}{{dzih.sieuxYonh.yonh.tongx|sryoh}}{{dzih.sieuxYonh.yonhMiuk.deuh|deuh}}<a href="{% url 'kyonh.views.yonh_miuk_page' dzih.sieuxYonh.yonhMiuk.dzih %}">{{dzih.sieuxYonh.yonhMiuk}}</a><a href="{% url 'kyonh.views.cjeng_mux_page' dzih.sieuxYonh.cjeng.dzih %}">{{dzih.sieuxYonh.cjeng}}</a>
-        <span class="display-unless-with-vertical-layout">({{dzih.sieuxYonh.preng.baxter}})</span>
+        <span class="display-unless-with-vertical-layout">( <span title="古韻羅馬字">{{dzih.sieuxYonh.preng.polyhedron}}</span> / <span title="有女羅馬字">{{dzih.sieuxYonh.preng.hiovNivv}}</span> / <span title="Baxter transcription">{{dzih.sieuxYonh.preng.baxter}}</span> )</span>
       </p>
       <blockquote>{{dzih.ngieh}}</blockquote>
     {% endfor %}
