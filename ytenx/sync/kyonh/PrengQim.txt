@@ -1550,7 +1550,7 @@
 1549 konx koon konX
 1550 ghanx haan hanX
 1551 tanx taan tanX
-1552 thanX  thanX
+1552 thanx thaan thanX
 1553 sanx saan sanX
 1554 danx daan danX
 1555 zanx dzaan dzanX
