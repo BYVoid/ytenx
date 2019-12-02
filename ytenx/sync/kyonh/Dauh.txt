@@ -423,7 +423,7 @@
 422 pʱȉn pin2
 423 ŋȉn yin2
 424 kin jin1
-425 kyun Jun1
+425 kyun jun1
 426 jyȕn yun2
 427 kʰyun qun1
 428 mȉn min2
@@ -442,12 +442,12 @@
 441 lyȕn lun2
 442 tʃyun zhun1
 443 tsʰyun qun1
-444 tsyun Jun1
+444 tsyun jun1
 445 tʃʰyun chun1
 446 tsʱyȕn qun2
 447 jyȕn yun2
 448 sʱyȕn xun2
-449 kyun Jun1
+449 kyun jun1
 450 kʱȉn qin2
 451 pʰin pin1
 452 ʈʂən zhen1
@@ -460,7 +460,7 @@
 459 fun fen1
 460 kʱyȕn qun2
 461 hyun xun1
-462 kyun Jun1
+462 kyun jun1
 463 fun fen1
 464 hin xin1
 465 ʔin yin1
@@ -1477,7 +1477,7 @@
 1476 bǐn' bin4
 1477 ŋîn yin3
 1478 tsʰîn qin3
-1479 gyǔn' Jun4
+1479 gyǔn' jun4
 1480 jîn yin3
 1481 mîn min3
 1482 mîn min3
@@ -2571,11 +2571,11 @@
 2570 pʰǐn pin4
 2571 tsʰǐn qin4
 2572 kʰǐn qin4
-2573 kyǔn Jun4
+2573 kyǔn jun4
 2574 tʃyǔn zhun4
 2575 syǔn xun4
 2576 sʱyǔn xun4
-2577 tsyǔn Jun4
+2577 tsyǔn jun4
 2578 ʃyǔn shun4
 2579 ʒyǔn run4
 2580 ʃʱyǔn shun4
@@ -2585,8 +2585,8 @@
 2584 fǔn fen4
 2585 fǔn fen4
 2586 ʔyǔn yun4
-2587 kyǔn Jun4
-2588 gyǔn Jun4
+2587 kyǔn jun4
+2588 gyǔn jun4
 2589 fʱǔn fen4
 2590 hǐn xin4
 2591 kǐn jin4
