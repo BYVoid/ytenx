@@ -5,7 +5,7 @@ from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import *
+from ytenx.pyonh.models import CjengLyih, CjengMux, YonhBox, Dzih, SieuxYonh, Cio, YonhMux
 
 def pyon_yonh(request):
   return render(request, 'pyonh/pyon_yonh.html', {

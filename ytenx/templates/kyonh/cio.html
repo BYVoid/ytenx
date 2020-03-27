@@ -20,7 +20,7 @@
       <div class="row">
         <h2>小韻</h2>
         {% for sieux in cio.cio.sieuxyonh_set.all %}
-          <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
+          <a href="{% url 'kyonh-sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
         {% endfor %}
       </div>
     {% endif %}
@@ -28,7 +28,7 @@
       <div class="row">
         <h2>字頭</h2>
         {% for dzih in cio.cio.dzih_set.all %}
-          <a href="{% url 'kyonh.views.dzih' dzih.ziox %}">{{dzih}}</a>
+          <a href="{% url 'kyonh-dzih' dzih.ziox %}">{{dzih}}</a>
         {% endfor %}
       </div>
     {% endif %}

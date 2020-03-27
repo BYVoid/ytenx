@@ -3,7 +3,7 @@
   {% for cio in cio_do_pieux %}
     <li class="span4">
       <div class="thumbnail">
-        <a href="{% url 'kyonh.views.cio_page' cio.drakDzuonDang.kyenh cio.drakDzuonDang.jep %}">
+        <a href="{% url 'kyonh-cio_page' cio.drakDzuonDang.kyenh cio.drakDzuonDang.jep %}">
           <img src="/static/img/DrakDzuonDang/volume{{cio.drakDzuonDang.kyenh}}/thumb/p{{cio.drakDzuonDang}}.jpg" alt="" >
         </a>
         <p><title-cn>廣韻</title-cn><proper-noun>澤存堂</proper-noun>本第{{cio.drakDzuonDang.kyenh|sryoh}}卷第{{cio.drakDzuonDang.jep|sryoh}}䈎</p>

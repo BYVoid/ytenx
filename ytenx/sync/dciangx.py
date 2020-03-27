@@ -1,5 +1,5 @@
 # coding=utf-8
-from common import traverse
+from ytenx.sync.common import traverse
 from ytenx.dciangxkox.models import *
 from ytenx.kyonh.models import SieuxYonh, PyanxTshet
 
@@ -13,10 +13,10 @@ mt = ''
 
 def sync():
   syncDzih()
-  print 'Dciangx Done'
+  print('Dciangx Done')
 
 def syncDzih():
-  print 'Dzih...'
+  print('Dzih...')
   
   def sync(line, num):
     global last_dzih, mt
@@ -28,14 +28,14 @@ def syncDzih():
     if yonh_seh == '':
       yonh_seh = 0
     
-    if cjeng_map.has_key(cjeng):
+    if cjeng in cjeng_map:
       cjeng = cjeng_map[cjeng]
     else:
       cjeng = CjengByo(mjeng=cjeng)
       cjeng.save()
       cjeng_map[cjeng.mjeng] = cjeng
     
-    if yonh_map.has_key(yonh):
+    if yonh in yonh_map:
       yonh = yonh_map[yonh]
     else:
       yonh = YonhBox(mjeng=yonh)
@@ -44,7 +44,7 @@ def syncDzih():
     
     id = dzih
     i = 1
-    while dzih_map.has_key(id):
+    while id in dzih_map:
       i += 1
       id = dzih + str(i)
     
@@ -68,7 +68,7 @@ def syncDzih():
         if sieux_yonh == None:
           sieux_yonh = sieux
         else:
-          mt += unicode(num+2) + ' ' + dzih + ' ' + pyanx + ' ' + str(sieuxs).decode('utf-8') + '\n'
+          mt += str(num+2) + ' ' + dzih + ' ' + pyanx + ' ' + str(sieuxs) + '\n'
     else:
       if last_dzih.ngix_1 == ngix_1 and last_dzih.ngix_2 == ngix_2 and last_dzih.ngix_3 == ngix_3:
         sieux_yonh = last_dzih.sieux_yonh
@@ -99,6 +99,6 @@ def syncDzih():
   
   traverse(base_path + 'DrienghTriang.txt', sync)
   f = open('mt.txt', 'w')
-  f.write(mt.encode('utf-8'))
+  f.write(mt)
   f.close()
-  print 'Done'
+  print('Done')

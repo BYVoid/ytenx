@@ -1,5 +1,5 @@
 # coding=utf-8
-from common import traverse
+from ytenx.sync.common import traverse
 from re import sub
 from ytenx.kyonh.models import *
 
@@ -47,7 +47,7 @@ def sync():
   syncDzih()
   syncDciangxDzihCjeng()
   syncGhraxDzihYonh()
-  print 'Kyonh Done'
+  print('Kyonh Done')
 
 def traverse1(filename, callback):
   num = 0
@@ -60,7 +60,7 @@ def traverse1(filename, callback):
     num += 1
 
 def syncCjengMuxPrengQim():
-  print 'CjengMuxPrengQim...'
+  print('CjengMuxPrengQim...')
   
   def sync(line, num):
     preng = PrengQim(
@@ -74,10 +74,10 @@ def syncCjengMuxPrengQim():
     cjengMuxPrengQimMap[line[0]] = preng
   
   traverse(base_path + 'CjengMuxPrengQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCjengMuxNgixQim():
-  print 'CjengMuxNgixQim...'
+  print('CjengMuxNgixQim...')
   
   def sync(line, num):
     ngix = NgixQim(
@@ -98,10 +98,10 @@ def syncCjengMuxNgixQim():
     cjengMuxNgixQimMap[line[0]] = ngix
   
   traverse(base_path + 'CjengMuxNgixQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCjengMux():
-  print 'CjengMux...'
+  print('CjengMux...')
   
   def sync(line, num):
     lyih = CjengLyih(
@@ -120,10 +120,10 @@ def syncCjengMux():
     cjengMuxMap[line[0]] = cjeng
   
   traverse(base_path + 'CjengMux.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhGheh():
-  print 'YonhGheh...'
+  print('YonhGheh...')
   
   def sync(line, num):
     cjep = YonhCjep(
@@ -139,10 +139,10 @@ def syncYonhGheh():
     ghehMap[line[0]] = gheh
     
   traverse(base_path + 'YonhGheh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMuxPrengQim():
-  print 'YonhMuxPrengQim...'
+  print('YonhMuxPrengQim...')
   
   def sync(line, num):
     preng = PrengQim(
@@ -156,10 +156,10 @@ def syncYonhMuxPrengQim():
     yonhMuxPrengQimMap[line[0]] = preng
   
   traverse(base_path + 'YonhMuxPrengQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMuxNgixQim():
-  print 'YonhMuxNgixQim...'
+  print('YonhMuxNgixQim...')
   
   def sync(line, num):
     ngix = NgixQim(
@@ -176,10 +176,10 @@ def syncYonhMuxNgixQim():
     yonhMuxNgixQimMap[line[0]] = ngix
   
   traverse(base_path + 'YonhMuxNgixQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMux():
-  print 'YonhMux...'
+  print('YonhMux...')
   
   def sync(line, num):
     ho = line[3] == u'開'
@@ -206,10 +206,10 @@ def syncYonhMux():
 
   traverse(base_path + 'YonhMux.txt', sync)
   traverse(base_path + 'YonhMux.txt', syncTuaih)
-  print 'Done'
+  print('Done')
 
 def syncPyanxTshet():
-  print 'PyanxTshet...'
+  print('PyanxTshet...')
   
   def sync(line, num):
     tshet = line[5]
@@ -235,10 +235,10 @@ def syncPyanxTshet():
     pyanxTshetMap[tshet] = dzih
   
   traverse(base_path + 'SieuxYonh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncKuangxYonhMiukTshiih():
-  print 'KuangxYonhMiukTshiih...'
+  print('KuangxYonhMiukTshiih...')
   
   def sync(line, num):
     tshiih = KuangxYonhMiukTshiih(
@@ -250,10 +250,10 @@ def syncKuangxYonhMiukTshiih():
     kuangxYonhMiukTshiihMap[line[0]] = tshiih
   
   traverse(base_path + 'KuangxYonhMiukTshiih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMiuk():
-  print 'YonhMiuk...'
+  print('YonhMiuk...')
   
   def sync(line, num):
     yonh = YonhMiuk(
@@ -274,10 +274,10 @@ def syncYonhMiuk():
     yonhMiukMap[line[0]] = yonh
   
   traverse(base_path + 'YonhMiuk.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMiukDzip():
-  print 'YonhMiukDzip...'
+  print('YonhMiukDzip...')
   
   def sync(line, num):
     dzip = YonhMiukDzip()
@@ -288,10 +288,10 @@ def syncYonhMiukDzip():
     dzip.save()
   
   traverse(base_path + 'YonhMiukDzip.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncDrakDzuonDang():
-  print 'DrakDzuonDang...'
+  print('DrakDzuonDang...')
   
   def sync(line, num):
     id = line[0] + '_' + line[1]
@@ -307,10 +307,10 @@ def syncDrakDzuonDang():
     drakDzuonDangMap[id] = drak
   
   traverse(base_path + 'DrakDzuonDang.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCio():
-  print 'Cio...'
+  print('Cio...')
   
   for key in drakDzuonDangMap.keys():
     drak = drakDzuonDangMap[key]
@@ -321,10 +321,10 @@ def syncCio():
     cio.save()
     cioMap[drak.identifier] = cio
   
-  print 'Done'
+  print('Done')
 
 def syncNgixQim():
-  print 'NgixQim...'
+  print('NgixQim...')
   
   def sync(line, num):
     ngix = NgixQim(
@@ -344,10 +344,10 @@ def syncNgixQim():
   
   traverse(base_path + 'SieuxYonh.txt', sync)
   
-  print 'Done'
+  print('Done')
 
 def syncPrengQim():
-  print 'PrengQim...'
+  print('PrengQim...')
   
   def sync(line, num):
     id = line[0]
@@ -361,10 +361,10 @@ def syncPrengQim():
     prengQimMap[id] = preng
   
   traverse(base_path + 'PrengQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncDauh():
-  print 'Dauh...'
+  print('Dauh...')
   
   def sync(line, num):
     dauh = PrengQim(
@@ -376,10 +376,10 @@ def syncDauh():
     dauhMap[line[0]] = dauh
   
   traverse(base_path + 'Dauh.txt', sync)
-  print 'Done'
+  print('Done')
   
 def syncSieuxYonh():
-  print 'SieuxYonh...'
+  print('SieuxYonh...')
   def sync(line, num):
     if line[5] != '':
       pyanx = pyanxTshetMap[line[5]]
@@ -403,10 +403,10 @@ def syncSieuxYonh():
     sieuxYonhMap[line[0]] = sieux
   
   traverse(base_path + 'SieuxYonh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncDzih():
-  print 'Dzih...'
+  print('Dzih...')
   def sync(line, num):
     global last_dzih
     global last_ngieh
@@ -414,7 +414,7 @@ def syncDzih():
     current_ngieh = u''
     try:
       current_dzih = line[0]
-      current_ngieh = sub(gloss_fallback_pattern, ur'\1（' + last_dzih + u'‧' + last_ngieh + u'）' , line[3], 1)
+      current_ngieh = sub(gloss_fallback_pattern, r'\1（' + last_dzih + u'‧' + last_ngieh + u'）' , line[3], 1)
       dzih = Dzih(
         ziox = num + 1,
         dzih = current_dzih,
@@ -424,15 +424,15 @@ def syncDzih():
       )
       dzih.save()
     except:
-      print line
+      print(line)
     last_dzih = current_dzih
     last_ngieh = current_ngieh
   
   traverse(base_path + 'Dzih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncDciangxDzihCjeng():
-  print 'DciangxDzihCjeng...'
+  print('DciangxDzihCjeng...')
   for i in pyanxTshetDciangxDzihMap.keys():
     dciangx = pyanxTshetDciangxDzihMap[i]
     #查詢以該上字爲反切的所有小韻的聲母
@@ -447,10 +447,10 @@ def syncDciangxDzihCjeng():
       cjeng = cjengM[j]
       dciangx.cjeng.add(cjeng)
     dciangx.save()
-  print 'Done'
+  print('Done')
 
 def syncGhraxDzihYonh():
-  print 'GhraxDzihYonh...'
+  print('GhraxDzihYonh...')
   for i in pyanxTshetGhraxDzihMap.keys():
     ghrax = pyanxTshetGhraxDzihMap[i]
     #查詢以該下字爲反切的所有小韻的韻母
@@ -465,4 +465,4 @@ def syncGhraxDzihYonh():
       yonh = yonhM[j]
       ghrax.yonh.add(yonh)
     ghrax.save()
-  print 'Done'
+  print('Done')

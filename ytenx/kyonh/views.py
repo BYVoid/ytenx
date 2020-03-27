@@ -5,7 +5,7 @@ from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import SieuxYonh, CjengMux, YonhMux, YonhMiukDzip, CjengLyih, DrakDzuonDang, YonhMiuk, DciangxDzih, GhraxDzih, Dzih, YonhCjep, YonhGheh
+from ytenx.kyonh.models import SieuxYonh, CjengMux, YonhMux, CjengLyih, DrakDzuonDang, YonhMiuk, YonhMiukDzip, DciangxDzih, GhraxDzih, Dzih, YonhCjep, YonhGheh
 
 def index_page(request):
   return render(request, 'kyonh/index.html')

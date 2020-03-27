@@ -16,5 +16,5 @@ class Dzih(models.Model):
   #Unihan所未收錄者
   tha = models.ManyToManyField('Dzih', related_name='tha_pyanx')
 
-  def __unicode__(self):
+  def __str__(self):
     return self.dzih

@@ -21,19 +21,19 @@ num_map = {
 }
 
 transcription_to_neom_khiowk_replacement = {
-  u'k([hɦʰʱ]?[yi])': ur'c\1',
-  u'g([yi])': ur'ɟ\1',
-  u'ŋ([wu])': ur'\1',
-  u'h([yi])': ur'ç\1',
-  u'ɦ([yi])': ur'çʱ\1',
-  u'iɛ(.?)w': ur'ia\1w',
-  u'ʔ\([ptk]\)': ur'ʔ',
-  u'\(ŋ\)': ur'',
-  u'\(w\)': ur'w',
-  u'\(yu\)iɛ': ur'yuɛ',
-  u'^.*ɔ.?n\/(.+a.?n)$': ur'\1',
-  u'^ŋɔ.?n\/(a.?n)$': ur'ŋ\1',
-  u'^.*i.?\/(.*ɨ.?)$': ur'\1',
+  u'k([hɦʰʱ]?[yi])': r'c\1',
+  u'g([yi])': r'ɟ\1',
+  u'ŋ([wu])': r'\1',
+  u'h([yi])': r'ç\1',
+  u'ɦ([yi])': r'çʱ\1',
+  u'iɛ(.?)w': r'ia\1w',
+  u'ʔ\([ptk]\)': r'ʔ',
+  u'\(ŋ\)': r'',
+  u'\(w\)': r'w',
+  u'\(yu\)iɛ': r'yuɛ',
+  u'^.*ɔ.?n\/(.+a.?n)$': r'\1',
+  u'^ŋɔ.?n\/(a.?n)$': r'ŋ\1',
+  u'^.*i.?\/(.*ɨ.?)$': r'\1',
 }
 
 @register.filter
@@ -134,5 +134,5 @@ def neom_khiowk(text):
 @register.filter
 def beautify_mandarin_ipa(text):
   result = text
-  result = sub(u'([sfʃʂ])[zvʒʐ]', ur'\1ʱ', result) 
+  result = sub(u'([sfʃʂ])[zvʒʐ]', r'\1ʱ', result) 
   return result

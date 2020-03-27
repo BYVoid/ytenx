@@ -22,7 +22,7 @@
     	<tr>
     	  <td>聲符</td>
     	  <td>
-    	  	<a href="{% url 'dciangxkox.views.cjeng_byo' dzih.cjeng.mjeng %}">
+    	  	<a href="{% url 'dciangx_kox-cjeng_byo' dzih.cjeng.mjeng %}">
     	  		{{dzih.cjeng}}
     	  	</a>
     	  </td>
@@ -30,7 +30,7 @@
     	<tr>
     	  <td>韻部</td>
     	  <td>
-    	  	<a href="{% url 'dciangxkox.views.yonh_box' dzih.yonh.mjeng %}">
+    	  	<a href="{% url 'dciangx_kox-yonh_box' dzih.yonh.mjeng %}">
     	  		{{dzih.yonh}}
     	  	</a>
     	  </td>
@@ -60,7 +60,7 @@
     {% if dzih.sieux_yonh %}
     <p>
       小韻
-      <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
+      <a href="{% url 'kyonh-sieux_yonh_page' dzih.sieux_yonh.ziox %}">
         {{dzih.sieux_yonh}}
       </a>
     </p>
