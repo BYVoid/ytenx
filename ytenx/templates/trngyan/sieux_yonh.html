@@ -22,7 +22,7 @@
         <tr>
           <td>聲母</td>
           <td>
-            <a href="{% url 'trngyan.views.cjeng_mux' sieux_yonh.cjeng.dzih %}">
+            <a href="{% url 'trngyan-cjeng_mux' sieux_yonh.cjeng.dzih %}">
               {{sieux_yonh.cjeng}}
             </a>
           </td>
@@ -30,7 +30,7 @@
         <tr>
           <td>韻母</td>
           <td>
-            <a href="{% url 'trngyan.views.yonh_mux' sieux_yonh.yonh.mjeng %}">
+            <a href="{% url 'trngyan-yonh_mux' sieux_yonh.yonh.mjeng %}">
               {{sieux_yonh.yonh}}
             </a>
           </td>
@@ -69,7 +69,7 @@
     <table class="table table-condensed table-bordered">
       {% for dzih in sieux_yonh.dzih_set.all %}
         <tr>
-          <td><a href="{% url 'trngyan.views.dzih' dzih.id %}">{{dzih}}</a></td>
+          <td><a href="{% url 'trngyan-dzih' dzih.id %}">{{dzih}}</a></td>
           <td>{{dzih.tryoh}}</td>
         </tr>
       {% endfor %}

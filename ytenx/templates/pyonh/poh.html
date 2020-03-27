@@ -6,28 +6,28 @@
     <ul class="nav nav-list sidebar-cn">
       <li class="nav-header">檢索</li>
       <li class="{% block pyonh_pyon_yonh_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.pyon_yonh' %}">分韻撮要</a>
+        <a href="{% url 'pyon_yonh' %}">分韻撮要</a>
       </li>
       <li class="{% block pyonh_sieux_yonh_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.sieux_yonh_pieux' %}">小韻</a>
+        <a href="{% url 'pyon_yonh-sieux_yonh_pieux' %}">小韻</a>
       </li>
       <li class="{% block pyonh_dzih_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.dzih_pieux' %}">字表</a>
+        <a href="{% url 'pyon_yonh-dzih_pieux' %}">字表</a>
       </li>
       <li class="{% block pyonh_cjeng_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.cjeng_mux_pieux' %}">聲母</a>
+        <a href="{% url 'pyon_yonh-cjeng_mux_pieux' %}">聲母</a>
       </li>
       <li class="{% block pyonh_yonh_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.yonh_mux_pieux' %}">韻母</a>
+        <a href="{% url 'pyon_yonh-yonh_mux_pieux' %}">韻母</a>
       </li>
       <li class="{% block pyonh_cio_active %}{% endblock %}">
-        <a href="{% url 'pyonh.views.cio' 1 1 %}">書影</a>
+        <a href="{% url 'pyon_yonh-cio' 1 1 %}">書影</a>
         <ul class="nav nav-list">
           <li class="{% block pyonh_cio_1_active %}{% endblock %}">
-            <a href="{% url 'pyonh.views.cio' 1 1 %}">第一卷</a>
+            <a href="{% url 'pyon_yonh-cio' 1 1 %}">第一卷</a>
           </li>
           <li class="">
-            <a href="{% url 'pyonh.views.cio' 2 1 %}">第二卷</a>
+            <a href="{% url 'pyon_yonh-cio' 2 1 %}">第二卷</a>
           </li>
         </ul>
       </li>

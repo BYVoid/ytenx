@@ -47,7 +47,7 @@
     	<tr>
     	  <td>韻目</td>
     	  <td>
-    	  	<a href="{% url 'tcenghyonhtsen.views.yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">{{sieux_yonh.yonhMiuk}}</a>
+    	  	<a href="{% url 'tcenghyonhtsen-yonh_miuk_page' sieux_yonh.yonhMiuk.dzih %}">{{sieux_yonh.yonhMiuk}}</a>
     	  </td>
     	</tr>
     	<tr>
@@ -61,7 +61,7 @@
       <tr>
         <td>譯訓</td>
         <td nowrap>
-          <a href="{% url 'tcenghyonhtsen.views.transcription_legend_page' %}">
+          <a href="{% url 'tcenghyonhtsen-transcription_legend_page' %}">
             <ipa>{{sieux_yonh.ipa}}</ipa>
             <span class="horizontal-ltr">({{sieux_yonh.jamo}})</span>            
           </a>
@@ -127,7 +127,7 @@
       {% for cio in sieux_yonh.ziox_cio %}
         <li class="span3">
           <div class="thumbnail">
-            <a href="{% url 'tcenghyonhtsen.views.cio_page' cio.kyenh cio.jep %}">
+            <a href="{% url 'tcenghyonhtsen-cio_page' cio.kyenh cio.jep %}">
               <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>

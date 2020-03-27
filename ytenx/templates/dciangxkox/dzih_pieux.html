@@ -46,7 +46,7 @@
     </form>
     </div>
     <div class="span7">
-      <form id="dciangx-kox-sriek" class="form-search" method="get" action="{% url 'views.zim' %}">
+      <form id="dciangx-kox-sriek" class="form-search" method="get" action="{% url 'zim' %}">
         <input type="text" name="dzih" class="search-query span3">
         <input type="hidden" name="dciangx" value="1">
         <input type="hidden" name="jtkb" value="1">
@@ -72,22 +72,22 @@
         <tr>
           <td><span class="horizontal-ltr">{{dzih.ziox}}</span></td>
           <td>
-            <a href="{% url 'dciangxkox.views.dzih' dzih.id %}">{{dzih}}</a>
+            <a href="{% url 'dciangx_kox-dzih' dzih.id %}">{{dzih}}</a>
           </td>
           <td>
-            <a href="{% url 'dciangxkox.views.cjeng_byo' dzih.cjeng.mjeng %}">
+            <a href="{% url 'dciangx_kox-cjeng_byo' dzih.cjeng.mjeng %}">
               {{dzih.cjeng}}
             </a>
           </td>
           <td>
-            <a href="{% url 'dciangxkox.views.yonh_box' dzih.yonh.mjeng %}">
+            <a href="{% url 'dciangx_kox-yonh_box' dzih.yonh.mjeng %}">
               {{dzih.yonh}}
             </a>
           </td>
           <td><span class="horizontal-ltr">{{dzih.yonh_seh}}</span></td>
           <td>
             {% if dzih.sieux_yonh %}
-              <a href="{% url 'kyonh.views.sieux_yonh_page' dzih.sieux_yonh.ziox %}">
+              <a href="{% url 'kyonh-sieux_yonh_page' dzih.sieux_yonh.ziox %}">
                 {{dzih.sieux_yonh}}
               </a>
             {% else %}

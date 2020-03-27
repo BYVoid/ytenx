@@ -11,7 +11,7 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in cjeng.sieuxyonh_set.all %}
-      <a href="{% url 'pyonh.views.sieux_yonh' sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'pyon_yonh-sieux_yonh' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
 </div>

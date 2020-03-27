@@ -21,7 +21,7 @@
     </table>
     <h2>小韻</h2>
     {% for sieux in yonh_miuk.sieuxyonh_set.all %}
-      <a href="{% url 'tcenghyonhtsen.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'tcenghyonhtsen-sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
 </div>
@@ -33,7 +33,7 @@
       {% for cio in yonh_miuk.cio %}
         <li class="span3" >
           <div class="thumbnail">
-            <a href="{% url 'tcenghyonhtsen.views.cio_page' cio.kyenh cio.jep %}">
+            <a href="{% url 'tcenghyonhtsen-cio_page' cio.kyenh cio.jep %}">
               <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>

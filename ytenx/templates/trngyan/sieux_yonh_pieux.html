@@ -103,10 +103,10 @@
         <tr>
           <td>{{sieux_yonh.ziox|tsiowng_ghwaeng_srwioh:request}}</td>
           <td>
-            <a href="{% url 'trngyan.views.sieux_yonh' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
+            <a href="{% url 'trngyan-sieux_yonh' sieux_yonh.ziox %}">{{sieux_yonh.taj}}</a>
           </td>
           <td>
-            <a href="{% url 'trngyan.views.cjeng_mux' sieux_yonh.cjeng.dzih %}">
+            <a href="{% url 'trngyan-cjeng_mux' sieux_yonh.cjeng.dzih %}">
               {{sieux_yonh.cjeng}}
             </a>
           </td>
@@ -114,7 +114,7 @@
           <td>{{sieux_yonh.deuh|deuh_trngyan}}</td>
           <td>{{sieux_yonh.ho|siih_ho}}</td>
           <td>
-            <a href="{% url 'trngyan.views.yonh_mux' sieux_yonh.yonh.mjeng %}">
+            <a href="{% url 'trngyan-yonh_mux' sieux_yonh.yonh.mjeng %}">
               {{sieux_yonh.yonh}}
             </a>
           </td>

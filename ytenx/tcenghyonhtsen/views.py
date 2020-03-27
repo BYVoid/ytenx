@@ -8,7 +8,7 @@ from django.templatetags.static import static
 from django.views.decorators.cache import cache_page
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import SieuxYonh, YonhBux, YonhMiuk, Cio, QimBjin, GhiunhTranscription, ShiengTranscription, DewhTranscription
+from ytenx.tcenghyonhtsen.models import SieuxYonh, YonhBux, YonhMiuk, Cio, QimBjin, GhiunhTranscription, ShiengTranscription, DewhTranscription
 
 def index_page(request):
   return render(request, 'tcenghyonhtsen/index.html')

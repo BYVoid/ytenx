@@ -26,20 +26,20 @@ def sync():
   syncJitDzih()
   syncSieuxCio()
   syncTranscriptionLegend()
-  print 'Tcengh Yonh Tsen Done'
+  print('Tcengh Yonh Tsen Done')
 
 def traverse(filename, callback, separator = ' '):
   num = 0
   for line in open(basePath + filename):
     if (line[0] == '#'):
       continue
-    line = line[:-1].decode('utf-8')
+    line = line[:-1]
     line = line.split(separator)
     callback(line, num)
     num += 1
 
 def syncYonhMiuk():
-  print 'YonhMiuk...'
+  print('YonhMiuk...')
 
   def sync(line, num):
     global njipZiox
@@ -68,14 +68,14 @@ def syncYonhMiuk():
       miukMap[miuk.dzih] = miuk
 
   traverse('YonhMiuk.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncPyanx(dciangx, ghrax):
   if (not ghrax) or (not ghrax):
     return None
 
   #反切上字
-  if dciangxMap.has_key(dciangx):
+  if dciangx in dciangxMap:
     dciangx = dciangxMap[dciangx]
   else:
     dciangx = DciangxDzih(dzih = dciangx)
@@ -83,7 +83,7 @@ def syncPyanx(dciangx, ghrax):
     dciangxMap[dciangx] = dciangx
   
   #反切下字
-  if ghraxMap.has_key(ghrax):
+  if ghrax in ghraxMap:
     ghrax = ghraxMap[ghrax]
   else:
     ghrax = GhraxDzih(dzih = ghrax)
@@ -99,7 +99,7 @@ def syncPyanx(dciangx, ghrax):
   return pyanx
 
 def syncSieux():
-  print 'Sieux...'
+  print('Sieux...')
   
   def sync(line, num):
     global cioTriungSieuxZiox
@@ -128,10 +128,10 @@ def syncSieux():
     sieuxMap[ziox] = sieux
   
   traverse('SieuxYonh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncQimBjin():
-  print 'QimBjin...'
+  print('QimBjin...')
 
   def getSieuxYonhOrNone(i):
     if i == '?' or i == '':
@@ -163,10 +163,10 @@ def syncQimBjin():
     qimBjin.save()
   
   traverse('QimBjin.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncDzih():
-  print 'Dzih...'
+  print('Dzih...')
   
   def sync(line, num):
     global cioTriungDzihZiox
@@ -192,7 +192,7 @@ def syncDzih():
     )
     cioTriungDzihZiox = cioTriungDzihZiox + 1
     
-    kyenh = unicode(sieux.deuh())
+    kyenh = str(sieux.deuh())
     
     for jep in jeps.split('/'):
       cio = Cio(
@@ -206,10 +206,10 @@ def syncDzih():
 
   
   traverse('Dzih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncKoxQim():
-  print 'KoxQim...'
+  print('KoxQim...')
   
   def sync(line, num):
     ziox = line[0]
@@ -223,7 +223,7 @@ def syncKoxQim():
       sieux = sieux,
     )
     
-    kyenh = unicode(sieux.deuh())
+    kyenh = str(sieux.deuh())
     
     for jep in jeps.split('/'):
       cio = Cio(
@@ -237,10 +237,10 @@ def syncKoxQim():
 
   
   traverse('KoxQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncJitDzih():
-  print 'JitDzih...'
+  print('JitDzih...')
   
   def sync(line, num):
     ziox = line[0]
@@ -263,7 +263,7 @@ def syncJitDzih():
       kwangx = kwangx,      
     )
     
-    kyenh = unicode(sieux.deuh())
+    kyenh = str(sieux.deuh())
     
     for jep in jeps.split('/'):
       cio = Cio(
@@ -276,10 +276,10 @@ def syncJitDzih():
     dzih.save()
 
   traverse('JitDzih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncSieuxCio():
-  print 'SieuxCio...'
+  print('SieuxCio...')
   for key in sieuxMap.keys():
     sieux = sieuxMap[key]
     
@@ -300,10 +300,10 @@ def syncSieuxCio():
       sieux.cio.add(cio)
     sieux.save()
 
-  print 'Done'
+  print('Done')
 
 def syncTranscriptionLegend():
-  print 'Transcription...'
+  print('Transcription...')
   
   def syncGhiunh(line, num):
     ghiunh = GhiunhTranscription(
@@ -339,5 +339,5 @@ def syncTranscriptionLegend():
   traverse('GhiunhTranscription.txt', syncGhiunh, separator='\t')
   traverse('ShiengTranscription.txt', syncShieng, separator='\t')
   traverse('DewhTranscription.txt', syncDewh, separator='\t')
-  print 'Done'
+  print('Done')
   

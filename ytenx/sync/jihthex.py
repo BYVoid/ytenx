@@ -1,5 +1,5 @@
 # coding=utf-8
-from common import traverse
+from ytenx.sync.common import traverse
 from ytenx.jihthex.models import *
 
 basePath = './ytenx/sync/jihthex/'
@@ -7,7 +7,7 @@ dzih_map = {}
 
 def sync():
   syncDzih()
-  print 'Jihthex Done'
+  print('Jihthex Done')
 
 def syncDzih():
   
@@ -37,11 +37,11 @@ def syncDzih():
       dzih.tha.add(c)
     dzih.save()
 
-  print 'Dzih...'
+  print('Dzih...')
   traverse(basePath + 'JihThex.csv', sync_dzih, separator=',')
   traverse(basePath + 'ThaJihThex.csv', sync_dzih, separator=',')
-  print 'Done'
-  print 'DzihKruan...'
+  print('Done')
+  print('DzihKruan...')
   traverse(basePath + 'JihThex.csv', sync_kruan, separator=',')
   traverse(basePath + 'ThaJihThex.csv', sync_non_unihan_kruan, separator=',')  
-  print 'Done'
+  print('Done')

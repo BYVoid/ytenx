@@ -27,7 +27,7 @@ def sync(line, num):
   pyanx = line[10] + line[11]
   preng = line[12] + line[13] + line[14]
   key = pyanx + preng
-  print key
+  print(key)
   ziox = sieuxZiox[key]
   
   output((dzih, ziox, jep))
@@ -35,13 +35,13 @@ def sync(line, num):
   global maxJep
   jep = int(line[4])
   if jep < maxJep:
-    print dzih, line[2]
+    print(dzih, line[2])
   maxJep = jep
   
   global maxZiox
   ziox = int(ziox)
   if ziox < maxZiox:
-    print dzih, line[2]
+    print(dzih, line[2])
   maxZiox = ziox
 
 def output(line):

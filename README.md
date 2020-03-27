@@ -13,7 +13,7 @@
 
 ## Create database
 
-    ./manage.py syncdb
+    ./manage.py migrate --run-syncdb
     ./manage.py shell < ytenx/sync/import.py
 
 ## Run
