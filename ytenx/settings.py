@@ -9,6 +9,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+ALLOWED_HOSTS = ['*']
 
 DB_PATH = os.path.join(os.path.dirname(__file__), 'ytenx.sqlite').replace('\\','/')
 
