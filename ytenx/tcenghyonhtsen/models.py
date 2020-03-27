@@ -30,13 +30,13 @@ class Dzih(models.Model):
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
-  sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  sieux = models.ForeignKey('SieuxYonh', db_index = True, on_delete=models.DO_NOTHING)
   #書頁
   cio = models.ManyToManyField('Cio')
   #字義
   ngieh = models.TextField();
   #對應廣韻小韻
-  kwangx = models.ForeignKey(KyonhSieuxYonh, related_name='tcengh', null = True)
+  kwangx = models.ForeignKey(KyonhSieuxYonh, related_name='tcengh', null = True, on_delete=models.DO_NOTHING)
   #小韻于韻書中之序
   cioTriungZiox = models.IntegerField(db_index = True)
 
@@ -61,7 +61,7 @@ class KoxQim(models.Model):
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
-  sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  sieux = models.ForeignKey('SieuxYonh', db_index = True, on_delete=models.DO_NOTHING)
   #書頁
   cio = models.ManyToManyField('Cio');
   
@@ -78,13 +78,13 @@ class JitDzih(models.Model):
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
   #小韻
-  sieux = models.ForeignKey('SieuxYonh', db_index = True)
+  sieux = models.ForeignKey('SieuxYonh', db_index = True, on_delete=models.DO_NOTHING)
   #書頁
   cio = models.ManyToManyField('Cio');
   #字義
   ngieh = models.TextField();
   #對應廣韻小韻
-  kwangx = models.ForeignKey(KyonhSieuxYonh, related_name='tcengh_jit', null = True)
+  kwangx = models.ForeignKey(KyonhSieuxYonh, related_name='tcengh_jit', null = True, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
@@ -133,9 +133,9 @@ class PyanxTshet(models.Model):
   #反切
   tshet = models.CharField(max_length = 2, primary_key = True)
   #反切上字
-  dciangx = models.ForeignKey(DciangxDzih, db_index = True)
+  dciangx = models.ForeignKey(DciangxDzih, db_index = True, on_delete=models.DO_NOTHING)
   #反切下字
-  ghrax = models.ForeignKey(GhraxDzih, db_index = True)
+  ghrax = models.ForeignKey(GhraxDzih, db_index = True, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
@@ -148,13 +148,13 @@ class QimBjin(models.Model):
   #序
   ziox = models.IntegerField(primary_key = True)
   #平聲小韻號
-  t1 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_1', db_index = True, null = True)
+  t1 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_1', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #上聲小韻號
-  t2 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_2', db_index = True, null = True)
+  t2 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_2', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #去聲小韻號
-  t3 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_3', db_index = True, null = True)
+  t3 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_3', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #入聲小韻號
-  t4 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_4', db_index = True, null = True)
+  t4 = models.ForeignKey('SieuxYonh', related_name='qim_bjin_4', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #重上聲是否歸于去聲
   merge_t2_t3 = models.BooleanField();
   #是否可有入聲
@@ -162,7 +162,7 @@ class QimBjin(models.Model):
   #文件名
   filename = models.CharField(max_length = 16, db_index = True);
   #增補小韻號
-  additional = models.ForeignKey('SieuxYonh', related_name='qim_bjin_additional', db_index = True, null = True)
+  additional = models.ForeignKey('SieuxYonh', related_name='qim_bjin_additional', db_index = True, null = True, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'tcenghyonhtsen'
@@ -200,9 +200,9 @@ class SieuxYonh(models.Model):
   #代表字
   taj = models.CharField(max_length = 1, db_index = True)
   #韻目
-  yonhMiuk = models.ForeignKey('YonhMiuk', db_index = True)
+  yonhMiuk = models.ForeignKey('YonhMiuk', db_index = True, on_delete=models.DO_NOTHING)
   #反切
-  pyanx = models.ForeignKey('PyanxTshet', db_index = True, null = True)
+  pyanx = models.ForeignKey('PyanxTshet', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #書頁
   cio = models.ManyToManyField('Cio')
   #彥文
@@ -324,7 +324,7 @@ class YonhMiuk(models.Model):
   #代表字
   dzih = models.CharField(max_length = 2, primary_key = True)
   #韻部
-  bux = models.ForeignKey('YonhBux', db_index = True)
+  bux = models.ForeignKey('YonhBux', db_index = True, on_delete=models.DO_NOTHING)
   #調
   deuh = models.SmallIntegerField()
   

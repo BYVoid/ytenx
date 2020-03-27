@@ -39,7 +39,7 @@ class YonhMux(models.Model):
   #韻母名稱
   mjeng = models.CharField(max_length=3, primary_key = True)
   #所屬韻系
-  gheh = models.ForeignKey('YonhGheh', db_index=True)
+  gheh = models.ForeignKey('YonhGheh', db_index=True, on_delete=models.DO_NOTHING)
   #等
   tongx = models.SmallIntegerField(db_index=True)
   #開合口呼
@@ -47,11 +47,11 @@ class YonhMux(models.Model):
   #促舒
   tshyuk = models.BooleanField(db_index=True, default=False)
   #同位對立入聲/舒聲
-  tuaih = models.OneToOneField('YonhMux', null=True)
+  tuaih = models.OneToOneField('YonhMux', null=True, on_delete=models.DO_NOTHING)
   #擬音
-  ngix = models.OneToOneField('NgixQim')
+  ngix = models.OneToOneField('NgixQim', on_delete=models.DO_NOTHING)
   #拼音
-  preng = models.OneToOneField('PrengQim')
+  preng = models.OneToOneField('PrengQim', on_delete=models.DO_NOTHING)
   
   objects = YonhMuxManager()
   
@@ -114,11 +114,11 @@ class YonhMiuk(models.Model):
   #代表字
   dzih = models.CharField(max_length = 2, primary_key = True)
   #所屬韻系
-  gheh = models.ForeignKey('YonhGheh', db_index=True)
+  gheh = models.ForeignKey('YonhGheh', db_index=True, on_delete=models.DO_NOTHING)
   #調
   deuh = models.SmallIntegerField()
   #廣韻目次
-  tshiih = models.ForeignKey(KuangxYonhMiukTshiih)
+  tshiih = models.ForeignKey(KuangxYonhMiukTshiih, on_delete=models.DO_NOTHING)
   #韻母
   yonh = models.ManyToManyField('YonhMux')
   
@@ -131,13 +131,13 @@ class YonhMiuk(models.Model):
 #韻目集合
 class YonhMiukDzip(models.Model):
   #平
-  bieng = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  bieng = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+', on_delete=models.DO_NOTHING)
   #上
-  dciangx = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  dciangx = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+', on_delete=models.DO_NOTHING)
   #去
-  khioh = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  khioh = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+', on_delete=models.DO_NOTHING)
   #入
-  njip = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+')
+  njip = models.OneToOneField('YonhMiuk', db_index=True, null=True, related_name='+', on_delete=models.DO_NOTHING)
 
   class Meta:
     app_label = 'kyonh'
@@ -173,7 +173,7 @@ class YonhGheh(models.Model):
   #代表字
   dzih = models.CharField(max_length = 2, primary_key = True)
   #攝
-  cjep = models.ForeignKey(YonhCjep, db_index = True)
+  cjep = models.ForeignKey(YonhCjep, db_index = True, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'kyonh'
@@ -225,9 +225,9 @@ class PyanxTshet(models.Model):
   #反切
   tshet = models.CharField(max_length = 2, primary_key = True)
   #反切上字
-  dciangx = models.ForeignKey(DciangxDzih, db_index = True)
+  dciangx = models.ForeignKey(DciangxDzih, db_index = True, on_delete=models.DO_NOTHING)
   #反切下字
-  ghrax = models.ForeignKey(GhraxDzih, db_index = True)
+  ghrax = models.ForeignKey(GhraxDzih, db_index = True, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'kyonh'
@@ -287,7 +287,7 @@ class Dzih(models.Model):
   #字
   dzih = models.CharField(max_length = 1, db_index=True)
   #小韻
-  sieuxYonh = models.ForeignKey('SieuxYonh', db_index=True)
+  sieuxYonh = models.ForeignKey('SieuxYonh', db_index=True, on_delete=models.DO_NOTHING)
   #小韻中位置
   yih = models.IntegerField(db_index=True)
   #字義
@@ -317,11 +317,11 @@ class CjengMux(models.Model):
   #代表字
   dzih = models.CharField(max_length = 1, primary_key = True)
   #聲類
-  lyih = models.ForeignKey(CjengLyih, db_index = True)
+  lyih = models.ForeignKey(CjengLyih, db_index = True, on_delete=models.DO_NOTHING)
   #擬音
-  ngix = models.OneToOneField('NgixQim')
+  ngix = models.OneToOneField('NgixQim', on_delete=models.DO_NOTHING)
   #拼音
-  preng = models.OneToOneField('PrengQim')
+  preng = models.OneToOneField('PrengQim', on_delete=models.DO_NOTHING)
   #序
   ziox = models.IntegerField()
   
@@ -378,7 +378,7 @@ class Cio(models.Model):
   #標識
   identifier = models.CharField(primary_key=True, max_length=4)
   #澤存堂本
-  drakDzuonDang = models.OneToOneField(DrakDzuonDang)
+  drakDzuonDang = models.OneToOneField(DrakDzuonDang, on_delete=models.DO_NOTHING)
   
   class Meta:
     app_label = 'kyonh'
@@ -446,19 +446,19 @@ class SieuxYonh(models.Model):
   #代表字
   taj = models.CharField(max_length = 1, db_index=True)
   #聲母
-  cjeng = models.ForeignKey(CjengMux, db_index = True)
+  cjeng = models.ForeignKey(CjengMux, db_index = True, on_delete=models.DO_NOTHING)
   #韻母
-  yonh = models.ForeignKey(YonhMux, db_index = True)
+  yonh = models.ForeignKey(YonhMux, db_index = True, on_delete=models.DO_NOTHING)
   #韻目
-  yonhMiuk = models.ForeignKey(YonhMiuk, db_index = True)
+  yonhMiuk = models.ForeignKey(YonhMiuk, db_index = True, on_delete=models.DO_NOTHING)
   #反切
-  pyanx = models.ForeignKey(PyanxTshet, db_index = True, null = True)
+  pyanx = models.ForeignKey(PyanxTshet, db_index = True, null = True, on_delete=models.DO_NOTHING)
   #擬音
-  ngix = models.OneToOneField(NgixQim)
+  ngix = models.OneToOneField(NgixQim, on_delete=models.DO_NOTHING)
   #拼音
-  preng = models.OneToOneField(PrengQim, related_name = 'preng')
+  preng = models.OneToOneField(PrengQim, related_name = 'preng', on_delete=models.DO_NOTHING)
   #推導音
-  dauh = models.OneToOneField(PrengQim, related_name = 'dauh')
+  dauh = models.OneToOneField(PrengQim, related_name = 'dauh', on_delete=models.DO_NOTHING)
   #書
   cio = models.ManyToManyField(Cio)
   

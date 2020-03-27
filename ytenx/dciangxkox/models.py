@@ -57,11 +57,11 @@ class Dzih(models.Model):
   #字
   dzih = models.CharField(max_length = 1, db_index = True)
   #廣韻小韻
-  sieux_yonh = models.ForeignKey(SieuxYonh, related_name='+', db_index = True, null = True)
+  sieux_yonh = models.ForeignKey(SieuxYonh, related_name='+', db_index = True, null = True, on_delete=models.DO_NOTHING)
   #聲符
-  cjeng = models.ForeignKey(CjengByo, db_index = True)
+  cjeng = models.ForeignKey(CjengByo, db_index = True, on_delete=models.DO_NOTHING)
   #韻部
-  yonh = models.ForeignKey(YonhBox, db_index = True)
+  yonh = models.ForeignKey(YonhBox, db_index = True, on_delete=models.DO_NOTHING)
   #韻部細分
   yonh_seh = models.IntegerField()
   #擬音1
