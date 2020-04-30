@@ -15,10 +15,7 @@
     	  <td>{{sieux_yonh}}</td>
         {% if qim_bjin_set %}
           <td nowrap rowspan=8 class="display-only-with-vertical-layout" style="min-height:3em;">
-            <button data-toggle="collapse" data-target="#qim-bjin-vertical" class="btn btn-default">
-              聞<br><span class="caret"></span>
-            </button>
-            <div id="qim-bjin-vertical" class="collapse">            
+            <div>
               <br>
               {% for qim_bjin in qim_bjin_set %}
                 <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
@@ -71,26 +68,21 @@
         <tr class="display-unless-with-vertical-layout">
           <td colspan="2">
             <div>
-              <button data-toggle="collapse" data-target="#qim-bjin-horizontal" class="btn btn-default">
-                聞&nbsp;<span class="caret"></span>
-              </button>
-              <div id="qim-bjin-horizontal" class="collapse">
-                {% for qim_bjin in qim_bjin_set %}
-                  <table class="table">
-                    <tr>
-                      {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                        <td style="border:none;">{{tone}}</td>
-                      {% endfor %}
-                    </tr>
-                    <tr>
-                      {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
-                        <td style="border:none;">{{ipa|beautify_mandarin_ipa}}</td>
-                      {% endfor %}
-                    </tr>
-                  </table>
-                  <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>                
-                {% endfor %}
-              </div>                    
+              {% for qim_bjin in qim_bjin_set %}
+                <table class="table">
+                  <tr>
+                    {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                      <td style="border:none;">{{tone}}</td>
+                    {% endfor %}
+                  </tr>
+                  <tr>
+                    {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
+                      <td style="border:none;">{{ipa|beautify_mandarin_ipa}}</td>
+                    {% endfor %}
+                  </tr>
+                </table>
+                <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>                
+              {% endfor %}
             </div>
           </td>
         </tr>
