@@ -6,9 +6,10 @@
   <div class="page-header">
     <h1>歡迎訪問韻典網 <small>一座綜合韻書查詢網站</small></h1>
   </div>
-    <p><proper-noun>韻典網</proper-noun>是一個綜合韻書查詢工具，包含<title-cn>廣韻</title-cn>、<title-cn>中原音韻</title-cn>、<title-cn>洪武正韻牋</title-cn>、<title-cn>分韻撮要</title-cn>和<title-cn>上古音系</title-cn>。韻典網<a href="https://t.me/ytenx">電報討論羣t.me/ytenx</a>。<a href="{% url 'views.about_page' %}">更多介紹…</a></p>
+    <p><proper-noun>韻典網</proper-noun>是一個綜合韻書查詢工具，包含<title-cn>廣韻</title-cn>、<title-cn>中原音韻</title-cn>、<title-cn>洪武正韻牋</title-cn>、<title-cn>分韻撮要</title-cn>和<title-cn>上古音系</title-cn>。韻典網<a href="https://t.me/ytenx">電報討論羣t.me/ytenx</a>。
+      <a href="{% url 'about_page' %}">更多介紹…</a></p>
   <h2>廣韻</h2>
-    <p><title-cn>大宋重修廣韻</title-cn>是公元1008年，由<proper-noun>陳彭年</proper-noun>等人奉詔，據<title-cn>切韻</title-cn>所修訂成韻書一部。<title-cn>廣韻</title-cn>共收字二萬六千一百九十四，列三千八百七十四小韻，分爲上平聲、下平聲、上聲、去聲、入聲五卷，共計二百零六韻。<a href="{% url 'kyonh.views.index_page' %}">更多介紹…</a></p>
+    <p><title-cn>大宋重修廣韻</title-cn>是公元1008年，由<proper-noun>陳彭年</proper-noun>等人奉詔，據<title-cn>切韻</title-cn>所修訂成韻書一部。<title-cn>廣韻</title-cn>共收字二萬六千一百九十四，列三千八百七十四小韻，分爲上平聲、下平聲、上聲、去聲、入聲五卷，共計二百零六韻。<a href="{% url 'kyonh' %}">更多介紹…</a></p>
     <ul class="thumbnails">
       <li class="span4">
         <div class="thumbnail">
@@ -29,7 +30,8 @@
       </li>
     </ul>
   <h2>分韻撮要</h2>
-  <p><title-cn>分韻撮要</title-cn>是記載<proper-noun>清</proper-noun>初<proper-noun>粵</proper-noun>語語音之韻書，現存最早版本是1782年<title-cn>江湖尺牘分韻撮要合集</title-cn>。<title-cn>分韻撮要</title-cn>分三十三韻部，每一韻部內小韻以陰平、陽平、陰上、陽上、陰去、陽去、陰入、陽入之序排列，小韻有字義但無反切。<title-cn>分韻撮要</title-cn>作者及具體成書年代均不詳，但所可確定是此書所記錄語音系統不早於<proper-noun>明</proper-noun>末<proper-noun>清</proper-noun>初。<a href="{% url 'pyonh.views.pyon_yonh' %}">更多介紹…</a></p>  <ul class="thumbnails">
+  <p><title-cn>分韻撮要</title-cn>是記載<proper-noun>清</proper-noun>初<proper-noun>粵</proper-noun>語語音之韻書，現存最早版本是1782年<title-cn>江湖尺牘分韻撮要合集</title-cn>。<title-cn>分韻撮要</title-cn>分三十三韻部，每一韻部內小韻以陰平、陽平、陰上、陽上、陰去、陽去、陰入、陽入之序排列，小韻有字義但無反切。<title-cn>分韻撮要</title-cn>作者及具體成書年代均不詳，但所可確定是此書所記錄語音系統不早於<proper-noun>明</proper-noun>末<proper-noun>清</proper-noun>初。
+    <a href="{% url 'pyon_yonh' %}">更多介紹…</a></p>  <ul class="thumbnails">
     <li class="span4">
       <div class="thumbnail">
         <a href="/pyonh/cio/1/22/">
@@ -56,10 +58,13 @@
     </li>
   </ul>
   <h2>中原音韻</h2>
-    <p><title-cn>中原音韻</title-cn>是<proper-noun>元</proper-noun>代戲曲家<proper-noun>周德清</proper-noun>所著記錄北曲音系之韻書，亦爲自<title-cn>切韻</title-cn>後首部脫離<title-cn>切韻</title-cn>框架，記錄現實語音之韻書。<a href="{% url 'trngyan.views.triung_ngyan_qim_yonh' %}">更多介紹…</a></p>
+    <p><title-cn>中原音韻</title-cn>是<proper-noun>元</proper-noun>代戲曲家<proper-noun>周德清</proper-noun>所著記錄北曲音系之韻書，亦爲自<title-cn>切韻</title-cn>後首部脫離<title-cn>切韻</title-cn>框架，記錄現實語音之韻書。
+      <a href="{% url 'triung_ngyan_qim_yonh' %}">更多介紹…</a></p>
   <h2>洪武正韻牋</h2>
-    <p><title-cn>洪武正韻牋</title-cn>是明代<proper-noun>楊時偉</proper-noun>所編纂之韻書。該書以<proper-noun>明</proper-noun><proper-noun>洪武</proper-noun>八年<proper-noun>樂韶鳳</proper-noun>、<proper-noun>宋濂</proper-noun>等人所著<title-cn>洪武正韻</title-cn>爲基礎，增註補箋。同時取<title-cn>韻補</title-cn>、<title-cn>古音考</title-cn>等古書之音，附於各韻之後，謂之「古音」。又取<title-cn>韻會舉要</title-cn>、<title-cn>丹鉛錄</title-cn>諸書收字，增附於韻後，謂之「逸字」。<a href="{% url 'tcenghyonhtsen.views.index_page' %}">更多介紹…</a></p>
+    <p><title-cn>洪武正韻牋</title-cn>是明代<proper-noun>楊時偉</proper-noun>所編纂之韻書。該書以<proper-noun>明</proper-noun><proper-noun>洪武</proper-noun>八年<proper-noun>樂韶鳳</proper-noun>、<proper-noun>宋濂</proper-noun>等人所著<title-cn>洪武正韻</title-cn>爲基礎，增註補箋。同時取<title-cn>韻補</title-cn>、<title-cn>古音考</title-cn>等古書之音，附於各韻之後，謂之「古音」。又取<title-cn>韻會舉要</title-cn>、<title-cn>丹鉛錄</title-cn>諸書收字，增附於韻後，謂之「逸字」。
+      <a href="{% url 'tcenghyonhtsen' %}">更多介紹…</a></p>
   <h2>上古音系</h2>
-    <p><title-cn>上古音系</title-cn>是<proper-noun>鄭張尚芳</proper-noun>之著作。<a href="{% url 'dciangxkox.views.dciangx_kox' %}">更多介紹…</a></p>
+    <p><title-cn>上古音系</title-cn>是<proper-noun>鄭張尚芳</proper-noun>之著作。
+      <a href="{% url 'dciangx_kox' %}">更多介紹…</a></p>
 </div>
 {% endblock %}

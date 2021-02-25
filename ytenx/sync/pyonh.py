@@ -14,7 +14,7 @@ def sync():
   syncCio()
   syncDzih()
   syncSieuxCio()
-  print 'Pyonh Done'
+  print('Pyonh Done')
 
 def traverse(filename, callback):
   num = 0
@@ -22,13 +22,12 @@ def traverse(filename, callback):
     if (line[0] == '#'):
       continue
     line = line[:-1]
-    line = line.decode('utf-8')
     line = line.split(' ')
     callback(line, num)
     num += 1
 
 def syncCjengMux():
-  print 'CjengMux...'
+  print('CjengMux...')
   
   def sync(line, num):
     lyih = CjengLyih(
@@ -53,10 +52,10 @@ def syncCjengMux():
     cjengMuxMap[dzih] = cjeng
   
   traverse('CjengMux.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMux():
-  print 'YonhMux...'
+  print('YonhMux...')
   
   def sync(line, num):
     ziox = line[0]
@@ -106,10 +105,10 @@ def syncYonhMux():
       
 
   traverse('YonhBox.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncSieuxYonh():
-  print 'SieuxYonh...'
+  print('SieuxYonh...')
   def sync(line, num):
     yonh = yonhMuxMap[line[3]]
     deuh = 0
@@ -139,10 +138,10 @@ def syncSieuxYonh():
     sieuxYonhMap[line[0]] = sieux
   
   traverse('SieuxYonh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCio():
-  print 'Cio...'
+  print('Cio...')
   
   for i in range(1, 106):
     identifier = '1_' + str(i)
@@ -164,10 +163,10 @@ def syncCio():
     cio.save()
     cioMap[identifier] = cio
   
-  print 'Done'
+  print('Done')
 
 def syncDzih():
-  print 'Dzih...'
+  print('Dzih...')
   
   def sync(line, num):
     sieux = line[1]
@@ -191,10 +190,10 @@ def syncDzih():
     dzih.save()
   
   traverse('Dzih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncSieuxCio():
-  print 'SieuxCio...'
+  print('SieuxCio...')
   for key in sieuxYonhMap.keys():
     sieux = sieuxYonhMap[key]
     
@@ -209,4 +208,4 @@ def syncSieuxCio():
       sieux.cio.add(cio)
     sieux.save()
 
-  print 'Done'
+  print('Done')

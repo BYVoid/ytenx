@@ -5,7 +5,7 @@ from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import *
+from ytenx.trngyan.models import CjengLyih, YonhBox, SieuxYonh, Dzih, Cio, CjengMux, YonhMux
 
 def triung_ngyan_qim_yonh(request):
   return render(request, 'trngyan/triung_ngyan_qim_yonh.html', {
@@ -91,7 +91,7 @@ def cjeng_mux_pieux(request):
     'cjeng_mux_pieux': CjengLyih.objects.all(),
   })
 
-@cache_page(60 * 60 * 24)
+# @cache_page(60 * 60 * 24)
 def cjeng_mux(request, dzih):
   try:
     cjeng = CjengMux.objects.get(dzih = dzih)

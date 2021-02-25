@@ -13,7 +13,7 @@
     	<tr>
     	  <td>小韻</td>
     	  <td>
-    	  	<a href="{% url 'trngyan.views.sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>
+    	  	<a href="{% url 'trngyan-sieux_yonh' dzih.sieux_yonh.ziox %}">{{dzih.sieux_yonh}}</a>
     	  </td>
     	</tr>
     	<tr>
@@ -23,7 +23,7 @@
     	<tr>
     	  <td>聲母</td>
     	  <td>
-    	  	<a href="{% url 'trngyan.views.cjeng_mux' dzih.sieux_yonh.cjeng.dzih %}">
+    	  	<a href="{% url 'trngyan-cjeng_mux' dzih.sieux_yonh.cjeng.dzih %}">
     	  		{{dzih.sieux_yonh.cjeng}}
     	  	</a>
     	  </td>
@@ -31,7 +31,7 @@
     	<tr>
     	  <td>韻母</td>
     	  <td>
-    	  	<a href="{% url 'trngyan.views.yonh_mux' dzih.sieux_yonh.yonh.mjeng %}">
+    	  	<a href="{% url 'trngyan-yonh_mux' dzih.sieux_yonh.yonh.mjeng %}">
     	  		{{dzih.sieux_yonh.yonh}}
     	  	</a>
     	  </td>

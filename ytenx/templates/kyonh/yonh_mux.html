@@ -33,14 +33,14 @@
     	{% if yonh.tuaih %}
       	<tr>
       	  <td>對立韻母</td>
-      	  <td><a href="{% url 'ytenx.kyonh.views.yonh_mux_page' yonh.tuaih %}">{{yonh.tuaih}}</a></td>
+      	  <td><a href="{% url 'kyonh-yonh_mux_page' yonh.tuaih %}">{{yonh.tuaih}}</a></td>
       	</tr>
     	{% endif %}
     	<tr>
         <td>韻目</td>
         <td>
           {% for yonh_miuk in yonh.yonhmiuk_set.all %}
-      	  	<a class="yonh" href="{% url 'kyonh.views.yonh_miuk_page' yonh_miuk.dzih %}">
+      	  	<a class="yonh" href="{% url 'kyonh-yonh_miuk_page' yonh_miuk.dzih %}">
       	  		{{yonh_miuk}}
       	  	</a>
           {% endfor %}
@@ -79,13 +79,13 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in yonh.sieuxyonh_set.all %}
-      <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'kyonh-sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
   <div class="row">
     <h2>反切下字</h2>
     {% for ghrax in yonh.ghraxdzih_set.all %}
-      <a href="{% url 'kyonh.views.pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a>
+      <a href="{% url 'kyonh-pyanx_ghrax_page' ghrax.dzih %}">{{ghrax}}</a>
     {% endfor %}
   </div>
 </div>

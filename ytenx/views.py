@@ -3,15 +3,14 @@ from django.core.cache import cache
 from django.http import Http404
 from django.shortcuts import redirect
 from django.shortcuts import render
-from jihthex.models import Dzih as JihThex
-from kyonh.models import Dzih as KyonhDzih
-from tcenghyonhtsen.models import Dzih as TcytsDzih
-from tcenghyonhtsen.models import JitDzih as TcytsJitDzih
-from pyonh.models import Dzih as PyonhDzih
-from trngyan.models import Dzih as TrngyanDzih
-from dciangxkox.models import Dzih as DciangxKoxDzih
+from ytenx.jihthex.models import Dzih as JihThex
+from ytenx.kyonh.models import Dzih as KyonhDzih
+from ytenx.tcenghyonhtsen.models import Dzih as TcytsDzih, JitDzih as TcytsJitDzih
+from ytenx.pyonh.models import Dzih as PyonhDzih
+from ytenx.trngyan.models import Dzih as TrngyanDzih
+from ytenx.dciangxkox.models import Dzih as DciangxKoxDzih
 
-def renew_session(request):  
+def renew_session(request):
   if request.GET.get('layout', '') == 'horizontal': 
     request.session['layout'] = 'horizontal'
   if request.GET.get('layout', '') == 'vertical': 

@@ -5,7 +5,7 @@ from django.views.decorators.cache import cache_page
 from django.db.models import Q
 from ytenx.helpers.paginator import Paginator
 from django.core.paginator import InvalidPage, EmptyPage
-from models import *
+from ytenx.dciangxkox.models import Dzih, CjengByo, YonhBox
 
 def dciangx_kox(request):
   return render(request, 'dciangxkox/dciangx_kox.html')

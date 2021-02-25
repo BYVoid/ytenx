@@ -1,5 +1,5 @@
 # coding=utf-8
-from common import traverse
+from ytenx.sync.common import traverse
 from ytenx.trngyan.models import *
 
 base_path = './ytenx/sync/trngyan/'
@@ -20,10 +20,10 @@ def sync():
   syncCio()
   syncDzih()
   syncSieuxCio()
-  print 'Trngyan Done'
+  print('Trngyan Done')
 
 def syncCjengMuxNgixQim():
-  print 'CjengMuxNgixQim...'
+  print('CjengMuxNgixQim...')
   
   def sync(line, num):
     dzih = line[0]
@@ -36,10 +36,10 @@ def syncCjengMuxNgixQim():
     cjeng_mux_ngix_qim[identifier] = ngix
   
   traverse(base_path + 'CjengMuxNgixQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCjengMux():
-  print 'CjengMux...'
+  print('CjengMux...')
   
   def sync(line, num):
     lyih = CjengLyih(
@@ -59,10 +59,10 @@ def syncCjengMux():
     cjeng_mux[dzih] = cjeng
   
   traverse(base_path + 'CjengMux.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMuxNgixQim():
-  print 'YonhMuxNgixQim...'
+  print('YonhMuxNgixQim...')
   
   def sync(line, num):
     mjeng = line[0]
@@ -75,10 +75,10 @@ def syncYonhMuxNgixQim():
     yonh_mux_ngix_qim[identifier] = ngix
   
   traverse(base_path + 'YonhMuxNgixQim.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncYonhMux():
-  print 'YonhMux...'
+  print('YonhMux...')
   
   def sync(line, num):
     mjeng = line[0]
@@ -113,10 +113,10 @@ def syncYonhMux():
     yonh.save()
 
   traverse(base_path + 'YonhMux.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncSieuxYonh():
-  print 'SieuxYonh...'
+  print('SieuxYonh...')
   def sync(line, num):
     deuh = line[2]
     if deuh == u'陰平':
@@ -151,10 +151,10 @@ def syncSieuxYonh():
     sieux_yonh[line[0]] = sieux
   
   traverse(base_path + 'TriungNgyanQimYonh.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncCio():
-  print 'Cio...'
+  print('Cio...')
   
   for i in range(1, 94 + 1):
     identifier = '1_' + str(i)
@@ -176,10 +176,10 @@ def syncCio():
     cio.save()
     cio_map[identifier] = cio
   
-  print 'Done'
+  print('Done')
 
 def syncDzih():
-  print 'Dzih...'
+  print('Dzih...')
   
   def sync(line, num):
     sieux_ziox = line[0]
@@ -187,7 +187,7 @@ def syncDzih():
     
     id = dzih
     i = 1
-    while dzih_map.has_key(id):
+    while id in dzih_map:
       i += 1
       id = dzih + str(i)
     
@@ -206,10 +206,10 @@ def syncDzih():
     dzih_map[dzih.id] = dzih_map
   
   traverse(base_path + 'Dzih.txt', sync)
-  print 'Done'
+  print('Done')
 
 def syncSieuxCio():
-  print 'SieuxCio...'
+  print('SieuxCio...')
   for key in sieux_yonh.keys():
     sieux = sieux_yonh[key]
     
@@ -224,4 +224,4 @@ def syncSieuxCio():
       sieux.cio.add(cio)
     sieux.save()
 
-  print 'Done'
+  print('Done')

@@ -2,7 +2,6 @@
 from django.http import Http404
 from django.shortcuts import render
 from django.core.paginator import InvalidPage, EmptyPage
-from django.template.base import TemplateDoesNotExist
 from ytenx.helpers.paginator import Paginator
 
 def byoh_lyuk(request, name):
@@ -15,7 +14,7 @@ def byoh_lyuk(request, name):
   path = 'byohlyuk/' + name + '.html'
   try:
     return render(request, path)
-  except TemplateDoesNotExist:
+  except:
     raise Http404()
 
 def kienx_pyan(request):
@@ -25,7 +24,6 @@ def kienx_pyan(request):
   kienx_pyan_pieux = []
   for line in open(pwd + '/st_multi.txt'):
     line = line[:-1]
-    line = line.decode('utf-8')
     line = line.split('\t')
     kienx_pyan_pieux.append(line)
 

@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.7
 RUN mkdir -p /usr/src/ytenx
 WORKDIR /usr/src/ytenx
 ADD requirements.txt /usr/src/ytenx

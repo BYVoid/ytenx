@@ -39,13 +39,13 @@
   <div class="row">
     <h2>小韻</h2>
     {% for sieux in cjeng.sieuxyonh_set.all %}
-      <a href="{% url 'kyonh.views.sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
+      <a href="{% url 'kyonh-sieux_yonh_page' sieux.ziox %}">{{sieux}}</a>
     {% endfor %}
   </div>
   <div class="row">
     <h2>反切上字</h2>
     {% for dciangx in cjeng.dciangxdzih_set.all %}
-      <a href="{% url 'kyonh.views.pyanx_dciangx_page' dciangx.dzih %}">{{dciangx}}</a>
+      <a href="{% url 'kyonh-pyanx_dciangx_page' dciangx.dzih %}">{{dciangx}}</a>
     {% endfor %}
   </div>
 </div>
