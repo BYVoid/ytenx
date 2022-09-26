@@ -10,7 +10,7 @@
 知 ȶ ʈ ȶ ʈ ȶ ȶ ȶ ȶ ʈ ʈ ʈ
 徹 ȶʰ ʈʰ ȶʰ ʈʰ ȶʰ ȶʰ ȶʰ ȶʰ ʈʰ ʈʰ ʈʰ
 澄 ȡʱ ɖ ȡ ɖ ȡ ȡʱ ȡ ȡ ɖ ɖ ɖ
-孃 n ɳ n ɳ n n n n ɳ ɳ ɳ
+孃 ȵ ɳ n ɳ n n n n ɳ ɳ ɳ
 精 ts ts ts ts ts ts ts ts ts ts ts
 清 tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ tsʰ
 從 dzʱ dz dz dz dz dzʱ dz dz dz dz dz
@@ -20,20 +20,20 @@
 初 tʂʰ tʂʰ tʃʰ tʂʰ tʃʰ tʃʰ tʃʰ tʃʰ tʃʰ tʂʰ tʂʰ
 崇 dʐʱ dʐ dʒ dʐ dʒ dʒʱ dʒ dʒ dʒ dʐ dʐ
 生 ʂ ʂ ʃ ʂ ʃ ʃ ʃ ʃ ʃ ʃ ʂ
-俟 dʐʰ dʐ ʒ ʐ dʑ ʒ ʒ ʒ ʒ ʐ ʐ
+俟 dʐʱ dʐ ʒ ʐ dʑ ʒ ʒ ʒ ʒ ʐ ʐ
 章 tɕ tɕ tɕ tɕ tɕ tɕ tɕ tɕ tɕ tɕ c
 昌 tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ tɕʰ cʰ
 常 ʑ ʑ ʑ dʑ ʑ ʑ ʑ dʑ dʑ dʑ dʑ
 書 ɕ ɕ ɕ ɕ ɕ ɕ ɕ ɕ ɕ ɕ ɕ
-船 dʑʰ dʑ dʑ ʑ dʑ dʑʰ dʑ ʑ ʑ ʑ ʑ
+船 dʑʱ dʑ dʑ ʑ dʑ dʑʰ dʑ ʑ ʑ ʑ ʑ
 見 k k k k k k k k k k k
 溪 kʰ kʰ kʰ kʰ kʰ kʰ kʰ kʰ kʰ kʰ kʰ
-羣 g gʱ ɡ g ɡ gʱ ɡ ɡ ɡ ɡ g
+羣 ɡʱ gʱ ɡ g ɡ gʱ ɡ ɡ ɡ ɡ g
 疑 ŋ ŋ ŋ ŋ ŋ ŋ ŋ ŋ ŋ ŋ ŋ
 曉 x x x x x x x x h h h
 匣 ɣ ɣ ɣ ɣ ɣ ɣ ɣ ɣ ɦ ɦ ɦ
 影 ʔ ʔ  ʔ  ʔ ʔ ʔ ʔ ʔ ʔ
-云   ɣ j ɣ ɣ ɣ ɣ ɦ ɦ ɦ
+云 j  ɣ j ɣ ɣ ɣ ɣ ɦ ɦ ɦ
 以  j j  j    j j j
 來 l l l l l l l l l l l
 日 ȵʑ ȵʑ ȵʑ ȵʑ ȵʑ ȵ ȵ ȵʑ ȵ ȵ ȵ
