@@ -176,6 +176,7 @@ def syncDzih():
       dzih = line[2],
       ngieh = line[6],
     )
+    dzih.save()
     
     if line[3] == u'上冊':
       vol = 1
@@ -186,8 +187,6 @@ def syncDzih():
     if len(line[5]) > 0:
       identifier = str(vol) + '_' + line[5]
       dzih.cio.add(cioMap[identifier])  
-    
-    dzih.save()
   
   traverse('Dzih.txt', sync)
   print('Done')

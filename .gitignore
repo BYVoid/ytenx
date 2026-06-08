@@ -1,6 +1,7 @@
 *.pyc
 *.sqlite
 ENV
+.venv/
 res
 ytenx/static/files
 ytenx/static/img

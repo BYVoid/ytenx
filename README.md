@@ -6,9 +6,8 @@
 
 ## Set environment
 
-    sudo pip install virtualenv
-    virtualenv ENV
-    source ENV/bin/activate
+    python -m venv .venv
+    source .venv/bin/activate
     pip install -r requirements.txt
 
 ## Create database
