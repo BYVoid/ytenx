@@ -6,13 +6,19 @@ run:
 
 backup:
 	mkdir -p bak
-	cp -f ytenx/ytenx.sqlite bak/ytenx-bak.`date +"%Y-%m-%d-%H-%M-%S"`.sqlite
+	test ! -f ytenx/ytenx.sqlite || cp -f ytenx/ytenx.sqlite bak/ytenx-bak.`date +"%Y-%m-%d-%H-%M-%S"`.sqlite
 
 sync: backup
-	${MANAGE} syncdb
+	${PYTHON} scripts/build_sqlite.py --target ytenx/ytenx.sqlite --reset
+
+rebuild-source-db: backup
+	${MANAGE} rebuild_db --reset
+
+golden-smoke:
+	${PYTHON} scripts/golden_db_smoke.py
 
 shell:
 	${MANAGE} shell
 
 import: backup
-	${MANAGE} shell < ytenx/sync/import.py
+	${PYTHON} scripts/build_sqlite.py --target ytenx/ytenx.sqlite --reset

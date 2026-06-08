@@ -12,8 +12,15 @@
 
 ## Create database
 
-    ./manage.py migrate --run-syncdb
-    ./manage.py shell < ytenx/sync/import.py
+    python scripts/build_sqlite.py --target ytenx/ytenx.sqlite --reset
+
+## Rebuild database from source data
+
+    ./manage.py rebuild_db --reset
+
+## Test database build
+
+    python scripts/golden_db_smoke.py
 
 ## Run
 
