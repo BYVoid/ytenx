@@ -1,5 +1,7 @@
 *.pyc
 *.sqlite
+!testdata/golden/ytenx.sqlite
+build/
 ENV
 .venv/
 res

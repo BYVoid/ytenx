@@ -11,7 +11,10 @@ MANAGERS = ADMINS
 
 ALLOWED_HOSTS = ['*']
 
-DB_PATH = os.path.join(os.path.dirname(__file__), 'ytenx.sqlite').replace('\\','/')
+DB_PATH = os.environ.get(
+    'YTENX_DB_PATH',
+    os.path.join(os.path.dirname(__file__), 'ytenx.sqlite')
+).replace('\\','/')
 
 DATABASES = {
     'default': {
@@ -132,6 +135,7 @@ TEMPLATES = [
 ]
 
 INSTALLED_APPS = (
+  'ytenx',
   'ytenx.filters',
   'ytenx.jihthex',
   'ytenx.kyonh',
