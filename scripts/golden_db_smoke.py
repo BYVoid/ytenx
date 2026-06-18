@@ -31,6 +31,7 @@ SMOKE_PAGES = (
     ('/kyonh/', '廣韻'),
     ('/kyonh/sieux/1/', None),
     ('/kyonh/dzih/1/', None),
+    ('/kyonh/yonhdo', '等韻圖'),
     ('/pyonh/', None),
     ('/trngyan/', None),
     ('/tcyts/', None),
