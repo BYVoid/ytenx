@@ -1,7 +1,7 @@
 # coding=utf-8
-from django.conf.urls import url
+from django.urls import re_path
 from ytenx.byohlyuk.views import byoh_lyuk
 
 urlpatterns = [
-  url(r'^(.*)', byoh_lyuk, name='byoh_lyuk'),
+  re_path(r'^(.*)', byoh_lyuk, name='byoh_lyuk'),
 ]
