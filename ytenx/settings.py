@@ -1,7 +1,19 @@
 # Django settings for ytenx project.
 import os
 
-DEBUG = True
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+_FALSE_VALUES = ('0', 'false', 'no', 'off')
+
+YTENX_ENV = os.environ.get('YTENX_ENV', '').lower()
+PRODUCTION = YTENX_ENV in ('prod', 'production')
+
+_DEBUG_ENV = os.environ.get('DJANGO_DEBUG')
+if _DEBUG_ENV is None:
+    DEBUG = not PRODUCTION
+else:
+    DEBUG = _DEBUG_ENV.lower() not in _FALSE_VALUES
+    PRODUCTION = PRODUCTION or not DEBUG
 
 ADMINS = (
      ('BYVoid', 'chiapaokuo@gmail.com'),
@@ -78,11 +90,14 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = os.environ.get(
+    'STATIC_URL',
+    'https://static.ytenx.org/' if PRODUCTION else '/static/'
+)
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    os.path.join(os.path.dirname(__file__), 'static').replace('\\','/'),
+    os.path.join(BASE_DIR, 'static').replace('\\','/'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -125,7 +140,7 @@ TEMPLATES = [
                 # 'django.template.context_processors.debug',
                 # 'django.template.context_processors.i18n',
                 # 'django.template.context_processors.media',
-                # 'django.template.context_processors.static',
+                'django.template.context_processors.static',
                 # 'django.template.context_processors.tz',
                 # 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.request',

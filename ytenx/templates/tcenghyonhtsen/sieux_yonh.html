@@ -18,7 +18,7 @@
             <div>
               <br>
               {% for qim_bjin in qim_bjin_set %}
-                <audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
+                <audio controls src="{{ STATIC_URL }}audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></audio>
                 {% for tone, ipa in qim_bjin.tone_to_ipa_mapping %}
                   <span class="horizontal-cn">{{tone}}</span><ipa>{{ipa|beautify_mandarin_ipa}}</ipa>&nbsp;
                 {% endfor %}
@@ -81,7 +81,7 @@
                     {% endfor %}
                   </tr>
                 </table>
-                <p><audio controls src="/static/audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>                
+                <p><audio controls src="{{ STATIC_URL }}audio/GhungMyoxTcenghYonhTsen/{{qim_bjin.filename}}"></p>                
               {% endfor %}
             </div>
           </td>
@@ -120,7 +120,7 @@
         <li class="span3">
           <div class="thumbnail">
             <a href="{% url 'tcenghyonhtsen-cio_page' cio.kyenh cio.jep %}">
-              <img src="/static/img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
+              <img src="{{ STATIC_URL }}img/GhungMyoxTcenghYonhTsen/{{cio.kyenh}}/thumb/{{cio.filename}}" alt="" >
             </a>
             <p>
               <title-cn>洪武正韻牋</title-cn>第{{cio.kyenh|sryoh}}卷第{{cio.jep|sryoh}}䈎

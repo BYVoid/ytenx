@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="BYVoid">
     <meta content="{% block keywords %}{% endblock %}廣韻, 切韻, 韻書, 分韻撮要, 平水韻, 中原音韻, 上古漢語, 上古音系, 古音, 方言" name="keywords" />
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -27,7 +27,7 @@
         white-space: nowrap;
       }
     </style>
-    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/bootstrap-responsive.min.css" rel="stylesheet">
     {% if request.session.layout == 'vertical' %}
       {% include "vertical_style.html" %}
     {% else %}
@@ -58,11 +58,11 @@
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/static/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="{{ STATIC_URL }}favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ STATIC_URL }}ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ STATIC_URL }}ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ STATIC_URL }}ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ STATIC_URL }}ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
@@ -75,11 +75,11 @@
           </a>
           <span class="display-only-with-vertical-layout">
             <a id="seal" class="brand" href="{% url 'index_page' %}">
-              <img src="/static/img/seal_dark.gif" title="韻典網" width="45" height="45">
+              <img src="{{ STATIC_URL }}img/seal_dark.gif" title="韻典網" width="45" height="45">
             </a>
           </span>
           <a id="brand" class="brand" href="{% url 'index_page' %}">
-            <img src="/static/img/brand.gif" title="韻典網" class="display-unless-with-vertical-layout" width="100" height="40">
+            <img src="{{ STATIC_URL }}img/brand.gif" title="韻典網" class="display-unless-with-vertical-layout" width="100" height="40">
           </a>          
           <form id="search-form" class="navbar-search" action="{% url 'zim' %}">	
             {% if request.session.layout == 'vertical' %}	
@@ -148,25 +148,25 @@
         </p>
         <p>
           <a href="https://validator.w3.org/check?uri=referer" target="_blank">
-          	<img src="/static/ico/html5.png" alt="Valid HTML5" height="30" />
+          	<img src="{{ STATIC_URL }}ico/html5.png" alt="Valid HTML5" height="30" />
           </a>
           <a href="https://www.djangoproject.com/" target="_blank">
-          	<img src="/static/ico/django.png" alt="Django" width="30" height="30"/>
+          	<img src="{{ STATIC_URL }}ico/django.png" alt="Django" width="30" height="30"/>
           </a>
           <a href="https://www.python.org/" target="_blank">
-          	<img src="/static/ico/python.png" alt="Python" width="30" height="30"/>
+          	<img src="{{ STATIC_URL }}ico/python.png" alt="Python" width="30" height="30"/>
           </a>
           <a href="https://www.sqlite.org/" target="_blank">
-          	<img src="/static/ico/sqlite.jpg" alt="SQLite" width="30" height="30"/>
+          	<img src="{{ STATIC_URL }}ico/sqlite.jpg" alt="SQLite" width="30" height="30"/>
           </a>
           <a href="https://www.byvoid.com" target="_blank">
-          	<img src="/static/ico/byvoid.png" alt="BYVoid" width="30" height="30" /> 
+          	<img src="{{ STATIC_URL }}ico/byvoid.png" alt="BYVoid" width="30" height="30" /> 
           </a>
         </p>
       </footer>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128961393-1"></script>
     <script>
