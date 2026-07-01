@@ -97,7 +97,7 @@ STATIC_URL = os.environ.get(
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static').replace('\\','/'),
+    os.path.join(BASE_DIR, 'ytenx', 'static').replace('\\','/'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
