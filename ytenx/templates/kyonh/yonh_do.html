@@ -37,15 +37,15 @@
                 {% endif %}
               </td>
             {% endif %}
-            {% ifequal forloop.counter 1  %}
+            {% if forloop.counter == 1 %}
               <td rowspan="4">
-                {% ifequal forloop.parentloop.counter 1  %}
+                {% if forloop.parentloop.counter == 1 %}
                   開
                 {% else %}
                   合
-                {% endifequal %}
+                {% endif %}
               </td>
-            {% endifequal %}
+            {% endif %}
             <td>{{forloop.counter|sryoh}}</td>
             {% for sieux in tongx_ghang %}
               <td>

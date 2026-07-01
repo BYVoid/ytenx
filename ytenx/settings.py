@@ -11,7 +11,10 @@ MANAGERS = ADMINS
 
 ALLOWED_HOSTS = ['*']
 
-DB_PATH = os.path.join(os.path.dirname(__file__), 'ytenx.sqlite').replace('\\','/')
+DB_PATH = os.environ.get(
+    'YTENX_DB_PATH',
+    os.path.join(os.path.dirname(__file__), 'ytenx.sqlite')
+).replace('\\','/')
 
 DATABASES = {
     'default': {
@@ -132,6 +135,7 @@ TEMPLATES = [
 ]
 
 INSTALLED_APPS = (
+  'ytenx',
   'ytenx.filters',
   'ytenx.jihthex',
   'ytenx.kyonh',
@@ -150,6 +154,8 @@ INSTALLED_APPS = (
   # Uncomment the next line to enable admin documentation:
   # 'django.contrib.admindocs',
 )
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

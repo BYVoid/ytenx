@@ -198,11 +198,11 @@ def syncDzih():
       dzih = dzih,
       tryoh = line[3],
     )
+    dzih.save()
     
     identifier = '1_' + line[2]
     dzih.cio.add(cio_map[identifier])
     
-    dzih.save()
     dzih_map[dzih.id] = dzih_map
   
   traverse(base_path + 'Dzih.txt', sync)

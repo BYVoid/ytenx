@@ -396,10 +396,10 @@ def syncSieuxYonh():
       preng = prengQimMap[line[0]],
       dauh = dauhMap[line[0]],
     )
+    sieux.save()
     sieux.cio.clear()
     for cio in line[6].split('/'):
       sieux.cio.add(cioMap[cio])
-    sieux.save()
     sieuxYonhMap[line[0]] = sieux
   
   traverse(base_path + 'SieuxYonh.txt', sync)

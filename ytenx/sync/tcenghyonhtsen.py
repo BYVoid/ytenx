@@ -191,6 +191,7 @@ def syncDzih():
       cioTriungZiox = cioTriungDzihZiox,
     )
     cioTriungDzihZiox = cioTriungDzihZiox + 1
+    dzih.save()
     
     kyenh = str(sieux.deuh())
     
@@ -202,7 +203,6 @@ def syncDzih():
       )
       cio.save()
       dzih.cio.add(cio)
-    dzih.save()
 
   
   traverse('Dzih.txt', sync)
@@ -222,6 +222,7 @@ def syncKoxQim():
       dzih = dzih,
       sieux = sieux,
     )
+    dzih.save()
     
     kyenh = str(sieux.deuh())
     
@@ -233,7 +234,6 @@ def syncKoxQim():
       )
       cio.save()
       dzih.cio.add(cio)
-    dzih.save()
 
   
   traverse('KoxQim.txt', sync)
@@ -260,8 +260,9 @@ def syncJitDzih():
       dzih = dzih,
       sieux = sieux,
       ngieh = ngieh,
-      kwangx = kwangx,      
+      kwangx = kwangx,
     )
+    dzih.save()
     
     kyenh = str(sieux.deuh())
     
@@ -273,7 +274,6 @@ def syncJitDzih():
       )
       cio.save()
       dzih.cio.add(cio)
-    dzih.save()
 
   traverse('JitDzih.txt', sync)
   print('Done')
