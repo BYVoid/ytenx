@@ -100,7 +100,6 @@ the Django importer because the generated database must match
 
 | Behavior | Reason |
 | --- | --- |
-| `kyonh_yonhmiuk_yonh` links 廣韻 韻目 to non-checked `YonhMux` rows even for 入聲 韻目. | The original Django importer compared a text `deuh` value with integer `4`, so the checked-final branch was never taken. The golden DB records that behavior. |
 | Many-to-many `id` values are not considered semantic in golden comparison. | Django auto-increment ids can differ when duplicate relation inserts are ignored. The relation columns are the meaningful data. |
 | `dciangxkox` chooses the first matching 廣韻 小韻 for ambiguous 反切 and logs ambiguity in the old importer. | The site only stores one nullable cross-reference in `dciangxkox_dzih.sieux_yonh_id`; the standalone importer mirrors the persisted choice. |
 | `cio` rows are created on demand in 洪武正韻牋 import. | The same source page can be referenced by 字、古音、逸字 entries; duplicates are ignored. |

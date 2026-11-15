@@ -248,7 +248,7 @@ class Importer:
             self.insert('kyonh_yonhmiuk', dzih=line[0], gheh_id=line[1], deuh=deuh, tshiih_id=line[3])
             miuk[line[0]] = {'dzih': line[0], 'gheh': line[1], 'deuh': deuh}
             for ym in yonh.values():
-                if ym['gheh'] == line[1] and ym['tshyuk'] == 0:
+                if ym['gheh'] == line[1] and ym['tshyuk'] == int(deuh == 4):
                     self.m2m('kyonh_yonhmiuk_yonh', yonhmiuk_id=line[0], yonhmux_id=ym['mjeng'])
 
         for line, _ in self.rows('ytenx/sync/kyonh/YonhMiukDzip.txt'):
