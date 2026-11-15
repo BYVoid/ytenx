@@ -259,7 +259,7 @@ def syncYonhMiuk():
     yonh = YonhMiuk(
       dzih = line[0],
       gheh = ghehMap[line[1]],
-      deuh = line[2],
+      deuh = int(line[2]),
       tshiih = kuangxYonhMiukTshiihMap[line[3]]
     )
     yonh.save()
